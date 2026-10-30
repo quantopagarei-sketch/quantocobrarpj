@@ -16,3 +16,4 @@
 - 2026-10-30 (sócio): +13 páginas de salário (1.500 a 35.000) e tabela atualizada; IndexNow automático via GitHub Actions a cada publicação (.github/workflows/indexnow.yml) — não precisa avisar o Bing manualmente.
 - 2026-10-30 (sócio): botão "Mandar esse resultado no WhatsApp" (#pjshare) na calculadora da home, com ?s=salário e utm_source=whatsapp — não remover.
 - 2026-10-30 (sócio): REGRA DE CRÉDITOS — cada publicação no Netlify gasta créditos. Faça no máximo UM push com mudanças no site por execução; commits só em seo/*.md terminam com "[skip netlify]".
+- 2026-10-30 (sócio): GUARDIÃO DO SITE (GitHub Actions, 8h41/14h41/20h05) confere páginas, calculadora, formulário, Analytics, WhatsApp e celular; resultado em seo/saude.json. Commits de "github-actions[bot]" são automáticos — NÃO contam como trabalho do time ao avaliar "48h sem commit". Se seo/saude.json estiver com status PROBLEMA, consertar é PRIORIDADE MÁXIMA de qualquer agente que publica no site.
