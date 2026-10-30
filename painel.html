@@ -1,0 +1,12 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Painel de visitas</title>
+<style>body{font-family:system-ui,sans-serif;background:#0d1117;color:#e6edf3;max-width:520px;margin:0 auto;padding:24px 16px}h1{font-size:22px}table{width:100%;border-collapse:collapse}td{padding:8px;border-bottom:1px solid #30363d}td:last-child{text-align:right;font-weight:700}.t{font-size:40px;font-weight:800;color:#2dd4bf}</style></head><body>
+<h1>Visitas do site</h1><div>Total desde o início</div><div class="t" id="t">…</div><h2>Últimos 14 dias</h2><table id="d"></table>
+<p style="color:#8b949e;font-size:13px">Conta uma visita por pessoa/aba aberta. Pode incluir robôs, então trate como estimativa.</p>
+<script>
+var B="https://abacus.jasoncameron.dev/get/quantoeupago-br/",p=function(n){return(n<10?"0":"")+n};
+function g(k,cb){fetch(B+k).then(function(r){return r.json()}).then(function(j){cb(j.value||0)}).catch(function(){cb(0)})}
+g("visitas-total",function(v){document.getElementById("t").textContent=v});
+for(let i=0;i<14;i++){let d=new Date();d.setDate(d.getDate()-i);let k="v-"+d.getFullYear()+p(d.getMonth()+1)+p(d.getDate());
+let tr=document.createElement("tr");tr.innerHTML="<td>"+p(d.getDate())+"/"+p(d.getMonth()+1)+"</td><td>…</td>";document.getElementById("d").appendChild(tr);
+g(k,function(v){tr.lastChild.textContent=v})}
+</script></body></html>
