@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /painel.html
 Disallow: /obrigado/
+Disallow: /seo/
 
 Sitemap: https://quantocobrarpj.com.br/sitemap.xml
