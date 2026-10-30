@@ -1,0 +1,27 @@
+name: Avisar Bing (IndexNow)
+on:
+  push:
+    branches: [main]
+    paths: ["**.html", "sitemap.xml"]
+  workflow_dispatch:
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: Esperar o Netlify publicar
+        run: sleep 90
+      - name: Enviar paginas alteradas
+        run: |
+          KEY=$(ls *.txt | grep -E '^[0-9a-f]{32}\.txt$' | head -1 | sed 's/\.txt$//')
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || ! git rev-parse HEAD~1 >/dev/null 2>&1; then
+            URLS=$(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's/<[^>]*>//g')
+          else
+            URLS=$(git diff --name-only HEAD~1 HEAD | grep -E '(^|/)index\.html$' | grep -v -E '^(obrigado|promessas|seo)/' | sed -E 's#index\.html$##; s#^#https://quantocobrarpj.com.br/#')
+          fi
+          [ -z "$URLS" ] && { echo "nada para avisar"; exit 0; }
+          LIST=$(printf '%s\n' $URLS | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          echo "$LIST"
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"quantocobrarpj.com.br\",\"key\":\"$KEY\",\"keyLocation\":\"https://quantocobrarpj.com.br/$KEY.txt\",\"urlList\":$LIST}"
