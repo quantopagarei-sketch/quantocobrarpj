@@ -536,7 +536,11 @@ $("abrir2").onclick=function(){dg.showModal();};})();
 var d=new Date(),p=function(n){return(n<10?"0":"")+n},k="v-"+d.getFullYear()+p(d.getMonth()+1)+p(d.getDate());
 ["visitas-total",k].forEach(function(c){try{fetch("https://abacus.jasoncameron.dev/hit/quantoeupago-br/"+c,{mode:"cors"}).catch(function(){});}catch(e){}});})();
 </script>
-<script>(function(){function u(){var a=document.getElementById("pjshare"),v=parseFloat((document.getElementById("pjs")||{}).value),mk=(document.getElementById("mk")||{}).textContent||"";if(!a||!(v>0)||!mk)return;var f=new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0}).format(v);var t="Fiz a conta: com salário de "+f+" na CLT, como PJ eu deveria pedir entre "+mk.replace(/,00/g,"").replace(" a "," e ")+" por mês. Faz a sua (grátis, sem cadastro): https://quantocobrarpj.com.br/?s="+Math.round(v)+"&utm_source=whatsapp&utm_medium=share";a.href="https://wa.me/?text="+encodeURIComponent(t);}
-document.addEventListener("input",function(e){if(e.target&&/^pj/.test(e.target.id))setTimeout(u,50);});document.addEventListener("DOMContentLoaded",function(){setTimeout(u,400);});})();</script>
+<script>(function(){var SAL=[1500, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 4000, 4200, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 9000, 10000, 11000, 12000, 14000, 15000, 16000, 18000, 20000, 22000, 25000, 30000, 35000];function g(i){return((document.getElementById(i)||{}).textContent||"").trim()}function c(t){return t.replace(/,\d\d/g,"").replace(/^[+−-]\s*/,"")}
+function u(){var a=document.getElementById("pjshare"),v=Math.round(parseFloat((document.getElementById("pjs")||{}).value));if(!a||!(v>0)||!g("mk"))return;
+var f="R$ "+v.toLocaleString("pt-BR"),link=SAL.indexOf(v)>=0?"https://quantocobrarpj.com.br/clt-pj/"+v+"/":"https://quantocobrarpj.com.br/?s="+v;
+var t="📊 *Fiz a conta: CLT x PJ*\n\n💼 Vaga CLT: *"+f+"* por mês\n✅ Ganho de verdade na CLT: *"+c(g("a4"))+"*\n_(salário líquido + 13º, férias e FGTS)_\n\n🚀 Como PJ, pedir entre *"+c(g("mk")).replace(" a "," e ")+"*\n💰 Cobrando "+c(g("q0"))+", sobram *"+c(g("q2"))+"* por mês no bolso\n\nFaça a sua conta, grátis e sem cadastro 👇\n"+link;
+a.href="https://wa.me/?text="+encodeURIComponent(t);}
+document.addEventListener("input",function(e){if(e.target&&/^pj/.test(e.target.id))setTimeout(u,60);});document.addEventListener("DOMContentLoaded",function(){setTimeout(u,400);});})();</script>
 </body>
 </html>
