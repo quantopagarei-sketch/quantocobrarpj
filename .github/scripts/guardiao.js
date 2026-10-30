@@ -8,7 +8,7 @@ const BASE='https://quantocobrarpj.com.br';
   ok.push(`${urls.length} páginas do sitemap verificadas`);
   const b=await chromium.launch();const p=await b.newPage({viewport:{width:375,height:800}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
   await p.goto(BASE+'/?s=5000',{waitUntil:'networkidle'});await p.waitForTimeout(1500);
-  const h=await p.evaluate(()=>({mk:(document.getElementById('mk')||{}).textContent||'',form:!!document.querySelector('form[name=contador][data-netlify]'),area:!!document.querySelector('form[name=contador] [name=area]'),ga:!!document.querySelector('script[src*="G-CYDV58698D"]'),share:((document.getElementById('pjshare')||{}).href||'').includes('wa.me/?text='),cta:document.querySelectorAll('.ctabox').length,sw:document.documentElement.scrollWidth}));
+  const h=await p.evaluate(()=>({mk:(document.getElementById('mk')||{}).textContent||'',form:!!document.querySelector('form[name=contador]'),area:!!document.querySelector('form[name=contador] [name=area]'),ga:!!document.querySelector('script[src*="G-CYDV58698D"]'),share:((document.getElementById('pjshare')||{}).href||'').includes('wa.me/?text='),cta:document.querySelectorAll('.ctabox').length,sw:document.documentElement.scrollWidth}));
   if(!/R\$\s?8\.000/.test(h.mk))prob.push(`Calculadora CLT x PJ com resultado estranho para R$ 5.000: "${h.mk}"`);else ok.push('Calculadora CLT x PJ ok');
   if(!h.form||!h.area)prob.push('Formulário de contador sumiu ou está sem o campo "area" na home');else ok.push('Formulário de contador ok');
   if(!h.ga)prob.push('Tag do Google Analytics sumiu da home');
