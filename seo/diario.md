@@ -11,3 +11,5 @@
 5. Nunca remover a tag do Google Analytics (gtag) quando ela existir no <head>.
 
 - 2026-10-30 (sócio): criadas /sobre/ (quem somos + metodologia) e /incorporar/ (calculadora para outros sites via ?embed=pj ou ?embed=split no index.html — NÃO remover o bloco <style id="embed-css"> nem o script de embed do index.html). Corrigido rodapé quebrado de /mei-passou-do-limite/ (faltava fechar <footer>). Arquivo IndexNow na raiz (*.txt de 32 caracteres hex) — não apagar.
+
+- 2026-10-30 (sócio): página inicial focada em dinheiro — seção de promessas de governo movida para /promessas/ (noindex, fora do sitemap; NÃO trazer de volta para a home nem linkar no menu). Caixas "Falar com um contador" (classe .ctabox, data-cta) depois dos resultados das calculadoras CLT x PJ e split; evento GA cta_contador. Replicar a .ctabox nas páginas de salário e guias quando fizer melhoria técnica.
