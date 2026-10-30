@@ -124,7 +124,7 @@ input[type=tel],input[type=email]{width:100%;padding:12px 14px;border-radius:12p
 .band:not(.alt):not(.dark) .salgrid a{background:var(--paper);border-color:transparent}
 .bigans{background:var(--deep);color:#fff;border-radius:18px;padding:22px}.bigans .k{color:#b7c3dc;font-weight:600}.bigans .v{font-size:clamp(2rem,7vw,3rem);font-weight:600;letter-spacing:-.03em;color:var(--hl);line-height:1.1;margin:6px 0}.bigans .s{color:#cdd6ea;font-size:.95rem}
 </style>
-<style>.ctabox{margin-top:16px;background:#fff8e1;border:1.5px solid var(--hl);border-radius:14px;padding:14px 16px;font-size:.95rem;line-height:1.45;color:var(--ink)}.ctabox b{display:block;color:var(--deep);font-size:1.02rem;margin-bottom:2px}.ctabox .btn{margin-top:10px;display:block;text-align:center;text-decoration:none}html.embed .ctabox{display:none}
+<style>.shr{margin-top:14px;display:block;text-align:center;text-decoration:none}.ctabox{margin-top:16px;background:#fff8e1;border:1.5px solid var(--hl);border-radius:14px;padding:14px 16px;font-size:.95rem;line-height:1.45;color:var(--ink)}.ctabox b{display:block;color:var(--deep);font-size:1.02rem;margin-bottom:2px}.ctabox .btn{margin-top:10px;display:block;text-align:center;text-decoration:none}html.embed .ctabox{display:none}
 </style>
 <style id="embed-css">html.embed header.site,html.embed nav.tabs,html.embed footer,html.embed main>section:not(.lift),html.embed .stats,html.embed #imposto,html.embed .top-hero{display:none!important}html.embed-pj #splitbox,html.embed-split #clt-mei{display:none!important}html.embed .duo{grid-template-columns:1fr!important}html.embed .lift{margin-top:0!important;padding-top:10px!important}html.embed body{background:#fff}.emb-credit{display:block;text-align:center;font:600 14px Figtree,Arial,sans-serif;margin:10px 0 4px;color:#1f5bd8}</style>
 <script>(function(){var m=/[?&]embed=(pj|split)/.exec(location.search);if(m){document.documentElement.className+=" embed embed-"+m[1];document.addEventListener("DOMContentLoaded",function(){[].forEach.call(document.querySelectorAll("a[href]"),function(a){a.target="_blank";a.rel="noopener"});var c=document.createElement("a");c.className="emb-credit";c.href="https://quantocobrarpj.com.br/?utm_source=embed&utm_medium=widget";c.target="_blank";c.rel="noopener";c.textContent="Calculadora grátis do Quanto Eu Pago → ver mais";var t=document.getElementById(m[1]==="pj"?"clt-mei":"splitbox");if(t)t.appendChild(c);});}})();</script>
@@ -180,6 +180,7 @@ input[type=tel],input[type=email]{width:100%;padding:12px 14px;border-radius:12p
 <div class="row"><span>Diferença para a CLT, por mês</span><b id="q7" style="color:var(--accent2)"></b></div>
 <div class="row"><span>Só para empatar com a CLT você cobraria</span><b id="q4"></b></div>
 </div>
+<a class="btn btn2 lk shr" id="pjshare" href="https://wa.me/" target="_blank" rel="noopener" data-cta="share">Mandar esse resultado no WhatsApp</a>
 <div class="ctabox"><b>Vai virar PJ ou MEI?</b> Um contador parceiro abre o seu CNPJ e diz qual regime paga menos imposto no seu caso. Pedir contato é grátis e sem compromisso.<a class="btn lk" href="#contador" data-cta="pj">Quero falar com um contador</a></div>
 </div>
 <details><summary>Como fizemos a conta e avisos</summary>
@@ -535,5 +536,7 @@ $("abrir2").onclick=function(){dg.showModal();};})();
 var d=new Date(),p=function(n){return(n<10?"0":"")+n},k="v-"+d.getFullYear()+p(d.getMonth()+1)+p(d.getDate());
 ["visitas-total",k].forEach(function(c){try{fetch("https://abacus.jasoncameron.dev/hit/quantoeupago-br/"+c,{mode:"cors"}).catch(function(){});}catch(e){}});})();
 </script>
+<script>(function(){function u(){var a=document.getElementById("pjshare"),v=parseFloat((document.getElementById("pjs")||{}).value),mk=(document.getElementById("mk")||{}).textContent||"";if(!a||!(v>0)||!mk)return;var f=new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0}).format(v);var t="Fiz a conta: com salário de "+f+" na CLT, como PJ eu deveria pedir entre "+mk.replace(/,00/g,"").replace(" a "," e ")+" por mês. Faz a sua (grátis, sem cadastro): https://quantocobrarpj.com.br/?s="+Math.round(v)+"&utm_source=whatsapp&utm_medium=share";a.href="https://wa.me/?text="+encodeURIComponent(t);}
+document.addEventListener("input",function(e){if(e.target&&/^pj/.test(e.target.id))setTimeout(u,50);});document.addEventListener("DOMContentLoaded",function(){setTimeout(u,400);});})();</script>
 </body>
 </html>

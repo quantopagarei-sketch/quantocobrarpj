@@ -14,3 +14,4 @@
 
 - 2026-10-30 (sócio): página inicial focada em dinheiro — seção de promessas de governo movida para /promessas/ (noindex, fora do sitemap; NÃO trazer de volta para a home nem linkar no menu). Caixas "Falar com um contador" (classe .ctabox, data-cta) depois dos resultados das calculadoras CLT x PJ e split; evento GA cta_contador. Replicar a .ctabox nas páginas de salário e guias quando fizer melhoria técnica.
 - 2026-10-30 (sócio): +13 páginas de salário (1.500 a 35.000) e tabela atualizada; IndexNow automático via GitHub Actions a cada publicação (.github/workflows/indexnow.yml) — não precisa avisar o Bing manualmente.
+- 2026-10-30 (sócio): botão "Mandar esse resultado no WhatsApp" (#pjshare) na calculadora da home, com ?s=salário e utm_source=whatsapp — não remover.
