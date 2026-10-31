@@ -47,3 +47,6 @@ Diferenciais a destacar nos títulos/descrições: grátis, sem cadastro, neutro
 - CRESCIMENTO: nos contatos de divulgação (blogs, contadores, associações, newsletters), oferecer o guia como material grátis para compartilhar/linkar: https://quantocobrarpj.com.br/guia-split-payment/ . Contador pode divulgar para clientes à vontade.
 - VERSÃO 2: no mesmo dia em que sair a alíquota oficial (até 15/12), o Agente de SEO atualiza o PDF (capa "versão 2") e o site; a lista de e-mails do formulário "guia" recebe o aviso por um e-mail preparado como RASCUNHO no Gmail para o Vini aprovar (não enviar em massa sem aprovação).
 - Medir: eventos generate_lead form=guia e file_download no Analytics; cta_contador cta=guia.
+
+## PENDENTE PARA A PRÓXIMA PUBLICAÇÃO DO SITE (pedido do Vini, 30/10/2026 — não publicar sozinho, juntar com a próxima mudança)
+- Na home (index.html), barra de abas <nav class="tabs">: a aba "Split payment" (href="#split") deve ficar LOGO DEPOIS de "CLT x PJ" (ordem: CLT x PJ, Split payment, Meu imposto, Supermercado, Impostos, ...). Só mudar a ordem dos links; conferir que o destaque da aba ativa ao rolar a página continua funcionando. Quem fizer a próxima publicação inclui isto e apaga esta pendência.
