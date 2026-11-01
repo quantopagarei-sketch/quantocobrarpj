@@ -50,3 +50,5 @@ Diferenciais a destacar nos títulos/descrições: grátis, sem cadastro, neutro
 
 ## PENDENTE PARA A PRÓXIMA PUBLICAÇÃO DO SITE (pedido do Vini, 30/10/2026 — não publicar sozinho, juntar com a próxima mudança)
 - Na home (index.html), barra de abas <nav class="tabs">: a aba "Split payment" (href="#split") deve ficar LOGO DEPOIS de "CLT x PJ" (ordem: CLT x PJ, Split payment, Meu imposto, Supermercado, Impostos, ...). Só mudar a ordem dos links; conferir que o destaque da aba ativa ao rolar a página continua funcionando. Quem fizer a próxima publicação inclui isto e apaga esta pendência.
+
+- 2026-11-01 (sócio): MEDIÇÃO DE USO — script /eventos.js em todas as páginas conta (anônimo, 1 por visita) uso de cada calculadora, cliques em WhatsApp, contador, e-book, PDF, produtos Hotmart e links externos, e envios de formulário. GitHub Actions grava em seo/eventos.csv às 20h17 (legenda em seo/eventos-LEIA.md). Toda página nova precisa da linha <script src="/eventos.js" defer></script> antes de </body>. O Gerente coloca esses números no relatório diário.

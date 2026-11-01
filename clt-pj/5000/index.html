@@ -203,5 +203,6 @@ var $=function(i){return document.getElementById(i)},m=new Intl.NumberFormat("pt
 var d=new Date(),p=function(n){return(n<10?"0":"")+n},k="v-"+d.getFullYear()+p(d.getMonth()+1)+p(d.getDate());
 ["visitas-total",k].forEach(function(c){try{fetch("https://abacus.jasoncameron.dev/hit/quantoeupago-br/"+c,{mode:"cors"}).catch(function(){});}catch(e){}});})();
 </script>
+<script src="/eventos.js" defer></script>
 </body>
 </html>

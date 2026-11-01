@@ -23,6 +23,11 @@ jobs:
           echo "$DATA,$DIA,$TOTAL" >> seo/visitas.csv
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seo/visitas.csv
+          KEYS="c-cltpj c-split c-imposto c-super c-mei2027 c-meilimite c-hora c-relmei c-tabela c-outra k-whatsapp k-contador k-guia k-pdf k-produto k-externo f-contador f-guia"
+          [ -f seo/eventos.csv ] || echo "data,$(echo $KEYS | tr ' ' ',')" > seo/eventos.csv
+          LINHA="$DATA"; for k in $KEYS; do LINHA="$LINHA,$(get "$k-$HOJE")"; done
+          grep -q "^$DATA," seo/eventos.csv && sed -i "/^$DATA,/d" seo/eventos.csv
+          echo "$LINHA" >> seo/eventos.csv
+          git add seo/visitas.csv seo/eventos.csv
           git commit -m "Visitas $DATA: $DIA no dia, $TOTAL no total [skip netlify]" || exit 0
           git push

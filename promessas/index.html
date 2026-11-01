@@ -214,5 +214,6 @@ var d=new Date(),p=function(n){return(n<10?"0":"")+n},k="v-"+d.getFullYear()+p(d
 ["visitas-total",k].forEach(function(c){try{fetch("https://abacus.jasoncameron.dev/hit/quantoeupago-br/"+c,{mode:"cors"}).catch(function(){});}catch(e){}});})();
 </script>
 <script>(function(){var d=Math.ceil((new Date("2027-01-05T00:00:00-03:00")-new Date())/864e5),e=document.getElementById("dias");if(e)e.textContent=d>0?d:"0";})();</script>
+<script src="/eventos.js" defer></script>
 </body>
 </html>
