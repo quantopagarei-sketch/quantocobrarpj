@@ -1,0 +1,70 @@
+/* Quanto Eu Pago: claro, editorial, cantos retos. Archivo (largura variável) + IBM Plex Mono (rótulos e números, estilo holerite). Cor única: verde-cédula. */
+:root{--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+body{background:#fff!important;font-family:"Archivo",system-ui,sans-serif!important;letter-spacing:-.004em}
+h1,h2,h3{font-family:"Archivo",system-ui,sans-serif!important}
+/* topo claro */
+.site{background:#fff!important;border-bottom:1px solid var(--line)}
+.site .brand{color:var(--ink)!important}
+.site .brand svg path[fill="#ffffff"]{fill:var(--ink)}
+.hdl a.tx{color:var(--ink)!important}.hdl a.tx:hover{color:var(--accent)!important}
+.tabs{background:rgba(255,255,255,.96)!important;border-bottom:1px solid var(--line)!important}
+.tabs a{color:var(--mute)!important;font-weight:500}.tabs a:hover{color:var(--ink)!important}
+.tabs a.on{color:var(--ink)!important;border-bottom-color:var(--ink)!important}
+.tabs a:focus-visible{outline-color:var(--accent)!important}
+.top-hero{background:#fff!important;padding:80px 0 44px!important}
+h1,.top-hero h1{color:var(--ink)!important;font-weight:750;font-stretch:115%;letter-spacing:-.05em;line-height:.95;font-size:clamp(2.7rem,8.5vw,6rem)!important;max-width:10.5em;text-wrap:balance}
+.top-hero .lead{color:var(--mute)!important;font-size:1.15rem;max-width:34em}
+.kick{font-family:var(--mono)!important;text-transform:uppercase;letter-spacing:.09em;font-size:.74rem!important;font-weight:500!important;color:var(--accent)!important;display:flex;align-items:center;gap:10px}
+.kick:before{content:"";width:28px;height:1px;background:currentColor}
+.hbtn .btn2{color:var(--ink)!important;border-color:var(--ink)!important}.hbtn .btn2:hover{background:var(--ink)!important;color:#fff!important}
+.lift{background:linear-gradient(#fff 0,#fff 120px,var(--paper) 120px)!important}
+h2{font-weight:700;font-stretch:108%;letter-spacing:-.04em;line-height:1.02}
+h3{font-weight:650;letter-spacing:-.02em}
+.lead{color:var(--mute)}
+/* superfícies: retas e com fio fino */
+.card,.hero,.lf form,dialog{border-radius:2px!important;box-shadow:none!important;border:1px solid var(--line)!important;background:#fff!important}
+.hero{border-top:3px solid var(--ink)!important}
+.band:not(.alt):not(.dark) .card{background:#fff!important;border:1px solid var(--line)!important}
+.col,.tile,details,.salgrid a,.note{border-radius:2px!important}
+.band.dark{background:var(--deep)!important}
+/* botões */
+.btn,.cta{background:var(--ink)!important;color:#fff!important;border:1px solid var(--ink)!important;border-radius:2px!important;font-weight:600!important;letter-spacing:.005em}
+.btn:hover,.cta:hover{background:var(--accent)!important;border-color:var(--accent)!important}
+.btn2{border-radius:2px!important;border:1px solid var(--ink)!important;color:var(--ink)}
+.band.dark .btn,.foot .btn{background:#fff!important;color:var(--ink)!important;border-color:#fff!important}
+.x{border-radius:2px!important}
+/* campos */
+input[type=text],input[type=number],input[type=tel],input[type=email],select{border-radius:2px!important;border:1px solid #c9cac4!important;padding:13px 14px!important;background:#fff!important}
+input[type=number],.si input{font-family:var(--mono)!important;font-size:.98rem}
+input:focus,select:focus{border-color:var(--ink)!important;box-shadow:0 0 0 3px rgba(0,102,61,.14)!important;outline:none!important}
+label{font-weight:600;letter-spacing:-.005em}
+/* rótulos estilo holerite */
+.tag,.hero .tag{background:transparent!important;color:var(--accent)!important;border:1px solid currentColor;border-radius:2px!important;font-family:var(--mono)!important;text-transform:uppercase;letter-spacing:.07em;font-size:.7rem!important;font-weight:500!important;padding:3px 8px!important}
+.ak,.bigans .k,.badge{font-family:var(--mono)!important;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem!important;font-weight:500!important}
+.badge{border-radius:2px!important}
+.row{border-bottom:1px dashed #d6d6d0!important}
+.row b{font-family:var(--mono);font-weight:500;font-size:.93rem;letter-spacing:-.01em}
+.tot{border-top:1px solid var(--ink)}
+/* números grandes */
+.big b,.num,.av,.bigans .v,.stats b,.tile b{font-stretch:112%;font-weight:750!important;letter-spacing:-.045em!important;font-variant-numeric:lining-nums}
+.stats b{color:var(--ink)!important}
+.stats span{font-size:.9rem}
+/* resultado principal: bloco verde, como um comprovante */
+.big2,.bigans{background:var(--accent)!important;border-radius:2px!important;color:#fff}
+.big2 .ak,.bigans .k{color:rgba(255,255,255,.72)!important}
+.big2 .av,.bigans .v{color:#fff!important}
+.big2 .as,.bigans .s{color:rgba(255,255,255,.88)!important;border-top:1px dashed rgba(255,255,255,.4);padding-top:12px;margin-top:12px}
+.answer:not(.big2){background:#fff!important;border:1px solid var(--ink)!important;border-radius:2px!important}
+.answer:not(.big2) .av{color:var(--ink)!important}
+.ctabox{background:var(--paper)!important;border:1px solid var(--line)!important;border-left:3px solid var(--accent)!important;border-radius:2px!important}
+.ctabox b{color:var(--ink)!important}
+.ticks li:before{border-radius:0!important;width:9px!important;height:9px!important;top:9px!important;background:var(--accent)!important}
+.bar,.sb{border-radius:0!important}.bar i{border-radius:0!important}
+.aviso{border-left-color:var(--ink)!important}
+a{text-underline-offset:3px}
+.foot{background:var(--deep)!important}
+.btn.btn2,.btn2{background:transparent!important;color:var(--ink)!important;border:1px solid var(--ink)!important}
+.btn.btn2:hover,.btn2:hover{background:var(--ink)!important;color:#fff!important}
+.band.dark .btn.btn2{color:#fff!important;border-color:#fff!important}
+.btn,.btn2{align-self:start}
+select{font-family:"Archivo",system-ui,sans-serif!important;font-size:1rem!important}
