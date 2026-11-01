@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "titulo": "Post – dor",
+      "texto": "Você sabe quanto vendeu este mês, quanto sobrou de lucro e quais produtos estão acabando? Se a resposta está num caderno, essa planilha de vendas e estoque é para você. 👉 [SEU LINK]"
+    },
+    {
+      "titulo": "Post – benefício",
+      "texto": "Registrou a venda, o estoque atualiza sozinho e avisa por cor o que precisa repor ou está zerado 📦 Planilha para pequenos negócios por R$ 27,00. 👉 [SEU LINK]"
+    },
+    {
+      "titulo": "Post – curiosidade",
+      "texto": "Quanto você tem para receber no fiado? E quais são seus 5 produtos mais vendidos do mês? A planilha mostra isso no painel, junto com faturamento, lucro bruto e ticket médio. 👉 [SEU LINK]"
+    },
+    {
+      "titulo": "TikTok/Reels – praticidade",
+      "texto": "Não precisa entender de Excel: você preenche só as células amarelas e escolhe produtos e clientes em listas. Funciona no Google Planilhas grátis, até no celular. 👉 [SEU LINK]"
+    },
+    {
+      "titulo": "Post – lista rápida",
+      "texto": "Ideal para:\n• Loja\n• Revenda\n• Confeitaria\n• Artesanato\nControle de produtos, entradas, vendas, estoque e clientes em 8 abas, com guia em PDF e rotina de 5 minutos por dia. 👉 [SEU LINK]"
+    },
+    {
+      "titulo": "WhatsApp – grupo de empreendedores",
+      "texto": "Pra quem quer sair do caderno: planilha de vendas e estoque com painel e gráficos, vem com dados de exemplo para ver funcionando. R$ 27,00 e 7 dias de garantia pela Hotmart. 👉 [SEU LINK]"
+    }
+  ],
+  "emails": [
+    {
+      "titulo": "E-mail direto",
+      "assunto": "Saia do caderno: vendas e estoque numa planilha simples",
+      "corpo": "Oi, tudo bem?\n\nSe você tem uma loja, revenda, confeitaria ou trabalha com artesanato, sabe como é difícil acompanhar vendas e estoque no caderno. A Planilha de Vendas e Estoque para Pequenos Negócios foi feita para isso.\n\nSão 8 abas: Comece Aqui, Produtos, Entradas, Vendas, Estoque, Clientes, Resumo do Mês e Painel com gráficos. Ela faz sozinha:\n- Calcula a margem de cada produto;\n- Atualiza o estoque a cada venda e entrada e avisa por cor o que repor;\n- Mostra faturamento, lucro bruto, ticket médio, vendas por forma de pagamento, valor no fiado e os 5 mais vendidos;\n- Soma quanto cada cliente já comprou.\n\nVocê preenche só as células amarelas, e as fórmulas ficam protegidas para não serem apagadas sem querer. Vem um guia em PDF de 8 páginas e dados fictícios de exemplo.\n\nFunciona no Excel 2010 ou mais novo, LibreOffice e Google Planilhas (computador e celular).\n\nCusta R$ 27,00, com acesso pela Hotmart e 7 dias de garantia.\n\nVeja aqui: [SEU LINK]\n\nUm abraço,\n[SEU NOME]"
+    },
+    {
+      "titulo": "E-mail de conteúdo – estoque mínimo",
+      "assunto": "Como evitar perder venda por falta de produto",
+      "corpo": "Oi, tudo bem?\n\nPoucas coisas incomodam tanto quanto um cliente pedir um produto e ele ter acabado. Uma prática simples ajuda: definir um estoque mínimo.\n\nFunciona assim:\n1) Veja quanto você vende de cada produto, em média, por semana.\n2) Pense em quantos dias leva para repor (comprar ou produzir).\n3) O estoque mínimo é a quantidade que cobre esse tempo de reposição, com uma pequena folga.\n\nQuando o produto chegar nesse número, é hora de repor.\n\nOutra dica: tire 5 minutos por dia para registrar vendas e entradas. Com os números em dia, fica fácil ver o que vende mais e quanto está no fiado.\n\nSe quiser fazer isso sem conta na mão, a Planilha de Vendas e Estoque para Pequenos Negócios atualiza o estoque a cada venda, avisa por cor o que precisa repor e mostra faturamento, lucro bruto e os 5 mais vendidos do mês. O guia em PDF explica como definir preço e estoque mínimo.\n\nCusta R$ 27,00, com 7 dias de garantia pela Hotmart.\n\n[SEU LINK]\n\nUm abraço,\n[SEU NOME]"
+    }
+  ],
+  "argumentos": "PÚBLICO IDEAL: donos de pequenos negócios (loja, revenda, confeitaria, artesanato) que controlam vendas e estoque no caderno e querem algo simples.\n\n3 PRINCIPAIS BENEFÍCIOS:\n1) Estoque automático: atualiza a cada venda e entrada e avisa por cor o que repor.\n2) Números do mês claros: faturamento, lucro bruto, ticket médio, fiado e os 5 mais vendidos.\n3) Fácil e seguro: só células amarelas, listas suspensas e fórmulas protegidas.\n\nOBJEÇÕES COMUNS:\n• \"Não sei mexer em Excel\" → Você só preenche as células amarelas; o guia explica cada aba.\n• \"Não tenho Excel\" → Funciona no Google Planilhas grátis e no LibreOffice.\n• \"Uso só o celular\" → O guia mostra como abrir no celular pelo Google Planilhas.\n• \"Tenho medo de apagar fórmula\" → As fórmulas ficam protegidas (sem senha).\n• \"E se eu não gostar?\" → 7 dias de garantia pela Hotmart.\n\nO QUE NÃO PROMETER: não prometa aumento de vendas ou de lucro. Não chame o lucro bruto de lucro final: ele não desconta aluguel, taxas e impostos. Não diga que substitui contador ou sistema fiscal. Não invente depoimentos nem números de vendas."
+}
