@@ -1,0 +1,113 @@
+{
+ "produtos": [
+  {
+   "id": "01",
+   "hotmart_id": 8857044,
+   "nome": "Planilha Adeus Dívidas",
+   "nicho": "finanças pessoais/dívidas",
+   "preco": "19,90",
+   "tipo": "Código Fonte",
+   "link": "https://go.hotmart.com/Q108286067X"
+  },
+  {
+   "id": "02",
+   "hotmart_id": 8857063,
+   "nome": "Kit Alfabetização Divertida",
+   "nicho": "educação infantil",
+   "preco": "17,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/U108286095S"
+  },
+  {
+   "id": "03",
+   "hotmart_id": 8857066,
+   "nome": "300 Prompts de IA para o Trabalho",
+   "nicho": "IA/produtividade",
+   "preco": "24,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/O108286101C"
+  },
+  {
+   "id": "04",
+   "hotmart_id": 8857071,
+   "nome": "Marmitas da Semana",
+   "nicho": "culinária",
+   "preco": "19,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/C108286107W"
+  },
+  {
+   "id": "05",
+   "hotmart_id": 8856345,
+   "nome": "Kit Currículo Pronto",
+   "nicho": "carreira/emprego",
+   "preco": "19,90",
+   "tipo": "Código Fonte",
+   "link": "https://go.hotmart.com/Q108284956D"
+  },
+  {
+   "id": "06",
+   "hotmart_id": 8857077,
+   "nome": "Planner de Estudos para Concursos",
+   "nicho": "concursos",
+   "preco": "19,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/V108286116W"
+  },
+  {
+   "id": "07",
+   "hotmart_id": 8857082,
+   "nome": "Adestramento em Casa",
+   "nicho": "pets/cães",
+   "preco": "19,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/V108286123W"
+  },
+  {
+   "id": "08",
+   "hotmart_id": 8857087,
+   "nome": "Kit Festa Infantil para Imprimir",
+   "nicho": "festas/maternidade",
+   "preco": "14,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/N108286129R"
+  },
+  {
+   "id": "09",
+   "hotmart_id": 8857054,
+   "nome": "Planilha de Vendas e Estoque",
+   "nicho": "pequenos negócios",
+   "preco": "27,00",
+   "tipo": "Código Fonte",
+   "link": "https://go.hotmart.com/E108286084G"
+  },
+  {
+   "id": "10",
+   "hotmart_id": 8857094,
+   "nome": "Inglês para Viagem: 500 Frases",
+   "nicho": "idiomas/viagem",
+   "preco": "19,90",
+   "tipo": "eBook",
+   "link": "https://go.hotmart.com/R108286138T"
+  },
+  {
+   "id": "11",
+   "hotmart_id": 8854992,
+   "nome": "Planilha de Controle do MEI",
+   "nicho": "MEI",
+   "preco": "27,00",
+   "tipo": "Código Fonte",
+   "link": "https://go.hotmart.com/E108282735A"
+  },
+  {
+   "id": "12",
+   "hotmart_id": 8855086,
+   "nome": "Planilha de Precificação MEI/PJ",
+   "nicho": "MEI/autônomos",
+   "preco": "?",
+   "tipo": "Código Fonte",
+   "link": "https://go.hotmart.com/W108282880G"
+  }
+ ],
+ "historico_relatorios": []
+}
