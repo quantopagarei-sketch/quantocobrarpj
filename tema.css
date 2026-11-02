@@ -56,6 +56,7 @@ label{font-weight:600;letter-spacing:-.005em}
 .big2 .as,.bigans .s{color:rgba(255,255,255,.88)!important;border-top:1px dashed rgba(255,255,255,.4);padding-top:12px;margin-top:12px}
 .answer:not(.big2){background:#fff!important;border:1px solid var(--ink)!important;border-radius:2px!important}
 .answer:not(.big2) .av{color:var(--ink)!important}
+.ctabox{margin-top:16px;padding:14px 16px;font-size:.95rem;line-height:1.45;color:var(--ink)}.ctabox b{display:block;font-size:1.02rem;margin-bottom:2px}.ctabox .btn{margin-top:10px;display:block;text-align:center;text-decoration:none}
 .ctabox{background:var(--paper)!important;border:1px solid var(--line)!important;border-left:3px solid var(--accent)!important;border-radius:2px!important}
 .ctabox b{color:var(--ink)!important}
 .ticks li:before{border-radius:0!important;width:9px!important;height:9px!important;top:9px!important;background:var(--accent)!important}
