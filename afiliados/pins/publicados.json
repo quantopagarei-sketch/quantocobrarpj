@@ -1,0 +1,11 @@
+{
+  "conta": "Pinterest 'Quanto eu Pago' (br.pinterest.com/quantoeupago)",
+  "publicado_em": "2026-11-01",
+  "quadros": {
+    "Planos de Finanças e Negócios": ["01", "09", "11", "12"],
+    "Educação, Estudos e Carreira": ["02", "03", "05", "06", "10"],
+    "Casa, Família e Animais de Estimação": ["04", "07", "08"]
+  },
+  "pendentes": {"13": "sem link de venda no catálogo", "14": "sem link de venda no catálogo"},
+  "observacao": "Pins 13 e 14 devem ir para 'Casa, Família e Animais de Estimação' quando o link da Hotmart estiver no catalogo.json."
+}
