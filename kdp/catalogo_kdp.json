@@ -1,0 +1,16 @@
+{
+  "conta": "Amazon KDP do Vini, autor/editora: Cozy Pine Press (first name 'Cozy Pine', last name 'Press')",
+  "regras": "Paperback 8.5x11, B&W white paper, no bleed, glossy, free KDP ISBN, worldwide, US$ 9.99, Large-print marcado, AI disclosure: Texts=Entire work minimal editing (Claude), Images=One or a few minimal editing (Claude), Translations=None. Expanded distribution desmarcada.",
+  "livros": [
+    {"n": 1, "pasta": "livro1", "titulo": "Large Print Christmas Word Search for Adults", "status": "publicado", "data_publicacao": "2026-11-02", "kdp_id": "RWTNYVXS4DG", "sazonal": "natal"},
+    {"n": 2, "pasta": "livro2", "titulo": "Large Print Winter Word Search for Adults", "status": "publicado", "data_publicacao": "2026-11-02", "kdp_id": "05GR44PV394", "sazonal": "inverno/ano novo"},
+    {"n": 3, "pasta": "livro3", "titulo": "Large Print Bible Word Search for Adults",
+     "subtitulo": "50 Inspiring Puzzles from the Old and New Testaments with Big, Easy-to-Read Letters for Seniors - Christian Gift Book with Solutions",
+     "keywords": ["bible word search large print","christian gifts for women","christian puzzle books for adults","religious gifts for seniors","bible activity book for adults","scripture word search puzzles","church gifts for elderly"],
+     "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Religion & Spirituality > Christian Books & Bibles > Bible Study & Reference > General",
+     "descricao": "ver kdp/livro3/descricao.txt",
+     "status": "pronto_aguardando_limite", "sazonal": "nao"}
+  ],
+  "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
+  "historico": []
+}
