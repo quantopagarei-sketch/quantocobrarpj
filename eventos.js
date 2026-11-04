@@ -14,6 +14,7 @@ document.addEventListener("input",onUse,true);document.addEventListener("change"
 document.addEventListener("click",function(e){var t=e.target&&e.target.closest?e.target.closest("a,button"):null;if(!t)return;
 var id=t.id||"",h=(t.getAttribute("href")||"").toLowerCase(),cta=t.getAttribute("data-cta")||"";
 if(id==="pjshare"||id==="comp"||id==="gshare"||h.indexOf("wa.me")>-1||h.indexOf("whatsapp")>-1){hit("k-whatsapp");return;}
+if(h.indexOf("contabilidadeti.com.br")>-1){hit("k-contabti");return;}
 if(h.indexOf("hotmart")>-1){hit("k-produto");return;}
 if(cta==="guia"||(h.indexOf("/guia-split-payment/")>-1&&h.indexOf(".pdf")<0)){hit("k-guia");return;}
 if(h.indexOf(".pdf")>-1){hit("k-pdf");return;}

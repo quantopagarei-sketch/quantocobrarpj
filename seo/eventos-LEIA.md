@@ -8,6 +8,7 @@ Calculadoras usadas (pessoa mexeu em algum campo):
 
 Cliques:
 - k-whatsapp: compartilhar no WhatsApp · k-contador: botões "falar com um contador" · k-guia: chamadas para o e-book · k-pdf: baixou o PDF do e-book
+- k-contabti: cliques no link da parceira Contabilidade TI
 - k-produto: links de produtos (Hotmart) · k-externo: links para outros sites (gov.br etc.)
 
 Formulários enviados: f-contador (pedido de contador) · f-guia (download do e-book com cadastro)
