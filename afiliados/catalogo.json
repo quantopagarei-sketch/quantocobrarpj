@@ -115,7 +115,7 @@
       "nicho": "casa/organização",
       "preco": "14,90",
       "tipo": "eBook",
-      "link": ""
+      "link": "https://go.hotmart.com/T108289191V"
     },
     {
       "id": "14",
@@ -124,28 +124,23 @@
       "nicho": "casamento/noivos",
       "preco": "19,90",
       "tipo": "eBook (XLSX)",
-      "link": ""
+      "link": "https://go.hotmart.com/O108289248N"
     },
     {
       "id": "15",
-      "hotmart_id": null,
+      "hotmart_id": 8883542,
       "nome": "Planner de Natal e Ano Novo",
       "nicho": "festas/fim de ano",
       "preco": "17,90",
       "tipo": "eBook",
       "idioma": "pt",
-      "link": "",
-      "data_publicacao": null,
-      "status": "pendente_publicacao",
-      "arquivos": "afiliados/pendentes/15/ (capa, banners, textos, descricao); PDF de venda gerado por afiliados/make15.py + página de autor (pypdf insert_page na pág. 2)"
+      "link": "https://go.hotmart.com/J108335966W",
+      "data_publicacao": "2026-11-04",
+      "arquivos": "afiliados/15/ (capa, banners, textos, descricao); PDF de venda gerado por afiliados/make15.py + página de autor na pág. 2",
+      "categoria": "Culinária e Gastronomia",
+      "comissao": 80
     }
   ],
   "historico_relatorios": [],
-  "pendencias": [
-    {
-      "data": "2026-11-04",
-      "produto": "15",
-      "motivo": "Não publicado: há 2 Chrome conectados (Windows e Linux) e nenhum selecionado para as tarefas; o Vini precisa escolher o navegador do notebook (Windows) uma vez, numa sessão com ele presente. Arquivos prontos em afiliados/pendentes/15/."
-    }
-  ]
+  "pendencias": []
 }
