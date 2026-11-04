@@ -1,71 +1,101 @@
 {
- "conta": "Amazon KDP do Vini, autor/editora: Cozy Pine Press (first name 'Cozy Pine', last name 'Press')",
- "regras": "Paperback 8.5x11, B&W white paper, no bleed, glossy, free KDP ISBN, worldwide, US$ 9.99, Large-print marcado, AI disclosure: Texts=Entire work minimal editing (Claude), Images=One or a few minimal editing (Claude), Translations=None. Expanded distribution desmarcada.",
- "livros": [
-  {
-   "n": 1,
-   "pasta": "livro1",
-   "titulo": "Large Print Christmas Word Search for Adults",
-   "status": "publicado",
-   "data_publicacao": "2026-11-02",
-   "kdp_id": "RWTNYVXS4DG",
-   "sazonal": "natal"
-  },
-  {
-   "n": 2,
-   "pasta": "livro2",
-   "titulo": "Large Print Winter Word Search for Adults",
-   "status": "publicado",
-   "data_publicacao": "2026-11-02",
-   "kdp_id": "05GR44PV394",
-   "sazonal": "inverno/ano novo"
-  },
-  {
-   "n": 3,
-   "pasta": "livro3",
-   "titulo": "Large Print Bible Word Search for Adults",
-   "subtitulo": "50 Inspiring Puzzles from the Old and New Testaments with Big, Easy-to-Read Letters for Seniors - Christian Gift Book with Solutions",
-   "keywords": [
-    "bible word search large print",
-    "christian gifts for women",
-    "christian puzzle books for adults",
-    "religious gifts for seniors",
-    "bible activity book for adults",
-    "scripture word search puzzles",
-    "church gifts for elderly"
-   ],
-   "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Religion & Spirituality > Christian Books & Bibles > Bible Study & Reference > General",
-   "descricao": "ver kdp/livro3/descricao.txt",
-   "status": "pronto_aguardando_limite",
-   "sazonal": "nao"
-  },
-  {
-   "n": 4,
-   "pasta": "livro4",
-   "titulo": "Large Print Bird Word Search for Adults",
-   "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Backyard Birds, Songbirds, Owls, Hummingbirds and Bird Feeders, with Solutions – Easy-to-Read Gift for Bird Watchers",
-   "keywords": [
-    "bird watching gifts for seniors",
-    "backyard birds puzzle book",
-    "word find large print for elderly",
-    "birdwatcher gifts for women and men",
-    "hummingbird owl songbird activity book",
-    "easy word search for grandparents",
-    "nature puzzle books for adults"
-   ],
-   "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Science & Math > Biological Sciences > Animals > Birds (alternativa: Sports & Outdoors > Hunting & Fishing > Birdwatching)",
-   "descricao": "ver kdp/livro4/descricao.txt",
-   "status": "pronto_aguardando_limite",
-   "sazonal": "nao",
-   "obs": "pauta.json nao existia; tema perene escolhido pela Producao"
-  }
- ],
- "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
- "historico": [
-  {
-   "data": "2026-11-02",
-   "evento": "Producao: livro4 (Birds) criado e aprovado pelo revisor. Publicacao nao tentada: Chrome do notebook (Claude in Chrome) indisponivel nesta execucao na nuvem. livro3 segue na fila."
-  }
- ],
- "pendencias": "Publicador sem acesso ao Chrome do notebook na execucao de 02/11 (tarefa roda na nuvem; ativar 'Require this computer' na tarefa agendada)."
+  "conta": "Amazon KDP do Vini, autor/editora: Cozy Pine Press (first name 'Cozy Pine', last name 'Press')",
+  "regras": "Paperback 8.5x11, B&W white paper, no bleed, glossy, free KDP ISBN, worldwide, US$ 9.99, Large-print marcado, AI disclosure: Texts=Entire work minimal editing (Claude), Images=One or a few minimal editing (Claude), Translations=None. Expanded distribution desmarcada.",
+  "livros": [
+    {
+      "n": 1,
+      "pasta": "livro1",
+      "titulo": "Large Print Christmas Word Search for Adults",
+      "status": "publicado",
+      "data_publicacao": "2026-11-02",
+      "kdp_id": "RWTNYVXS4DG",
+      "sazonal": "natal"
+    },
+    {
+      "n": 2,
+      "pasta": "livro2",
+      "titulo": "Large Print Winter Word Search for Adults",
+      "status": "publicado",
+      "data_publicacao": "2026-11-02",
+      "kdp_id": "05GR44PV394",
+      "sazonal": "inverno/ano novo"
+    },
+    {
+      "n": 3,
+      "pasta": "livro3",
+      "titulo": "Large Print Bible Word Search for Adults",
+      "subtitulo": "50 Inspiring Puzzles from the Old and New Testaments with Big, Easy-to-Read Letters for Seniors - Christian Gift Book with Solutions",
+      "keywords": [
+        "bible word search large print",
+        "christian gifts for women",
+        "christian puzzle books for adults",
+        "religious gifts for seniors",
+        "bible activity book for adults",
+        "scripture word search puzzles",
+        "church gifts for elderly"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Religion & Spirituality > Christian Books & Bibles > Bible Study & Reference > General",
+      "descricao": "ver kdp/livro3/descricao.txt",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "nao"
+    },
+    {
+      "n": 4,
+      "pasta": "livro4",
+      "titulo": "Large Print Bird Word Search for Adults",
+      "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Backyard Birds, Songbirds, Owls, Hummingbirds and Bird Feeders, with Solutions – Easy-to-Read Gift for Bird Watchers",
+      "keywords": [
+        "bird watching gifts for seniors",
+        "backyard birds puzzle book",
+        "word find large print for elderly",
+        "birdwatcher gifts for women and men",
+        "hummingbird owl songbird activity book",
+        "easy word search for grandparents",
+        "nature puzzle books for adults"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Science & Math > Biological Sciences > Animals > Birds (alternativa: Sports & Outdoors > Hunting & Fishing > Birdwatching)",
+      "descricao": "ver kdp/livro4/descricao.txt",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "nao",
+      "obs": "pauta.json nao existia; tema perene escolhido pela Producao"
+    },
+    {
+      "n": 5,
+      "pasta": "livro5",
+      "titulo": "Large Print Garden Word Search for Adults",
+      "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Flowers, Roses, Herbs, Vegetables and Garden Tools, with Solutions – Gift for Gardeners",
+      "keywords": [
+        "gardening gifts for women",
+        "garden puzzle book for seniors",
+        "large print word find for elderly",
+        "gifts for gardeners",
+        "flower word search for adults",
+        "easy word search for grandma",
+        "gardening activity book for adults"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Crafts, Hobbies & Home > Gardening & Horticulture > General",
+      "descricao": "ver kdp/livro5/descricao.txt",
+      "idioma": "en",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "nao",
+      "obs": "pauta.json nao existia; tema perene escolhido pela Producao"
+    }
+  ],
+  "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
+  "historico": [
+    {
+      "data": "2026-11-02",
+      "evento": "Producao: livro4 (Birds) criado e aprovado pelo revisor. Publicacao nao tentada: Chrome do notebook (Claude in Chrome) indisponivel nesta execucao na nuvem. livro3 segue na fila."
+    },
+    {
+      "data": "2026-11-04",
+      "evento": "Producao: livro5 (Garden) criado e aprovado pelo revisor (2 rodadas). Publicacao nao tentada: Claude in Chrome indisponivel nesta execucao na nuvem. Fila: 3, 4, 5."
+    }
+  ],
+  "pendencias": "Publicador sem acesso ao Chrome do notebook (execucoes de 02/11 e 04/11 rodaram na nuvem sem o Chrome). Ativar 'Require this computer' na tarefa agendada. kdp/pauta.json ainda nao existe.",
+  "fila_ordem": [
+    3,
+    4,
+    5
+  ]
 }
