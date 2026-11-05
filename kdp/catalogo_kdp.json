@@ -90,12 +90,21 @@
     {
       "data": "2026-11-04",
       "evento": "Producao: livro5 (Garden) criado e aprovado pelo revisor (2 rodadas). Publicacao nao tentada: Claude in Chrome indisponivel nesta execucao na nuvem. Fila: 3, 4, 5."
+    },
+    {
+      "data": "2026-11-05",
+      "evento": "Revisão geral: publicação diária às 15h37, portão do limite semanal (não abre o Chrome quando a Amazon já travou na semana), aviso ao Vini se faltar Chrome 2 vezes seguidas, instruções para páginas traduzidas, série dos livros no relatório de domingo."
     }
   ],
-  "pendencias": "Publicador sem acesso ao Chrome do notebook (execucoes de 02/11 e 04/11 rodaram na nuvem sem o Chrome). Ativar 'Require this computer' na tarefa agendada. kdp/pauta.json ainda nao existe.",
+  "pendencias": "Execuções às 11h37 ficaram sem o Chrome do notebook; a tarefa passou para 15h37 em 05/11/2026. O Chrome traduz o KDP para português (pedido ao Vini: 'Nunca traduzir' kdp.amazon.com). kdp/pauta.json ainda não existe (a Pesquisa de Mercado cria no sábado).",
   "fila_ordem": [
     3,
     4,
     5
-  ]
+  ],
+  "limite_semanal": {
+    "ultimo_bloqueio_utc": "2026-11-01",
+    "publicados_na_semana": 2,
+    "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília)."
+  }
 }
