@@ -1,5 +1,432 @@
 {
   "atualizado_em": "2026-11-05",
   "nota": "Catálogo da loja Cellwise (Etsy + Payhip). A tarefa de domingo preenche os anúncios antigos na 1ª execução; a criação e a publicação atualizam os novos. Nunca colocar arquivos vendidos neste repositório (é público).",
-  "produtos": []
+  "produtos": [
+    {
+      "etsy_id": "4610077493",
+      "titulo_curto": "Pet Expense Tracker Spreadsheet 2027",
+      "etsy_url": "https://www.etsy.com/listing/4610077493",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/dfff0d/8847047831/il_fullxfull.8847047831_3u1y.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4610076731",
+      "titulo_curto": "Invoice Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4610076731",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/7004bc/8847042491/il_fullxfull.8847042491_poa0.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4610097302",
+      "titulo_curto": "Emergency Fund Tracker Spreadsheet 2027",
+      "etsy_url": "https://www.etsy.com/listing/4610097302",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/b2b128/8799217914/il_fullxfull.8799217914_8fho.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4610075291",
+      "titulo_curto": "2027 Calendar Printable",
+      "etsy_url": "https://www.etsy.com/listing/4610075291",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/1e97c7/8847031213/il_fullxfull.8847031213_jixm.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4610074435",
+      "titulo_curto": "Thanksgiving Planner Printable",
+      "etsy_url": "https://www.etsy.com/listing/4610074435",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/40f0fe/8799204198/il_fullxfull.8799204198_stps.jpg",
+      "secao": "Holiday & Events",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609919601",
+      "titulo_curto": "Grocery Budget Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609919601",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/f73477/8798020566/il_fullxfull.8798020566_f2l4.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609939218",
+      "titulo_curto": "Car Maintenance Log Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609939218",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/5062a3/8798011340/il_fullxfull.8798011340_7m2t.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609938088",
+      "titulo_curto": "Party Budget Planner Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609938088",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/345fbd/8845814931/il_fullxfull.8845814931_futb.jpg",
+      "secao": "Holiday & Events",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609936554",
+      "titulo_curto": "Travel Budget Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609936554",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/f00d28/8797990786/il_fullxfull.8797990786_gzjq.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609914677",
+      "titulo_curto": "Baby Budget Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609914677",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/3a294f/8845794959/il_fullxfull.8845794959_98kr.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609913269",
+      "titulo_curto": "Side Hustle Income & Expense Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609913269",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/8c02bb/8797969842/il_fullxfull.8797969842_aqem.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609867275",
+      "titulo_curto": "Reading Journal Printable 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609867275",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/f51300/8797613320/il_fullxfull.8797613320_i27j.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609886422",
+      "titulo_curto": "Car Maintenance Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609886422",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/2c6df5/8797596906/il_fullxfull.8797596906_8dus.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609842801",
+      "titulo_curto": "Home Inventory Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609842801",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/602993/8797424666/il_fullxfull.8797424666_njel.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609862376",
+      "titulo_curto": "2027 Budget Binder Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609862376",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/d0ae7c/8845229703/il_fullxfull.8845229703_fuog.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609840371",
+      "titulo_curto": "Kids Chore Chart Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609840371",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/743f4f/8845220431/il_fullxfull.8845220431_nhei.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609859650",
+      "titulo_curto": "Christmas Cookie Exchange Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609859650",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/d51e0c/8845202941/il_fullxfull.8845202941_119s.jpg",
+      "secao": "Holiday & Events",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609743248",
+      "titulo_curto": "Subscription Tracker Spreadsheet & Bill Calendar",
+      "etsy_url": "https://www.etsy.com/listing/4609743248",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/2a4947/8796460190/il_fullxfull.8796460190_2s9d.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609721819",
+      "titulo_curto": "Net Worth Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609721819",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/eba79f/8844267365/il_fullxfull.8844267365_ndl5.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609720661",
+      "titulo_curto": "Credit Card Payoff Calculator Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609720661",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/d4bdb2/8796444184/il_fullxfull.8796444184_aa0q.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609719749",
+      "titulo_curto": "Home Renovation Budget Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609719749",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/8a9455/8796437096/il_fullxfull.8796437096_5fd6.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609718911",
+      "titulo_curto": "Christmas Gift Budget Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609718911",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/d1a0ec/8844245921/il_fullxfull.8844245921_9kt9.jpg",
+      "secao": "Holiday & Events",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609718091",
+      "titulo_curto": "Rental Property Income and Expense Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609718091",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/f381f2/8796418478/il_fullxfull.8796418478_2lzb.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609735516",
+      "titulo_curto": "2027 Habit Tracker Printable Bundle",
+      "etsy_url": "https://www.etsy.com/listing/4609735516",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/bae1ac/8796394026/il_fullxfull.8796394026_6p3e.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609734678",
+      "titulo_curto": "Cleaning Schedule Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609734678",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/3c2607/8796387874/il_fullxfull.8796387874_4o0c.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609713079",
+      "titulo_curto": "Weekly Meal Planner Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609713079",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/71015e/8844195983/il_fullxfull.8844195983_2biu.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609712251",
+      "titulo_curto": "2027 Teacher Planner Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609712251",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/064608/8796372628/il_fullxfull.8796372628_m18a.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609694437",
+      "titulo_curto": "Cleaning Business and Pet Sitter Client Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609694437",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/494aef/8796230400/il_fullxfull.8796230400_5713.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609693387",
+      "titulo_curto": "Inventory and Sales Tracker Spreadsheet for Handmade Sellers",
+      "etsy_url": "https://www.etsy.com/listing/4609693387",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/a55abf/8796220466/il_fullxfull.8796220466_3guk.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609713120",
+      "titulo_curto": "Sinking Funds Tracker Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609713120",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/3f3375/8796210056/il_fullxfull.8796210056_519g.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609690783",
+      "titulo_curto": "Wedding Budget Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609690783",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/32554f/8796202542/il_fullxfull.8796202542_lmvl.jpg",
+      "secao": "Holiday & Events",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609689823",
+      "titulo_curto": "Rideshare Driver Tracker 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609689823",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/876660/8844008873/il_fullxfull.8844008873_of27.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609688751",
+      "titulo_curto": "Nurse Shift Schedule 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609688751",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/716c93/8843995013/il_fullxfull.8843995013_miq7.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609686635",
+      "titulo_curto": "2027 Goal Planner Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609686635",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/a7aec7/8796169698/il_fullxfull.8796169698_5e89.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609685667",
+      "titulo_curto": "2027 Savings Challenge Printable Bundle",
+      "etsy_url": "https://www.etsy.com/listing/4609685667",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/b412da/8843976303/il_fullxfull.8843976303_ewfi.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609684767",
+      "titulo_curto": "ADHD Planner 2027 Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609684767",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/663c99/8843964657/il_fullxfull.8843964657_k3hg.jpg",
+      "secao": "Printable Planners",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609677804",
+      "titulo_curto": "Paycheck Budget Planner Biweekly 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609677804",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/d5a620/8843738377/il_fullxfull.8843738377_e2go.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609656497",
+      "titulo_curto": "Debt Snowball Tracker Spreadsheet 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609656497",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/de4617/8843732955/il_fullxfull.8843732955_p801.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609676588",
+      "titulo_curto": "Freelancer Tax Tracker 2027 Spreadsheet",
+      "etsy_url": "https://www.etsy.com/listing/4609676588",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/c1d613/8795912448/il_fullxfull.8795912448_rrqz.jpg",
+      "secao": "Small Business & Work",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609675954",
+      "titulo_curto": "Zero Based Budget Spreadsheet for Couples 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609675954",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/2135bc/8795905860/il_fullxfull.8795905860_an82.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609674942",
+      "titulo_curto": "Irregular Income Budget Spreadsheet 2027",
+      "etsy_url": "https://www.etsy.com/listing/4609674942",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/e10093/8843711763/il_fullxfull.8843711763_b3kt.jpg",
+      "secao": "Budget & Money Sheets",
+      "tipo": "Planilha",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    },
+    {
+      "etsy_id": "4609650711",
+      "titulo_curto": "Christmas Planner Printable",
+      "etsy_url": "https://www.etsy.com/listing/4609650711",
+      "imagem_capa": "https://i.etsystatic.com/68924104/r/il/89d7a3/8843680101/il_fullxfull.8843680101_axjo.jpg",
+      "secao": "Holiday & Events",
+      "tipo": "PDF imprimível",
+      "status": "publicado",
+      "origem": "antes de 05/11/2026"
+    }
+  ],
+  "secoes_etsy": {
+    "Budget & Money Sheets": "61300482",
+    "Small Business & Work": "61300496",
+    "Printable Planners": "61300502",
+    "Holiday & Events": "61315367"
+  }
 }

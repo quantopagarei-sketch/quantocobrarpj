@@ -96,7 +96,7 @@
       "evento": "Revisão geral: publicação diária às 15h37, portão do limite semanal (não abre o Chrome quando a Amazon já travou na semana), aviso ao Vini se faltar Chrome 2 vezes seguidas, instruções para páginas traduzidas, série dos livros no relatório de domingo."
     }
   ],
-  "pendencias": "Execuções às 11h37 ficaram sem o Chrome do notebook; a tarefa passou para 15h37 em 05/11/2026. O Chrome traduz o KDP para português (pedido ao Vini: 'Nunca traduzir' kdp.amazon.com). kdp/pauta.json ainda não existe (a Pesquisa de Mercado cria no sábado).",
+  "pendencias": "KDP NÃO está logado no Chrome do Windows (o Vini passou do Linux para o Windows em 05/11/2026): pedido ao Vini para entrar na conta. A tarefa passou para 15h37 em 05/11/2026. kdp/pauta.json ainda não existe (a Pesquisa de Mercado cria no sábado).",
   "fila_ordem": [
     3,
     4,
