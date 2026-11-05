@@ -1,9 +1,30 @@
 {
-  "conta": "br.pinterest.com/CellwiseSheets (criada pelo Vini em 05/11/2026; perfil com logo, bio e site da loja)",
-  "pastas": ["Christmas & Holiday Planning", "Printable Planners 2027"],
+  "conta": "br.pinterest.com/CellwiseSheets — conta business (convertida em 05/11/2026 com autorização do Vini); perfil com logo, bio e site da loja; pastas pessoais (futebol/tatuagem) deixadas secretas. O criador de Pins agora tem 'Publicar em outra data' (agendar).",
+  "pastas": [
+    "Christmas & Holiday Planning",
+    "Printable Planners 2027"
+  ],
   "pins": [
-    {"data": "2026-11-05", "etsy_id": "4609718911", "board": "Christmas & Holiday Planning", "style": 1, "headline": "Plan your Christmas gift budget without overspending"},
-    {"data": "2026-11-05", "etsy_id": "4610074435", "board": "Christmas & Holiday Planning", "style": 2, "headline": "Thanksgiving Dinner Planner Printable"},
-    {"data": "2026-11-05", "etsy_id": "4609862376", "board": "Printable Planners 2027", "style": 3, "headline": "2027 Budget Binder: plan every dollar of the new year"}
+    {
+      "data": "2026-11-05",
+      "etsy_id": "4609718911",
+      "board": "Christmas & Holiday Planning",
+      "style": 1,
+      "headline": "Plan your Christmas gift budget without overspending"
+    },
+    {
+      "data": "2026-11-05",
+      "etsy_id": "4610074435",
+      "board": "Christmas & Holiday Planning",
+      "style": 2,
+      "headline": "Thanksgiving Dinner Planner Printable"
+    },
+    {
+      "data": "2026-11-05",
+      "etsy_id": "4609862376",
+      "board": "Printable Planners 2027",
+      "style": 3,
+      "headline": "2027 Budget Binder: plan every dollar of the new year"
+    }
   ]
 }
