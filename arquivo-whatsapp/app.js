@@ -340,7 +340,7 @@
     var t = DB.tx(['messages', 'docs'], 'readwrite');
     msgs.forEach(function (m) { t.objectStore('messages').delete(m.k); t.objectStore('docs').delete(m.k); });
     await DB.done(t);
-    if (!to.name && from.name) to.name = from.name;
+    if (from.name && (from.nameSrc === 'manual' || !to.name)) { to.name = from.name; to.nameSrc = from.nameSrc; }
     if (!to.phone && from.phone) to.phone = from.phone;
     if (from.notes) to.notes = to.notes ? to.notes + '\n\n' + from.notes : from.notes;
     if (!to.status && from.status) to.status = from.status;
@@ -684,7 +684,14 @@
           if (cd && cd.name && (!c.name || c.nameSrc === 'backup' || P.looksLike(c.name)) && c.nameSrc !== 'manual') { c.name = cd.name; c.nameSrc = 'vcf'; named++; }
         } else if (c.name) {
           var cn = byName[C.fold(c.name)];
-          if (cn && cn.phones.length) { c.phone = cn.phones[0]; linked++; var o = null; for (var i = 0; i < S.contacts.length; i++) { var x = S.contacts[i]; if (x !== c && x.phone && P.key(x.phone) === P.key(c.phone)) o = x; } if (o) merges.push([c.id, o.id]); }
+          if (cn && cn.phones.length) {
+            // escolhe o número certo: primeiro um que já tem conversa aqui, depois um celular, depois o primeiro
+            var o = null, pick = null;
+            cn.phones.forEach(function (ph) { if (o) return; var x = findByPhone(ph); if (x && x !== c) { o = x; pick = ph; } });
+            if (!pick) pick = cn.phones.filter(function (ph) { return P.isBR(ph) && (ph.length === 13 || /[6-9]/.test(ph.charAt(4))); })[0] || cn.phones[0];
+            c.phone = pick; linked++;
+            if (o) merges.push([c.id, o.id]);
+          }
         }
       });
       for (var i = 0; i < S.contacts.length; i++) await saveContact(S.contacts[i]);
@@ -702,6 +709,7 @@
     return 'clientes/' + safeName([nm, ph].filter(Boolean).join(' - ') || label(c)) + '/';
   }
   async function exportPackage() {
+    if (S.busy) { toast('Espere a importação terminar antes de gerar o pacote.'); return; }
     var opt = { image: $('#e-image').checked, audio: $('#e-audio').checked, video: $('#e-video').checked, sticker: false, doc: true, contact: true };
     var lg = $('#pkglog'); lg.hidden = false; lg.textContent = '';
     function plog(t) { lg.appendChild(h('div', null, t)); lg.scrollTop = lg.scrollHeight; }
@@ -713,9 +721,12 @@
       var idxLines = ['ARQUIVO DE CLIENTES — histórico do WhatsApp Business', 'Gerado em ' + fDate(Date.now()) + ' ' + fTime(Date.now()), '',
         'Cada pasta em "clientes" é uma conversa: nome e número no nome da pasta,', 'conversa.txt com as mensagens e a pasta "arquivos" com PDFs e fotos.',
         'Para voltar tudo ao app: Arquivo de Clientes › Importar › Restaurar um pacote salvo.', '', 'CLIENTES', ''];
-      var nf = 0, bytes = 0;
+      var nf = 0, bytes = 0, usedFolders = {};
       for (var i = 0; i < list.length; i++) {
-        var c = list[i], folder = folderOf(c), msgs = await DB.messagesOf(c.id), fileOf = {};
+        var c = list[i], folder = folderOf(c), base = folder, dup = 2;
+        while (usedFolders[folder.toLowerCase()]) folder = base.replace(/\/$/, '') + ' (' + (dup++) + ')/';
+        usedFolders[folder.toLowerCase()] = 1;
+        var msgs = await DB.messagesOf(c.id), fileOf = {};
         for (var j = 0; j < msgs.length; j++) {
           var m = msgs[j];
           if (!m.m || !m.m.b || !opt[m.ty]) continue;
@@ -750,13 +761,20 @@
       if (!by['arquivo.json']) throw new Error('Este .zip não é um pacote do Arquivo de Clientes.');
       var man = JSON.parse(await zr.text(by['arquivo.json']));
       if (man.learnedMe) { Object.keys(man.learnedMe).forEach(function (k) { S.learnedMe[k] = Math.max(S.learnedMe[k] || 0, man.learnedMe[k]); }); await DB.put('meta', { key: 'learnedMe', v: S.learnedMe }); }
-      var touched = {}, nm = 0, nf = 0;
+      var touched = {}, nm = 0, nf = 0, nc = 0, seenFolder = {};
       for (var i = 0; i < man.contacts.length; i++) {
-        var ent = by[man.contacts[i].folder + 'dados.json']; if (!ent) continue;
+        var fo = man.contacts[i].folder;
+        if (seenFolder[fo]) { log('• Pasta repetida no pacote: ' + fo + ' (gere um pacote novo para incluir este cliente).'); continue; }
+        seenFolder[fo] = 1;
+        var ent = by[fo + 'dados.json']; if (!ent) { log('• Faltou ' + fo + 'dados.json no pacote.'); continue; }
         var data = JSON.parse(await zr.text(ent)), pc = data.contact;
         var c = await upsertContact({ id: pc.id, name: pc.name, phone: pc.phone, isGroup: pc.isGroup, nameSrc: pc.nameSrc });
         if (pc.nameSrc === 'manual' && pc.name) { c.name = pc.name; c.nameSrc = 'manual'; }
-        if (pc.notes && c.notes !== pc.notes) c.notes = c.notes && c.notes.indexOf(pc.notes) < 0 ? c.notes + '\n\n' + pc.notes : pc.notes;
+        if (pc.notes && c.notes !== pc.notes) {
+          if (!c.notes || pc.notes.indexOf(c.notes) >= 0) c.notes = pc.notes;          // o pacote tem tudo e mais
+          else if (c.notes.indexOf(pc.notes) < 0) c.notes = c.notes + '\n\n' + pc.notes; // textos diferentes: guarda os dois
+          // senão: o que está aqui já contém o do pacote (é mais novo) e fica como está
+        }
         if (pc.status && !c.status) c.status = pc.status;
         await saveContact(c);
         var out = [];
@@ -772,12 +790,12 @@
           if (out.length >= 1000) { await DB.upsert(out); out = []; }
         }
         await DB.upsert(out);
-        nm += data.messages.length; touched[c.id] = 1;
+        nm += data.messages.length; touched[c.id] = 1; nc++;
         if (!nested) { setBar(i / man.contacts.length); $('#prog-title').textContent = 'Restaurando… ' + (i + 1) + ' de ' + man.contacts.length + ' clientes'; }
         await tick();
       }
       await refreshStats(Object.keys(touched));
-      log('✓ Pacote de ' + fDate(man.exportedAt) + ': ' + man.contacts.length + ' clientes, ' + num(nm) + ' mensagens, ' + num(nf) + ' arquivos.', 'ok');
+      log('✓ Pacote de ' + fDate(man.exportedAt) + ': ' + pl(nc, 'cliente', 'clientes') + ', ' + pl(nm, 'mensagem', 'mensagens') + ', ' + pl(nf, 'arquivo', 'arquivos') + '.', 'ok');
       if (!nested) { setBar(1); busyEnd('Pacote restaurado.'); }
     } catch (e) {
       log('✗ ' + errMsg(e), 'er');
@@ -843,8 +861,10 @@
     var i = ft.indexOf(fq); if (i < 0) return t;
     return h('span', null, t.slice(0, i), h('mark', null, t.slice(i, i + fq.length)), t.slice(i + fq.length));
   }
+  // "(011) 98765-4321": tira o zero de discagem antes do DDD
+  function trunk(qd) { return /^0[1-9]{2}\d{8,9}$/.test(qd) ? qd.slice(1) : qd; }
   function filtered() {
-    var q = S.q.trim(), qd = P.digits(q), qf = C.fold(q);
+    var q = S.q.trim(), qd = trunk(P.digits(q)), qf = C.fold(q);
     var hasLetters = /[a-z]/.test(qf);
     var list = S.contacts.filter(function (c) {
       if (!q) return true;
@@ -930,13 +950,15 @@
   }
 
   var detailTab = 'conversa';
+  var renderSeq = 0;
   async function renderDetail(focusKey) {
-    var c = S.byId[S.open], d = $('#detail');
-    revokeUrls();
-    d.textContent = '';
-    if (!c) return renderDetailEmpty();
+    var seq = ++renderSeq, c = S.byId[S.open], d = $('#detail');
+    if (!c) { revokeUrls(); return renderDetailEmpty(); }
     var st = c.st || {};
     var msgs = await DB.messagesOf(c.id);
+    if (seq !== renderSeq) return; // outro cliente foi aberto enquanto carregava
+    revokeUrls();
+    d.textContent = '';
     var docs = msgs.filter(function (m) { return m.m && m.ty === 'doc'; });
     var waNum = c.phone ? P.full(c.phone) : null;
     var phoneLine = h('div', { class: 'phone' },
@@ -1122,17 +1144,22 @@
     else vb.appendChild(h('p', { class: 'vnote' }, 'Pré-visualização indisponível para este tipo de arquivo (' + (C.extOf(name) || mi) + '). Use Salvar para abrir em outro app.'));
   }
   async function renderPdf(blob, vb) {
+    var token = cur;
     var note = h('p', { class: 'vnote' }, 'Abrindo PDF…'); vb.appendChild(note);
     try {
       var lib = await loadPdf();
+      if (cur !== token) return;
       var data = new Uint8Array(await blob.arrayBuffer());
+      if (cur !== token) return;
       var doc = await lib.getDocument({ data: data, isEvalSupported: false }).promise;
-      var token = cur;
+      if (cur !== token) return;
       note.textContent = doc.numPages + (doc.numPages > 1 ? ' páginas' : ' página');
       var w = Math.min(vb.clientWidth - 24, 900), dpr = Math.min(window.devicePixelRatio || 1, 2.5);
       for (var p = 1; p <= doc.numPages && p <= 60; p++) {
         if (cur !== token) return;
-        var page = await doc.getPage(p), vp0 = page.getViewport({ scale: 1 }), scale = w / vp0.width;
+        var page = await doc.getPage(p);
+        if (cur !== token) return;
+        var vp0 = page.getViewport({ scale: 1 }), scale = w / vp0.width;
         var vp = page.getViewport({ scale: scale * dpr }), cv = h('canvas');
         cv.width = Math.floor(vp.width); cv.height = Math.floor(vp.height); cv.style.width = Math.floor(vp.width / dpr) + 'px';
         vb.appendChild(cv);
@@ -1153,7 +1180,7 @@
   var allDocs = null;
   async function renderDocsView() {
     if (!allDocs) allDocs = await DB.getAll('docs');
-    var q = S.q.trim(), qf = C.fold(q), qd = P.digits(q), letters = /[a-z]/.test(qf);
+    var q = S.q.trim(), qf = C.fold(q), qd = trunk(P.digits(q)), letters = /[a-z]/.test(qf);
     var f = S.docFilter;
     var list = allDocs.filter(function (d) {
       if (f === 'pdf' && !(d.ty === 'doc' && (/pdf/i.test(d.mi) || /\.pdf$/i.test(d.n) || /\.pdf$/i.test(d.o || '')))) return false;
@@ -1221,7 +1248,7 @@
     allDocs = null;
     renderCounts();
     renderList();
-    if (S.open && S.byId[S.open]) renderDetail(); else renderDetailEmpty();
+    if (S.open && S.byId[S.open]) renderDetail(); else { S.open = null; $('#v-clientes').classList.remove('open'); renderDetailEmpty(); }
     if (S.view === 'documentos') renderDocsView();
     if (S.view === 'backup') renderBackup();
     if (S.view === 'importar') updateMissingNote();
@@ -1243,7 +1270,12 @@
     var qt;
     $('#q').addEventListener('input', function (e) {
       clearTimeout(qt);
-      qt = setTimeout(function () { S.q = e.target.value; S.listLimit = 200; S.docLimit = 120; if (S.view === 'documentos') renderDocsView(); else renderList(); }, 120);
+      qt = setTimeout(function () {
+        S.q = e.target.value; S.listLimit = 200; S.docLimit = 120;
+        if (S.view === 'documentos') return renderDocsView();
+        if (window.innerWidth < 900 && $('#v-clientes').classList.contains('open')) closeContact();
+        renderList();
+      }, 120);
     });
     $('#q').addEventListener('keydown', function (e) {
       if (e.key === 'Enter') { var first = $('.crow'); if (first && S.view === 'clientes') openContact(first.getAttribute('data-id')); }
@@ -1282,6 +1314,7 @@
     $('#go-csv').addEventListener('click', exportCsv);
     $('#go-persist').addEventListener('click', async function () { var ok = await requestPersist(); toast(ok ? 'Pronto: o navegador vai manter os dados.' : 'O navegador não confirmou. Guarde o pacote no iCloud Drive por segurança.'); renderBackup(); });
     $('#go-wipe').addEventListener('click', async function () {
+      if (S.busy) { toast('Espere a importação terminar antes de apagar.'); return; }
       if ($('#wipe-confirm').value.trim().toUpperCase() !== 'APAGAR') { toast('Digite APAGAR no campo para confirmar.'); return; }
       await DB.clear(); S.contacts = []; S.byId = {}; S.open = null; S.learnedMe = {};
       await DB.put('meta', { key: 'demoSeen', v: 1 }); await saveSettings();
