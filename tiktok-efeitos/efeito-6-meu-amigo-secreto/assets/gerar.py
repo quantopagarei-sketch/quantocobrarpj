@@ -618,7 +618,8 @@ def d_pano():
             py = 0.64 + larg * 0.8 + r * math.sin(math.radians(ang)) * 0.9
             d.ellipse(_u(px - 0.012, py - 0.012, px + 0.012, py + 0.012), fill=rgb("#B9771A"))
     d.rectangle(_u(0.10, 0.73, 0.90, 0.755), fill=rgb("#E39C1A"))
-    return recortar(im)
+    # virado de cabeça pra baixo: o barradinho de crochê fica em cima, fora da caixa
+    return recortar(im.transpose(Image.FLIP_TOP_BOTTOM))
 
 
 def d_volante():
@@ -753,7 +754,7 @@ ILUSTRA = {
     15: dict(main=d_desodorante, chip="?", giro=-16),        # desodorante liso (spray)
     16: dict(main="🎁", sec="♻"),                            # presente reciclado
     17: dict(main="🔌", sec="🪫"),                            # carregador + bateria vazia
-    18: dict(main=d_pano, sec="🧶"),                          # pano de prato com crochê
+    18: dict(main=d_pano, sec="🧶", giro=8),                  # pano de prato (crochê pra cima)
     19: dict(main="🪑", sec="💨"),                            # cadeira vazia: quem tirou faltou
     20: dict(main="🪴", sec="🍂"),                            # plantinha + folha caindo
     21: dict(main=d_volante),                                # capa de volante peluda (sem emblema)
