@@ -19,7 +19,7 @@ Você vai ajudar o Vini a guardar o histórico do WhatsApp Business do Samsung S
 2. No Explorador de Arquivos: **Este Computador › Galaxy S22 Ultra › Armazenamento interno › Android › media › com.whatsapp.w4b**. Copie a pasta **WhatsApp Business** inteira para `Documentos\WhatsApp-S22\copia-1`. Pode demorar. Confira se a cópia tem as subpastas `Databases` e `Media` e se o tamanho bate com o do celular.
 3. Avise o Vini que a cópia 1 terminou. Ele vai seguir o Passo 3 do guia (ativar o backup com chave de 64 dígitos no S22 e tocar em Fazer backup). Guia: https://github.com/quantopagarei-sketch/quantocobrarpj/blob/claude/nifty-babbage-xiu79b/arquivo-whatsapp/LEIA-PRIMEIRO.md
 4. Quando ele disser que o backup novo terminou: desconecte e reconecte o cabo (o Windows às vezes mostra a lista antiga). Copie de novo a pasta para `Documentos\WhatsApp-S22\copia-2`. Confira se `copia-2\WhatsApp Business\Databases\msgstore.db.crypt15` existe e tem data de hoje.
-5. Abra no Chrome ou no Edge o **Arquivo de Clientes**: LINK_APP
+5. Abra no Chrome ou no Edge o **Arquivo de Clientes**: https://claude.ai/artifact/4dNonxgka9iN13sG1NZbQX
 6. No app: **Importar › Backup completo do S22**.
    - Item 1: escolha `copia-2\WhatsApp Business\Databases\msgstore.db.crypt15`.
    - Item 3: escolha a pasta `copia-2\WhatsApp Business\Media`.

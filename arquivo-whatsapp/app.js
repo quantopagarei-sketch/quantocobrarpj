@@ -48,6 +48,7 @@
     return (b / 1073741824).toFixed(2).replace('.', ',') + ' GB';
   }
   function num(n) { return (n || 0).toLocaleString('pt-BR'); }
+  function pl(n, one, many) { return num(n) + ' ' + (n === 1 ? one : many); }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   function tick() { return new Promise(function (r) { setTimeout(r, 0); }); }
 
@@ -415,7 +416,7 @@
         var r = await importOneExport(f, looseIdx);
         if (r.pkg) { okN++; continue; }
         touched[r.cid] = 1; okN++; msgsN += r.n; filesN += r.files;
-        log('✓ ' + r.label + ' — ' + num(r.n) + ' mensagens' + (r.files ? ', ' + r.files + ' arquivos' : '') + (r.missing ? ' (' + r.missing + ' arquivos não vieram)' : ''), 'ok');
+        log('✓ ' + r.label + ' — ' + pl(r.n, 'mensagem', 'mensagens') + (r.files ? ', ' + pl(r.files, 'arquivo', 'arquivos') : '') + (r.missing ? ' (' + pl(r.missing, 'arquivo não veio', 'arquivos não vieram') + ')' : ''), 'ok');
       } catch (e) {
         log('✗ ' + f.name + ': ' + errMsg(e), 'er');
       }
@@ -541,7 +542,7 @@
         }
       } finally { cur.close(); }
       log('✓ ' + num(n) + ' mensagens gravadas' + (files ? ', ' + num(files) + ' arquivos ligados' : ''), 'ok');
-      if (missing) log('• ' + num(missing) + ' arquivos ainda sem ligação. Use “Ligar PDFs e fotos que faltaram” com a pasta Media do S22.');
+      if (missing) log('• ' + pl(missing, 'arquivo ainda sem ligação', 'arquivos ainda sem ligação') + '. Use “Ligar PDFs e fotos que faltaram” com a pasta Media do S22.');
       log('Atualizando a lista…');
       await refreshStats(Object.keys(map).map(function (k) { return map[k]; }));
       setBar(1);
@@ -642,7 +643,7 @@
         var data = { contact: c, messages: msgs.map(function (m) { var v = Object.assign({}, m); if (v.m) { v.m = Object.assign({}, v.m); delete v.m.b; if (fileOf[m.k]) v.file = fileOf[m.k]; } return v; }) };
         await zw.add(folder + 'dados.json', JSON.stringify(data));
         manifest.contacts.push({ id: c.id, folder: folder });
-        idxLines.push(label(c) + (c.phone && c.name ? '  ' + P.format(c.phone) : '') + '  —  ' + num(msgs.length) + ' mensagens' + (c.st && c.st.docs ? ', ' + c.st.docs + ' documentos' : '') + (c.status ? '  [' + c.status + ']' : ''));
+        idxLines.push(label(c) + (c.phone && c.name ? '  ' + P.format(c.phone) : '') + '  —  ' + pl(msgs.length, 'mensagem', 'mensagens') + (c.st && c.st.docs ? ', ' + pl(c.st.docs, 'documento', 'documentos') : '') + (c.status ? '  [' + c.status + ']' : ''));
         if (i % 10 === 0) { plog('Montando… ' + (i + 1) + ' de ' + list.length + ' clientes'); await tick(); }
       }
       await zw.add('LEIA-ME.txt', idxLines.join('\n') + '\n');
@@ -861,8 +862,8 @@
       h('h2', null, label(c)),
       phoneLine,
       h('div', { class: 'stats' },
-        h('span', null, h('b', null, num(st.n)), ' mensagens'),
-        h('span', null, h('b', null, num(docs.length)), ' documentos'),
+        h('span', null, h('b', null, num(st.n)), st.n === 1 ? ' mensagem' : ' mensagens'),
+        h('span', null, h('b', null, num(docs.length)), docs.length === 1 ? ' documento' : ' documentos'),
         st.first ? h('span', null, 'desde ', h('b', null, fDate(st.first))) : null,
         st.last ? h('span', null, 'último ', h('b', null, fDate(st.last))) : null),
       h('div', { class: 'acts' }, c.status ? h('span', { class: 'pill ' + statusClass(c.status) }, c.status) : null, c.demo ? h('span', { class: 'pill demo' }, 'exemplo fictício') : null));
@@ -1212,6 +1213,10 @@
 
   async function start() {
     Plat.init();
+    // iPhone e iPad não escolhem pastas: lá o caminho é o .zip da pasta
+    if (/iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+      $$('label[for$="-dir"]').forEach(function (l) { l.hidden = true; });
+    }
     var v0 = location.hash.slice(1);
     ['clientes', 'documentos', 'importar', 'backup'].forEach(function (x) { $('#v-' + x).hidden = x !== (['documentos', 'importar', 'backup'].indexOf(v0) >= 0 ? v0 : 'clientes'); });
     try { await DB.open(); }

@@ -11,7 +11,7 @@
 
 Tudo fica guardado **só no seu aparelho**. Nada é enviado para a internet.
 
-**Abrir o app:** LINK_APP
+**Abrir o app:** https://claude.ai/artifact/4dNonxgka9iN13sG1NZbQX
 
 ---
 
