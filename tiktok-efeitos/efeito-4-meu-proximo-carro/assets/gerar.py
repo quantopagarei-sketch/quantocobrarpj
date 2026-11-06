@@ -1035,7 +1035,7 @@ def cena_15():  # EMPRESTADO DO CUNHADO
     return c.centro(adesivo("🤝", 40 * S, 8), CX + 66, CHAO - 44)
 
 
-def cena_16():  # SOM VALE MAIS QUE O CARRO
+def cena_16():  # COM SOM MAIS CARO QUE ELE
     c = Cena().base(caixa_som(72 * S), CX - 52, CHAO)
     c.base(carro("hatch", CARRO_AMARELO, 92 * S), CX + 52, CHAO)
     return c.centro(adesivo("💰", 32 * S, 12), CX + 92, CHAO - 46)

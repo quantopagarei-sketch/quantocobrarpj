@@ -78,21 +78,22 @@ CONFETE = ["#FFD24A", "#FF6FB5", "#3FE0D0", "#FFFFFF", "#FFB23F", "#C9A2FF"]
 #   extras:
 #     tint_main / tint_secundario: recolore o principal / o secundário (#hex)
 #     terceiro: (emoji, dx, dy, escala, giro) adesivo extra, posição em frações do raio do selo
-#     pontos: (cor, cx, cy, rx, ry, n, raio) pontinhos sobre o principal (lentilha, uva-passa), em frações
+#     pontos: (cor, cx, cy, rx, ry, n, raio) pontinhos sobre o principal (uva-passa), em frações
+#     monte: (cor, cores_graos, cx, cy, rx, ry_cima, ry_baixo, n, raio) montinho de grãos (lentilha na tigela)
 #     interior: (cor1, cor2) fundo do selo diferente (quando o desenho é branco)
 #     interior_emoji: emoji que preenche o selo inteiro, recortado em círculo
-GOTAS_LENTILHA = ("#A3561F", 0.47, 0.30, 0.30, 0.075, 26, 0.050)
+MONTE_LENTILHA = ("#6E3A14", ("#B8692A", "#9C5522", "#C98444"), 0.50, 0.41, 0.44, 0.17, 0.09, 46, 0.040)
 GOTAS_PASSA = ("#4B1F3D", 0.50, 0.25, 0.30, 0.15, 11, 0.050)
 ILUSTRA = {
     1: ("🌊", "🪣", {}),                      # 7 ondas no balde
     2: ("🙅", "💔", {}),                      # não mandar oi pro ex
-    3: ("🥣", "💰", {"pontos": GOTAS_LENTILHA}),  # tigela de lentilha + saquinho
+    3: ("🥣", "💰", {"monte": MONTE_LENTILHA}),  # tigela de lentilha (montinho desenhado) + saquinho
     4: ("🪑", "📈", {}),                      # cadeira PARADA + gráfico subindo
     5: ("🤍", "🧦", {"interior": ("#C8B3F7", "#8E6FE0")}),  # tudo branco; meia recolorida (JSON)
     6: ("⏰", "😴", {}),                      # madrugar no dia 1º
     7: ("🍇", "🗓", {}),                      # 12 uvas + calendário
     8: ("🧳", "✈", {}),                       # volta com mala vazia
-    9: ("👛", "@roma", {"terceiro": ("🕸", -0.62, -0.42, 0.50, 10)}),  # romã + carteira vazia (teia)
+    9: ("@roma", "👛", {"terceiro": ("🕸", -0.64, -0.40, 0.48, 10)}),  # romã (desenho) + carteira vazia (teia)
     10: ("🤗", "🍮", {}),                     # abraço + sobremesa genérica
     11: ("🦘", "🕛", {}),                     # 3 pulinhos à meia-noite
     12: ("🤫", "💛", {}),                     # psiu + coração amarelo (sem roupa íntima)
@@ -132,6 +133,8 @@ TAM_MIN = 34
 
 
 def rgb(h, a=255):
+    if isinstance(h, tuple):
+        return tuple(h[:3]) + (h[3] if len(h) > 3 else a,)
     h = h.lstrip("#")
     return (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16), a)
 
@@ -373,6 +376,35 @@ def com_pontinhos(im, cor, fcx, fcy, frx, fry, n, fr, seed):
         rx, ry = r * rnd.uniform(0.9, 1.15), r * rnd.uniform(0.65, 0.85)
         d.ellipse([x - rx, y - ry, x + rx, y + ry], fill=base)
         d.ellipse([x - rx * 0.45, y - ry * 0.65, x + rx * 0.05, y - ry * 0.1], fill=luz)
+        feitos += 1
+    return out
+
+
+def com_monte(im, cor, cores_graos, fcx, fcy, frx, fry_cima, fry_baixo, n, fr, seed=0):
+    """Montinho de grãos dentro da tigela: elipse da boca + domo por cima, com grãos e brilho."""
+    out = im.copy()
+    w, h = out.size
+    cx, cy, rx = fcx * w, fcy * h, frx * w
+    m = Image.new("L", out.size, 0)
+    md = ImageDraw.Draw(m)
+    md.ellipse([cx - rx, cy - fry_baixo * h, cx + rx, cy + fry_baixo * h], fill=255)
+    md.pieslice([cx - rx * 0.92, cy - fry_cima * h, cx + rx * 0.92, cy + fry_cima * h], 180, 360, fill=255)
+    base = gradiente(w, h, [(0, mix(cor, "#FFFFFF", 0.25)), (1, cor)], (0, 1))
+    out.alpha_composite(com_mascara(base, m))
+    d = ImageDraw.Draw(out)
+    rnd = random.Random(seed)
+    alfa = np.array(m)
+    r = fr * w
+    feitos = tent = 0
+    while feitos < n and tent < 4000:
+        tent += 1
+        x, y = rnd.uniform(cx - rx, cx + rx), rnd.uniform(cy - fry_cima * h, cy + fry_baixo * h)
+        if alfa[min(h - 1, max(0, int(y))), min(w - 1, max(0, int(x)))] < 255:
+            continue
+        cg = rnd.choice(cores_graos)
+        rx2, ry2 = r * rnd.uniform(0.95, 1.15), r * rnd.uniform(0.7, 0.85)
+        d.ellipse([x - rx2, y - ry2, x + rx2, y + ry2], fill=rgb(cg))
+        d.ellipse([x - rx2 * 0.5, y - ry2 * 0.6, x, y - ry2 * 0.1], fill=mix(cg, "#FFFFFF", 0.5))
         feitos += 1
     return out
 
@@ -788,6 +820,8 @@ def selo_ilustracao(principal, secundario, tint, extras, seed):
             e1 = figura(principal, int(r * 1.36))
             if extras.get("tint_main"):
                 e1 = recolorir(e1, extras["tint_main"])
+            if extras.get("monte"):
+                e1 = com_monte(e1, *extras["monte"], seed=seed)
             if extras.get("pontos"):
                 cor, fcx, fcy, frx, fry, n, fr = extras["pontos"]
                 e1 = com_pontinhos(e1, cor, fcx, fcy, frx, fry, n, fr, seed)
@@ -930,10 +964,10 @@ def icone(tam_final=162, estilo="principal"):
     for (x, y, r) in ((0.12, 0.13, 0.035), (0.90, 0.48, 0.028), (0.10, 0.88, 0.03)):
         estrela4(d, x * t, y * t, r * t, (255, 255, 255, 230))
     if estilo == "principal":
-        u = uvas(int(t * 0.60))
+        u = uvas(int(t * 0.68))
         u = com_contorno(u, int(t * 0.022))
         us, _ = com_sombra(u, 0, int(t * 0.018), int(t * 0.022), 0.45, "#0B0320")
-        colar_centro(img, us, t * 0.49, t * 0.53)
+        colar_centro(img, us, t * 0.49, t * 0.52)
     else:
         rl = relogio(int(t * 0.58))
         rl = com_contorno(rl, int(t * 0.018))

@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 06/11/2026, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 06/11/2026, 07:10 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Enquanto a decisão do desafio estiver pendente, confira de novo no GitHub às 9h, 13h e 18h (Brasília). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -29,28 +29,27 @@ Se algo contradisser os guias, siga o que o programa mostra e anote a diferença
 
 | # | Efeito | Pasta | Montar | Enviar (Submit) |
 |---|---|---|---|---|
-| 1 | Eu no grupo da família (C08) | `efeito-2-seu-papel-no-grupo` | já | **já**, assim que testado |
-| 2 | Torcedômetro (C01) | `efeito-1-torcedometro` | já | **já**, assim que testado |
+| 1 | Eu no grupo da família (C08) | `efeito-2-seu-papel-no-grupo` | feito | **enviado em 06/11** (em análise) |
+| 2 | Torcedômetro (C01) | `efeito-1-torcedometro` | feito | **enviado em 06/11** (em análise) |
 | 3 | Meu 2027 vai ser… (C05) | `efeito-3-meu-2027-vai-ser` | já (montar e testar) | **somente na quinta, 03/12/2026**. Vale a **situação B**: envie mesmo sem admissão no programa de recompensas. Ignore a exceção da "situação A" no guia, a não ser que a aba Rewards já mostre a inscrição **aprovada** em 02/12. |
+| 4 | Meu próximo carro (C02) | `efeito-4-meu-proximo-carro` | já | assim que testado, seguindo a **regra do desafio** (Atualização 07:10); no máximo até **ter 17/11** |
+| 5 | Perrengue no volante (C09) | `efeito-5-perrengue-no-volante` | já | assim que testado (ver a regra do desafio, item 3d); no máximo até **ter 17/11** |
+| 6 | Meu amigo secreto (C06) | `efeito-6-meu-amigo-secreto` | já | **entre sex 20/11 e ter 24/11, nunca antes** |
+| 7 | Simpatia da Virada (C07) | `efeito-7-simpatia-da-virada` | já | **somente na quinta, 03/12/2026**, junto com o C05 |
 
-Meta: os efeitos 1 e 2 enviados até **sexta, 13/11**.
+Metas: C02 e C09 enviados até **ter 17/11**; C06 até **ter 24/11**; C05 e C07 na **qui 03/12**.
 
 Para cada efeito:
 1. Siga o `guia-montagem.md` da pasta, com as imagens de `assets/`.
 2. Teste no preview do Effect House (simulador) e grave você mesmo o vídeo de demonstração 9:16 (até 15 s), se a tela de envio pedir.
 3. Salve o projeto em `projetos\`.
-4. No envio, use o nome, a descrição, as tags e o ícone `icone_162.png` indicados no `textos.md` e no guia.
+4. No envio, siga as **regras do formulário** (Atualização de 05:50, item 4): nome do `textos.md`, ícone pelo **Create Icon**, hint da lista (em português, se houver), challenge conforme a regra do desafio. Ignore nos guias tags, categoria, descrição e `icone_162.png`.
 5. Depois de enviar, mande para a nuvem: nome, data e hora do envio e status.
 6. Se for reprovado, leia o motivo, corrija do jeito mais simples que respeite a ideia e reenvie (até 10 reenvios). Avise a nuvem.
 
-## 3. Vem aí (a equipe está produzindo, vão entrar nesta tabela)
+## 3. Vem aí
 
-| Efeito | Envio previsto |
-|---|---|
-| Meu próximo carro (C02) | até 17/11 |
-| Perrengue no volante (C09) | até 17/11 |
-| Meu amigo secreto (C06) | entre 20/11 e 24/11 |
-| Simpatia da Virada (C07) | 03/12, junto com o C05 |
+Nada por enquanto. Os 7 efeitos já estão na seção 2. O próximo conceito (Carnaval) entra aqui quando estiver pronto.
 
 ## 4. Regras que não mudam
 
@@ -75,3 +74,15 @@ Para cada efeito:
   2. **C01 e os outros sorteios: monte e teste, mas NÃO faça o Submit até sair a decisão do Vini sobre o desafio** (deve sair hoje de manhã, numa atualização aqui). Motivo: se o desafio só puder ser vinculado no envio, mandar sem ele pode custar a chance de prêmio.
   3. Para ajudar o Vini a decidir rápido, copie para `reconhecimento.md` o texto integral (ou o mais completo possível) dos termos do desafio e da autorização de uso promocional, junto com o tema, o prazo, o prêmio e como o vencedor é escolhido. Mande também um resumo de 5 linhas para a nuvem. Se der para descobrir sem aceitar nada, informe também se o desafio pode ser vinculado depois do envio (por exemplo, em Manage Effects) e se o C08, já em análise, ainda pode entrar.
   4. **Regras do formulário de envio (valem por cima de todos os guias):** o Effect House 5.16 pede só nome, ícone (1 ou 2, gerados pelo **Create Icon**), hint (escolha da lista), som (opcional), challenge, trend e demo (opcional). Ignore nos guias o que falar de tags, categoria, descrição e de usar `icone_162.png` como ícone. Use o Create Icon com uma foto modelo em que o resultado fique bem legível. Sempre que existir uma opção em português no hint, prefira ela.
+- **06/11/2026, 07:10 UTC (lote 2 liberado):**
+  1. **C02, C09, C06 e C07 estão prontos e revisados** (notas 8,5 a 9) e entraram na seção 2. Baixe o zip de novo (https://github.com/quantopagarei-sketch/quantocobrarpj/archive/refs/heads/main.zip) e atualize a pasta `tiktok-efeitos`. Não apague `projetos\`, `reconhecimento.md` nem `relatorio-montagem.md`.
+  2. **Ordem de montagem:** termine o C05 (sem enviar) → C02 → C09 → C06 → C07. C02, C06 e C07 usam o mesmo template do C01: reaproveite o projeto do C01 trocando imagens, textos e ícone. O C09 usa o Blind Rank e tem guia próprio.
+  3. **Regra única do desafio. Vale por cima de todos os guias, para C01, C02, C06 e C07:**
+     a. Se o Vini **aceitar** os termos, a nuvem avisa aqui. Vincule cada sorteio ao desafio no campo Challenge do envio, nas datas da tabela.
+     b. Se o Vini **recusar**, a nuvem avisa aqui. Envie sem desafio, nas datas da tabela.
+     c. Se até **qui 12/11, 23h59 (Brasília)** não houver decisão aqui, envie sem desafio: C01 na **sex 13/11**; C02 até **ter 17/11**; C06 entre **20 e 24/11**; C07 (e C05) na **qui 03/12**. O prazo de envio vale mais que o desafio.
+     d. **C09:** ele não é sorteio. Se as regras do desafio que você copiou no `reconhecimento.md` não aceitarem Blind Rank, envie o C09 **assim que testado**, sem desafio e sem esperar. Se aceitarem, ele segue a mesma regra dos sorteios.
+  4. **C09:** no primeiro envio, sempre a versão padrão de 10 cartas (Parte 9 do guia 1.1). O rodízio de 14 só é testado e guardado.
+  5. **Duplicidade:** se algum sorteio voltar reprovado como duplicado ou spam, pare de enviar os outros sorteios e avise a nuvem com o texto exato do motivo.
+  6. Ao enviar cada um, mande o resumo para a nuvem (nome, data e hora, desafio sim/não, tamanho do pacote) e registre no `relatorio-montagem.md`.
+

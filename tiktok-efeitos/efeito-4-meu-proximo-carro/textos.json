@@ -1,6 +1,6 @@
 {
   "efeito_id": "C02",
-  "versao_textos": "1.0",
+  "versao_textos": "1.1",
   "data": "2026-11-06",
   "template": "Randomizer 2D (reaproveita o projeto do C01 Torcedômetro)",
   "envio_previsto": "até 17/11/2026",
@@ -283,12 +283,12 @@
     {
       "n": 16,
       "arquivo": "carta_16.png",
-      "texto": "SOM VALE MAIS QUE O CARRO",
-      "linha1": "SOM VALE MAIS",
-      "linha2": "QUE O CARRO",
+      "texto": "COM SOM MAIS CARO QUE ELE",
+      "linha1": "COM SOM MAIS",
+      "linha2": "CARO QUE ELE",
       "caracteres": 25,
-      "caracteres_linha1": 13,
-      "caracteres_linha2": 11,
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 12,
       "categoria": "estilo",
       "emoji": "🔊",
       "emoji_secundario": "💰",
@@ -505,8 +505,13 @@
   ],
   "trocas_feitas_no_conceito": [
     {
+      "antes": "SOM VALE MAIS QUE O CARRO",
+      "depois": "COM SOM MAIS CARO QUE ELE",
+      "motivo": "QA (v1.1): era a única carta que não continuava a frase do título ('Meu próximo carro vai ser… som vale mais que o carro'). Agora: 'Meu próximo carro vai ser… com som mais caro que ele'. Desenho (cena_16) igual."
+    },
+    {
       "antes": "REBAIXADO COM SOM QUE TREME O VIDRO",
-      "depois": "REBAIXADO QUE RASPA EM TUDO + SOM VALE MAIS QUE O CARRO",
+      "depois": "REBAIXADO QUE RASPA EM TUDO + SOM VALE MAIS QUE O CARRO (na v1.1 virou COM SOM MAIS CARO QUE ELE)",
       "motivo": "não cabia em 2 linhas; virou duas cartas, e 'treme o vidro' (som alto incomodando) saiu"
     },
     {

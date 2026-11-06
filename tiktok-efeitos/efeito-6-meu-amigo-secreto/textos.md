@@ -35,7 +35,7 @@ Efeito C06 · versão dos textos 1.0 · 06/11/2026 · Envio previsto: **entre se
 
 Cada frase continua o título: "No amigo secreto eu vou ganhar… meia (de novo)". Todas são coisas, sem "o" ou "a" para a pessoa, então servem pra homem e pra mulher. A barra ( / ) marca a quebra de linha.
 
-Todas cabem em 2 linhas. A linha mais comprida tem 15 caracteres. Medido no layout do Torcedômetro (Inter Display Black, 424 px úteis), a menor fonte que sobrou foi 44 px, acima do mínimo de 34. O emoji é só pra mostrar a ideia do desenho.
+Todas cabem em 2 linhas. A linha mais comprida tem 15 caracteres. Medido no layout do Torcedômetro (Inter Display Black, 424 px úteis), a menor fonte que sobrou foi 44 px, acima do mínimo de 34. **Na arte final do C06** (etiqueta com 408 px úteis), as fontes ficaram entre 41 e 54 px; as menores são as cartas 25 e 26, com 41 px (ver `assets/LEIA-ME.md` e a tabela 0.7 do guia). O emoji é só pra mostrar a ideia do desenho.
 
 Tem de tudo: o presente clássico de quem não pensou (meia, kit sabonete, pano de prato), o presente que dá errado (carregador que não carrega, chinelo dois números menor), o "nada" (abraço, quem me tirou faltou) e dois resultados bons (10 e 23), pra pessoa girar de novo até sair o que quer.
 
@@ -110,6 +110,8 @@ Duas cartas usam o calor do Natal brasileiro (9 e 13), e várias pegam o amigo s
 - **PANETONE, CHOCOLATE e BOMBONS:** sem embalagem, sem caixa e sem cores de marca.
 
 ## 4. Para o envio no Effect House
+
+> **Ordem de 06/11 (vale por cima desta seção):** o formulário do Effect House 5.16 pede só nome, ícone (pelo **Create icon**), hint (lista), som, challenge, trend e demo. Descrição, categoria, tags e o `icone_162.png` só entram se o campo aparecer. O que preencher em cada campo está na Parte 13.4 do `guia-montagem.md`.
 
 O formulário pode não ter descrição pública. Nos outros efeitos, a equipe só achou o campo de comentários para quem revisa (a confirmar). A equipe cola o texto em inglês e, embaixo, o em português.
 

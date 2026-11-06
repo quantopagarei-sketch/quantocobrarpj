@@ -16,7 +16,7 @@ O template é o mesmo do C01 (Randomizer 2D), e as imagens têm o mesmo quadro d
 | `icone_162.png` | 162×162, PNG opaco | Ícone do formulário de envio: carrinho turquesa com "?" coral, fundo amarelo e estrada. O desenho fica dentro da área segura 144×144. |
 | `icone_alt_162.png` | 162×162, PNG opaco | 2º ícone (opcional): versão noite, com carrinho coral e "?" amarelo. |
 
-**Peso:** `titulo_toque.png` + 26 cartas = **2,43 MB** (2.487 KB). Com o `titulo.png` de reserva junto, 2,52 MB. O maior arquivo é a `carta_16.png`, com 104 KB, bem abaixo do limite de 1 MB. Nenhuma imagem passa de 1024 px.
+**Peso:** `titulo_toque.png` + 26 cartas = **2,43 MB** (2.484 KB). Com o `titulo.png` de reserva junto, 2,52 MB. O maior arquivo é a `carta_24.png`, com 103 KB, bem abaixo do limite de 1 MB. Nenhuma imagem passa de 1024 px.
 
 ## O que NÃO entra
 

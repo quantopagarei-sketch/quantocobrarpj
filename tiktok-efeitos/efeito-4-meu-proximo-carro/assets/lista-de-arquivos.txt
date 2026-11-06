@@ -2,7 +2,7 @@ icone_162.png                              162x162  RGB      21.3 KB
 icone_512.png                              512x512  RGB      90.9 KB
 icone_alt_162.png                          162x162  RGB      25.5 KB
 icone_alt_512.png                          512x512  RGB     110.1 KB
-previa.png                                 1788x3756  RGB    2396.1 KB
+previa.png                                 1788x3756  RGB    2395.2 KB
 titulo.png                                 512x256  RGBA     96.1 KB
 titulo_toque.png                           512x256  RGBA     95.9 KB
 cartas/carta_01.png                        512x256  RGBA     94.5 KB
@@ -20,7 +20,7 @@ cartas/carta_12.png                        512x256  RGBA     76.3 KB
 cartas/carta_13.png                        512x256  RGBA     90.2 KB
 cartas/carta_14.png                        512x256  RGBA     90.3 KB
 cartas/carta_15.png                        512x256  RGBA     93.8 KB
-cartas/carta_16.png                        512x256  RGBA    103.7 KB
+cartas/carta_16.png                        512x256  RGBA    100.8 KB
 cartas/carta_17.png                        512x256  RGBA     93.6 KB
 cartas/carta_18.png                        512x256  RGBA     84.8 KB
 cartas/carta_19.png                        512x256  RGBA     99.2 KB
@@ -48,7 +48,7 @@ quadrado_512/cartas/carta_12.png           512x512  RGBA     77.9 KB
 quadrado_512/cartas/carta_13.png           512x512  RGBA     92.2 KB
 quadrado_512/cartas/carta_14.png           512x512  RGBA     92.4 KB
 quadrado_512/cartas/carta_15.png           512x512  RGBA     95.9 KB
-quadrado_512/cartas/carta_16.png           512x512  RGBA    105.1 KB
+quadrado_512/cartas/carta_16.png           512x512  RGBA    102.4 KB
 quadrado_512/cartas/carta_17.png           512x512  RGBA     95.5 KB
 quadrado_512/cartas/carta_18.png           512x512  RGBA     86.6 KB
 quadrado_512/cartas/carta_19.png           512x512  RGBA    101.3 KB

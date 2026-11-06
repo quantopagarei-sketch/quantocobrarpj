@@ -1,7 +1,8 @@
 # Plano de curto prazo: efeitos da conta Car Shop (06/11/2026 a 31/01/2027)
 
-**Responsável:** Gerente do Projeto de Efeitos · **Data:** 06/11/2026 · **Versão:** 1.0
-**Base:** pesquisas 01 a 04, os três efeitos já produzidos (pastas `efeito-1`, `efeito-2`, `efeito-3`), os planos de lançamento e as revisões de QA, e buscas feitas hoje.
+**Responsável:** Gerente do Projeto de Efeitos · **Data:** 06/11/2026 · **Versão:** 1.1 (06/11, depois da 2ª rodada de produção)
+**Base:** pesquisas 01 a 04, os sete efeitos já produzidos (pastas `efeito-1` a `efeito-7`), os planos de lançamento e as revisões de QA, e buscas feitas hoje.
+**O que mudou na 1.1:** o lote 2 (C02, C09, C06 e C07) ficou pronto e revisado em 06/11, bem antes do previsto. A estratégia, as metas e as datas de envio continuam as mesmas. Entraram a situação dos pacotes (6.1 e 6.3), o calendário único de posts de 22/11 a 06/12 (3.1) e os riscos novos (R16 a R18).
 **Legenda:** ✅ confirmado (fonte oficial ou mais de uma fonte) · ⚠️ fontes divergem · ❓ (a confirmar)
 
 **Vini:** não precisa ler este arquivo. A tua parte está no `LEIA-PRIMEIRO.md`, numa página só.
@@ -62,7 +63,7 @@ O RPM do Brasil provavelmente é menor que o dos EUA (suposição, não dado). O
 | O quê | Quando | Tempo |
 |---|---|---|
 | Deixar o Effect House e o TikTok web logados no PC (feito uma vez; só repete se o login cair) | agora | ~5 min |
-| Responder 4 perguntas numa mensagem só (18 anos ou mais, país onde a conta foi criada, tipo de conta, plano mínimo ou completo) | agora | 2 min |
+| Responder 4 perguntas numa mensagem só (18 anos ou mais, país onde a conta foi criada, tipo de conta, plano mínimo ou completo) e dizer se aceita ou não os termos do desafio de Randomizer (a equipe manda o resumo) | agora | 3 min |
 | Gravar os vídeos-vitrine no celular, com o efeito, e agendar ou deixar como rascunho | 3 momentos: 22/11, 29/11, 12/12 | 5 a 10 min cada |
 | Tocar em "Publicar" nos dias de post, se o app não deixar agendar | conforme a lista que a equipe manda | 1 min cada |
 | Inscrição no programa (dados fiscais e de pagamento são dele) | quando sair o selo Gold | ~10 min |
@@ -78,7 +79,7 @@ Tudo isso está no `LEIA-PRIMEIRO.md`, com os links. **Gravar com o próprio ros
 |---|---|
 | **Gerente (este plano)** | Calendário, fila, metas, revisão semanal de números, decisão de "segue ou larga" de cada efeito, juntar os pedidos ao Vini num momento só |
 | **Coordenador** | Publicar os arquivos para o Montador (commit/push e `PRONTO-PARA-MONTAR.md`, com a **data "enviar a partir de"** de cada efeito), mandar as mensagens ao Vini |
-| **Diretor criativo** | Fechar os conceitos que faltam (C02, C09, C06, C07 já existem no papel; criar o de Carnaval em janeiro) |
+| **Diretor criativo** | C02, C09, C06 e C07 já estão produzidos (06/11). Falta criar o conceito de Carnaval (até 18/12) |
 | **Produção (textos e imagens)** | `textos.md/json`, cartas, ícones, títulos e `gerar.py` de cada efeito novo |
 | **Técnico** | `guia-montagem.md` de cada efeito novo, a partir dos guias do C01 e do C08 |
 | **Social media** | `lancamento.md` de cada efeito, legendas, lista de gravação, convites a criadores (até 10 por dia), respostas a comentários pelo TikTok web |
@@ -94,12 +95,12 @@ Prazo de revisão usado em todas as contas: **2 a 3 dias úteis** ✅ (guia ofic
 
 | Semana | Datas | Equipe | Montador (PC) | Vini |
 |---|---|---|---|---|
-| **S0** | sex 06 a dom 08/11 | Este plano. Coordenador publica os 3 efeitos prontos e cria o `PRONTO-PARA-MONTAR.md`. Começa a produção do C02 (Meu próximo carro) e do C09 (Perrengue no volante) | Monta C01 (Torcedômetro) e C08 (Eu no grupo da família) assim que o arquivo existir | **Momento 0** (~5 min + 4 respostas) |
-| **S1** | 09 a 15/11 | Fecha o C02 e o C09 (textos, imagens, guia, lançamento, QA). Começa o C06 (Meu amigo secreto). Lista de 30 criadores para convite. Confere a idade e a região da conta | **Envia C01 e C08 até sex 13/11.** Corrige reprovações no mesmo dia | — |
-| **S2** | 16 a 22/11 | Fecha o C06. Começa o C07 (Simpatia da Virada). Manda ao Vini, até sex 20/11, a lista do Momento A com as legendas | **Envia C02 e C09 até ter 17/11.** **Envia C06 entre sex 20 e ter 24/11** (não antes: a janela de 30 dias precisa cobrir até o Natal). Pega os links dos aprovados | **Momento A · dom 22/11** (~10 min): C08 e C01, mais C02 e C09 se aprovados |
-| **S3** | 23 a 29/11 | Estreias: C08 dom 22, C01 seg 23, C02 e C09 em dias sem jogo, no mínimo 3 h longe de outro post. **Black Friday sex 27/11 é dia da loja**, sem post de efeito no horário nobre. Final da Libertadores sáb 28/11 (17h ✅) é do C01. Fecha o C07. **Revisão D7 do C08** (sáb 28/11) | Envia o C06, se ainda não foi. Print do Manage Effects seg e qui | **Momento B · dom 29/11** (~5 min): C06 |
-| **S4** | 30/11 a 06/12 | Estreia do C06 (seg 30/11 ou ter 01/12). Revisão D7 do C01 (dom 29/11). Última rodada do Brasileirão ~02/12 ⚠️: tom cuidadoso (C01, seção 7.5). Final da Copa do Brasil dom 06/12 ✅ é do C01 | **Envia C05 (Meu 2027 vai ser) e C07 (Simpatia) na qui 03/12**, situação B (montados e testados antes, na mesma semana) | — |
-| **S5** | 07 a 13/12 | Aprovação provável do C05 e do C07 em seg 07 ou ter 08/12. **Estreia do C05 sáb 12/12** (D1 do plano dele). Revisão D14 do C08 e do C01. Primeiro balanço do selo: quantos efeitos passaram de 1.000? | Se C05 ou C07 forem reprovados: corrige e reenvia no mesmo dia. **Limite: aprovados até sex 18/12** | **Momento C · sáb 12/12** (~10 min): C05 e C07 |
+| **S0** | sex 06 a dom 08/11 | Este plano. Coordenador publica os 3 efeitos prontos e cria o `PRONTO-PARA-MONTAR.md` (feito). **Lote 2 pronto e revisado em 06/11:** C02, C09, C06 e C07 (seção 6.3). Coordenador publica o lote 2 (commit/push) e põe os 4 na seção 2 do `PRONTO-PARA-MONTAR.md`, com a data de envio de cada um | Monta C01 (Torcedômetro) e C08 (Eu no grupo da família) assim que o arquivo existir | **Momento 0** (~5 min + 4 respostas) |
+| **S1** | 09 a 15/11 | ~~Fecha o C02 e o C09~~ (feito em 06/11). Lista de 30 criadores para convite. Confere a idade e a região da conta. Leva ao Vini a decisão sobre o desafio de Randomizer, se ainda estiver pendente | **Envia C01 e C08 até sex 13/11** (C08 enviado em 06/11). Monta e testa C02, C09, C06 e C07 assim que forem liberados. Corrige reprovações no mesmo dia | — |
+| **S2** | 16 a 22/11 | ~~Fecha o C06. Começa o C07~~ (os dois prontos em 06/11). Manda ao Vini, até sex 20/11, a lista do Momento A com as legendas | **Envia C02 e C09 até ter 17/11.** **Envia C06 entre sex 20 e ter 24/11** (não antes: a janela de 30 dias precisa cobrir até o Natal). Pega os links dos aprovados | **Momento A · dom 22/11** (~10 min): C08 e C01, mais C02 e C09 se aprovados |
+| **S3** | 23 a 29/11 | Estreias: C08 dom 22, C01 seg 23, **C09 qua 25/11 às 18h** e **C02 qui 26/11 às 19h** (calendário da 3.1). **Black Friday sex 27/11 é dia da loja**, sem post de efeito no horário nobre. Final da Libertadores sáb 28/11 (17h ✅) é do C01. **Revisão D7 do C08** (sáb 28/11) | Envia o C06, se ainda não foi. Print do Manage Effects seg e qui | **Momento B · dom 29/11** (~5 a 10 min): C06 e, se couber, um vídeo curto do C02 e outro do C09 |
+| **S4** | 30/11 a 06/12 | Estreia do C06 (seg 30/11, 19h). Revisão D7 do C01 (dom 29/11). Última rodada do Brasileirão ~02/12 ⚠️: tom cuidadoso (C01, seção 7.5). Final da Copa do Brasil dom 06/12 ✅ é do C01 | **Envia C05 (Meu 2027 vai ser) e C07 (Simpatia) na qui 03/12**, situação B (montados e testados antes, na mesma semana) | — |
+| **S5** | 07 a 13/12 | Aprovação provável do C05 e do C07 em seg 07 ou ter 08/12. **Estreia do C05 sáb 12/12** (D1 do plano dele). A estreia do C07 fica para sáb 19/12, às 12h (plano dele). Revisão D14 do C08 e do C01. Primeiro balanço do selo: quantos efeitos passaram de 1.000? | Se C05 ou C07 forem reprovados: corrige e reenvia no mesmo dia. **Limite: aprovados até sex 18/12** | **Momento C · sáb 12/12** (~10 min): C05 e C07 |
 | **S6** | 14 a 20/12 | Pico do amigo secreto. Convites para criadores de humor e família (C05, C06). O vídeo-vitrine do C07 sai entre 18 e 20/12. Revisão D7 do C05 (sex 18/12). Diretor criativo esboça o efeito de Carnaval | Monitoramento. Nada novo para enviar | — (só tocar em "Publicar", se não agendou) |
 | **S7** | 21 a 27/12 | Natal. Revisão D14 do C05 (sex 25/12). Pico do C06 até 25/12. A partir de 26/12, começa o pico de "previsão 2027" e de simpatia. Produção: assets do efeito de Carnaval e do C03 (Desvia do Buraco) | Monitoramento | — |
 | **S8** | 28/12 a 03/01 | Réveillon. Pico do C05 e do C07. Revisão D17 do C05 (seg 28/12). Contagem para o selo. Produção: guias do Carnaval e do C03 | Print do Rewards/selos na seg 28/12 e no sáb 02/01 | Opcional: 2 min na virada (vídeo "fiz de novo no 1º do ano"), só se ele quiser |
@@ -107,6 +108,34 @@ Prazo de revisão usado em todas as contas: **2 a 3 dias úteis** ✅ (guia ofic
 | **S10** | 11 a 17/01 | Volta do futebol (estaduais em jan ❓): prepara o C04 (Chute no Ângulo). Pacote do C03 e do Carnaval passa pela QA | Monta o C03 e o Carnaval e **deixa salvos, sem enviar**, até a admissão aparecer aprovada | — |
 | **S11** | 18 a 24/01 | Se a admissão saiu: lista do Momento D para o Vini | **Assim que a admissão estiver aprovada:** envia o efeito de Carnaval e o C03 | — |
 | **S12** | 25 a 31/01 | **Data da meta M6.** Estreia do efeito pagante. Balanço do trimestre e plano de fevereiro (Carnaval é de 06 a 10/02/2027 ✅) | **Prazo para o Carnaval: enviado até seg 25/01**, para estar no ar uns 10 dias antes da festa. Ver a regra da seção 5.4 | **Momento D** (~10 min): vitrine dos pagantes |
+
+### 3.1 Calendário único de posts com efeito (22/11 a 06/12)
+
+Cada `lancamento.md` foi escrito para um efeito só. Juntando os sete, a conta tem 5 estreias em 9 dias, e no **plano completo** algumas tabelas batem horário entre si. **Esta tabela vale por cima das tabelas de calendário de cada `lancamento.md`.** Ela mostra o **plano mínimo**, que é o padrão (seção 2.1). Horários de Brasília.
+
+| Dia | Post 1 | Post 2 | Observação |
+|---|---|---|---|
+| dom 22/11 | C08 Roteiro 1, 19h–20h (**estreia**) | — | Momento A do Vini |
+| seg 23/11 | C01 Roteiro 1-A, 17h30–18h30 (**estreia**) | — | |
+| ter 24/11 | C08 Roteiro 3, 19h–21h | — | |
+| qua 25/11 | C09 Roteiro 1, 18h–19h (**estreia**) | — | Jogo às 20h. Nada depois das 19h |
+| qui 26/11 | C02 Roteiro 1, 19h–20h (**estreia**) | — | |
+| sex 27/11 | — | — | **Black Friday: dia da loja.** Nenhum post de efeito |
+| sáb 28/11 | C01 Roteiro 3-A, 14h–15h | — | Final da Libertadores às 17h. Nada das 16h às 20h |
+| dom 29/11 | C09 Roteiro 2, 12h–13h (se gravado) | C02 Roteiro 2, 19h–20h | Momento B do Vini |
+| seg 30/11 | C06 Roteiro 1, 19h–20h (**estreia**) | — | Sozinho no dia |
+| ter 01/12 | C09 Roteiro 3, 19h–20h | — | |
+| qua 02/12 | C01, só se a equipe decidir pela resenha (seção 7.5 do C01) | — | Última rodada ⚠️ |
+| qui 03/12 | — | — | Dia seguinte à última rodada: nenhum post. Montador envia C05 e C07 |
+| sex 04/12 | C02 Roteiro 3, 19h–20h | — | |
+| sáb 05/12 | C02 resposta em vídeo, 12h–13h (opcional) | C06 Roteiro 2, 19h–20h | |
+| dom 06/12 | C01, só se houver vídeo gravado (Roteiro 3-B é do plano completo) | — | Final da Copa do Brasil |
+
+**Se o Vini escolher o plano completo**, as tabelas do C01 e do C08 trazem posts extras (Roteiro 2, costuras e respostas em vídeo) que batem com as estreias do lote 2: C01 Roteiro 2 às 17h30 em 25/11 (estreia do C09 às 18h); C08 Costura 1 às 20h em 26/11 (estreia do C02 às 19h); C01 resposta em vídeo às 19h em 29/11 e em 04/12 (C02 no mesmo horário); C08 Costura 2 em 30/11 (estreia do C06); C08 Roteiro 1-B em 01/12 (C09 às 19h). As tabelas do C01 e do C08 também contam com um "Momento 2" do Vini em 28/11, que não existe no `LEIA-PRIMEIRO.md`. Regras para resolver:
+1. Estreia fica **sozinha** no horário nobre. O post extra do outro efeito vai para 12h–13h do mesmo dia ou sai.
+2. Nunca 3 posts de efeito no mesmo dia. Entre dois posts, no mínimo 3 h.
+3. Resposta em vídeo do C01 ou do C08 só existe se for gravada num dos três momentos do `LEIA-PRIMEIRO.md`. Não se cria momento novo para ela.
+4. Quem encaixa os posts extras é o social media, até a véspera de cada momento, na lista que vai para o Vini.
 
 **Datas fixas que não mudam:** final da Libertadores 28/11 ✅ · Black Friday 27/11 · última rodada ~02/12 ⚠️ · final da Copa do Brasil 06/12 ✅ · 2ª parcela do 13º 18/12 ✅ · Natal · Réveillon · Carnaval 06 a 10/02/2027 ✅ (terça 09/02).
 
@@ -200,17 +229,41 @@ Os números são chutes calibrados da equipe, não dados de mercado. Os efeitos 
 
 | Ordem | Efeito | Status hoje | Enviar | Por que nessa ordem |
 |---|---|---|---|---|
-| 1 | **C08 Eu no grupo da família** | Pronto e revisado (nota 8,5) | até sex 13/11 | O mais amplo: não depende da base de futebol |
-| 2 | **C01 Torcedômetro** | Pronto e revisado (nota 8,5) | até sex 13/11 | Fala com a base antiga; pega as 3 semanas de final |
-| 3 | **C02 Meu próximo carro** | Só conceito | até ter 17/11 | Mesmo template do C01 (~4 h). Abre o nicho carro, que é o da loja |
-| 4 | **C09 Perrengue no volante** | Só conceito | até ter 17/11 | Outro formato (ranking às cegas), carro. Diversifica, para não ser só sorteio |
-| 5 | **C06 Meu amigo secreto** | Só conceito | sex 20 a ter 24/11 | 5º efeito do selo. Natal sem concorrente achado na pesquisa |
-| 6 | **C05 Meu 2027 vai ser** | Pronto e revisado (nota 8,5) | **qui 03/12** (situação B) | O mais forte. Aprovado antes de 20/12 com folga para 2 reprovações |
-| 7 | **C07 Simpatia da Virada** | Só conceito | **qui 03/12**, junto com o C05 | Aprovado ~07/12, janela até ~06/01 cobre o pico (26/12 a 01/01). Assim o Vini grava os dois no mesmo momento |
+| 1 | **C08 Eu no grupo da família** | **Enviado em 06/11, em análise** (`STATUS.md`) | até sex 13/11 | O mais amplo: não depende da base de futebol |
+| 2 | **C01 Torcedômetro** | **Enviado em 06/11, em análise** (`STATUS.md`) | até sex 13/11 | Fala com a base antiga; pega as 3 semanas de final |
+| 3 | **C02 Meu próximo carro** | Pronto e revisado (nota 9), `efeito-4-meu-proximo-carro` | até ter 17/11 | Mesmo template do C01 (~4 h). Abre o nicho carro, que é o da loja |
+| 4 | **C09 Perrengue no volante** | Pronto e revisado (nota 8,5), `efeito-5-perrengue-no-volante` | até ter 17/11 | Outro formato (ranking às cegas), carro. Diversifica, para não ser só sorteio |
+| 5 | **C06 Meu amigo secreto** | Pronto e revisado (nota 9), `efeito-6-meu-amigo-secreto` | sex 20 a ter 24/11 (nunca antes de 20/11) | 5º efeito do selo. Natal sem concorrente achado na pesquisa |
+| 6 | **C05 Meu 2027 vai ser** | Pronto e revisado (nota 8,5); montando no PC | **qui 03/12** (situação B) | O mais forte. Aprovado antes de 20/12 com folga para 2 reprovações |
+| 7 | **C07 Simpatia da Virada** | Pronto e revisado (nota 9), `efeito-7-simpatia-da-virada` | **qui 03/12**, junto com o C05 | Aprovado ~07/12, janela até ~06/01 cobre o pico (26/12 a 01/01). Assim o Vini grava os dois no mesmo momento |
 
 **Fica de fora:** o efeito de Black Friday. A revisão leva de 2 a 3 dias úteis, a equipe já está cheia com 4 pacotes novos e a Black Friday é da loja. Não compensa.
 
 **Atenção à duplicidade:** C01, C02, C06, C07 e C08 saem do mesmo template de sorteio. Título, cartas, cores e ícone têm que ser bem diferentes em cada um (regra de duplicidade ❓). A QA confere isso em todo pacote.
+
+**Conferência cruzada dos 7 (06/11, gerente):**
+- **Nomes:** os 7 são diferentes entre si e das alternativas dos outros (Torcedômetro, Eu no grupo da família, Meu 2027 vai ser, Meu próximo carro, Perrengue no volante, Meu amigo secreto, Simpatia da Virada; todos com até 22 caracteres). Se são únicos no Effect House inteiro: ❓ (cada guia manda conferir antes do envio).
+- **Textos:** nenhuma carta se repete igual entre efeitos. Um par conta a mesma piada ao contrário: **C05 "LAVA O CARRO E NÃO CHOVE"** (bolha CARRO) e **C09 "LAVAR O CARRO E CHOVER"** (carta 05). Não reprova, mas quem usar os dois vê a repetição. Se a equipe quiser zerar isso, a troca é no C09, antes da montagem: carta 05 pela reserva R1 "VOLANTE PELANDO" (Parte 17 do guia do C09). O C05 não muda. Parecidos, mas aceitáveis: C01 "CARDÍACO NOS ACRÉSCIMOS" e C05 "GOL NOS ACRÉSCIMOS"; C01 "MANDA ÁUDIO NO INTERVALO" e C08 "MANDO ÁUDIO DE 4 MINUTOS".
+- **Visual:** dá para distinguir. C01 tem etiqueta laranja/violeta/rosa com selo de emoji; C08, balões de conversa; C05, só letra branca; C02, etiqueta com faixa de asfalto e carrinho em cima (amarelo, turquesa, coral, grafite); C09, painel quadrado com desenho (amarelo, laranja, grafite, verde-limão); C06, etiqueta de presente verde e kraft; C07, roxo-noite com moldura dourada e fogos. Os pares mais próximos são **C02 e C09** (os dois têm amarelo, asfalto e carro e são enviados na mesma semana) e, nos arquivos de ícone, **C05 e C07** (os dois com fundo roxo). Como o ícone do formulário 5.16 sai do **Create Icon** (ordem de 06/11, 05:50), esses arquivos de ícone não vão para o envio, e o risco fica baixo.
+
+### 6.3 Pacotes do lote 2 (prontos em 06/11)
+
+Cada pasta tem `textos.md/json`, `assets/` (com `gerar.py`), `guia-montagem.md` (v1.1), `lancamento.md` e `revisao-qa.md`. Todos passaram pela QA em 06/11 e estão liberados para montar, **assim que o coordenador publicar os arquivos e puser o efeito na seção 2 do `PRONTO-PARA-MONTAR.md`**.
+
+| Efeito | Pasta | Template | Nota QA | Enviar | Estreia (D1) | Vini grava |
+|---|---|---|---|---|---|---|
+| C02 Meu próximo carro | `efeito-4-meu-proximo-carro` | Sorteio (mesmo do C01) | 9 | até ter 17/11 | qui 26/11, 19h | 22/11 (e 29/11) |
+| C09 Perrengue no volante | `efeito-5-perrengue-no-volante` | Ranking às cegas | 8,5 | até ter 17/11 | qua 25/11, 18h | 22/11 (e 29/11) |
+| C06 Meu amigo secreto | `efeito-6-meu-amigo-secreto` | Sorteio | 9 | sex 20 a ter 24/11, **nunca antes** | seg 30/11, 19h | 29/11 |
+| C07 Simpatia da Virada | `efeito-7-simpatia-da-virada` | Sorteio | 9 | **só qui 03/12**, junto com o C05 | sáb 19/12, 12h | 12/12 |
+
+**O desafio de Randomizer muda o envio, e cada guia trata disso de um jeito.** Até o Vini decidir sobre o "Nov Social Randomizer Sub Challenge":
+- **C02:** monta, testa e espera, sem prazo-limite. Em 16/11 avisa a nuvem.
+- **C09:** é ranking, então não está na lista de espera. Se em ter 17/11 não houver decisão nem ordem nova, envia com Challenge vazio.
+- **C06:** espera até ter 24/11, 12h. Depois disso, envia com Challenge vazio.
+- **C07:** espera sem prazo-limite, relendo as ordens às 9h e às 15h.
+
+A equipe mantém a estratégia: **o prazo de envio de cada efeito vale mais que o desafio.** O coordenador tem que fechar isso numa ordem só no `PRONTO-PARA-MONTAR.md`. Sugestão: se o Vini não decidir até **qui 12/11**, o C01 sai sem desafio na sex 13/11 (a meta dele), o C02 até ter 17/11 e o C07 em 03/12, como o C09 e o C06 já fazem. Assim, nenhum efeito fica preso por tempo indefinido e a meta M2 (5 publicados até 27/11) não escorrega. A decisão é do coordenador ❓.
 
 ### 6.2 Depois da admissão (os que podem pagar)
 
@@ -227,7 +280,7 @@ Os números são chutes calibrados da equipe, não dados de mercado. Os efeitos 
 
 | # | Risco | Chance | Como evitar |
 |---|---|---|---|
-| R1 | **O Montador fica parado** porque os arquivos não foram publicados (hoje as 3 pastas estão fora do git e o `PRONTO-PARA-MONTAR.md` não existe) | Alta, hoje | Coordenador publica até sáb 07/11 e põe no arquivo a ordem e a data "enviar a partir de" de cada efeito (C05 e C07: só em 03/12; C06: só a partir de 20/11) |
+| R1 | **O Montador fica parado** porque os arquivos não foram publicados. O `PRONTO-PARA-MONTAR.md` já existe, e C08 e C01 já foram para o PC. **O lote 2 ainda tem arquivos fora do git ou modificados sem commit** (guias, lançamentos, revisões e scripts das 4 pastas, e quase todos os assets do C06) | Alta, hoje | Coordenador faz commit/push das pastas `efeito-4` a `efeito-7` e põe os 4 na seção 2 do `PRONTO-PARA-MONTAR.md`, com a data "enviar a partir de" de cada um (C06: só a partir de 20/11; C07: só em 03/12) |
 | R2 | **Base fria: o selo não sai** | Média a alta | 7 tentativas em vez de 5; convites a criadores de fora do RS; régua do D7 (seção 5.3) |
 | R3 | O Vini não grava, ou some no meio | Média | Plano mínimo como padrão; momentos curtos e sempre no fim de semana; tudo agendado de uma vez quando o app deixar |
 | R4 | Reprovação por marca, time ou duplicidade | Baixa a média | Nada de time ou marca; cartas reservas prontas; QA de duplicidade entre os sorteios |
@@ -242,6 +295,9 @@ Os números são chutes calibrados da equipe, não dados de mercado. Os efeitos 
 | R13 | Bebida, aposta, carro andando no vídeo → reprovação ou derrubada do vídeo | Baixa | Checklist de cada lançamento; carro sempre parado e desligado |
 | R14 | Admissão demora e o Carnaval passa | Média ❓ | Regra da seção 5.4 |
 | R15 | Regras do programa mudam (limiar, janela, região) | Baixa ❓ | Analista confere toda semana as Release Notes e o FAQ do ECR (via busca) |
+| R16 | **Envio preso pelo desafio:** sem a decisão do Vini, C01, C02 e C07 não têm data-limite para sair, e M2 escorrega | Média | **Resolvido em 06/11:** regra única no `PRONTO-PARA-MONTAR.md` (Atualização 07:10 UTC). Sem decisão até qui 12/11, C01 sai em 13/11, C02 até 17/11, C06 de 20 a 24/11, C07 em 03/12, todos sem desafio |
+| R17 | **Duplicidade:** 5 sorteios do mesmo template na conta (C01, C02, C06, C07, C08) | Média ❓ | Visual, textos e temas diferentes (6.1). Se um voltar como "duplicado", o Montador para e avisa. A equipe decide se os seguintes mudam antes de enviar |
+| R18 | **Posts batendo horário** entre efeitos no plano completo | Média, só no plano completo | Calendário único da 3.1 vale por cima das tabelas de cada lançamento |
 
 ---
 
@@ -256,6 +312,8 @@ Os números são chutes calibrados da equipe, não dados de mercado. Os efeitos 
 7. ❓ Se o link https://effecthouse.tiktok.com/download abre direto (a busca de hoje não achou a página oficial; o programa já deve estar instalado, então isso só importa se precisar reinstalar).
 8. ❓ Datas e horários dos estaduais de janeiro.
 9. ❓ Catálogo atual da Car Shop (que acessórios existem), para casar os vídeos de venda com os efeitos de carro.
+10. ❓ **Decisão do Vini sobre o desafio "Nov Social Randomizer Sub Challenge"** (aceitar ou não os termos). Vale para C01, C02, C06 e C07, e para o C09 se as regras aceitarem ranking. Não tem link web direto: a página só abre dentro do Effect House, e a equipe leva o resumo dos termos para ele.
+11. ✅ Resposta padrão para "onde compra?" nos comentários dos vídeos de efeito: **"Te chamo no direct 😉"** em todos os efeitos (decidido pelo coordenador em 06/11). O produto só aparece na mensagem direta, nunca no vídeo do efeito nem nos comentários. Os `lancamento.md` do C09, C06 e C07 já foram ajustados.
 
 ## 9. Fontes
 

@@ -82,21 +82,21 @@ ORDEM_CORES = ["pinheiro", "dourado", "kraft", "creme"]
 
 # ---------------------------------------------------------------- geometria (em 1x)
 # Etiqueta: retângulo com a ponta da esquerda chanfrada (onde fica o ilhós).
-TAG_P = [(52, 94), (498, 94), (498, 240), (52, 240), (14, 202), (14, 132)]
+TAG_P = [(54, 94), (494, 94), (494, 232), (54, 232), (18, 196), (18, 130)]
 TAG_R = 14                  # raio dos cantos
 BORDA = 6                   # borda dourada
-FURO_C = (36, 167)          # ilhós
+FURO_C = (38, 163)          # ilhós
 FURO_R = 7
 ILHOS_R = 14
-TEXT_AREA = (66, 106, 482, 230)  # x0, y0, x1, y1 onde o texto pode ficar (416 px úteis)
+TEXT_AREA = (70, 104, 478, 224)  # x0, y0, x1, y1 onde o texto pode ficar (408 px úteis)
 TAM_MAX = 54
 TAM_MIN = 34
 # Caixa de presente (igual em todas as peças)
-BX = 274                    # centro x da caixa = centro da área de texto
+BX = 274                    # centro x da caixa = centro da área de texto (e do retângulo da etiqueta)
 CX0, CX1 = BX - 52, BX + 52  # frente da caixa
 CY0, CY1 = 68, 100
-ITEM_BOX = (124, 70)        # espaço máx. do resultado que sai da caixa (l x a, sem o contorno)
-ITEM_BASE = 78              # y da base do resultado (10 px dentro da caixa); topo fica >= 4 px
+ITEM_BOX = (124, 76)        # espaço máx. do resultado que sai da caixa (l x a, já com o contorno)
+ITEM_BASE = 78              # y da base do resultado (10 px dentro da caixa); topo fica a ~6 px
 ESPACO_EXTRA = 1.0          # espaço a mais entre palavras (x espessura do contorno)
 SEC_DX = 86                 # distância dos adesivos ao centro da caixa
 
@@ -819,9 +819,9 @@ def etiqueta(p):
     size = (W * S, H * S)
     img = Image.new("RGBA", size, (0, 0, 0, 0))
     m_borda = mascara_tag(BORDA)
-    sombra = deslocar(m_borda, 0, 5 * S).filter(ImageFilter.GaussianBlur(5 * S))
-    img.alpha_composite(camada_cor(size, "#0A1A10", sombra, 0.55))
-    img.alpha_composite(camada_cor(size, p["shade"], deslocar(m_borda, 0, 5 * S)))
+    sombra = deslocar(m_borda, 0, 4 * S).filter(ImageFilter.GaussianBlur(3 * S))
+    img.alpha_composite(camada_cor(size, "#0A1A10", sombra, 0.50))
+    img.alpha_composite(camada_cor(size, p["shade"], deslocar(m_borda, 0, 4 * S)))
     preencher(img, m_borda, [(0, "#FFF0B8"), (0.45, "#F5C84C"), (1, "#C98A12")], (0.1, 0.9))
     m_corpo = mascara_tag(0)
     corpo = gradiente(W * S, H * S, [(0, p["top"]), (1, p["bot"])], (0.18, 0.82))
@@ -865,6 +865,8 @@ def etiqueta(p):
     preencher(img, anel, [(0, "#FFF3C4"), (0.5, "#F2C443"), (1, "#B57A0E")], (0.3, 0.7))
     d.ellipse([(cx - FURO_R - 1) * S, (cy - FURO_R - 1) * S, (cx + FURO_R + 1) * S, (cy + FURO_R + 1) * S],
               outline=rgb("#8A5A08"), width=int(1.4 * S))
+    furo = mascara_circulo(cx, cy, FURO_R - 0.5)
+    img.putalpha(ImageChops.subtract(img.split()[3], furo))
     return img
 
 
@@ -1005,7 +1007,8 @@ def resultado(img, spec):
     """O que sai da caixa: desenho/emoji com contorno creme e sombra, base dentro da caixa."""
     main = spec["main"]
     esc = spec.get("escala", 1.0)
-    lw, lh = ITEM_BOX[0] * esc * S, ITEM_BOX[1] * esc * S
+    cpad = int(2.6 * S) + 4                      # folga que o contorno creme acrescenta de cada lado
+    lw, lh = ITEM_BOX[0] * esc * S - 2 * cpad, ITEM_BOX[1] * esc * S - 2 * cpad
     if callable(main):
         im = main()
     else:
@@ -1016,6 +1019,7 @@ def resultado(img, spec):
     im = com_contorno(im, int(2.6 * S))
     ims, pad = com_sombra(im, 0, int(1.5 * S), 2 * S, 0.30)
     x = BX * S - ims.width / 2
+    pad += cpad - int(1.0 * S)                   # base visível do contorno fica ~1 px dentro da caixa
     y = ITEM_BASE * S - (ims.height - pad)
     img.alpha_composite(ims, (int(round(x)), int(round(y))))
 
@@ -1106,7 +1110,7 @@ def carta(item, paleta_nome, chave_ilustra):
     barbante(img)
     caixa_fundo(img)
     # brilhos atrás do resultado
-    for (x, y, r) in ((BX - 78, 14, 7), (BX - 66, 50, 4), (BX + 70, 6, 5)):
+    for (x, y, r) in ((BX - 78, 16, 7), (BX - 66, 50, 4), (BX + 70, 12, 5)):
         brilho(img, x * S, y * S, r * S)
     resultado(img, spec)
     caixa_frente(img)
@@ -1133,11 +1137,11 @@ def titulo(com_toque=False):
         brilho(img, x * S, y * S, r * S)
     linhas = [item.strip() for item in ("NO AMIGO SECRETO", "EU VOU GANHAR…")]
     if com_toque:
-        desenhar_texto(img, linhas, (66, 100, 482, 200), p["contorno"], (CREME, OURO),
+        desenhar_texto(img, linhas, (70, 98, 478, 190), p["contorno"], (CREME, OURO),
                        tamanhos=(40, 50), tam_min=28)
         pilula_toque(img)
     else:
-        desenhar_texto(img, linhas, (66, 104, 482, 230), p["contorno"], (CREME, OURO),
+        desenhar_texto(img, linhas, (70, 102, 478, 224), p["contorno"], (CREME, OURO),
                        tamanhos=(46, 58), tam_min=30)
     return reduzir(img)
 
@@ -1151,7 +1155,7 @@ def pilula_toque(img):
     mao = emoji("👆", 22 * S)
     w = tw + mao.width + 28 * S
     h = 30 * S
-    cx, cy = BX * S, 220 * S
+    cx, cy = BX * S, 211 * S
     box = [cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2]
     d.rounded_rectangle([box[0] - 3 * S, box[1] - 3 * S, box[2] + 3 * S, box[3] + 3 * S], radius=18 * S,
                         fill=rgb("#F5C84C"))
@@ -1278,33 +1282,36 @@ def icone(tam_final=162, estilo="principal"):
         q = _interrogacao(t, t * 0.30, "#0E4A31", "#0E4A31", 2)
         colar_centro(img, q, cx_, cy + t * 0.005)
     else:
-        cx_ = t / 2
+        # caixa aberta, "?" inteiro saindo de dentro e tampa voando à esquerda (tudo dentro da área segura)
         caixa, tampa = _caixa_icone(t, aberta=True, cor_caixa=("#3FB27A", "#10583A"))
+        desloc = int(0.03 * t)                   # caixa um pouco mais baixa que no ícone principal
         cs, pad = com_sombra(caixa, 0, int(t * 0.02), int(t * 0.025), 0.40, "#5E3300")
-        # "?" saindo de dentro
-        q = _interrogacao(t, t * 0.52, CREME, "#0B3A26", t * 0.022)
-        qs, qpad = com_sombra(q, 0, int(t * 0.012), int(t * 0.015), 0.35, "#3A2406")
-        # raios de "surpresa"
         rd = ImageDraw.Draw(img)
-        for ang in (-150, -122, -90, -58, -30):
+        qx, qbase = 0.57 * t, 0.505 * t
+        # raios de "surpresa" (lado direito; a tampa ocupa o esquerdo)
+        for ang in (-58, -30, -2):
             a = math.radians(ang)
-            r1, r2 = 0.30 * t, 0.42 * t
-            p1 = (cx_ + r1 * math.cos(a), 0.47 * t + r1 * math.sin(a))
-            p2 = (cx_ + r2 * math.cos(a), 0.47 * t + r2 * math.sin(a))
+            r1, r2 = 0.23 * t, 0.31 * t
+            ocx, ocy = qx, 0.31 * t
+            p1 = (ocx + r1 * math.cos(a), ocy + r1 * math.sin(a))
+            p2 = (ocx + r2 * math.cos(a), ocy + r2 * math.sin(a))
             rd.line([p1, p2], fill=rgb("#5E3300"), width=int(t * 0.040))
             rd.line([p1, p2], fill=rgb("#FFFFFF"), width=int(t * 0.022))
-        # interior da caixa
-        rd.polygon([(0.20 * t, 0.50 * t), (0.80 * t, 0.50 * t), (0.74 * t, 0.44 * t), (0.26 * t, 0.44 * t)],
+        # boca da caixa (interior)
+        yb = 0.50 * t + desloc
+        rd.polygon([(0.20 * t, yb), (0.80 * t, yb), (0.74 * t, yb - 0.06 * t), (0.26 * t, yb - 0.06 * t)],
                    fill=rgb("#3A2406"))
-        rd.polygon([(0.215 * t, 0.495 * t), (0.785 * t, 0.495 * t), (0.735 * t, 0.452 * t), (0.265 * t, 0.452 * t)],
-                   fill=rgb("#0A2F1F"))
-        img.alpha_composite(qs, (int(cx_ - qs.width / 2 + t * 0.01), int(0.56 * t - qs.height + qpad)))
-        img.alpha_composite(cs, (-pad, -pad))
-        # tampa voando, inclinada
+        rd.polygon([(0.215 * t, yb - 0.005 * t), (0.785 * t, yb - 0.005 * t), (0.735 * t, yb - 0.048 * t),
+                    (0.265 * t, yb - 0.048 * t)], fill=rgb("#0A2F1F"))
+        q = _interrogacao(t, t * 0.44, CREME, "#0B3A26", t * 0.022)
+        qs, qpad = com_sombra(q, 0, int(t * 0.012), int(t * 0.015), 0.35, "#3A2406")
+        img.alpha_composite(qs, (int(qx - qs.width / 2), int(qbase - qs.height + qpad)))
+        img.alpha_composite(cs, (-pad, -pad + desloc))
         tb = recortar(tampa)
-        tb = tb.rotate(-24, resample=Image.BICUBIC, expand=True)
+        tb = tb.resize((int(tb.width * 0.52), int(tb.height * 0.52)), Image.LANCZOS)
+        tb = tb.rotate(26, resample=Image.BICUBIC, expand=True)
         tbs, tpad = com_sombra(tb, 0, int(t * 0.015), int(t * 0.02), 0.35, "#5E3300")
-        img.alpha_composite(tbs, (int(0.80 * t - tbs.width / 2), int(0.22 * t - tbs.height / 2)))
+        img.alpha_composite(tbs, (int(0.255 * t - tbs.width / 2), int(0.27 * t - tbs.height / 2)))
     out = img.resize((tam_final, tam_final), Image.LANCZOS) if tam_final != t else img
     return out.convert("RGB")
 

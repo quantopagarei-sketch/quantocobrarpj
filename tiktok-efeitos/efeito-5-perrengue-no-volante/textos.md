@@ -1,6 +1,6 @@
 # Perrengue no volante: textos do efeito
 
-Efeito C09 · versão dos textos 1.0 · 06/11/2026 · envio previsto até 17/11/2026 · Os mesmos dados estão em `textos.json` (para o designer).
+Efeito C09 · versão dos textos 1.1 · 06/11/2026 · envio previsto até 17/11/2026 · Os mesmos dados estão em `textos.json` (para o designer).
 
 **Vini, você não precisa fazer nada com este arquivo.** Ele está aqui só pra você ver o que vai aparecer no efeito. Quem usa é a equipe (designer e montador).
 
@@ -73,6 +73,8 @@ Tem perrengue grande (pneu sem estepe, bateria) e pequeno (baliza, esquecer a va
 ### Extras para a versão com rodízio (opcional)
 
 Só entram se, no teste, o template com 14 imagens parar certinho depois da 10ª escolha. Aí cada rodada sorteia 10 dos 14 (Index Generator em Shuffle), e a pessoa tem motivo pra jogar de novo. Se der qualquer problema, fica a versão padrão. **Não atrasar o envio por isso.** (a confirmar)
+
+**Revisão do QA (06/11):** o primeiro envio é **sempre** a versão padrão de 10. O rodízio pode ser testado no PC, mas só entra depois, como atualização, se a equipe decidir. Motivo: um relato diz que o efeito publicado se comportou diferente do editor quando havia mais imagens que posições.
 
 | Nº | Perrengue | Emoji |
 |---:|---|:-:|

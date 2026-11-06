@@ -1,6 +1,6 @@
 # Meu próximo carro: textos do efeito
 
-Efeito C02 · versão dos textos 1.0 · 06/11/2026 · Envio previsto: até 17/11/2026 · Os mesmos dados estão em `textos.json` (para o designer).
+Efeito C02 · versão dos textos 1.1 · 06/11/2026 (revisada pela QA) · Envio previsto: até 17/11/2026 · Os mesmos dados estão em `textos.json` (para o designer).
 
 **Vini, você não precisa fazer nada com este arquivo.** Ele está aqui só pra você ver o que vai aparecer no efeito. Quem usa é a equipe (designer e montador).
 
@@ -53,7 +53,7 @@ Tem de tudo: lata velha, carro de estilo, dívida, sonho e zoeira sem carro nenh
 | 13 | O DOS SONHOS / (EM MINIATURA) | zoeira | 🤏 |
 | 14 | COM LUZ DA / INJEÇÃO ACESA | lata velha | ⚠️ |
 | 15 | EMPRESTADO / DO CUNHADO | família | 🔑 |
-| 16 | SOM VALE MAIS / QUE O CARRO | estilo | 🔊 |
+| 16 | COM SOM MAIS / CARO QUE ELE | estilo | 🔊 |
 | 17 | AUTOMÁTICO E / COM AR GELADO | sonho | ❄️ |
 | 18 | MOVIDO A / ESPERANÇA | lata velha | 🤞 |
 | 19 | ESSE MESMO / SÓ QUE LAVADO | família | 🫧 |
@@ -80,7 +80,7 @@ Quatro cartas lembram coisas que se compram pro carro: câmera de ré, aromatiza
 
 ### O que mudou em relação à ideia original
 
-- "REBAIXADO COM SOM QUE TREME O VIDRO" virou duas cartas: **REBAIXADO QUE RASPA EM TUDO** e **SOM VALE MAIS QUE O CARRO** (não cabia em 2 linhas, e "treme o vidro" lembra som alto incomodando vizinho)
+- "REBAIXADO COM SOM QUE TREME O VIDRO" virou duas cartas: **REBAIXADO QUE RASPA EM TUDO** e **COM SOM MAIS CARO QUE ELE** (não cabia em 2 linhas, e "treme o vidro" lembra som alto incomodando vizinho). Na revisão de QA (v1.1), a segunda carta, que era "SOM VALE MAIS QUE O CARRO", virou "COM SOM MAIS CARO QUE ELE": era a única que não continuava a frase do título
 - "CARRO DE TIO COM ADESIVO DA FAMÍLIA" virou **COM ADESIVO DA FAMÍLIA** (não cabia; o desenho dos bonequinhos já faz a piada do carro de tio)
 - "CARRO DE APP COM BALA NO CONSOLE" virou **CARRO DE APP COM BALINHA** (não cabia; "balinha" é como todo mundo fala)
 - "PICAPE DE AGRO" virou **CAMINHONETE DO AGRO** ("caminhonete" é como se fala no RS e no interior; "do agro" é a gíria)

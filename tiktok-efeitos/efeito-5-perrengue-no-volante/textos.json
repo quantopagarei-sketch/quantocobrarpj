@@ -1,6 +1,6 @@
 {
   "efeito_id": "C09",
-  "versao_textos": "1.0",
+  "versao_textos": "1.1",
   "data": "2026-11-06",
   "envio_previsto": "até 17/11/2026",
   "template": "Blind Rank (Templates > aba Interactive)",
@@ -67,9 +67,9 @@
   "versao_rodizio_opcional": {
     "itens": 14,
     "quais": "resultados 1 a 10 + extras 11 a 14 (pasta extras/)",
-    "regra": "cada rodada sorteia 10 das 14 (Index Generator em Shuffle). Só usar se, no teste, o jogo parar certinho depois da 10ª escolha. Se der qualquer problema, ficar com a versão padrão. Não atrasar o envio por isso. (a confirmar)"
+    "regra": "cada rodada sorteia 10 das 14 (Index Generator em Shuffle). Só usar se, no teste, o jogo parar certinho depois da 10ª escolha. Se der qualquer problema, ficar com a versão padrão. Não atrasar o envio por isso. (a confirmar) Revisão do QA (06/11): o primeiro envio é sempre a versão padrão de 10; o rodízio só entra depois, como atualização, se a equipe decidir."
   },
-  "se_o_template_tiver_so_5_posicoes": "usar as 10 principais e sortear 5 por rodada (Index Generator em Shuffle). Subtítulo do título: '1 = PIOR · 5 = DE BOA'. (a confirmar; a busca indica 10 posições)",
+  "se_o_template_tiver_so_5_posicoes": "usar só 5 cartas (01, 02, 07, 09 e 10): quantidade de cartas igual à de posições (revisão do QA, 06/11). Subtítulo do título: '1 = PIOR · 5 = DE BOA'. (a confirmar; a busca indica 10 posições)",
   "regras_texto": {
     "caixa": "tudo em MAIÚSCULAS, com acento",
     "max_linhas": 2,

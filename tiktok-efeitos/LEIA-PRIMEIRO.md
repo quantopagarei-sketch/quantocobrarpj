@@ -17,7 +17,8 @@
    - A conta Car Shop foi criada no Brasil?
    - A conta é de **Empresa** ou **Pessoal**? (Se não souber, tudo bem: a equipe descobre.)
    - Para os vídeos dos efeitos: **plano mínimo** (uns 10 min por vez, só você, sem família) ou **plano completo** (com pai, mãe, mesa de domingo)? Se não responder, fica o mínimo.
-4. Se o app do TikTok pedir atualização:
+4. **Desafio do Effect House ("Nov Social Randomizer Sub Challenge", prêmio de até US$ 1.000):** a equipe te manda um resumo dos termos. Responda só **"aceito"** ou **"não aceito"**. Não existe link para abrir no navegador: a página do desafio só abre dentro do Effect House, no PC. Se quiser ler o texto inteiro, peça ao Montador para deixar a página aberta. **Quem aceita os termos é você, nunca a equipe.** Se você não responder, a ideia da equipe é enviar os efeitos sem o desafio, para não perder os prazos (a confirmar pelo coordenador).
+5. Se o app do TikTok pedir atualização:
    - Android: https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically
    - iPhone: https://apps.apple.com/br/app/tiktok/id835599320
 
@@ -26,7 +27,7 @@
 | Quando | Efeitos | Tempo |
 |---|---|---|
 | **dom 22/11** | Eu no grupo da família, Torcedômetro e, se já aprovados, Meu próximo carro e Perrengue no volante | ~10 min |
-| **dom 29/11** | Meu amigo secreto | ~5 min |
+| **dom 29/11** | Meu amigo secreto e, se couber, um vídeo curto do Meu próximo carro e outro do Perrengue no volante | ~5 a 10 min |
 | **sáb 12/12** | Meu 2027 vai ser e Simpatia da Virada | ~10 min |
 
 Em cada uma: abrir o efeito pelo link, gravar, e **agendar** os vídeos ali mesmo se o app mostrar essa opção. Se não mostrar, salve como rascunho e, no dia, abra, cole a legenda e toque em **Publicar** (1 min).
@@ -70,4 +71,9 @@ Para entrar no programa que paga pelos efeitos, a conta precisa ter **5 efeitos 
 | `efeito-1-torcedometro/` | C01, pronto: textos, imagens, guia de montagem, plano de lançamento, revisão de QA |
 | `efeito-2-seu-papel-no-grupo/` | C08 "Eu no grupo da família", pronto |
 | `efeito-3-meu-2027-vai-ser/` | C05, pronto (envio só em 03/12) |
-| `PRONTO-PARA-MONTAR.md` | **Ainda não existe.** O coordenador cria quando publicar os arquivos. Sem ele, o Montador fica esperando |
+| `efeito-4-meu-proximo-carro/` | C02 "Meu próximo carro", pronto e revisado (envio até 17/11) |
+| `efeito-5-perrengue-no-volante/` | C09 "Perrengue no volante", pronto e revisado (envio até 17/11) |
+| `efeito-6-meu-amigo-secreto/` | C06 "Meu amigo secreto", pronto e revisado (envio entre 20 e 24/11, nunca antes) |
+| `efeito-7-simpatia-da-virada/` | C07 "Simpatia da Virada", pronto e revisado (envio só em 03/12, junto com o C05) |
+| `PRONTO-PARA-MONTAR.md` | As ordens para o Montador, na ordem de montagem. Só o coordenador mexe. Um efeito só é montado depois de entrar na seção 2 desse arquivo |
+| `STATUS.md` | Situação de cada efeito (enviado, em análise, aprovado) e as pendências do Vini |
