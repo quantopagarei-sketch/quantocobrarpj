@@ -29,8 +29,11 @@
     return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
   }
   function baseName(p) { return String(p || '').replace(/^.*[\\/]/, ''); }
-  // iPhone prefixa anexos com "00000023-"
-  function displayFileName(name) { return baseName(clean(name)).replace(/^\d{8}-(?=.)/, '').trim(); }
+  // marcas de direção que o WhatsApp põe no texto; o resto do texto fica exatamente como veio
+  var BIDI = /[‎‏‪-‮⁦-⁩﻿]/g;
+  function stripBidi(s) { return String(s == null ? '' : s).replace(BIDI, ''); }
+  // iPhone prefixa anexos com um número sequencial, ex.: "00000023-Proposta.pdf"
+  function displayFileName(name) { return baseName(stripBidi(name)).replace(/^0\d{7}-(?=.)/, '').trim(); }
   function decodeText(bytes) {
     var t;
     try { t = new TextDecoder('utf-8', { fatal: true }).decode(bytes); }
@@ -149,15 +152,21 @@
   var RE_OMIT_IOS = /^(imagem|vídeo|áudio|figurinha|documento|gif|cartão de contato|image|video|audio|sticker|document|contact card|imagen|vídeo|audio|sticker|documento|tarjeta de contacto)\s+(ocultad[oa]|omitid[oa]|omitted|omitida)$/i;
   var RE_DELETED = /^(Esta mensagem foi apagada|Você apagou esta mensagem|Mensagem apagada|This message was deleted|You deleted this message|Se eliminó este mensaje|Eliminaste este mensaje)\.?$/i;
   var RE_EDITED = /\s*<\s*(Mensagem editada|This message was edited|Se editó este mensaje)\s*>\s*$/i;
-  var RE_GROUP_SYS = /(criou o grupo|adicionou|saiu|removeu|created group|added|left|removed|creó el grupo|añadió)/i;
+  var RE_GROUP_SYS = /(criou o grupo|criou este grupo|created group|created this group|adicionou|added|entrou usando|joined using|saiu|left|removeu|removed|creó el grupo|añadió|se unió)/i;
+  var RE_SYS_PHRASES = /(criptografia de ponta a ponta|end-to-end encrypted|cifrad[oa]s de extremo a extremo|criou (o|este) grupo|created (group|this group)|adicionou|added|entrou usando|joined using|saiu|left|removeu|removed|mudou (o|a|para|seu)|changed (the|their|to|this)|código de segurança|security code|mensagens temporárias|disappearing messages|conta comercial|business account|Toque para saber mais|Tap to learn more|bloqueou|blocked|fixou|pinned)/i;
+  var RE_OMIT_TAIL = /^(.*?)\s*(imagem|vídeo|áudio|figurinha|documento|gif|image|video|audio|sticker|document)\s+(omitid[oa]|ocultad[oa]|omitted)\s*$/i;
   var RE_TITLE = /^(?:Conversa do WhatsApp com|Conversa no WhatsApp com|Conversa do WhatsApp -|WhatsApp Chat with|WhatsApp Chat -|Chat de WhatsApp con|Chat de WhatsApp -|Discussion WhatsApp avec|WhatsApp Chat mit)\s*/i;
+  var DAY = 86400000;
 
   function titleFromFileName(name) {
-    var b = baseName(clean(name)).replace(/\.(txt|zip)$/i, '').replace(/\s*\(\d+\)\s*$/, '').trim();
-    if (!b || /^_?chat$/i.test(b)) return null;
-    if (RE_TITLE.test(b)) return b.replace(RE_TITLE, '').trim() || null;
-    if (/^WhatsApp Chat$/i.test(b)) return null;
-    return b;
+    var b = baseName(stripBidi(name)).replace(/\.(txt|zip)$/i, '').replace(/\s*\(\d+\)\s*$/, '').trim();
+    if (!b || /^_?chat$/i.test(b) || /^WhatsApp Chat$/i.test(b)) return null;
+    var pref = RE_TITLE.test(b);
+    if (pref) b = b.replace(RE_TITLE, '').trim();
+    else if (/^(archive|arquivo|download|export|exportação|conversa|chat|whatsapp)(\s|$|[-_])/i.test(b)) return null;
+    // cópia renomeada pelo app Arquivos do iPhone: "Nome 2"
+    if (!Phone.looksLike(b)) b = b.replace(/\s+\d{1,2}$/, '').trim();
+    return b || null;
   }
 
   function pickFormat(lines) {
@@ -170,13 +179,14 @@
     if (!a && !i) return null;
     return i > a ? 'ios' : 'android';
   }
+  function looksLikeExport(text) { return !!pickFormat(String(text).replace(/\r\n?/g, '\n').split('\n').slice(0, 60)); }
 
   function parseExportText(raw, opts) {
     opts = opts || {};
-    var text = String(raw).replace(/\r\n?/g, '\n');
+    var text = String(raw).replace(/^﻿/, '').replace(/\r\n?/g, '\n');
     var lines = text.split('\n');
     var fmt = pickFormat(lines);
-    var res = { title: opts.fileName ? titleFromFileName(opts.fileName) : null, format: fmt, messages: [], authors: {}, groupHints: 0, dateOrder: 'dmy', lang: 'pt' };
+    var res = { title: opts.fileName ? titleFromFileName(opts.fileName) : null, format: fmt, messages: [], authors: {}, sysAuthors: {}, groupHints: 0, dateOrder: 'dmy', lang: 'pt', folded: 0 };
     if (!fmt) return res;
     var RE = fmt === 'ios' ? HDR_IOS : HDR_ANDROID;
     var raws = [], cur = null;
@@ -184,19 +194,19 @@
       var line = lines[k], cl = clean(line);
       var m = RE.exec(cl);
       if (m) {
-        cur = { m: m, body: line.slice(0), first: cl.slice(m[0].length), rest: [] };
+        cur = { m: m, line: line, rest: [] };
         // corpo cru sem o cabeçalho (mantém U+200E para reconhecer avisos do iPhone)
         var rawNoHdr = line.replace(/^[‎‏‪-‮﻿]+/, '');
         var rm = RE.exec(clean(rawNoHdr));
-        cur.rawBody = rm ? stripPrefix(rawNoHdr, rm[0].length) : cur.first;
+        cur.rawBody = rm ? stripPrefix(rawNoHdr, rm[0].length) : cl.slice(m[0].length);
         raws.push(cur);
       } else if (cur) {
         cur.rest.push(line);
       }
     }
     // ordem da data (dia/mês ou mês/dia)
-    var dmy = 0, mdy = 0, ymd = 0;
-    for (var r = 0; r < raws.length; r++) {
+    var dmy = 0, mdy = 0, ymd = 0, r;
+    for (r = 0; r < raws.length; r++) {
       var g = raws[r].m;
       if (g[1].length === 4) { ymd++; continue; }
       if (+g[1] > 12) dmy++; else if (+g[2] > 12) mdy++;
@@ -205,9 +215,9 @@
     var es = /\(archivo adjunto\)|<Multimedia omitido>|<adjunto:/.test(text);
     res.lang = en ? 'en' : es ? 'es' : 'pt';
     res.dateOrder = ymd > dmy + mdy ? 'ymd' : dmy > mdy ? 'dmy' : mdy > dmy ? 'mdy' : (en ? 'mdy' : 'dmy');
-    var seq = 0;
-    for (var j = 0; j < raws.length; j++) {
-      var it = raws[j], gg = it.m, Y, M, D;
+    var count = {};
+    for (r = 0; r < raws.length; r++) {
+      var it = raws[r], gg = it.m, Y, M, D;
       if (res.dateOrder === 'ymd' || gg[1].length === 4) { Y = +gg[1]; M = +gg[2]; D = +gg[3]; }
       else if (res.dateOrder === 'mdy') { M = +gg[1]; D = +gg[2]; Y = +gg[3]; }
       else { D = +gg[1]; M = +gg[2]; Y = +gg[3]; }
@@ -215,17 +225,38 @@
       var hh = +gg[4], mi = +gg[5], ss = gg[6] ? +gg[6] : 0, ap = gg[7] ? gg[7].replace(/[\s.]/g, '').toLowerCase() : '';
       if (ap === 'pm' && hh < 12) hh += 12;
       if (ap === 'am' && hh === 12) hh = 0;
-      var ts = new Date(Y, M - 1, D, hh, mi, ss).getTime();
-      if (!isFinite(ts)) continue;
-      var body = it.rawBody, author = null, msgRaw = body;
-      var ci = indexOfAuthorSep(body);
-      if (ci > 0) { author = clean(body.slice(0, ci)).trim(); msgRaw = body.slice(ci + 2); }
-      var restText = it.rest.join('\n');
-      var full = msgRaw + (it.rest.length ? '\n' + restText : '');
+      it.ts = (M >= 1 && M <= 12 && D >= 1 && D <= 31 && hh < 24 && mi < 60) ? new Date(Y, M - 1, D, hh, mi, ss).getTime() : NaN;
+      var ci = indexOfAuthorSep(it.rawBody);
+      it.author = ci > 0 ? stripBidi(it.rawBody.slice(0, ci)).trim() : null;
+      it.body = ci > 0 ? it.rawBody.slice(ci + 2) : it.rawBody;
+      if (it.author) count[it.author] = (count[it.author] || 0) + 1;
+    }
+    // Linha com cara de cabeçalho dentro de uma mensagem (ex.: um cronograma "12/11/2026 08:00 - demolição"):
+    // a exportação é cronológica, então uma linha sem autor conhecido e fora da ordem do tempo volta para a mensagem anterior.
+    var trusted = raws.map(function (x) { return isFinite(x.ts) && x.author && count[x.author] > 1; });
+    var nextTs = new Array(raws.length), nx = null;
+    for (r = raws.length - 1; r >= 0; r--) { nextTs[r] = nx; if (trusted[r]) nx = raws[r].ts; }
+    var keep = [], prevTs = null, now = Date.now();
+    for (r = 0; r < raws.length; r++) {
+      var x = raws[r];
+      if (!trusted[r]) {
+        var odd = !isFinite(x.ts) || x.ts > now + DAY || (prevTs != null && x.ts < prevTs - DAY) || (nextTs[r] != null && x.ts > nextTs[r] + DAY);
+        if (odd && keep.length) { var pv = keep[keep.length - 1]; pv.rest.push(x.line); for (var q = 0; q < x.rest.length; q++) pv.rest.push(x.rest[q]); res.folded++; continue; }
+        if (!isFinite(x.ts)) continue;
+      }
+      keep.push(x);
+      if (trusted[r]) prevTs = x.ts;
+    }
+    var seq = 0;
+    for (var j = 0; j < keep.length; j++) {
+      var kk = keep[j], author = kk.author;
+      var full = kk.body + (kk.rest.length ? '\n' + kk.rest.join('\n') : '');
       var msg = parseBody(full, fmt, author);
-      msg.ts = ts; msg.author = author; msg.seq = seq++;
-      if (msg.sys && !author) res.groupHints += RE_GROUP_SYS.test(msg.text) ? 1 : 0;
-      if (author && !msg.sys) res.authors[author] = (res.authors[author] || 0) + 1;
+      msg.ts = kk.ts; msg.author = author; msg.seq = seq++;
+      if (msg.sys) {
+        if (RE_GROUP_SYS.test(msg.text)) res.groupHints++;
+        if (author) res.sysAuthors[author] = (res.sysAuthors[author] || 0) + 1;
+      } else if (author) res.authors[author] = (res.authors[author] || 0) + 1;
       res.messages.push(msg);
     }
     return res;
@@ -242,17 +273,15 @@
   function indexOfAuthorSep(body) {
     var i = body.indexOf(': ');
     if (i <= 0 || i > 90) return -1;
-    var name = clean(body.slice(0, i));
-    if (/[\n\r]/.test(name)) return -1;
     return i;
   }
   function parseBody(full, fmt, author) {
-    var lrm = /^[\s]*[‎]/.test(full);
-    var t = clean(full).replace(/^\s+/, '').replace(/\s+$/, '');
+    var lrm = /^\s*‎/.test(full);
+    var t = stripBidi(full).replace(/^\s+/, '').replace(/\s+$/, '');
     var out = { text: t, kind: 'text', media: null, sys: 0, edited: 0 };
     if (!author) { out.sys = 1; out.kind = 'system'; return out; }
     if (RE_EDITED.test(t)) { out.edited = 1; t = t.replace(RE_EDITED, ''); out.text = t; }
-    var firstLine = t.split('\n')[0], restLines = t.split('\n').slice(1).join('\n').trim();
+    var lines2 = t.split('\n'), firstLine = lines2[0], restLines = lines2.slice(1).join('\n').trim();
     var ma = RE_ATT_ANDROID.exec(firstLine);
     if (ma) {
       var nm = ma[1].trim();
@@ -272,53 +301,74 @@
     if (RE_OMIT.test(t)) { out.kind = 'omitted'; out.text = ''; return out; }
     var mo = RE_OMIT_IOS.exec(t);
     if (mo) { out.kind = 'omitted'; out.text = ''; out.omittedType = mo[1].toLowerCase(); return out; }
+    var mt = RE_OMIT_TAIL.exec(t);
+    if (mt && t.indexOf('\n') < 0) {
+      out.kind = 'omitted'; out.text = ''; out.omittedType = mt[2].toLowerCase();
+      var fn = /^(.+?\.[a-z0-9]{2,5})(\s*[•·].*)?$/i.exec(mt[1].trim());
+      if (fn) out.media = { name: fn[1].trim() };
+      return out;
+    }
     if (RE_DELETED.test(t)) { out.kind = 'deleted'; return out; }
     if (t === 'null') { out.kind = 'other'; out.text = ''; return out; }
-    if (fmt === 'ios' && lrm) { out.sys = 1; out.kind = 'system'; }
+    if (fmt === 'ios' && lrm && RE_SYS_PHRASES.test(t)) { out.sys = 1; out.kind = 'system'; }
     return out;
   }
 
-  // Quem é o contato e quem sou eu numa conversa exportada
+  // Quem é o contato e quem sou eu numa conversa exportada.
+  // Na dúvida, não marca ninguém como "eu" (melhor mostrar o nome do autor do que trocar os lados).
   function identifyExport(parsed, meNamesFolded, fileName) {
+    meNamesFolded = meNamesFolded || {};
     var title = parsed.title || null;
     var authors = Object.keys(parsed.authors);
-    var me = {}, other = null, k;
+    var sysAuthors = Object.keys(parsed.sysAuthors || {});
+    var me = {}, other = null, sure = false, k;
     var titleFold = title ? fold(title) : '';
     var titlePhone = title && Phone.looksLike(title) ? Phone.normalize(title) : null;
-    var isGroup = authors.length > 2 || parsed.groupHints > 0;
     function isTitle(a) {
-      if (titleFold && fold(a) === titleFold) return true;
+      var fa = fold(a);
+      if (titleFold && (fa === titleFold || fa.replace(/\s+\d{1,2}$/, '') === titleFold)) return true;
       if (titlePhone && Phone.looksLike(a)) return Phone.key(Phone.normalize(a)) === Phone.key(titlePhone);
       return false;
     }
+    var isGroup = authors.length > 2 || parsed.groupHints > 0;
     if (!isGroup) {
-      for (k = 0; k < authors.length; k++) if (isTitle(authors[k])) other = authors[k];
+      for (k = 0; k < authors.length; k++) if (isTitle(authors[k])) { other = authors[k]; sure = true; }
       if (!other) {
-        var mine = authors.filter(function (a) { return meNamesFolded[fold(a)]; });
-        var notMine = authors.filter(function (a) { return !meNamesFolded[fold(a)]; });
-        if (notMine.length === 1) other = notMine[0];
-        else if (authors.length === 1 && !mine.length) other = authors[0];
+        // iPhone: o aviso de criptografia vem no nome do contato
+        for (k = 0; k < sysAuthors.length; k++) if (authors.indexOf(sysAuthors[k]) >= 0 && !meNamesFolded[fold(sysAuthors[k])]) { other = sysAuthors[k]; sure = true; }
       }
-      for (k = 0; k < authors.length; k++) if (authors[k] !== other) me[authors[k]] = 1;
-    } else {
-      for (k = 0; k < authors.length; k++) if (meNamesFolded[fold(authors[k])]) me[authors[k]] = 1;
+      if (!other) {
+        var notMine = authors.filter(function (a) { return !meNamesFolded[fold(a)]; });
+        if (authors.length === 2 && notMine.length === 1) { other = notMine[0]; sure = true; }
+        else if (authors.length === 1 && notMine.length === 1) {
+          // só uma pessoa escreveu e ela não é o contato do título: quem escreveu foi você
+          if (title || sysAuthors.length) me[authors[0]] = 1;
+          else other = authors[0];
+        }
+      }
+      if (sure) for (k = 0; k < authors.length; k++) if (authors[k] !== other) me[authors[k]] = 1;
     }
+    for (k = 0; k < authors.length; k++) if (authors[k] !== other && meNamesFolded[fold(authors[k])]) me[authors[k]] = 1;
     var phone = titlePhone || (other && Phone.looksLike(other) ? Phone.normalize(other) : null);
-    var name = isGroup ? (title || 'Grupo') : (titlePhone ? (other && !Phone.looksLike(other) ? other : null) : (title || other));
-    var id = isGroup ? 'g:' + slug(title || fileName || 'grupo') : phone ? 'p:' + Phone.key(phone) : 'n:' + slug(title || other || fileName || 'contato');
-    return { id: id, name: name, phone: phone, isGroup: isGroup, me: me, other: other, inferredMe: isGroup ? [] : Object.keys(me) };
+    var name;
+    if (isGroup) name = title || 'Grupo';
+    else if (titlePhone) name = null;
+    else name = (other && !Phone.looksLike(other)) ? other : title;
+    var id = isGroup ? 'g:' + slug(title || fileName || 'grupo') : phone ? 'p:' + Phone.key(phone) : 'n:' + slug(name || fileName || 'contato');
+    return { id: id, name: name || null, phone: phone, isGroup: isGroup, me: me, other: other, inferredMe: !isGroup && sure ? authors.filter(function (a) { return a !== other; }) : [] };
   }
 
   // chave para não duplicar a mesma mensagem vinda de fontes diferentes
-  function msgBodyKey(ts, me, text, mediaName) {
+  var MEDIA_KINDS = { image: 1, audio: 1, video: 1, doc: 1, sticker: 1, omitted: 1 };
+  function msgBodyKey(ts, me, text, mediaName, kind) {
     var minute = Math.floor(ts / 60000);
-    var body = mediaName ? 'm:' + fold(displayFileName(mediaName)) : 't:' + fold(text).slice(0, 300);
+    var body = (mediaName || MEDIA_KINDS[kind]) ? 'm' : 't:' + fold(text).slice(0, 300);
     return hash(minute + '|' + (me ? 1 : 0) + '|' + body);
   }
   function makeKeyer(cid) {
     var seen = {};
-    return function (ts, me, text, mediaName) {
-      var b = msgBodyKey(ts, me, text, mediaName);
+    return function (ts, me, text, mediaName, kind) {
+      var b = msgBodyKey(ts, me, text, mediaName, kind);
       var n = (seen[b] = (seen[b] || 0) + 1);
       return cid + '|' + b + (n > 1 ? '.' + n : '');
     };
@@ -378,6 +428,9 @@
   }
   function utf8(s) { return new TextEncoder().encode(s); }
 
+  // nomes de arquivo em .zip feitos no Windows sem UTF-8 (página de código 850, a do Brasil)
+  var CP850 = "ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ðÐÊËÈıÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±‗¾¶§÷¸°¨·¹³²■ ";
+  function cp850(bytes) { var o = ''; for (var i = 0; i < bytes.length; i++) o += bytes[i] < 128 ? String.fromCharCode(bytes[i]) : CP850.charAt(bytes[i] - 128); return o; }
   function ZipReader(blob) { this.src = blob; this.entries = []; }
   ZipReader.prototype.bytes = async function (start, len) {
     return new Uint8Array(await this.src.slice(start, start + len).arrayBuffer());
@@ -409,7 +462,7 @@
       var loff = cv.getUint32(p + 42, true);
       var nameBytes = cd.subarray(p + 46, p + 46 + nl), name;
       if (flags & 0x800) name = new TextDecoder('utf-8').decode(nameBytes);
-      else { try { name = new TextDecoder('utf-8', { fatal: true }).decode(nameBytes); } catch (e) { name = new TextDecoder('ibm866').decode(nameBytes); } }
+      else { try { name = new TextDecoder('utf-8', { fatal: true }).decode(nameBytes); } catch (e) { name = cp850(nameBytes); } }
       var x = p + 46 + nl, xe = x + xl;
       while (x + 4 <= xe) {
         var id = cv.getUint16(x, true), sz = cv.getUint16(x + 2, true), q = x + 4;
@@ -695,7 +748,7 @@
     });
     var mc2 = cols(db, 'message'), md = has.message_media ? cols(db, 'message_media') : [];
     function c(table, list, name, alias) { return list.indexOf(name) >= 0 ? table + '.' + name + ' AS ' + alias : 'NULL AS ' + alias; }
-    var sql = 'SELECT m._id AS id, m.chat_row_id AS chat, ' + c('m', mc2, 'from_me', 'me') + ', m.timestamp AS ts, ' + c('m', mc2, 'message_type', 'type') + ', ' + c('m', mc2, 'text_data', 'text') + ', ' + c('m', mc2, 'sender_jid_row_id', 'sender');
+    var sql = 'SELECT m._id AS id, m.chat_row_id AS chat, ' + c('m', mc2, 'from_me', 'me') + ', m.timestamp AS ts, ' + c('m', mc2, 'message_type', 'type') + ', ' + c('m', mc2, 'text_data', 'text') + ', ' + c('m', mc2, 'sender_jid_row_id', 'sender') + ', ' + c('m', mc2, 'key_id', 'kid');
     if (md.length) sql += ', ' + c('mm', md, 'file_path', 'path') + ', ' + c('mm', md, 'mime_type', 'mime') + ', ' + c('mm', md, 'media_name', 'mname') + ', ' + c('mm', md, 'file_size', 'fsize') + ', ' + c('mm', md, 'media_caption', 'cap') + ' FROM message m LEFT JOIN message_media mm ON mm.message_row_id = m._id';
     else sql += ', NULL AS path, NULL AS mime, NULL AS mname, NULL AS fsize, NULL AS cap FROM message m';
     sql += ' WHERE m.chat_row_id IS NOT NULL AND m.timestamp > 0 ORDER BY m.chat_row_id, m.timestamp, m._id';
@@ -718,7 +771,7 @@
         var text = o.text == null ? '' : String(o.text);
         if (!text && o.cap) text = String(o.cap);
         if (kind === 'text' && !text) continue;
-        var m = { ts: +o.ts, me: o.me ? 1 : 0, kind: kind, text: text, seq: +o.id };
+        var m = { ts: +o.ts, me: o.me ? 1 : 0, kind: kind, text: text, seq: +o.id, keyId: o.kid ? String(o.kid) : null };
         if (ty === 15 || ty === 64) { m.kind = 'deleted'; m.text = m.me ? 'Você apagou esta mensagem' : 'Esta mensagem foi apagada'; }
         else if (o.path || o.mname) {
           var rel = relMediaPath(o.path);
@@ -752,13 +805,13 @@
     var rj = db.exec("SELECT DISTINCT key_remote_jid FROM messages WHERE key_remote_jid IS NOT NULL");
     if (rj.length) rj[0].values.forEach(function (v) {
       var j = String(v[0] || ''), at = j.indexOf('@'), user = at > 0 ? j.slice(0, at) : j, srv = at > 0 ? j.slice(at + 1) : '';
-      if (srv === 'broadcast' || srv === 'newsletter' || /^status/.test(user)) return;
+      if (at < 0 || user === '-1' || srv === 'broadcast' || srv === 'newsletter' || /^status/.test(user)) return;
       var ch = { jid: j, subject: subj[j] || null };
       if (srv === 'g.us') { ch.isGroup = true; ch.id = 'g:' + slug(user); }
       else { var d = Phone.digits(user); ch.phone = d.length >= 8 ? d : null; ch.id = ch.phone ? 'p:' + Phone.key(ch.phone) : 'l:' + slug(user); }
       chats[j] = ch;
     });
-    var sql = 'SELECT _id AS id, key_remote_jid AS jid, ' + c('key_from_me', 'me') + ', timestamp AS ts, ' + c('data', 'text') + ', ' + c('media_wa_type', 'type') + ', ' + c('media_name', 'mname') + ', ' + c('media_caption', 'cap') + ', ' + c('media_mime_type', 'mime') + ', ' + c('media_size', 'fsize') + ', ' + c('remote_resource', 'sender') + " FROM messages WHERE key_remote_jid IS NOT NULL AND timestamp > 0 ORDER BY key_remote_jid, timestamp, _id";
+    var sql = 'SELECT _id AS id, key_remote_jid AS jid, ' + c('key_from_me', 'me') + ', timestamp AS ts, ' + c('data', 'text') + ', ' + c('media_wa_type', 'type') + ', ' + c('media_name', 'mname') + ', ' + c('media_caption', 'cap') + ', ' + c('media_mime_type', 'mime') + ', ' + c('media_size', 'fsize') + ', ' + c('remote_resource', 'sender') + ', ' + c('key_id', 'kid') + " FROM messages WHERE key_remote_jid IS NOT NULL AND timestamp > 0 ORDER BY key_remote_jid, timestamp, _id";
     var total = 0;
     try { var cr = db.exec('SELECT COUNT(*) FROM messages'); total = cr.length ? cr[0].values[0][0] : 0; } catch (e) { }
     var st = db.prepare(sql), done = false;
@@ -773,7 +826,7 @@
         var ch = chats[String(o.jid || '')]; if (!ch) continue;
         var ty = o.type == null ? 0 : +o.type, kind = TYPE_MAP[ty] || 'text';
         if (ty === 0 && !o.text) continue;
-        var m = { ts: +o.ts, me: o.me ? 1 : 0, kind: kind, text: String(o.text || o.cap || ''), seq: +o.id, chatId: ch.id };
+        var m = { ts: +o.ts, me: o.me ? 1 : 0, kind: kind, text: String(o.text || o.cap || ''), seq: +o.id, chatId: ch.id, keyId: o.kid ? String(o.kid) : null };
         if (ty !== 0 && o.mname) m.media = { name: String(o.mname), path: '', mime: o.mime || mimeOf(String(o.mname)), size: o.fsize ? +o.fsize : 0, orig: String(o.mname) };
         if (ch.isGroup && !m.me && o.sender) { var sd = Phone.digits(String(o.sender).split('@')[0]); m.authorPhone = sd.length >= 8 ? sd : null; }
         batch.push(m);
@@ -784,9 +837,11 @@
   }
 
   // ---------------------------------------------------------------- casar arquivos de mídia com mensagens
-  function normPath(p) { return clean(p).replace(/\\/g, '/').toLowerCase(); }
+  function normPath(p) { return clean(p).normalize('NFC').replace(/\\/g, '/').toLowerCase(); }
+  // Acha o arquivo de uma mensagem pelo caminho e pelo nome. Quando a mensagem diz o tamanho,
+  // só aceita arquivo com o mesmo tamanho: nunca liga a proposta de um cliente à conversa de outro.
   function MediaIndex(files) {
-    this.byTail3 = {}; this.byTail2 = {}; this.byName = {};
+    this.byTail3 = {}; this.byTail2 = {}; this.byName = {}; this.byAlias = {}; this.sizeMismatch = 0;
     for (var i = 0; i < files.length; i++) this.add(files[i]);
   }
   MediaIndex.prototype.add = function (f) {
@@ -797,27 +852,29 @@
     (this.byTail2[t2] = this.byTail2[t2] || []).push(it);
     (this.byName[nm] = this.byName[nm] || []).push(it);
     var dn = displayFileName(nm).toLowerCase();
-    if (dn !== nm) (this.byName[dn] = this.byName[dn] || []).push(it);
+    if (dn !== nm) (this.byAlias[dn] = this.byAlias[dn] || []).push(it);
   };
   MediaIndex.prototype.find = function (media) {
     if (!media) return null;
-    var p = normPath(media.path || media.name || ''), seg = p.split('/'), size = media.size || 0;
+    var self = this, p = normPath(media.path || media.name || ''), seg = p.split('/'), size = media.size || 0, sawWrongSize = false;
     function pick(list) {
       if (!list || !list.length) return null;
-      if (list.length === 1) return list[0].file;
-      if (size) for (var i = 0; i < list.length; i++) if (list[i].size === size) return list[i].file;
+      if (size) {
+        for (var i = 0; i < list.length; i++) if (list[i].size === size) return list[i].file;
+        sawWrongSize = true;
+        return null;
+      }
       return list[0].file;
     }
-    if (seg.length >= 3) { var a = pick(this.byTail3[seg.slice(-3).join('/')]); if (a) return a; }
-    if (seg.length >= 2) { var b = pick(this.byTail2[seg.slice(-2).join('/')]); if (b) return b; }
+    var hit = null;
+    if (seg.length >= 3) hit = pick(this.byTail3[seg.slice(-3).join('/')]);
+    if (!hit && seg.length >= 2) hit = pick(this.byTail2[seg.slice(-2).join('/')]);
     var nm = seg[seg.length - 1];
-    var list = this.byName[nm] || this.byName[displayFileName(nm).toLowerCase()];
-    if (list && list.length) {
-      if (size) { for (var i = 0; i < list.length; i++) if (list[i].size === size) return list[i].file; }
-      if (list.length === 1 || !size) return list[0].file;
-    }
-    if (media.orig) { var o = this.byName[normPath(media.orig)]; if (o && o.length === 1) return o[0].file; }
-    return null;
+    if (!hit) hit = pick(this.byName[nm]);
+    if (!hit && !size) hit = pick(this.byAlias[nm]) || pick(this.byName[displayFileName(nm).toLowerCase()]);
+    if (!hit && media.orig) hit = pick(this.byName[normPath(media.orig)]);
+    if (!hit && sawWrongSize) self.sizeMismatch++;
+    return hit;
   };
 
   // ---------------------------------------------------------------- texto legível de uma conversa (para o pacote)
@@ -860,7 +917,7 @@
   var api = {
     clean: clean, fold: fold, slug: slug, hash: hash, baseName: baseName, displayFileName: displayFileName, decodeText: decodeText,
     extOf: extOf, kindOf: kindOf, mimeOf: mimeOf, Phone: Phone,
-    titleFromFileName: titleFromFileName, parseExportText: parseExportText, identifyExport: identifyExport,
+    titleFromFileName: titleFromFileName, parseExportText: parseExportText, looksLikeExport: looksLikeExport, stripBidi: stripBidi, identifyExport: identifyExport,
     msgBodyKey: msgBodyKey, makeKeyer: makeKeyer, parseVcf: parseVcf,
     crc32Blob: crc32Blob, ZipReader: ZipReader, ZipWriter: ZipWriter,
     cleanKey: cleanKey, parseCrypt15Header: parseCrypt15Header, decryptCrypt15: decryptCrypt15, isSqlite: isSqlite, _gcmViaCtr: gcmViaCtr,

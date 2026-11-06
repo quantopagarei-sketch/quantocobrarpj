@@ -64,16 +64,20 @@
     open: function () {
       return new Promise(function (res, rej) {
         var r;
-        try { r = indexedDB.open('arquivo-clientes', 1); } catch (e) { return rej(e); }
-        r.onupgradeneeded = function () {
-          var d = r.result;
-          d.createObjectStore('contacts', { keyPath: 'id' });
-          var ms = d.createObjectStore('messages', { keyPath: 'k' });
-          ms.createIndex('cid', ['cid', 'ts', 'seq']);
-          d.createObjectStore('blobs', { keyPath: 'id' });
-          var ds = d.createObjectStore('docs', { keyPath: 'id' });
-          ds.createIndex('cid', 'cid'); ds.createIndex('ts', 'ts');
-          d.createObjectStore('meta', { keyPath: 'key' });
+        try { r = indexedDB.open('arquivo-clientes', 2); } catch (e) { return rej(e); }
+        r.onupgradeneeded = function (ev) {
+          var d = r.result, old = ev.oldVersion || 0, ms;
+          if (old < 1) {
+            d.createObjectStore('contacts', { keyPath: 'id' });
+            ms = d.createObjectStore('messages', { keyPath: 'k' });
+            ms.createIndex('cid', ['cid', 'ts', 'seq']);
+            d.createObjectStore('blobs', { keyPath: 'id' });
+            var ds = d.createObjectStore('docs', { keyPath: 'id' });
+            ds.createIndex('cid', 'cid'); ds.createIndex('ts', 'ts');
+            d.createObjectStore('meta', { keyPath: 'key' });
+          } else ms = r.transaction.objectStore('messages');
+          // bk = chave pelo conteúdo (minuto + quem + texto), para achar a mesma mensagem vinda de outra fonte
+          if (old < 2) ms.createIndex('bk', 'bk');
         };
         r.onsuccess = function () { DB.db = r.result; res(); };
         r.onerror = function () { rej(r.error); };
@@ -114,12 +118,24 @@
     upsert: function (list) {
       if (!list.length) return Promise.resolve();
       var t = DB.tx(['messages', 'docs'], 'readwrite'), ms = t.objectStore('messages'), ds = t.objectStore('docs');
+      function write(v, oldK) {
+        if (oldK && oldK !== v.k) { ms.delete(oldK); ds.delete(oldK); }
+        ms.put(v);
+        if (v.m && (v.ty === 'doc' || v.ty === 'image')) ds.put(docOf(v));
+      }
       list.forEach(function (m) {
         var r = ms.get(m.k);
         r.onsuccess = function () {
-          var v = r.result ? mergeMsg(r.result, m) : m;
-          ms.put(v);
-          if (v.m && (v.ty === 'doc' || v.ty === 'image')) ds.put(docOf(v));
+          if (r.result) return write(mergeMsg(r.result, m));
+          if (!m.bk) return write(m);
+          var r2 = ms.index('bk').get(m.bk);
+          r2.onsuccess = function () {
+            var ex = r2.result;
+            if (!ex || (stableKey(ex.k) && stableKey(m.k))) return write(m);
+            var v = mergeMsg(ex, m);
+            if (stableKey(m.k) && !stableKey(ex.k)) { v.k = m.k; return write(v, ex.k); }
+            write(v);
+          };
         };
       });
       return DB.done(t);
@@ -137,8 +153,17 @@
       return DB.done(t);
     }
   };
+  function stableKey(k) { return String(k).indexOf('|w:') > 0; }
   function mergeMsg(ex, m) {
     var v = Object.assign({}, ex);
+    // backup novo da mesma mensagem: vale o texto editado e o caminho novo do arquivo (sem perder o arquivo já guardado)
+    var newer = (ex.src || []).indexOf('bkp') >= 0 && (m.src || []).indexOf('bkp') >= 0 && m.ty !== 'deleted';
+    if (newer) {
+      if (m.t) v.t = m.t;
+      if (m.ty) v.ty = m.ty;
+      if (m.m) { var keepB = ex.m && ex.m.b; v.m = Object.assign({}, ex.m || {}); for (var k0 in m.m) if (m.m[k0] != null && m.m[k0] !== '' && m.m[k0] !== 0) v.m[k0] = m.m[k0]; if (keepB) { v.m.b = keepB; if (ex.m.s) v.m.s = ex.m.s; } }
+    }
+    if (!v.bk && m.bk) v.bk = m.bk;
     if (!v.t && m.t) v.t = m.t;
     if (v.a == null && m.a != null) v.a = m.a;
     if (v.ap == null && m.ap != null) v.ap = m.ap;
@@ -304,12 +329,13 @@
     if (m.ty === 'omitted') return who + 'mídia';
     return who + (m.t || '').replace(/\s+/g, ' ').slice(0, 120);
   }
+  function rekey(cid, k) { k = String(k); return cid + '|' + k.slice(k.indexOf('|') + 1); }
   // move tudo de um contato para outro (ex.: o mesmo cliente veio pelo nome e pelo número)
   async function mergeContacts(fromId, toId) {
     if (fromId === toId) return;
     var from = S.byId[fromId], to = S.byId[toId]; if (!from || !to) return;
     var msgs = await DB.messagesOf(fromId);
-    var moved = msgs.map(function (m) { var v = Object.assign({}, m); v.cid = toId; v.k = toId + '|' + m.k.slice(m.k.indexOf('|') + 1); return v; });
+    var moved = msgs.map(function (m) { var v = Object.assign({}, m); v.cid = toId; v.k = rekey(toId, m.k); if (m.bk) v.bk = rekey(toId, m.bk); return v; });
     for (var i = 0; i < moved.length; i += 1000) await DB.upsert(moved.slice(i, i + 1000));
     var t = DB.tx(['messages', 'docs'], 'readwrite');
     msgs.forEach(function (m) { t.objectStore('messages').delete(m.k); t.objectStore('docs').delete(m.k); });
@@ -334,7 +360,9 @@
     if (other && other.id !== c.id) { await mergeContacts(c.id, other.id); toast('Juntei com a outra conversa deste número.'); }
     return true;
   }
+  var seedP = Promise.resolve();
   async function removeDemo() {
+    await seedP;
     var demo = S.contacts.filter(function (c) { return c.demo; });
     if (!demo.length) return;
     for (var i = 0; i < demo.length; i++) {
@@ -369,11 +397,15 @@
     var out = [], zips = [];
     for (var i = 0; i < files.length; i++) {
       var f = files[i];
-      if (/\.zip$/i.test(f.name)) {
-        var zr = new C.ZipReader(f), ents = await zr.open();
-        zips.push({ file: f, zr: zr, entries: ents });
-        ents.forEach(function (e) { out.push({ name: C.baseName(e.name), path: e.name, size: e.size, entry: e, zr: zr }); });
-      } else out.push(f);
+      out.push(f); // o próprio .zip pode ser um documento enviado no chat
+      // só abre .zip escolhido sozinho (não os que estão dentro de uma pasta escolhida)
+      if (/\.zip$/i.test(f.name) && !f.webkitRelativePath) {
+        try {
+          var zr = new C.ZipReader(f), ents = await zr.open();
+          zips.push({ file: f, zr: zr, entries: ents });
+          ents.forEach(function (e) { out.push({ name: C.baseName(e.name), path: e.name, size: e.size, entry: e, zr: zr }); });
+        } catch (e) { /* não é um .zip legível: fica só como arquivo */ }
+      }
     }
     return { items: out, zips: zips };
   }
@@ -385,11 +417,13 @@
   // ------------------------------------------------------------------ importação: progresso
   var wake = null;
   async function busyStart(title) {
+    if (S.busy) { toast('Espere a importação atual terminar.'); return false; }
     S.busy = true;
     $('#progress').hidden = false; $('#prog-title').textContent = title; $('#log').textContent = ''; setBar(0);
     $$('#v-importar input, #v-importar button').forEach(function (el) { el.disabled = true; });
     try { if (navigator.wakeLock) wake = await navigator.wakeLock.request('screen'); } catch (e) { wake = null; }
     $('#progress').scrollIntoView({ block: 'nearest' });
+    return true;
   }
   function busyEnd(title) {
     S.busy = false; setBar(1);
@@ -403,84 +437,120 @@
 
   // ------------------------------------------------------------------ importar: conversas exportadas
   async function importExports(files) {
-    var zips = files.filter(function (f) { return /\.(zip|txt)$/i.test(f.name); });
+    if (S.busy) { toast('Espere a importação atual terminar.'); return; }
+    S.busy = true;
+    var cands = files.filter(function (f) { return /\.(zip|txt)$/i.test(f.name); });
     var loose = files.filter(function (f) { return !/\.(zip|txt)$/i.test(f.name); });
-    if (!zips.length) { toast('Escolha arquivos .zip ou .txt exportados do WhatsApp.'); return; }
-    await busyStart('Importando ' + zips.length + (zips.length > 1 ? ' conversas…' : ' conversa…'));
+    // um .txt que não é conversa exportada (ex.: medidas.txt enviado no chat) é tratado como anexo
+    var chats = [];
+    for (var t = 0; t < cands.length; t++) {
+      var cf = cands[t];
+      if (/\.txt$/i.test(cf.name)) {
+        var head = C.decodeText(new Uint8Array(await cf.slice(0, 16384).arrayBuffer()));
+        if (!C.looksLikeExport(head)) { loose.push(cf); continue; }
+      }
+      chats.push(cf);
+    }
+    S.busy = false;
+    if (!chats.length) { toast('Escolha arquivos .zip ou .txt exportados do WhatsApp.'); return; }
+    if (!(await busyStart('Importando ' + chats.length + (chats.length > 1 ? ' arquivos…' : ' arquivo…')))) return;
     await removeDemo(); requestPersist();
-    var looseIdx = loose.length ? new C.MediaIndex(loose) : null, touched = {}, okN = 0, msgsN = 0, filesN = 0;
-    for (var i = 0; i < zips.length; i++) {
-      var f = zips[i];
-      setBar(i / zips.length);
+    var looseIdx = loose.length ? new C.MediaIndex(loose) : null, touched = {}, okN = 0, convN = 0, msgsN = 0, filesN = 0, errN = 0;
+    for (var i = 0; i < chats.length; i++) {
+      var f = chats[i];
+      setBar(i / chats.length);
       try {
-        var r = await importOneExport(f, looseIdx);
-        if (r.pkg) { okN++; continue; }
-        touched[r.cid] = 1; okN++; msgsN += r.n; filesN += r.files;
-        log('✓ ' + r.label + ' — ' + pl(r.n, 'mensagem', 'mensagens') + (r.files ? ', ' + pl(r.files, 'arquivo', 'arquivos') : '') + (r.missing ? ' (' + pl(r.missing, 'arquivo não veio', 'arquivos não vieram') + ')' : ''), 'ok');
+        var rs = await importOneExport(f, looseIdx);
+        okN++;
+        rs.forEach(function (r) {
+          if (r.pkg) return;
+          if (r.error) { errN++; log('✗ ' + r.label + ': ' + r.error, 'er'); return; }
+          touched[r.cid] = 1; convN++; msgsN += r.n; filesN += r.files;
+          log('✓ ' + r.label + ' — ' + pl(r.n, 'mensagem', 'mensagens') + (r.files ? ', ' + pl(r.files, 'arquivo', 'arquivos') : '') + (r.missing ? ' (' + pl(r.missing, 'arquivo não veio', 'arquivos não vieram') + ')' : '') + (r.unsure ? ' — confira quem é você em Ajustes' : ''), 'ok');
+        });
       } catch (e) {
+        errN++;
         log('✗ ' + f.name + ': ' + errMsg(e), 'er');
       }
       await tick();
     }
     log('Atualizando a lista…');
     await refreshStats(Object.keys(touched));
-    setBar(1);
-    busyEnd('Pronto: ' + okN + ' de ' + zips.length + ' conversas, ' + num(msgsN) + ' mensagens, ' + num(filesN) + ' arquivos.');
+    busyEnd('Pronto: ' + pl(convN, 'conversa', 'conversas') + ', ' + pl(msgsN, 'mensagem', 'mensagens') + ', ' + pl(filesN, 'arquivo', 'arquivos') + (errN ? ' (' + pl(errN, 'problema', 'problemas') + ', veja abaixo)' : '') + '.');
     renderAll();
   }
+  // Um arquivo pode ser um .txt ou um .zip com uma ou várias conversas
   async function importOneExport(f, looseIdx) {
-    var text, zr = null, ents = [], txtName = f.name;
-    if (/\.zip$/i.test(f.name)) {
-      zr = new C.ZipReader(f); ents = await zr.open();
-      if (ents.some(function (e) { return e.name === 'arquivo.json'; })) { await importPackage(f, true); return { pkg: true }; }
-      var txts = ents.filter(function (e) { return /\.txt$/i.test(e.name); });
-      if (!txts.length) throw new Error('não achei a conversa (.txt) dentro do .zip');
-      var pick = txts.filter(function (e) { return /(^|\/)_chat\.txt$/i.test(e.name) || /whatsapp/i.test(e.name); })[0] || txts[0];
-      text = await zr.text(pick); txtName = pick.name;
-    } else {
-      text = C.decodeText(new Uint8Array(await f.arrayBuffer()));
+    if (!/\.zip$/i.test(f.name)) {
+      var text = C.decodeText(new Uint8Array(await f.arrayBuffer()));
+      return [await importChatText(text, f.name, f.name, null, looseIdx)];
     }
+    var zr = new C.ZipReader(f), ents = await zr.open();
+    if (ents.some(function (e) { return e.name === 'arquivo.json'; })) { await importPackage(f, true); return [{ pkg: true }]; }
+    var txts = ents.filter(function (e) { return /\.txt$/i.test(e.name) && !/(^|\/)__MACOSX\//.test(e.name); });
+    var chatsIn = [];
+    for (var i = 0; i < txts.length; i++) {
+      var tx = await zr.text(txts[i]);
+      if (C.looksLikeExport(tx)) chatsIn.push({ e: txts[i], text: tx });
+    }
+    if (!chatsIn.length) throw new Error('não achei nenhuma conversa exportada dentro do .zip');
+    var chosen = chatsIn.map(function (c) { return c.e; });
+    var zidx = new C.MediaIndex(ents.filter(function (e) { return chosen.indexOf(e) < 0; }).map(function (e) { return { name: C.baseName(e.name), path: e.name, size: e.size, entry: e, zr: zr }; }));
+    var out = [];
+    for (var j = 0; j < chatsIn.length; j++) {
+      var ci = chatsIn[j];
+      // "_chat.txt" não diz o nome: usa o nome do .zip (só quando o .zip tem uma conversa)
+      var fallback = chatsIn.length === 1 ? f.name : ci.e.name;
+      try { out.push(await importChatText(ci.text, ci.e.name, fallback, zidx, looseIdx)); }
+      catch (e) { out.push({ error: errMsg(e), label: ci.e.name }); }
+    }
+    return out;
+  }
+  async function importChatText(text, txtName, fallbackName, zidx, looseIdx) {
     var parsed = C.parseExportText(text, { fileName: txtName });
-    if (!parsed.title) parsed.title = C.titleFromFileName(f.name);
+    if (!parsed.title) parsed.title = C.titleFromFileName(fallbackName);
     if (!parsed.format || !parsed.messages.length) throw new Error('não reconheci o formato desta conversa');
-    var who = C.identifyExport(parsed, meFolded(), f.name);
+    var who = C.identifyExport(parsed, meFolded(), fallbackName);
     await learnMe(who.inferredMe);
     var c = await upsertContact({ id: who.id, name: who.name, phone: who.phone, isGroup: who.isGroup, nameSrc: 'export' });
     var keyer = C.makeKeyer(c.id), meF = meFolded();
-    var zidx = zr ? new C.MediaIndex(ents.filter(function (e) { return !/\.txt$/i.test(e.name); }).map(function (e) { return { name: C.baseName(e.name), path: e.name, size: e.size, entry: e, zr: zr }; })) : null;
     var out = [], files = 0, missing = 0;
     for (var j = 0; j < parsed.messages.length; j++) {
       var pm = parsed.messages[j];
-      var me = pm.author && (who.me[pm.author] || meF[C.fold(pm.author)]) ? 1 : 0;
-      var rec = { cid: c.id, ts: pm.ts, seq: pm.seq, me: me, a: me || pm.sys ? null : pm.author, t: pm.text || '', ty: pm.kind, sys: pm.sys || 0, ed: pm.edited || 0, src: ['exp'] };
+      var me = pm.author && pm.author !== who.other && (who.me[pm.author] || meF[C.fold(pm.author)]) ? 1 : 0;
+      var rec = { cid: c.id, ts: pm.ts, seq: pm.seq, me: me, a: (me || pm.sys) ? null : pm.author, t: pm.text || '', ty: pm.kind, sys: pm.sys || 0, ed: pm.edited || 0, src: ['exp'] };
       if (pm.media) {
         var disp = C.displayFileName(pm.media.name);
         rec.m = { n: disp, p: pm.media.name, mi: C.mimeOf(disp) };
-        var found = (zidx && zidx.find({ name: pm.media.name })) || (looseIdx && looseIdx.find({ name: pm.media.name }));
+        var found = pm.kind === 'omitted' ? null : ((zidx && zidx.find({ name: pm.media.name })) || (looseIdx && looseIdx.find({ name: pm.media.name })));
         if (found && allowedKind(rec.ty)) {
-          var blob = await hitBlob(found, rec.m.mi);
-          rec.m.s = blob.size; rec.m.b = await saveBlob(c.id, disp, blob, rec.m.mi); files++;
+          try { var blob = await hitBlob(found, rec.m.mi); rec.m.s = blob.size; rec.m.b = await saveBlob(c.id, disp, blob, rec.m.mi); files++; }
+          catch (e) { missing++; }
         } else if (found) rec.m.s = found.size;
         else missing++;
+        if (pm.kind === 'omitted') rec.ty = C.kindOf(disp);
       }
-      rec.k = keyer(rec.ts, rec.me, rec.t, rec.m && rec.m.n);
+      rec.k = rec.bk = keyer(rec.ts, rec.me, rec.t, rec.m && rec.m.n, pm.kind);
       out.push(rec);
       if (out.length >= 1000) { await DB.upsert(out); out = []; }
     }
     await DB.upsert(out);
-    return { cid: c.id, label: label(c), n: parsed.messages.length, files: files, missing: missing };
+    var unsure = !who.isGroup && !who.other && !Object.keys(who.me).length && Object.keys(parsed.authors).length > 1;
+    return { cid: c.id, label: label(c), n: parsed.messages.length, files: files, missing: missing, unsure: unsure };
   }
 
   // ------------------------------------------------------------------ importar: backup completo (crypt15)
   async function importBackup(file, keyText, mediaFiles) {
     if (!file) { toast('Escolha o arquivo msgstore.db.crypt15.'); return; }
-    await busyStart('Abrindo o backup…');
+    if (!(await busyStart('Abrindo o backup…'))) return;
     await removeDemo(); requestPersist();
     try {
       var src = file, extra = [];
       if (/\.zip$/i.test(file.name)) {
         log('Abrindo o .zip ' + file.name + ' (' + fSize(file.size) + ')…');
-        var ex = await expandZips([file]), ents = ex.zips[0].entries;
+        var ex = await expandZips([file]);
+        if (!ex.zips.length) throw new Error('Não consegui abrir este .zip. Ele pode estar incompleto: baixe ou copie de novo.');
+        var ents = ex.zips[0].entries;
         var cands = ents.filter(function (e) { return /(^|\/)msgstore\.db\.crypt15$/i.test(e.name); });
         if (!cands.length) cands = ents.filter(function (e) { return /(^|\/)msgstore-\d{4}-\d{2}-\d{2}\.\d+\.db\.crypt15$/i.test(e.name); }).sort(function (a, b) { return C.baseName(b.name).localeCompare(C.baseName(a.name)); });
         if (!cands.length) cands = ents.filter(function (e) { return /(^|\/)msgstore\.db$/i.test(e.name); });
@@ -506,32 +576,38 @@
       var cur = C.openMsgStore(SQL, res.sqlite);
       res = null;
       log('Encontrei ' + num(cur.chats.length) + ' conversas. Gravando…', 'ok');
-      var map = {};
-      for (var i = 0; i < cur.chats.length; i++) {
-        var ch = cur.chats[i];
+      var map = {}, chatById = {};
+      cur.chats.forEach(function (ch) { chatById[ch.id] = ch; });
+      async function contactFor(chatId) {
+        if (map[chatId]) return map[chatId];
+        var ch = chatById[chatId];
         var c = await upsertContact({ id: ch.id, phone: ch.phone, name: ch.isGroup ? (ch.subject || 'Grupo') : null, isGroup: ch.isGroup, lid: ch.lid, nameSrc: ch.isGroup ? 'backup' : '' });
-        map[ch.id] = c.id;
+        return (map[chatId] = c.id);
       }
       var mlist = (mediaFiles || []).length ? (await expandZips(mediaFiles)).items : [];
       mlist = mlist.concat(extra);
       var idx = mlist.length ? new C.MediaIndex(mlist) : null;
-      var keyers = {}, total = cur.total || 1, n = 0, files = 0, missing = 0, b;
+      var keyers = {}, total = cur.total || 1, n = 0, files = 0, missing = 0, bad = 0, b;
       try {
         while ((b = cur.next())) {
           var out = [];
           for (var j = 0; j < b.length; j++) {
-            var m = b[j], cid = map[m.chatId];
+            var m = b[j], cid = await contactFor(m.chatId);
             var rec = { cid: cid, ts: m.ts, seq: m.seq, me: m.me, a: null, t: m.text || '', ty: m.kind, sys: 0, src: ['bkp'] };
             if (m.authorPhone) { rec.ap = m.authorPhone; }
             if (m.media) {
               rec.m = { n: m.media.name || m.media.orig || 'arquivo', p: m.media.path || '', mi: m.media.mime || C.mimeOf(m.media.name), s: m.media.size || 0 };
               if (m.media.orig && m.media.orig !== rec.m.n) rec.m.o = m.media.orig;
               var fnd = idx && idx.find(m.media);
-              if (fnd && allowedKind(rec.ty)) { rec.m.b = await saveBlob(cid, rec.m.n, await hitBlob(fnd, rec.m.mi), rec.m.mi); rec.m.s = fnd.size; files++; }
+              if (fnd && allowedKind(rec.ty)) {
+                try { rec.m.b = await saveBlob(cid, rec.m.n, await hitBlob(fnd, rec.m.mi), rec.m.mi); if (!rec.m.s) rec.m.s = fnd.size; files++; }
+                catch (e) { bad++; missing++; if (bad <= 5) log('• Não consegui ler ' + rec.m.n + ' (' + errMsg(e) + '). Sigo com o resto.'); }
+              }
               else if (!fnd && (rec.ty === 'doc' || allowedKind(rec.ty))) missing++;
             }
             var kf = keyers[cid] || (keyers[cid] = C.makeKeyer(cid));
-            rec.k = kf(rec.ts, rec.me, rec.t, rec.m && rec.m.n);
+            rec.bk = kf(rec.ts, rec.me, rec.t, rec.m && rec.m.n, rec.ty);
+            rec.k = m.keyId ? cid + '|w:' + (m.me ? 1 : 0) + ':' + m.keyId : rec.bk;
             out.push(rec);
           }
           await DB.upsert(out);
@@ -543,10 +619,11 @@
       } finally { cur.close(); }
       log('✓ ' + num(n) + ' mensagens gravadas' + (files ? ', ' + num(files) + ' arquivos ligados' : ''), 'ok');
       if (missing) log('• ' + pl(missing, 'arquivo ainda sem ligação', 'arquivos ainda sem ligação') + '. Use “Ligar PDFs e fotos que faltaram” com a pasta Media do S22.');
+      if (idx && idx.sizeMismatch) log('• ' + pl(idx.sizeMismatch, 'arquivo tem', 'arquivos têm') + ' o mesmo nome de uma mensagem mas outro tamanho; por segurança não foram ligados (podem ser de outra conversa).');
       log('Atualizando a lista…');
       await refreshStats(Object.keys(map).map(function (k) { return map[k]; }));
       setBar(1);
-      busyEnd('Pronto: ' + num(cur.chats.length) + ' conversas importadas.');
+      busyEnd('Pronto: ' + pl(Object.keys(map).length, 'conversa importada', 'conversas importadas') + '.');
       $('#k-backup').value = ''; updateKeyCount();
     } catch (e) {
       log('✗ ' + errMsg(e), 'er');
@@ -558,34 +635,42 @@
   // ------------------------------------------------------------------ ligar arquivos soltos às mensagens
   async function linkMedia(files) {
     if (!files.length) return;
-    await busyStart('Procurando os arquivos nas conversas…');
-    var items = (await expandZips(files)).items;
-    var idx = new C.MediaIndex(items), todo = [];
-    await DB.each('messages', function (m) { if (m.m && !m.m.b) todo.push(m); });
-    log(num(todo.length) + ' mensagens com arquivo faltando.');
-    var done = 0, touched = {};
-    for (var i = 0; i < todo.length; i++) {
-      var m = todo[i];
-      var f = idx.find({ name: m.m.p ? C.baseName(m.m.p) : m.m.n, path: m.m.p, size: m.m.s, orig: m.m.o });
-      if (!f && m.m.n) f = idx.find({ name: m.m.n, size: m.m.s });
-      if (!f) continue;
-      if (!allowedKind(m.ty)) continue;
-      var v = Object.assign({}, m); v.m = Object.assign({}, m.m);
-      v.m.b = await saveBlob(m.cid, v.m.n, await hitBlob(f, v.m.mi || C.mimeOf(v.m.n)), v.m.mi || C.mimeOf(v.m.n)); v.m.s = f.size;
-      await DB.upsert([v]);
-      done++; touched[m.cid] = 1;
-      if (done % 50 === 0) { setBar(i / todo.length); await tick(); }
+    if (!(await busyStart('Procurando os arquivos nas conversas…'))) return;
+    var done = 0, bad = 0, touched = {}, idx = null;
+    try {
+      var items = (await expandZips(files)).items;
+      idx = new C.MediaIndex(items);
+      var todo = [];
+      await DB.each('messages', function (m) { if (m.m && !m.m.b) todo.push(m); });
+      log(pl(todo.length, 'mensagem', 'mensagens') + ' com arquivo faltando.');
+      for (var i = 0; i < todo.length; i++) {
+        var m = todo[i];
+        if (!allowedKind(m.ty)) continue;
+        var f = idx.find({ name: m.m.p ? C.baseName(m.m.p) : m.m.n, path: m.m.p, size: m.m.s, orig: m.m.o });
+        if (!f && m.m.n && m.m.p && C.baseName(m.m.p) !== m.m.n) f = idx.find({ name: m.m.n, size: m.m.s });
+        if (!f) continue;
+        try {
+          var v = Object.assign({}, m); v.m = Object.assign({}, m.m);
+          v.m.b = await saveBlob(m.cid, v.m.n, await hitBlob(f, v.m.mi || C.mimeOf(v.m.n)), v.m.mi || C.mimeOf(v.m.n)); if (!v.m.s) v.m.s = f.size;
+          await DB.upsert([v]);
+          done++; touched[m.cid] = 1;
+        } catch (e) { bad++; if (bad <= 5) log('• Não consegui ler ' + m.m.n + ' (' + errMsg(e) + ').'); }
+        if (i % 50 === 0) { setBar(i / todo.length); await tick(); }
+      }
+      await refreshStats(Object.keys(touched));
+      log('✓ ' + pl(done, 'arquivo ligado', 'arquivos ligados') + ' às conversas.', 'ok');
+      if (idx.sizeMismatch) log('• ' + pl(idx.sizeMismatch, 'arquivo tem', 'arquivos têm') + ' o nome certo mas outro tamanho; por segurança não foram ligados.');
+      busyEnd('Pronto: ' + pl(done, 'arquivo encontrado', 'arquivos encontrados') + '.');
+    } catch (e) {
+      log('✗ ' + errMsg(e), 'er');
+      busyEnd('Não deu certo. Veja a mensagem abaixo.');
     }
-    await refreshStats(Object.keys(touched));
-    setBar(1);
-    log('✓ ' + num(done) + ' arquivos ligados às conversas.', 'ok');
-    busyEnd('Pronto: ' + num(done) + ' arquivos encontrados.');
     renderAll();
   }
 
   // ------------------------------------------------------------------ nomes pelo .vcf
   async function importVcf(file) {
-    await busyStart('Lendo contatos…');
+    if (!(await busyStart('Lendo contatos…'))) return;
     try {
       var cards = C.parseVcf(C.decodeText(new Uint8Array(await file.arrayBuffer())));
       log(num(cards.length) + ' contatos com telefone no arquivo.');
@@ -658,7 +743,7 @@
     finally { btn.disabled = false; }
   }
   async function importPackage(file, nested) {
-    if (!nested) { await busyStart('Restaurando pacote…'); await removeDemo(); requestPersist(); }
+    if (!nested) { if (!(await busyStart('Restaurando pacote…'))) return; await removeDemo(); requestPersist(); }
     try {
       var zr = new C.ZipReader(file), ents = await zr.open(), by = {};
       ents.forEach(function (e) { by[e.name] = e; });
@@ -677,7 +762,7 @@
         var out = [];
         for (var j = 0; j < data.messages.length; j++) {
           var m = data.messages[j], v = Object.assign({}, m);
-          v.cid = c.id; v.k = c.id + '|' + String(m.k).slice(String(m.k).indexOf('|') + 1);
+          v.cid = c.id; v.k = rekey(c.id, m.k); if (m.bk) v.bk = rekey(c.id, m.bk);
           if (v.file && v.m) {
             var fe = by[man.contacts[i].folder + v.file];
             if (fe) { var bl = await zr.blob(fe, v.m.mi || C.mimeOf(v.m.n)); v.m = Object.assign({}, v.m); v.m.b = await saveBlob(c.id, v.m.n, bl, v.m.mi); v.m.s = bl.size; nf++; }
@@ -732,7 +817,7 @@
         var q = p.msgs[j], ts = t0 + q[0] * day + (9 + j) * 3600000 + i * 7 * day;
         var rec = { cid: c.id, ts: ts, seq: j, me: q[1], a: q[1] ? null : (p.name || null), t: q[2], ty: 'text', sys: 0, src: ['demo'] };
         if (q[3]) { rec.ty = 'doc'; rec.m = { n: q[3], mi: 'application/pdf', s: pdf.size, b: await saveBlob(c.id, q[3], pdf, 'application/pdf') }; }
-        rec.k = keyer(rec.ts, rec.me, rec.t, rec.m && rec.m.n);
+        rec.k = rec.bk = keyer(rec.ts, rec.me, rec.t, rec.m && rec.m.n, rec.ty);
         out.push(rec);
       }
       await DB.upsert(out);
@@ -1229,7 +1314,7 @@
     await loadAll();
     bind();
     setView(location.hash.slice(1));
-    if (!S.contacts.length) { var seeded = await DB.get('meta', 'demoSeen'); if (!seeded) { await DB.put('meta', { key: 'demoSeen', v: 1 }); await seedDemo(); } }
+    if (!S.contacts.length) { var seeded = await DB.get('meta', 'demoSeen'); if (!seeded) { await DB.put('meta', { key: 'demoSeen', v: 1 }); seedP = seedDemo(); await seedP; } }
     renderAll();
     if (window.innerWidth >= 900 && !S.open) {
       var first = S.contacts.slice().sort(byLast)[0];
