@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Clientes">
+<meta name="theme-color" content="#f4f4f1">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<!--APP-START-->
+<title>Arquivo de Clientes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: fichário. Lista de clientes (fichas) à esquerda e a ficha aberta à direita; no celular, uma tela por vez. */
+:root{
+  --bg:#f4f4f1; --surface:#ffffff; --sunk:#ecece7; --ink:#111214; --mute:#5c6066; --line:#deded8;
+  --accent:#00663d; --on-accent:#ffffff; --soft:#e4efe7; --mine:#d9eadf;
+  --warn:#8f560a; --warn-soft:#f5ead6; --bad:#a3271b; --bad-soft:#f6e1dd; --good:#13703f;
+  --focus:rgba(0,102,61,.28);
+  --f-display:"Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-body:"Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --gut:max(16px, env(safe-area-inset-left, 0px));
+  --gutr:max(16px, env(safe-area-inset-right, 0px));
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0e0f10; --surface:#17181a; --sunk:#1f2123; --ink:#ebece8; --mute:#9ca0a6; --line:#2b2d30;
+  --accent:#4cc48a; --on-accent:#04140b; --soft:#14261b; --mine:#173525;
+  --warn:#e3a64f; --warn-soft:#2c2213; --bad:#ff8b7c; --bad-soft:#341b17; --good:#4cc48a;
+  --focus:rgba(76,196,138,.35); color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0e0f10; --surface:#17181a; --sunk:#1f2123; --ink:#ebece8; --mute:#9ca0a6; --line:#2b2d30;
+  --accent:#4cc48a; --on-accent:#04140b; --soft:#14261b; --mine:#173525;
+  --warn:#e3a64f; --warn-soft:#2c2213; --bad:#ff8b7c; --bad-soft:#341b17; --good:#4cc48a;
+  --focus:rgba(76,196,138,.35); color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 var(--f-body);-webkit-text-size-adjust:100%;letter-spacing:-.003em}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:30}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:1px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums;letter-spacing:0}
+.mute{color:var(--mute)}
+.wrap{padding-left:var(--gut);padding-right:var(--gutr)}
+
+/* topo */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;padding-block:12px 6px}
+.brand svg{flex:none}
+.brand b{font-family:var(--f-display);font-weight:760;font-stretch:112%;letter-spacing:-.035em;font-size:1.22rem;line-height:1}
+.brand .sub{font-family:var(--f-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--mute);margin-left:auto;text-align:right}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:none;text-decoration:none;color:var(--mute);font-weight:560;padding:10px 10px 9px;border-bottom:2px solid transparent;white-space:nowrap}
+.tabs a:first-child{padding-left:0}
+.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ink)}
+.tabs .n{font-family:var(--f-mono);font-size:.72rem;color:var(--mute);margin-left:4px}
+.search{padding-block:0 12px;display:flex;gap:8px;align-items:center}
+.search input{flex:1;min-width:0;border:1px solid var(--line);background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Ccircle cx='7.5' cy='7.5' r='5.5' fill='none' stroke='%23888c92' stroke-width='1.8'/%3E%3Cpath d='M11.6 11.6 16 16' stroke='%23888c92' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 12px 50%;border-radius:2px;padding:11px 12px 11px 40px;font-size:16px}
+.search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--focus)}
+.search .hint{font-family:var(--f-mono);font-size:.7rem;color:var(--mute);white-space:nowrap}
+
+/* botões e campos */
+.btn{appearance:none;border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:2px;padding:10px 14px;font-weight:620;cursor:pointer;display:inline-flex;align-items:center;gap:8px;text-decoration:none;line-height:1.2}
+.btn:hover{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--sunk);color:var(--ink);border-color:var(--ink)}
+.btn.small{padding:6px 10px;font-size:.88rem}
+.btn.danger{background:transparent;color:var(--bad);border-color:var(--bad)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.field{display:grid;gap:6px}
+.field label,.lbl{font-weight:620;font-size:.92rem}
+.field input[type=text],.field input[type=tel],.field textarea,.field select,input.txt,textarea.txt,select.txt{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:2px;padding:10px 12px;font-size:16px}
+textarea.txt{resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus,.txt:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--focus)}
+.file{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.file input[type=file]{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.file .picked{font-family:var(--f-mono);font-size:.78rem;color:var(--mute);min-width:0;overflow-wrap:anywhere}
+.chk{display:flex;gap:8px;align-items:center;font-size:.94rem}
+.chk input{width:18px;height:18px;accent-color:var(--accent)}
+
+/* área principal */
+main{min-height:0}
+.view{padding-block:16px 48px}
+.split{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.split .detail{display:none}
+.split.open .list{display:none}
+.split.open .detail{display:block}
+@media (min-width:900px){
+  .split{grid-template-columns:minmax(300px,380px) minmax(0,1fr);gap:24px;align-items:start}
+  .split .list{display:block!important;position:sticky;top:150px;max-height:calc(100vh - 170px);overflow:auto}
+  .split .detail{display:block}
+  .split .back{display:none}
+}
+
+/* lista de clientes */
+.banner{border:1px solid var(--line);border-left:3px solid var(--warn);background:var(--warn-soft);padding:10px 12px;font-size:.9rem;display:flex;gap:10px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
+.banner p{margin:0;min-width:0;flex:1 1 220px}
+.count{font-family:var(--f-mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin:0 0 8px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.clist{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.crow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:11px 8px;border-bottom:1px solid var(--line);cursor:pointer;background:transparent}
+.crow:hover{background:var(--sunk)}
+.crow[aria-selected="true"]{background:var(--soft);box-shadow:inset 3px 0 0 var(--accent)}
+.crow .nm{font-weight:640;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crow .ph{font-family:var(--f-mono);font-size:.84rem;color:var(--ink);opacity:.86;grid-column:1/-1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crow .dt{font-family:var(--f-mono);font-size:.74rem;color:var(--mute);text-align:right}
+.crow .sn{grid-column:1/-1;font-size:.86rem;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crow .tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center;grid-column:1/-1}
+.crow .tags:empty{display:none}
+.pill{font-family:var(--f-mono);font-size:.66rem;text-transform:uppercase;letter-spacing:.06em;border:1px solid currentColor;border-radius:2px;padding:1px 6px;white-space:nowrap;line-height:1.5}
+.pill.doc{color:var(--accent)}
+.pill.st-proposta{color:var(--accent)}
+.pill.st-negociando{color:var(--warn)}
+.pill.st-fechado,.pill.st-ativo{color:var(--good);background:var(--soft)}
+.pill.st-perdido{color:var(--bad)}
+.pill.st-novo{color:var(--mute)}
+.pill.demo{color:var(--warn)}
+mark{background:var(--warn-soft);color:inherit;padding:0 1px}
+.empty{border:1px dashed var(--line);padding:22px 16px;text-align:center;color:var(--mute)}
+.more{display:flex;justify-content:center;padding:14px}
+.hits{margin-top:18px}
+.hit{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:transparent;padding:10px 8px;cursor:pointer}
+.hit:hover{background:var(--sunk)}
+.hit .who{font-weight:620;font-size:.9rem}
+.hit .when{font-family:var(--f-mono);font-size:.72rem;color:var(--mute);margin-left:6px}
+.hit .tx{font-size:.9rem;color:var(--mute);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ficha do cliente */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:2px}
+.ficha{border-top:3px solid var(--ink)}
+.fhead{padding:14px 16px;display:grid;gap:10px}
+.fhead h2{margin:0;font-family:var(--f-display);font-weight:740;font-stretch:110%;letter-spacing:-.035em;font-size:clamp(1.35rem,4.5vw,1.8rem);line-height:1.05;text-wrap:balance;overflow-wrap:anywhere}
+.fhead .phone{font-family:var(--f-mono);font-size:1.02rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.fhead .acts{display:flex;gap:8px;flex-wrap:wrap}
+.fhead .phone .btn{font-family:var(--f-body)}
+.stats{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--f-mono);font-size:.74rem;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.stats b{color:var(--ink);font-weight:500}
+.ftabs{display:flex;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow-x:auto}
+.ftabs button{flex:none;appearance:none;border:0;background:transparent;padding:10px 14px;font-weight:600;color:var(--mute);border-bottom:2px solid transparent;cursor:pointer}
+.ftabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.fbody{padding:12px 16px 18px}
+.back{appearance:none;border:0;background:transparent;color:var(--accent);font-weight:620;padding:4px 0 12px;cursor:pointer}
+.edit{display:grid;gap:10px;grid-template-columns:1fr;padding:12px 16px;border-top:1px dashed var(--line);background:var(--bg)}
+@media (min-width:640px){.edit{grid-template-columns:1fr 1fr}}
+.edit .full{grid-column:1/-1}
+
+/* conversa */
+.chatbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.chatbar input{flex:1 1 180px;min-width:0}
+.chat{display:flex;flex-direction:column;gap:6px;background:var(--bg);border:1px solid var(--line);padding:12px 10px;border-radius:2px}
+.day{align-self:center;font-family:var(--f-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;color:var(--mute);background:var(--surface);border:1px solid var(--line);padding:2px 8px;margin:8px 0 2px;border-radius:2px}
+.msg{max-width:min(82%,560px);align-self:flex-start;background:var(--surface);border:1px solid var(--line);padding:7px 10px 5px;border-radius:2px;overflow-wrap:anywhere;white-space:pre-wrap}
+.msg.me{align-self:flex-end;background:var(--mine);border-color:transparent}
+.msg.sys{align-self:center;max-width:92%;background:transparent;border:0;color:var(--mute);font-size:.82rem;text-align:center;white-space:normal}
+.msg .au{display:block;font-weight:650;font-size:.8rem;color:var(--accent);margin-bottom:2px;white-space:normal}
+.msg .tm{display:block;text-align:right;font-family:var(--f-mono);font-size:.66rem;color:var(--mute);margin-top:2px;white-space:nowrap}
+.msg.del .tx{font-style:italic;color:var(--mute)}
+.msg.flash{box-shadow:0 0 0 3px var(--focus)}
+.att{display:flex;gap:10px;align-items:center;border:1px solid var(--line);background:var(--surface);padding:8px;margin:2px 0 4px;cursor:pointer;text-align:left;width:100%;border-radius:2px;white-space:normal}
+.msg.me .att{background:var(--bg)}
+.att:hover{border-color:var(--accent)}
+.att .ic{flex:none;width:38px;height:46px;border:1px solid var(--accent);color:var(--accent);display:grid;place-items:center;font-family:var(--f-mono);font-size:.62rem;font-weight:500;letter-spacing:.04em;position:relative;background:var(--surface)}
+.att .ic::after{content:"";position:absolute;top:-1px;right:-1px;border-style:solid;border-width:0 9px 9px 0;border-color:transparent var(--bg) var(--accent) transparent}
+.att .ai{min-width:0;display:grid}
+.att .an{font-weight:600;font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.att .am{font-family:var(--f-mono);font-size:.7rem;color:var(--mute)}
+.att.missing{cursor:default;border-style:dashed}
+.att.missing .ic{border-color:var(--mute);color:var(--mute)}
+.thumb{display:block;max-width:min(260px,100%);max-height:260px;border:1px solid var(--line);margin:2px 0 4px;cursor:pointer;background:var(--sunk);min-height:60px;min-width:80px}
+audio,video{max-width:100%;display:block;margin:4px 0}
+
+/* documentos */
+.dlist{display:grid;gap:8px}
+.drow{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);padding:10px 12px;border-radius:2px}
+.drow .ic{width:34px;height:42px;border:1px solid var(--accent);color:var(--accent);display:grid;place-items:center;font-family:var(--f-mono);font-size:.6rem;grid-row:span 2}
+.drow.missing .ic{border-color:var(--mute);color:var(--mute);border-style:dashed}
+.drow .dn{font-weight:620;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.drow .dm{font-size:.84rem;color:var(--mute);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.drow .dm button{appearance:none;border:0;background:none;padding:0;color:var(--accent);cursor:pointer;font:inherit;text-decoration:underline;text-underline-offset:2px}
+.drow .dd{font-family:var(--f-mono);font-size:.72rem;color:var(--mute);text-align:right;grid-row:span 2}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.filters button{appearance:none;border:1px solid var(--line);background:var(--surface);padding:6px 10px;border-radius:2px;cursor:pointer;font-size:.88rem}
+.filters button[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+
+/* importar e backup */
+.page{max-width:860px}
+.page h2{font-family:var(--f-display);font-weight:740;font-stretch:110%;letter-spacing:-.035em;font-size:clamp(1.5rem,5vw,2.2rem);line-height:1.02;margin:6px 0 8px;text-wrap:balance}
+.page .lead{color:var(--mute);margin:0 0 18px;max-width:60ch}
+.kick{font-family:var(--f-mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);display:flex;align-items:center;gap:8px}
+.kick::before{content:"";width:22px;height:1px;background:currentColor}
+.steps{display:grid;gap:14px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:2px;padding:16px;display:grid;gap:12px}
+.step.main{border-top:3px solid var(--accent)}
+.step h3{margin:0;font-size:1.08rem;font-weight:700;letter-spacing:-.02em;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.step h3 .tag{font-family:var(--f-mono);font-size:.64rem;text-transform:uppercase;letter-spacing:.08em;font-weight:500;color:var(--accent);border:1px solid currentColor;padding:1px 6px;border-radius:2px}
+.step p{margin:0;color:var(--mute);max-width:64ch}
+.step .row{display:grid;gap:12px}
+@media (min-width:700px){.step .row.two{grid-template-columns:1fr 1fr}}
+.keybox{font-family:var(--f-mono)!important;letter-spacing:.06em;font-size:15px!important;line-height:1.6}
+.keycount{font-family:var(--f-mono);font-size:.74rem;color:var(--mute)}
+.keycount.ok{color:var(--good)}
+details{border-top:1px dashed var(--line);padding-top:10px}
+details summary{cursor:pointer;font-weight:600;color:var(--accent);list-style-position:inside}
+details ol,details ul{margin:8px 0 0;padding-left:22px;color:var(--ink);display:grid;gap:4px;font-size:.93rem}
+details code,.path{font-family:var(--f-mono);font-size:.82em;background:var(--sunk);padding:1px 4px;border-radius:2px;overflow-wrap:anywhere}
+.log{background:var(--sunk);border:1px solid var(--line);border-radius:2px;padding:10px 12px;font-family:var(--f-mono);font-size:.78rem;max-height:240px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+.log .ok{color:var(--good)}.log .er{color:var(--bad)}
+.bar{height:6px;background:var(--line);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.kv div{background:var(--surface);padding:12px}
+.kv b{display:block;font-family:var(--f-display);font-size:1.5rem;font-weight:740;font-stretch:110%;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.kv span{font-family:var(--f-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mute)}
+.opts{display:flex;gap:14px;flex-wrap:wrap}
+
+/* visualizador */
+.viewer{position:fixed;inset:0;z-index:50;background:rgba(10,11,12,.72);display:flex;align-items:stretch;justify-content:center;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.vbox{background:var(--surface);width:100%;max-width:980px;display:flex;flex-direction:column;min-height:0}
+.vtop{display:flex;gap:8px;align-items:center;padding:10px var(--gutr) 10px var(--gut);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.vtop .vt{flex:1 1 160px;min-width:0;font-weight:650;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vbody{flex:1;overflow:auto;background:var(--sunk);padding:12px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.vbody canvas,.vbody img{max-width:100%;height:auto;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.vnote{color:var(--mute);text-align:center;padding:24px;max-width:46ch}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:2px;z-index:60;max-width:calc(100% - 32px);font-size:.92rem;box-shadow:0 4px 18px rgba(0,0,0,.2)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+<!--APP-HEAD-END-->
+</head>
+<body>
+<!--APP-BODY-START-->
+<header class="top">
+  <div class="brand wrap">
+    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><path d="M2 5h8l2 2.5h12V22H2z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h10v5h-6l-3 2.5V17H8z" fill="currentColor"/></svg>
+    <b>Arquivo de Clientes</b>
+    <span class="sub">histórico do<br>WhatsApp Business</span>
+  </div>
+  <nav class="tabs wrap" aria-label="Seções">
+    <a href="#clientes" data-view="clientes">Clientes<span class="n" id="n-cli"></span></a>
+    <a href="#documentos" data-view="documentos">Propostas<span class="n" id="n-doc"></span></a>
+    <a href="#importar" data-view="importar">Importar</a>
+    <a href="#backup" data-view="backup">Backup</a>
+  </nav>
+  <div class="search wrap" id="searchbar">
+    <label class="sr" for="q">Buscar</label>
+    <input id="q" type="search" autocomplete="off" placeholder="Número, nome ou palavra da conversa" enterkeyhint="search">
+  </div>
+</header>
+
+<main>
+  <section id="v-clientes" class="view wrap split" aria-label="Clientes">
+    <div class="list" id="list"></div>
+    <div class="detail" id="detail"></div>
+  </section>
+
+  <section id="v-documentos" class="view wrap" aria-label="Propostas e arquivos" hidden>
+    <div class="filters" id="docfilters" role="group" aria-label="Tipo de arquivo">
+      <button type="button" data-f="pdf" aria-pressed="true">PDFs</button>
+      <button type="button" data-f="doc" aria-pressed="false">Todos os documentos</button>
+      <button type="button" data-f="image" aria-pressed="false">Fotos</button>
+      <button type="button" data-f="missing" aria-pressed="false">Sem arquivo</button>
+    </div>
+    <p class="count" id="doccount"></p>
+    <div class="dlist" id="docs"></div>
+    <div class="more" id="docmore"></div>
+  </section>
+
+  <section id="v-importar" class="view wrap page" aria-label="Importar" hidden>
+    <div class="kick">Trazer o histórico do S22</div>
+    <h2>Importar conversas e propostas</h2>
+    <p class="lead">Tudo fica guardado só neste aparelho. Nada é enviado para a internet. Pode importar várias vezes: o que já existe não duplica.</p>
+    <div class="steps">
+      <div class="step" id="progress" hidden>
+        <h3 id="prog-title">Importando…</h3>
+        <div class="bar"><i id="prog-bar"></i></div>
+        <div class="log" id="log" aria-live="polite"></div>
+      </div>
+
+      <div class="step main">
+        <h3>Backup completo do S22 <span class="tag">recomendado</span></h3>
+        <p>Traz todas as conversas de uma vez, já com o número de cada cliente. Precisa do arquivo <span class="path">msgstore.db.crypt15</span> (ou do .zip da pasta “WhatsApp Business” inteira) e da chave de 64 dígitos.</p>
+        <div class="row two">
+          <div class="field">
+            <span class="lbl">1. Backup (.crypt15 ou .zip da pasta)</span>
+            <div class="file"><label class="btn ghost small" for="f-backup">Escolher arquivo</label><input id="f-backup" type="file"><span class="picked" id="p-backup">nenhum arquivo</span></div>
+          </div>
+          <div class="field">
+            <span class="lbl">3. Pasta Media (PDFs, fotos) <span class="mute">— não precisa se escolheu o .zip</span></span>
+            <div class="file"><label class="btn ghost small" for="f-bmedia-dir">Escolher pasta</label><input id="f-bmedia-dir" type="file" webkitdirectory multiple><label class="btn ghost small" for="f-bmedia">Escolher arquivos</label><input id="f-bmedia" type="file" multiple><span class="picked" id="p-bmedia">nenhum</span></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="k-backup">2. Chave de 64 dígitos</label>
+          <textarea id="k-backup" class="txt keybox" rows="2" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ex.: 3f9a 0c41 …"></textarea>
+          <span class="keycount" id="kc">0 de 64</span>
+        </div>
+        <div><button class="btn" id="go-backup" type="button">Abrir backup e importar</button></div>
+        <details>
+          <summary>Onde acho o arquivo e a chave no S22?</summary>
+          <ol>
+            <li>No S22, abra o WhatsApp Business e confirme o número (o código chega por SMS no iPhone).</li>
+            <li>Vá em <b>⋮ › Configurações › Conversas › Backup de conversas › Backup criptografado de ponta a ponta › Ativar</b>.</li>
+            <li>Escolha <b>Usar chave de criptografia de 64 dígitos</b> (não use senha nem chave de acesso). Fotografe ou anote a chave.</li>
+            <li>Toque em <b>Fazer backup</b> e espere terminar.</li>
+            <li>O arquivo fica em <span class="path">Android/media/com.whatsapp.w4b/WhatsApp Business/Databases/msgstore.db.crypt15</span>. Os PDFs ficam em <span class="path">…/WhatsApp Business/Media/WhatsApp Business Documents</span>.</li>
+            <li>Sem computador: no app <b>Meus Arquivos</b>, segure a pasta “WhatsApp Business” › <b>Compactar</b>. Mande o .zip para o Google Drive ou iCloud Drive e escolha ele aqui (no item 1).</li>
+            <li>Com computador: ligue o S22 no cabo USB (“Transferindo arquivos”), copie a pasta “WhatsApp Business” e escolha aqui o arquivo da pasta Databases e a pasta Media.</li>
+          </ol>
+        </details>
+      </div>
+
+      <div class="step">
+        <h3>Conversas exportadas <span class="tag">.zip ou .txt</span></h3>
+        <p>Use se preferir trazer conversa por conversa. No S22: abra a conversa › <b>⋮ › Mais › Exportar conversa › Incluir mídia</b>. Pode escolher vários arquivos de uma vez.</p>
+        <div class="file"><label class="btn small" for="f-export">Escolher conversas</label><input id="f-export" type="file" multiple accept=".zip,.txt,application/zip,text/plain"><span class="picked" id="p-export">nenhuma</span></div>
+      </div>
+
+      <div class="step">
+        <h3>Ligar PDFs e fotos que faltaram</h3>
+        <p id="missing-note">Se alguma mensagem aparece como “arquivo não importado”, escolha aqui a pasta Media do S22, um .zip dela ou os PDFs soltos. O app encontra cada arquivo pelo nome.</p>
+        <div class="file"><label class="btn ghost small" for="f-link-dir">Escolher pasta</label><input id="f-link-dir" type="file" webkitdirectory multiple><label class="btn ghost small" for="f-link">Escolher arquivos</label><input id="f-link" type="file" multiple><span class="picked" id="p-link"></span></div>
+      </div>
+
+      <div class="step">
+        <h3>Nomes dos contatos <span class="tag">.vcf</span></h3>
+        <p>O backup traz só os números. Para ver os nomes, exporte os contatos (no S22: <b>Contatos › Gerenciar contatos › Exportar</b>; no iPhone: <b>Contatos › Listas › segure “Todos os contatos” › Exportar</b>) e escolha o arquivo aqui.</p>
+        <div class="file"><label class="btn ghost small" for="f-vcf">Escolher contatos</label><input id="f-vcf" type="file" accept=".vcf,text/vcard,text/x-vcard"><span class="picked" id="p-vcf"></span></div>
+      </div>
+
+      <div class="step">
+        <h3>Restaurar um pacote salvo</h3>
+        <p>O arquivo <span class="path">Arquivo-de-Clientes-….zip</span> gerado na aba Backup. Use para passar tudo do computador para o iPhone.</p>
+        <div class="file"><label class="btn ghost small" for="f-pkg">Escolher pacote</label><input id="f-pkg" type="file" accept=".zip,application/zip"><span class="picked" id="p-pkg"></span></div>
+      </div>
+
+      <details class="step">
+        <summary>Ajustes da importação</summary>
+        <div class="field" style="margin-top:10px">
+          <label for="s-me">Seu nome como aparece nas conversas exportadas</label>
+          <input id="s-me" type="text" class="txt" placeholder="ex.: Vini Reformas">
+          <span class="mute" style="font-size:.86rem">Ajuda a separar o que você mandou do que o cliente mandou. Nas conversas individuais o app descobre sozinho.</span>
+        </div>
+        <div class="field">
+          <span class="lbl">Guardar também (os documentos sempre são guardados)</span>
+          <div class="opts">
+            <label class="chk"><input type="checkbox" id="s-image" checked> Fotos</label>
+            <label class="chk"><input type="checkbox" id="s-audio"> Áudios</label>
+            <label class="chk"><input type="checkbox" id="s-video"> Vídeos</label>
+            <label class="chk"><input type="checkbox" id="s-sticker"> Figurinhas</label>
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section id="v-backup" class="view wrap page" aria-label="Backup" hidden>
+    <div class="kick">Não perder nunca mais</div>
+    <h2>Backup do arquivo</h2>
+    <p class="lead">O pacote é um .zip com uma pasta por cliente (nome e número), a conversa em texto e os PDFs. Guarde no iCloud Drive ou no Google Drive: ele abre direto no app Arquivos e também volta para cá em qualquer aparelho.</p>
+    <div class="steps">
+      <div class="kv" id="kv"></div>
+      <div class="step main">
+        <h3>Salvar pacote completo</h3>
+        <div class="opts">
+          <label class="chk"><input type="checkbox" checked disabled> Conversas, anotações e documentos</label>
+          <label class="chk"><input type="checkbox" id="e-image" checked> Fotos</label>
+          <label class="chk"><input type="checkbox" id="e-audio" checked> Áudios</label>
+          <label class="chk"><input type="checkbox" id="e-video" checked> Vídeos</label>
+        </div>
+        <div><button class="btn" id="go-pkg" type="button">Gerar e salvar pacote</button></div>
+        <div class="log" id="pkglog" hidden></div>
+      </div>
+      <div class="step">
+        <h3>Lista de clientes <span class="tag">.csv</span></h3>
+        <p>Nome, número, situação, último contato, quantidade de propostas e anotações. Abre no Excel ou no Numbers.</p>
+        <div><button class="btn ghost" id="go-csv" type="button">Salvar lista</button></div>
+      </div>
+      <div class="step">
+        <h3>Espaço neste aparelho</h3>
+        <p id="storage">Calculando…</p>
+        <div><button class="btn ghost small" id="go-persist" type="button">Pedir para o navegador não apagar</button></div>
+      </div>
+      <div class="step">
+        <h3>Apagar tudo deste aparelho</h3>
+        <p>Remove conversas, arquivos e anotações guardados aqui. Faça o pacote antes.</p>
+        <div class="file"><input id="wipe-confirm" class="txt" type="text" placeholder="digite APAGAR" style="max-width:200px" autocomplete="off"><button class="btn danger small" id="go-wipe" type="button">Apagar</button></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-labelledby="vt">
+  <div class="vbox">
+    <div class="vtop">
+      <button class="btn ghost small" id="v-close" type="button">Fechar</button>
+      <span class="vt" id="vt"></span>
+      <button class="btn small" id="v-save" type="button">Salvar</button>
+      <button class="btn ghost small" id="v-share" type="button" hidden>Enviar…</button>
+      <button class="btn ghost small" id="v-open" type="button" hidden>Abrir</button>
+    </div>
+    <div class="vbody" id="vbody"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="core.js"></script>
+<script src="app.js"></script>
+<!--APP-BODY-END-->
+</body>
+</html>

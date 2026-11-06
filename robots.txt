@@ -3,5 +3,6 @@ Allow: /
 Disallow: /painel.html
 Disallow: /obrigado/
 Disallow: /seo/
+Disallow: /arquivo-whatsapp/
 
 Sitemap: https://quantocobrarpj.com.br/sitemap.xml

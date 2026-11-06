@@ -6,3 +6,8 @@
   for = "/guia-split-payment/*.pdf"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/arquivo-whatsapp/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
