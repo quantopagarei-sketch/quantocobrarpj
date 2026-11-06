@@ -33,7 +33,7 @@
   var BIDI = /[‎‏‪-‮⁦-⁩﻿]/g;
   function stripBidi(s) { return String(s == null ? '' : s).replace(BIDI, ''); }
   // iPhone prefixa anexos com um número sequencial, ex.: "00000023-Proposta.pdf"
-  function displayFileName(name) { return baseName(stripBidi(name)).replace(/^0\d{7}-(?=.)/, '').trim(); }
+  function displayFileName(name) { return baseName(stripBidi(name)).normalize('NFC').replace(/^(?:0\d{7}|-\d{7})-(?=.)/, '').trim(); }
   function decodeText(bytes) {
     var t;
     try { t = new TextDecoder('utf-8', { fatal: true }).decode(bytes); }
@@ -144,15 +144,17 @@
 
   // ---------------------------------------------------------------- exportações (.txt)
   // Android: "06/11/2026 14:32 - Fulano: texto"   iPhone: "[06/11/2026, 14:32:10] Fulano: texto"
-  var HDR_ANDROID = /^(\d{1,4})[\/.\-](\d{1,2})[\/.\-](\d{1,4}),?\s+(\d{1,2})[:.h](\d{2})(?:[:.](\d{2}))?\s*([AaPp]\.?\s?[Mm]\.?)?\s+-\s+/;
-  var HDR_IOS = /^\[(\d{1,4})[\/.\-](\d{1,2})[\/.\-](\d{1,4}),?\s+(\d{1,2})[:.h](\d{2})(?:[:.](\d{2}))?\s*([AaPp]\.?\s?[Mm]\.?)?\]\s+/;
+  var PERIOD = '([AaPp]\\.?\\s?[Mm]\\.?|da manh(?:ã|a)|da tarde|da noite|da madrugada|de la mañana|de la tarde|de la noche|de la madrugada)';
+  var HDR_ANDROID = new RegExp('^(\\d{1,4})[\\/.\\-](\\d{1,2})[\\/.\\-](\\d{1,4}),?\\s+(\\d{1,2})[:.h](\\d{2})(?:[:.](\\d{2}))?\\s*' + PERIOD + '?\\s+-\\s+', 'i');
+  var HDR_IOS = new RegExp('^\\[(\\d{1,4})[\\/.\\-](\\d{1,2})[\\/.\\-](\\d{1,4}),?\\s+(\\d{1,2})[:.h](\\d{2})(?:[:.](\\d{2}))?\\s*' + PERIOD + '?\\]\\s+', 'i');
   var RE_ATT_ANDROID = /^(.+?)\s*\((?:arquivo anexado|file attached|archivo adjunto|fichier joint|Datei angehängt|file allegato)\)\s*$/i;
   var RE_ATT_IOS = /<(?:anexado|attached|adjunto|anexo|pièce jointe|Anhang|allegato):\s*([^>]+)>/i;
   var RE_OMIT = /^<\s*(?:Mídia oculta|Arquivo de mídia oculto|Media omitted|Multimedia omitido|Archivo omitido|Médias omis|Medien ausgeschlossen|Media omessi)\s*>$/i;
   var RE_OMIT_IOS = /^(imagem|vídeo|áudio|figurinha|documento|gif|cartão de contato|image|video|audio|sticker|document|contact card|imagen|vídeo|audio|sticker|documento|tarjeta de contacto)\s+(ocultad[oa]|omitid[oa]|omitted|omitida)$/i;
-  var RE_DELETED = /^(Esta mensagem foi apagada|Você apagou esta mensagem|Mensagem apagada|This message was deleted|You deleted this message|Se eliminó este mensaje|Eliminaste este mensaje)\.?$/i;
+  var RE_DELETED = /^(Esta mensagem foi apagada|Essa mensagem foi apagada|Você apagou esta mensagem|Você apagou essa mensagem|Mensagem apagada|This message was deleted|You deleted this message|Se eliminó este mensaje|Eliminaste este mensaje)\.?$/i;
   var RE_EDITED = /\s*<\s*(Mensagem editada|This message was edited|Se editó este mensaje)\s*>\s*$/i;
-  var RE_GROUP_SYS = /(criou o grupo|criou este grupo|created group|created this group|adicionou|added|entrou usando|joined using|saiu|left|removeu|removed|creó el grupo|añadió|se unió)/i;
+  var RE_GROUP_SYS = /(criou o grupo|criou este grupo|created group|created this group|adicionou|adicionad|added|entrou usando|joined using|saiu|left|removeu|removed|\bgrupo\b|\bgroup\b|creó el grupo|añadió|se unió)/i;
+  var RE_SYS_VERB = / (mudou o assunto|mudou a descri|mudou o \u00edcone|mudou as configura|criou o grupo|criou este grupo|adicionou|removeu|saiu|entrou usando|foi adicionad|changed the (subject|group)|created group|added|removed|left|joined using) /i;
   var RE_SYS_PHRASES = /(criptografia de ponta a ponta|end-to-end encrypted|cifrad[oa]s de extremo a extremo|criou (o|este) grupo|created (group|this group)|adicionou|added|entrou usando|joined using|saiu|left|removeu|removed|mudou (o|a|para|seu)|changed (the|their|to|this)|código de segurança|security code|mensagens temporárias|disappearing messages|conta comercial|business account|Toque para saber mais|Tap to learn more|bloqueou|blocked|fixou|pinned)/i;
   var RE_OMIT_TAIL = /^(.*?)\s*(imagem|vídeo|áudio|figurinha|documento|gif|image|video|audio|sticker|document)\s+(omitid[oa]|ocultad[oa]|omitted)\s*$/i;
   var RE_TITLE = /^(?:Conversa do WhatsApp com|Conversa no WhatsApp com|Conversa do WhatsApp -|WhatsApp Chat with|WhatsApp Chat -|Chat de WhatsApp con|Chat de WhatsApp -|Discussion WhatsApp avec|WhatsApp Chat mit)\s*/i;
@@ -223,17 +225,22 @@
       else { D = +gg[1]; M = +gg[2]; Y = +gg[3]; }
       if (Y < 100) Y += 2000;
       var hh = +gg[4], mi = +gg[5], ss = gg[6] ? +gg[6] : 0, ap = gg[7] ? gg[7].replace(/[\s.]/g, '').toLowerCase() : '';
-      if (ap === 'pm' && hh < 12) hh += 12;
-      if (ap === 'am' && hh === 12) hh = 0;
+      if (ap && /^pm$|tarde|noite|noche/.test(ap) && hh < 12) hh += 12;
+      if (ap && /^am$|manh|mañana|madrugada/.test(ap) && hh === 12) hh = 0;
       it.ts = (M >= 1 && M <= 12 && D >= 1 && D <= 31 && hh < 24 && mi < 60) ? new Date(Y, M - 1, D, hh, mi, ss).getTime() : NaN;
       var ci = indexOfAuthorSep(it.rawBody);
       it.author = ci > 0 ? stripBidi(it.rawBody.slice(0, ci)).trim() : null;
       it.body = ci > 0 ? it.rawBody.slice(ci + 2) : it.rawBody;
+      // "Mãe mudou o assunto de ... para "Família: oficial"" não é um autor
+      if (it.author && RE_SYS_VERB.test(' ' + clean(it.author) + ' ')) { it.author = null; it.body = it.rawBody; }
+      // iPhone: registro vazio "[data] ~Nome:" logo depois do aviso de criptografia
+      if (!it.author && /^[^:\n]{1,80}:\s*$/.test(stripBidi(it.rawBody)) && !it.rest.length) { it.author = stripBidi(it.rawBody).replace(/:\s*$/, '').trim(); it.body = ''; it.empty = 1; }
+      if (!it.author && !stripBidi(it.rawBody).trim() && !it.rest.join('').trim()) it.empty = 1;
       if (it.author) count[it.author] = (count[it.author] || 0) + 1;
     }
     // Linha com cara de cabeçalho dentro de uma mensagem (ex.: um cronograma "12/11/2026 08:00 - demolição"):
     // a exportação é cronológica, então uma linha sem autor conhecido e fora da ordem do tempo volta para a mensagem anterior.
-    var trusted = raws.map(function (x) { return isFinite(x.ts) && x.author && count[x.author] > 1; });
+    var trusted = raws.map(function (x) { return isFinite(x.ts) && x.author && (count[x.author] > 1 || Phone.looksLike(x.author)); });
     var nextTs = new Array(raws.length), nx = null;
     for (r = raws.length - 1; r >= 0; r--) { nextTs[r] = nx; if (trusted[r]) nx = raws[r].ts; }
     var keep = [], prevTs = null, now = Date.now();
@@ -250,6 +257,7 @@
     var seq = 0;
     for (var j = 0; j < keep.length; j++) {
       var kk = keep[j], author = kk.author;
+      if (kk.empty) continue;
       var full = kk.body + (kk.rest.length ? '\n' + kk.rest.join('\n') : '');
       var msg = parseBody(full, fmt, author);
       msg.ts = kk.ts; msg.author = author; msg.seq = seq++;
@@ -298,7 +306,12 @@
       out.text = [before, after].filter(Boolean).join('\n');
       return out;
     }
-    if (RE_OMIT.test(t)) { out.kind = 'omitted'; out.text = ''; return out; }
+    if (RE_OMIT.test(firstLine)) {
+      out.kind = 'omitted'; out.text = restLines;
+      // o nome do documento costuma vir na linha seguinte
+      if (restLines && restLines.indexOf('\n') < 0 && /\.[a-z0-9]{2,5}$/i.test(restLines)) { out.media = { name: restLines }; out.text = ''; }
+      return out;
+    }
     var mo = RE_OMIT_IOS.exec(t);
     if (mo) { out.kind = 'omitted'; out.text = ''; out.omittedType = mo[1].toLowerCase(); return out; }
     var mt = RE_OMIT_TAIL.exec(t);
@@ -352,8 +365,13 @@
     var phone = titlePhone || (other && Phone.looksLike(other) ? Phone.normalize(other) : null);
     var name;
     if (isGroup) name = title || 'Grupo';
-    else if (titlePhone) name = null;
-    else name = (other && !Phone.looksLike(other)) ? other : title;
+    else if (titlePhone) name = (other && sure && !Phone.looksLike(other)) ? other.replace(/^~\s*/, '') : null;
+    else name = (other && !Phone.looksLike(other)) ? other.replace(/^~\s*/, '') : title;
+    if (!isGroup && !name && !phone) {
+      // sem título e sem saber quem é quem (ex.: um "_chat.txt" solto): usa os nomes de quem escreveu
+      var others = authors.filter(function (a) { return !me[a]; }).map(function (a) { return a.replace(/^~\s*/, ''); });
+      if (others.length) name = others.join(' / ');
+    }
     var id = isGroup ? 'g:' + slug(title || fileName || 'grupo') : phone ? 'p:' + Phone.key(phone) : 'n:' + slug(name || fileName || 'contato');
     return { id: id, name: name || null, phone: phone, isGroup: isGroup, me: me, other: other, inferredMe: !isGroup && sure ? authors.filter(function (a) { return a !== other; }) : [] };
   }
