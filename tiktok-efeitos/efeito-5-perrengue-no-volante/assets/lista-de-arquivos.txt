@@ -1,8 +1,8 @@
-icone_162.png                              162x162  RGB      23.3 KB
-icone_512.png                              512x512  RGB     105.0 KB
+icone_162.png                              162x162  RGB      23.2 KB
+icone_512.png                              512x512  RGB     104.7 KB
 icone_alt_162.png                          162x162  RGB      23.0 KB
 icone_alt_512.png                          512x512  RGB     105.1 KB
-previa.png                                 1760x5066  RGB    3109.5 KB
+previa.png                                 1760x5066  RGB    3109.1 KB
 titulo.png                                 512x512  RGBA    144.9 KB
 titulo_5_posicoes.png                      512x512  RGBA    144.7 KB
 titulo_curto.png                           512x512  RGBA    142.0 KB
