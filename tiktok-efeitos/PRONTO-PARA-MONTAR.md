@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 06/11/2026, 07:10 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Enquanto a decisão do desafio estiver pendente, confira de novo no GitHub às 9h, 13h e 18h (Brasília). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 06/11/2026, 09:30 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -85,4 +85,11 @@ Nada por enquanto. Os 7 efeitos já estão na seção 2. O próximo conceito (Ca
   4. **C09:** no primeiro envio, sempre a versão padrão de 10 cartas (Parte 9 do guia 1.1). O rodízio de 14 só é testado e guardado.
   5. **Duplicidade:** se algum sorteio voltar reprovado como duplicado ou spam, pare de enviar os outros sorteios e avise a nuvem com o texto exato do motivo.
   6. Ao enviar cada um, mande o resumo para a nuvem (nome, data e hora, desafio sim/não, tamanho do pacote) e registre no `relatorio-montagem.md`.
+- **06/11/2026, 09:30 UTC (decisões do Vini, vale por cima da regra 3 de 07:10):**
+  1. **O Vini ACEITOU os termos do desafio "Nov Social Randomizer Sub Challenge" e a autorização de uso promocional.** Ele também confirmou: 18 anos ou mais, conta criada no Brasil, conta do tipo **Pessoal**. Você está autorizado a aceitar os termos dentro do Effect House em nome dele. Anote no `relatorio-montagem.md` a data e a hora do aceite e guarde um print.
+  2. **Vincule ao desafio** (campo Challenge do envio) o C02, o C06 e o C07, nas datas da tabela. O C09 e o C05 também, se as regras do desafio aceitarem o template deles (Blind Rank / Future Life). Se não aceitarem, envie sem desafio: o C09 assim que testado, o C05 em 03/12.
+  3. **C01 e C08 (já enviados sem desafio):** veja se dá para vincular o desafio depois (por exemplo, editando em Manage Effects, antes ou depois da aprovação). Se der, vincule. Se não der, deixe como está. **Não retire nem reenvie** só para entrar no desafio (risco de duplicidade).
+  4. **Prazo do desafio:** se o último dia para participar cair **antes** da data de envio da tabela de algum efeito (por exemplo, o C07 em 03/12), envie esse efeito com o desafio até **3 dias antes do fim do desafio**, para dar tempo da análise, e avise a nuvem.
+  5. Se o desafio exigir algo que os guias não têm (hashtag, elemento obrigatório, idioma), adapte só o necessário e conte para a nuvem o que mudou.
+  6. **Vídeos:** o Vini não vai gravar. A equipe da nuvem está preparando os vídeos de divulgação e as ordens de gravação e postagem para você. Elas entram aqui numa próxima atualização. Até lá, continue sem postar no TikTok.
 

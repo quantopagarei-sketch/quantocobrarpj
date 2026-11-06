@@ -14,8 +14,11 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 
 ## Conta
 - Effect House 5.16.0. Selo atual: nenhum. Bronze = 1 efeito publicado (0/1).
-- Desafio aberto: "Nov Social Randomizer Sub Challenge" (até US$ 1.000, ~51 dias). Para entrar, é preciso aceitar os termos e autorizar uso promocional. **Decisão do Vini pendente.** Regra no PRONTO (07:10 UTC): sem decisão até qui 12/11, os sorteios saem sem desafio nas datas da tabela.
+- Desafio aberto: "Nov Social Randomizer Sub Challenge" (até US$ 1.000, ~51 dias). Para entrar, é preciso aceitar os termos e autorizar uso promocional. **Vini ACEITOU os termos em 06/11** (ordem no PRONTO, 09:30 UTC). C02, C06 e C07 entram no desafio; C09 e C05 entram se o template for aceito; C01 e C08 entram só se der para vincular depois do envio.
 
-## Pendências do Vini (mandar numa mensagem só)
-1. Aceitar ou não os termos do desafio de Randomizer.
-2. Ter 18 anos ou mais? A conta foi criada no Brasil? (requisito do programa de recompensas)
+## Dados da conta confirmados pelo Vini (06/11)
+- 18 anos ou mais: sim. Conta criada no Brasil: sim. Tipo de conta: **Pessoal**.
+- Vídeos de divulgação: plano completo, **feitos pela equipe** (o Vini não grava).
+
+## Pendências do Vini
+- Nenhuma no momento.
