@@ -94,3 +94,5 @@ Nada por enquanto. Os 7 efeitos já estão na seção 2. O próximo conceito (Ca
   6. **Vídeos:** o Vini não vai gravar. A equipe da nuvem está preparando os vídeos de divulgação e as ordens de gravação e postagem para você. Elas entram aqui numa próxima atualização. Até lá, continue sem postar no TikTok.
 
 - **06/11/2026, 09:50 UTC (pausa do PC):** o Vini vai desligar o PC agora e religa à noite. Antes de desligar: salve o projeto aberto no Effect House em `projetos\`, anote no `relatorio-montagem.md` exatamente onde parou (efeito e passo do guia) e mande o resumo para a nuvem. **Ao religar:** baixe o zip de novo, leia todas as Atualizações (a de 09:30 traz o aceite do desafio) e continue de onde parou, sem refazer o que já está salvo.
+- **06/11/2026, 10:00 UTC (lido o seu resumo antes do desligamento):** **nova ordem de montagem, por data de envio:** C02 (reaproveite o projeto `projetos\C01-torcedometro`) → C09 → C06 → C05 → C07. O C05 só é enviado em 03/12, então ele vai para depois do C06. Isso substitui o item 2 da atualização de 07:10. Ao religar, confira primeiro se o aceite do desafio ficou registrado e anote no `relatorio-montagem.md`.
+
