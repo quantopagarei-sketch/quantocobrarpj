@@ -1,0 +1,443 @@
+{
+  "efeito_id": "C09",
+  "versao_textos": "1.0",
+  "data": "2026-11-06",
+  "envio_previsto": "até 17/11/2026",
+  "template": "Blind Rank (Templates > aba Interactive)",
+  "template_fatos": {
+    "posicoes": "escala de 1 a 10 (resumo da busca da página oficial do template; a confirmar no app)",
+    "onde_vao_as_imagens": "propriedade 'Randomizer: Textures', no painel Visual Scripting (resumo da busca da página oficial; a confirmar no app)",
+    "outras_propriedades_citadas": [
+      "Randomizer: Wait Between Frames",
+      "Randomizer: Tap To Stop Randomizer"
+    ],
+    "alerta_forum": "um usuário do fórum do Effect House relatou que, com mais de 10 imagens em 'Randomizer: Textures', o jogo continuou depois da 10ª escolha e a lista de números ficou bugada (a confirmar). Por isso a versão padrão tem exatamente 10 imagens."
+  },
+  "nome": "Perrengue no volante",
+  "nome_caracteres": 20,
+  "nome_observacao": "Sem acento e sem pontuação, então não depende da regra de caracteres do formulário. Limite do formulário: 25 caracteres. Nenhum efeito com esse nome apareceu na busca na web (tiktok.com bloqueado daqui; a confirmar na busca de efeitos do app).",
+  "alternativas": [
+    "Ranking dos perrengues",
+    "Ranking do motorista"
+  ],
+  "alternativas_caracteres": [
+    22,
+    20
+  ],
+  "hint": "Toque no número",
+  "hint_caracteres": 15,
+  "hint_alternativas": {
+    "se_o_hint_for_lista_pronta": "Toque na tela",
+    "se_o_campo_for_texto_livre_e_aceitar_mais": "Escolha a posição"
+  },
+  "hint_observacao": "(a confirmar) se o hint é texto livre ou lista pronta. O hint não aparece no teste pelo celular, só depois de publicado.",
+  "titulo_topo": {
+    "texto": "RANKING DOS PERRENGUES DO VOLANTE",
+    "linha1": "RANKING DOS",
+    "linha2": "PERRENGUES",
+    "linha3": "DO VOLANTE",
+    "subtitulo": "1 = PIOR · 10 = DE BOA",
+    "subtitulo_se_faltar_espaco": "1 = PIOR",
+    "subtitulo_se_o_template_tiver_so_5_posicoes": "1 = PIOR · 5 = DE BOA",
+    "arquivo": "titulo.png",
+    "onde_entra": "(a confirmar) na textura de título ou cabeçalho do template, se houver. Se não houver, como imagem 2D no topo da tela. Quem decide é o guia de montagem.",
+    "caracteres_linha1": 11,
+    "caracteres_linha2": 10,
+    "caracteres_linha3": 10,
+    "caracteres_subtitulo": 22
+  },
+  "textos_de_interface": {
+    "observacao": "Só se o template mostrar algum texto de interface em inglês (instrução, reiniciar, rótulos da escala). Se não mostrar, ignorar.",
+    "instrucao_toque": "TOQUE NO NÚMERO",
+    "reiniciar": "JOGAR DE NOVO",
+    "rotulo_posicao_1": "PIOR",
+    "rotulo_posicao_10": "DE BOA",
+    "arquivos_sugeridos": {
+      "instrucao_toque": "etiqueta_toque.png",
+      "reiniciar": "jogar_de_novo.png",
+      "rotulo_posicao_1": "rotulo_pior.png",
+      "rotulo_posicao_10": "rotulo_de_boa.png"
+    }
+  },
+  "versao_padrao": {
+    "itens": 10,
+    "quais": "resultados 1 a 10 (pasta cartas/)",
+    "regra": "exatamente 10 imagens em 'Randomizer: Textures'. É a versão que vai para o envio."
+  },
+  "versao_rodizio_opcional": {
+    "itens": 14,
+    "quais": "resultados 1 a 10 + extras 11 a 14 (pasta extras/)",
+    "regra": "cada rodada sorteia 10 das 14 (Index Generator em Shuffle). Só usar se, no teste, o jogo parar certinho depois da 10ª escolha. Se der qualquer problema, ficar com a versão padrão. Não atrasar o envio por isso. (a confirmar)"
+  },
+  "se_o_template_tiver_so_5_posicoes": "usar as 10 principais e sortear 5 por rodada (Index Generator em Shuffle). Subtítulo do título: '1 = PIOR · 5 = DE BOA'. (a confirmar; a busca indica 10 posições)",
+  "regras_texto": {
+    "caixa": "tudo em MAIÚSCULAS, com acento",
+    "max_linhas": 2,
+    "max_caracteres_por_linha": 13,
+    "max_caracteres_por_item": 24,
+    "quebra_de_linha": "usar exatamente linha1 / linha2 do JSON",
+    "legibilidade": "o item aparece em cima da cabeça e depois pequeno na lista de 1 a 10. Letra grossa, contorno escuro e desenho simples, que dê pra ler pequeno.",
+    "tamanho_px": "o mesmo das imagens de comida do template (a confirmar ao abrir o projeto). O conceito estimou ~512x128. Se não der pra ver antes, sugestão: 512x512 (desenho em cima, 2 linhas embaixo) e uma cópia em 512x256.",
+    "emoji": "é só referência para o desenho (principal + secundário). Se usar emoji pronto, só de fonte com licença livre (Noto Color Emoji, OFL 1.1, a mesma do efeito-1).",
+    "glifos_necessarios_na_fonte": "015=ABCDEFGHIJKLMNOPQRSTUVZ·ÀÁÃÇÓÚ",
+    "maior_total_atual": "24 (BARULHINHO / NOVO NO CARRO)"
+  },
+  "resultados": [
+    {
+      "n": 1,
+      "arquivo": "cartas/carta_01.png",
+      "texto": "BALIZA COM PLATEIA",
+      "linha1": "BALIZA COM",
+      "linha2": "PLATEIA",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 7,
+      "caracteres_total": 18,
+      "emoji": "🚗👀",
+      "ilustracao": "carrinho genérico entre dois cones, com três pares de olhos espiando de cima"
+    },
+    {
+      "n": 2,
+      "arquivo": "cartas/carta_02.png",
+      "texto": "PNEU FURADO SEM ESTEPE",
+      "linha1": "PNEU FURADO",
+      "linha2": "SEM ESTEPE",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 10,
+      "caracteres_total": 22,
+      "emoji": "🛞❌",
+      "ilustracao": "pneu murcho com um prego espetado e um 'X' ao lado"
+    },
+    {
+      "n": 3,
+      "arquivo": "cartas/carta_03.png",
+      "texto": "POÇA QUE ERA CRATERA",
+      "linha1": "POÇA QUE",
+      "linha2": "ERA CRATERA",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 11,
+      "caracteres_total": 20,
+      "emoji": "🕳️💦",
+      "ilustracao": "poça d'água rasinha em cima de um buraco bem fundo, com respingo"
+    },
+    {
+      "n": 4,
+      "arquivo": "cartas/carta_04.png",
+      "texto": "VAGA QUE PARECIA MAIOR",
+      "linha1": "VAGA QUE",
+      "linha2": "PARECIA MAIOR",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 13,
+      "caracteres_total": 22,
+      "emoji": "🚗📏",
+      "ilustracao": "carrinho espremido entre dois outros, com uma régua e setinhas de medida"
+    },
+    {
+      "n": 5,
+      "arquivo": "cartas/carta_05.png",
+      "texto": "LAVAR O CARRO E CHOVER",
+      "linha1": "LAVAR O CARRO",
+      "linha2": "E CHOVER",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 8,
+      "caracteres_total": 22,
+      "emoji": "🧽🌧️",
+      "ilustracao": "carro brilhando (estrelinhas) com uma nuvem de chuva bem em cima dele"
+    },
+    {
+      "n": 6,
+      "arquivo": "cartas/carta_06.png",
+      "texto": "BARULHINHO NOVO NO CARRO",
+      "linha1": "BARULHINHO",
+      "linha2": "NOVO NO CARRO",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 13,
+      "caracteres_total": 24,
+      "emoji": "👂🔧",
+      "ilustracao": "orelha grande com três pontos de interrogação e uma chave de boca"
+    },
+    {
+      "n": 7,
+      "arquivo": "cartas/carta_07.png",
+      "texto": "QUEM NÃO DÁ SETA",
+      "linha1": "QUEM NÃO",
+      "linha2": "DÁ SETA",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 7,
+      "caracteres_total": 16,
+      "emoji": "🤷💡",
+      "ilustracao": "setinha de pisca-pisca laranja apagada e alguém dando de ombros",
+      "nota_risco": "reclama do outro motorista, sem xingamento nem gesto. Se usar emoji de seta, recolorir: no Noto ela vem num quadrado azul"
+    },
+    {
+      "n": 8,
+      "arquivo": "cartas/carta_08.png",
+      "texto": "SUBIDA COM FILA ATRÁS",
+      "linha1": "SUBIDA COM",
+      "linha2": "FILA ATRÁS",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 10,
+      "caracteres_total": 21,
+      "emoji": "⛰️😬",
+      "ilustracao": "carrinho numa ladeira, fila de carrinhos atrás e uma gota de suor"
+    },
+    {
+      "n": 9,
+      "arquivo": "cartas/carta_09.png",
+      "texto": "ESQUECER ONDE ESTACIONOU",
+      "linha1": "ESQUECER ONDE",
+      "linha2": "ESTACIONOU",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 10,
+      "caracteres_total": 24,
+      "emoji": "🤔🔑",
+      "ilustracao": "chave de carro genérica com um ponto de interrogação em cima de uma fileira de carrinhos iguais"
+    },
+    {
+      "n": 10,
+      "arquivo": "cartas/carta_10.png",
+      "texto": "BATERIA ARRIADA",
+      "linha1": "BATERIA",
+      "linha2": "ARRIADA",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 7,
+      "caracteres_total": 15,
+      "emoji": "🪫😩",
+      "ilustracao": "bateria de carro genérica com o marcador vazio e uma carinha cansada"
+    }
+  ],
+  "extras_rodizio": [
+    {
+      "n": 11,
+      "arquivo": "extras/carta_11.png",
+      "texto": "CARONA QUE DÁ PITACO",
+      "linha1": "CARONA QUE",
+      "linha2": "DÁ PITACO",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 9,
+      "caracteres_total": 20,
+      "emoji": "🗣️🚗",
+      "ilustracao": "balão de fala com '!!' saindo do banco do passageiro",
+      "nota_risco": "'carona' aqui é quem vai no banco do passageiro. No Noto, a cabeça do 🗣️ é azul: recolorir (no efeito-1 ficou laranja)"
+    },
+    {
+      "n": 12,
+      "arquivo": "extras/carta_12.png",
+      "texto": "ALARME QUE DISPARA À TOA",
+      "linha1": "ALARME QUE",
+      "linha2": "DISPARA À TOA",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 13,
+      "caracteres_total": 24,
+      "emoji": "🚨🌙",
+      "ilustracao": "carro genérico com ondinhas de alarme e uma lua (de madrugada)"
+    },
+    {
+      "n": 13,
+      "arquivo": "extras/carta_13.png",
+      "texto": "GPS RECALCULANDO",
+      "linha1": "GPS",
+      "linha2": "RECALCULANDO",
+      "caracteres_linha1": 3,
+      "caracteres_linha2": 12,
+      "caracteres_total": 16,
+      "emoji": "🗺️📍",
+      "ilustracao": "mapa genérico dobrado com um alfinete e uma setinha dando voltas",
+      "nota_risco": "GPS é nome genérico. Não desenhar tela nem ícone de aplicativo de mapa"
+    },
+    {
+      "n": 14,
+      "arquivo": "extras/carta_14.png",
+      "texto": "TRANCAR A CHAVE DENTRO",
+      "linha1": "TRANCAR A",
+      "linha2": "CHAVE DENTRO",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 12,
+      "caracteres_total": 22,
+      "emoji": "🔑🔒",
+      "ilustracao": "chave de carro genérica atrás de um vidro, com um cadeado"
+    }
+  ],
+  "reservas": [
+    {
+      "n": 1,
+      "codigo": "R1",
+      "arquivo": "reservas/reserva_01.png",
+      "texto": "VOLANTE PELANDO",
+      "linha1": "VOLANTE",
+      "linha2": "PELANDO",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 7,
+      "caracteres_total": 15,
+      "emoji": "🥵☀️",
+      "ilustracao": "volante genérico com ondinhas de calor e um sol"
+    },
+    {
+      "n": 2,
+      "codigo": "R2",
+      "arquivo": "reservas/reserva_02.png",
+      "texto": "LIMPADOR QUE SÓ ESPALHA",
+      "linha1": "LIMPADOR QUE",
+      "linha2": "SÓ ESPALHA",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 10,
+      "caracteres_total": 23,
+      "emoji": "🪟🌧️",
+      "ilustracao": "para-brisa com o limpador deixando um borrão em arco"
+    },
+    {
+      "n": 3,
+      "codigo": "R3",
+      "arquivo": "reservas/reserva_03.png",
+      "texto": "RESERVA ACESA NA ESTRADA",
+      "linha1": "RESERVA ACESA",
+      "linha2": "NA ESTRADA",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 10,
+      "caracteres_total": 24,
+      "emoji": "⛽🛣️",
+      "ilustracao": "marcador de combustível com o ponteiro no vermelho e uma estrada vazia",
+      "nota_risco": "bomba e posto genéricos, sem cor ou nome de rede de postos"
+    },
+    {
+      "n": 4,
+      "codigo": "R4",
+      "arquivo": "reservas/reserva_04.png",
+      "texto": "GARAGEM BLOQUEADA",
+      "linha1": "GARAGEM",
+      "linha2": "BLOQUEADA",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 9,
+      "caracteres_total": 17,
+      "emoji": "🚧🚗",
+      "ilustracao": "portão de garagem com um carro genérico parado na frente"
+    }
+  ],
+  "reservas_uso": "Só se algum item for vetado na revisão. Trocar 1 por 1, na ordem R1, R2, R3, R4. As extras 11 a 14 também servem de troca, se a versão de rodízio não for usada.",
+  "icone": {
+    "ideia": "volante genérico (aro com 3 raios, centro liso, sem logo) com uma gota de suor grande escorrendo. Sem texto. Alto contraste.",
+    "ideia_alternativa": "o mesmo volante na frente de uma listinha numerada 1, 2, 3",
+    "arquivo": "icone_162.png",
+    "arquivo_alternativo": "icone_alt_162.png",
+    "tamanho": "162x162 px, área segura central de 144x144",
+    "observacao": "não existe emoji de volante: precisa ser desenhado. O centro do volante fica liso, sem nada que pareça emblema de montadora."
+  },
+  "descricao_envio": {
+    "campo": "(a confirmar) O formulário pode não ter descrição pública; nos outros efeitos a equipe achou só o campo de comentários para quem revisa. Colar o texto em inglês e, embaixo, o em português.",
+    "pt": "Ranking às cegas dos perrengues de quem dirige. Eles aparecem um de cada vez e você escolhe a posição de cada um, de 1 (o pior) a 10, sem saber qual vem depois. Tem baliza com plateia, pneu furado sem estepe e mais 8. Sem marca, modelo de carro, loja, bebida ou direção perigosa.",
+    "pt_caracteres": 279,
+    "pt_curta": "Monte o ranking dos perrengues do volante sem saber qual vem depois.",
+    "pt_curta_caracteres": 68,
+    "en": "Blind ranking of everyday driving struggles, in Brazilian Portuguese. Items appear one at a time above your head and you tap a slot from 1 (worst) to 10 without knowing what comes next. 10 original texts with simple drawings (parallel parking with an audience, flat tire with no spare, a puddle that was a pothole, etc.). Built on the Blind Rank template. No generative AI. No brands, car models, logos, store links, alcohol, speeding or dangerous driving.",
+    "en_caracteres": 456,
+    "se_usar_a_versao_rodizio": "no português, trocar 'e mais 8' por 'e mais 12'; no inglês, '10 original texts' por '14 original texts'. O resto fica igual, porque cada rodada continua com 10."
+  },
+  "categoria_sugerida": "a mais próxima de 'Jogo/Game'; se não houver, 'Engraçado/Funny' (lista de categorias a confirmar)",
+  "tags": [
+    "ranking",
+    "carro",
+    "motorista",
+    "perrengue",
+    "humor"
+  ],
+  "tags_sem_acento_ou_espaco": [
+    "ranking",
+    "carro",
+    "motorista",
+    "perrengue",
+    "humor"
+  ],
+  "tags_en": [
+    "blind ranking",
+    "car",
+    "driving",
+    "ranking",
+    "funny"
+  ],
+  "tags_reserva": [
+    "trânsito",
+    "dirigir",
+    "blind ranking"
+  ],
+  "tags_observacao": "Limite de 5 tags, não públicas (pesquisa 03; a confirmar). As principais já não têm acento nem espaço.",
+  "palavras_chave_extras": [
+    "baliza",
+    "pneu furado",
+    "blind rank"
+  ],
+  "legendas_video_lancamento": [
+    "Gastei o 1 cedo demais e depois veio a baliza com plateia. Faz o teu",
+    "Qual é o teu número 1? Rankeia aí e me mostra",
+    "Marca quem já passou por todos esses"
+  ],
+  "hashtags_video": [
+    "#perrenguenovolante",
+    "#blindranking",
+    "#ranking",
+    "#motorista",
+    "#carro",
+    "#perrengue"
+  ],
+  "trocas_feitas_no_conceito": [
+    {
+      "antes": "RANKEIE OS PERRENGUES DO VOLANTE (1 = PIOR)",
+      "depois": "RANKING DOS / PERRENGUES / DO VOLANTE + subtítulo '1 = PIOR · 10 = DE BOA'",
+      "motivo": "fica em 3 linhas do mesmo tamanho. 'Rankeie' é grafia de rede social (o dicionário registra 'ranquear'); o substantivo 'ranking' evita a dúvida. A instrução vai no hint e na etiqueta 'TOQUE NO NÚMERO'."
+    },
+    {
+      "antes": "BURACO NA CHUVA",
+      "depois": "POÇA QUE ERA CRATERA",
+      "motivo": "mais engraçada: é a poça que esconde o buraco, coisa que todo motorista já viveu"
+    },
+    {
+      "antes": "FLANELINHA COBRANDO ADIANTADO",
+      "depois": "LAVAR O CARRO E CHOVER",
+      "motivo": "não cabia em 2 linhas de 13 e fala de uma ocupação (regra de não ofender profissões). A nova não fala de ninguém e combina com quem cuida do carro"
+    },
+    {
+      "antes": "FILA DO POSTO",
+      "depois": "BARULHINHO NOVO NO CARRO",
+      "motivo": "fila de posto costuma vir de aumento de combustível, assunto que puxa preço e política. A nova é mais engraçada e serve pra qualquer carro"
+    },
+    {
+      "antes": "ALARME QUE DISPARA SOZINHO",
+      "depois": "ALARME QUE DISPARA À TOA (foi para as extras)",
+      "motivo": "'DISPARA SOZINHO' tem 15 letras e não cabia na linha. Na vaga dele entrou SUBIDA COM FILA ATRÁS, que gera mais discussão"
+    },
+    {
+      "antes": "BATERIA ARRIADA NA SEGUNDA",
+      "depois": "BATERIA ARRIADA",
+      "motivo": "não cabia, e 'na segunda' pode ser lido como segunda marcha"
+    }
+  ],
+  "mantidos_do_conceito": [
+    "PNEU FURADO SEM ESTEPE",
+    "VAGA QUE PARECIA MAIOR",
+    "QUEM NÃO DÁ SETA",
+    "BALIZA COM PLATEIA",
+    "ESQUECER ONDE ESTACIONOU"
+  ],
+  "proibido_no_efeito": [
+    "marca, logo, emblema ou modelo de carro; grade ou silhueta que lembre um modelo real; placa de verdade",
+    "nome ou cores de rede de postos, de aplicativo de mapa ou de qualquer marca",
+    "@ da conta, link, nome da loja ou chamada pra comprar",
+    "bebida, velocidade, radar, multa, racha, blitz, celular na mão dirigindo",
+    "xingamento, gesto ofensivo, piada com profissão"
+  ],
+  "a_confirmar": [
+    "Se o Blind Rank da versão instalada tem mesmo 10 posições (a busca na página oficial diz 1 a 10).",
+    "Se o template aceita mais de 10 imagens sem bugar (relato do fórum diz que não). Decide se a versão de rodízio é possível.",
+    "Tamanho e proporção das imagens originais do template (fotos de comida).",
+    "Se o template tem textura de título ou cabeçalho, e se mostra algum texto de interface em inglês.",
+    "Se os itens giram antes de parar (Tap To Stop Randomizer) e o toque é no número da lista. Isso confirma o hint 'Toque no número'.",
+    "Se o hint é texto livre ou lista pronta.",
+    "Se as tags aceitam espaço e acento, e em que idioma funcionam melhor.",
+    "Se existe campo de descrição pública ou só o de comentários para a revisão.",
+    "Se já existe efeito famoso chamado 'Perrengue no volante' (a busca na web não achou; tiktok.com bloqueado daqui). Existe uma série chamada 'Perrengue', mas a palavra é comum e o nome completo é outro.",
+    "Registro de marca 'Perrengue no Volante' no INPI (não conferido daqui): https://busca.inpi.gov.br/pePI/"
+  ],
+  "fontes": [
+    "https://effecthouse.tiktok.com/learn/guides/tutorials/template-tutorials/blind-rank",
+    "https://effecthouse.tiktok.com/learn/library/template-tutorials/blind-rank",
+    "https://community.effecthouse.com/t/help-with-blind-rank-template/60530"
+  ]
+}

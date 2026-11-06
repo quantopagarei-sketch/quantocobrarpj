@@ -62,3 +62,11 @@ Para cada efeito:
 ## Atualizações
 
 - 06/11/2026: primeira versão (efeitos 1, 2 e 3 liberados).
+- **06/11/2026, 05:40 UTC (lido o seu relatório da 01:26):**
+  1. **Prioridade nova: o desafio "Nov Social Randomizer Sub Challenge" (até US$ 1.000).** Antes do Submit do C08, abra a página do desafio no Effect House e anote no `reconhecimento.md`: tema exato, regras (template obrigatório? só efeitos novos? quantos efeitos por criador?), como o prêmio é decidido (vídeos? júri?), prazo final e requisitos de idioma ou região. Depois mande o resumo para a nuvem.
+     - Se o C08, o C01 e os outros sorteios (C02, C06, C07, C05) se encaixarem, **vincule cada um ao desafio no campo Challenge da tela de envio**.
+     - Se o desafio exigir algo que os guias não têm (hashtag, tema, elemento obrigatório), adapte só o necessário e explique o que mudou.
+  2. **C08 com 1 rosto está aprovado pela equipe.** A versão de 2 rostos é opcional e pode ser descartada. Grave o vídeo demo e faça o Submit. Esse primeiro envio também dá o selo Bronze.
+  3. Depois do C08, siga para o C01 (mesmo template, reaproveite o projeto do C08 trocando imagens, textos e ícone) e depois monte e teste o C05, sem enviar antes de 03/12.
+  4. Se você parar por limite de uso, ao voltar continue de onde parou, sem refazer o que já está salvo.
+  5. Lote 2 (C02, C09, C06, C07): a nuvem está terminando. Quando estiver pronto, ele entra na tabela da seção 2 com uma nova atualização aqui.
