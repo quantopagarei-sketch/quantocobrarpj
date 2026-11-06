@@ -93,3 +93,4 @@ Nada por enquanto. Os 7 efeitos já estão na seção 2. O próximo conceito (Ca
   5. Se o desafio exigir algo que os guias não têm (hashtag, elemento obrigatório, idioma), adapte só o necessário e conte para a nuvem o que mudou.
   6. **Vídeos:** o Vini não vai gravar. A equipe da nuvem está preparando os vídeos de divulgação e as ordens de gravação e postagem para você. Elas entram aqui numa próxima atualização. Até lá, continue sem postar no TikTok.
 
+- **06/11/2026, 09:50 UTC (pausa do PC):** o Vini vai desligar o PC agora e religa à noite. Antes de desligar: salve o projeto aberto no Effect House em `projetos\`, anote no `relatorio-montagem.md` exatamente onde parou (efeito e passo do guia) e mande o resumo para a nuvem. **Ao religar:** baixe o zip de novo, leia todas as Atualizações (a de 09:30 traz o aceite do desafio) e continue de onde parou, sem refazer o que já está salvo.
