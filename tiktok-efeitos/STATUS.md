@@ -1,6 +1,6 @@
 # Status dos efeitos
 
-PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. C06 testado; próximos C05 e C07. Vídeos e perfil prontos na nuvem.
+PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. C06 testado; próximos C05 e C07. Manage Effects ainda inacessível ao Montador (abre numa aba do Chrome fora do controle dele); Analytics do app zerado = nenhum efeito aprovado até 07/11 ~01h UTC. Vídeos e perfil prontos na nuvem.
 
 Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 
@@ -28,12 +28,12 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 - **Ordens ao Montador:** `videos/ORDENS-VIDEOS-MONTADOR.md` (liberado no PRONTO, 13:35 UTC). Postagem pelo TikTok Studio na web, só depois da aprovação de cada efeito. 1º vídeo previsto: D1 da 1ª aprovação (alvo qua 11/11).
 - **Limite:** sem celular, nossos vídeos não ganham a etiqueta clicável do efeito e não contam como uso. Os usos vêm de quem procura o nome na lupa. Por isso, o nome exato aparece no vídeo, na legenda e no comentário fixado, e o link do efeito vai na bio.
 - **Vídeos gerais prontos (14:30 UTC):** tutorial G-V1 "Como achar nossos filtros" (2 versões) e G-V2 "3 filtros pro fim de ano", em `videos/gerais/`. A nuvem refaz com os nomes reais se os aprovados forem outros.
-- **Perfil hoje (B1, 06/11):** @carshopttk (sem nada de clube), nome "Oficina Mecânica", bio vazia, foto com o logo "CAR SHOP Automotive Hub". Sem campo Site na web e **sem aba Loja**. Vídeos antigos: 94 no total; **só 3 públicos, todos de produto** (156, 247 e 2.532 views); os 91 restantes, incluindo todos os de futebol/torcida, já estão privados. Conta pública, tipo Pessoal (sem verificação comercial). Studio > Carregar tem Vídeos e **Fotos** (modo foto existe); Agendar, capa e sons ainda a conferir. Bio nova = nome do efeito da vez ("Na lupa: …"), sem link.
+- **Perfil hoje (B1, 06/11):** @carshopttk (sem nada de clube), nome "Oficina Mecânica", bio vazia, foto com o logo "CAR SHOP Automotive Hub". Sem campo Site na web e **sem aba Loja**. Vídeos antigos: 94 no total; **só 3 públicos, todos de produto** (156, 247 e 2.532 views); os 91 restantes, incluindo todos os de futebol/torcida, já estão privados. Conta pública, tipo Pessoal (sem verificação comercial). Studio > Carregar tem Vídeos e **Fotos** (modo foto existe). **Seção A feita (07/11, sem publicar):** tem Editar capa, **Agendar** (Schedule; prazo máximo a ver no 1º agendamento), Quem pode ver, Comentários/Reuso, Divulgar conteúdo comercial, **Conteúdo gerado por IA**, Público 18+, Sons no editor e checagem de direitos de música. Contagem no Studio: 454 posts, só 3 públicos (produto). Bio nova = nome do efeito da vez ("Na lupa: …"), sem link.
 - **06/11 à noite:** tiktok.com **logado no Chrome** do PC. A checagem de segurança do Montador só aceita ações públicas (perfil, postar, agendar, autorização do desafio) com o OK do Vini **digitado no chat do Montador**; ordem repassada pela nuvem não vale. Seções A e B1, D0 e Manage Effects (site sem login; app com o formulário do C09 aberto) aguardam esse OK.
 - **A confirmar pelo Montador:** se a web tem Agendar, Carregar capa, Fixar e campo Site.
 
 ## Pendências do Vini
 - Feito em 06/11: autorização permanente no chat do Montador (desafio + Submit, conferências, troca de perfil, postar/agendar/fixar/responder, Manage Effects).
 - Vídeos antigos de futebol: já estavam privados (conferido em 06/11); nada a fazer.
-- **OK no chat do Montador para "Entrar com o TikTok" no site do Effect House** (para ver o Manage Effects: situação dos 4 efeitos em análise).
+- Feito em 07/11: o Vini disse no chat do Montador que as mensagens da nuvem valem como ordens dele para tudo no PRONTO e no ORDENS (exceto apagar vídeos, trocar o @, senha, segurança e pagamentos).
 - Deixar o PC ligado o máximo possível, principalmente das 15h às 21h (horário de postagem, caso a web não tenha Agendar).
