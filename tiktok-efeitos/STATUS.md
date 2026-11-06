@@ -10,8 +10,8 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 | C01 | Torcedômetro | efeito-1-torcedometro | **Em análise** no TikTok (26 cartas, 1,6 MB, sem desafio; teste de performance não rodou). Projeto salvo em projetos\C01-torcedometro | enviado 06/11 02:49 (BRT) |
 | C05 | Meu 2027 vai ser… | efeito-3-meu-2027-vai-ser | **Não começado** (relato do Montador, 06/11 ~07h BRT); vai para depois do C06 na fila | envio só em 03/12 |
 | C02 | Meu próximo carro | efeito-4-meu-proximo-carro | **Em análise** no TikTok (26 cartas, 1,6 MB, **com desafio**; testado no preview). Projeto separado do C01 (C01 intacto) | enviado 06/11 19:30 (BRT) |
-| C09 | Perrengue no volante | efeito-5-perrengue-no-volante | **Montado e testado** (Blind Rank, 2,2 MB, título embaixo, Tap To Stop desligado). Formulário pronto **com desafio**; falta o Vini marcar a caixa de autorização e clicar em Enviar (06/11 à noite) | envio até 17/11 |
-| C06 | Meu amigo secreto | efeito-6-meu-amigo-secreto | Pronto (nota 9), liberado para o PC em 06/11 | envio 20–24/11 |
+| C09 | Perrengue no volante | efeito-5-perrengue-no-volante | **Montado e testado** (Blind Rank, 2,2 MB, título embaixo, Tap To Stop desligado). Formulário **aberto e preenchido no app** (nome, 2 ícones, hint Tap screen, desafio). A checagem do Montador não aceita marcar a autorização por ordem repassada: **só o Vini, no PC**, marca a caixa e clica em Submit | envio até 17/11 |
+| C06 | Meu amigo secreto | efeito-6-meu-amigo-secreto | Projeto preparado no PC (`projetos\C06-meu-amigo-secreto`, 26 cartas e título); falta testar no preview depois que o formulário do C09 fechar | envio 20–24/11 |
 | C07 | Simpatia da Virada | efeito-7-simpatia-da-virada | Pronto (nota 9), liberado para o PC em 06/11 | envio 03/12 |
 
 ## Conta
@@ -31,6 +31,6 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 - **A confirmar pelo Montador hoje à noite:** login do tiktok.com no PC, se a web tem Agendar, Carregar capa, Fixar e campo Site.
 
 ## Pendências do Vini
-- **Agora (06/11 à noite):** no Effect House do PC, no formulário do C09 já preenchido, marcar a caixa de autorização de uso promocional e clicar em Enviar.
+- **Quando voltar ao PC:** no Effect House, no formulário do C09 já aberto, marcar a caixa de autorização de uso promocional e clicar em Submit (~30 s).
 - Só se o Montador pedir: login do TikTok por QR no PC (https://www.tiktok.com/login/qrcode, ~2 min, uma vez).
 - Deixar o PC ligado o máximo possível, principalmente das 15h às 21h (horário de postagem, caso a web não tenha Agendar).
