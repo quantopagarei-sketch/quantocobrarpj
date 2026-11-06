@@ -152,7 +152,7 @@ Confira o Manage Effects toda vez que o PC ligar e a cada leitura do PRONTO (9h,
 | sex 13/11 | **C02-V1** (estreia) | 19h |
 | sáb 14/11 | C01-V2 | 15h |
 | dom 15/11 | C08-V2 | 19h |
-| seg 16/11 | G-V1, tutorial (a nuvem ainda vai entregar; sem arquivo, fica vago) | 19h |
+| seg 16/11 | G-V1, tutorial (pronto em `videos\gerais\`; qual versão usar e o comentário fixado estão no `roteiros-videos.md` de lá; se os filtros no ar não forem C08, C01 e C02, peça à nuvem para refazer com os nomes certos antes de agendar) | 19h |
 | ter 17/11 | **C09-V1** (estreia) | 18h |
 | qua 18/11 | C02-V2 | 18h |
 | sex 20/11 | C08-M1 (se pronta) | 19h |
@@ -168,7 +168,7 @@ Confira o Manage Effects toda vez que o PC ligar e a cada leitura do PRONTO (9h,
 | dom 06/12 | C01-M1 (data fixa, se pronta) | 2 a 3 h antes da final |
 | qua 09/12 | **C05-V1** (estreia) | 18h |
 | qui 10/12 | **C07-V1** (estreia) | 18h |
-| sáb 12/12 | G-V2 (a nuvem ainda vai entregar; sem arquivo, fica vago) | 19h |
+| sáb 12/12 | G-V2 (pronto em `videos\gerais\`; se C06, C05 ou C07 não estiverem aprovados, peça à nuvem para refazer só com os aprovados) | 19h |
 | qui 17/12 | C06-V3 (data fixa) | 18h |
 | seg 21/12 | C06-V2 (data fixa) | 19h |
 | qui 24/12 | C05-V2 (data fixa) | 13h |

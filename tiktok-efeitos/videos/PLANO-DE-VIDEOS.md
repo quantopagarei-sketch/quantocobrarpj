@@ -54,7 +54,7 @@
 - **"No meu perfil" / "aba de efeitos"** só entra em tela, legenda ou comentário **depois** que o Montador abrir o perfil numa janela anônima e vir a aba de efeitos com o filtro (conta Pessoal: a confirmar). Até lá, só "Procura na lupa 🔎".
 - **Luz piscante:** no máximo **3 trocas de carta por segundo** nos trechos rápidos ("pausa"), cartas em ordem de brilho parecido e nada de flash branco de tela cheia. Mais rápido que isso pode ativar o aviso de luz piscante do TikTok, que trava o vídeo antes de tocar (a confirmar). Se algum post receber esse aviso, a nuvem também desacelera o começo da roleta.
 - **Na tela, "você"** (alcance nacional). "Tu", "bah" e "tchê" ficam para as respostas nos comentários.
-- **Nunca:** "toca no nome do efeito", "o meu saiu…", "tem gente que tirou…", "carta rara", "só 1% tira", "comenta EU", "sigo quem usar", "marca 5 amigos", "concorra", "ganhe", "desafio" ou "prêmio", QR code, logo ou tela do app do TikTok, nome de app de mensagem, marca, time, carro reconhecível, "Pix", bebida, direção perigosa ou símbolo religioso.
+- **Nunca:** "toca no nome do efeito" (exceção única: o G-V1, que manda tocar no nome **no vídeo de quem usou**, não no nosso), "o meu saiu…", "tem gente que tirou…", "carta rara", "só 1% tira", "comenta EU", "sigo quem usar", "marca 5 amigos", "concorra", "ganhe", "desafio" ou "prêmio", QR code, logo ou tela do app do TikTok, nome de app de mensagem, marca, time, carro reconhecível, "Pix", bebida, direção perigosa ou símbolo religioso.
 - **Pode:** "Qual saiu pra você?", "Manda pra quem é assim", "Manda no grupo", "Faz o seu e me marca", "Duvido" (desafio sem prêmio).
 
 ### 2.3 Ficha técnica de toda peça N
@@ -635,8 +635,8 @@ Template Randomizer2D, 26 cartas. **Vinculado ao desafio.** Pico de 26/12 a 01/0
 #### G-V1 · N-video · "Como achar nossos filtros" · 10 s
 - **Objetivo:** tirar o atrito da busca. Vai fixado no lugar 3 do perfil enquanto não houver um bom vídeo da loja (PERFIL.md, seção 6).
 - **Gancho (0–2 s):** "Não achou o filtro? É fácil" + 🔎 grande.
-- **Roteiro:** 0–2 s gancho · 2–4 s "1. Toca na lupa 🔎" · 4–6 s "2. Digita o nome do filtro ⌨️" · 6–8 s "Ou entra no meu perfil, na aba de efeitos ✨" (**só se** a aba já apareceu na conferência da seção 2.2; senão: "3. Abre um vídeo com o filtro e toca no nome dele ✨") · 8–10 s os nomes dos filtros já aprovados, um embaixo do outro, + símbolo do perfil. Ícones nossos; **nada que imite a tela ou o logo do TikTok**. O caminho exato dentro do app é (a confirmar); por isso o vídeo só diz "lupa" e "perfil".
-- **Legenda:** `Viu um filtro nosso e não achou? Procura o nome na lupa 🔎 ou entra no meu perfil, na aba de efeitos ✨` (sem a aba: `Viu um filtro nosso e não achou? Procura o nome na lupa 🔎 e abre um vídeo com ele ✨`)
+- **Roteiro:** 0–2 s gancho · 2–4 s "1. Toca na lupa 🔎" · 4–6 s "2. Digita o nome do filtro ⌨️" · 6–8 s "Ou entra no meu perfil, na aba de efeitos ✨" (**só se** a aba já apareceu na conferência da seção 2.2; senão: "Ou toca no nome do filtro no vídeo de quem usou ✨"; texto trocado em 06/11 para deixar claro que é o vídeo de outra pessoa, porque o nosso não tem a etiqueta) · 8–10 s os nomes dos filtros já aprovados, um embaixo do outro, + símbolo do perfil. Ícones nossos; **nada que imite a tela ou o logo do TikTok**. O caminho exato dentro do app é (a confirmar); por isso o vídeo só diz "lupa" e "perfil".
+- **Legenda:** `Viu um filtro nosso e não achou? Procura o nome na lupa 🔎 ou entra no meu perfil, na aba de efeitos ✨` (sem a aba: `Viu um filtro nosso e não achou? Procura o nome na lupa 🔎 ou toca no nome dele no vídeo de quem usou ✨`)
 - **Hashtags:** `#filtro #filtrotiktok #efeitostiktok`
 - **Som:** tecla (digitar) + plim, trilha 100 bpm.
 - **Capa:** "COMO ACHAR NOSSOS FILTROS 🔎".
@@ -652,6 +652,7 @@ Template Randomizer2D, 26 cartas. **Vinculado ao desafio.** Pico de 26/12 a 01/0
 - **Capa:** "3 FILTROS PRO FIM DE ANO 🎄".
 - **Quando:** alvo **sáb 12/12, 19h** (só se C05 e C07 estiverem aprovados; senão, sai só com os aprovados).
 - **Quem:** nuvem até 09/12; Montador.
+- **Entregue (06/11):** G-V1 (`G-V1.mp4` sem a aba e `G-V1-aba.mp4` com a aba) e G-V2 prontos em `videos/gerais/`, com capas, legendas, prévia e `roteiros-videos.md`; `render_gerais.py` refaz com os nomes aprovados reais.
 
 ---
 

@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 06/11/2026, 13:35 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 06/11/2026, 14:30 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -49,7 +49,7 @@ Para cada efeito:
 
 ## 3. Vem aí
 
-Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo estão prontos (ver atualização de 13:35). Ainda vêm da nuvem: o tutorial G-V1 "Como achar nossos filtros" (até sex 13/11) e o G-V2 (até 10/12). O próximo conceito (Carnaval) entra aqui quando estiver pronto.
+Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo estão prontos (ver atualização de 13:35). Os vídeos gerais (tutorial G-V1 e G-V2) também estão prontos, em `videos/gerais/`. O próximo conceito (Carnaval) entra aqui quando estiver pronto.
 
 ## 4. Regras que não mudam
 
@@ -101,3 +101,4 @@ Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo
   3. **Ao religar o PC hoje:** (a) baixe o zip de novo; agora ele traz os vídeos (uns 80 MB a mais). Não apague `projetos\`, `prontos\`, `reconhecimento.md` nem `relatorio-montagem.md`. (b) Faça a seção A do ORDENS (login no tiktok.com e conferência do TikTok Studio, sem publicar) e a conferência do perfil (B1, sem salvar). Mande o resultado para a nuvem. (c) **Antes de reaproveitar `projetos\C01-torcedometro` para o C02, use "Salvar como"** com outro nome (`C02-meu-proximo-carro`). O C01 tem que ficar intacto para a C01-M1. Isso corrige a atualização de 10:00. Confira também se `projetos\C08-grupo-familia-1rosto` ainda é o C08. (d) Siga a montagem na ordem da atualização de 10:00 e grave a M1 de cada efeito durante a montagem dele. C08-M1 e C01-M1: até qui 12/11.
   4. Se o tiktok.com pedir login, peça ao Vini **uma vez só** o login por QR: https://www.tiktok.com/login/qrcode (ele lê com o app do celular). Junte nesse mesmo pedido qualquer outra coisa que só ele possa fazer.
   5. O Vini não grava nada. As 3 gravações dele (22/11, 29/11 e 12/12) saíram do plano.
+- **06/11/2026, 14:30 UTC (vídeos gerais prontos):** o tutorial **G-V1 "Como achar nossos filtros"** (2 versões: `G-V1.mp4`, sem falar da aba de efeitos, e `G-V1-aba.mp4`, com a aba) e o **G-V2 "3 filtros pro fim de ano"** estão em `tiktok-efeitos/videos/gerais/`, com capa, legenda e `roteiros-videos.md`. Datas: G-V1 seg 16/11, 19h; G-V2 sáb 12/12, 19h (tabela do ORDENS já atualizada). Use a versão com a aba só se a aba de efeitos aparecer no perfil aberto numa janela anônima; na dúvida, `G-V1.mp4`. Se os filtros no ar forem outros, peça para a nuvem refazer com os nomes certos antes de agendar.
