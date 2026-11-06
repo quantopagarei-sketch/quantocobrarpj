@@ -76,6 +76,12 @@ O Montador copia o nome daqui (o ✨ e o "·" são difíceis de digitar). Se o T
 
 ## 3. Bio (máximo 80 caracteres)
 
+> **Atualização 06/11, depois da conferência B1 do Montador (vale por cima do resto desta seção):**
+> - O perfil hoje: @carshopttk, nome "Oficina Mecânica", bio vazia, foto com o logo "CAR SHOP Automotive Hub". O Editar perfil pela web tem Foto, Username, Nome (trava de 7 dias) e Bio (80). **Não tem campo Site.** O perfil **não tem aba Loja** (só Vídeos, Favoritos e Curtido).
+> - **Bio depois da 1ª aprovação: sempre a Alternativa 1** (tabela abaixo), com o nome do efeito da vez. A bio principal e a Alternativa 2 ficam suspensas, porque prometem link e aba Loja que não existem.
+> - **Bio de espera** (troca antes de qualquer aprovação): `Filtros de câmera: torcida, carro e zoeira 😂` (45 caracteres).
+> - O link na bio só poderia ser posto pelo app do celular. Fica fora do plano por enquanto.
+
 **Regra de contagem:** contamos de dois jeitos: o normal e o "pior caso", em que cada emoji conta 2. Todas as bios abaixo cabem em 80 **no pior caso** (contado com Python).
 
 ### Bio principal (quando o campo "Site" existir e já houver efeito aprovado)

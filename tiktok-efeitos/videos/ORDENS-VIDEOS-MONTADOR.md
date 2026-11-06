@@ -65,17 +65,16 @@ Base: `tiktok-efeitos\videos\perfil\PERFIL.md`, seções 3, 7, 8 e 9. Caminho no
 1. **Foto:** `tiktok-efeitos\videos\perfil\foto_recomendada.png`. Sem zoom no corte.
 2. **Nome:** copie e cole `Car Shop ✨ Filtros e Efeitos`. Se o site recusar o emoji: `Car Shop · Filtros e Efeitos`. Se recusar o "·": `Car Shop | Filtros e Efeitos`. Confira letra por letra antes de salvar (trava de 7 dias; a confirmar).
 3. **@: não mexa.** Se ele tiver algo do clube antigo, mande o print para a nuvem. A troca do @ só acontece com ordem nova no PRONTO.
-4. **Bio** (copie do PERFIL.md, seção 3):
-   - com efeito aprovado e campo Site: `Filtros de câmera: torcida, carro e zoeira 😂 Novo no link 👇 Loja na aba 🛍️`
-   - sem campo Site: a Alternativa 1, com o nome do efeito da vez (tabela da seção 3).
-   - antes de qualquer aprovação (caso do 18/11): `Filtros de câmera: torcida, carro e zoeira 😂 Loja de acessórios na aba 🛍️`
-5. **Site:** o link do efeito da vez (Effect House → Manage → Share). **Nunca** o link da loja.
-6. Salve. Recarregue. Abra o perfil numa **janela anônima** e confira foto, nome, bio, link e a aba Loja. Veja se aparece a **aba de efeitos** com o filtro. Mande o print para a nuvem.
+4. **Bio** (copie do PERFIL.md, seção 3; atualizado em 06/11 depois da sua B1: a web não tem campo Site e o perfil não tem aba Loja):
+   - com efeito aprovado: a **Alternativa 1**, com o nome do efeito da vez (tabela da seção 3). Ex.: `Filtros de câmera: torcida, carro e zoeira 😂 Na lupa: Eu no grupo da família`
+   - antes de qualquer aprovação (caso do 18/11): `Filtros de câmera: torcida, carro e zoeira 😂`
+5. **Site:** não existe na web. Pule.
+6. Salve. Recarregue. Abra o perfil numa **janela anônima** e confira foto, nome e bio. Veja se aparece a **aba de efeitos** com o filtro. Mande o print para a nuvem.
 7. Se a conta for **Conta Oficial** e o nome voltar sozinho para "Car Shop": deixe. Troque só a foto e a bio, e avise.
 8. Anote data, hora e prints no `relatorio-montagem.md`.
 
 **B3. Depois da troca.**
-- A cada nova aprovação: link do Site, bio (se ela cita o nome do efeito) e fixado 2 (seção E).
+- A cada nova aprovação: bio (Alternativa 1 com o nome do efeito da vez) e fixado 2 (seção E).
 - Toda segunda: fixado 1. Depois de 7 dias de cada estreia, o link vai para o efeito com mais vídeos novos em 7 dias.
 - **De sex 20/11 a seg 30/11:** nada no nome, no @ e na foto (Black Friday).
 - Nome e @ ficam parados até 31/01. Só corrigir erro. Para desfazer: PERFIL.md, seção 9.
@@ -183,7 +182,7 @@ Sem Agendar, as datas fixas de 24, 25 e 31/12 dependem do PC ligado. Avise a nuv
 **D6. Rotina de comentários e convites (sempre que o PC estiver ligado)**
 - Responda nas 2 primeiras horas, se der. Nunca deixe mais de 24 h sem responder quem pergunta o nome. Frases variadas. Respostas prontas: no roteiro de cada efeito.
 - Pergunta o nome → repita o nome exato + "procura na lupa 🔎". Nunca link no comentário.
-- **"Onde compra?"** → `Te chamo no direct 😉`. Na mensagem direta: "Oi! Tá na aba Loja do meu perfil 🛍️". Sem cupom, sem desconto, sem citar o filtro. Se a web não tiver mensagem direta, não prometa: só curta o comentário.
+- **"Onde compra?"** → `Te chamo no direct 😉`. Na mensagem direta: "Oi! Qual produto você viu? 😉" e anote a resposta no `relatorio-montagem.md` para a nuvem (o perfil não tem aba Loja). Sem cupom, sem desconto, sem citar o filtro. Se a web não tiver mensagem direta, não prometa: só curta o comentário.
 - **Convites** a criadores (PLANO-DE-VIDEOS.md, 5.5): até 5 por dia na 1ª semana, até 10 depois. Texto pessoal, sem prêmio. Aviso de spam: pare tudo e avise.
 - **Repostar quem usou** (PLANO 5.6): do D3 de cada efeito, até 1 por dia, nos dias com 0 ou 1 post nosso. Só vídeo público, de adulto, sem marca, time, bebida, carro reconhecível ou direção. Comente até 10 vídeos de quem usou por dia. Nada em troca. Sem "Repostar" na web: só comente.
 
