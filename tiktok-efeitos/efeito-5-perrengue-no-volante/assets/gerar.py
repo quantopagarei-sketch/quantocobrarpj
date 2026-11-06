@@ -26,6 +26,16 @@ Identidade visual (diferente do efeito-1): "sinalização de trânsito".
 
 Desenha tudo em 3x (S) e reduz com LANCZOS.
 
+Revisão visual (06/11/2026, 2ª passada do designer). Mudou só o que está abaixo:
+  - carta_06 (barulhinho): os zigue-zagues de som liam como "WWW" (cara de link) e viraram arcos ")))".
+  - carta_13 (GPS, extra): saiu o alfinete espetado no canto do mapa dobrado, porque lembrava o ícone
+    antigo de um app de mapa. A rota agora dá uma volta completa (looping) e termina numa seta,
+    com um "?" laranja no canto.
+  - reserva_03 (reserva acesa): a bomba ⛽ do Noto é vermelha e, na carta amarela, formava
+    vermelho+amarelo (cores de uma rede de postos). Agora é grafite.
+  - icone_162: a marquinha de "tremor" mais à esquerda entrou para dentro da área segura de 144 px.
+  As outras peças ficaram idênticas, pixel por pixel.
+
 Saída (nesta pasta):
   titulo.png ............................ 512x512 título com "1 = PIOR · 10 = DE BOA" (padrão)
   titulo_curto.png ...................... 512x512 título com "1 = PIOR" (se faltar espaço)
@@ -678,15 +688,54 @@ def mapa(L):
     for x in (0.18, 0.44, 0.70, 0.88):
         d.line([P(x, 0.0), P(x + 0.04, 1.0)], fill=rgb(BRANCO), width=int(L * 0.02))
     d.line([P(0.0, 0.66), P(1.0, 0.60)], fill=rgb(BRANCO), width=int(L * 0.02))
-    # rota tracejada que dá voltas
-    rota = []
-    for k in range(60):
-        t = k / 59
-        x = 0.10 + 0.62 * t
-        y = 0.75 - 0.35 * t + 0.13 * math.sin(t * 2 * math.pi * 1.6)
-        rota.append(P(x, y))
-    for k in range(0, len(rota) - 3, 5):
-        d.line(rota[k:k + 3], fill=rgb("#FF4D3D"), width=int(L * 0.028))
+    # rota tracejada que dá DUAS VOLTAS (laços) e termina numa ponta de seta: "recalculando".
+    # Sem alfinete espetado em cima do mapa (mapa dobrado + alfinete no canto lembra o ícone
+    # antigo de um app de mapa; tirado na revisão visual).
+    # caminho em px: reta -> volta completa (looping) -> reta subindo até a seta
+    cxl, cyl, rl = pad + 0.47 * L, pad + 0.47 * H, 0.15 * L      # centro e raio do laço (px)
+    ini = (pad + 0.10 * L, pad + 0.80 * H)
+    base_laco = (cxl, cyl + rl)
+    fim = (pad + 0.86 * L, pad + 0.26 * H)
+    caminho = []
+    for k in range(40):                                            # entrada
+        t = k / 40
+        caminho.append((ini[0] + (base_laco[0] - ini[0]) * t, ini[1] + (base_laco[1] - ini[1]) * t))
+    for k in range(121):                                           # volta: baixo -> direita -> topo -> esquerda
+        th = math.radians(90 - 360 * k / 120)
+        caminho.append((cxl + rl * math.cos(th), cyl + rl * math.sin(th)))
+    for k in range(1, 41):                                         # saída
+        t = k / 40
+        caminho.append((base_laco[0] + (fim[0] - base_laco[0]) * t, base_laco[1] + (fim[1] - base_laco[1]) * t))
+    # reamostra por comprimento para os traços ficarem iguais
+    acum = [0.0]
+    for (a0, b0), (a1, b1) in zip(caminho, caminho[1:]):
+        acum.append(acum[-1] + math.hypot(a1 - a0, b1 - b0))
+    passo = L * 0.006
+    rota, alvo, j = [], 0.0, 0
+    while alvo <= acum[-1]:
+        while acum[j + 1] < alvo:
+            j += 1
+        f = (alvo - acum[j]) / max(acum[j + 1] - acum[j], 1e-6)
+        rota.append((caminho[j][0] + (caminho[j + 1][0] - caminho[j][0]) * f,
+                     caminho[j][1] + (caminho[j + 1][1] - caminho[j][1]) * f))
+        alvo += passo
+    cor_rota = rgb("#FF4D3D")
+    lw = int(L * 0.026)
+    traco, vao = 6, 5                                              # em passos
+    for k in range(0, len(rota) - traco - 4, traco + vao):
+        d.line(rota[k:k + traco], fill=cor_rota, width=lw, joint="curve")
+    # ponta de seta no fim da rota
+    (x1, y1), (x0, y0) = rota[-1], rota[-6]
+    ang = math.atan2(y1 - y0, x1 - x0)
+    k = L * 0.055
+    ponta = (x1 + math.cos(ang) * k * 0.6, y1 + math.sin(ang) * k * 0.6)
+    d.polygon([ponta,
+               (x1 + math.cos(ang + 2.5) * k, y1 + math.sin(ang + 2.5) * k),
+               (x1 + math.cos(ang - 2.5) * k, y1 + math.sin(ang - 2.5) * k)], fill=cor_rota)
+    # ponto de partida
+    sx, sy = rota[0]
+    r0 = L * 0.022
+    d.ellipse([sx - r0, sy - r0, sx + r0, sy + r0], fill=rgb(BRANCO), outline=cor_rota, width=max(1, int(L * 0.012)))
     base.putalpha(intersec(base.split()[3], sil))
     im.alpha_composite(base)
     # sombras das dobras
@@ -900,10 +949,13 @@ def cena_barulho(c, pal):
     chao_sombra(c, -24, 89, 62)
     c.colar_base(carro(c.L(72), VIOLETA), -24, 90)
     d = c.d
-    for k, (x0, y0) in enumerate(((16, 44), (20, 56), (16, 68))):
-        pts = [c.P(x0 + i * 3.2, y0 + (2.8 if i % 2 else -2.8)) for i in range(5)]
-        d.line(pts, fill=rgb(ASFALTO), width=int(c.L(3.4)), joint="curve")
-        d.line(pts, fill=rgb(LARANJA_C), width=int(c.L(1.7)), joint="curve")
+    # ondas de som ")))" saindo do carro em direção à orelha.
+    # (antes eram zigue-zagues empilhados, que liam como "WWW" = cara de link; trocado na revisão visual)
+    cx, cy = 12, 58
+    for r in (9, 16, 23):
+        caixa = [c.X(cx - r), c.Y(cy - r), c.X(cx + r), c.Y(cy + r)]
+        d.arc(caixa, -38, 38, fill=rgb(ASFALTO), width=int(c.L(3.6)))
+        d.arc(caixa, -36, 36, fill=rgb(LARANJA_C), width=int(c.L(1.9)))
     c.adesivo("👂", 50, 44, 38)
     c.colar(simbolo("?", c.L(20), LARANJA_C, girar=12), 28, 22)
     c.colar(simbolo("?", c.L(15), LARANJA_C, girar=-10), 70, 14)
@@ -1011,7 +1063,7 @@ def cena_gps(c, pal):
     fundo_rua(c, 86)
     c.colar(com_sombra(mapa(c.L(104)), 0, c.L(1.2), c.L(1.4), 0.25), 4, 56)
     c.colar(seta_circular(c.L(26)), -60, 20)
-    c.adesivo("📍", 30, 22, 30)
+    c.colar(simbolo("?", c.L(20), LARANJA_C, girar=10), 62, 16)
 
 
 def cena_chave(c, pal):
@@ -1145,7 +1197,9 @@ def cena_reserva(c, pal):
         d.polygon([c.P(-w0 / 2, y0), c.P(w0 / 2, y0), c.P(w1 / 2, y1), c.P(-w1 / 2, y1)], fill=rgb(AMARELO))
     g = marcador_combustivel(c.L(58))
     c.colar(com_sombra(g, 0, c.L(1.5), c.L(1.5), 0.3), -44, 56)
-    c.adesivo("⛽", 50, 30, 30)
+    # bomba em grafite: a do Noto é vermelha e, sobre a carta amarela, formaria vermelho+amarelo
+    # (cores de uma rede de postos). Revisão visual.
+    c.adesivo("⛽", 50, 30, 30, cor="#5B5770")
 
 
 def cena_garagem(c, pal):
@@ -1463,7 +1517,8 @@ def icone(tam_final=162, estilo="claro"):
         g = gota(t * 0.36)
         colar_centro(img, com_sombra(g, 0, t * 0.01, t * 0.005, 0.3, "#7A3A00"), t * 0.78, t * 0.27)
         d = ImageDraw.Draw(img)
-        for (a0, r1, r2) in ((200, 0.37, 0.45), (222, 0.38, 0.47), (244, 0.37, 0.44)):
+        # marquinhas de "tremor": a ponta mais à esquerda fica em x >= 0,07 (dentro da área segura de 144/162)
+        for (a0, r1, r2) in ((200, 0.355, 0.415), (222, 0.37, 0.46), (244, 0.36, 0.44)):
             ang = math.radians(a0)
             cx, cy = t * 0.47, t * 0.55
             p1 = (cx + t * r1 * math.cos(ang), cy + t * r1 * math.sin(ang))
