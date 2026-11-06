@@ -1,5 +1,7 @@
 # Lançamento do efeito "Eu no grupo da família" (C08)
 
+> **Atualização 06/11: o Vini não grava.** Para vídeos e datas, valem `videos/roteiros-videos.md` desta pasta e `../videos/PLANO-DE-VIDEOS.md`, por cima das partes que dependiam do Vini.
+
 **Responsável:** Social Media / Estratégia de lançamento · **Data:** 06/11/2026 · **Versão:** 1.1 (revisada pelo QA)
 **Base:** `textos.md` deste efeito (nome, título e as 28 frases), pesquisas 01, 02, 03 e 04, e buscas novas feitas hoje (fontes no fim).
 **Legenda:** ✅ confirmado em fonte oficial ou em mais de uma fonte · ❓ (a confirmar)

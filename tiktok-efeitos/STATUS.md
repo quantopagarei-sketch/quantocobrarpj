@@ -1,6 +1,6 @@
 # Status dos efeitos
 
-PC do Vini desligado desde 06/11 ~07h (BRT); o Montador retoma à noite.
+PC do Vini desligado desde 06/11 ~07h (BRT); o Montador retoma à noite. Vídeos e perfil prontos na nuvem (13:35 UTC).
 
 Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 
@@ -22,5 +22,14 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 - 18 anos ou mais: sim. Conta criada no Brasil: sim. Tipo de conta: **Pessoal**.
 - Vídeos de divulgação: plano completo, **feitos pela equipe** (o Vini não grava).
 
+## Vídeos e perfil (06/11, 13:35 UTC)
+- **Prontos e no GitHub:** 21 vídeos de divulgação (3 por efeito, 9 a 14 s, até 3,3 MB, som próprio) com capa e legenda, kits das gravações M e roteiros. QA: nota 9 em todos.
+- **Perfil novo:** nome "Car Shop ✨ Filtros e Efeitos", foto do carrinho na mira da câmera (`videos/perfil/foto_recomendada.png`), bio e link do efeito da vez. O @ fica igual. A troca acontece tudo junto no dia da 1ª aprovação (C08 ou C01).
+- **Ordens ao Montador:** `videos/ORDENS-VIDEOS-MONTADOR.md` (liberado no PRONTO, 13:35 UTC). Postagem pelo TikTok Studio na web, só depois da aprovação de cada efeito. 1º vídeo previsto: D1 da 1ª aprovação (alvo qua 11/11).
+- **Limite:** sem celular, nossos vídeos não ganham a etiqueta clicável do efeito e não contam como uso. Os usos vêm de quem procura o nome na lupa. Por isso, o nome exato aparece no vídeo, na legenda e no comentário fixado, e o link do efeito vai na bio.
+- **Falta a nuvem fazer:** tutorial G-V1 "Como achar nossos filtros" (até sex 13/11) e G-V2 (até 10/12).
+- **A confirmar pelo Montador hoje à noite:** login do tiktok.com no PC, se a web tem Agendar, Carregar capa, Fixar e campo Site.
+
 ## Pendências do Vini
-- Nenhuma no momento.
+- Nenhuma obrigatória. Só se o Montador pedir: login do TikTok por QR no PC (https://www.tiktok.com/login/qrcode, ~2 min, uma vez).
+- Deixar o PC ligado o máximo possível, principalmente das 15h às 21h (horário de postagem, caso a web não tenha Agendar).

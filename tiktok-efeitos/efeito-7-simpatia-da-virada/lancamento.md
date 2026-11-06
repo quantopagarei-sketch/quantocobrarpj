@@ -1,5 +1,7 @@
 # Lançamento da Simpatia da Virada (C07)
 
+> **Atualização 06/11: o Vini não grava.** Para vídeos e datas, valem `videos/roteiros-videos.md` desta pasta e `../videos/PLANO-DE-VIDEOS.md`, por cima das partes que dependiam do Vini.
+
 **Responsável:** Social Media / Estratégia de lançamento · **Data:** 06/11/2026 · **Versão:** 1.0
 **Base:** `textos.md` deste efeito (nome, título, as 26 cartas e as 4 reservas), `assets/LEIA-ME.md`, o plano geral (`../plano-curto-prazo.md`), o `../LEIA-PRIMEIRO.md` (os momentos de gravação do Vini), o `../PRONTO-PARA-MONTAR.md` e os planos de lançamento do Meu 2027 vai ser (C05, que divide o mesmo momento de gravação), do Meu próximo carro (C02) e do Torcedômetro (C01). As buscas feitas hoje estão no fim.
 **Legenda:** ✅ confirmado em fonte oficial ou em mais de uma fonte · ⚠️ fontes divergem · (a confirmar) = ainda não conferido

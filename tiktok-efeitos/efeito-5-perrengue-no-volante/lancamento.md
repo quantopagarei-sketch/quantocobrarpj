@@ -1,5 +1,7 @@
 # Lançamento do Perrengue no volante (C09)
 
+> **Atualização 06/11: o Vini não grava.** Para vídeos e datas, valem `videos/roteiros-videos.md` desta pasta e `../videos/PLANO-DE-VIDEOS.md`, por cima das partes que dependiam do Vini.
+
 **Responsável:** Social Media / Estratégia de lançamento · **Data:** 06/11/2026 · **Versão:** 1.0
 **Base:** `textos.md` deste efeito (nome, título e os 10 perrengues), `assets/previa.png`, o plano geral (`../plano-curto-prazo.md`), o `../LEIA-PRIMEIRO.md` (os três momentos do Vini) e os planos de lançamento do Torcedômetro, do Eu no grupo da família e do Meu próximo carro, para os horários não baterem. As buscas feitas hoje estão no fim.
 **Legenda:** ✅ confirmado em fonte oficial ou em mais de uma fonte · ⚠️ fontes divergem · (a confirmar) = ainda não conferido

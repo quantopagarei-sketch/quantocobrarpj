@@ -1,5 +1,7 @@
 # Lançamento do Meu amigo secreto (C06)
 
+> **Atualização 06/11: o Vini não grava.** Para vídeos e datas, valem `videos/roteiros-videos.md` desta pasta e `../videos/PLANO-DE-VIDEOS.md`, por cima das partes que dependiam do Vini.
+
 **Responsável:** Social Media / Estratégia de lançamento · **Data:** 06/11/2026 · **Versão:** 1.0
 **Base:** `textos.md` deste efeito (nome, título, as 26 cartas e as reservas), `assets/previa.png` e `assets/LEIA-ME.md`, o plano geral (`../plano-curto-prazo.md`), o `../LEIA-PRIMEIRO.md` (os momentos de gravação do Vini) e os planos de lançamento dos outros efeitos que vão estar no ar em dezembro (C01, C08, C02, C09, C05 e C07), para os horários não baterem. As buscas feitas hoje estão no fim.
 **Legenda:** ✅ confirmado em fonte oficial ou em mais de uma fonte · ⚠️ fontes divergem · (a confirmar) = ainda não conferido

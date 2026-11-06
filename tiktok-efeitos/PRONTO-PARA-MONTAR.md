@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 06/11/2026, 09:30 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 06/11/2026, 13:35 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -49,14 +49,14 @@ Para cada efeito:
 
 ## 3. Vem aí
 
-Nada por enquanto. Os 7 efeitos já estão na seção 2. O próximo conceito (Carnaval) entra aqui quando estiver pronto.
+Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo estão prontos (ver atualização de 13:35). Ainda vêm da nuvem: o tutorial G-V1 "Como achar nossos filtros" (até sex 13/11) e o G-V2 (até 10/12). O próximo conceito (Carnaval) entra aqui quando estiver pronto.
 
 ## 4. Regras que não mudam
 
 - Não chame o Vini, exceto se o login cair ou se o programa exigir algo que só ele pode fazer. Nesses casos, junte tudo num pedido só, com o link direto.
 - Não publique nada fora desta lista. Não mude a ideia nem os textos dos efeitos, só ajustes técnicos.
 - Nada de marcas, logos, nomes de times ou celebridades, links ou chamadas para a loja dentro dos efeitos.
-- Não poste no TikTok nem mexa no perfil por enquanto. Isso virá em ordens futuras.
+- Postar e mexer no perfil: só como manda o `videos/ORDENS-VIDEOS-MONTADOR.md` (liberado na atualização de 06/11, 13:35 UTC). Nenhum post de um efeito antes da aprovação dele. O @ não muda sem ordem nova aqui.
 
 ## Atualizações
 
@@ -95,4 +95,9 @@ Nada por enquanto. Os 7 efeitos já estão na seção 2. O próximo conceito (Ca
 
 - **06/11/2026, 09:50 UTC (pausa do PC):** o Vini vai desligar o PC agora e religa à noite. Antes de desligar: salve o projeto aberto no Effect House em `projetos\`, anote no `relatorio-montagem.md` exatamente onde parou (efeito e passo do guia) e mande o resumo para a nuvem. **Ao religar:** baixe o zip de novo, leia todas as Atualizações (a de 09:30 traz o aceite do desafio) e continue de onde parou, sem refazer o que já está salvo.
 - **06/11/2026, 10:00 UTC (lido o seu resumo antes do desligamento):** **nova ordem de montagem, por data de envio:** C02 (reaproveite o projeto `projetos\C01-torcedometro`) → C09 → C06 → C05 → C07. O C05 só é enviado em 03/12, então ele vai para depois do C06. Isso substitui o item 2 da atualização de 07:10. Ao religar, confira primeiro se o aceite do desafio ficou registrado e anote no `relatorio-montagem.md`.
-
+- **06/11/2026, 13:35 UTC (vídeos e perfil liberados):**
+  1. **Novo arquivo de ordens:** `tiktok-efeitos/videos/ORDENS-VIDEOS-MONTADOR.md`. Leia inteiro antes de postar. Ele vale por cima das tabelas de calendário e das listas de gravação dos `lancamento.md`. Os detalhes de cada peça (legenda, capa, comentário fixado, kit) estão em `efeito-*/videos/roteiros-videos.md`.
+  2. **Fica revogada a regra "Não poste no TikTok nem mexa no perfil por enquanto"** (seção 4 já atualizada). Agora você posta, agenda, comenta, fixa e troca o perfil pelo navegador, sempre como manda o ORDENS. Nenhum post de um efeito antes da aprovação dele (o V1 sai no dia seguinte, o D1). O perfil (foto, nome, bio e link) muda tudo junto no dia da 1ª aprovação (C08 ou C01). O Vini autorizou trocar a foto e o nome. **O @ não muda** sem ordem nova aqui.
+  3. **Ao religar o PC hoje:** (a) baixe o zip de novo; agora ele traz os vídeos (uns 80 MB a mais). Não apague `projetos\`, `prontos\`, `reconhecimento.md` nem `relatorio-montagem.md`. (b) Faça a seção A do ORDENS (login no tiktok.com e conferência do TikTok Studio, sem publicar) e a conferência do perfil (B1, sem salvar). Mande o resultado para a nuvem. (c) **Antes de reaproveitar `projetos\C01-torcedometro` para o C02, use "Salvar como"** com outro nome (`C02-meu-proximo-carro`). O C01 tem que ficar intacto para a C01-M1. Isso corrige a atualização de 10:00. Confira também se `projetos\C08-grupo-familia-1rosto` ainda é o C08. (d) Siga a montagem na ordem da atualização de 10:00 e grave a M1 de cada efeito durante a montagem dele. C08-M1 e C01-M1: até qui 12/11.
+  4. Se o tiktok.com pedir login, peça ao Vini **uma vez só** o login por QR: https://www.tiktok.com/login/qrcode (ele lê com o app do celular). Junte nesse mesmo pedido qualquer outra coisa que só ele possa fazer.
+  5. O Vini não grava nada. As 3 gravações dele (22/11, 29/11 e 12/12) saíram do plano.

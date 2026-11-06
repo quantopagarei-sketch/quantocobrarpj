@@ -1,50 +1,39 @@
 # LEIA PRIMEIRO
 
-**Vini, esta página é a única que você precisa ler.** A equipe cuida de todo o resto: ideias, textos, imagens, montagem no PC, envio dos efeitos, legendas, comentários, convites e números. Daqui até o fim de janeiro, você vai ser chamado **6 vezes no máximo**, nunca por mais de 15 minutos, e sempre com o link direto.
+**Vini, esta página é a única que você precisa ler.** A equipe cuida de todo o resto: ideias, textos, imagens, montagem no PC, envio dos efeitos, **os vídeos de divulgação**, legendas, comentários, convites, perfil e números.
+
+**Atualização de 06/11: você não grava nada e não aparece em nenhum vídeo.** A equipe faz os vídeos e o Montador (o assistente que roda no teu PC) posta pelo navegador. As 3 gravações que estavam marcadas (22/11, 29/11 e 12/12) saíram do plano.
 
 ---
 
-## O que só você pode fazer
+## O que só você pode fazer (e só se acontecer)
 
-### Agora (uma vez só, ~10 min)
+Nada é obrigatório no dia a dia. São só 3 coisas, e cada uma só se aparecer:
 
-1. **Effect House aberto e logado no PC** com a conta Car Shop. Pela ordem que você já recebeu, isso deve estar feito. Só refaça se o Montador avisar que o login caiu:
-   - Baixar (se precisar reinstalar): https://effecthouse.tiktok.com/download. A equipe não conseguiu abrir esse link daqui. Se ele não abrir, entre em https://effecthouse.tiktok.com/ e clique em **Download**.
-   - Como entrar, passo a passo (guia oficial): https://effecthouse.tiktok.com/learn/guides/getting-started/introduction-to-effect-house/download-and-login
-2. **TikTok no navegador do mesmo PC**, para a equipe responder comentários e trocar a bio sem te chamar. Abra https://www.tiktok.com/login/qrcode e leia o QR com o app do TikTok no celular (se esse link não abrir: https://www.tiktok.com/login e escolha **Usar QR code**). Deixe a janela logada.
-3. **Responda 4 perguntas numa mensagem só:**
-   - Você tem 18 anos ou mais?
-   - A conta Car Shop foi criada no Brasil?
-   - A conta é de **Empresa** ou **Pessoal**? (Se não souber, tudo bem: a equipe descobre.)
-   - Para os vídeos dos efeitos: **plano mínimo** (uns 10 min por vez, só você, sem família) ou **plano completo** (com pai, mãe, mesa de domingo)? Se não responder, fica o mínimo.
-4. **Desafio do Effect House ("Nov Social Randomizer Sub Challenge", prêmio de até US$ 1.000):** a equipe te manda um resumo dos termos. Responda só **"aceito"** ou **"não aceito"**. Não existe link para abrir no navegador: a página do desafio só abre dentro do Effect House, no PC. Se quiser ler o texto inteiro, peça ao Montador para deixar a página aberta. **Quem aceita os termos é você, nunca a equipe.** Se você não responder, a ideia da equipe é enviar os efeitos sem o desafio, para não perder os prazos (a confirmar pelo coordenador).
-5. Se o app do TikTok pedir atualização:
-   - Android: https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically
-   - iPhone: https://apps.apple.com/br/app/tiktok/id835599320
+1. **Se o Montador avisar que o TikTok saiu do navegador do PC** (~2 min): abra https://www.tiktok.com/login/qrcode no PC e leia o QR com o app do TikTok no celular. Se esse link não abrir: https://www.tiktok.com/login e escolha **Usar QR code**. Deixe a janela logada. O Effect House já está logado; se cair, o caminho oficial é https://effecthouse.tiktok.com/learn/guides/getting-started/introduction-to-effect-house/download-and-login
+2. **Deixar o PC ligado o máximo que der**, principalmente das 15h às 21h. O Montador só trabalha com o PC ligado. Se o site do TikTok não tiver o botão Agendar (a equipe confere hoje), o post só sai com o PC ligado na hora. As datas que mais pesam são 24/12, 25/12 e 31/12 (a equipe avisa antes, se precisar).
+3. **Quando sair o selo Gold** (previsão: entre fim de dezembro e começo de janeiro; ~10 min): o Montador deixa a aba **Rewards** aberta no PC e você preenche os teus dados fiscais e de pagamento. Explicação oficial: https://effecthouse.tiktok.com/learn/guides/support/faq-rewards-center
 
-### Três gravações curtas no celular (a equipe manda antes a lista, as legendas e o link de cada efeito)
+### Já resolvido (06/11)
 
-| Quando | Efeitos | Tempo |
-|---|---|---|
-| **dom 22/11** | Eu no grupo da família, Torcedômetro e, se já aprovados, Meu próximo carro e Perrengue no volante | ~10 min |
-| **dom 29/11** | Meu amigo secreto e, se couber, um vídeo curto do Meu próximo carro e outro do Perrengue no volante | ~5 a 10 min |
-| **sáb 12/12** | Meu 2027 vai ser e Simpatia da Virada | ~10 min |
+- Você respondeu as 4 perguntas: 18 anos ou mais, conta criada no Brasil, conta **Pessoal**, plano completo de vídeos **feito pela equipe**.
+- Você **aceitou** os termos do desafio "Nov Social Randomizer Sub Challenge".
+- Você autorizou trocar a **foto** e o **nome** do perfil. A equipe troca no dia da 1ª aprovação de um efeito:
+  - nome: **Car Shop ✨ Filtros e Efeitos** (o "Car Shop" fica, para a loja continuar reconhecível);
+  - foto: um carrinho turquesa dentro de uma "mira" de câmera, nas cores dos filtros;
+  - bio nova, com o link do filtro da vez. O **@ continua o mesmo**. A loja continua na aba Loja.
 
-Em cada uma: abrir o efeito pelo link, gravar, e **agendar** os vídeos ali mesmo se o app mostrar essa opção. Se não mostrar, salve como rascunho e, no dia, abra, cole a legenda e toque em **Publicar** (1 min).
+### Se você quiser (nunca obrigatório)
 
-### Quando sair o selo Gold (a equipe avisa; previsão entre fim de dezembro e começo de janeiro, ~10 min)
-
-No PC, o Montador deixa aberta a aba **Rewards** do Effect House. Você só preenche os seus dados fiscais e de pagamento. Explicação oficial: https://effecthouse.tiktok.com/learn/guides/support/faq-rewards-center
-
-### Fim de janeiro (~10 min)
-
-Uma gravação para os primeiros efeitos que podem pagar. A equipe manda a lista.
+- Mandar o link de um efeito para amigos ou para a família (1 min). Só o link. Não combine quem posta nem quando.
+- Gravar 10 s com um efeito no celular, sem roteiro. É o único tipo de vídeo que ganha a etiqueta clicável com o nome do efeito. Se vier, entra num horário vago.
 
 ### O que nunca fazer
 
 - Apagar, arquivar ou deixar privado um vídeo feito com efeito.
-- Desarquivar os vídeos antigos do Inter. Eles podem ter trecho de jogo ou música com dono, e uma violação tira a conta do programa.
-- Trocar de celular ou desinstalar o TikTok até 10/01 (os rascunhos ficam só no aparelho).
+- Desarquivar os vídeos antigos de futebol. Eles podem ter trecho de jogo ou música com dono, e uma violação tira a conta do programa.
+- Mudar a conta para Empresa ou ligar a conta como Conta Oficial da loja, mesmo que o TikTok sugira.
+- Mexer no nome, na foto ou no @ pelo celular sem avisar a equipe (o nome trava por 7 dias e o @ por 30).
 - Dar cupom, brinde, desconto da loja ou fazer sorteio para quem usar o efeito. Isso desqualifica o efeito.
 
 ---
@@ -53,7 +42,9 @@ Uma gravação para os primeiros efeitos que podem pagar. A equipe manda a lista
 
 Para entrar no programa que paga pelos efeitos, a conta precisa ter **5 efeitos publicados, 3 deles usados em 1.000 vídeos cada** (o selo Gold). E **só pagam os efeitos publicados depois de entrar no programa**. Então os efeitos de novembro e dezembro servem para destravar a entrada, e não rendem dinheiro. O primeiro efeito que pode pagar entra no ar no fim de janeiro, e o primeiro pagamento possível sai em **15/03/2027**, se ele passar de 5.000 vídeos de outras pessoas em 30 dias. Ninguém sabe quanto o TikTok paga por vídeo no Brasil. O plano completo está em `plano-curto-prazo.md`.
 
-**A antiga base de torcedor e a loja:** os primeiros vídeos falam com quem veio pelo futebol (sem time nenhum, servindo para qualquer torcida), depois vem o torcedor que dirige e, por fim, o motorista. Os efeitos de carro levam motoristas para o perfil, e a venda acontece nos vídeos da loja, sempre separados dos vídeos de efeito.
+**O lado bom e o lado ruim de você não gravar:** os vídeos agora saem já no dia seguinte a cada aprovação (antes, só nos domingos de gravação), o que adianta as estreias de 3 a 13 dias, conforme o efeito. Em troca, os nossos vídeos não têm a etiqueta clicável do efeito: quem gostar precisa procurar o filtro pelo nome na lupa. A equipe compensa com o nome do filtro em todo vídeo, um vídeo-tutorial, o link na bio, convites e repost de quem usou.
+
+**A antiga base de torcedor e a loja:** os primeiros vídeos falam com quem veio pelo futebol (sem time nenhum, servindo para qualquer torcida), depois vem o torcedor que dirige e, por fim, o motorista. Os efeitos de carro levam motoristas para o perfil, e a venda acontece na aba Loja, sempre separada dos vídeos de efeito.
 
 ---
 
@@ -63,17 +54,20 @@ Para entrar no programa que paga pelos efeitos, a conta precisa ter **5 efeitos 
 |---|---|
 | `LEIA-PRIMEIRO.md` | Esta página |
 | `plano-curto-prazo.md` | Metas, cronograma semana a semana até 31/01, quem faz o quê, KPIs, fila e riscos |
-| `ORDEM-PC.md` | A ordem para o Montador (o Claude que roda no PC do Vini) |
-| `pesquisa/01-tendencias.md` | Formatos e datas em alta |
-| `pesquisa/02-monetizacao-e-regras.md` | Regras do programa de recompensas e de aprovação de efeitos |
-| `pesquisa/03-tecnico-effect-house.md` | Como o Effect House funciona |
-| `pesquisa/04-conceitos.md` | Os 10 conceitos de efeito |
-| `efeito-1-torcedometro/` | C01, pronto: textos, imagens, guia de montagem, plano de lançamento, revisão de QA |
-| `efeito-2-seu-papel-no-grupo/` | C08 "Eu no grupo da família", pronto |
-| `efeito-3-meu-2027-vai-ser/` | C05, pronto (envio só em 03/12) |
-| `efeito-4-meu-proximo-carro/` | C02 "Meu próximo carro", pronto e revisado (envio até 17/11) |
-| `efeito-5-perrengue-no-volante/` | C09 "Perrengue no volante", pronto e revisado (envio até 17/11) |
-| `efeito-6-meu-amigo-secreto/` | C06 "Meu amigo secreto", pronto e revisado (envio entre 20 e 24/11, nunca antes) |
-| `efeito-7-simpatia-da-virada/` | C07 "Simpatia da Virada", pronto e revisado (envio só em 03/12, junto com o C05) |
-| `PRONTO-PARA-MONTAR.md` | As ordens para o Montador, na ordem de montagem. Só o coordenador mexe. Um efeito só é montado depois de entrar na seção 2 desse arquivo |
+| `videos/PLANO-DE-VIDEOS.md` | O plano dos vídeos sem o Vini: formatos, as 27 peças, o **calendário único** de posts, fixados, métricas |
+| `videos/ORDENS-VIDEOS-MONTADOR.md` | **As ordens de vídeo e perfil para o Montador** (login, perfil, gravações do preview, postagem, fixados, métricas, o que não fazer) |
+| `videos/perfil/PERFIL.md` | Nome, @, foto, bio, link e fixados, com as imagens prontas (`foto_recomendada.png`) |
+| `videos/pesquisa/` | Pesquisas R1 a R5 (postar pelo PC, direitos, formatos sem rosto, perfil) |
+| `videos/lib/` | Biblioteca que gera os vídeos na nuvem (`render.py`) |
+| `efeito-*/videos/` | **Os vídeos prontos de cada efeito**: `.mp4`, capas, legendas, kit da gravação M1, prévia e `roteiros-videos.md` (quando e como postar cada peça) |
+| `ORDEM-PC.md` | A ordem original para o Montador (o assistente que roda no PC do Vini) |
+| `pesquisa/01-tendencias.md` a `04-conceitos.md` | Formatos, regras do programa, Effect House e os 10 conceitos |
+| `efeito-1-torcedometro/` | C01 Torcedômetro: enviado em 06/11, em análise |
+| `efeito-2-seu-papel-no-grupo/` | C08 "Eu no grupo da família": enviado em 06/11, em análise |
+| `efeito-3-meu-2027-vai-ser/` | C05 "Meu 2027 vai ser": envio só em 03/12 |
+| `efeito-4-meu-proximo-carro/` | C02 "Meu próximo carro": envio até 17/11 |
+| `efeito-5-perrengue-no-volante/` | C09 "Perrengue no volante": envio até 17/11 |
+| `efeito-6-meu-amigo-secreto/` | C06 "Meu amigo secreto": envio entre 20 e 24/11, nunca antes |
+| `efeito-7-simpatia-da-virada/` | C07 "Simpatia da Virada": envio só em 03/12, junto com o C05 |
+| `PRONTO-PARA-MONTAR.md` | As ordens para o Montador, com data. Só o coordenador mexe. Ele aponta para o `videos/ORDENS-VIDEOS-MONTADOR.md` |
 | `STATUS.md` | Situação de cada efeito (enviado, em análise, aprovado) e as pendências do Vini |
