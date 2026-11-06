@@ -28,9 +28,10 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 - **Ordens ao Montador:** `videos/ORDENS-VIDEOS-MONTADOR.md` (liberado no PRONTO, 13:35 UTC). Postagem pelo TikTok Studio na web, só depois da aprovação de cada efeito. 1º vídeo previsto: D1 da 1ª aprovação (alvo qua 11/11).
 - **Limite:** sem celular, nossos vídeos não ganham a etiqueta clicável do efeito e não contam como uso. Os usos vêm de quem procura o nome na lupa. Por isso, o nome exato aparece no vídeo, na legenda e no comentário fixado, e o link do efeito vai na bio.
 - **Vídeos gerais prontos (14:30 UTC):** tutorial G-V1 "Como achar nossos filtros" (2 versões) e G-V2 "3 filtros pro fim de ano", em `videos/gerais/`. A nuvem refaz com os nomes reais se os aprovados forem outros.
-- **A confirmar pelo Montador hoje à noite:** login do tiktok.com no PC, se a web tem Agendar, Carregar capa, Fixar e campo Site.
+- **06/11 à noite:** tiktok.com **logado no Chrome** do PC. A checagem de segurança do Montador só aceita ações públicas (perfil, postar, agendar, autorização do desafio) com o OK do Vini **digitado no chat do Montador**; ordem repassada pela nuvem não vale. Seções A e B1, D0 e Manage Effects (site sem login; app com o formulário do C09 aberto) aguardam esse OK.
+- **A confirmar pelo Montador:** se a web tem Agendar, Carregar capa, Fixar e campo Site.
 
 ## Pendências do Vini
-- **Quando voltar ao PC:** no Effect House, no formulário do C09 já aberto, marcar a caixa de autorização de uso promocional e clicar em Submit (~30 s).
+- **Uma mensagem no chat do Montador** (sessão "Montagem de efeitos TikTok", pode ser pelo celular) com a autorização permanente que a nuvem redigiu: libera o envio do C09 e dos próximos com desafio, as conferências A/B1, a troca de perfil e a postagem dos vídeos. Sem ela, o C09 espera o Vini clicar no PC.
 - Só se o Montador pedir: login do TikTok por QR no PC (https://www.tiktok.com/login/qrcode, ~2 min, uma vez).
 - Deixar o PC ligado o máximo possível, principalmente das 15h às 21h (horário de postagem, caso a web não tenha Agendar).
