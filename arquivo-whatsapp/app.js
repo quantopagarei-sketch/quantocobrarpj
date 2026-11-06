@@ -295,6 +295,7 @@
   async function upsertContact(info) {
     var c = info.phone ? findByPhone(info.phone) : null;
     if (!c) c = S.byId[info.id];
+    if (!c) for (var i = 0; i < S.contacts.length && !c; i++) if ((S.contacts[i].aliases || []).indexOf(info.id) >= 0) c = S.contacts[i];
     if (!c) {
       c = { id: info.id, name: info.name || null, phone: info.phone || null, isGroup: !!info.isGroup, notes: '', status: '', nameSrc: info.nameSrc || '', created: Date.now(), st: {} };
       if (info.lid) c.lid = true;
@@ -329,6 +330,7 @@
     if (m.ty === 'omitted') return who + 'mídia';
     return who + (m.t || '').replace(/\s+/g, ' ').slice(0, 120);
   }
+  function addAlias(c, id) { if (!id || id === c.id) return; c.aliases = c.aliases || []; if (c.aliases.indexOf(id) < 0) c.aliases.push(id); }
   function rekey(cid, k) { k = String(k); return cid + '|' + k.slice(k.indexOf('|') + 1); }
   // move tudo de um contato para outro (ex.: o mesmo cliente veio pelo nome e pelo número)
   async function mergeContacts(fromId, toId) {
@@ -341,6 +343,7 @@
     msgs.forEach(function (m) { t.objectStore('messages').delete(m.k); t.objectStore('docs').delete(m.k); });
     await DB.done(t);
     if (from.name && (from.nameSrc === 'manual' || !to.name)) { to.name = from.name; to.nameSrc = from.nameSrc; }
+    addAlias(to, fromId); (from.aliases || []).forEach(function (a) { addAlias(to, a); });
     if (!to.phone && from.phone) to.phone = from.phone;
     if (from.notes) to.notes = to.notes ? to.notes + '\n\n' + from.notes : from.notes;
     if (!to.status && from.status) to.status = from.status;
@@ -703,14 +706,22 @@
   }
 
   // ------------------------------------------------------------------ pacote: salvar e restaurar
-  function safeName(s) { return C.clean(s).replace(/[\\/:*?"<>|\u0000-\u001f]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80) || 'sem nome'; }
+  // nome seguro para pasta/arquivo: corta o meio do nome, nunca a extensão (.pdf)
+  function safeName(s, max) {
+    max = max || 80;
+    var t = C.clean(s).normalize('NFC').replace(/[\\/:*?"<>|\u0000-\u001f]+/g, ' ').replace(/\s+/g, ' ').trim();
+    var em = /\.[a-z0-9]{1,5}$/i.exec(t), ext = em ? em[0] : '', stem = ext ? t.slice(0, -ext.length) : t;
+    if (t.length > max) t = stem.slice(0, Math.max(1, max - ext.length)).trim() + ext;
+    return t || 'sem nome';
+  }
   function folderOf(c) {
-    var nm = c.name ? safeName(c.name) : '', ph = c.phone ? P.format(c.phone).replace(/[()]/g, '') : '';
-    return 'clientes/' + safeName([nm, ph].filter(Boolean).join(' - ') || label(c)) + '/';
+    var ph = c.phone ? P.format(c.phone).replace(/[()]/g, '') : '';
+    var nm = c.name ? safeName(c.name, ph ? 80 - ph.length - 3 : 80).replace(/\.$/, '') : '';
+    return 'clientes/' + ([nm, ph].filter(Boolean).join(' - ') || safeName(label(c))) + '/';
   }
   async function exportPackage() {
     if (S.busy) { toast('Espere a importação terminar antes de gerar o pacote.'); return; }
-    var opt = { image: $('#e-image').checked, audio: $('#e-audio').checked, video: $('#e-video').checked, sticker: false, doc: true, contact: true };
+    var opt = { image: $('#e-image').checked, audio: $('#e-audio').checked, video: $('#e-video').checked, sticker: !!(S.settings.media && S.settings.media.sticker), doc: true, contact: true };
     var lg = $('#pkglog'); lg.hidden = false; lg.textContent = '';
     function plog(t) { lg.appendChild(h('div', null, t)); lg.scrollTop = lg.scrollHeight; }
     var btn = $('#go-pkg'); btn.disabled = true;
@@ -758,17 +769,32 @@
     try {
       var zr = new C.ZipReader(file), ents = await zr.open(), by = {};
       ents.forEach(function (e) { by[e.name] = e; });
-      if (!by['arquivo.json']) throw new Error('Este .zip não é um pacote do Arquivo de Clientes.');
-      var man = JSON.parse(await zr.text(by['arquivo.json']));
+      // o pacote pode ter sido descompactado e compactado de novo (ganha uma pasta por fora)
+      var manE = ents.filter(function (e) { return /(^|\/)arquivo\.json$/.test(e.name) && !/(^|\/)__MACOSX\//.test(e.name); }).sort(function (x, y) { return x.name.length - y.name.length; })[0];
+      if (!manE) throw new Error('Este .zip não é um pacote do Arquivo de Clientes.');
+      var pre = manE.name.slice(0, manE.name.length - 'arquivo.json'.length);
+      var man = JSON.parse(await zr.text(manE));
       if (man.learnedMe) { Object.keys(man.learnedMe).forEach(function (k) { S.learnedMe[k] = Math.max(S.learnedMe[k] || 0, man.learnedMe[k]); }); await DB.put('meta', { key: 'learnedMe', v: S.learnedMe }); }
-      var touched = {}, nm = 0, nf = 0, nc = 0, seenFolder = {};
+      if (man.settings) {
+        if (!S.settings.myNames && man.settings.myNames) S.settings.myNames = man.settings.myNames;
+        var mm0 = man.settings.media || {};
+        ['image', 'audio', 'video', 'sticker'].forEach(function (k) { S.settings.media[k] = !!(S.settings.media[k] || mm0[k]); });
+        await saveSettings(); syncSettingsUI();
+      }
+      var touched = {}, nm = 0, nf = 0, nc = 0, bad = 0, seenFolder = {};
       for (var i = 0; i < man.contacts.length; i++) {
         var fo = man.contacts[i].folder;
-        if (seenFolder[fo]) { log('• Pasta repetida no pacote: ' + fo + ' (gere um pacote novo para incluir este cliente).'); continue; }
-        seenFolder[fo] = 1;
-        var ent = by[fo + 'dados.json']; if (!ent) { log('• Faltou ' + fo + 'dados.json no pacote.'); continue; }
+        // pacotes antigos: duas pessoas na mesma pasta ficaram como "dados.json" e "dados (2).json"
+        var occ = seenFolder[fo] = (seenFolder[fo] || 0) + 1;
+        var ent = by[pre + fo + (occ === 1 ? 'dados.json' : 'dados (' + occ + ').json')];
+        if (!ent) { log('• Faltou ' + fo + 'dados.json no pacote.'); continue; }
         var data = JSON.parse(await zr.text(ent)), pc = data.contact;
         var c = await upsertContact({ id: pc.id, name: pc.name, phone: pc.phone, isGroup: pc.isGroup, nameSrc: pc.nameSrc });
+        // o mesmo cliente pode estar aqui com outro id (juntado em outro aparelho)
+        var ids = [pc.id].concat(pc.aliases || []).concat(c.aliases || []);
+        for (var ai = 0; ai < ids.length; ai++) { var x = S.byId[ids[ai]]; if (x && x !== c && !x.isGroup) await mergeContacts(x.id, c.id); }
+        (pc.aliases || []).forEach(function (al) { addAlias(c, al); });
+        if (pc.id !== c.id) addAlias(c, pc.id);
         if (pc.nameSrc === 'manual' && pc.name) { c.name = pc.name; c.nameSrc = 'manual'; }
         if (pc.notes && c.notes !== pc.notes) {
           if (!c.notes || pc.notes.indexOf(c.notes) >= 0) c.notes = pc.notes;          // o pacote tem tudo e mais
@@ -782,8 +808,11 @@
           var m = data.messages[j], v = Object.assign({}, m);
           v.cid = c.id; v.k = rekey(c.id, m.k); if (m.bk) v.bk = rekey(c.id, m.bk);
           if (v.file && v.m) {
-            var fe = by[man.contacts[i].folder + v.file];
-            if (fe) { var bl = await zr.blob(fe, v.m.mi || C.mimeOf(v.m.n)); v.m = Object.assign({}, v.m); v.m.b = await saveBlob(c.id, v.m.n, bl, v.m.mi); v.m.s = bl.size; nf++; }
+            var fe = by[pre + fo + v.file] || by[pre + fo + String(v.file).normalize('NFC')];
+            if (fe) {
+              try { var bl = await zr.blob(fe, v.m.mi || C.mimeOf(v.m.n)); v.m = Object.assign({}, v.m); v.m.b = await saveBlob(c.id, v.m.n, bl, v.m.mi); v.m.s = bl.size; nf++; }
+              catch (e) { bad++; if (bad <= 5) log('• ' + errMsg(e)); }
+            }
           }
           delete v.file;
           out.push(v);
@@ -794,6 +823,7 @@
         if (!nested) { setBar(i / man.contacts.length); $('#prog-title').textContent = 'Restaurando… ' + (i + 1) + ' de ' + man.contacts.length + ' clientes'; }
         await tick();
       }
+      if (bad) log('• ' + pl(bad, 'arquivo danificado não foi restaurado', 'arquivos danificados não foram restaurados') + '. Se tiver outra cópia do pacote, restaure também.');
       await refreshStats(Object.keys(touched));
       log('✓ Pacote de ' + fDate(man.exportedAt) + ': ' + pl(nc, 'cliente', 'clientes') + ', ' + pl(nm, 'mensagem', 'mensagens') + ', ' + pl(nf, 'arquivo', 'arquivos') + '.', 'ok');
       if (!nested) { setBar(1); busyEnd('Pacote restaurado.'); }
@@ -808,9 +838,10 @@
     var rows = [['Nome', 'Número', 'Situação', 'Primeira mensagem', 'Última mensagem', 'Mensagens', 'Documentos', 'Anotações']];
     S.contacts.filter(function (c) { return !c.demo; }).sort(byLast).forEach(function (c) {
       var st = c.st || {};
-      rows.push([c.name || '', c.phone ? P.format(c.phone) : '', c.status || '', st.first ? fDate(st.first) : '', st.last ? fDate(st.last) : '', st.n || 0, st.docs || 0, c.notes || '']);
+      // número sem o "+" para a planilha não transformar em conta
+      rows.push([c.name || '', c.phone ? P.format(c.phone).replace(/^\+/, '') : '', c.status || '', st.first ? fDate(st.first) : '', st.last ? fDate(st.last) : '', st.n || 0, st.docs || 0, c.notes || '']);
     });
-    var csv = '\ufeff' + rows.map(function (r) { return r.map(function (v) { v = String(v); return /[;"\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }).join(';'); }).join('\r\n');
+    var csv = '\ufeff' + rows.map(function (r) { return r.map(function (v, ci) { v = String(v); if (ci !== 1 && /^[=+\-@\t\r]/.test(v)) v = "'" + v; return /[;"\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }).join(';'); }).join('\r\n');
     await Plat.save(new Blob([csv], { type: 'text/csv' }), 'clientes-' + new Date().toISOString().slice(0, 10) + '.csv');
   }
 
@@ -1265,6 +1296,10 @@
     el.textContent = f.length === 1 ? f[0].name + ' (' + fSize(f[0].size) + ')' : num(f.length) + ' arquivos';
   }
 
+  function syncSettingsUI() {
+    $('#s-me').value = S.settings.myNames || '';
+    ['image', 'audio', 'video', 'sticker'].forEach(function (k) { $('#s-' + k).checked = !!S.settings.media[k]; });
+  }
   function bind() {
     window.addEventListener('hashchange', function () { setView(location.hash.slice(1)); });
     var qt;
@@ -1303,10 +1338,10 @@
     $('#f-vcf').addEventListener('change', function () { picked(this, '#p-vcf'); var f = this.files[0]; this.value = ''; if (f) importVcf(f); });
     $('#f-pkg').addEventListener('change', function () { picked(this, '#p-pkg'); var f = this.files[0]; this.value = ''; if (f) importPackage(f); });
 
-    $('#s-me').value = S.settings.myNames || '';
+    syncSettingsUI();
     $('#s-me').addEventListener('change', async function () { S.settings.myNames = this.value; await saveSettings(); });
     ['image', 'audio', 'video', 'sticker'].forEach(function (k) {
-      var el = $('#s-' + k); el.checked = !!S.settings.media[k];
+      var el = $('#s-' + k);
       el.addEventListener('change', async function () { S.settings.media[k] = el.checked; await saveSettings(); });
     });
 

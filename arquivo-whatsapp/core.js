@@ -492,6 +492,7 @@
         x += 4 + sz;
       }
       var date = new Date(1980 + (ddate >> 9), ((ddate >> 5) & 15) - 1, ddate & 31, dtime >> 11, (dtime >> 5) & 63, (dtime & 31) * 2);
+      name = name.normalize('NFC');
       if (!/\/$/.test(name)) out.push({ name: name, method: method, csize: csize, size: usize, offset: loff, crc: crc, date: date, flags: flags });
       p += 46 + nl + xl + cl;
     }
@@ -505,13 +506,18 @@
     var raw = this.src.slice(start, start + e.csize);
     type = type || mimeOf(e.name);
     if (e.flags & 1) throw new Error('Arquivo protegido por senha dentro do .zip: ' + e.name);
-    if (e.method === 0) return raw.slice(0, raw.size, type);
-    if (e.method === 8) {
-      var ds = raw.stream().pipeThrough(new DecompressionStream('deflate-raw'));
-      var b = await new Response(ds).blob();
-      return new Blob([b], { type: type });
-    }
-    throw new Error('Compressão não suportada (' + e.method + ') em ' + e.name);
+    var out;
+    if (e.method === 0) out = raw.slice(0, raw.size, type);
+    else if (e.method === 8) {
+      try {
+        var ds = raw.stream().pipeThrough(new DecompressionStream('deflate-raw'));
+        out = new Blob([await new Response(ds).blob()], { type: type });
+      } catch (err) { throw new Error('Arquivo danificado dentro do .zip: ' + e.name); }
+    } else throw new Error('Compressão não suportada (' + e.method + ') em ' + e.name);
+    // confere o CRC: um pacote corrompido na cópia não passa calado
+    if (e.crc && out.size === e.size && (await crc32Blob(out)) !== e.crc) throw new Error('Arquivo danificado dentro do .zip: ' + e.name);
+    if (out.size !== e.size) throw new Error('Arquivo incompleto dentro do .zip: ' + e.name);
+    return out;
   };
   ZipReader.prototype.text = async function (e) {
     var b = await this.blob(e, 'text/plain');
