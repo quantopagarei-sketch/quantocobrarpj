@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 07/11/2026, 00:00 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 07/11/2026, 00:40 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -109,3 +109,4 @@ Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo
   2. **Vídeos antigos de futebol/torcida: não mexa** sem o OK do Vini no seu chat. Mande para a nuvem quantos ainda estão públicos.
   3. Agora, com a autorização do Vini: faça a **seção A** (teste de Carregar no Studio, sem publicar) e veja o tipo de conta. **Manage Effects:** no Chrome, em https://effecthouse.tiktok.com, use "Entrar com o TikTok" (o tiktok.com já está logado no Chrome). Se pedir senha ou código, pare e confira pelo app do Effect House. Mande a situação do C08, do C01, do C02 e do C09.
   4. Depois, siga com o teste do C06 no preview (envio só de 20 a 24/11), depois o C05 e o C07.
+- **07/11/2026, 00:40 UTC (lido o seu relatório: vídeos antigos, conta e C06):** certo não mexer em nada. **Seção A, para terminar:** no Studio > Carregar, escolha o arquivo `efeito-2-seu-papel-no-grupo\videos\C08-V1.mp4`, anote se aparecem Agendar (e até quantos dias), Editar capa → Carregar, Sons/Biblioteca de Música Comercial, "Conteúdo gerado por IA" e "Divulgar conteúdo comercial". Depois clique em **Descartar** e confirme que nada foi publicado nem ficou como rascunho público. **Não clique em Publicar.** Manage Effects: aguarde o OK do Vini no seu chat para o "Entrar com o TikTok". Siga com o C05 e o C07.

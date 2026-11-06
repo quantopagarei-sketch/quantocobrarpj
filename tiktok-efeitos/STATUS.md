@@ -1,6 +1,6 @@
 # Status dos efeitos
 
-PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. Vídeos e perfil prontos na nuvem.
+PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. C06 testado; próximos C05 e C07. Vídeos e perfil prontos na nuvem.
 
 Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 
@@ -11,7 +11,7 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 | C05 | Meu 2027 vai ser… | efeito-3-meu-2027-vai-ser | **Não começado** (relato do Montador, 06/11 ~07h BRT); vai para depois do C06 na fila | envio só em 03/12 |
 | C02 | Meu próximo carro | efeito-4-meu-proximo-carro | **Em análise** no TikTok (26 cartas, 1,6 MB, **com desafio**; testado no preview). Projeto separado do C01 (C01 intacto) | enviado 06/11 19:30 (BRT) |
 | C09 | Perrengue no volante | efeito-5-perrengue-no-volante | **Em análise** no TikTok (Blind Rank, 2,2 MB, **com desafio**, hint Tap screen) | enviado 06/11 20:28 (BRT) |
-| C06 | Meu amigo secreto | efeito-6-meu-amigo-secreto | Projeto preparado no PC (`projetos\C06-meu-amigo-secreto`, 26 cartas e título); falta testar no preview depois que o formulário do C09 fechar | envio 20–24/11 |
+| C06 | Meu amigo secreto | efeito-6-meu-amigo-secreto | **Montado e testado** no PC (`projetos\C06-meu-amigo-secreto`; 4 cartas diferentes em 4 rodadas). Aguardando a janela de envio | envio 20–24/11 |
 | C07 | Simpatia da Virada | efeito-7-simpatia-da-virada | Pronto (nota 9), liberado para o PC em 06/11 | envio 03/12 |
 
 ## Conta
@@ -28,11 +28,12 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 - **Ordens ao Montador:** `videos/ORDENS-VIDEOS-MONTADOR.md` (liberado no PRONTO, 13:35 UTC). Postagem pelo TikTok Studio na web, só depois da aprovação de cada efeito. 1º vídeo previsto: D1 da 1ª aprovação (alvo qua 11/11).
 - **Limite:** sem celular, nossos vídeos não ganham a etiqueta clicável do efeito e não contam como uso. Os usos vêm de quem procura o nome na lupa. Por isso, o nome exato aparece no vídeo, na legenda e no comentário fixado, e o link do efeito vai na bio.
 - **Vídeos gerais prontos (14:30 UTC):** tutorial G-V1 "Como achar nossos filtros" (2 versões) e G-V2 "3 filtros pro fim de ano", em `videos/gerais/`. A nuvem refaz com os nomes reais se os aprovados forem outros.
-- **Perfil hoje (B1, 06/11):** @carshopttk (sem nada de clube), nome "Oficina Mecânica", bio vazia, foto com o logo "CAR SHOP Automotive Hub". Sem campo Site na web e **sem aba Loja**. Vídeos antigos: produtos de carro e vários de futebol/torcida com sinalizador e placas de aposta, alguns já privados. Bio nova = nome do efeito da vez ("Na lupa: …"), sem link.
+- **Perfil hoje (B1, 06/11):** @carshopttk (sem nada de clube), nome "Oficina Mecânica", bio vazia, foto com o logo "CAR SHOP Automotive Hub". Sem campo Site na web e **sem aba Loja**. Vídeos antigos: 94 no total; **só 3 públicos, todos de produto** (156, 247 e 2.532 views); os 91 restantes, incluindo todos os de futebol/torcida, já estão privados. Conta pública, tipo Pessoal (sem verificação comercial). Studio > Carregar tem Vídeos e **Fotos** (modo foto existe); Agendar, capa e sons ainda a conferir. Bio nova = nome do efeito da vez ("Na lupa: …"), sem link.
 - **06/11 à noite:** tiktok.com **logado no Chrome** do PC. A checagem de segurança do Montador só aceita ações públicas (perfil, postar, agendar, autorização do desafio) com o OK do Vini **digitado no chat do Montador**; ordem repassada pela nuvem não vale. Seções A e B1, D0 e Manage Effects (site sem login; app com o formulário do C09 aberto) aguardam esse OK.
 - **A confirmar pelo Montador:** se a web tem Agendar, Carregar capa, Fixar e campo Site.
 
 ## Pendências do Vini
 - Feito em 06/11: autorização permanente no chat do Montador (desafio + Submit, conferências, troca de perfil, postar/agendar/fixar/responder, Manage Effects).
-- **Decisão opcional:** deixar como "Só eu" os vídeos antigos de futebol/torcida que ainda estão públicos (com sinalizador e placas de aposta). Precisa do OK dele no chat do Montador.
+- Vídeos antigos de futebol: já estavam privados (conferido em 06/11); nada a fazer.
+- **OK no chat do Montador para "Entrar com o TikTok" no site do Effect House** (para ver o Manage Effects: situação dos 4 efeitos em análise).
 - Deixar o PC ligado o máximo possível, principalmente das 15h às 21h (horário de postagem, caso a web não tenha Agendar).
