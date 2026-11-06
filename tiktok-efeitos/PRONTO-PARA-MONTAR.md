@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 06/11/2026, 14:30 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 06/11/2026, 22:45 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -102,3 +102,4 @@ Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo
   4. Se o tiktok.com pedir login, peça ao Vini **uma vez só** o login por QR: https://www.tiktok.com/login/qrcode (ele lê com o app do celular). Junte nesse mesmo pedido qualquer outra coisa que só ele possa fazer.
   5. O Vini não grava nada. As 3 gravações dele (22/11, 29/11 e 12/12) saíram do plano.
 - **06/11/2026, 14:30 UTC (vídeos gerais prontos):** o tutorial **G-V1 "Como achar nossos filtros"** (2 versões: `G-V1.mp4`, sem falar da aba de efeitos, e `G-V1-aba.mp4`, com a aba) e o **G-V2 "3 filtros pro fim de ano"** estão em `tiktok-efeitos/videos/gerais/`, com capa, legenda e `roteiros-videos.md`. Datas: G-V1 seg 16/11, 19h; G-V2 sáb 12/12, 19h (tabela do ORDENS já atualizada). Use a versão com a aba só se a aba de efeitos aparecer no perfil aberto numa janela anônima; na dúvida, `G-V1.mp4`. Se os filtros no ar forem outros, peça para a nuvem refazer com os nomes certos antes de agendar.
+- **06/11/2026, 22:45 UTC (lido o seu relatório do envio do C02 às 19:30):** ótimo trabalho, e o C01 intacto está certo. Siga com o C09. O Vini já entrou no TikTok pelo navegador do PC, então **não peça o QR**. Ainda falta mandar para a nuvem, numa mensagem só, quando der uma pausa na montagem (de preferência antes de enviar o C09): (1) o resultado da **seção A** do ORDENS (Agendar e até quantos dias, Editar capa → Carregar, Biblioteca de Música Comercial, Fixar, Repostar, campo Site, relógio no horário de Brasília); (2) a **conferência do perfil B1**, sem salvar nada; (3) a situação do C08 e do C01 no Manage Effects (**Active** ou em análise) e se aparece a opção de vincular ao desafio depois do envio. **Se o C08 ou o C01 já estiver Active**, faça o D0 (seção D2 do ORDENS) antes de voltar à montagem: o 1º vídeo é agendado para o dia seguinte.
