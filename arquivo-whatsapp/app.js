@@ -1284,6 +1284,7 @@
     $('#go-wipe').addEventListener('click', async function () {
       if ($('#wipe-confirm').value.trim().toUpperCase() !== 'APAGAR') { toast('Digite APAGAR no campo para confirmar.'); return; }
       await DB.clear(); S.contacts = []; S.byId = {}; S.open = null; S.learnedMe = {};
+      await DB.put('meta', { key: 'demoSeen', v: 1 }); await saveSettings();
       $('#wipe-confirm').value = ''; toast('Tudo apagado deste aparelho.'); renderAll();
     });
 
