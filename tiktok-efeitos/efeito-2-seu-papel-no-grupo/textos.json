@@ -1,0 +1,457 @@
+{
+  "efeito_id": "C08",
+  "conceito": "Seu papel no grupo",
+  "versao_textos": "1.0",
+  "data": "2026-11-06",
+  "nome": "Eu no grupo da família",
+  "nome_caracteres": 22,
+  "alternativas": [
+    {
+      "nome": "Meu papel no grupo",
+      "caracteres": 18
+    },
+    {
+      "nome": "Grupo da família",
+      "caracteres": 16
+    }
+  ],
+  "hint": "Toque na tela",
+  "hint_alternativas": {
+    "se_o_campo_for_texto_livre": "Toque pra sortear",
+    "se_entrar_a_versao_de_2_rostos": "Toque e chame alguém",
+    "se_for_lista_pronta": "escolher a opção de 'toque na tela' (Tap the screen) (a confirmar)"
+  },
+  "titulo_topo": {
+    "texto": "NO GRUPO DA FAMÍLIA, EU…",
+    "linha1": "NO GRUPO DA",
+    "linha2": "FAMÍLIA, EU…",
+    "caracteres_linha1": 11,
+    "caracteres_linha2": 12,
+    "arquivo": "titulo.png",
+    "observacao": "As frases dos resultados continuam a frase do título, na 1ª pessoa: 'No grupo da família, eu… mando áudio de 4 minutos'."
+  },
+  "resultados": [
+    {
+      "n": 1,
+      "arquivo": "opcao_01.png",
+      "texto": "MANDO BOM DIA COM FLOR",
+      "linha1": "MANDO BOM DIA",
+      "linha2": "COM FLOR",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 8,
+      "emoji": "🌻",
+      "emoji_nome": "girassol"
+    },
+    {
+      "n": 2,
+      "arquivo": "opcao_02.png",
+      "texto": "MANDO ÁUDIO DE 4 MINUTOS",
+      "linha1": "MANDO ÁUDIO",
+      "linha2": "DE 4 MINUTOS",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 12,
+      "emoji": "🎙️",
+      "emoji_nome": "microfone"
+    },
+    {
+      "n": 3,
+      "arquivo": "opcao_03.png",
+      "texto": "SÓ MANDO FIGURINHA",
+      "linha1": "SÓ MANDO",
+      "linha2": "FIGURINHA",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 9,
+      "emoji": "🤪",
+      "emoji_nome": "carinha maluca"
+    },
+    {
+      "n": 4,
+      "arquivo": "opcao_04.png",
+      "texto": "VISUALIZO E NÃO RESPONDO",
+      "linha1": "VISUALIZO E",
+      "linha2": "NÃO RESPONDO",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 12,
+      "emoji": "👀",
+      "emoji_nome": "olhos"
+    },
+    {
+      "n": 5,
+      "arquivo": "opcao_05.png",
+      "texto": "REPASSO TODA CORRENTE",
+      "linha1": "REPASSO TODA",
+      "linha2": "CORRENTE",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 8,
+      "emoji": "🔁",
+      "emoji_nome": "setas de repetir"
+    },
+    {
+      "n": 6,
+      "arquivo": "opcao_06.png",
+      "texto": "SOU A FONTE DAS FOFOCAS",
+      "linha1": "SOU A FONTE",
+      "linha2": "DAS FOFOCAS",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 11,
+      "emoji": "🤭",
+      "emoji_nome": "mão na boca"
+    },
+    {
+      "n": 7,
+      "arquivo": "opcao_07.png",
+      "texto": "SOU ADM E NINGUÉM PEDIU",
+      "linha1": "SOU ADM E",
+      "linha2": "NINGUÉM PEDIU",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 13,
+      "emoji": "👑",
+      "emoji_nome": "coroa"
+    },
+    {
+      "n": 8,
+      "arquivo": "opcao_08.png",
+      "texto": "SUMO E VOLTO PRA DISCORDAR",
+      "linha1": "SUMO E VOLTO",
+      "linha2": "PRA DISCORDAR",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 13,
+      "emoji": "🙄",
+      "emoji_nome": "revirando os olhos"
+    },
+    {
+      "n": 9,
+      "arquivo": "opcao_09.png",
+      "texto": "SÓ APAREÇO PRA DAR PARABÉNS",
+      "linha1": "SÓ APAREÇO",
+      "linha2": "PRA DAR PARABÉNS",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 16,
+      "emoji": "🎂",
+      "emoji_nome": "bolo de aniversário"
+    },
+    {
+      "n": 10,
+      "arquivo": "opcao_10.png",
+      "texto": "SAIO E VOLTO TODA SEMANA",
+      "linha1": "SAIO E VOLTO",
+      "linha2": "TODA SEMANA",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 11,
+      "emoji": "🚪",
+      "emoji_nome": "porta"
+    },
+    {
+      "n": 11,
+      "arquivo": "opcao_11.png",
+      "texto": "SÓ COMENTO KKKKKKK",
+      "linha1": "SÓ COMENTO",
+      "linha2": "KKKKKKK",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 7,
+      "emoji": "😂",
+      "emoji_nome": "chorando de rir"
+    },
+    {
+      "n": 12,
+      "arquivo": "opcao_12.png",
+      "texto": "MANDO O MEME QUE JÁ RODOU",
+      "linha1": "MANDO O MEME",
+      "linha2": "QUE JÁ RODOU",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 12,
+      "emoji": "🦕",
+      "emoji_nome": "dinossauro"
+    },
+    {
+      "n": 13,
+      "arquivo": "opcao_13.png",
+      "texto": "SÓ ESCREVO EM CAPS LOCK",
+      "linha1": "SÓ ESCREVO",
+      "linha2": "EM CAPS LOCK",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 12,
+      "emoji": "📢",
+      "emoji_nome": "megafone"
+    },
+    {
+      "n": 14,
+      "arquivo": "opcao_14.png",
+      "texto": "SOLTO TEXTÃO DE MADRUGADA",
+      "linha1": "SOLTO TEXTÃO",
+      "linha2": "DE MADRUGADA",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 12,
+      "emoji": "🌙",
+      "emoji_nome": "lua"
+    },
+    {
+      "n": 15,
+      "arquivo": "opcao_15.png",
+      "texto": "MANDO PROMOÇÃO DO MERCADO",
+      "linha1": "MANDO PROMOÇÃO",
+      "linha2": "DO MERCADO",
+      "caracteres_linha1": 14,
+      "caracteres_linha2": 10,
+      "emoji": "🛒",
+      "emoji_nome": "carrinho de compras"
+    },
+    {
+      "n": 16,
+      "arquivo": "opcao_16.png",
+      "texto": "VIVO MANDANDO NO GRUPO ERRADO",
+      "linha1": "VIVO MANDANDO",
+      "linha2": "NO GRUPO ERRADO",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 15,
+      "emoji": "😳",
+      "emoji_nome": "envergonhado"
+    },
+    {
+      "n": 17,
+      "arquivo": "opcao_17.png",
+      "texto": "RESPONDO 3 DIAS DEPOIS",
+      "linha1": "RESPONDO",
+      "linha2": "3 DIAS DEPOIS",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 13,
+      "emoji": "🐢",
+      "emoji_nome": "tartaruga"
+    },
+    {
+      "n": 18,
+      "arquivo": "opcao_18.png",
+      "texto": "FICO DIGITANDO E NÃO MANDO",
+      "linha1": "FICO DIGITANDO",
+      "linha2": "E NÃO MANDO",
+      "caracteres_linha1": 14,
+      "caracteres_linha2": 11,
+      "emoji": "✍️",
+      "emoji_nome": "mão escrevendo"
+    },
+    {
+      "n": 19,
+      "arquivo": "opcao_19.png",
+      "texto": "TIRO PRINT DE TUDO",
+      "linha1": "TIRO PRINT",
+      "linha2": "DE TUDO",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 7,
+      "emoji": "📸",
+      "emoji_nome": "câmera com flash"
+    },
+    {
+      "n": 20,
+      "arquivo": "opcao_20.png",
+      "texto": "PASSO RECEITA QUE NINGUÉM FAZ",
+      "linha1": "PASSO RECEITA",
+      "linha2": "QUE NINGUÉM FAZ",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 15,
+      "emoji": "🥘",
+      "emoji_nome": "panela de comida"
+    },
+    {
+      "n": 21,
+      "arquivo": "opcao_21.png",
+      "texto": "FAÇO A PIADA DO PAVÊ",
+      "linha1": "FAÇO A PIADA",
+      "linha2": "DO PAVÊ",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 7,
+      "emoji": "🍮",
+      "emoji_nome": "pudim"
+    },
+    {
+      "n": 22,
+      "arquivo": "opcao_22.png",
+      "texto": "ORGANIZO O AMIGO SECRETO",
+      "linha1": "ORGANIZO O",
+      "linha2": "AMIGO SECRETO",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 13,
+      "emoji": "🎁",
+      "emoji_nome": "presente"
+    },
+    {
+      "n": 23,
+      "arquivo": "opcao_23.png",
+      "texto": "MARCO CHURRASCO QUE NUNCA SAI",
+      "linha1": "MARCO CHURRASCO",
+      "linha2": "QUE NUNCA SAI",
+      "caracteres_linha1": 15,
+      "caracteres_linha2": 13,
+      "emoji": "🥩",
+      "emoji_nome": "carne"
+    },
+    {
+      "n": 24,
+      "arquivo": "opcao_24.png",
+      "texto": "SILENCIEI HÁ 3 ANOS",
+      "linha1": "SILENCIEI",
+      "linha2": "HÁ 3 ANOS",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 9,
+      "emoji": "🔕",
+      "emoji_nome": "sino cortado"
+    },
+    {
+      "n": 25,
+      "arquivo": "opcao_25.png",
+      "texto": "ENCHO O GRUPO DE FOTO DO PET",
+      "linha1": "ENCHO O GRUPO",
+      "linha2": "DE FOTO DO PET",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 14,
+      "emoji": "🐶",
+      "emoji_nome": "cachorro"
+    },
+    {
+      "n": 26,
+      "arquivo": "opcao_26.png",
+      "texto": "AVISO QUE VAI CHOVER",
+      "linha1": "AVISO QUE",
+      "linha2": "VAI CHOVER",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 10,
+      "emoji": "☔",
+      "emoji_nome": "guarda-chuva"
+    },
+    {
+      "n": 27,
+      "arquivo": "opcao_27.png",
+      "texto": "POSTO FOTO DO CARRO LAVADO",
+      "linha1": "POSTO FOTO DO",
+      "linha2": "CARRO LAVADO",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 12,
+      "emoji": "🚗",
+      "emoji_nome": "carro"
+    },
+    {
+      "n": 28,
+      "arquivo": "opcao_28.png",
+      "texto": "SECO O TIME DO MEU TIO",
+      "linha1": "SECO O TIME",
+      "linha2": "DO MEU TIO",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 10,
+      "emoji": "⚽",
+      "emoji_nome": "bola"
+    }
+  ],
+  "resultados_reserva": [
+    {
+      "n": 1,
+      "arquivo": "reserva_01.png",
+      "texto": "COBRO A VAQUINHA",
+      "linha1": "COBRO A",
+      "linha2": "VAQUINHA",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 8,
+      "emoji": "💰",
+      "emoji_nome": "saco de dinheiro"
+    },
+    {
+      "n": 2,
+      "arquivo": "reserva_02.png",
+      "texto": "AVISO QUE CHEGUEI BEM",
+      "linha1": "AVISO QUE",
+      "linha2": "CHEGUEI BEM",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 11,
+      "emoji": "🏠",
+      "emoji_nome": "casa"
+    },
+    {
+      "n": 3,
+      "arquivo": "reserva_03.png",
+      "texto": "LIGO DE VÍDEO SEM AVISAR",
+      "linha1": "LIGO DE VÍDEO",
+      "linha2": "SEM AVISAR",
+      "caracteres_linha1": 13,
+      "caracteres_linha2": 10,
+      "emoji": "📹",
+      "emoji_nome": "câmera de vídeo"
+    }
+  ],
+  "resultados_reserva_uso": "Só usar se alguma frase principal for vetada na revisão ou pela equipe de regras. Trocar 1 por 1, mantendo o total de 28.",
+  "descricao_envio": {
+    "campo": "Additional comments / comentários para a revisão (não é público). O formulário não tem campo de descrição pública. (a confirmar no formulário da versão instalada)",
+    "pt": "Sorteio sobre a cabeça. A pessoa toca na tela e descobre qual é o seu papel no grupo da família. São 28 resultados de humor leve, como \"mando áudio de 4 minutos\" e \"só apareço pra dar parabéns\". O efeito não usa nome, logo nem visual de nenhum aplicativo de mensagem.",
+    "en": "Head randomizer. Tap the screen to find out your role in the family group chat. There are 28 light-humor results in Brazilian Portuguese, such as \"I send 4-minute voice messages\" and \"I only show up to say happy birthday\". No app names, logos or app-like visuals are used.",
+    "frase_extra_2_rostos_pt": "Com duas pessoas na câmera, cada uma ganha o seu resultado.",
+    "frase_extra_2_rostos_en": "With two people on camera, each person gets their own result.",
+    "como_usar": "Colar o texto em inglês (a revisão é global) e, embaixo, o em português. Só acrescentar a frase de 2 rostos se essa versão estiver montada e testada.",
+    "caracteres_pt": 267,
+    "caracteres_en": 272
+  },
+  "categoria_sugerida": "A mais próxima de 'Engraçado/Funny'. Se não houver, 'Interativo/Interactive'. (lista de categorias a confirmar no formulário)",
+  "tags": [
+    "grupo da família",
+    "família",
+    "sorteio",
+    "humor",
+    "randomizer"
+  ],
+  "tags_se_nao_aceitar_espaco": [
+    "grupodafamilia",
+    "familia",
+    "sorteio",
+    "humor",
+    "randomizer"
+  ],
+  "tags_reserva": [
+    "meme",
+    "brasil",
+    "dupla"
+  ],
+  "tags_observacao": "O formulário aceita até 5 tags (não públicas). Usar as 5 de 'tags'. As de reserva servem para trocar se alguma for recusada.",
+  "regras_texto": {
+    "caixa": "alta (maiúsculas), como está escrito",
+    "linhas_por_carta": 2,
+    "quebra_de_linha": "exatamente como em linha1/linha2",
+    "max_caracteres_por_linha": 16,
+    "alvo_caracteres_por_linha": 14,
+    "maior_linha_atual": 16,
+    "frases_com_linha_acima_do_alvo": [
+      "SÓ APAREÇO PRA DAR PARABÉNS",
+      "VIVO MANDANDO NO GRUPO ERRADO",
+      "PASSO RECEITA QUE NINGUÉM FAZ",
+      "MARCO CHURRASCO QUE NUNCA SAI"
+    ],
+    "caracteres_especiais_usados": "ÁÃÇÉÊÍÓ…",
+    "fonte": "Fonte de licença livre (OFL/Google Fonts) que tenha todos os acentos acima. Texto 'assado' no PNG.",
+    "emoji": "Emoji é campo separado: desenhar como ícone pequeno ao lado ou acima do texto. Usar desenho próprio ou Noto Color Emoji (licença OFL). Não usar imagem de emoji da Apple, Samsung ou de outro fabricante (licença fechada). Se o emoji atrapalhar a leitura, pode tirar.",
+    "reticencias": "O título usa o caractere único '…' (U+2026). Se a fonte não tiver, usar '...'."
+  },
+  "nao_usar": [
+    "Nome de qualquer aplicativo de mensagem, em texto, tag ou legenda.",
+    "Balão de conversa verde ou com o formato do balão de algum app.",
+    "Dois tiques (✔✔) de mensagem lida, azuis ou cinzas.",
+    "Fundo bege com desenhos, igual ao de tela de conversa.",
+    "Ícone de figurinha, microfone ou câmera copiado de app.",
+    "Palavra 'Pix' (é marca registrada do Banco Central). Por isso nenhuma frase fala em Pix.",
+    "Nome de time, cor de torcida combinada ou apelido de torcida (a frase 'seco o time do meu tio' é genérica de propósito)."
+  ],
+  "versao_2_rostos": {
+    "textos": "Os mesmos: cada rosto recebe o mesmo título e sorteia entre as mesmas 28 cartas.",
+    "chance_de_repetir": "Com 28 cartas e sorteio independente, a chance de as duas pessoas tirarem a mesma frase é 1 em 28 (cerca de 3,6%)."
+  },
+  "legendas_video_lancamento": {
+    "observacao": "Extra opcional, para a legenda do vídeo da conta (nunca dentro do efeito). Na 3ª, preencher com o que sair de verdade no vídeo.",
+    "opcoes": [
+      "Testa com alguém da família e me diz se acertou 😂 #grupodafamilia #familia",
+      "Marca aquele parente que só aparece pra dar parabéns 🎂 #grupodafamilia",
+      "Eu tirei ____. Minha família concordou rápido demais. #grupodafamilia #humor"
+    ]
+  },
+  "a_confirmar": [
+    "Se o hint é texto livre ou escolhido de uma lista.",
+    "Se existe campo de descrição pública (a pesquisa só achou 'Additional comments', que não é público).",
+    "Se as tags aceitam espaço e acento.",
+    "Lista de categorias do formulário.",
+    "Se o nome com acento ('família') aparece certo na busca do app.",
+    "Se já existe efeito famoso com o mesmo nome (a busca na web não achou nenhum efeito 'grupo da família')."
+  ]
+}

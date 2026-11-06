@@ -1,0 +1,441 @@
+{
+  "efeito_id": "C01",
+  "versao_textos": "1.1",
+  "data": "2026-11-06",
+  "nome": "Torcedômetro",
+  "nome_caracteres": 12,
+  "nome_sem_acento_reserva": "Torcedometro",
+  "alternativas": [
+    "Que Torcedor Você É",
+    "Roleta do Torcedor"
+  ],
+  "hint": "Toque na tela",
+  "hint_alternativa_texto_livre": "Toque pra girar",
+  "hint_observacao": "(a confirmar) o hint pode ser escolhido de uma lista pronta; nesse caso escolher a opção de toque na tela.",
+  "titulo_topo": {
+    "texto": "QUE TORCEDOR VOCÊ É?",
+    "linha1": "QUE TORCEDOR",
+    "linha2": "VOCÊ É?",
+    "arquivo": "titulo.png",
+    "tamanho_px": [
+      512,
+      256
+    ]
+  },
+  "regras_texto": {
+    "caixa": "tudo em MAIÚSCULAS, com acento",
+    "max_caracteres_por_resultado": 24,
+    "max_caracteres_por_linha": 13,
+    "max_linhas": 2,
+    "quebra_de_linha": "usar exatamente linha1 / linha2 do JSON",
+    "tamanho_carta_px": [
+      512,
+      256
+    ],
+    "emoji": "é só referência para o desenho; não é obrigatório pôr o emoji na carta. Se usar emoji pronto, só de fonte com licença livre (ex.: Noto Color Emoji, a confirmar licença).",
+    "glifos_necessarios_na_fonte": "-01247?ABCDEFGHIJLMNOPQRSTUVZºÁÃÉÊÍ",
+    "atencao_fonte": "Atenção principalmente a º (em '2º' e '1º'), Á, Ã, É, Ê, Í, hífen e '?'. Testar antes de gerar as 26 cartas. Se trocar algum texto, conferir de novo os limites (24 caracteres no total, 13 por linha)."
+  },
+  "resultados": [
+    {
+      "n": 1,
+      "arquivo": "carta_01.png",
+      "texto": "TÉCNICO DE SOFÁ",
+      "linha1": "TÉCNICO",
+      "linha2": "DE SOFÁ",
+      "caracteres": 15,
+      "emoji": "🛋️",
+      "ilustracao": "sofá com um apito pendurado no braço"
+    },
+    {
+      "n": 2,
+      "arquivo": "carta_02.png",
+      "texto": "CORNETA OFICIAL",
+      "linha1": "CORNETA",
+      "linha2": "OFICIAL",
+      "caracteres": 15,
+      "emoji": "📯",
+      "ilustracao": "corneta de torcedor soltando ondinhas de som"
+    },
+    {
+      "n": 3,
+      "arquivo": "carta_03.png",
+      "texto": "PÉ-FRIO CERTIFICADO",
+      "linha1": "PÉ-FRIO",
+      "linha2": "CERTIFICADO",
+      "caracteres": 19,
+      "emoji": "🥶",
+      "ilustracao": "pé azulado de frio, um cubo de gelo e um carimbo de selo"
+    },
+    {
+      "n": 4,
+      "arquivo": "carta_04.png",
+      "texto": "MEIA DA SORTE SEM LAVAR",
+      "linha1": "MEIA DA SORTE",
+      "linha2": "SEM LAVAR",
+      "caracteres": 23,
+      "emoji": "🧦",
+      "ilustracao": "meia em pé sozinha com três tracinhos de cheiro"
+    },
+    {
+      "n": 5,
+      "arquivo": "carta_05.png",
+      "texto": "SECA ATÉ AMISTOSO",
+      "linha1": "SECA ATÉ",
+      "linha2": "AMISTOSO",
+      "caracteres": 17,
+      "emoji": "🌵",
+      "ilustracao": "secador de cabelo apontado para uma bola"
+    },
+    {
+      "n": 6,
+      "arquivo": "carta_06.png",
+      "texto": "NARRA MAIS QUE A TV",
+      "linha1": "NARRA MAIS",
+      "linha2": "QUE A TV",
+      "caracteres": 19,
+      "emoji": "🎙️",
+      "ilustracao": "microfone na frente de uma TV genérica"
+    },
+    {
+      "n": 7,
+      "arquivo": "carta_07.png",
+      "texto": "SOFREDOR RAIZ",
+      "linha1": "SOFREDOR",
+      "linha2": "RAIZ",
+      "caracteres": 13,
+      "emoji": "😭",
+      "ilustracao": "carinha chorando com uma plantinha brotando da cabeça"
+    },
+    {
+      "n": 8,
+      "arquivo": "carta_08.png",
+      "texto": "SAI AOS 40 DO 2º TEMPO",
+      "linha1": "SAI AOS 40",
+      "linha2": "DO 2º TEMPO",
+      "caracteres": 22,
+      "emoji": "🏃",
+      "ilustracao": "relógio marcando 40 e uma setinha de saída"
+    },
+    {
+      "n": 9,
+      "arquivo": "carta_09.png",
+      "texto": "RECLAMA ATÉ DE LATERAL",
+      "linha1": "RECLAMA ATÉ",
+      "linha2": "DE LATERAL",
+      "caracteres": 22,
+      "emoji": "🙄",
+      "ilustracao": "bandeira de assistente levantada e um balão de fala com '?!'"
+    },
+    {
+      "n": 10,
+      "arquivo": "carta_10.png",
+      "texto": "COMEMORA ANTES DO VAR",
+      "linha1": "COMEMORA",
+      "linha2": "ANTES DO VAR",
+      "caracteres": 21,
+      "emoji": "🎉",
+      "ilustracao": "confete caindo em cima de uma telinha com uma ampulheta"
+    },
+    {
+      "n": 11,
+      "arquivo": "carta_11.png",
+      "texto": "OUVE O JOGO NO RADINHO",
+      "linha1": "OUVE O JOGO",
+      "linha2": "NO RADINHO",
+      "caracteres": 22,
+      "emoji": "📻",
+      "ilustracao": "radinho de pilha com antena"
+    },
+    {
+      "n": 12,
+      "arquivo": "carta_12.png",
+      "texto": "CHORA NO HINO",
+      "linha1": "CHORA",
+      "linha2": "NO HINO",
+      "caracteres": 13,
+      "emoji": "🥲",
+      "ilustracao": "lágrima ao lado de uma nota musical"
+    },
+    {
+      "n": 13,
+      "arquivo": "carta_13.png",
+      "texto": "NÃO OLHA O PÊNALTI",
+      "linha1": "NÃO OLHA",
+      "linha2": "O PÊNALTI",
+      "caracteres": 18,
+      "emoji": "🙈",
+      "ilustracao": "duas mãos tapando os olhos e uma bola parada na marca"
+    },
+    {
+      "n": 14,
+      "arquivo": "carta_14.png",
+      "texto": "REZA ATÉ NO ESCANTEIO",
+      "linha1": "REZA ATÉ",
+      "linha2": "NO ESCANTEIO",
+      "caracteres": 21,
+      "emoji": "🙏",
+      "ilustracao": "mãos juntas ao lado de uma bandeirinha de escanteio",
+      "nota_risco": "religião em tom leve; se a regra vetar, usar a reserva R1"
+    },
+    {
+      "n": 15,
+      "arquivo": "carta_15.png",
+      "texto": "A CULPA É DO GRAMADO",
+      "linha1": "A CULPA É",
+      "linha2": "DO GRAMADO",
+      "caracteres": 20,
+      "emoji": "🌱",
+      "ilustracao": "tufo de grama com um buraco e uma bola parada"
+    },
+    {
+      "n": 16,
+      "arquivo": "carta_16.png",
+      "texto": "JURA QUE AVISOU",
+      "linha1": "JURA QUE",
+      "linha2": "AVISOU",
+      "caracteres": 15,
+      "emoji": "☝️",
+      "ilustracao": "dedo indicador levantado"
+    },
+    {
+      "n": 17,
+      "arquivo": "carta_17.png",
+      "texto": "SOME DO GRUPO NA DERROTA",
+      "linha1": "SOME DO GRUPO",
+      "linha2": "NA DERROTA",
+      "caracteres": 24,
+      "emoji": "👻",
+      "ilustracao": "celular genérico com um fantasminha saindo da tela",
+      "nota_risco": "não desenhar nem citar app de mensagem"
+    },
+    {
+      "n": 18,
+      "arquivo": "carta_18.png",
+      "texto": "MANDA ÁUDIO NO INTERVALO",
+      "linha1": "MANDA ÁUDIO",
+      "linha2": "NO INTERVALO",
+      "caracteres": 24,
+      "emoji": "🗣️",
+      "ilustracao": "balão de fala com ondas de áudio",
+      "nota_risco": "não desenhar nem citar app de mensagem"
+    },
+    {
+      "n": 19,
+      "arquivo": "carta_19.png",
+      "texto": "CARDÍACO NOS ACRÉSCIMOS",
+      "linha1": "CARDÍACO NOS",
+      "linha2": "ACRÉSCIMOS",
+      "caracteres": 23,
+      "emoji": "💓",
+      "ilustracao": "coração pulando ao lado de um placar com '+5'"
+    },
+    {
+      "n": 20,
+      "arquivo": "carta_20.png",
+      "texto": "AINDA FALA DAQUELE GOL",
+      "linha1": "AINDA FALA",
+      "linha2": "DAQUELE GOL",
+      "caracteres": 22,
+      "emoji": "📼",
+      "ilustracao": "fita de vídeo antiga com uma bola desenhada"
+    },
+    {
+      "n": 21,
+      "arquivo": "carta_21.png",
+      "texto": "CALCULADORA DA TABELA",
+      "linha1": "CALCULADORA",
+      "linha2": "DA TABELA",
+      "caracteres": 21,
+      "emoji": "🧮",
+      "ilustracao": "calculadora com uma bola no visor"
+    },
+    {
+      "n": 22,
+      "arquivo": "carta_22.png",
+      "texto": "BUZINA QUANDO SAI GOL",
+      "linha1": "BUZINA QUANDO",
+      "linha2": "SAI GOL",
+      "caracteres": 21,
+      "emoji": "🚗",
+      "ilustracao": "carro genérico (sem grade/logo) com ondinhas de buzina",
+      "nota_risco": "carro sempre genérico, sem marca ou modelo"
+    },
+    {
+      "n": 23,
+      "arquivo": "carta_23.png",
+      "texto": "FAZ CARREATA POR EMPATE",
+      "linha1": "FAZ CARREATA",
+      "linha2": "POR EMPATE",
+      "caracteres": 23,
+      "emoji": "🚙",
+      "ilustracao": "dois carrinhos genéricos em fila com bandeirinha lisa",
+      "nota_risco": "carreata também lembra campanha política; aqui o contexto é jogo. Se a regra vetar, usar a reserva R2"
+    },
+    {
+      "n": 24,
+      "arquivo": "carta_24.png",
+      "texto": "CAMPEÃO NO VIDEOGAME",
+      "linha1": "CAMPEÃO NO",
+      "linha2": "VIDEOGAME",
+      "caracteres": 20,
+      "emoji": "🎮",
+      "ilustracao": "controle de videogame genérico com uma coroa",
+      "nota_risco": "controle sem formato de console de marca"
+    },
+    {
+      "n": 25,
+      "arquivo": "carta_25.png",
+      "texto": "DORME NO 1º TEMPO",
+      "linha1": "DORME NO",
+      "linha2": "1º TEMPO",
+      "caracteres": 17,
+      "emoji": "😴",
+      "ilustracao": "travesseiro com uma bola e três 'z'"
+    },
+    {
+      "n": 26,
+      "arquivo": "carta_26.png",
+      "texto": "TORCE ATÉ NA CHUVA",
+      "linha1": "TORCE ATÉ",
+      "linha2": "NA CHUVA",
+      "caracteres": 18,
+      "emoji": "☔",
+      "ilustracao": "guarda-chuva aberto com gotas"
+    }
+  ],
+  "reservas": [
+    {
+      "n": 1,
+      "arquivo": "reserva_01.png",
+      "texto": "CAMISA DA SORTE FURADA",
+      "linha1": "CAMISA DA",
+      "linha2": "SORTE FURADA",
+      "caracteres": 22,
+      "emoji": "👕",
+      "ilustracao": "camisa lisa (sem listra, sem escudo) com um furinho",
+      "codigo": "R1"
+    },
+    {
+      "n": 2,
+      "arquivo": "reserva_02.png",
+      "texto": "CONHECE ATÉ O SUB-17",
+      "linha1": "CONHECE ATÉ",
+      "linha2": "O SUB-17",
+      "caracteres": 20,
+      "emoji": "🔎",
+      "ilustracao": "lupa em cima de uma bolinha pequena",
+      "codigo": "R2"
+    },
+    {
+      "n": 3,
+      "arquivo": "reserva_03.png",
+      "texto": "QUER DEMITIR O TÉCNICO",
+      "linha1": "QUER DEMITIR",
+      "linha2": "O TÉCNICO",
+      "caracteres": 22,
+      "emoji": "📋",
+      "ilustracao": "prancheta com um 'X' grande",
+      "codigo": "R3"
+    },
+    {
+      "n": 4,
+      "arquivo": "reserva_04.png",
+      "texto": "GRITA COM A TV",
+      "linha1": "GRITA COM",
+      "linha2": "A TV",
+      "caracteres": 14,
+      "emoji": "📺",
+      "ilustracao": "TV genérica com ondas de grito",
+      "codigo": "R4"
+    }
+  ],
+  "trocas_feitas_no_conceito": [
+    {
+      "antes": "XINGA O JUIZ NO AQUECIMENTO",
+      "depois": "RECLAMA ATÉ DE LATERAL",
+      "motivo": "pedido da avaliação de risco: incentiva xingamento"
+    },
+    {
+      "antes": "CHORA EM HINO",
+      "depois": "CHORA NO HINO",
+      "motivo": "correção de português"
+    },
+    {
+      "antes": "CORNETEIRO OFICIAL",
+      "depois": "CORNETA OFICIAL",
+      "motivo": "é a gíria mais usada e serve pra qualquer gênero"
+    },
+    {
+      "antes": "SUPERSTICIOSO DA MEIA",
+      "depois": "MEIA DA SORTE SEM LAVAR",
+      "motivo": "'SUPERSTICIOSO' ocupa a linha inteira; a nova é mais engraçada"
+    },
+    {
+      "antes": "SECADOR PROFISSIONAL",
+      "depois": "SECA ATÉ AMISTOSO",
+      "motivo": "mais curta e com piada própria"
+    },
+    {
+      "antes": "NARRADOR DE BAR",
+      "depois": "NARRA MAIS QUE A TV",
+      "motivo": "tira a referência a bar/bebida"
+    },
+    {
+      "antes": "SOME DO GRUPO SE PERDE",
+      "depois": "SOME DO GRUPO NA DERROTA",
+      "motivo": "revisão de QA: 'se perde' ficava ambíguo (lido como 'se perde no caminho')"
+    }
+  ],
+  "descricao_envio": "Toque na tela e a roleta mostra que torcedor você é: técnico de sofá, pé-frio, corneta oficial e mais 23 tipos. Serve pra qualquer time.",
+  "descricao_envio_curta": "Toque na tela e descubra que torcedor você é. Serve pra qualquer time.",
+  "nota_para_revisao_en": "Head randomizer. Tap the screen and a card above your head shows a funny type of football fan (couch coach, jinx, lucky socks, etc.). 26 original Portuguese texts and simple drawings. No teams, crests, kits, players, brands, betting or real people.",
+  "tags": [
+    "futebol",
+    "torcedor",
+    "sorteio",
+    "roleta",
+    "humor"
+  ],
+  "tags_en": [
+    "football",
+    "fan",
+    "randomizer",
+    "roulette",
+    "funny"
+  ],
+  "palavras_chave_extras": [
+    "pé-frio",
+    "técnico de sofá",
+    "dia de jogo"
+  ],
+  "hashtags_video": [
+    "#torcedometro",
+    "#futebol",
+    "#torcedor",
+    "#pefrio",
+    "#tecnicodesofa",
+    "#zoeira"
+  ],
+  "legendas_video_lancamento": [
+    "Girei três vezes e saiu pé-frio nas três. Faz o teu aí",
+    "Marca aquele amigo que é técnico de sofá",
+    "Testa antes do jogo e me conta o que saiu"
+  ],
+  "proibido_no_efeito": [
+    "nome, escudo, cores combinadas ou apelido de time/torcida",
+    "@ da conta, link, nome da loja ou chamada pra comprar",
+    "marca ou modelo de carro, app de mensagem, console",
+    "aposta, bebida, xingamento"
+  ],
+  "pendencias_a_confirmar": [
+    "Se o formulário aceita acento no nome (senão usar 'Torcedometro').",
+    "Se a busca de efeitos do TikTok acha 'torcedometro' digitado sem acento.",
+    "Se já existe efeito com esse nome no TikTok (tiktok.com bloqueado daqui).",
+    "Registro de marca: não achei 'Torcedômetro'; achei 'Torcidômetro' (outra grafia) usado pelo Lance! e num app olímpico por volta de 2012. Conferir no INPI antes de enviar.",
+    "Se o hint é texto livre ou lista pronta.",
+    "Se as tags são texto livre e em que idioma funcionam melhor.",
+    "Se existe campo de descrição no formulário atual; se não existir, usar a nota em inglês no campo de comentários para a revisão (se houver).",
+    "Regra de nome/ordem das imagens na sequência (carta_01.png ... carta_26.png)."
+  ]
+}

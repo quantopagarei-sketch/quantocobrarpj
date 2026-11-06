@@ -1,0 +1,756 @@
+{
+  "efeito_id": "C05",
+  "versao_textos": "1.1",
+  "data": "2026-11-06",
+  "template": "Future Life (aba Community Creator)",
+  "nome": "Meu 2027 vai ser",
+  "nome_caracteres": 16,
+  "nome_observacao": "Sem reticências no nome (a regra de caracteres do nome não foi confirmada). As reticências ficam só no título da tela. Limite do formulário: 25 caracteres.",
+  "alternativas": [
+    {
+      "nome": "Estoura meu 2027",
+      "caracteres": 16
+    },
+    {
+      "nome": "Bolhas de 2027",
+      "caracteres": 14
+    }
+  ],
+  "hint": "Faça biquinho",
+  "hint_caracteres": 13,
+  "hint_alternativas": {
+    "se_o_biquinho_falhar_no_teste_ou_hint_for_lista_pronta": "Toque na tela",
+    "se_o_campo_for_texto_livre_e_aceitar_mais": "Faça biquinho ou toque"
+  },
+  "hint_observacao": "O Future Life já dispara com toque na tela e com biquinho. O hint não aparece no 'Preview in TikTok', só no efeito publicado. (a confirmar) se o hint é texto livre ou lista pronta.",
+  "titulo_topo": {
+    "texto": "MEU 2027 VAI SER…",
+    "linha1": "MEU 2027",
+    "linha2": "VAI SER…",
+    "caracteres_linha1": 8,
+    "caracteres_linha2": 8,
+    "arquivo": "titulo.png",
+    "substitui_no_template": "textura Effect_Title (no original: 'My Future Life')",
+    "reticencias": "caractere único '…' (U+2026). Se a fonte não tiver, usar '...'."
+  },
+  "versao_padrao": "3 bolhas: AMOR, GRANA e FUTEBOL (24 respostas). CARRO entra como 4ª bolha só se der para duplicar sem quebrar o template (30 respostas). Plano B, se o coordenador preferir: trocar FUTEBOL por CARRO e manter 3 bolhas.",
+  "bolhas": [
+    {
+      "id": "amor",
+      "rotulo": "AMOR",
+      "rotulo_caracteres": 4,
+      "emoji_referencia": "❤️",
+      "entra_na_versao_padrao_3_bolhas": true,
+      "arquivo_rotulo": "bolha_amor.png",
+      "pasta_respostas": "respostas_amor/",
+      "qtd_respostas": 8,
+      "observacao": null
+    },
+    {
+      "id": "grana",
+      "rotulo": "GRANA",
+      "rotulo_caracteres": 5,
+      "emoji_referencia": "💰",
+      "entra_na_versao_padrao_3_bolhas": true,
+      "arquivo_rotulo": "bolha_grana.png",
+      "pasta_respostas": "respostas_grana/",
+      "qtd_respostas": 8,
+      "observacao": null
+    },
+    {
+      "id": "futebol",
+      "rotulo": "FUTEBOL",
+      "rotulo_caracteres": 7,
+      "emoji_referencia": "⚽",
+      "entra_na_versao_padrao_3_bolhas": true,
+      "arquivo_rotulo": "bolha_futebol.png",
+      "pasta_respostas": "respostas_futebol/",
+      "qtd_respostas": 8,
+      "observacao": null
+    },
+    {
+      "id": "carro",
+      "rotulo": "CARRO",
+      "rotulo_caracteres": 5,
+      "emoji_referencia": "🚙",
+      "entra_na_versao_padrao_3_bolhas": false,
+      "arquivo_rotulo": "bolha_carro.png",
+      "pasta_respostas": "respostas_carro/",
+      "qtd_respostas": 6,
+      "observacao": "4ª bolha, opcional: só entra se o montador conseguir duplicar a bolha sem mexer na pasta 'DO NOT REMOVE!!! Main Assets'. O designer gera as artes mesmo assim, para não atrasar."
+    }
+  ],
+  "resultados": [
+    {
+      "n": 1,
+      "bolha": "amor",
+      "ordem_na_bolha": 1,
+      "arquivo": "respostas_amor/amor_01.png",
+      "texto": "CASA NO CARTÓRIO",
+      "linha1": "CASA NO",
+      "linha2": "CARTÓRIO",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 8,
+      "caracteres_total": 16,
+      "emoji": "💍"
+    },
+    {
+      "n": 2,
+      "bolha": "amor",
+      "ordem_na_bolha": 2,
+      "arquivo": "respostas_amor/amor_02.png",
+      "texto": "PAQUERA NO CHURRASCO",
+      "linha1": "PAQUERA NO",
+      "linha2": "CHURRASCO",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 9,
+      "caracteres_total": 20,
+      "emoji": "🍖"
+    },
+    {
+      "n": 3,
+      "bolha": "amor",
+      "ordem_na_bolha": 3,
+      "arquivo": "respostas_amor/amor_03.png",
+      "texto": "O EX VOLTA (NÃO ATENDE)",
+      "linha1": "O EX VOLTA",
+      "linha2": "(NÃO ATENDE)",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 12,
+      "caracteres_total": 23,
+      "emoji": "📵"
+    },
+    {
+      "n": 4,
+      "bolha": "amor",
+      "ordem_na_bolha": 4,
+      "arquivo": "respostas_amor/amor_04.png",
+      "texto": "SOLTEIRICE DE LUXO",
+      "linha1": "SOLTEIRICE",
+      "linha2": "DE LUXO",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 7,
+      "caracteres_total": 18,
+      "emoji": "😎"
+    },
+    {
+      "n": 5,
+      "bolha": "amor",
+      "ordem_na_bolha": 5,
+      "arquivo": "respostas_amor/amor_05.png",
+      "texto": "CRUSH CHAMA PRIMEIRO",
+      "linha1": "CRUSH CHAMA",
+      "linha2": "PRIMEIRO",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 8,
+      "caracteres_total": 20,
+      "emoji": "📲"
+    },
+    {
+      "n": 6,
+      "bolha": "amor",
+      "ordem_na_bolha": 6,
+      "arquivo": "respostas_amor/amor_06.png",
+      "texto": "NAMORO SÉRIO (3 SEMANAS)",
+      "linha1": "NAMORO SÉRIO",
+      "linha2": "(3 SEMANAS)",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 11,
+      "caracteres_total": 24,
+      "emoji": "⏳"
+    },
+    {
+      "n": 7,
+      "bolha": "amor",
+      "ordem_na_bolha": 7,
+      "arquivo": "respostas_amor/amor_07.png",
+      "texto": "SOGRA TE ADORA",
+      "linha1": "SOGRA TE",
+      "linha2": "ADORA",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 5,
+      "caracteres_total": 14,
+      "emoji": "🥰"
+    },
+    {
+      "n": 8,
+      "bolha": "amor",
+      "ordem_na_bolha": 8,
+      "arquivo": "respostas_amor/amor_08.png",
+      "texto": "AMOR DA VIDA (DE NOVO)",
+      "linha1": "AMOR DA VIDA",
+      "linha2": "(DE NOVO)",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 9,
+      "caracteres_total": 22,
+      "emoji": "💘"
+    },
+    {
+      "n": 9,
+      "bolha": "grana",
+      "ordem_na_bolha": 1,
+      "arquivo": "respostas_grana/grana_01.png",
+      "texto": "GRANA CAINDO NA CONTA",
+      "linha1": "GRANA CAINDO",
+      "linha2": "NA CONTA",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 8,
+      "caracteres_total": 21,
+      "emoji": "💸",
+      "nota": "Substitui 'PIX INESPERADO' do conceito: Pix é marca registrada do Banco Central."
+    },
+    {
+      "n": 10,
+      "bolha": "grana",
+      "ordem_na_bolha": 2,
+      "arquivo": "respostas_grana/grana_02.png",
+      "texto": "O 13º DURA ATÉ O DIA 3",
+      "linha1": "O 13º DURA",
+      "linha2": "ATÉ O DIA 3",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 11,
+      "caracteres_total": 22,
+      "emoji": "😅"
+    },
+    {
+      "n": 11,
+      "bolha": "grana",
+      "ordem_na_bolha": 3,
+      "arquivo": "respostas_grana/grana_03.png",
+      "texto": "SAI DO VERMELHO",
+      "linha1": "SAI DO",
+      "linha2": "VERMELHO",
+      "caracteres_linha1": 6,
+      "caracteres_linha2": 8,
+      "caracteres_total": 15,
+      "emoji": "📈"
+    },
+    {
+      "n": 12,
+      "bolha": "grana",
+      "ordem_na_bolha": 4,
+      "arquivo": "respostas_grana/grana_04.png",
+      "texto": "AUMENTO (DOS BOLETOS)",
+      "linha1": "AUMENTO",
+      "linha2": "(DOS BOLETOS)",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 13,
+      "caracteres_total": 21,
+      "emoji": "🧾"
+    },
+    {
+      "n": 13,
+      "bolha": "grana",
+      "ordem_na_bolha": 5,
+      "arquivo": "respostas_grana/grana_05.png",
+      "texto": "ENCHE O COFRINHO",
+      "linha1": "ENCHE O",
+      "linha2": "COFRINHO",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 8,
+      "caracteres_total": 16,
+      "emoji": "🐷"
+    },
+    {
+      "n": 14,
+      "bolha": "grana",
+      "ordem_na_bolha": 6,
+      "arquivo": "respostas_grana/grana_06.png",
+      "texto": "TANQUE CHEIO O ANO TODO",
+      "linha1": "TANQUE CHEIO",
+      "linha2": "O ANO TODO",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 10,
+      "caracteres_total": 23,
+      "emoji": "⛽",
+      "nota": "Frase de carro dentro da bolha GRANA: garante o tema carro mesmo se o efeito ficar com 3 bolhas."
+    },
+    {
+      "n": 15,
+      "bolha": "grana",
+      "ordem_na_bolha": 7,
+      "arquivo": "respostas_grana/grana_07.png",
+      "texto": "LIMPA O NOME",
+      "linha1": "LIMPA O",
+      "linha2": "NOME",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 4,
+      "caracteres_total": 12,
+      "emoji": "✨",
+      "nota": "Tema dívida, em tom positivo. Risco baixo; se a revisão implicar, usar a reserva 'SALÁRIO DURA O MÊS TODO'."
+    },
+    {
+      "n": 16,
+      "bolha": "grana",
+      "ordem_na_bolha": 8,
+      "arquivo": "respostas_grana/grana_08.png",
+      "texto": "ACHA GRANA NA CALÇA",
+      "linha1": "ACHA GRANA",
+      "linha2": "NA CALÇA",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 8,
+      "caracteres_total": 19,
+      "emoji": "👖"
+    },
+    {
+      "n": 17,
+      "bolha": "futebol",
+      "ordem_na_bolha": 1,
+      "arquivo": "respostas_futebol/futebol_01.png",
+      "texto": "TÍTULO VEM (CONFIA)",
+      "linha1": "TÍTULO VEM",
+      "linha2": "(CONFIA)",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 8,
+      "caracteres_total": 19,
+      "emoji": "🏆"
+    },
+    {
+      "n": 18,
+      "bolha": "futebol",
+      "ordem_na_bolha": 2,
+      "arquivo": "respostas_futebol/futebol_02.png",
+      "texto": "GANHA O CLÁSSICO",
+      "linha1": "GANHA O",
+      "linha2": "CLÁSSICO",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 8,
+      "caracteres_total": 16,
+      "emoji": "🔥",
+      "nota": "Sem nome de time nem de clássico: serve para qualquer torcida."
+    },
+    {
+      "n": 19,
+      "bolha": "futebol",
+      "ordem_na_bolha": 3,
+      "arquivo": "respostas_futebol/futebol_03.png",
+      "texto": "SOFRE ATÉ A ÚLTIMA RODADA",
+      "linha1": "SOFRE ATÉ A",
+      "linha2": "ÚLTIMA RODADA",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 13,
+      "caracteres_total": 25,
+      "emoji": "😰"
+    },
+    {
+      "n": 20,
+      "bolha": "futebol",
+      "ordem_na_bolha": 4,
+      "arquivo": "respostas_futebol/futebol_04.png",
+      "texto": "SEM CORNETAR (MENTIRA)",
+      "linha1": "SEM CORNETAR",
+      "linha2": "(MENTIRA)",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 9,
+      "caracteres_total": 22,
+      "emoji": "📯"
+    },
+    {
+      "n": 21,
+      "bolha": "futebol",
+      "ordem_na_bolha": 5,
+      "arquivo": "respostas_futebol/futebol_05.png",
+      "texto": "SECA O RIVAL E DÁ CERTO",
+      "linha1": "SECA O RIVAL",
+      "linha2": "E DÁ CERTO",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 10,
+      "caracteres_total": 23,
+      "emoji": "🌵",
+      "nota": "'Secar' = torcer contra, gíria de futebol. Rival genérico, sem time."
+    },
+    {
+      "n": 22,
+      "bolha": "futebol",
+      "ordem_na_bolha": 6,
+      "arquivo": "respostas_futebol/futebol_06.png",
+      "texto": "GOL NOS ACRÉSCIMOS",
+      "linha1": "GOL NOS",
+      "linha2": "ACRÉSCIMOS",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 10,
+      "caracteres_total": 18,
+      "emoji": "⏱️"
+    },
+    {
+      "n": 23,
+      "bolha": "futebol",
+      "ordem_na_bolha": 7,
+      "arquivo": "respostas_futebol/futebol_07.png",
+      "texto": "10 JOGOS NO ESTÁDIO",
+      "linha1": "10 JOGOS NO",
+      "linha2": "ESTÁDIO",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 7,
+      "caracteres_total": 19,
+      "emoji": "🏟️"
+    },
+    {
+      "n": 24,
+      "bolha": "futebol",
+      "ordem_na_bolha": 8,
+      "arquivo": "respostas_futebol/futebol_08.png",
+      "texto": "BUZINAÇO DE CAMPEÃO",
+      "linha1": "BUZINAÇO",
+      "linha2": "DE CAMPEÃO",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 10,
+      "caracteres_total": 19,
+      "emoji": "🚗",
+      "nota": "Frase de carro dentro da bolha FUTEBOL. Se tiver desenho, carro genérico, sem marca."
+    },
+    {
+      "n": 25,
+      "bolha": "carro",
+      "ordem_na_bolha": 1,
+      "arquivo": "respostas_carro/carro_01.png",
+      "texto": "CARRO NOVO (DO VIZINHO)",
+      "linha1": "CARRO NOVO",
+      "linha2": "(DO VIZINHO)",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 12,
+      "caracteres_total": 23,
+      "emoji": "🚙"
+    },
+    {
+      "n": 26,
+      "bolha": "carro",
+      "ordem_na_bolha": 2,
+      "arquivo": "respostas_carro/carro_02.png",
+      "texto": "TIRA A CNH DE PRIMEIRA",
+      "linha1": "TIRA A CNH",
+      "linha2": "DE PRIMEIRA",
+      "caracteres_linha1": 10,
+      "caracteres_linha2": 11,
+      "caracteres_total": 22,
+      "emoji": "🪪",
+      "nota": "CNH é o nome do documento, não é marca."
+    },
+    {
+      "n": 27,
+      "bolha": "carro",
+      "ordem_na_bolha": 3,
+      "arquivo": "respostas_carro/carro_03.png",
+      "texto": "ZERO BURACO NO CAMINHO",
+      "linha1": "ZERO BURACO",
+      "linha2": "NO CAMINHO",
+      "caracteres_linha1": 11,
+      "caracteres_linha2": 10,
+      "caracteres_total": 22,
+      "emoji": "🕳️"
+    },
+    {
+      "n": 28,
+      "bolha": "carro",
+      "ordem_na_bolha": 4,
+      "arquivo": "respostas_carro/carro_04.png",
+      "texto": "LAVA O CARRO E NÃO CHOVE",
+      "linha1": "LAVA O CARRO",
+      "linha2": "E NÃO CHOVE",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 11,
+      "caracteres_total": 24,
+      "emoji": "🌧️"
+    },
+    {
+      "n": 29,
+      "bolha": "carro",
+      "ordem_na_bolha": 5,
+      "arquivo": "respostas_carro/carro_05.png",
+      "texto": "VAGA NA PORTA",
+      "linha1": "VAGA NA",
+      "linha2": "PORTA",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 5,
+      "caracteres_total": 13,
+      "emoji": "🅿️"
+    },
+    {
+      "n": 30,
+      "bolha": "carro",
+      "ordem_na_bolha": 6,
+      "arquivo": "respostas_carro/carro_06.png",
+      "texto": "CARRO SEMPRE CHEIROSO",
+      "linha1": "CARRO SEMPRE",
+      "linha2": "CHEIROSO",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 8,
+      "caracteres_total": 21,
+      "emoji": "🌸"
+    }
+  ],
+  "total_resultados": {
+    "versao_3_bolhas": 24,
+    "versao_4_bolhas": 30
+  },
+  "reservas": [
+    {
+      "codigo": "R-AMOR-1",
+      "bolha": "amor",
+      "arquivo": "reservas/reserva_amor_01.png",
+      "texto": "AMOR NA FILA DO PÃO",
+      "linha1": "AMOR NA",
+      "linha2": "FILA DO PÃO",
+      "caracteres_linha1": 7,
+      "caracteres_linha2": 11,
+      "caracteres_total": 19,
+      "emoji": "🥖"
+    },
+    {
+      "codigo": "R-AMOR-2",
+      "bolha": "amor",
+      "arquivo": "reservas/reserva_amor_02.png",
+      "texto": "DATE QUE DÁ CERTO",
+      "linha1": "DATE QUE",
+      "linha2": "DÁ CERTO",
+      "caracteres_linha1": 8,
+      "caracteres_linha2": 8,
+      "caracteres_total": 17,
+      "emoji": "🍿"
+    },
+    {
+      "codigo": "R-GRANA-1",
+      "bolha": "grana",
+      "arquivo": "reservas/reserva_grana_01.png",
+      "texto": "SALÁRIO DURA O MÊS TODO",
+      "linha1": "SALÁRIO DURA",
+      "linha2": "O MÊS TODO",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 10,
+      "caracteres_total": 23,
+      "emoji": "🗓️"
+    },
+    {
+      "codigo": "R-GRANA-2",
+      "bolha": "grana",
+      "arquivo": "reservas/reserva_grana_02.png",
+      "texto": "FATURA SEM SUSTO",
+      "linha1": "FATURA",
+      "linha2": "SEM SUSTO",
+      "caracteres_linha1": 6,
+      "caracteres_linha2": 9,
+      "caracteres_total": 16,
+      "emoji": "💳"
+    },
+    {
+      "codigo": "R-FUTEBOL-1",
+      "bolha": "futebol",
+      "arquivo": "reservas/reserva_futebol_01.png",
+      "texto": "TÉCNICO NOVO EM MARÇO",
+      "linha1": "TÉCNICO NOVO",
+      "linha2": "EM MARÇO",
+      "caracteres_linha1": 12,
+      "caracteres_linha2": 8,
+      "caracteres_total": 21,
+      "emoji": "📋"
+    },
+    {
+      "codigo": "R-FUTEBOL-2",
+      "bolha": "futebol",
+      "arquivo": "reservas/reserva_futebol_02.png",
+      "texto": "PÉ-QUENTE OFICIAL",
+      "linha1": "PÉ-QUENTE",
+      "linha2": "OFICIAL",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 7,
+      "caracteres_total": 17,
+      "emoji": "🍀"
+    },
+    {
+      "codigo": "R-CARRO-1",
+      "bolha": "carro",
+      "arquivo": "reservas/reserva_carro_01.png",
+      "texto": "PÉ NA ESTRADA",
+      "linha1": "PÉ NA",
+      "linha2": "ESTRADA",
+      "caracteres_linha1": 5,
+      "caracteres_linha2": 7,
+      "caracteres_total": 13,
+      "emoji": "🛣️"
+    },
+    {
+      "codigo": "R-CARRO-2",
+      "bolha": "carro",
+      "arquivo": "reservas/reserva_carro_02.png",
+      "texto": "IPVA PAGO EM DIA",
+      "linha1": "IPVA PAGO",
+      "linha2": "EM DIA",
+      "caracteres_linha1": 9,
+      "caracteres_linha2": 6,
+      "caracteres_total": 16,
+      "emoji": "✅"
+    }
+  ],
+  "reservas_uso": "Só usar se alguma frase for vetada. Trocar 1 por 1, dentro da mesma bolha.",
+  "regras_texto": {
+    "caixa": "tudo em MAIÚSCULAS, com acento",
+    "cor": "BRANCO puro (#FFFFFF) sobre fundo transparente. O template pinta as artes com cores sorteadas; arte colorida estraga o efeito.",
+    "max_linhas": 2,
+    "max_caracteres_por_linha": 13,
+    "maior_total_atual": 25,
+    "quebra_de_linha": "usar exatamente linha1 / linha2",
+    "tamanho_px": "o mesmo das texturas de resposta originais do template (a confirmar ao abrir o projeto). O conceito estimou ~512x128; se a original for quadrada, usar o tamanho dela e centralizar as 2 linhas.",
+    "parenteses": "Nas frases com parênteses, o parêntese é a piada: pode vir um pouco menor, mas tem que dar para ler.",
+    "emoji": "Só referência. Não pôr emoji colorido na arte, porque o template tinge tudo. Se quiser um ícone, desenhar em branco, pequeno e simples. Se atrapalhar a leitura, deixar sem.",
+    "glifos_necessarios_na_fonte": "()-01237ABCDEFGHIJLMNOPQRSTUVXZºÁÃÇÉÊÍÓÚ…",
+    "atencao_fonte": "Testar antes: º (em '13º'), Á Ã Ç É Ê Í Ó Ú, hífen, parênteses e '…'. Fonte de licença livre (OFL/Google Fonts), texto 'assado' no PNG.",
+    "nomes_de_arquivo": "(a confirmar) regra de nome/ordem da importação de sequência. Uma pasta por bolha, porque cada bolha usa a sua própria sequência (Animated Texture Player)."
+  },
+  "icone": {
+    "texto": "2027",
+    "ideia": "uma bolha grande com '2027' dentro. Pouco texto, alto contraste. 162x162 px, área segura de 144x144.",
+    "arquivo": "icone_162.png",
+    "arquivo_alternativo": "icone_alt_162.png"
+  },
+  "descricao_envio": {
+    "campo": "(a confirmar) O formulário pode não ter descrição pública; nos outros efeitos a equipe achou só 'Additional comments', para quem revisa. Colar o texto em inglês e, embaixo, o em português.",
+    "pt": "Previsão de 2027 em bolhas. A pessoa toca na tela ou faz biquinho e as bolhas de amor, grana e futebol estouram com uma previsão sorteada, tipo \"título vem (confia)\" ou \"o 13º dura até o dia 3\". São 24 frases originais de humor leve, sem time, marca, aposta ou pessoa real.",
+    "pt_caracteres": 273,
+    "en": "2027 New Year prediction with bubbles. Tap the screen or pout, and the LOVE, MONEY and FOOTBALL bubbles pop with a random prediction in Brazilian Portuguese, such as \"the title is coming (trust me)\" or \"my year-end bonus lasts until the 3rd\". 24 original, light-humor texts, with our own title, label and icon art; the bubble animation comes from the Future Life template. No generative AI. No teams, crests, kits, brands, betting or real people.",
+    "en_caracteres": 446,
+    "pt_se_tiver_4_bolhas": "Previsão de 2027 em bolhas. A pessoa toca na tela ou faz biquinho e as bolhas de amor, grana, futebol e carro estouram com uma previsão sorteada, tipo \"título vem (confia)\" ou \"o 13º dura até o dia 3\". São 30 frases originais de humor leve, sem time, marca, aposta ou pessoa real.",
+    "en_se_tiver_4_bolhas": "2027 New Year prediction with bubbles. Tap the screen or pout, and the LOVE, MONEY, FOOTBALL and CAR bubbles pop with a random prediction in Brazilian Portuguese, such as \"the title is coming (trust me)\" or \"my year-end bonus lasts until the 3rd\". 30 original, light-humor texts, with our own title, label and icon art; the bubble animation comes from the Future Life template. No generative AI. No teams, crests, kits, brands, betting or real people.",
+    "curta_pt": "Faça biquinho e veja como vai ser o seu 2027 no amor, na grana e no futebol.",
+    "curta_pt_caracteres": 76
+  },
+  "categoria_sugerida": "A mais próxima de 'Engraçado/Funny' ou 'Sorteio/Randomizer'. (lista de categorias a confirmar)",
+  "tags": [
+    "2027",
+    "previsão",
+    "ano novo",
+    "réveillon",
+    "sorteio"
+  ],
+  "tags_sem_acento_ou_espaco": [
+    "2027",
+    "previsao",
+    "anonovo",
+    "reveillon",
+    "sorteio"
+  ],
+  "tags_en": [
+    "2027",
+    "prediction",
+    "new year",
+    "randomizer",
+    "funny"
+  ],
+  "tags_reserva": [
+    "futebol",
+    "humor",
+    "meu 2027"
+  ],
+  "tags_observacao": "Nos outros efeitos a pesquisa achou limite de 5 tags (a confirmar). Usar as 5 de 'tags'; as de reserva entram se alguma for recusada.",
+  "legendas_video_lancamento": {
+    "observacao": "Só para a legenda do vídeo na conta, nunca dentro do efeito. Trocar o ____ pelo que sair de verdade no vídeo.",
+    "opcoes": [
+      "Fiz biquinho e saiu \"____\" pro meu 2027. Faz o teu e me conta",
+      "Saiu \"título vem (confia)\". Eu confio. E tu?",
+      "Teu 2027 vai ser de amor, de grana ou de sofrer até a última rodada? Testa aí"
+    ],
+    "hashtags": [
+      "#meu2027",
+      "#2027",
+      "#previsao2027",
+      "#anonovo",
+      "#reveillon",
+      "#futebol"
+    ],
+    "proibido": "Não prometer prêmio ou sorteio para quem usar o efeito: o TikTok trata como uso incentivado e para de contar os vídeos."
+  },
+  "trocas_feitas_no_conceito": [
+    {
+      "antes": "PIX INESPERADO",
+      "depois": "GRANA CAINDO NA CONTA",
+      "motivo": "Pix é marca registrada do Banco Central"
+    },
+    {
+      "antes": "CRUSH RESPONDE EM 2 MINUTOS",
+      "depois": "CRUSH CHAMA PRIMEIRO",
+      "motivo": "'CRUSH RESPONDE' tem 14 caracteres e não cabe numa linha da bolha"
+    },
+    {
+      "antes": "SOLTEIRO E EM PAZ",
+      "depois": "SOLTEIRICE DE LUXO",
+      "motivo": "'SOLTEIRO' é masculino; a nova serve para todo mundo"
+    },
+    {
+      "antes": "VOLTA COM O EX (NÃO FAZ ISSO)",
+      "depois": "O EX VOLTA (NÃO ATENDE)",
+      "motivo": "mais curta, cabe em 2 linhas"
+    },
+    {
+      "antes": "CONHECE ALGUÉM NO CHURRASCO",
+      "depois": "PAQUERA NO CHURRASCO",
+      "motivo": "mais curta"
+    },
+    {
+      "antes": "AUMENTO (DE BOLETO)",
+      "depois": "AUMENTO (DOS BOLETOS)",
+      "motivo": "fica mais claro que quem aumenta é o boleto"
+    },
+    {
+      "antes": "GUARDA DINHEIRO PELA 1ª VEZ",
+      "depois": "ENCHE O COFRINHO",
+      "motivo": "'GUARDA DINHEIRO' tem 15 caracteres"
+    },
+    {
+      "antes": "TEU TIME GANHA O CLÁSSICO",
+      "depois": "GANHA O CLÁSSICO",
+      "motivo": "não cabe; dentro da bolha FUTEBOL já se entende"
+    },
+    {
+      "antes": "TÍTULO EM 2027 (CONFIA)",
+      "depois": "TÍTULO VEM (CONFIA)",
+      "motivo": "o 2027 já está no título; 'TÍTULO EM 2027' tem 14 caracteres"
+    },
+    {
+      "antes": "VAI AO ESTÁDIO 10 VEZES",
+      "depois": "10 JOGOS NO ESTÁDIO",
+      "motivo": "mais curta"
+    },
+    {
+      "antes": "PARA DE CORNETAR (MENTIRA)",
+      "depois": "SEM CORNETAR (MENTIRA)",
+      "motivo": "'PARA DE CORNETAR' tem 16 caracteres"
+    },
+    {
+      "antes": "TANQUE CHEIO O ANO TODO (bolha CARRO)",
+      "depois": "TANQUE CHEIO O ANO TODO (bolha GRANA)",
+      "motivo": "assim o tema carro aparece mesmo na versão de 3 bolhas"
+    },
+    {
+      "antes": "TIRA A CARTEIRA",
+      "depois": "TIRA A CNH DE PRIMEIRA",
+      "motivo": "'carteira' também quer dizer carteira de dinheiro; e ganhou piada"
+    },
+    {
+      "antes": "CARRO NOVO NA GARAGEM (DO VIZINHO)",
+      "depois": "CARRO NOVO (DO VIZINHO)",
+      "motivo": "mais curta, mesma piada"
+    },
+    {
+      "antes": "NENHUM BURACO NO CAMINHO",
+      "depois": "ZERO BURACO NO CAMINHO",
+      "motivo": "mais curta"
+    }
+  ],
+  "proibido_no_efeito": [
+    "nome, escudo, uniforme, cores combinadas ou apelido de time/torcida",
+    "a palavra 'Pix' e qualquer marca (banco, carro, app)",
+    "@ da conta, link, nome da loja ou chamada pra comprar",
+    "aposta, bolão, bebida, xingamento",
+    "promessa de dinheiro de verdade"
+  ],
+  "a_confirmar": [
+    "Se o formulário aceita reticências no nome (por isso o nome vai sem).",
+    "Se já existe efeito famoso chamado 'Meu 2027 vai ser' (tiktok.com bloqueado daqui; a busca na web não achou nenhum com esse nome exato).",
+    "Como o template mostra rótulo e resposta: se o rótulo some quando a bolha estoura ou se os dois aparecem juntos.",
+    "Tamanho das texturas de resposta originais do template.",
+    "Se dá para pôr uma 4ª bolha (CARRO) sem quebrar o template.",
+    "Se o hint é texto livre ou lista pronta.",
+    "Se as tags aceitam espaço e acento, e o limite de tags.",
+    "Se existe campo de descrição pública ou só comentários para a revisão.",
+    "Regra de nome/ordem dos arquivos na importação de sequência."
+  ]
+}
