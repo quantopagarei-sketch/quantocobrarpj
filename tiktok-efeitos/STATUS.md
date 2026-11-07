@@ -1,6 +1,6 @@
 # Status dos efeitos
 
-PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. C06 testado; próximos C05 e C07. Manage Effects ainda inacessível ao Montador (abre numa aba do Chrome fora do controle dele); Analytics do app zerado = nenhum efeito aprovado até 07/11 ~01h UTC. Vídeos e perfil prontos na nuvem.
+PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. C06 e C05 testados; próximo C07. Manage Effects ainda inacessível ao Montador (abre numa aba do Chrome fora do controle dele); Analytics do app zerado = nenhum efeito aprovado até 07/11 ~01h UTC. Vídeos e perfil prontos na nuvem.
 
 Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 
@@ -8,7 +8,7 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 |---|---|---|---|---|
 | C08 | Eu no grupo da família | efeito-2-seu-papel-no-grupo | **Em análise** no TikTok (1 rosto, 1,7 MB, sem desafio) | enviado 06/11 02:36 (BRT) |
 | C01 | Torcedômetro | efeito-1-torcedometro | **Em análise** no TikTok (26 cartas, 1,6 MB, sem desafio; teste de performance não rodou). Projeto salvo em projetos\C01-torcedometro | enviado 06/11 02:49 (BRT) |
-| C05 | Meu 2027 vai ser… | efeito-3-meu-2027-vai-ser | **Não começado** (relato do Montador, 06/11 ~07h BRT); vai para depois do C06 na fila | envio só em 03/12 |
+| C05 | Meu 2027 vai ser… | efeito-3-meu-2027-vai-ser | **Montado e testado** no PC (`projetos\C05-meu-2027-vai-ser`; AMOR/GRANA/FUTEBOL, 8 respostas por bolha, versão quadrada com sombra; corrigido o sorteio, que só tirava 2 quadros; Generative Effects removidos). Letra pequena na bolha: a nuvem está fazendo uma versão com letra maior | envio só em 03/12 |
 | C02 | Meu próximo carro | efeito-4-meu-proximo-carro | **Em análise** no TikTok (26 cartas, 1,6 MB, **com desafio**; testado no preview). Projeto separado do C01 (C01 intacto) | enviado 06/11 19:30 (BRT) |
 | C09 | Perrengue no volante | efeito-5-perrengue-no-volante | **Em análise** no TikTok (Blind Rank, 2,2 MB, **com desafio**, hint Tap screen) | enviado 06/11 20:28 (BRT) |
 | C06 | Meu amigo secreto | efeito-6-meu-amigo-secreto | **Montado e testado** no PC (`projetos\C06-meu-amigo-secreto`; 4 cartas diferentes em 4 rodadas). Aguardando a janela de envio | envio 20–24/11 |
