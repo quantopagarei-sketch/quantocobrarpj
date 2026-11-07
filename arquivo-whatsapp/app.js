@@ -470,6 +470,7 @@
           if (r.error) { errN++; log('✗ ' + r.label + ': ' + r.error, 'er'); return; }
           touched[r.cid] = 1; convN++; msgsN += r.n; filesN += r.files;
           log('✓ ' + r.label + ' — ' + pl(r.n, 'mensagem', 'mensagens') + (r.files ? ', ' + pl(r.files, 'arquivo', 'arquivos') : '') + (r.missing ? ' (' + pl(r.missing, 'arquivo não veio', 'arquivos não vieram') + ')' : '') + (r.unsure ? ' — confira quem é você em Ajustes' : ''), 'ok');
+          if (r.hidden) log('• ' + pl(r.hidden, 'foto, PDF ou áudio veio', 'fotos, PDFs ou áudios vieram') + ' como “mídia oculta”: a conversa foi exportada sem mídia. Para trazer os arquivos, exporte de novo escolhendo “Incluir mídia” ou use o backup completo (pasta do WhatsApp Business).');
         });
       } catch (e) {
         errN++;
@@ -517,9 +518,10 @@
     await learnMe(who.inferredMe);
     var c = await upsertContact({ id: who.id, name: who.name, phone: who.phone, isGroup: who.isGroup, nameSrc: 'export' });
     var keyer = C.makeKeyer(c.id), meF = meFolded();
-    var out = [], files = 0, missing = 0;
+    var out = [], files = 0, missing = 0, hidden = 0;
     for (var j = 0; j < parsed.messages.length; j++) {
       var pm = parsed.messages[j];
+      if (pm.kind === 'omitted') hidden++;
       var me = pm.author && pm.author !== who.other && (who.me[pm.author] || meF[C.fold(pm.author)]) ? 1 : 0;
       var rec = { cid: c.id, ts: pm.ts, seq: pm.seq, me: me, a: (me || pm.sys) ? null : pm.author, t: pm.text || '', ty: pm.kind, sys: pm.sys || 0, ed: pm.edited || 0, src: ['exp'] };
       if (pm.media) {
@@ -539,7 +541,7 @@
     }
     await DB.upsert(out);
     var unsure = !who.isGroup && !who.other && !Object.keys(who.me).length && Object.keys(parsed.authors).length > 1;
-    return { cid: c.id, label: label(c), n: parsed.messages.length, files: files, missing: missing, unsure: unsure };
+    return { cid: c.id, label: label(c), n: parsed.messages.length, files: files, missing: missing, unsure: unsure, hidden: hidden };
   }
 
   // ------------------------------------------------------------------ importar: backup completo (crypt15)
