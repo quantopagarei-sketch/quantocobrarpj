@@ -6,6 +6,8 @@ Como rodar (de qualquer pasta):
     python3 /home/user/quantocobrarpj/tiktok-efeitos/efeito-3-meu-2027-vai-ser/assets/gerar.py
     # opcional: um conjunto extra de respostas num tamanho sob medida
     python3 .../gerar.py --resposta 512x256
+    # opcional: refaz só variantes/quadrado_512_com_sombra_grande/ e a comparacao_grande.png
+    python3 .../gerar.py --so-grande
 
 Lê os textos de ../textos.json (do redator). Se uma frase mudar lá, é só rodar de novo.
 
@@ -25,6 +27,9 @@ Grava, nesta pasta (assets/):
                                                   que o template MULTIPLICA a cor; ver LEIA-ME.md)
     variantes/quadrado_512/...          mesmas artes em quadro 512x512 (se as texturas originais forem quadradas)
     variantes/quadrado_512_com_sombra/  idem, com sombra
+    variantes/quadrado_512_com_sombra_grande/  idem, mas cada bolha com a MAIOR letra que cabe no círculo
+                                                  (até 3 linhas); título e rótulos são cópias da pasta acima
+    variantes/comparacao_grande.png     antes x depois da pasta _grande, dentro de um círculo (NÃO vai para o efeito)
     variantes/rotulos_sem_icone/        rótulos só com a palavra (512x256)
     variantes/bolha_inteira/            desenho próprio da bolha (512x512), com e sem rótulo
     previa.png                          folha de conferência (NÃO vai para o Effect House)
@@ -34,9 +39,11 @@ Tudo é desenhado em 2x (ou mais) e reduzido com LANCZOS. Fonte: Inter Display (
 sem time, sem escudo, sem modelo de carro.
 """
 import argparse
+import itertools
 import json
 import math
 import os
+import shutil
 import sys
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
@@ -512,6 +519,230 @@ def gerar_extras():
         img = para_branco(mascara_bolha(N, b["id"], sr_b), (512, 512))
         conferir_borda(img, "bolha inteira")
         salvar(img, os.path.join(AQUI, "variantes", "bolha_inteira", f"bolha_inteira_{b['id']}.png"))
+
+
+# ------------------------------------------------------------------ variante quadrada "grande"
+# Em quadrado_512_com_sombra as respostas usam 48 px para TODAS as bolhas, em 2 linhas fixas: no
+# preview a frase vira uma faixa fina no meio da bolha. Aqui cada bolha ganha a maior letra que cabe
+# num CÍRCULO (a textura aparece dentro da bolha), com a frase requebrada em até 3 linhas.
+GR_RAIO = 0.44           # toda a tinta, sombra incluída, a no máximo 44% do lado a partir do centro
+GR_SOMBRA_EXT = 9        # quanto a sombra passa da letra, em px de 1x (medido: ~8 dos lados, ~10 embaixo)
+GR_SOMBRA_DY = 2         # o mesmo deslocamento de para_branco_com_sombra
+GR_MAX_LINHAS = 3
+GR_LONGA = 5             # frase com 5+ blocos pode ir a 4 linhas...
+GR_GANHO_4L = 1.05       # ...mas só se isso aumentar a letra da bolha inteira em 5% ou mais
+GR_ORIGEM = os.path.join(AQUI, "variantes", "quadrado_512_com_sombra")
+GR_DESTINO = os.path.join(AQUI, "variantes", "quadrado_512_com_sombra_grande")
+GRANDE_INFO = {}         # preenchido por gerar_quadrado_grande (usado na comparação)
+
+
+def blocos_frase(r):
+    """Palavras da frase, na grafia exata do textos.json. O parêntese (a piada) vira um bloco só:
+    nunca é quebrado, para sair inteiro numa linha e em 84%, como nas outras variantes."""
+    blocos, paren = [], None
+    for p in " ".join(x for x in (r["linha1"], r["linha2"]) if x).split():
+        if paren is not None:
+            paren.append(p)
+            if p.endswith(")"):
+                blocos.append(" ".join(paren))
+                paren = None
+        elif p.startswith("(") and not p.endswith(")"):
+            paren = [p]
+        else:
+            blocos.append(p)
+    if paren:
+        blocos.append(" ".join(paren))
+    return blocos
+
+
+def quebras(blocos, max_linhas):
+    """Todas as quebras em 1..max_linhas linhas, só entre palavras, sem linha que seja uma letra solta."""
+    n = len(blocos)
+    for k in range(1, min(max_linhas, n) + 1):
+        for cortes in itertools.combinations(range(1, n), k - 1):
+            idx = (0, *cortes, n)
+            linhas = [" ".join(blocos[idx[i]:idx[i + 1]]) for i in range(k)]
+            if k == 1 or all(len(l) > 1 for l in linhas):
+                yield linhas
+
+
+_perfis = {}
+
+
+def perfil_linha(linha, s):
+    """Extremos da tinta de uma linha (fonte s em px de 2x): para cada fileira de pixels, a distância
+    horizontal máxima ao centro e o y relativo à linha de base (anchor 'ms', igual a mascara_resposta)."""
+    import numpy as np            # só esta variante usa numpy; as outras continuam só com Pillow
+    k = (linha, s)
+    if k not in _perfis:
+        f = fonte(F_BLACK, tam_linha(linha, s))
+        bb = f.getbbox(linha, anchor="ms")
+        ox, oy = 4 - bb[0], 4 - bb[1]
+        m = Image.new("L", (bb[2] - bb[0] + 8, bb[3] - bb[1] + 8), 0)
+        ImageDraw.Draw(m).text((ox, oy), linha, font=f, fill=255, anchor="ms")
+        a = np.asarray(m) > 8
+        fil = np.nonzero(a.any(axis=1))[0]
+        esq = a[fil].argmax(axis=1)
+        dir_ = a.shape[1] - a[fil][:, ::-1].argmax(axis=1)
+        x = np.maximum(np.abs(esq - ox), np.abs(dir_ - ox)).astype(float)
+        _perfis[k] = (np.concatenate([x, x]), np.concatenate([fil - oy, fil + 1 - oy]).astype(float))
+    return _perfis[k]
+
+
+def bloco_no_circulo(linhas, s, raio, ext, dy):
+    """Onde pôr o bloco para a tinta (sombra = letra engordada `ext` e descida `dy`) caber no círculo.
+    Fica com a caixa-alta centralizada, como nas outras variantes; só desloca na vertical o mínimo
+    necessário. Devolve (t, folga), t = y da 1ª linha de base relativo ao centro, ou None. Px de 2x."""
+    import numpy as np
+    xs, ys = [], []
+    for i, l in enumerate(linhas):
+        x, y = perfil_linha(l, s)
+        xs.append(x)
+        ys.append(y + i * LEAD * s)
+    x, y = np.concatenate(xs), np.concatenate(ys)
+
+    def r(t):
+        yy = y + t
+        return float(np.hypot(x, np.maximum(np.abs(yy), np.abs(yy + dy))).max()) + ext
+
+    lo, hi = -float(y.max()), -float(y.min())
+    for _ in range(50):                       # r(t) é convexa: busca ternária acha a melhor altura
+        a, b = lo + (hi - lo) / 3, hi - (hi - lo) / 3
+        if r(a) < r(b):
+            hi = b
+        else:
+            lo = a
+    t_otimo = (lo + hi) / 2
+    if r(t_otimo) > raio:
+        return None
+    t = (cap_altura(s) - (len(linhas) - 1) * LEAD * s) / 2
+    if r(t) > raio:
+        a, b = t, t_otimo
+        for _ in range(40):
+            m = (a + b) / 2
+            if r(m) <= raio:
+                b = m
+            else:
+                a = m
+        t = b
+    return t, raio - r(t)
+
+
+def encostam(linhas, s):
+    """Acento/cedilha/parêntese de uma linha encostando na de baixo? (mesma régua de linhas_encostam,
+    com o quadro do tamanho da linha, para servir também às linhas longas)."""
+    for l1, l2 in zip(linhas, linhas[1:]):
+        f1, f2 = fonte(F_BLACK, tam_linha(l1, s)), fonte(F_BLACK, tam_linha(l2, s))
+        b1, b2 = f1.getbbox(l1, anchor="ms"), f2.getbbox(l2, anchor="ms")
+        W = int(max(b1[2] - b1[0], b2[2] - b2[0]) + 4 * s)
+        H, y1 = int(s * 3), s * 1.1
+        a = Image.new("L", (W, H), 0)
+        ImageDraw.Draw(a).text((W / 2, y1), l1, font=f1, fill=255, anchor="ms")
+        b = Image.new("L", (W, H), 0)
+        ImageDraw.Draw(b).text((W / 2, y1 + LEAD * s), l2, font=f2, fill=255, anchor="ms")
+        k = 2 * max(1, int(s * 0.05)) + 1
+        a = a.filter(ImageFilter.MaxFilter(k)).point(lambda v: 255 if v > 60 else 0)
+        b = b.point(lambda v: 255 if v > 60 else 0)
+        if ImageChops.multiply(a, b).getbbox() is not None:
+            return True
+    return False
+
+
+def maior_fonte(linhas, geo, s_teto):
+    """Maior s (px de 2x) em que esta quebra cabe no círculo, ou 0."""
+    lo, hi = 10, s_teto
+    if bloco_no_circulo(linhas, lo, *geo) is None:
+        return 0
+    while lo < hi:
+        mid = (lo + hi + 1) // 2
+        if bloco_no_circulo(linhas, mid, *geo) is not None:
+            lo = mid
+        else:
+            hi = mid - 1
+    return 0 if encostam(linhas, lo) else lo
+
+
+def max_linhas_grande(r, usar4):
+    return 4 if usar4 and len(blocos_frase(r)) >= GR_LONGA else GR_MAX_LINHAS
+
+
+def tamanho_grande(itens, geo, s_teto):
+    """UM tamanho de letra para todas as respostas da bolha (o menor dos máximos), para o sorteio não
+    'pular'. Devolve (s, usar4, máximos por item)."""
+    def melhor(r, max_l):
+        return max(maior_fonte(l, geo, s_teto) for l in quebras(blocos_frase(r), max_l))
+    m3 = [melhor(r, GR_MAX_LINHAS) for r in itens]
+    m4 = [melhor(r, 4) if len(blocos_frase(r)) >= GR_LONGA else m for r, m in zip(itens, m3)]
+    if min(m4) >= GR_GANHO_4L * min(m3):
+        return min(m4), True, m4
+    return min(m3), False, m3
+
+
+def quebra_grande(r, s, geo, max_l):
+    """A quebra usada com a letra s: a de MENOS linhas que cabe; empate -> a do redator
+    (linha1/linha2); depois a de mais folga no círculo (a mais equilibrada). Devolve (linhas, t)."""
+    orig = [l for l in (r["linha1"], r["linha2"]) if l]
+    cands = []
+    for linhas in quebras(blocos_frase(r), max_l):
+        pos = bloco_no_circulo(linhas, s, *geo)
+        if pos is not None and not encostam(linhas, s):
+            cands.append((len(linhas), linhas != orig, -pos[1], linhas, pos[0]))
+    if not cands:
+        raise SystemExit(f"ERRO: {r['arquivo']} não coube com letra {s / S} px")
+    cands.sort(key=lambda c: c[:3])
+    return cands[0][3], cands[0][4]
+
+
+def mascara_linhas(linhas, N, s, t):
+    m = Image.new("L", (N, N), 0)
+    d = ImageDraw.Draw(m)
+    for i, l in enumerate(linhas):
+        d.text((N / 2, N / 2 + t + i * LEAD * s), l, font=fonte(F_BLACK, tam_linha(l, s)), fill=255, anchor="ms")
+    return m
+
+
+def raio_tinta(img, limiar=8):
+    """Distância (px) do centro da imagem até o canto mais longe de um pixel com alfa > limiar."""
+    import numpy as np
+    a = np.asarray(img.getchannel("A"))
+    ys, xs = np.nonzero(a > limiar)
+    c = img.size[0] / 2
+    return float(np.hypot(np.abs(xs + 0.5 - c) + 0.5, np.abs(ys + 0.5 - c) + 0.5).max())
+
+
+def gerar_quadrado_grande(destino=GR_DESTINO, origem=GR_ORIGEM, sombra=True, lado=512):
+    """Respostas e reservas em lado x lado com a maior letra por bolha (tinta toda dentro do círculo de
+    raio GR_RAIO*lado). Título e rótulos: cópias idênticas de `origem`, para a pasta trocar a inteira."""
+    if not os.path.isdir(origem):
+        raise SystemExit(f"ERRO: falta {origem}. Rode o gerar.py completo uma vez.")
+    conv = para_branco_com_sombra if sombra else para_branco
+    N = lado * S
+    raio = GR_RAIO * lado * S
+    geo = (raio, (GR_SOMBRA_EXT if sombra else 1) * S, (GR_SOMBRA_DY if sombra else 0) * S)
+    for b in ORDEM_BOLHAS:
+        itens = [r for r in TEXTOS["resultados"] + TEXTOS["reservas"] if r["bolha"] == b]
+        s, usar4, maximos = tamanho_grande(itens, geo, N // 2)
+        while True:                      # confere no PNG final; se a sombra real passar do raio, diminui
+            escolhas = [quebra_grande(r, s, geo, max_linhas_grande(r, usar4)) for r in itens]
+            imgs = [conv(mascara_linhas(l, N, s, t), (lado, lado)) for l, t in escolhas]
+            raios = [raio_tinta(im) for im in imgs]
+            if max(raios) <= GR_RAIO * lado:
+                break
+            s -= 1
+        for r, img, (linhas, _) in zip(itens, imgs, escolhas):
+            conferir_borda(img, r["arquivo"])
+            salvar(img, os.path.join(destino, r["arquivo"]))
+        GRANDE_INFO[b] = {
+            "fonte_px": s / S, "usar4": usar4, "raio_max_px": round(max(raios), 1),
+            "limitante": [r["arquivo"] for r, m in zip(itens, maximos) if m == min(maximos)],
+            "linhas": {r["arquivo"]: linhas for r, (linhas, _) in zip(itens, escolhas)},
+        }
+    for nome in ["titulo.png"] + [x["arquivo_rotulo"] for x in TEXTOS["bolhas"]]:
+        os.makedirs(destino, exist_ok=True)
+        shutil.copyfile(os.path.join(origem, nome), os.path.join(destino, nome))
+        REGISTRO.append((os.path.relpath(os.path.join(destino, nome), AQUI), Image.open(
+            os.path.join(destino, nome)).size, os.path.getsize(os.path.join(destino, nome)) / 1024))
+    return {b: (v["fonte_px"], v["raio_max_px"]) for b, v in GRANDE_INFO.items()}
 
 
 # ------------------------------------------------------------------ ícone colorido (formulário)
