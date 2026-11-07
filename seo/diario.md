@@ -72,3 +72,9 @@ Diferenciais a destacar nos títulos/descrições: grátis, sem cadastro, neutro
   3. "PJ, MEI e pró-labore: o que muda no IR 2027" (liga com /clt-pj/ e /mei-2027/).
 - Regras da declaração 2027 (prazos, limites de obrigatoriedade) só saem da Receita em fev/mar 2027: até lá, texto neutro ("a Receita ainda vai publicar"), sem cravar datas.
 - Cada página nova entra no sitemap, ganha link da home e de /clt-pj/, e a tarefa do Search Console pede a indexação logo.
+
+## META DO VINI (07/11/2026) — +50 VISITAS POR DIA (vale para todos os agentes do site)
+- Metas de visitas por dia (eram 15 → 65 até 30/11/2026; 50 → 100 em dez/2026; 130 → 180 em jan–fev/2027; 330 → 380 em mar–abr; 600 → 650 em mai–jul; 1.000 → 1.050 a partir de ago/2027). Pedidos de contador seguem iguais (1/semana em nov, 2/semana em dez, 0,5/dia em jan–fev).
+- Ponto de partida em 07/11: contador 12–28 visitas/dia; Google = 2 cliques em 7 dias, 140 impressões, 4 páginas indexadas de 50. A meta só sai com (1) páginas indexadas que respondam buscas reais, (2) links e calculadoras incorporadas em outros sites.
+- RITMO NOVO: Agente de SEO roda seg/qua/sex (4h23), 1 a 2 páginas-guia por execução (a segunda só se a primeira ficou 100%), sempre UM push por execução; "indexação antes de volume" continua valendo para páginas programáticas (/clt-pj/NNNN/, /split-payment/pix-NNNN/), não para guias novos. Agente de Crescimento roda ter/sex (15h41) com até 6 contatos por execução. "Site: Search Console" roda dom/qua/sex. Tarefa nova "Site: palavras-chave" (domingo à noite) mantém seo/palavras-chave.md: o SEO usa esse plano (seção B, em ordem) para escolher o conteúdo novo, depois das PRIORIDADES DO VINI/SÓCIO e das consultas do Search Console sem página.
+- SUBIR DE POSIÇÃO: página na posição 5–20 no Search Console com impressões = reforçar (resposta direta no topo, tabela/exemplo, FAQ com a pergunta exata, links de 2–3 páginas fortes), sem inflar texto.
