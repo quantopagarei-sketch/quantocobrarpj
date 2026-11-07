@@ -1,6 +1,6 @@
 # Status dos efeitos
 
-PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. **Os 7 efeitos estão montados** (07/11 madrugada): 4 em análise (C08, C01, C02, C09), 3 prontos esperando a data de envio (C06 20–24/11; C05 e C07 03/12). Montador agora só confere aprovações (9h, 13h e 18h) e faz o D0. Manage Effects ainda inacessível ao Montador (abre numa aba do Chrome fora do controle dele); Analytics do app zerado = nenhum efeito aprovado até 07/11 ~01h UTC. Vídeos e perfil prontos na nuvem.
+PC do Vini religado em 06/11 à noite; Vini já logou no TikTok pelo PC. C09 enviado. Montador com autorização permanente do Vini, dada no chat dele. **Os 7 efeitos estão montados** (07/11 madrugada): 4 em análise (C08, C01, C02, C09), 3 prontos esperando a data de envio (C06 20–24/11; C05 e C07 03/12). Montador agora só confere aprovações (9h, 13h e 18h; checagem agendada na sessão dele, só com o PC ligado, expira ~13/11; a nuvem lembra de renovar em 12/11) e faz o D0. Manage Effects ainda inacessível ao Montador (abre numa aba do Chrome fora do controle dele); Analytics do app zerado = nenhum efeito aprovado até 07/11 ~01h UTC. Vídeos e perfil prontos na nuvem.
 
 Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 
