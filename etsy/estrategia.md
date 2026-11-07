@@ -5,6 +5,9 @@ Atualizada em 05/11/2026 (revisão geral). A tarefa de domingo "Cellwise: estrat
 - Aprovação do Vini obrigatória: a criação só manda produtos para a página de aprovação; publicar só o que estiver "aprovado" (regras do Etsy de out/2026 contra anúncios criados por robô).
 - Preço de lançamento: imprimíveis US$ 1,99–2,99; planilhas US$ 2,99–3,99; pacotes até US$ 4,99. Nunca mudar preço já publicado.
 - Produtos em inglês para compradores dos EUA. Nada de marcas, personagens, times ou promessas de resultado.
+- FASE DE AVALIAÇÕES (decisão do Vini, 07/11/2026): o preço baixo é de propósito, para gerar as primeiras vendas e avaliações. Vale até a loja ter 20 vendas e 10 avaliações. Nessa fase os KITS (bundles) são a principal oferta de valor: até 3 por semana (segunda, quarta e sexta, cada um no lugar de 1 produto novo do dia), com 3 a 6 produtos do mesmo público ou problema (ex.: "2027 Budget Bundle": orçamento mensal + dívidas + poupança), capa mostrando "<N>-IN-1 BUNDLE" e quantos arquivos vêm, preço até US$ 4,99 (bem menos que a soma dos produtos soltos). Nunca juntar produtos de públicos diferentes só para completar a cota. Depois do marco, o estrategista propõe ao Vini os novos preços (ele decide).
+- DATAS (decisão do Vini, 07/11/2026): Black Friday e Cyber Monday com 25% de desconto em toda a loja do Etsy de 26/11 a 01/12 (tarefa própria em 24/11). Até 20/12: Natal, presentes e festas. De agora até meados de janeiro, produtos e kits "2027" (planner, orçamento, metas, poupança, dívidas) são prioridade: janeiro é o pico do ano para planner e planilha de orçamento.
+- BRINDE GRÁTIS / LISTA DE E-MAIL (decisão do Vini, 07/11/2026): "Free 2027 Budget Planner" no Payhip, que pede o e-mail para baixar (dados na seção BRINDE no fim deste arquivo). Pode aparecer no YouTube, no Pinterest (até 1 pin por semana, às segundas) e nos e-mails da lista. NUNCA mencione Payhip, brinde ou links de fora nos anúncios, fotos ou arquivos vendidos no Etsy (regra do Etsy).
 
 ## Diagnóstico (05/11/2026)
 - Cerca de 45 anúncios ativos, 3 visitas em 30 dias, 0 vindas da busca do Etsy, 0 favoritos, vendas e avaliações.
@@ -27,5 +30,8 @@ Atualizada em 05/11/2026 (revisão geral). A tarefa de domingo "Cellwise: estrat
 
 ## Próximas semanas
 - 05–15/11: Natal e fim de ano (anfitrião, presentes, biscoitos, orçamento de Natal), planners 2027 e orçamento 2027 para públicos específicos.
-- Pacote (bundle) no máximo 1 por semana (quartas), com produtos que já têm arquivo na página de aprovação.
-- Tráfego externo: Pinterest depende de o Vini criar a conta (pendente).
+- Kits (bundles): até 3 por semana (segunda, quarta e sexta), com produtos que já têm arquivo na página de aprovação. Para a Black Friday (26/11), ter pelo menos 3 kits "2027" no ar.
+- Tráfego externo: Pinterest ativo desde 05/11 (pins diários); brinde grátis no Payhip para formar a lista de e-mail.
+
+## BRINDE
+- Ainda não criado (a tarefa "Cellwise: criar brinde grátis" preenche: url, capa, data).

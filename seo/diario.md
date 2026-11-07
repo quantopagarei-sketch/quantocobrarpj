@@ -63,3 +63,12 @@ Diferenciais a destacar nos títulos/descrições: grátis, sem cadastro, neutro
 3. INDEXAÇÃO ANTES DE VOLUME: não criar novas variações programáticas (/split-payment/pix-NNNN/, /clt-pj/NNNN/) enquanto menos da metade das existentes estiver indexada. Melhorar as páginas fortes e os links internos; títulos/descriptions para CTR com as consultas reais do Search Console.
 4. MEDIÇÃO LIMPA: na validação com Playwright, bloquear abacus.jasoncameron.dev, googletagmanager.com, google-analytics.com e /eventos.js (page.route → abort) para as checagens não contarem como visitas.
 5. PARCERIA: Contabilidade TI (R$ 150 por cliente fechado pelo link utm_source=quantocobrarpj; teste até 03/01/2027). A Nuvem Contábil não é mais parceira. Pedidos do formulário com autorização são encaminhados pelo Plantão à Contabilidade TI.
+
+## PRIORIDADE DO VINI (07/11/2026) — IR 2027 É A PRÓXIMA ONDA (vale depois da meta do split payment)
+- Fato (confirmado em fontes de 2026): a isenção do IR para quem ganha até R$ 5 mil/mês (Lei 15.270) vale desde 01/01/2026, mas o efeito na DECLARAÇÃO só aparece em 2027 (ano-base 2026). A busca deve estourar de março a maio de 2027, e página nova leva meses para entrar no Google.
+- A partir de 16/12/2026 (ou antes, se o conjunto-alvo do split payment estiver pronto), o conteúdo novo prioritário passa a ser o IR 2027, no ritmo de hoje (1 página-guia por execução, respeitando "indexação antes de volume"):
+  1. Guia "Declaração do IR 2027 com a nova isenção até R$ 5 mil": o que muda, quem ainda precisa declarar, exemplos simples (CLT e PJ/pró-labore), fontes oficiais.
+  2. Calculadora "IR 2027: vou pagar ou restituir?" (tabela de 2026 com o redutor até R$ 7.350), com aviso de estimativa e fontes.
+  3. "PJ, MEI e pró-labore: o que muda no IR 2027" (liga com /clt-pj/ e /mei-2027/).
+- Regras da declaração 2027 (prazos, limites de obrigatoriedade) só saem da Receita em fev/mar 2027: até lá, texto neutro ("a Receita ainda vai publicar"), sem cravar datas.
+- Cada página nova entra no sitemap, ganha link da home e de /clt-pj/, e a tarefa do Search Console pede a indexação logo.
