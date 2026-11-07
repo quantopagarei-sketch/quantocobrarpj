@@ -526,11 +526,15 @@ def gerar_extras():
 # preview a frase vira uma faixa fina no meio da bolha. Aqui cada bolha ganha a maior letra que cabe
 # num CÍRCULO (a textura aparece dentro da bolha), com a frase requebrada em até 3 linhas.
 GR_RAIO = 0.44           # toda a tinta, sombra incluída, a no máximo 44% do lado a partir do centro
-GR_SOMBRA_EXT = 9        # quanto a sombra passa da letra, em px de 1x (medido: ~8 dos lados, ~10 embaixo)
+GR_SOMBRA_EXT = 10       # quanto a sombra passa da letra, em px de 1x (medido: ~8 dos lados, ~10 embaixo,
+                         # +1 de folga para o modelo nunca passar do raio no PNG final)
 GR_SOMBRA_DY = 2         # o mesmo deslocamento de para_branco_com_sombra
 GR_MAX_LINHAS = 3
 GR_LONGA = 5             # frase com 5+ blocos pode ir a 4 linhas...
 GR_GANHO_4L = 1.05       # ...mas só se isso aumentar a letra da bolha inteira em 5% ou mais
+# palavras de ligação: evitar que fiquem no fim de uma linha, separadas da palavra que vem depois
+GR_LIGACAO = {"O", "A", "E", "OS", "AS", "NO", "NA", "NOS", "NAS", "DO", "DA", "DOS", "DAS", "DE", "EM",
+              "TE", "QUE"}
 GR_ORIGEM = os.path.join(AQUI, "variantes", "quadrado_512_com_sombra")
 GR_DESTINO = os.path.join(AQUI, "variantes", "quadrado_512_com_sombra_grande")
 GRANDE_INFO = {}         # preenchido por gerar_quadrado_grande (usado na comparação)
@@ -634,6 +638,8 @@ def encostam(linhas, s):
     for l1, l2 in zip(linhas, linhas[1:]):
         f1, f2 = fonte(F_BLACK, tam_linha(l1, s)), fonte(F_BLACK, tam_linha(l2, s))
         b1, b2 = f1.getbbox(l1, anchor="ms"), f2.getbbox(l2, anchor="ms")
+        if (LEAD * s + b2[1]) - b1[3] >= 0.06 * s:      # caixas já afastadas: nem precisa olhar o pixel
+            continue
         W = int(max(b1[2] - b1[0], b2[2] - b2[0]) + 4 * s)
         H, y1 = int(s * 3), s * 1.1
         a = Image.new("L", (W, H), 0)
@@ -641,8 +647,9 @@ def encostam(linhas, s):
         b = Image.new("L", (W, H), 0)
         ImageDraw.Draw(b).text((W / 2, y1 + LEAD * s), l2, font=f2, fill=255, anchor="ms")
         k = 2 * max(1, int(s * 0.05)) + 1
-        a = a.filter(ImageFilter.MaxFilter(k)).point(lambda v: 255 if v > 60 else 0)
-        b = b.point(lambda v: 255 if v > 60 else 0)
+        faixa = (0, max(0, int(y1 + LEAD * s + b2[1]) - k), W, min(H, int(y1 + b1[3]) + k + 1))
+        a = a.crop(faixa).filter(ImageFilter.MaxFilter(k)).point(lambda v: 255 if v > 60 else 0)
+        b = b.crop(faixa).point(lambda v: 255 if v > 60 else 0)
         if ImageChops.multiply(a, b).getbbox() is not None:
             return True
     return False
@@ -679,18 +686,33 @@ def tamanho_grande(itens, geo, s_teto):
 
 
 def quebra_grande(r, s, geo, max_l):
-    """A quebra usada com a letra s: a de MENOS linhas que cabe; empate -> a do redator
-    (linha1/linha2); depois a de mais folga no círculo (a mais equilibrada). Devolve (linhas, t)."""
+    """A quebra usada com a letra s: a de MENOS linhas que cabe; empate -> a que mantém a quebra do
+    redator (linha1 | linha2 é a divisão de sentido: "TIRA / A CNH / DE PRIMEIRA", não
+    "TIRA / A CNH DE / PRIMEIRA"); depois a que não deixa palavra de ligação pendurada no fim da
+    linha; por fim a de mais folga no círculo (a mais equilibrada). Devolve (linhas, t)."""
     orig = [l for l in (r["linha1"], r["linha2"]) if l]
+    quebra_redator = len(r["linha1"].split())          # nº de palavras antes da quebra original
+    # se a linha1 do redator termina em palavra de ligação ("SOFRE ATÉ A"), a quebra foi só por largura
+    quebra_de_sentido = r["linha1"].split()[-1] not in GR_LIGACAO
+
+    def mantem(linhas):
+        if len(linhas) <= 2:
+            return len(linhas) == 1 or linhas == orig
+        n, pontos = 0, set()
+        for l in linhas[:-1]:
+            n += len(l.split())
+            pontos.add(n)
+        return not quebra_de_sentido or quebra_redator in pontos
     cands = []
     for linhas in quebras(blocos_frase(r), max_l):
         pos = bloco_no_circulo(linhas, s, *geo)
         if pos is not None and not encostam(linhas, s):
-            cands.append((len(linhas), linhas != orig, -pos[1], linhas, pos[0]))
+            penduradas = sum(l.split()[-1] in GR_LIGACAO for l in linhas[:-1])
+            cands.append((len(linhas), not mantem(linhas), penduradas, -pos[1], linhas, pos[0]))
     if not cands:
         raise SystemExit(f"ERRO: {r['arquivo']} não coube com letra {s / S} px")
-    cands.sort(key=lambda c: c[:3])
-    return cands[0][3], cands[0][4]
+    cands.sort(key=lambda c: c[:4])
+    return cands[0][4], cands[0][5]
 
 
 def mascara_linhas(linhas, N, s, t):
@@ -742,7 +764,8 @@ def gerar_quadrado_grande(destino=GR_DESTINO, origem=GR_ORIGEM, sombra=True, lad
         shutil.copyfile(os.path.join(origem, nome), os.path.join(destino, nome))
         REGISTRO.append((os.path.relpath(os.path.join(destino, nome), AQUI), Image.open(
             os.path.join(destino, nome)).size, os.path.getsize(os.path.join(destino, nome)) / 1024))
-    return {b: (v["fonte_px"], v["raio_max_px"]) for b, v in GRANDE_INFO.items()}
+    return {b: f"{v['fonte_px']:g} px, raio {v['raio_max_px']} px, quem limita: "
+               + ", ".join(os.path.basename(f) for f in v["limitante"]) for b, v in GRANDE_INFO.items()}
 
 
 # ------------------------------------------------------------------ ícone colorido (formulário)
@@ -1128,15 +1151,150 @@ def gerar_previa():
     return folha.size
 
 
+# ------------------------------------------------------------------ comparação antes x depois (pasta _grande)
+# 1ª amostra de cada bolha = a que aparece em 512 px (a que limita a letra, ou a do relato do preview)
+GR_AMOSTRAS = {
+    "amor": ["respostas_amor/amor_02.png", "respostas_amor/amor_06.png", "respostas_amor/amor_07.png"],
+    "grana": ["respostas_grana/grana_01.png", "respostas_grana/grana_04.png", "respostas_grana/grana_02.png"],
+    "futebol": ["respostas_futebol/futebol_03.png", "respostas_futebol/futebol_06.png",
+                "respostas_futebol/futebol_08.png"],
+    "carro": ["respostas_carro/carro_04.png", "respostas_carro/carro_01.png", "respostas_carro/carro_05.png"],
+}
+GR_CORES = {"amor": ROSA, "grana": AMARELO, "futebol": CIANO, "carro": VERDE_LIMA}
+
+
+def medir_tinta(img):
+    """Altura e largura (px) da tinta: com sombra (alfa > 8) e só das letras (branco pré-multiplicado > 50%)."""
+    a = img.getchannel("A")
+    branco = ImageChops.multiply(img.getchannel("R"), a)
+    b1, b2 = caixa_tinta(a), caixa_tinta(branco, 127)
+    return {"alt": b1[3] - b1[1], "larg": b1[2] - b1[0], "alt_letra": b2[3] - b2[1], "larg_letra": b2[2] - b2[0]}
+
+
+def bolha_cmp(resp, cor, D, tipo, guia=False):
+    """Resposta (tingida como no template) dentro de um círculo do tamanho da textura, sobre fundo
+    de 'foto' clara ou escura. guia=True desenha o limite de segurança (GR_RAIO) pontilhado."""
+    K = 3
+    G = D * K
+    out = Image.new("RGBA", (G, G))
+    d = ImageDraw.Draw(out)
+    for y in range(G):
+        t = y / (G - 1)
+        c = ((int(196 + 50 * t), int(226 + 20 * t), 255) if tipo == "clara"
+             else (int(20 + 22 * t), int(14 + 12 * t), int(44 + 34 * t)))
+        d.line((0, y, G, y), fill=c + (255,))
+    camada = Image.new("RGBA", (G, G), (0, 0, 0, 0))
+    dc = ImageDraw.Draw(camada)
+    m = G * 0.006
+    dc.ellipse((m, m, G - m, G - m), fill=(255, 255, 255, 30), outline=(255, 255, 255, 170),
+               width=max(K, int(G * 0.012)))
+    if guia:
+        r = GR_RAIO * G
+        for k in range(0, 360, 6):
+            dc.arc((G / 2 - r, G / 2 - r, G / 2 + r, G / 2 + r), k, k + 2.5, fill=(255, 70, 70, 210), width=K * 2)
+    out.alpha_composite(camada)
+    out = reduzir(out, (D, D))
+    out.alpha_composite(reduzir(tingir(resp, cor), (D, D)))
+    return out
+
+
+def gerar_comparacao_grande(depois_dir=GR_DESTINO, antes_dir=GR_ORIGEM,
+                            saida=os.path.join(AQUI, "variantes", "comparacao_grande.png")):
+    """Folha de conferência: por bolha, amostras antes (quadrado_512_com_sombra) x depois (_grande)
+    em 512, 200 e 120 px, em fundo escuro e claro. Devolve as medidas por bolha."""
+    s_antes = layout_respostas(itens_respostas(), 512 * S, 512 * S, 56 * S, 150 * S, s_max=512 * S)[0] / S
+    W, M = 2268, 50
+    folha = Image.new("RGBA", (W, 6000), (246, 243, 250, 255))
+    d = ImageDraw.Draw(folha)
+    y = 36
+    d.text((M, y), "C05 · respostas quadradas: antes x depois (quadrado_512_com_sombra → quadrado_512_com_sombra_grande)",
+           font=fonte(F_BLACK, 40), fill=AMEIXA)
+    y += 60
+    for txt in ("Antes: 48 px para todas as bolhas, sempre em 2 linhas (faixa fina no meio). Depois: a maior letra que "
+                "cabe no círculo, uma por bolha (as 8 respostas iguais), até 3 linhas, quebra só entre palavras.",
+                "Cada textura 512×512 aparece inteira dentro do círculo, tingida como o template faz (sombra continua "
+                "preta). Pontilhado vermelho (só nos de 512 px) = limite de segurança: 44% do lado a partir do centro.",
+                "Tamanhos: 512 px = textura real; 200 e 120 px ≈ a bolha na tela do celular."):
+        d.text((M, y), txt, font=fonte(F_MED, 20), fill=(90, 76, 110))
+        y += 30
+    y += 20
+    medidas = {}
+    for b in ORDEM_BOLHAS:
+        cor = GR_CORES[b]
+        rot = next(t["rotulo"] for t in TEXTOS["bolhas"] if t["id"] == b)
+        arqs = [r["arquivo"] for r in TEXTOS["resultados"] + TEXTOS["reservas"] if r["bolha"] == b]
+        ma = [medir_tinta(Image.open(os.path.join(antes_dir, f)).convert("RGBA")) for f in arqs]
+        md = [medir_tinta(Image.open(os.path.join(depois_dir, f)).convert("RGBA")) for f in arqs]
+        med = {k: (sum(x[k] for x in ma) / len(ma), sum(x[k] for x in md) / len(md)) for k in ma[0]}
+        s_dep = GRANDE_INFO[b]["fonte_px"] if b in GRANDE_INFO else None
+        medidas[b] = {"fonte": (s_antes, s_dep), **med}
+        cab = f"{rot} · respostas_{b}/"
+        if s_dep:
+            cab += (f" · letra {s_antes:g} → {s_dep:g} px (+{100 * (s_dep / s_antes - 1):.0f}%)").replace(".", ",")
+        d.text((M, y), cab, font=fonte(F_BLACK, 32), fill=AMEIXA)
+        y += 44
+        ganho = f"{med['alt'][1] / med['alt'][0]:.2f}".replace(".", ",")
+        d.text((M, y), f"altura da tinta com sombra, média das {len(arqs)} artes (respostas + reservas): "
+                       f"{med['alt'][0]:.0f} → {med['alt'][1]:.0f} px (×{ganho})   ·   "
+                       f"só as letras: {med['alt_letra'][0]:.0f} → {med['alt_letra'][1]:.0f} px", font=fonte(F_MED, 19),
+               fill=(90, 76, 110))
+        y += 34
+        amostras = GR_AMOSTRAS[b]
+        txt0 = next(r["texto"] for r in TEXTOS["resultados"] if r["arquivo"] == amostras[0])
+        antes = {f: Image.open(os.path.join(antes_dir, f)).convert("RGBA") for f in amostras}
+        depois = {f: Image.open(os.path.join(depois_dir, f)).convert("RGBA") for f in amostras}
+        # linha de 512 px: 1ª amostra, escuro e claro
+        x = M
+        for tipo, nome_f in (("escura", "fundo escuro"), ("clara", "fundo claro")):
+            for img, qual in ((antes, "ANTES"), (depois, "DEPOIS")):
+                d.text((x, y), f"{qual} · 512 px · {nome_f} · {os.path.basename(amostras[0])}",
+                       font=fonte(F_BOLD, 18), fill=AMEIXA if qual == "DEPOIS" else (110, 96, 130))
+                folha.alpha_composite(bolha_cmp(img[amostras[0]], cor, 512, tipo, guia=True), (x, y + 28))
+                x += 512 + 40
+        y += 28 + 512 + 22
+        d.text((M, y - 8), f"“{txt0}”", font=fonte(F_MED, 17), fill=(110, 96, 130))
+        y += 22
+        # linhas de 200 e 120 px: 3 amostras
+        for tipo in ("escura", "clara"):
+            x = M
+            for f in amostras:
+                x0 = x
+                for D_, gap in ((200, 20), (120, 64)):
+                    for img, qual in ((antes, "antes"), (depois, "depois")):
+                        d.text((x, y + (200 - D_)), f"{qual} {D_}", font=fonte(F_MED, 15), fill=(110, 96, 130))
+                        folha.alpha_composite(bolha_cmp(img[f], cor, D_, tipo), (x, y + 22 + (200 - D_)))
+                        x += D_ + 10
+                    x += gap - 10
+                txt = next(r["texto"] for r in TEXTOS["resultados"] if r["arquivo"] == f)
+                d.text((x0, y + 22 + 200 + 6), f"{os.path.basename(f)} · {txt} · fundo "
+                                               f"{'escuro' if tipo == 'escura' else 'claro'}",
+                       font=fonte(F_MED, 15), fill=(110, 96, 130))
+            y += 22 + 200 + 34
+        y += 30
+    folha = folha.crop((0, 0, W, y))
+    os.makedirs(os.path.dirname(saida), exist_ok=True)
+    folha.convert("RGB").save(saida, optimize=True)
+    return medidas
+
+
 # ------------------------------------------------------------------ main
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--resposta", help="gera também respostas num tamanho sob medida, ex.: 512x256")
     ap.add_argument("--sem-previa", action="store_true")
+    ap.add_argument("--so-grande", action="store_true",
+                    help="refaz só variantes/quadrado_512_com_sombra_grande/ e variantes/comparacao_grande.png")
     a = ap.parse_args()
 
     glifos = conferir_glifos()
     print("glifos conferidos:", glifos)
+
+    if a.so_grande:
+        print("quadrado_512_com_sombra_grande:", gerar_quadrado_grande())
+        if not a.sem_previa:
+            gerar_comparacao_grande()
+            print("variantes/comparacao_grande.png gerada")
+        return
 
     info = gerar_conjunto(AQUI, (512, 128), (512, 256), (1024, 512), False, (16, 8))
     print("principal:", info)
@@ -1146,6 +1304,7 @@ def main():
                                           (512, 512), (512, 512), (512, 512), False, (56, 150)))
     print("quadrado_512_com_sombra:", gerar_conjunto(os.path.join(AQUI, "variantes", "quadrado_512_com_sombra"),
                                                      (512, 512), (512, 512), (512, 512), True, (56, 150)))
+    print("quadrado_512_com_sombra_grande:", gerar_quadrado_grande())
     gerar_extras()
     if a.resposta:
         rw, rh = (int(v) for v in a.resposta.lower().split("x"))
@@ -1162,6 +1321,8 @@ def main():
 
     if not a.sem_previa:
         print("previa.png:", gerar_previa())
+        gerar_comparacao_grande()
+        print("variantes/comparacao_grande.png gerada")
 
     total = sum(kb for rel, _, kb in REGISTRO if not rel.startswith("variantes") and not rel.startswith("icone")
                 and not rel.startswith("reservas"))

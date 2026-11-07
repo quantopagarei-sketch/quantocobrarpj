@@ -39,6 +39,14 @@ Para refazer tudo, rode `python3 gerar.py`. O script lê os textos de `../textos
 - Para texturas quadradas: `variantes/quadrado_512_com_sombra/`.
 - Na versão com sombra a letra das respostas é 47,5 px, 2 px menor, para a sombra caber sem cortar.
 
+## Letra pequena dentro da bolha (texturas quadradas)
+
+Se você usa `variantes/quadrado_512_com_sombra/` e as respostas ficam pequenas no Preview (2 linhas finas no meio da bolha), use `variantes/quadrado_512_com_sombra_grande/`.
+- Mesma estrutura e mesmos nomes. `titulo.png` e `bolha_*.png` são cópias idênticas, então a pasta substitui a outra inteira.
+- Cada bolha tem a maior letra que cabe no círculo: AMOR 67 px, GRANA 66,5 px, FUTEBOL 63 px, CARRO 72,5 px (antes eram 48 px em todas). As respostas de uma bolha têm todas a mesma letra, então o sorteio não "pula". A frase pode ir para 3 linhas, quebrando só entre palavras, com o texto igual ao `textos.json`. Toda a tinta, sombra incluída, fica dentro de 44% do lado, contado a partir do centro.
+- A regra da pasta continua: troque **as 8 respostas da bolha de uma vez** (a sequência inteira) e nunca misture quadros de pastas diferentes na mesma sequência. O melhor é usar a pasta para as 3 bolhas. As reservas desta pasta já saem com a letra da bolha delas.
+- Antes x depois em 512, 200 e 120 px, em fundo claro e escuro: `variantes/comparacao_grande.png`. Para refazer só esta pasta: `python3 gerar.py --so-grande`. Esta pasta só existe com sombra; para a versão sem sombra, peça à equipe da nuvem.
+
 ## O que NÃO entra (ou só entra se precisar)
 
 | Arquivo | Uso |
