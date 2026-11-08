@@ -1,4 +1,9 @@
-"""Generic large-print word search book engine. Usage: python3 engine.py <bookdir>
+"""Generic large-print word search book engine.
+Usage: python3 engine.py <bookdir>                -> paperback 8.5x11 (<base>_INTERIOR.pdf, <base>_COVER.pdf)
+       python3 engine.py <bookdir> --hardcover    -> hardcover 8.25x11, 80 pages (<base>_HC_INTERIOR.pdf, <base>_HC_COVER.pdf)
+       python3 engine.py <bookdir> --hardcover --cover W H S
+           W,H = total cover size and S = spine width in inches from KDP's cover calculator
+           (if KDP rejects the cover size, regenerate with the exact numbers KDP shows).
 bookdir must contain config.py with: THEMES, BOOK (dict)."""
 import sys, os, json, math, random, importlib.util, re
 from reportlab.pdfgen import canvas
@@ -96,6 +101,11 @@ def generate(themes, seed):
 # ---------------- drawing ----------------
 W, H = 8.5*inch, 11*inch
 M = 0.75*inch
+HC = False  # hardcover mode
+
+def set_hardcover():
+    global W, M, HC
+    W, M, HC = 8.25*inch, 0.62*inch, True
 
 def centered(c, txt, y, font, size, color=black, x=None):
     c.setFillColor(color); c.setFont(font, size); c.drawCentredString(W/2 if x is None else x, y, txt)
@@ -201,17 +211,22 @@ def build_interior(B, P, out):
     centered(c, "Solutions", H/2+0.2*inch, "SerifB", 40)
     ornament(c, B["ornament"], W/2, H/2-0.8*inch, 24, grey)
     page_number(c, page); c.showPage(); page += 1
-    scell = 0.235*inch; gw = N*scell
-    positions = [(M+0.1*inch, H-M-0.45*inch), (W-M-0.1*inch-gw, H-M-0.45*inch),
-                 (M+0.1*inch, H/2-0.15*inch), (W-M-0.1*inch-gw, H/2-0.15*inch)]
-    for start in range(0, len(P), 4):
+    if HC:  # bigger solution grids, 2 per page (also brings the book to 80 pages, KDP hardcover minimum is 75)
+        scell = 0.3*inch; gw = N*scell; sfs = 12.5
+        positions = [((W-gw)/2, H-M-0.35*inch), ((W-gw)/2, H/2-0.35*inch)]
+    else:
+        scell = 0.235*inch; gw = N*scell; sfs = 9.5
+        positions = [(M+0.1*inch, H-M-0.45*inch), (W-M-0.1*inch-gw, H-M-0.45*inch),
+                     (M+0.1*inch, H/2-0.15*inch), (W-M-0.1*inch-gw, H/2-0.15*inch)]
+    per = len(positions)
+    for start in range(0, len(P), per):
         for j, (x, yt) in enumerate(positions):
             k = start + j
             if k >= len(P): break
             p = P[k]; lbl = f"{k+1}. {p['title']}"
-            c.setFont("SansB", fit_size(lbl, "SansB", 12, gw+0.3*inch)); c.setFillColor(black)
+            c.setFont("SansB", fit_size(lbl, "SansB", 14 if HC else 12, gw+0.3*inch)); c.setFillColor(black)
             c.drawCentredString(x+gw/2, yt+0.15*inch, lbl)
-            draw_grid(c, p["grid"], x, yt-0.05*inch, scell, 9.5, placed=p["placed"], words=p["words"])
+            draw_grid(c, p["grid"], x, yt-0.05*inch, scell, sfs, placed=p["placed"], words=p["words"])
         page_number(c, page); c.showPage(); page += 1
     # thank you
     centered(c, "Thank You!", 7.2*inch, "SerifB", 40)
@@ -224,10 +239,24 @@ def build_interior(B, P, out):
     if (page-1) % 2: c.showPage(); page += 1
     c.save(); return page-1
 
-def build_cover(B, pages, out):
-    BLEED = 0.125*inch; TW, TH = 8.5*inch, 11*inch
-    SPINE = pages*0.002252*inch
-    CW, CH = 2*BLEED + 2*TW + SPINE, TH + 2*BLEED
+def build_cover(B, pages, out, override=None):
+    if HC:
+        # Case laminate: 0.591in wrap, board = trim + 0.197in (w) / + 0.236in (h),
+        # spine = pages*0.002252 + 0.189in (matches KDP cover calculator; override with its exact numbers)
+        TW, TH = 8.25*inch, 11*inch; OUT = 0.591*inch
+        PW = TW + 0.197*inch
+        SPINE = (pages*0.002252 + 0.189)*inch
+        CW, CH = 2*OUT + 2*PW + SPINE, 2*OUT + TH + 0.236*inch
+        if override:
+            CW, CH, SPINE = override[0]*inch, override[1]*inch, override[2]*inch
+            PW = (CW - SPINE)/2 - OUT
+        SAFE = 0.75*inch  # text kept >= 0.635in from the board edge and clear of the 0.4in hinge
+    else:
+        TW, TH = 8.5*inch, 11*inch; OUT = 0.125*inch; PW = TW
+        SPINE = pages*0.002252*inch
+        CW, CH = 2*OUT + 2*TW + SPINE, TH + 2*OUT
+        SAFE = 0.45*inch
+    BLEED = (CH - TH)/2  # vertical offset of the 11in design area
     bg = Color(*B["cover_bg"]); dark = Color(*B["cover_dark"]); band = Color(*B["cover_band"])
     gold = Color(*B["cover_gold"]); cream = Color(0.99,0.97,0.92); deco = Color(1,1,1,alpha=0.16)
     c = canvas.Canvas(out, pagesize=(CW, CH))
@@ -235,13 +264,13 @@ def build_cover(B, pages, out):
     rng = random.Random(7)
     for _ in range(B.get("cover_deco_count", 70)):
         ornament(c, B["ornament"], rng.uniform(0, CW), rng.uniform(0, CH), rng.uniform(6, 24), deco)
-    fx = BLEED + TW + SPINE; cx = fx + TW/2
-    c.setFillColor(band); c.rect(fx, BLEED+9.0*inch, TW+BLEED, 1.0*inch, stroke=0, fill=1)
+    fx = OUT + PW + SPINE; cx = fx + PW/2
+    c.setFillColor(band); c.rect(fx, BLEED+9.0*inch, PW+OUT, 1.0*inch, stroke=0, fill=1)
     centered(c, "LARGE PRINT", BLEED+9.33*inch, "SansB", 40, white, x=cx)
     y = BLEED + 7.65*inch
     for txt, size, colr in B["cover_lines"]:
         font = "SerifB" if colr != "gold" else "Serif"
-        s = fit_size(txt, font, size, TW-0.9*inch)
+        s = fit_size(txt, font, size, PW-2*SAFE)
         centered(c, txt, y, font, s, gold if colr=="gold" else white, x=cx); y -= max(s*0.9, 0.75*inch)
     # mini grid
     gsz, cell = 7, 0.42*inch
@@ -256,33 +285,41 @@ def build_cover(B, pages, out):
             if r == 3 and col < len(hw): ch = hw[col]
             c.setFillColor(dark); c.setFont("SansB", 18)
             c.drawCentredString(gx0+(col+0.5)*cell, gy0+(gsz-1-r)*cell+cell*0.32, ch)
-    bx, by = fx + TW - 1.25*inch, BLEED + 4.75*inch
+    bx, by = fx + PW - (SAFE + 0.85*inch if HC else 1.25*inch), BLEED + 4.75*inch
     c.setFillColor(band); c.circle(bx, by, 0.85*inch, stroke=0, fill=1)
     c.setStrokeColor(gold); c.setLineWidth(3); c.circle(bx, by, 0.77*inch, stroke=1, fill=0)
     centered(c, "50", by+0.02*inch, "SansB", 34, white, x=bx)
     centered(c, "PUZZLES", by-0.28*inch, "SansB", 13, white, x=bx)
-    centered(c, "Big, Easy-to-Read Letters • Solutions Included", BLEED+1.55*inch, "Sans", 19, white, x=cx)
+    tl = "Big, Easy-to-Read Letters • Solutions Included"
+    centered(c, tl, BLEED+1.55*inch, "Sans", fit_size(tl, "Sans", 19, PW-2*SAFE), white, x=cx)
     centered(c, B["publisher"], BLEED+0.85*inch, "Sans", 14, gold, x=cx)
     # back
-    bcx = BLEED + TW/2
-    c.setFillColor(cream); c.roundRect(BLEED+0.9*inch, BLEED+3.2*inch, TW-1.8*inch, 6.4*inch, 18, stroke=0, fill=1)
+    bcx = OUT + PW/2; bx0 = bcx - TW/2
+    c.setFillColor(cream); c.roundRect(bx0+0.9*inch, BLEED+3.2*inch, TW-1.8*inch, 6.4*inch, 18, stroke=0, fill=1)
     y = BLEED+8.7*inch
     for ln in B["back_head"]:
         centered(c, ln, y, "SerifB", 30, dark, x=bcx); y -= 0.55*inch
     y = BLEED+7.4*inch; c.setFillColor(dark); c.setFont("Sans", 15)
     for ln in B["back_body"]:
-        c.drawString(BLEED+1.35*inch, y, ln); y -= 0.3*inch
+        if HC: ln = ln.replace("8.5 x 11", "8.25 x 11").replace("8.5x11", "8.25x11")
+        c.drawString(bx0+1.35*inch, y, ln); y -= 0.3*inch
     c.save()
 
 if __name__ == "__main__":
     d = sys.argv[1]
+    override = None
+    if "--hardcover" in sys.argv:
+        set_hardcover()
+        if "--cover" in sys.argv:
+            i = sys.argv.index("--cover"); override = [float(v) for v in sys.argv[i+1:i+4]]
     spec = importlib.util.spec_from_file_location("cfg", os.path.join(d, "config.py"))
     cfg = importlib.util.module_from_spec(spec); spec.loader.exec_module(cfg)
     probs = check(cfg.THEMES)
     if probs: print("PROBLEMS:", probs); sys.exit(1)
     P = generate(cfg.THEMES, cfg.BOOK["seed"])
     json.dump(P, open(os.path.join(d, "puzzles.json"), "w"))
-    base = cfg.BOOK["file_base"]
+    base = cfg.BOOK["file_base"] + ("_HC" if HC else "")
     pages = build_interior(cfg.BOOK, P, os.path.join(d, base+"_INTERIOR.pdf"))
-    build_cover(cfg.BOOK, pages, os.path.join(d, base+"_COVER.pdf"))
-    print("OK pages", pages)
+    if HC and pages < 75: raise SystemExit(f"hardcover needs 75+ pages, got {pages}")
+    build_cover(cfg.BOOK, pages, os.path.join(d, base+"_COVER.pdf"), override)
+    print("OK", "hardcover" if HC else "paperback", "pages", pages)

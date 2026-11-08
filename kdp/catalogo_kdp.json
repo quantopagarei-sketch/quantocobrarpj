@@ -9,7 +9,10 @@
    "status": "publicado",
    "data_publicacao": "2026-11-02",
    "kdp_id": "RWTNYVXS4DG",
-   "sazonal": "natal"
+   "sazonal": "natal",
+   "capa_dura": {
+    "status": "pendente"
+   }
   },
   {
    "n": 2,
@@ -18,7 +21,10 @@
    "status": "publicado",
    "data_publicacao": "2026-11-02",
    "kdp_id": "05GR44PV394",
-   "sazonal": "inverno/ano novo"
+   "sazonal": "inverno/ano novo",
+   "capa_dura": {
+    "status": "pendente"
+   }
   },
   {
    "n": 3,
@@ -39,7 +45,10 @@
    "status": "publicado",
    "sazonal": "nao",
    "data_publicacao": "2026-11-08",
-   "kdp_id": "68JRJCYZB5A"
+   "kdp_id": "68JRJCYZB5A",
+   "capa_dura": {
+    "status": "pendente"
+   }
   },
   {
    "n": 4,
@@ -62,7 +71,10 @@
    "obs": "pauta.json nao existia; tema perene escolhido pela Producao | 08/11/2026: publicado, 'In review', ISBN 9798140988616, US$ 9.99, sem Expanded Distribution.",
    "kdp_id": "C689AKT73D4",
    "isbn": "9798140988616",
-   "data_publicacao": "2026-11-08"
+   "data_publicacao": "2026-11-08",
+   "capa_dura": {
+    "status": "pendente"
+   }
   },
   {
    "n": 5,
@@ -83,7 +95,10 @@
    "idioma": "en",
    "status": "pronto_aguardando_limite",
    "sazonal": "nao",
-   "obs": "pauta.json nao existia; tema perene escolhido pela Producao"
+   "obs": "pauta.json nao existia; tema perene escolhido pela Producao",
+   "capa_dura": {
+    "status": "aguardando_paperback"
+   }
   },
   {
    "n": 6,
@@ -104,7 +119,10 @@
    "idioma": "en",
    "status": "pronto_aguardando_limite",
    "sazonal": "nao",
-   "obs": "pauta.json nao existia; tema perene escolhido pela Producao; revisor aprovou em 08/11/2026"
+   "obs": "pauta.json nao existia; tema perene escolhido pela Producao; revisor aprovou em 08/11/2026",
+   "capa_dura": {
+    "status": "aguardando_paperback"
+   }
   }
  ],
  "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
@@ -128,7 +146,8 @@
   {
    "data": "2026-11-08",
    "evento": "Producao: livro6 (Dogs) criado e aprovado pelo revisor. livro4 (Birds) publicado (C689AKT73D4, In review) — o Chrome caiu no meio e a publicacao foi concluida ao retomar. Fila: 5, 6."
-  }
+  },
+  "08/11/2026: Vini aprovou capa dura (Natal primeiro, por causa da Black Friday/Natal). engine.py ganhou --hardcover; livro1/config.py criado para gerar a capa dura do Natal."
  ],
  "pendencias": "kdp/pauta.json ainda não existe (a Pesquisa de Mercado cria no sábado). Push no GitHub falhou na execução agendada de 08/11 (repo fora das fontes da tarefa).",
  "fila_ordem": [
@@ -139,5 +158,17 @@
   "ultimo_bloqueio_utc": "2026-11-01",
   "publicados_na_semana": 2,
   "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília). | Semana de 08/11: livro3 (manual) e livro4 publicados."
+ },
+ "regras_capa_dura": "Capa dura (decisão do Vini 08/11/2026): versão hardcover de cada livro publicado, com o MESMO título e autor (a Amazon junta na mesma página do paperback). python3 kdp/engine.py kdp/livroN --hardcover gera <file_base>_HC_INTERIOR.pdf (8.25x11, 80 páginas, soluções 2 por página) e <file_base>_HC_COVER.pdf (case laminate). Se o KDP recusar o tamanho da capa, rode de novo com --cover <largura> <altura> <lombada> em polegadas, exatamente como o KDP mostrar. Preço US$ 19.99 (Amazon.com), free KDP ISBN, black & white, white paper, no bleed, Large-print. Na descrição troque '8.5 x 11' por '8.25 x 11'. Limite próprio: 2 capas duras por semana, separado do paperback.",
+ "fila_capa_dura": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "limite_semanal_capa_dura": {
+  "ultimo_bloqueio_utc": "",
+  "publicados_na_semana": 0,
+  "semana_utc": "2026-11-08"
  }
 }
