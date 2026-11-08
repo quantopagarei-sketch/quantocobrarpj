@@ -35,3 +35,4 @@ Atualizada em 05/11/2026 (revisão geral). A tarefa de domingo "Cellwise: estrat
 
 ## BRINDE
 - Ainda não criado (a tarefa "Cellwise: criar brinde grátis" preenche: url, capa, data).
+- Tentativas sem sucesso: 07/11/2026 (14h23, horário agendado) e 08/11/2026 (01h, disparo manual). Em 08/11 a tarefa rodou na nuvem sem acesso ao computador do Vini: as ferramentas do Claude in Chrome não existiam na sessão (a tarefa não tem "Require this computer" ligado). Remarcada 1 vez para 09/11/2026 às 14h23. Vini avisado por push em 08/11: ligar "Require this computer" na tarefa, no app Claude do PC. Se falhar de novo, não remarcar: avisar o Vini.
