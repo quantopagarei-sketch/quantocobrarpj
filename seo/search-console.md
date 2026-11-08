@@ -11,7 +11,7 @@ Dados reais do Google (propriedade sc-domain:quantocobrarpj.com.br). Atualizado 
 | Últimos 28 dias | 2 | 211 | 0,9% | 7,7 |
 | Últimos 7 dias | 2 | 210 | 1,0% | 7,7 |
 
-Dados do Google vão até 05/11/2026 (atraso normal de ~2-3 dias). Subiu de 140 para 210 impressões em 7 dias.
+Dados do Google vão até 05/11/2026 (atraso normal de ~2-3 dias). Reconferido na reexecução manual de 08/11 (Chrome do PC): números iguais, relatório de Indexação ainda em processamento. Subiu de 140 para 210 impressões em 7 dias.
 
 ### Consultas (28 dias)
 
@@ -42,7 +42,7 @@ O relatório "Indexação das páginas" ainda mostra "Dados em processamento: vo
 
 Pela Inspeção de URL hoje:
 - Indexadas (13 conhecidas): /, /clt-pj/, /split-payment/, /mei-2027/, /clt-pj/5000/ (tem impressão) e as 8 pedidas em 05/11, todas confirmadas hoje: /13-salario-pj/, /quanto-cobrar-por-hora/, /split-payment/como-calcular/, /guia-split-payment/, /mei-passou-do-limite/, /split-payment/pix-1000/, /pix-5000/, /pix-10000/.
-- Não indexadas ("O Google não reconhece o URL") conferidas hoje: 8 — /split-payment/pix-2000/, /pix-3000/, /pix-20000/, /relatorio-mensal-mei/, /clt-pj/3000/, /clt-pj/4000/, /clt-pj/10000/, /clt-pj/2000/ (todas pedidas hoje).
+- Não indexadas ("O Google não reconhece o URL") conferidas hoje: 10 — /split-payment/pix-2000/, /pix-3000/, /pix-20000/, /relatorio-mensal-mei/, /clt-pj/3000/, /clt-pj/4000/, /clt-pj/10000/, /clt-pj/2000/, /clt-pj/6000/, /clt-pj/8000/ (todas pedidas hoje).
 - Resto do sitemap (≈29 páginas /clt-pj/NNNN/, /sobre/, /privacidade/, /incorporar/) não conferido.
 
 ### Sitemaps
@@ -59,6 +59,8 @@ https://quantocobrarpj.com.br/sitemap.xml — Processado (sem erro). Enviado 30/
 - https://quantocobrarpj.com.br/clt-pj/4000/ — 08/11/2026 — indexação solicitada
 - https://quantocobrarpj.com.br/clt-pj/10000/ — 08/11/2026 — indexação solicitada
 - https://quantocobrarpj.com.br/clt-pj/2000/ — 08/11/2026 — indexação solicitada
+- https://quantocobrarpj.com.br/clt-pj/6000/ — 08/11/2026 — indexação solicitada (reexecução manual; 9º pedido do dia)
+- https://quantocobrarpj.com.br/clt-pj/8000/ — 08/11/2026 — indexação solicitada (reexecução manual; 10º pedido do dia — cota do dia usada)
 
 
 - https://quantocobrarpj.com.br/13-salario-pj/ — 05/11/2026 — indexação solicitada → indexada (conferido 08/11)
@@ -72,11 +74,11 @@ https://quantocobrarpj.com.br/sitemap.xml — Processado (sem erro). Enviado 30/
 
 Antes (registrado em seo/diario.md): 30/10/2026 — /split-payment/, /mei-2027/, /clt-pj/, /clt-pj/5000/.
 
-Próximas na fila (não pedidas ainda): demais /clt-pj/NNNN/ (6000, 8000, 15000, 20000, 2500, 3500, 4500, 7000, 12000…), /sobre/.
+Próximas na fila (não pedidas ainda): demais /clt-pj/NNNN/ (15000, 20000, 2500, 3500, 4500, 7000, 12000…), /sobre/.
 
 ## Histórico
 
 | Data | Cliques 7d | Impressões 7d | Indexadas | Não indexadas |
 |---|---|---|---|---|
 | 05/11/2026 | 2 | 140 | 4 (inspeção; relatório em processamento) | 8 conferidas (relatório em processamento) |
-| 08/11/2026 | 2 | 210 | 13 (inspeção; relatório em processamento) | 8 conferidas (relatório em processamento) |
+| 08/11/2026 | 2 | 210 | 13 (inspeção; relatório em processamento) | 10 conferidas (relatório em processamento) |
