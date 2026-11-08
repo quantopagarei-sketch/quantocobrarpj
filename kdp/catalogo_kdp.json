@@ -1,174 +1,217 @@
 {
- "conta": "Amazon KDP do Vini, autor/editora: Cozy Pine Press (first name 'Cozy Pine', last name 'Press')",
- "regras": "Paperback 8.5x11, B&W white paper, no bleed, glossy, free KDP ISBN, worldwide, US$ 9.99, Large-print marcado, AI disclosure: Texts=Entire work minimal editing (Claude), Images=One or a few minimal editing (Claude), Translations=None. Expanded distribution desmarcada.",
- "livros": [
-  {
-   "n": 1,
-   "pasta": "livro1",
-   "titulo": "Large Print Christmas Word Search for Adults",
-   "status": "publicado",
-   "data_publicacao": "2026-11-02",
-   "kdp_id": "RWTNYVXS4DG",
-   "sazonal": "natal",
-   "capa_dura": {
-    "status": "pendente"
-   }
+  "conta": "Amazon KDP do Vini, autor/editora: Cozy Pine Press (first name 'Cozy Pine', last name 'Press')",
+  "regras": "Paperback 8.5x11, B&W white paper, no bleed, glossy, free KDP ISBN, worldwide, US$ 9.99, Large-print marcado, AI disclosure: Texts=Entire work minimal editing (Claude), Images=One or a few minimal editing (Claude), Translations=None. Expanded distribution desmarcada.",
+  "livros": [
+    {
+      "n": 1,
+      "pasta": "livro1",
+      "titulo": "Large Print Christmas Word Search for Adults",
+      "status": "publicado",
+      "data_publicacao": "2026-11-02",
+      "kdp_id": "RWTNYVXS4DG",
+      "sazonal": "natal",
+      "capa_dura": {
+        "status": "publicado",
+        "data_publicacao": "2026-11-08",
+        "kdp_id": "RWTNYVXS4DG",
+        "isbn": "9798141074882",
+        "preco": 19.99
+      }
+    },
+    {
+      "n": 2,
+      "pasta": "livro2",
+      "titulo": "Large Print Winter Word Search for Adults",
+      "status": "publicado",
+      "data_publicacao": "2026-11-02",
+      "kdp_id": "05GR44PV394",
+      "sazonal": "inverno/ano novo",
+      "capa_dura": {
+        "status": "publicado",
+        "data_publicacao": "2026-11-08",
+        "kdp_id": "05GR44PV394",
+        "isbn": "9798141077098",
+        "preco": 19.99
+      }
+    },
+    {
+      "n": 3,
+      "pasta": "livro3",
+      "titulo": "Large Print Bible Word Search for Adults",
+      "subtitulo": "50 Inspiring Puzzles from the Old and New Testaments with Big, Easy-to-Read Letters for Seniors - Christian Gift Book with Solutions",
+      "keywords": [
+        "bible word search large print",
+        "christian gifts for women",
+        "christian puzzle books for adults",
+        "religious gifts for seniors",
+        "bible activity book for adults",
+        "scripture word search puzzles",
+        "church gifts for elderly"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Religion & Spirituality > Christian Books & Bibles > Bible Study & Reference > General",
+      "descricao": "ver kdp/livro3/descricao.txt",
+      "status": "publicado",
+      "sazonal": "nao",
+      "data_publicacao": "2026-11-08",
+      "kdp_id": "68JRJCYZB5A",
+      "capa_dura": {
+        "status": "pendente"
+      }
+    },
+    {
+      "n": 4,
+      "pasta": "livro4",
+      "titulo": "Large Print Bird Word Search for Adults",
+      "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Backyard Birds, Songbirds, Owls, Hummingbirds and Bird Feeders, with Solutions – Easy-to-Read Gift for Bird Watchers",
+      "keywords": [
+        "bird watching gifts for seniors",
+        "backyard birds puzzle book",
+        "word find large print for elderly",
+        "birdwatcher gifts for women and men",
+        "hummingbird owl songbird activity book",
+        "easy word search for grandparents",
+        "nature puzzle books for adults"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Science & Math > Nature & Ecology > Birdwatching > General (KDP salvou assim)",
+      "descricao": "ver kdp/livro4/descricao.txt",
+      "status": "publicado",
+      "sazonal": "nao",
+      "obs": "pauta.json nao existia; tema perene escolhido pela Producao | 08/11/2026: publicado, 'In review', ISBN 9798140988616, US$ 9.99, sem Expanded Distribution.",
+      "kdp_id": "C689AKT73D4",
+      "isbn": "9798140988616",
+      "data_publicacao": "2026-11-08",
+      "capa_dura": {
+        "status": "pendente"
+      }
+    },
+    {
+      "n": 5,
+      "pasta": "livro5",
+      "titulo": "Large Print Garden Word Search for Adults",
+      "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Flowers, Roses, Herbs, Vegetables and Garden Tools, with Solutions – Gift for Gardeners",
+      "keywords": [
+        "gardening gifts for women",
+        "garden puzzle book for seniors",
+        "large print word find for elderly",
+        "gifts for gardeners",
+        "flower word search for adults",
+        "easy word search for grandma",
+        "gardening activity book for adults"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Crafts, Hobbies & Home > Gardening & Horticulture > General",
+      "descricao": "ver kdp/livro5/descricao.txt",
+      "idioma": "en",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "nao",
+      "obs": "pauta.json nao existia; tema perene escolhido pela Producao",
+      "capa_dura": {
+        "status": "aguardando_paperback"
+      }
+    },
+    {
+      "n": 6,
+      "pasta": "livro6",
+      "titulo": "Large Print Dog Word Search for Adults",
+      "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Dog Breeds, Puppies, Grooming, Training and Walks, with Solutions – Gift for Dog Lovers",
+      "keywords": [
+        "word find book for seniors with big letters",
+        "puppy puzzle book for grandma and grandpa",
+        "dog lover gifts for women and men",
+        "easy to read activity book for elderly",
+        "fun puzzle games for older adults",
+        "dog breeds word puzzles with answers",
+        "relaxing word seek book for dog owners"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Crafts, Hobbies & Home > Pets & Animal Care > Dogs > General",
+      "descricao": "ver kdp/livro6/descricao.txt",
+      "idioma": "en",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "nao",
+      "obs": "pauta.json nao existia; tema perene escolhido pela Producao; revisor aprovou em 08/11/2026",
+      "capa_dura": {
+        "status": "aguardando_paperback"
+      }
+    },
+    {
+      "n": 7,
+      "pasta": "livro7",
+      "titulo": "Large Print Cat Word Search for Adults",
+      "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Cat Breeds, Kittens, Toys, Grooming and Cozy Naps, with Solutions – Gift for Cat Lovers",
+      "keywords": [
+        "kitten puzzle book for older women",
+        "gifts for cat moms and cat dads",
+        "big print word find for elderly adults",
+        "feline themed brain games for grandparents",
+        "cat breeds word puzzles with answer key",
+        "easy relaxing activity book for retirees",
+        "cozy cat lady gift ideas"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Crafts, Hobbies & Home > Pets & Animal Care > Cats > General",
+      "descricao": "ver kdp/livro7/descricao.txt",
+      "idioma": "en",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "nao",
+      "obs": "pauta.json nao existia; tema perene; revisado em 08/11/2026",
+      "capa_dura": {
+        "status": "aguardando_paperback"
+      }
+    }
+  ],
+  "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
+  "historico": [
+    {
+      "data": "2026-11-02",
+      "evento": "Producao: livro4 (Birds) criado e aprovado pelo revisor. Publicacao nao tentada: Chrome do notebook (Claude in Chrome) indisponivel nesta execucao na nuvem. livro3 segue na fila."
+    },
+    {
+      "data": "2026-11-04",
+      "evento": "Producao: livro5 (Garden) criado e aprovado pelo revisor (2 rodadas). Publicacao nao tentada: Claude in Chrome indisponivel nesta execucao na nuvem. Fila: 3, 4, 5."
+    },
+    {
+      "data": "2026-11-05",
+      "evento": "Revisão geral: publicação diária às 15h37, portão do limite semanal (não abre o Chrome quando a Amazon já travou na semana), aviso ao Vini se faltar Chrome 2 vezes seguidas, instruções para páginas traduzidas, série dos livros no relatório de domingo."
+    },
+    {
+      "data": "2026-11-08",
+      "evento": "Publicação manual (sessão do Claude com o Chrome do PC): livro3 (Bible) enviado, 'In review'. Livros 1 e 2 estão Live."
+    },
+    {
+      "data": "2026-11-08",
+      "evento": "Producao: livro6 (Dogs) criado e aprovado pelo revisor. livro4 (Birds) publicado (C689AKT73D4, In review) — o Chrome caiu no meio e a publicacao foi concluida ao retomar. Fila: 5, 6."
+    },
+    "08/11/2026: Vini aprovou capa dura (Natal primeiro, por causa da Black Friday/Natal). engine.py ganhou --hardcover; livro1/config.py criado para gerar a capa dura do Natal.",
+    {
+      "data": "2026-11-08",
+      "evento": "Producao: livro7 (Cats) criado e revisado. Paperback travado (2 na semana de 08/11)."
+    },
+    {
+      "data": "2026-11-08",
+      "evento": "Capa dura do livro1 (Christmas) enviada: In review, US$ 19.99, ISBN 9798141074882. Fila capa dura: 2, 3, 4."
+    },
+    {
+      "data": "2026-11-08",
+      "evento": "Execução extra: capa dura do livro2 (Winter) enviada: In review, US$ 19.99, ISBN 9798141077098. Fila capa dura: 3, 4."
+    }
+  ],
+  "pendencias": "Push pelo git ainda bloqueado nas execuções agendadas (repo fora das fontes da tarefa); em 08/11 os arquivos foram enviados pelo GitHub no Chrome. Se o push falhar de novo, usar o upload do GitHub no Chrome.",
+  "fila_ordem": [
+    5,
+    6,
+    7
+  ],
+  "limite_semanal": {
+    "ultimo_bloqueio_utc": "2026-11-01",
+    "publicados_na_semana": 2,
+    "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília). | Semana de 08/11: livro3 (manual) e livro4 publicados."
   },
-  {
-   "n": 2,
-   "pasta": "livro2",
-   "titulo": "Large Print Winter Word Search for Adults",
-   "status": "publicado",
-   "data_publicacao": "2026-11-02",
-   "kdp_id": "05GR44PV394",
-   "sazonal": "inverno/ano novo",
-   "capa_dura": {
-    "status": "pendente"
-   }
-  },
-  {
-   "n": 3,
-   "pasta": "livro3",
-   "titulo": "Large Print Bible Word Search for Adults",
-   "subtitulo": "50 Inspiring Puzzles from the Old and New Testaments with Big, Easy-to-Read Letters for Seniors - Christian Gift Book with Solutions",
-   "keywords": [
-    "bible word search large print",
-    "christian gifts for women",
-    "christian puzzle books for adults",
-    "religious gifts for seniors",
-    "bible activity book for adults",
-    "scripture word search puzzles",
-    "church gifts for elderly"
-   ],
-   "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Religion & Spirituality > Christian Books & Bibles > Bible Study & Reference > General",
-   "descricao": "ver kdp/livro3/descricao.txt",
-   "status": "publicado",
-   "sazonal": "nao",
-   "data_publicacao": "2026-11-08",
-   "kdp_id": "68JRJCYZB5A",
-   "capa_dura": {
-    "status": "pendente"
-   }
-  },
-  {
-   "n": 4,
-   "pasta": "livro4",
-   "titulo": "Large Print Bird Word Search for Adults",
-   "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Backyard Birds, Songbirds, Owls, Hummingbirds and Bird Feeders, with Solutions – Easy-to-Read Gift for Bird Watchers",
-   "keywords": [
-    "bird watching gifts for seniors",
-    "backyard birds puzzle book",
-    "word find large print for elderly",
-    "birdwatcher gifts for women and men",
-    "hummingbird owl songbird activity book",
-    "easy word search for grandparents",
-    "nature puzzle books for adults"
-   ],
-   "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Science & Math > Nature & Ecology > Birdwatching > General (KDP salvou assim)",
-   "descricao": "ver kdp/livro4/descricao.txt",
-   "status": "publicado",
-   "sazonal": "nao",
-   "obs": "pauta.json nao existia; tema perene escolhido pela Producao | 08/11/2026: publicado, 'In review', ISBN 9798140988616, US$ 9.99, sem Expanded Distribution.",
-   "kdp_id": "C689AKT73D4",
-   "isbn": "9798140988616",
-   "data_publicacao": "2026-11-08",
-   "capa_dura": {
-    "status": "pendente"
-   }
-  },
-  {
-   "n": 5,
-   "pasta": "livro5",
-   "titulo": "Large Print Garden Word Search for Adults",
-   "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Flowers, Roses, Herbs, Vegetables and Garden Tools, with Solutions – Gift for Gardeners",
-   "keywords": [
-    "gardening gifts for women",
-    "garden puzzle book for seniors",
-    "large print word find for elderly",
-    "gifts for gardeners",
-    "flower word search for adults",
-    "easy word search for grandma",
-    "gardening activity book for adults"
-   ],
-   "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Crafts, Hobbies & Home > Gardening & Horticulture > General",
-   "descricao": "ver kdp/livro5/descricao.txt",
-   "idioma": "en",
-   "status": "pronto_aguardando_limite",
-   "sazonal": "nao",
-   "obs": "pauta.json nao existia; tema perene escolhido pela Producao",
-   "capa_dura": {
-    "status": "aguardando_paperback"
-   }
-  },
-  {
-   "n": 6,
-   "pasta": "livro6",
-   "titulo": "Large Print Dog Word Search for Adults",
-   "subtitulo": "50 Relaxing Large Print Puzzles for Seniors and Adults About Dog Breeds, Puppies, Grooming, Training and Walks, with Solutions – Gift for Dog Lovers",
-   "keywords": [
-    "word find book for seniors with big letters",
-    "puppy puzzle book for grandma and grandpa",
-    "dog lover gifts for women and men",
-    "easy to read activity book for elderly",
-    "fun puzzle games for older adults",
-    "dog breeds word puzzles with answers",
-    "relaxing word seek book for dog owners"
-   ],
-   "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Crafts, Hobbies & Home > Pets & Animal Care > Dogs > General",
-   "descricao": "ver kdp/livro6/descricao.txt",
-   "idioma": "en",
-   "status": "pronto_aguardando_limite",
-   "sazonal": "nao",
-   "obs": "pauta.json nao existia; tema perene escolhido pela Producao; revisor aprovou em 08/11/2026",
-   "capa_dura": {
-    "status": "aguardando_paperback"
-   }
+  "regras_capa_dura": "Capa dura (decisão do Vini 08/11/2026): versão hardcover de cada livro publicado, com o MESMO título e autor (a Amazon junta na mesma página do paperback). python3 kdp/engine.py kdp/livroN --hardcover gera <file_base>_HC_INTERIOR.pdf (8.25x11, 80 páginas, soluções 2 por página) e <file_base>_HC_COVER.pdf (case laminate). Se o KDP recusar o tamanho da capa, rode de novo com --cover <largura> <altura> <lombada> em polegadas, exatamente como o KDP mostrar. Preço US$ 19.99 (Amazon.com), free KDP ISBN, black & white, white paper, no bleed, Large-print. Na descrição troque '8.5 x 11' por '8.25 x 11'. Limite próprio: 2 capas duras por semana, separado do paperback. Confirmado 08/11 (livro1): capa do engine (8.25x11, 80 pág.) aceita sem ajuste; custo de impressão US$ 7.49; mínimo US$ 12.48; royalty US$ 4.50 a 19.99; Expanded Distribution não disponível nesse formato. No KDP os menus de IA são caixas customizadas (abrir com eventos de mouse via JS) e os campos de ferramenta precisam de setter nativo + evento input.",
+  "fila_capa_dura": [
+    3,
+    4
+  ],
+  "limite_semanal_capa_dura": {
+    "ultimo_bloqueio_utc": "",
+    "publicados_na_semana": 2,
+    "semana_utc": "2026-11-08"
   }
- ],
- "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
- "historico": [
-  {
-   "data": "2026-11-02",
-   "evento": "Producao: livro4 (Birds) criado e aprovado pelo revisor. Publicacao nao tentada: Chrome do notebook (Claude in Chrome) indisponivel nesta execucao na nuvem. livro3 segue na fila."
-  },
-  {
-   "data": "2026-11-04",
-   "evento": "Producao: livro5 (Garden) criado e aprovado pelo revisor (2 rodadas). Publicacao nao tentada: Claude in Chrome indisponivel nesta execucao na nuvem. Fila: 3, 4, 5."
-  },
-  {
-   "data": "2026-11-05",
-   "evento": "Revisão geral: publicação diária às 15h37, portão do limite semanal (não abre o Chrome quando a Amazon já travou na semana), aviso ao Vini se faltar Chrome 2 vezes seguidas, instruções para páginas traduzidas, série dos livros no relatório de domingo."
-  },
-  {
-   "data": "2026-11-08",
-   "evento": "Publicação manual (sessão do Claude com o Chrome do PC): livro3 (Bible) enviado, 'In review'. Livros 1 e 2 estão Live."
-  },
-  {
-   "data": "2026-11-08",
-   "evento": "Producao: livro6 (Dogs) criado e aprovado pelo revisor. livro4 (Birds) publicado (C689AKT73D4, In review) — o Chrome caiu no meio e a publicacao foi concluida ao retomar. Fila: 5, 6."
-  },
-  "08/11/2026: Vini aprovou capa dura (Natal primeiro, por causa da Black Friday/Natal). engine.py ganhou --hardcover; livro1/config.py criado para gerar a capa dura do Natal."
- ],
- "pendencias": "kdp/pauta.json ainda não existe (a Pesquisa de Mercado cria no sábado). Push no GitHub falhou na execução agendada de 08/11 (repo fora das fontes da tarefa).",
- "fila_ordem": [
-  5,
-  6
- ],
- "limite_semanal": {
-  "ultimo_bloqueio_utc": "2026-11-01",
-  "publicados_na_semana": 2,
-  "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília). | Semana de 08/11: livro3 (manual) e livro4 publicados."
- },
- "regras_capa_dura": "Capa dura (decisão do Vini 08/11/2026): versão hardcover de cada livro publicado, com o MESMO título e autor (a Amazon junta na mesma página do paperback). python3 kdp/engine.py kdp/livroN --hardcover gera <file_base>_HC_INTERIOR.pdf (8.25x11, 80 páginas, soluções 2 por página) e <file_base>_HC_COVER.pdf (case laminate). Se o KDP recusar o tamanho da capa, rode de novo com --cover <largura> <altura> <lombada> em polegadas, exatamente como o KDP mostrar. Preço US$ 19.99 (Amazon.com), free KDP ISBN, black & white, white paper, no bleed, Large-print. Na descrição troque '8.5 x 11' por '8.25 x 11'. Limite próprio: 2 capas duras por semana, separado do paperback.",
- "fila_capa_dura": [
-  1,
-  2,
-  3,
-  4
- ],
- "limite_semanal_capa_dura": {
-  "ultimo_bloqueio_utc": "",
-  "publicados_na_semana": 0,
-  "semana_utc": "2026-11-08"
- }
 }
