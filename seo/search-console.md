@@ -72,7 +72,7 @@ https://quantocobrarpj.com.br/sitemap.xml — Processado (sem erro). Enviado 30/
 
 Antes (registrado em seo/diario.md): 30/10/2026 — /split-payment/, /mei-2027/, /clt-pj/, /clt-pj/5000/.
 
-Próximas na fila (não pedidas ainda): demais /clt-pj/NNNN/ (ex.: 5000 já tem impressão; depois 6000, 8000, 15000, 20000, 2500, 3500, 4500, 7000, 12000…), /sobre/.
+Próximas na fila (não pedidas ainda): demais /clt-pj/NNNN/ (6000, 8000, 15000, 20000, 2500, 3500, 4500, 7000, 12000…), /sobre/.
 
 ## Histórico
 
