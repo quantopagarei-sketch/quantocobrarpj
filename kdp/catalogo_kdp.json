@@ -36,8 +36,10 @@
       ],
       "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Religion & Spirituality > Christian Books & Bibles > Bible Study & Reference > General",
       "descricao": "ver kdp/livro3/descricao.txt",
-      "status": "pronto_aguardando_limite",
-      "sazonal": "nao"
+      "status": "publicado",
+      "sazonal": "nao",
+      "data_publicacao": "2026-11-08",
+      "kdp_id": "68JRJCYZB5A"
     },
     {
       "n": 4,
@@ -94,17 +96,20 @@
     {
       "data": "2026-11-05",
       "evento": "Revisão geral: publicação diária às 15h37, portão do limite semanal (não abre o Chrome quando a Amazon já travou na semana), aviso ao Vini se faltar Chrome 2 vezes seguidas, instruções para páginas traduzidas, série dos livros no relatório de domingo."
+    },
+    {
+      "data": "2026-11-08",
+      "evento": "Publicação manual (sessão do Claude com o Chrome do PC): livro3 (Bible) enviado, 'In review'. Livros 1 e 2 estão Live."
     }
   ],
   "pendencias": "kdp/pauta.json ainda não existe (a Pesquisa de Mercado cria no sábado). KDP logado no Chrome do Windows e sem tradução (conferido em 05/11/2026).",
   "fila_ordem": [
-    3,
     4,
     5
   ],
   "limite_semanal": {
     "ultimo_bloqueio_utc": "2026-11-01",
-    "publicados_na_semana": 2,
-    "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília)."
+    "publicados_na_semana": 1,
+    "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília). | Semana de 08/11: livro3 publicado (sessão manual com Chrome do PC)."
   }
 }
