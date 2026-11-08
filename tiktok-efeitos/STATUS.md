@@ -18,6 +18,8 @@ Atualizado pela sessão da nuvem com base nos relatórios do Montador (PC).
 - Effect House 5.16.0. **4 efeitos publicados em 07/11** (selo Bronze atingido; aviso de bônus para resgatar). Gold: 5 publicados + 3 com 1.000 vídeos.
 - Desafio aberto: "Nov Social Randomizer Sub Challenge" (até US$ 1.000, ~51 dias). Para entrar, é preciso aceitar os termos e autorizar uso promocional. **Vini ACEITOU os termos em 06/11** (ordem no PRONTO, 09:30 UTC). **Aceite registrado no Effect House em 06/11 às 19:29 (BRT)**, com print guardado; nome no formulário: "Randomizer Effect Challenge-Nov Social Randomizer Sub Challenge". 1º efeito no desafio: C02. O template Blind Rank também é aceito (exemplo oficial é um ranking de 1 a 10), então o C09 vai com desafio. Fim do desafio: ~27/12. Vincular C01 e C08 pelo Manage Effects: ainda não verificado. C02, C06 e C07 entram no desafio; C09 e C05 entram se o template for aceito; C01 e C08 entram só se der para vincular depois do envio.
 
+- **08/11: ordem permanente do Vini:** aceitar e participar de todas as campanhas e desafios que aparecerem. Exceções que ficam com ele: o que envolver dinheiro, desconto, contrato com marca, dados fiscais ou de pagamento, e a loja.
+
 ## Dados da conta confirmados pelo Vini (06/11)
 - 18 anos ou mais: sim. Conta criada no Brasil: sim. Tipo de conta: **Pessoal**.
 - Vídeos de divulgação: plano completo, **feitos pela equipe** (o Vini não grava).

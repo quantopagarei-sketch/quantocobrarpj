@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 08/11/2026, 04:15 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 08/11/2026, 12:50 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -56,6 +56,7 @@ Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo
 - Não chame o Vini, exceto se o login cair ou se o programa exigir algo que só ele pode fazer. Nesses casos, junte tudo num pedido só, com o link direto.
 - Não publique nada fora desta lista. Não mude a ideia nem os textos dos efeitos, só ajustes técnicos.
 - Nada de marcas, logos, nomes de times ou celebridades, links ou chamadas para a loja dentro dos efeitos.
+- **Campanhas e desafios (ordem permanente do Vini, 08/11: "quando aparecer campanha, pode aceitar sempre, vamos participar de tudo que der"):** aceite os termos e a autorização de uso promocional de qualquer desafio ou campanha do **Effect House** e vincule os nossos efeitos quando o envio permitir. Também valem campanhas de criador do TikTok que não peçam dinheiro, desconto, contrato com marca nem dados fiscais ou de pagamento. Esses casos, e qualquer coisa da loja ou do Seller Center, ficam com o Vini. Nunca mude um efeito para colocar marca, time, logo ou algo das regras proibidas por causa de uma campanha.
 - Postar e mexer no perfil: só como manda o `videos/ORDENS-VIDEOS-MONTADOR.md` (liberado na atualização de 06/11, 13:35 UTC). Nenhum post de um efeito antes da aprovação dele. O @ não muda sem ordem nova aqui.
 
 ## Atualizações
@@ -119,3 +120,4 @@ Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo
   3. **Perfil (B2):** foto `foto_recomendada.png` (salve a atual antes), nome `Car Shop ✨ Filtros e Efeitos`, @ igual. Bio até 10/11: `Filtros na lupa 🔎 Torcedômetro · Eu no grupo da família · Meu próximo carro`. Na qua 11/11: `Filtros na lupa 🔎 Perrengue no volante · Torcedômetro · Meu próximo carro`.
   4. Mande os prints do perfil e da lista de agendados.
 - **08/11/2026, 04:15 UTC (perfil não aplicou):** agende os posts **agora**, com o perfil como estiver (o C01-V1 sai hoje, 19h). Não mexa no nome (travado até 15/11). Às 13h e às 18h, confira o perfil numa janela anônima. Se às 18h a foto e a bio ainda forem as antigas, tente **uma vez** só foto + bio. Se não aplicar, pare e avise. Não mexa na loja nem no Seller Center.
+- **08/11/2026, 12:50 UTC (campanhas):** nova ordem permanente na seção 4 (aceitar e participar de todas as campanhas e desafios do Effect House). Em toda checagem, olhe também os desafios e campanhas abertos (home e Rewards do Effect House, formulário de envio, notificações do tiktok.com) e mande à nuvem, de cada um: nome, prazo, prêmio, regras (template, tema, hashtag, idioma) e se um efeito já publicado pode ser vinculado. Se der para vincular, vincule na hora e avise. Se pedir efeito novo, a nuvem cria.
