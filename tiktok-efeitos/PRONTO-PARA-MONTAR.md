@@ -1,6 +1,6 @@
 # PRONTO PARA MONTAR — ordens para o Montador (PC do Vini)
 
-Última atualização: 08/11/2026, 04:12 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
+Última atualização: 08/11/2026, 04:15 UTC, pela sessão da nuvem "Effect House connection". **Este arquivo muda.** Confira de novo no GitHub às 9h, 13h e 18h (Brasília) até 13/11 (vêm ordens de vídeo e postagem). Depois, uma vez por dia, de manhã. As novas ordens entram em "Atualizações", com data.
 
 ## 0. Como falar com a nuvem
 
@@ -118,3 +118,4 @@ Os 7 efeitos já estão na seção 2. Os vídeos de divulgação e o perfil novo
   2. **G-V1 refeito com os 4 nomes** (`videos\gerais\G-V1.mp4` e `G-V1-aba.mp4`, de 08/11). Comentários fixados novos no `roteiros-videos.md` de lá.
   3. **Perfil (B2):** foto `foto_recomendada.png` (salve a atual antes), nome `Car Shop ✨ Filtros e Efeitos`, @ igual. Bio até 10/11: `Filtros na lupa 🔎 Torcedômetro · Eu no grupo da família · Meu próximo carro`. Na qua 11/11: `Filtros na lupa 🔎 Perrengue no volante · Torcedômetro · Meu próximo carro`.
   4. Mande os prints do perfil e da lista de agendados.
+- **08/11/2026, 04:15 UTC (perfil não aplicou):** agende os posts **agora**, com o perfil como estiver (o C01-V1 sai hoje, 19h). Não mexa no nome (travado até 15/11). Às 13h e às 18h, confira o perfil numa janela anônima. Se às 18h a foto e a bio ainda forem as antigas, tente **uma vez** só foto + bio. Se não aplicar, pare e avise. Não mexa na loja nem no Seller Center.
