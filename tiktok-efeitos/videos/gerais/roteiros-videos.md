@@ -66,8 +66,8 @@ A capa é a mesma nos dois: `G-V1-capa.jpg`.
 
 | Peça | Comentário | Caracteres |
 |---|---|---|
-| G-V1 (sem a aba) | `Nomes dos filtros: Eu no grupo da família, Torcedômetro e Meu próximo carro 🔎 Procura na lupa. Qual você vai usar primeiro?` | 123 |
-| G-V1-aba (com a aba) | `Nomes dos filtros: Eu no grupo da família, Torcedômetro e Meu próximo carro 🔎 Procura na lupa ou no meu perfil. Qual você vai usar primeiro?` | 140 |
+| G-V1 (sem a aba) | `Nomes dos filtros: Eu no grupo da família, Torcedômetro, Meu próximo carro e Perrengue no volante 🔎 Procura na lupa. Qual você vai usar primeiro?` | 145 |
+| G-V1-aba (com a aba) | `Filtros: Eu no grupo da família, Torcedômetro, Meu próximo carro e Perrengue no volante 🔎 Na lupa ou no meu perfil. Qual vai primeiro?` | 134 |
 | G-V2 | `Nomes dos filtros: Meu amigo secreto, Meu 2027 vai ser e Simpatia da Virada 🔎 Procura na lupa. Qual combina com você?` | 117 |
 
 Todos com até 150 caracteres (até 142 no pior caso, com o emoji contando 3). Se a nuvem refizer com outros nomes, ela manda o comentário novo junto.

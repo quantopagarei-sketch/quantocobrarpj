@@ -142,7 +142,19 @@ Confira o Manage Effects toda vez que o PC ligar e a cada leitura do PRONTO (9h,
 
 **D4. Rotina de agendamento:** toda **segunda e quinta**, agende tudo que está pronto e cai nos **próximos 9 dias** (o Agendar vai até 10; a confirmar). Antes, confira o relógio do Windows em Brasília. Peça de data fixa entra na 1ª rodada em que faltem 9 dias ou menos.
 
-**D5. Calendário-alvo** (se as aprovações saírem nas datas previstas: C01 e C08 ter 10/11, C02 qui 12/11, C09 seg 16/11, C06 ter 24/11, C05 e C07 ter 08/12). Se mudar, vale a D1.
+**D5. Calendário-alvo.** **Atualizado em 08/11:** C08, C01, C02 e C09 foram aprovados juntos no sáb 07/11. De 08/11 a 14/11 vale a tabela abaixo, que **substitui** as linhas de 11/11 a 18/11 da tabela seguinte:
+
+| Data | Peça | Hora |
+|---|---|---|
+| dom 08/11 | **C01-V1** (estreia; 1º post da conta: comentário fixado na versão longa) | 19h |
+| seg 09/11 | **C08-V1** (estreia) | 19h |
+| ter 10/11 | **C02-V1** (estreia) | 18h |
+| qua 11/11 | C01-V2 (som do arquivo) · **C09-V1** (estreia) | 15h · 18h |
+| qui 12/11 | C08-V2 | 18h |
+| sex 13/11 | C02-V2 | 19h |
+| sáb 14/11 | C09-V2 · G-V1 (tutorial com os 4 nomes, arquivo de 08/11) | 15h · 19h |
+
+De 20/11 em diante, segue a tabela abaixo. A tabela abaixo era o calendário original (aprovações previstas: C01 e C08 ter 10/11, C02 qui 12/11, C09 seg 16/11, C06 ter 24/11, C05 e C07 ter 08/12). Se mudar, vale a D1.
 
 | Data | Peça (pasta do efeito) | Hora |
 |---|---|---|
