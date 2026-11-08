@@ -73,6 +73,13 @@ Diferenciais a destacar nos títulos/descrições: grátis, sem cadastro, neutro
 - Regras da declaração 2027 (prazos, limites de obrigatoriedade) só saem da Receita em fev/mar 2027: até lá, texto neutro ("a Receita ainda vai publicar"), sem cravar datas.
 - Cada página nova entra no sitemap, ganha link da home e de /clt-pj/, e a tarefa do Search Console pede a indexação logo.
 
+## REGRAS DE UX (decisão do Vini, 08/11/2026) — valem para todos os agentes que mexem no site
+- 2026-11-08 (sócio): HOME ENXUGADA de 33 para 12 telas no celular. O conteúdo de "quanto o governo leva" (imposto no salário, supermercado, guia dos impostos, dólar e juros, contadores ao vivo e 9 perguntas) foi para a página nova /impostos/ (no sitemap; pedir indexação). Links "/#guia" trocados por /impostos/ (exceto nas páginas protegidas).
+1. Home: no máximo 14 telas no celular (375x800). NÃO criar seções novas na home: página nova entra como card em #ferramentas (8 a 12 cards; se passar, trocar o menos útil).
+2. Páginas: resposta direta e calculadora no topo; textos longos, tabelas grandes e listas de fontes dentro de <details>; nada de blocos copiados de outra página (linkar em vez de repetir).
+3. O Agente de UX (quinta, 16h37) mede as páginas e mantém seo/ux.md (orçamento de tamanho, fila e "Pedidos ao SEO"). Leia antes de publicar.
+4. O script principal da home e de /impostos/ usa $ seguro (devolve um elemento vazio se o id não existir): manter. Mesmo assim, testar no Playwright depois de tirar qualquer seção.
+
 ## META DO VINI (07/11/2026) — +50 VISITAS POR DIA (vale para todos os agentes do site)
 - Metas de visitas por dia (eram 15 → 65 até 30/11/2026; 50 → 100 em dez/2026; 130 → 180 em jan–fev/2027; 330 → 380 em mar–abr; 600 → 650 em mai–jul; 1.000 → 1.050 a partir de ago/2027). Pedidos de contador seguem iguais (1/semana em nov, 2/semana em dez, 0,5/dia em jan–fev).
 - Ponto de partida em 07/11: contador 12–28 visitas/dia; Google = 2 cliques em 7 dias, 140 impressões, 4 páginas indexadas de 50. A meta só sai com (1) páginas indexadas que respondam buscas reais, (2) links e calculadoras incorporadas em outros sites.
