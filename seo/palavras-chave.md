@@ -22,7 +22,7 @@ Formato de cada bloco: consulta principal e variações | intenção | sazonalid
 - Intenção: informativa; quer uma data e o que muda para a própria empresa. Sazonalidade: alta agora, pico em dez/2026–jan/2027 (virada do ano, alíquota da CBS em 15/12).
 - Concorrência: top 10 = portais de notícia (Istoé Dinheiro, Estadão/DGABC, O Povo, Diário do Nordeste, Diário do Comércio) + contabilidade (Omie, CRCMS, Notagateway). São notícias de um dia; nenhuma tem calendário completo nem calculadora — passa-se com tabela ano a ano + resposta direta + FAQ.
 - Página NOVA /split-payment/quando-comeca/ — título "Split payment: quando começa? Calendário 2027 a 2033" (54). Precisa: resposta em 2 linhas no topo; tabela 2026 (testes desde 15/10) → 2027 (opcional, só entre empresas, Pix/boleto/TED) → 2028 (obrigatório) → 2029–2032 (transição) → 2033 (IBS cheio), sem cravar o que não é oficial; fonte Receita/Senado; link para a calculadora e para /split-payment/como-calcular/; FAQ com 5 perguntas da seção C.
-- Status: novo
+- Status: publicada em 09/11 (SEO)
 
 **B2. split payment simples nacional** — variações: "simples nacional tem split payment", "split payment simples híbrido", "simples nacional híbrido vale a pena", "regime híbrido ibs cbs", "simples híbrido ou tradicional 2027"
 - Intenção: dono de empresa do Simples decidindo se muda de regime e se vai ter retenção. Sazonalidade: até 30/11 (prazo para quem optou em setembro voltar ao tradicional), jan/2027 (efeitos) e mar/2027 (próxima janela de opção, para o 2º semestre).
