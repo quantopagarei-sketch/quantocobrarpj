@@ -187,6 +187,12 @@
     learnedMe: {}, view: 'clientes', open: null, docFilter: 'pdf', q: '', listLimit: 200, docLimit: 120,
     urls: [], busy: false, storageOk: true
   };
+  var AVC = ['#00a884', '#53bdeb', '#e26ab6', '#e0803e', '#7f66ff', '#c9a227', '#5b8def', '#d1495b', '#3d9970', '#8e6e53'];
+  function avatar(c, big) {
+    var nm = c.name || '', ini = c.isGroup ? '👥' : (nm.replace(/[^A-Za-zÀ-ÿ ]/g, ' ').trim().split(/\s+/).filter(Boolean).slice(0, 2).map(function (w) { return w.charAt(0).toUpperCase(); }).join('') || '#');
+    var hh = 0, id = String(c.id); for (var i = 0; i < id.length; i++) hh = (hh * 31 + id.charCodeAt(i)) >>> 0;
+    return h('span', { class: 'av' + (big ? ' big' : ''), style: 'background:' + AVC[hh % AVC.length], 'aria-hidden': 'true' }, ini);
+  }
   function label(c) { return c.name || (c.phone ? P.format(c.phone) : (c.isGroup ? 'Grupo' : 'Contato sem número')); }
   function indexContact(c) { S.byId[c.id] = c; }
   function phoneIndex() {
@@ -926,6 +932,7 @@
     list.slice(0, S.listLimit).forEach(function (c) {
       var st = c.st || {};
       var li = h('li', { class: 'crow', role: 'option', tabindex: '0', 'aria-selected': S.open === c.id ? 'true' : 'false', 'data-id': c.id },
+        avatar(c),
         h('span', { class: 'nm' }, highlight(label(c), /[a-z]/i.test(S.q) ? S.q.trim() : '')),
         h('span', { class: 'dt' }, fShort(st.last)),
         h('span', { class: 'ph' }, c.phone && c.name ? P.format(c.phone) : (c.isGroup ? 'grupo' : (c.lid ? 'sem número (contato oculto)' : (c.phone ? '' : 'sem número')))),
@@ -999,8 +1006,7 @@
       c.phone ? h('button', { class: 'btn ghost small', type: 'button', onclick: function () { copy(P.format(c.phone)); } }, 'Copiar') : null,
       waNum ? h('a', { class: 'btn ghost small', href: 'https://wa.me/' + waNum, target: '_blank', rel: 'noopener' }, 'Abrir no WhatsApp') : null);
     var head = h('div', { class: 'fhead' },
-      h('h2', null, label(c)),
-      phoneLine,
+      h('div', { class: 'fh-top' }, avatar(c, true), h('div', null, h('h2', null, label(c)), phoneLine)),
       h('div', { class: 'stats' },
         h('span', null, h('b', null, num(st.n)), st.n === 1 ? ' mensagem' : ' mensagens'),
         h('span', null, h('b', null, num(docs.length)), docs.length === 1 ? ' documento' : ' documentos'),
