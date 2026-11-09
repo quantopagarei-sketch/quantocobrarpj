@@ -47,6 +47,27 @@
       "board": "Budget Spreadsheet Templates",
       "style": 3,
       "headline": "Throw a great party without blowing the budget"
+    },
+    {
+      "data": "2026-11-09",
+      "etsy_id": "4610914156",
+      "board": "Budget Spreadsheet Templates",
+      "style": 1,
+      "headline": "Give every dollar a job in 2027"
+    },
+    {
+      "data": "2026-11-09",
+      "etsy_id": "4610896095",
+      "board": "Budget Spreadsheet Templates",
+      "style": 2,
+      "headline": "Know where your money goes in 2027"
+    },
+    {
+      "data": "2026-11-09",
+      "etsy_id": "4609690783",
+      "board": "Budget Spreadsheet Templates",
+      "style": 3,
+      "headline": "Plan your wedding without losing track of a dollar"
     }
   ],
   "ocorrencias": [
@@ -57,6 +78,10 @@
     {
       "data": "2026-11-08",
       "evento": "2ª execução seguida sem pins (22h45 UTC): a loja do Etsy continua em modo férias ('This shop is taking a short break' nos anúncios 4610914156, 4610896095, 4610097302). Nenhum pin publicado. Vini avisado por notificação. Escolhidos para quando a loja reabrir: 4610914156 (Monthly Budget Planner 2027), 4610896095 (Income & Expense Tracker 2027), 4610097302 (Emergency Fund Tracker)."
+    },
+    {
+      "data": "2026-11-09",
+      "evento": "Loja do Etsy reaberta (sem aviso de férias). 3 pins publicados. Brinde sem url ainda, pin de segunda pulado. Upload de arquivo só funciona a partir de /mnt/user-data/outputs."
     }
   ]
 }
