@@ -5,7 +5,7 @@ Usage: python3 engine.py <bookdir>                -> paperback 8.5x11 (<base>_IN
            W,H = total cover size and S = spine width in inches from KDP's cover calculator
            (if KDP rejects the cover size, regenerate with the exact numbers KDP shows).
 bookdir must contain config.py with: THEMES, BOOK (dict)."""
-import sys, os, json, math, random, importlib.util, re
+import sys, os, json, math, random, importlib.util, re, datetime
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 from reportlab.pdfbase import pdfmetrics
@@ -172,7 +172,7 @@ def build_interior(B, P, out):
     c.showPage(); page += 1
     # copyright
     y = 3.2*inch
-    for ln in [B["title"], "", f"Copyright © 2026 {B['publisher']}. All rights reserved.", "",
+    for ln in [B["title"], "", f"Copyright © {B.get('year', datetime.date.today().year)} {B['publisher']}. All rights reserved.", "",
                "No part of this book may be reproduced or distributed in any form",
                "without written permission from the publisher, except for brief",
                "quotations in reviews.", "", *B.get("copyright_extra", []), "Solutions are at the back of the book."]:
