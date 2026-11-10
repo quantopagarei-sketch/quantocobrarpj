@@ -7,7 +7,7 @@ try{fetch("https://abacus.jasoncameron.dev/hit/quantoeupago-br/"+key,{mode:"cors
 var seg=(location.pathname.split("/")[1]||"").toLowerCase();
 var PAG={"split-payment":"split","mei-2027":"mei2027","mei-passou-do-limite":"meilimite","quanto-cobrar-por-hora":"hora","relatorio-mensal-mei":"relmei","clt-pj":"tabela"};
 var SEC={"clt-mei":"cltpj","splitbox":"split","imposto":"imposto","super":"super"};
-function calcKey(el){if(!seg){var s=el.closest&&el.closest("section[id]");return SEC[s&&s.id]||"outra";}return PAG[seg]||"outra";}
+function calcKey(el){if(!seg||seg==="impostos"){if(!el.closest)return"outra";if(el.closest("#calc"))return"imposto";var b=el.closest("section");if(b&&b.querySelector("#super"))return"super";var s=el.closest("section[id]");return SEC[s&&s.id]||"outra";}return PAG[seg]||"outra";}
 function noForm(el){var f=el.closest&&el.closest("form");return !(f&&(f.getAttribute("name")==="contador"||f.getAttribute("name")==="guia"));}
 function onUse(e){var el=e.target;if(!el||!el.matches||!el.matches("input,select,textarea"))return;if(el.closest("footer")||!noForm(el))return;if(el.type==="hidden")return;hit("c-"+calcKey(el));}
 document.addEventListener("input",onUse,true);document.addEventListener("change",onUse,true);
