@@ -1,0 +1,28 @@
+{
+  "atualizado_em": "2026-11-09",
+  "obs": "Criada na auditoria de 09/11/2026 porque a Pesquisa de Mercado ainda não tinha conseguido gravar. A pesquisa de sábado completa até 8–10 temas e reordena.",
+  "temas": [
+    {
+      "tema": "Christmas Memories (nostalgic Christmas: 1950s–60s traditions, toys, decorations, family gatherings)",
+      "idioma": "en",
+      "por_que": "Decisão do Vini de 07/11 (Natal primeiro até 05/12). Sem dados de demanda medidos ainda; a pesquisa de sábado deve validar ou trocar.",
+      "sazonal": "sim; publicar até 20/11/2026 (5 semanas antes do Natal). Depois dessa data, pule este tema.",
+      "keywords": [
+        "christmas gifts for grandpa",
+        "nostalgic christmas gifts for seniors",
+        "stocking stuffers for men and women",
+        "large print word find for elderly",
+        "vintage christmas puzzle book",
+        "christmas activity book for older adults",
+        "memory lane word search"
+      ],
+      "categorias": [
+        "Humor & Entertainment > Puzzles & Games > Word Search",
+        "Humor & Entertainment > Puzzles & Games > Word Games"
+      ],
+      "angulo": "Large Print Christmas Memories Word Search for Adults — 50 nostalgic puzzles, gift for grandma and grandpa, with Solutions. Sem marcas, filmes, personagens ou músicas com letra.",
+      "status": "pauta"
+    }
+  ],
+  "oportunidades_outros_formatos": []
+}

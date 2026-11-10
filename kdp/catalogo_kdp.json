@@ -16,7 +16,8 @@
         "kdp_id": "RWTNYVXS4DG",
         "isbn": "9798141074882",
         "preco": 19.99
-      }
+      },
+      "obs": "09/11/2026: trocadas 4 palavras de personagens/filmes protegidos no config (RUDOLPH→HARNESS, GRINCH→DICKENS, POLAR EXPRESS→NUTCRACKER, FROSTY→SCARF). O miolo novo precisa ser reenviado no KDP (paperback e capa dura) — ver pendencias."
     },
     {
       "n": 2,
@@ -155,6 +156,30 @@
       "capa_dura": {
         "status": "aguardando_paperback"
       }
+    },
+    {
+      "n": 8,
+      "pasta": "livro8",
+      "titulo": "Large Print Christmas Baking Word Search for Adults",
+      "subtitulo": "50 Cozy Large Print Puzzles for Seniors and Adults About Christmas Cookies, Gingerbread, Pies, Candy and Holiday Kitchen Traditions, with Solutions – Gift for Grandma and Bakers",
+      "keywords": [
+        "christmas gifts for grandma",
+        "stocking stuffers for women",
+        "holiday baking gifts for bakers",
+        "large print word find for seniors",
+        "christmas cookie puzzle book",
+        "christmas activity book for elderly",
+        "easy word search for older adults"
+      ],
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Cookbooks, Food & Wine > Baking (ou Holidays > Christmas, o que o KDP oferecer)",
+      "descricao": "ver kdp/livro8/descricao.txt",
+      "idioma": "en",
+      "status": "pronto_aguardando_limite",
+      "sazonal": "natal (publicar até 20/11/2026)",
+      "obs": "Criado em 09/11/2026 na auditoria (decisão do Vini de 07/11: Natal primeiro). Engine OK nos dois modos; capa e páginas conferidas.",
+      "capa_dura": {
+        "status": "aguardando_paperback"
+      }
     }
   ],
   "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
@@ -198,10 +223,15 @@
     {
       "data": "2026-11-09",
       "evento": "Auditoria do projeto: limite_semanal ganhou semana_utc e regra; historico padronizado; engine.py usa o ano atual no copyright. Achados pendentes de decisão do Vini estão no documento do projeto (2-Amazon-KDP.md)."
+    },
+    {
+      "data": "2026-11-09",
+      "evento": "livro8 (Christmas Baking) criado e colocado no INÍCIO da fila (Natal primeiro). livro1: 4 palavras protegidas trocadas no config. kdp/pauta.json criado."
     }
   ],
-  "pendencias": "Push pelo git ainda bloqueado nas execuções agendadas (repo fora das fontes da tarefa); em 08/11 os arquivos foram enviados pelo GitHub no Chrome. Se o push falhar de novo, usar o upload do GitHub no Chrome.",
+  "pendencias": "Push pelo git ainda bloqueado nas execuções agendadas (repo fora das fontes da tarefa); em 08/11 os arquivos foram enviados pelo GitHub no Chrome. Se o push falhar de novo, usar o upload do GitHub no Chrome. | 09/11/2026: REENVIAR MIOLO DO LIVRO1 (paperback: python3 kdp/engine.py kdp/livro1 → Christmas_Word_Search_INTERIOR.pdf; capa dura: --hardcover → _HC_INTERIOR.pdf) no KDP, só o manuscrito, sem mexer em capa/preço/detalhes; apagar esta pendência depois.",
   "fila_ordem": [
+    8,
     5,
     6,
     7
