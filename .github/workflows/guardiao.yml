@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "41 11 * * *"   # 8h41 em São Paulo
     - cron: "41 17 * * *"   # 14h41
-    - cron: "5 23 * * *"    # 20h05 (antes do relatório do Gerente)
+    - cron: "5 23 * * *"    # 20h05
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,7 +23,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet HEAD -- seo/saude.json 2>/dev/null || [ "$(python3 -c "import json;print(json.load(open('seo/saude.json'))['status'])")" = "$(git show HEAD:seo/saude.json 2>/dev/null | python3 -c "import sys,json;print(json.load(sys.stdin)['status'])" 2>/dev/null)" ] && [ "$(git log -1 --format=%cd --date=format:%Y%m%d -- seo/saude.json)" = "$(TZ=America/Sao_Paulo date +%Y%m%d)" ]; then echo "sem mudança relevante"; exit 0; fi
+          # Grava quando o status muda OU quando é a 1ª verificação do dia (assim a data em seo/saude.json nunca fica velha)
+          NOVO=$(python3 -c "import json;d=json.load(open('seo/saude.json'));print(d['status'],d['verificado_em'][:10])")
+          VELHO=$(git show HEAD:seo/saude.json 2>/dev/null | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['status'],d['verificado_em'][:10])" 2>/dev/null || true)
+          if [ "$NOVO" = "$VELHO" ]; then echo "sem mudança relevante (mesmo status, mesmo dia)"; exit 0; fi
           git add seo/saude.json && git commit -m "Guardião: $(python3 -c "import json;print(json.load(open('seo/saude.json'))['status'])") [skip netlify]" && git pull --rebase && git push
       - name: Falhar se houver problema (o GitHub manda e-mail ao dono)
         if: steps.v.outcome == 'failure'

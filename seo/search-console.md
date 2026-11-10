@@ -1,6 +1,6 @@
 # Search Console — quantocobrarpj.com.br
 
-Dados reais do Google (propriedade sc-domain:quantocobrarpj.com.br). Atualizado pela tarefa "Site: Search Console" (domingo e quarta).
+Dados reais do Google (propriedade sc-domain:quantocobrarpj.com.br). Atualizado pela tarefa "Site: Search Console" (domingo, quarta e sexta).
 
 ## ÚLTIMA LEITURA 08/11/2026
 

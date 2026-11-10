@@ -1,9 +1,9 @@
 # Como ler seo/eventos.csv (uso do site por dia)
 
-Cada número = quantas VISITAS fizeram aquilo no dia (conta 1 por visita, mesmo que a pessoa clique várias vezes). Anônimo, sem dados pessoais. Gravado às 20h17 pelo GitHub Actions (visitas.yml), a partir do script /eventos.js presente em todas as páginas.
+Cada número = quantas VISITAS fizeram aquilo no dia (conta 1 por visita, mesmo que a pessoa clique várias vezes). Anônimo, sem dados pessoais. Gravado às 20h17 pelo GitHub Actions (visitas.yml); a linha de ontem é corrigida na leitura seguinte, então o número de um dia só é definitivo no dia seguinte. De 08/11 a 09/11/2026 o uso de imposto e supermercado caiu em c-outra (corrigido em 09/11), a partir do script /eventos.js presente em todas as páginas.
 
 Calculadoras usadas (pessoa mexeu em algum campo):
-- c-cltpj: CLT x PJ (home) · c-split: split payment (home ou /split-payment/) · c-imposto: "Meu imposto" (home) · c-super: supermercado (home)
+- c-cltpj: CLT x PJ (home) · c-split: split payment (home ou /split-payment/) · c-imposto: "Meu imposto" (/impostos/; na home até 08/11) · c-super: supermercado (/impostos/; na home até 08/11)
 - c-mei2027: /mei-2027/ · c-meilimite: /mei-passou-do-limite/ · c-hora: /quanto-cobrar-por-hora/ · c-relmei: /relatorio-mensal-mei/ · c-tabela: /clt-pj/ · c-outra: outras
 
 Cliques:
