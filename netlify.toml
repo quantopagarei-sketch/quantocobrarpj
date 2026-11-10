@@ -6,3 +6,46 @@
   for = "/guia-split-payment/*.pdf"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+# Pastas internas (anotações dos agentes e outros projetos): não abrem pelo endereço do site.
+# Os agentes leem esses arquivos pelo GitHub, não pelo site. (Aprovado pelo Vini em 09/11/2026.)
+[[redirects]]
+  from = "/seo/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/gestao/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/etsy/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/kdp/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/pinterest/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/afiliados/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/tiktok-efeitos/*"
+  to = "/404.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/.github/*"
+  to = "/404.html"
+  status = 404
+  force = true
