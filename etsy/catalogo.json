@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-09",
+ "atualizado_em": "2026-11-10",
  "nota": "Catálogo da loja Cellwise (Etsy + Payhip). A tarefa de domingo preenche os anúncios antigos na 1ª execução; a criação e a publicação atualizam os novos. Nunca colocar arquivos vendidos neste repositório (é público).",
  "produtos": [
   {
@@ -685,6 +685,42 @@
    "origem": "Fila de aprovação 05/11/2026",
    "slug": "vision-board-printable-2027",
    "payhip_url": "https://payhip.com/b/yCwKq"
+  },
+  {
+   "etsy_id": "4613680475",
+   "titulo_curto": "2027 Budget Bundle",
+   "etsy_url": "https://www.etsy.com/listing/4613680475/2027-budget-bundle-spreadsheet-planner",
+   "imagem_capa": "",
+   "secao": "Budget & Money Sheets",
+   "tipo": "Kit",
+   "status": "publicado",
+   "origem": "Fila de aprovação 10/11/2026",
+   "slug": "budget-bundle-2027",
+   "payhip_url": "https://payhip.com/b/aPJ2v"
+  },
+  {
+   "etsy_id": "4613681245",
+   "titulo_curto": "Medication Tracker Printable",
+   "etsy_url": "https://www.etsy.com/listing/4613681245/medication-tracker-printable-daily",
+   "imagem_capa": "",
+   "secao": "Printable Planners",
+   "tipo": "PDF imprimível",
+   "status": "publicado",
+   "origem": "Fila de aprovação 10/11/2026",
+   "slug": "medication-tracker-printable",
+   "payhip_url": "https://payhip.com/b/zBgb2"
+  },
+  {
+   "etsy_id": "4613697630",
+   "titulo_curto": "Wedding Guest List Spreadsheet",
+   "etsy_url": "https://www.etsy.com/listing/4613697630/wedding-guest-list-spreadsheet-rsvp",
+   "imagem_capa": "",
+   "secao": "Holiday & Events",
+   "tipo": "Planilha",
+   "status": "publicado",
+   "origem": "Fila de aprovação 10/11/2026",
+   "slug": "wedding-guest-list-spreadsheet",
+   "payhip_url": "https://payhip.com/b/EFluj"
   }
  ],
  "secoes_etsy": {
