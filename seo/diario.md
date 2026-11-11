@@ -1,5 +1,7 @@
 # Diário do Agente de SEO
 
+PRIORIDADE DO VINI/SÓCIO (10/11/2026, válida até 10/12/2026): meta única do período = ser visto no Google. Ordem: (1) melhorar título e description de /split-payment/ para subir o CTR de 1% (193 impressões, posição 6); (2) pedir e acompanhar a indexação das páginas que o Google ainda não reconhece (lista em seo/search-console.md); (3) conseguir links de outros sites. Página nova só se seo/palavras-chave.md mostrar busca real para ela. Não mexer em outras frentes.
+
 - 2026-10-30: site ligado ao GitHub (deploy automático). Sitemap (23 URLs) reenviado no Search Console (propriedade de prefixo verificada também para quanto.pagarei). Indexação solicitada: /split-payment/, /mei-2027/, /clt-pj/, /clt-pj/5000/. /split-payment/ e /mei-2027/ já estavam no Google. Próximo: páginas novas de cauda longa.
 - 2026-10-30 (tarde): site: no buscador = 0 resultados próprios (ainda não aparece na busca usada). Regras conferidas: split payment em testes desde 15/10 (sem adiamento oficial), CBS ~11,3% (TCU), LC 238/2026 ok, salário mínimo 2027 previsto R$ 1.741 (PLOA, não definitivo) — nada a corrigir. Melhoria técnica: schema WebApplication em /mei-2027/ e /split-payment/. Página nova: /mei-passou-do-limite/ (calculadora de excesso + prazo de comunicação, passo a passo, FAQ, fontes Receita). Links internos a partir de /mei-2027/ (card, calculadora, FAQ, rodapé). Sitemap: 24 URLs. Ideias amanhã: DAS MEI 2027 valor (quando o salário mínimo 2027 sair), páginas CLT 5500/6500/7500, fator R Anexo III x V, BreadcrumbList na home.
 

@@ -1,6 +1,9 @@
 # Estratégia Cellwise (Etsy + Payhip)
 Atualizada em 05/11/2026 (revisão geral). A tarefa de domingo "Cellwise: estratégia e relatório" reescreve este arquivo toda semana.
 
+COTA DIÁRIA: 0
+DECISÃO DO VINI (10/11/2026, válida até 10/12/2026): criação de produtos novos PAUSADA (cota 0). Meta do período: visibilidade. Pinterest, suporte e o teste de anúncios de 17/11 a 01/12 continuam. Títulos e tags só são reescritos em anúncios com 21+ dias. O planejador semanal NÃO pode subir a cota antes de 10/12/2026.
+
 ## Regras fixas
 - Aprovação do Vini obrigatória: a criação só manda produtos para a página de aprovação; publicar só o que estiver "aprovado" (regras do Etsy de out/2026 contra anúncios criados por robô).
 - Preço de lançamento: imprimíveis US$ 1,99–2,99; planilhas US$ 2,99–3,99; pacotes até US$ 4,99. Nunca mudar preço já publicado.
