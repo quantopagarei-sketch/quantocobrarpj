@@ -28,7 +28,7 @@ Formato de cada bloco: consulta principal e variações | intenção | sazonalid
 - Intenção: dono de empresa do Simples decidindo se muda de regime e se vai ter retenção. Sazonalidade: até 30/11 (prazo para quem optou em setembro voltar ao tradicional), jan/2027 (efeitos) e mar/2027 (próxima janela de opção, para o 2º semestre).
 - Concorrência: Meu Contador Online (3 artigos), Investnews, Contaja, Contabilivre, Contmatic, Jornal Contábil — só texto, ninguém simula a retenção. Sinal a favor: o Simples tradicional (sem destaque de IBS/CBS) fica FORA do split em 2027 (fala da Fin no evento da Fiesp, 24/08/2026) e quase ninguém diz isso com clareza.
 - Página NOVA /split-payment/simples-nacional/ — "Split payment no Simples Nacional: tradicional x híbrido" (57). Precisa: resposta direta (tradicional = sem retenção em 2027; híbrido = IBS/CBS por fora e sujeito ao split); tabela comparando os dois; simulador pré-preenchido (R$ 5.000 recebidos em cada regime); datas das janelas de opção; FAQ; fonte LC 214/2025 e Res. CGSN (ler antes; texto neutro onde não houver regra).
-- Status: novo
+- Status: publicada em 11/11 (SEO)
 
 **B3. split payment mei** — variações: "mei tem split payment", "mei vai ter split payment em 2027", "split payment para mei", "reforma tributária mei 2027 o que muda", "mei vai ser obrigado a emitir nota fiscal em 2027", "mei vai pagar cbs"
 - Intenção: MEI com medo de desconto no Pix. Sazonalidade: dez–jan (junto com limite e DAS 2027).
@@ -99,7 +99,7 @@ Formato de cada bloco: consulta principal e variações | intenção | sazonalid
 **B14. mei 110 mil por mês / limite mensal** — variações: "mei pode faturar 110 mil em 2026", "limite do mei por mês 2027", "mei 9.166 por mês", "novo limite mei quando começa a valer"
 - Intenção: confirmar a regra. Sazonalidade: dez–jan. Concorrência: Meu Contador Online, IOB, Agilize, Contabilidade Clara, Dinastia, Mixvale — pequenos e médios no top 10.
 - Página EXISTENTE /mei-2027/ (pos. 9,3) — já tem o número no título; fazer o reforço da seção A (FAQ exata) e nada mais.
-- Status: em andamento (reforço via A)
+- Status: reforçada em 11/11 (4 FAQs exatas da seção A)
 
 ### C) PERGUNTAS REAIS para FAQ (títulos e FAQs dos concorrentes e das notícias; validar com "As pessoas também perguntam" na próxima rodada com Chrome)
 - Split payment: O que é split payment? | Quando começa o split payment? | O split payment é obrigatório em 2027? | O split payment vai taxar o Pix? | Split payment vale para pessoa física? | Autônomo sem CNPJ vai ter split payment? | Empresa do Simples Nacional tem split payment? | MEI tem split payment? | Split payment no cartão de crédito começa quando? | Quanto fica retido no split payment? | O split payment aumenta o imposto? | Como calcular o split payment de um Pix de R$ 1.000 / R$ 5.000? | Quem tem crédito de imposto paga menos? | Qual é a alíquota da CBS em 2027? | Split payment foi adiado para 2028?
