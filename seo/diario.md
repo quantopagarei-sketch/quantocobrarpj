@@ -97,6 +97,8 @@ Diferenciais a destacar nos títulos/descrições: grátis, sem cadastro, neutro
 2. Páginas: resposta direta e calculadora no topo; textos longos, tabelas grandes e listas de fontes dentro de <details>; nada de blocos copiados de outra página (linkar em vez de repetir).
 3. O Agente de UX (quinta, 16h37) mede as páginas e mantém seo/ux.md (orçamento de tamanho, fila e "Pedidos ao SEO"). Leia antes de publicar.
 4. O script principal da home e de /impostos/ usa $ seguro (devolve um elemento vazio se o id não existir): manter. Mesmo assim, testar no Playwright depois de tirar qualquer seção.
+5. (12/11, UX) Cabeçalho de página nova: copiar de uma página interna (logo com href="/" e "Calcular agora" com href="/#clt-mei"). O cabeçalho da home usa #top e #clt-mei, que só existem nela: copiado em /impostos/, deixou o botão principal sem funcionar até 12/11.
+6. (12/11, UX) Tabela larga no celular (cabem só 2 colunas): a coluna com a resposta da página vem logo depois da primeira, e o link da 1ª coluna ocupa a célula inteira (modelo: /clt-pj/, bloco <style id="ux-css">). Lista longa de cartões explicativos: um <details> por item, com o nome no <summary> (modelo: guia de /impostos/).
 
 ## META DO VINI (07/11/2026) — +50 VISITAS POR DIA (vale para todos os agentes do site)
 - Metas de visitas por dia (eram 15 → 65 até 30/11/2026; 50 → 100 em dez/2026; 130 → 180 em jan–fev/2027; 330 → 380 em mar–abr; 600 → 650 em mai–jul; 1.000 → 1.050 a partir de ago/2027). Pedidos de contador seguem iguais (1/semana em nov, 2/semana em dez, 0,5/dia em jan–fev).
