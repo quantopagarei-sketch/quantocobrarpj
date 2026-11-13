@@ -78,8 +78,12 @@ def descobrir_canal(e):
         print("getUpdates falhou:", r)
         return None
     achado = None
+    vistos = []  # diagnóstico: onde o bot foi colocado (grupo? canal? com que papel?)
     for u in r:
         m = u.get("my_chat_member")
+        if m:
+            vistos.append({"tipo": m.get("chat", {}).get("type"), "titulo": m.get("chat", {}).get("title") or "",
+                           "papel": m.get("new_chat_member", {}).get("status")})
         if m and m.get("chat", {}).get("type") == "channel":
             if m.get("new_chat_member", {}).get("status") == "administrator":
                 achado = m["chat"]
@@ -88,6 +92,7 @@ def descobrir_canal(e):
         p = u.get("channel_post")
         if p and p.get("chat", {}).get("type") == "channel" and not achado:
             achado = p["chat"]
+    e["vistos"] = vistos[-5:]
     return achado
 
 
