@@ -35,6 +35,7 @@ O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só 
 | Crescimento (seg e qui) | Traz inscritos sem spam; registra em `crescimento.md` | Claude (+ Chrome se houver) | Sim |
 | Divulgador Facebook (diário, 20h31) | Posta as 2 campeãs do dia na página "Black Achadinhos" do Facebook e em grupos de ofertas que permitem; sempre chama para o canal. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
 | Divulgador X (diário, 21h17) | Posta as 2 campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora, 1 programada para 12h15. Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
+| Gestor de Mídia (diário, 19h19, só de 14 a 28/11) | Prepara e acompanha o teste de anúncio pago de R$ 70 (20 a 27/11); pausa se passar do limite; nunca cria campanha nem aumenta verba. Regras em `midia.md` | Claude + Chrome do PC do Vini | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
 | Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |
 
@@ -112,6 +113,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 6. Nunca digitar senha, token ou código em lugar nenhum. Token e segredos só o Vini coloca.
 7. Gastar dinheiro, criar conta em serviço novo e mandar mensagem para terceiros em nome do Vini:
    só com o "sim" dele (o Diretor pergunta no aviso de domingo).
+   Anúncio pago: só o teste descrito em `midia.md`, publicado e pago pelo próprio Vini.
 
 8. TikTok: NÃO usar neste projeto (o Vini disse não em 13/11/2026 para o @casa.achadinhos.br). Nenhum agente
    mexe em bio, link ou legenda do TikTok, mesmo que o texto da tarefa peça.
@@ -124,6 +126,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
   e venda e puxa o rodízio para elas.
 
 ## Pendências
+- Diretor: leia também `midia.md` (teste de anúncio pago: fase, gasto, veredito) e inclua 1 linha no aviso.
 - Diretor: leia também `x.md` (posts, aprendizados e avisos do X) e trate "Avisos do X" como os do Facebook.
 - (Feito em 13/11) Perfil de afiliado > "Redes sociais": cadastrados a página do Facebook
   (facebook.com/onmarronestore), o X (x.com/titantuita) e o canal (t.me/Blackachados). Não mexer.
