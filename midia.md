@@ -37,6 +37,8 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
 Tudo marcado = FASE 2 e UM aviso ao Vini.
 
 ## Anúncio pronto
+Tom: "especialistas em ofertas do Mercado Livre" (ver "Posicionamento" no LEIA-PRIMEIRO), deixando claro que
+é canal independente, com links de afiliado.
 (vazio)
 
 ## Diário (data | fase | gasto total | inscritos no período | custo por inscrito | o que fiz)

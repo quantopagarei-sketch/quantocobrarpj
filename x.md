@@ -21,7 +21,8 @@ Canal: https://t.me/Blackachados
    "Aprendizados" que tipo de produto, preço e frase rendeu mais. Use isso para escolher e escrever os próximos.
 
 ## Como escrever (até 260 caracteres, varie sempre)
-Frase de gente, não de anúncio, começando pelo produto ou pelo benefício. Depois "de R$ X por R$ Y" (só se houver
+Tom de quem entende de Mercado Livre e garimpa lá todo dia (ver "Posicionamento" no LEIA-PRIMEIRO); nunca
+"o melhor preço". Frase de gente, não de anúncio, começando pelo produto ou pelo benefício. Depois "de R$ X por R$ Y" (só se houver
 preco_de), 1 motivo curto (nota, vendidos, frete grátis), o link de afiliado e "(link de afiliado)" ou #publi.
 No máximo 2 hashtags (#promoção, #oferta; #BlackFriday só até 30/11). Sem MAIÚSCULAS de anúncio, sem
 "corre", "últimas unidades" ou qualquer urgência inventada.

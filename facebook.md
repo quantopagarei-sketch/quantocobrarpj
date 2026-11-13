@@ -27,6 +27,7 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
 - FOTO vale mais que prévia de link. Carregue também a ferramenta mcp__claude-in-chrome__upload_image
   (ToolSearch). Abra a `imagem` da oferta numa aba sua, tire um print (mouse num canto) e anexe com
   upload_image no campo de arquivo do "No que você está pensando?". Se falhar 2 vezes, poste só com o link.
+- Tom: especialistas em ofertas do Mercado Livre (ver "Posicionamento" no LEIA-PRIMEIRO). Nunca "o melhor preço".
 - Primeira linha = produto + preço (é o que aparece antes do "Ver mais"). Link na 3ª ou 4ª linha.
 - Na última tela ("Configurações do post"): NUNCA ligue "Turbinar post" (é pago). Se aparecer oferta de
   botão "Ligar agora" ou qualquer outra, clique em "Agora não".
@@ -49,7 +50,7 @@ Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 ## Feito (data | onde | oferta | resultado)
 - 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
 - 13/11: endereço novo (/blackachadinhos.ofertas), botão "Saiba mais" levando ao canal, post de apresentação
-  publicado e fixado.
+  publicado e fixado; 5 fotos antigas (Marrone Store) apagadas; bio e post fixado com o posicionamento novo.
 
 ## Avisos do Facebook
 (nenhum)

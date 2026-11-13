@@ -12,6 +12,15 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
+## POSICIONAMENTO (pedido do Vini em 13/11) – vale para todo texto de todo agente
+Somos **especialistas em ofertas do Mercado Livre**: só divulgamos links de lá porque é onde garimpamos, todo
+dia, os menores preços, sempre conferidos na hora. Use esse tom em posts, bios e anúncios.
+Limites: nunca dizer "o melhor preço", "o menor preço do Brasil" nem comparar com outras lojas (não conferimos
+as outras); o certo é "o menor preço que achamos hoje no Mercado Livre" ou "preço conferido agora". Nunca
+parecer canal oficial: somos independentes, com links de afiliado, e isso aparece nas bios e nos textos fixos.
+Para trocar os textos do canal do Telegram: edite `descricao_canal`/`boas_vindas` em `config.json` e some 1 em
+`versao_textos` (o robô atualiza a descrição e a mensagem fixada sozinho). Só o Diretor ou o Claude principal.
+
 ## SPRINT BLACK FRIDAY (pedido do Vini em 13/11: antecipar tudo; ele quer ser envolvido o mínimo possível)
 Meta antecipada: chegar em **27/11/2026 com 100 inscritos e a 1ª comissão**. Vale de 13/11 a 30/11 e, onde
 houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas:

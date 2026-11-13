@@ -266,6 +266,21 @@ def main():
             salvar_estado(e)
             return 0
 
+    # Textos do canal mudaram em config.json (versao_textos)? Atualiza a descrição e a mensagem fixada.
+    if e.get("textos_v", 1) != CFG.get("versao_textos", 1):
+        api("setChatDescription", chat_id=chat, description=CFG["descricao_canal"][:255])
+        ok, c = api("getChat", chat_id=chat)
+        fixada = (c.get("pinned_message") or {}).get("message_id") if ok and isinstance(c, dict) else None
+        ok = False
+        if fixada:
+            ok, r = api("editMessageText", chat_id=chat, message_id=fixada, text=CFG["boas_vindas"], parse_mode="HTML")
+        if not ok:
+            ok, r = api("sendMessage", chat_id=chat, text=CFG["boas_vindas"], parse_mode="HTML")
+            if ok:
+                api("pinChatMessage", chat_id=chat, message_id=r["message_id"], disable_notification=True)
+        if ok:
+            e["textos_v"] = CFG.get("versao_textos", 1)
+
     logo = BASE / "logo.jpg"
     if logo.exists() and not e.get("foto_ok"):
         ok, r = api_foto("setChatPhoto", chat, "photo", logo)
