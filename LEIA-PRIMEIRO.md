@@ -26,6 +26,7 @@ arquivos deste projeto no `main` (lá cada push pode publicar o site).
 | Robô postador (`bot.py`) | Posta 1 oferta da fila nos horários de `config.json` (9h, 12h, 15h, 18h, 20h, 21h), anota inscritos | GitHub Actions, de hora em hora | Não |
 | Curador (tarefa agendada diária, 19h47) | Escolhe 6 a 8 ofertas no Mercado Livre, gera os links de afiliado e grava em `fila/` | Claude + Chrome do PC do Vini | Sim |
 | Crescimento (seg e qui) | Traz inscritos sem spam; registra em `crescimento.md` | Claude (+ Chrome se houver) | Sim |
+| Divulgador Facebook (diário, 20h31) | Posta as 2 campeãs do dia na página "Black Achadinhos" do Facebook e em grupos de ofertas que permitem; sempre chama para o canal. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
 | Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |
 
@@ -44,6 +45,15 @@ arquivos deste projeto no `main` (lá cada push pode publicar o site).
 6. A fila conferida às 19h47 é postada às 20h e 21h do mesmo dia e às 9h, 12h, 15h e 18h do dia
    seguinte. Ofertas vencem 24 h depois de `conferido_em`.
 
+## Potencial de venda (pedido do Vini em 13/11: divulgar mais o que tem mais chance de vender)
+O Curador dá a cada oferta o campo `"potencial"` de 1 a 5 (o robô ignora; quem usa é o Divulgador):
+some 1 ponto para cada item verdadeiro: (a) +10 mil vendidos e nota 4,8+; (b) desconto real de 40% ou mais;
+(c) preço entre R$ 40 e R$ 250 (compra por impulso); (d) marca conhecida ou loja oficial, com Full/frete grátis;
+(e) categoria de comissão alta no painel de afiliado OU produto da época (Black Friday, Natal, volta às aulas).
+As 2 de maior potencial do dia são as **campeãs**: recebem `"prioridade": 1` (saem primeiro no canal) e são as
+que o Divulgador leva para o Facebook. Aos domingos o Curador lê no painel de afiliado quais links/categorias
+tiveram mais clique e venda e anota em `ml.csv`; o Diretor puxa o rodízio para elas.
+
 ## Como escrever uma oferta na fila
 Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arquivos):
 ```json
@@ -60,6 +70,8 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 ## Regras que não podem ser quebradas
 1. Sem spam: nunca adicionar pessoas ao canal, nunca mandar mensagem em massa, nunca postar o link
    em grupos dos outros sem o dono permitir, nunca comprar inscritos. Isso derruba a conta do Telegram.
+   Exceção (pedido do Vini em 13/11): grupos do FACEBOOK feitos para ofertas/promoções/divulgação, cujas
+   regras permitem esse tipo de post; só pela página "Black Achadinhos", com os limites de `facebook.md`.
 2. Preço e desconto reais, conferidos na hora. Nada de urgência falsa ("últimas unidades") inventada.
 3. Transparência: a descrição e a mensagem fixada dizem que há links de afiliado. Não remover.
 4. Regras do programa do Mercado Livre: não pagar anúncio em buscador, não clicar nem comprar pelos
