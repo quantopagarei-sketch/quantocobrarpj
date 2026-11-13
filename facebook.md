@@ -23,6 +23,19 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
 5. Aviso do Facebook (post removido, "atividade incomum", bloqueio de recurso): pare tudo por 3 dias, anote aqui
    em "Avisos" com a data. Dois avisos = parar os grupos e deixar para o Diretor falar com o Vini.
 
+## Como postar bem (revisão de especialista, 13/11)
+- FOTO vale mais que prévia de link. Carregue também a ferramenta mcp__claude-in-chrome__upload_image
+  (ToolSearch). Abra a `imagem` da oferta numa aba sua, tire um print (mouse num canto) e anexe com
+  upload_image no campo de arquivo do "No que você está pensando?". Se falhar 2 vezes, poste só com o link.
+- Primeira linha = produto + preço (é o que aparece antes do "Ver mais"). Link na 3ª ou 4ª linha.
+- Na última tela ("Configurações do post"): NUNCA ligue "Turbinar post" (é pago). Se aparecer oferta de
+  botão "Ligar agora" ou qualquer outra, clique em "Agora não".
+- Nessa mesma tela existe "Compartilhar nos grupos": use para levar o post aos grupos em que a página já
+  entrou e que permitem oferta (conta no limite diário de grupos).
+- Comentários nos posts da página: responda com educação e, se perguntarem, com o link da oferta ou do
+  canal. Nunca discuta; comentário ofensivo fica sem resposta.
+- O post fixado (apresentação + link do canal) e o botão "Saiba mais" (leva ao canal) já existem: não mexer.
+
 ## Modelo de post (varie as palavras a cada vez)
 <Nome curto do produto>
 De R$ X por R$ Y (-Z%)  ·  <nota>★ · <vendidos> vendidos · frete grátis
@@ -35,6 +48,8 @@ Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 
 ## Feito (data | onde | oferta | resultado)
 - 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
+- 13/11: endereço novo (/blackachadinhos.ofertas), botão "Saiba mais" levando ao canal, post de apresentação
+  publicado e fixado.
 
 ## Avisos do Facebook
 (nenhum)
