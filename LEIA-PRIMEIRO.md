@@ -152,6 +152,9 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 ## Pendências
 - Diretor: leia também `midia.md` (teste de anúncio pago: fase, gasto, veredito) e inclua 1 linha no aviso.
 - Diretor: leia também `x.md` (posts, aprendizados e avisos do X) e trate "Avisos do X" como os do Facebook.
+- (Feito em 13/11) O Vini NÃO quer o nome nem a foto dele aparecendo: o perfil de afiliado se chama
+  BLACKACHADINHOS, com o logo e descrição próprios. Nunca voltar para nome/foto pessoais, nem citar o nome
+  dele em post, bio ou anúncio. (O endereço /social/viniciusmarrone não dá para trocar pelo painel.)
 - (Feito em 13/11) Perfil de afiliado > "Redes sociais": cadastrados a página do Facebook
   (facebook.com/blackachadinhos.ofertas), o X (x.com/titantuita) e o canal (t.me/Blackachados). Não mexer.
 - Limpeza: o Diretor apaga de `fila/` os arquivos com mais de 30 dias (o robô tira do `estado.json` sozinho).
