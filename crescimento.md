@@ -10,8 +10,8 @@ Objetivo: trazer inscritos reais, que gostam de oferta e achadinho (todas as cat
 5. Parcerias de divulgação cruzada com canais pequenos (até 5 mil inscritos) de nicho vizinho:
    o agente só PREPARA a lista e o texto; o envio depende do "sim" do Vini.
 
-## Facebook
-É do agente Divulgador Facebook (diário); regras e diário em `facebook.md`. O Crescimento não mexe no Facebook.
+## Facebook e X
+São dos agentes Divulgador Facebook (`facebook.md`) e Divulgador X (`x.md`), diários. O Crescimento não mexe neles.
 
 ## Feito
 - 13/11: canal no ar (t.me/Blackachados), foto e descrição postas pelo robô.

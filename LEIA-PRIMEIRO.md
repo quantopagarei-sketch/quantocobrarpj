@@ -32,6 +32,7 @@ O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só 
 | Curador (tarefa agendada diária, 19h47) | Escolhe 6 a 8 ofertas no Mercado Livre, gera os links de afiliado e grava em `fila/` | Claude + Chrome do PC do Vini | Sim |
 | Crescimento (seg e qui) | Traz inscritos sem spam; registra em `crescimento.md` | Claude (+ Chrome se houver) | Sim |
 | Divulgador Facebook (diário, 20h31) | Posta as 2 campeãs do dia na página "Black Achadinhos" do Facebook e em grupos de ofertas que permitem; sempre chama para o canal. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
+| Divulgador X (diário, 21h17) | Posta as 2 campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora, 1 programada para 12h15. Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
 | Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |
 
@@ -85,6 +86,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
    em grupos dos outros sem o dono permitir, nunca comprar inscritos. Isso derruba a conta do Telegram.
    Exceção (pedido do Vini em 13/11): grupos do FACEBOOK feitos para ofertas/promoções/divulgação, cujas
    regras permitem esse tipo de post; só pela página "Black Achadinhos", com os limites de `facebook.md`.
+   No X: só posts na própria conta @titantuita, com os limites de `x.md` (nunca responder aos outros com link).
 2. Preço e desconto reais, conferidos na hora. Nada de urgência falsa ("últimas unidades") inventada.
 3. Transparência: a descrição e a mensagem fixada dizem que há links de afiliado. Não remover.
 4. Regras do programa do Mercado Livre: não pagar anúncio em buscador, não clicar nem comprar pelos
@@ -106,9 +108,10 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
   e venda e puxa o rodízio para elas.
 
 ## Pendências
+- Diretor: leia também `x.md` (posts, aprendizados e avisos do X) e trate "Avisos do X" como os do Facebook.
 - Confirmar no painel de afiliado se o canal do Telegram e a página do Facebook precisam estar cadastrados
   como canais de divulgação.
 - Etiqueta: os links saem com a etiqueta padrão da conta ("viniciusmarrone"). Sem etiquetas separadas
-  ("telegram", "facebook") não dá para saber de onde veio cada venda; criar etiqueta depende do Vini.
+  ("telegram", "facebook", "x") não dá para saber de onde veio cada venda; criar etiqueta depende do Vini.
 - Limpeza: o Diretor apaga de `fila/` os arquivos com mais de 30 dias (o robô tira do `estado.json` sozinho).
 - Números de cliques e ganhos: o Curador lê no painel aos domingos e grava em `ml.csv`.
