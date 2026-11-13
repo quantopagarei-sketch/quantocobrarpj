@@ -25,6 +25,7 @@ jobs:
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
         run: |
+          [ -f workflow-ok.txt ] || echo "Primeira execução do workflow: $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')" > workflow-ok.txt
           python3 coletor_shopee.py || true
           python3 bot.py
       - name: Guardar estado no ramo telegram
