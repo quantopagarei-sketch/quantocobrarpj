@@ -125,9 +125,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 
 ## Pendências
 - Diretor: leia também `x.md` (posts, aprendizados e avisos do X) e trate "Avisos do X" como os do Facebook.
-- Confirmar no painel de afiliado se o canal do Telegram e a página do Facebook precisam estar cadastrados
-  como canais de divulgação.
-- Perfil de afiliado (https://www.mercadolivre.com.br/afiliados/perfil): a parte "Redes sociais" está vazia
-  (é opcional). Cadastrar a página do Facebook e o X ali é decisão do Vini.
+- (Feito em 13/11) Perfil de afiliado > "Redes sociais": cadastrados a página do Facebook
+  (facebook.com/onmarronestore), o X (x.com/titantuita) e o canal (t.me/Blackachados). Não mexer.
 - Limpeza: o Diretor apaga de `fila/` os arquivos com mais de 30 dias (o robô tira do `estado.json` sozinho).
 - Números de cliques e ganhos: o Curador lê no painel aos domingos e grava em `ml.csv`.
