@@ -31,7 +31,7 @@ Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 (vazio)
 
 ## Feito (data | onde | oferta | resultado)
-- 13/11: página renomeada para "Black Achadinhos", logo novo, bio com o link do canal.
+- 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
 
 ## Avisos do Facebook
 (nenhum)

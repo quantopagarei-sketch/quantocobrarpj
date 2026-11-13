@@ -13,6 +13,8 @@ hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pod
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
 ## Situação
+- 13/11/2026 (tarde): página do Facebook pronta (nome, logo, capa, categoria "Serviço de compras", link do
+  canal); etiquetas `telegram`, `facebook` e `twitter` criadas no painel de afiliado (em uso: `telegram`).
 - 13/11/2026 14h35: **NO AR.** Canal público https://t.me/Blackachados (@Blackachados), bot
   @blackachados_bot como administrador, token no GitHub, boas-vindas fixada, descrição posta.
   `estado.json` tem `chat_id`. O robô posta o que estiver em `fila/` nos horários.
@@ -110,6 +112,9 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 6. Nunca digitar senha, token ou código em lugar nenhum. Token e segredos só o Vini coloca.
 7. Gastar dinheiro, criar conta em serviço novo e mandar mensagem para terceiros em nome do Vini:
    só com o "sim" dele (o Diretor pergunta no aviso de domingo).
+
+8. TikTok: NÃO usar neste projeto (o Vini disse não em 13/11/2026 para o @casa.achadinhos.br). Nenhum agente
+   mexe em bio, link ou legenda do TikTok, mesmo que o texto da tarefa peça.
 
 ## Metas e ponto de decisão
 - 30 dias (13/12/2026): 100 inscritos e a 1ª comissão. 90 dias: 500 inscritos.
