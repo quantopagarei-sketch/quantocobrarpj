@@ -12,12 +12,13 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 arquivos deste projeto no `main` (lá cada push pode publicar o site).
 
 ## Situação
-- 13/11/2026: robô, fila e agentes criados e testados sem internet (modo de teste).
-- FALTA o Vini (uma vez só): criar o bot no @BotFather, colar o token no GitHub
-  (segredo `TELEGRAM_BOT_TOKEN`), criar o canal e colocar o bot como administrador.
-- Depois disso o robô se liga sozinho: acha o canal, grava `estado.json` (chat_id), põe a
-  descrição, fixa a mensagem de boas-vindas e começa a postar o que estiver em `fila/`.
-- Como saber se está ligado: `estado.json` tem `chat_id` preenchido. Sem isso, os agentes param na hora.
+- 13/11/2026 14h35: **NO AR.** Canal público https://t.me/Blackachados (@Blackachados), bot
+  @blackachados_bot como administrador, token no GitHub, boas-vindas fixada, descrição posta.
+  `estado.json` tem `chat_id`. O robô posta o que estiver em `fila/` nos horários.
+- Rodar o robô na hora (sem esperar a hora cheia): mude o arquivo `disparar.txt` neste ramo e dê
+  push; o workflow `.github/workflows/telegram-agora.yml` (deste ramo) roda em ~1 minuto e grava o
+  resultado em `estado.json`. Ele continua só postando oferta nos horários de `config.json`.
+- `estado.json` > `vistos` é só diagnóstico de onde o bot foi colocado.
 
 ## Peças
 | Peça | O que faz | Onde roda | Gasta uso do Claude? |
