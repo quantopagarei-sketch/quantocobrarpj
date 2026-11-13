@@ -46,13 +46,20 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
    - Onde não entrar na conversa: luto, doença, política, religião, briga, pedido de ajuda financeira,
      posts de venda de outra pessoa (não atrapalhar a venda dela) e qualquer post sem relação com compras.
 3. Entrar em grupos: no máximo 3 pedidos por dia, até ter 20 grupos. Grupos brasileiros, com mais de 5 mil
-   membros e posts do dia, onde está quem compra online e gostaria de um canal de ofertas, nesta ordem:
-   (a) ofertas, promoções, achadinhos, cupons, Black Friday; (b) compradores e dicas do Mercado Livre;
-   (c) casa e organização, cozinha/air fryer, mães e enxoval, beleza e perfumes, tecnologia e celulares
-   baratos, ferramentas e faça-você-mesmo, pets. Leia as regras ANTES: se proibir páginas ou comentários de
-   páginas, não entre. Perguntas de entrada: só a verdade ("página de ofertas do Mercado Livre"); nunca dado
-   pessoal do Vini. Toda semana, veja em "Grupos" quais renderam mais reações/respostas e concentre neles;
-   saia dos que não renderam nada em 2 semanas.
+   membros e posts do dia, onde está quem compra online e gostaria de um canal de ofertas.
+   PÚBLICO-ALVO (pedido do Vini em 13/11): dar preferência a grupos com muita gente de 40 a 60 anos, que é o
+   público mais presente no Facebook e que mais valoriza indicação de confiança. Ordem de procura:
+   (a) ofertas, promoções, achadinhos, cupons, Black Friday;
+   (b) casa, cozinha e receitas, air fryer, organização, jardinagem e plantas, artesanato e costura;
+   (c) ferramentas, marcenaria, faça-você-mesmo, pesca, carros e manutenção;
+   (d) compradores e dicas do Mercado Livre; pets; beleza e perfumes; avós/mães e presentes.
+   Com esse público, credibilidade vem de ser claro e certo, nunca de pressão: escreva simples, diga o preço
+   exato conferido hoje, que a compra é no Mercado Livre (com Compra Garantida e frete informado na página) e
+   que o link é de afiliado. Nada de urgência, letras miúdas, "só hoje" inventado ou promessa. Se alguém
+   tiver dúvida de como comprar com segurança, explique com paciência (é o tipo de comentário que mais ajuda).
+   Leia as regras ANTES de entrar: se proibir páginas, não entre. Perguntas de entrada: só a verdade
+   ("página de ofertas do Mercado Livre"); nunca dado pessoal do Vini. Toda semana, veja em "Grupos" quais
+   renderam mais reações/respostas e concentre neles; saia dos que não renderam nada em 2 semanas.
 4. Se o grupo não deixa a página participar: anote em "Grupos" como "só perfil pessoal" e não use.
 5. Aviso do Facebook (comentário/post removido, "atividade incomum", bloqueio de recurso) ou bronca de
    administrador de grupo: pare os comentários por 3 dias e saia daquele grupo; anote em "Avisos" com a data.

@@ -14,7 +14,7 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   Estas datas valem mais que as do texto da tarefa e dos avisos (onde estiver "20 a 27/11", leia 16 a 22/11;
   onde estiver "passou de 27/11", leia 22/11). Verba: R$ 10 por dia, teto total de R$ 70, com data de
   término e orçamento total definidos na própria campanha (para o Facebook parar sozinho).
-- Público: Brasil, 20 a 55 anos, interesses em compras online, ofertas, cupons, Mercado Livre, Black Friday.
+- Público: Brasil, 35 a 60 anos (pedido do Vini em 13/11: público de 40 a 60 confia mais em indicação), interesses em compras online, ofertas, cupons, Mercado Livre, Black Friday.
 - Meta: inscrito por menos de R$ 1,00. PAUSAR se: gasto total chegar a R$ 70; ou, depois de R$ 30 gastos,
   o custo por inscrito passar de R$ 1,50; ou passar de 22/11; ou o Facebook reprovar/limitar o anúncio.
 - Conta do custo por inscrito: gasto ÷ (inscritos ganhos no período, por metricas.csv, menos a média diária
