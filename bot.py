@@ -157,7 +157,13 @@ def legenda(item, t):
     if item.get("motivo"):
         linhas.append(f"✅ {e(str(item['motivo'])[:160])}")
     loja = e(str(item.get("loja") or "Loja"))
-    linhas += ["", f"🛒 {loja}: {e(item['link'])}", "", f"<i>Preço conferido em {t.strftime('%d/%m às %Hh%M')}. Pode mudar.</i>"]
+    visto = "O preço pode mudar."
+    try:  # mostra a hora em que o preço foi realmente conferido (não a hora da postagem)
+        c = datetime.fromisoformat(str(item["conferido_em"]))
+        visto = f"Preço visto em {c.strftime('%d/%m às %Hh%M')}. Pode mudar."
+    except Exception:
+        pass
+    linhas += ["", f"🛒 {loja}: {e(item['link'])}", "", f"<i>{visto}</i>"]
     return "\n".join(linhas)[:1020]
 
 

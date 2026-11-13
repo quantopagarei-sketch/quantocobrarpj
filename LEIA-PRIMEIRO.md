@@ -34,7 +34,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 ```
 - Obrigatórios: `nome`, `preco`, `link` (link de AFILIADO, https, de loja em `dominios_permitidos`).
 - `preco_de` só se a loja mostrar o preço riscado de verdade. Nunca invente preço "de".
-- Sem `valido_ate`, a oferta vence 72 h depois de `conferido_em` (o robô pula).
+- Sem `valido_ate`, a oferta vence 48 h depois de `conferido_em` (o robô pula).
 - Resultado de cada oferta: `estado.json` > `itens` (postado, erro com motivo, vencido).
 
 ## Regras que não podem ser quebradas
