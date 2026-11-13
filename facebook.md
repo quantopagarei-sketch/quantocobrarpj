@@ -1,6 +1,10 @@
 # Facebook – página "Black Achadinhos" (diário do Divulgador)
 
-Página: https://www.facebook.com/onmarronestore (antiga "Marrone Store", do Vini; em 13/11/2026 ele mandou
+Página: "Black Achadinhos". ENDEREÇO: em 13/11 o Vini pediu para trocar /onmarronestore por
+/blackachadinhos.ofertas (a troca depende da senha dele). Use o que abrir:
+https://www.facebook.com/blackachadinhos.ofertas ou, se não abrir, https://www.facebook.com/onmarronestore ;
+na dúvida, abra https://www.facebook.com/pages/?category=your_pages e clique em "Black Achadinhos".
+(Antiga "Marrone Store", do Vini; em 13/11/2026 ele mandou
 usar e trocar nome, foto e descrição: feito no mesmo dia). Canal: https://t.me/Blackachados
 Só a PÁGINA fala. O perfil pessoal do Vini (Vinicius Marrone) nunca posta, comenta nem entra em grupo por este projeto.
 No Chrome, o Facebook pode estar "como" o perfil pessoal ou "como" a página: antes de agir, confira no canto
