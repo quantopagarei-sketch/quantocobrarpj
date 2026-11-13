@@ -28,7 +28,7 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 - Curador: 8 a 10 ofertas por dia (em vez de 6 a 8), de pelo menos 5 categorias; preferir as que têm o selo
   "BLACK FRIDAY", "MAIS VENDIDO" ou "OFERTA DO DIA" na página de ofertas, e produtos de Natal. Não pare no
   portão por já haver 6 pendentes: só pare se houver 8 ou mais.
-- Divulgador Facebook: 3 posts por dia na página (as 2 campeãs + 1). Grupos: posts (onde a regra deixa) e
+- Divulgador Facebook: 3 posts por dia na página (as 2 campeãs + 1) e 2 stories. Grupos: posts (onde a regra deixa) e
   comentários, nos limites de `facebook.md` (passar deles bloqueia a conta).
 - Divulgador X: 3 posts por dia (1 na hora + programados para 12h15 e 18h30 do dia seguinte).
 - Mídia paga: teste antecipado para 16 a 22/11 (ver `midia.md`).

@@ -15,6 +15,13 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
    Conferir o preço antes de postar: abra a `pagina` da oferta (endereço normal do produto). Só se a oferta
    não tiver `pagina`, abra o link de afiliado uma única vez. No post vai o `link_facebook` da oferta
    (etiqueta facebook); se ela não tiver, o `link`.
+1b. STORIES (pedido do Vini em 13/11, para ajudar no alcance): 2 stories por dia pela página, um para cada
+   campeã, depois dos posts. Em https://www.facebook.com/stories/create , COMO A PÁGINA: "Criar story com
+   foto", anexe o print da foto do produto com upload_image e ponha um texto curto por cima: nome do produto,
+   "R$ Y" (e "de R$ X" só se houver preco_de) e "link no post da página · t.me/Blackachados". Se a tela de
+   foto não funcionar em 2 tentativas, faça "story de texto" com as mesmas informações. Sem música, sem
+   enquete paga, sem "Turbinar". Registre em "Feito" como "story". Se não der certo em nenhum formato, anote e
+   siga em frente (story é complemento; não gaste a execução nisso).
 2. GRUPOS = POSTAR (onde a regra do grupo deixa) + COMENTAR (decisão final do Vini em 13/11: pode postar em
    grupos dentro das regras do Facebook e de cada grupo; a ideia é gerar interação e engajamento e ser visto).
    POSTS EM GRUPOS:
