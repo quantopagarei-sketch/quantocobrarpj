@@ -1,4 +1,8 @@
-# TELEGRAM OFERTAS – "Achadinhos do Dia" (LEIA PRIMEIRO)
+# TELEGRAM OFERTAS – "Black Achadinhos" (LEIA PRIMEIRO)
+
+Nome do canal (escolha do Vini em 13/11, gatilho de Black Friday): **Black Achadinhos 🖤 Ofertas do Dia**.
+Os textos das tarefas agendadas podem ainda dizer "Achadinhos do Dia" ou "Achadinhos da Casa": é o mesmo canal.
+O nome vale o ano todo ("Black" como marca); não prometer "preço de Black Friday" fora da Black Friday (27/11/2026).
 
 Projeto do Vini iniciado em 13/11/2026. Canal de ofertas no Telegram com links de afiliado do
 **Mercado Livre, de TODAS as categorias** (decisão do Vini em 13/11: não focar em nicho; o Vini já é
