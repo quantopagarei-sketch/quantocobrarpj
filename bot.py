@@ -55,6 +55,30 @@ def api(metodo, **params):
     return bool(j.get("ok")), j.get("result") if j.get("ok") else str(j.get("description", "erro"))
 
 
+def api_foto(metodo, chat_id, campo, caminho):
+    """Envia um arquivo de imagem (multipart). Usado só para a foto do canal."""
+    if DRY:
+        print("[DRY]", metodo, caminho)
+        return True, True
+    b = "----achadinhos7MA4YWxkTrZu0gW"
+    corpo = (f'--{b}\r\nContent-Disposition: form-data; name="chat_id"\r\n\r\n{chat_id}\r\n'
+             f'--{b}\r\nContent-Disposition: form-data; name="{campo}"; filename="logo.jpg"\r\n'
+             f'Content-Type: image/jpeg\r\n\r\n').encode() + Path(caminho).read_bytes() + f'\r\n--{b}--\r\n'.encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{metodo}", data=corpo,
+                                 headers={"Content-Type": f"multipart/form-data; boundary={b}"})
+    try:
+        with urllib.request.urlopen(req, timeout=40) as r:
+            j = json.load(r)
+    except urllib.error.HTTPError as e:
+        try:
+            j = json.load(e)
+        except Exception:
+            j = {"ok": False, "description": f"HTTP {e.code}"}
+    except Exception as e:
+        j = {"ok": False, "description": type(e).__name__}
+    return bool(j.get("ok")), j.get("result") if j.get("ok") else str(j.get("description", "erro"))
+
+
 def carregar_estado():
     if ESTADO_ARQ.exists():
         return json.loads(ESTADO_ARQ.read_text(encoding="utf-8"))
@@ -234,6 +258,11 @@ def main():
             e["erro"] = f"{hoje}: sem permissão para postar ({r})"
             salvar_estado(e)
             return 0
+
+    logo = BASE / "logo.jpg"
+    if logo.exists() and not e.get("foto_ok"):
+        ok, r = api_foto("setChatPhoto", chat, "photo", logo)
+        e["foto_ok"] = True if ok else f"falhou: {r}"[:120]
 
     ok, n = api("getChatMemberCount", chat_id=chat)
     membros = n if ok else ""
