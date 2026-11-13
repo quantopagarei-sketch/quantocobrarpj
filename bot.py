@@ -269,7 +269,8 @@ def main():
 
     anotar_csv("metricas.csv", ["data", "inscritos", "posts_no_dia", "pendentes_na_fila"],
                [hoje, membros, len(slots_hoje), e["pendentes"]], chave_unica=True)
-    e["ultima_execucao"] = t.isoformat(timespec="minutes")
+    if t.hour in CFG["horarios"]:  # batimento só nos horários de postagem (menos commits)
+        e["ultima_execucao"] = t.isoformat(timespec="minutes")
     salvar_estado(e)
     return 0
 
