@@ -1,8 +1,20 @@
 {
- "chat_id": null,
- "slots": {},
+ "chat_id": -1004273740257,
+ "slots": {
+  "2026-11-13": []
+ },
  "itens": {},
  "bot": "@blackachados_bot",
- "aguardando": "canal",
- "vistos": []
+ "vistos": [
+  {
+   "tipo": "channel",
+   "titulo": "Black Achadinhos 🖤 Ofertas do Dia",
+   "papel": "administrator"
+  }
+ ],
+ "chat_username": "Blackachados",
+ "chat_titulo": "Black Achadinhos 🖤 Ofertas do Dia",
+ "ligado_em": "2026-11-13T14:35-03:00",
+ "boas_vindas_ok": true,
+ "pendentes": 0
 }
