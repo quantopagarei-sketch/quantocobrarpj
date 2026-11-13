@@ -12,7 +12,8 @@ Canal: https://t.me/Blackachados
      Se a programação não funcionar, não publique o segundo; anote.
 2. Em cada post de oferta, responda ao PRÓPRIO post (fio) com: "Mais ofertas conferidas todo dia no canal do
    Telegram: t.me/Blackachados". Não ponha dois links no post principal.
-3. Conferir o preço antes: abra a `pagina` da oferta. Se mudou ou acabou, troque pela próxima de maior potencial.
+3. Link do post: o `link_x` da oferta (etiqueta twitter); se ela não tiver, o `link`.
+   Conferir o preço antes: abra a `pagina` da oferta. Se mudou ou acabou, troque pela próxima de maior potencial.
 4. Foto: abra a `imagem` da oferta numa aba, tire um print e anexe ao post com upload_image. Se não der, poste sem foto.
 5. Uma vez por semana (domingo), leia as visualizações dos posts de oferta dos últimos 7 dias no perfil e anote em
    "Aprendizados" que tipo de produto, preço e frase rendeu mais. Use isso para escolher e escrever os próximos.

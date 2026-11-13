@@ -271,6 +271,10 @@ def main():
         ok, r = api_foto("setChatPhoto", chat, "photo", logo)
         e["foto_ok"] = True if ok else f"falhou: {r}"[:120]
 
+    if not e.get("nome_bot_ok"):  # o bot foi criado com outro nome; fica igual ao canal
+        ok, r = api("setMyName", name=CFG.get("bot_nome", "Black Achadinhos"))
+        e["nome_bot_ok"] = True if ok else f"falhou: {r}"[:120]
+
     ok, n = api("getChatMemberCount", chat_id=chat)
     membros = n if ok else ""
     if not ok and tipo_de_falha(n) == "canal":

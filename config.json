@@ -70,6 +70,11 @@
       "desconto_min_pct": 15,
       "preco_min": 20,
       "preco_max": 800
+    },
+    "etiquetas": {
+      "link": "telegram",
+      "link_facebook": "facebook",
+      "link_x": "twitter"
     }
   }
 }

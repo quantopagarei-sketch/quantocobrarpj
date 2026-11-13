@@ -45,9 +45,15 @@ O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só 
 4. Critérios: desconto real de 15% ou mais, 500+ vendidos, nota 4,6+, R$ 20 a R$ 800, de preferência
    Full/frete grátis e loja oficial ou vendedor bem avaliado. Evitar oferta relâmpago com cronômetro
    que acaba antes do horário de postagem.
-5. Link: SEMPRE pelo gerador do programa (barra de afiliado no topo da página do produto ou
-   "Compartilhar" na Central de Afiliados). Link comum do produto NÃO paga comissão. Usar a etiqueta
-   `telegram` se o gerador permitir.
+5. Link: SEMPRE pelo gerador do programa. Link comum do produto NÃO paga comissão. Jeito mais rápido:
+   Gerador de links (https://www.mercadolivre.com.br/afiliados/linkbuilder): cole as páginas dos produtos
+   escolhidos (uma por linha), escolha a etiqueta em "Etiqueta em uso" e clique em "Gerar"; os links
+   `https://meli.la/...` saem na MESMA ordem das páginas.
+   **Etiquetas (criadas em 13/11, pedido do Vini, para saber de onde vem cada venda):**
+   - `link` (canal do Telegram) = etiqueta `telegram`, para TODAS as ofertas;
+   - `link_facebook` = etiqueta `facebook` e `link_x` = etiqueta `twitter`, só para as 2 campeãs do dia.
+   São 3 gerações no máximo (todas as páginas com `telegram`; as 2 campeãs com `facebook`; as 2 com `twitter`).
+   No fim, deixe a etiqueta em uso de volta em `telegram`. Nunca crie, renomeie nem apague etiquetas.
 6. A fila conferida às 19h47 é postada às 20h e 21h do mesmo dia e às 9h, 12h, 15h e 18h do dia
    seguinte. Ofertas vencem 24 h depois de `conferido_em`. O push da fila já dispara o robô na hora.
 7. Só links do Mercado Livre são aceitos (`config.json` > `dominios_permitidos`: mercadolivre.com,
@@ -59,20 +65,25 @@ some 1 ponto para cada item verdadeiro: (a) +10 mil vendidos e nota 4,8+; (b) de
 (c) preço entre R$ 40 e R$ 250 (compra por impulso); (d) marca conhecida ou loja oficial, com Full/frete grátis;
 (e) categoria de comissão alta no painel de afiliado OU produto da época (Black Friday, Natal, volta às aulas).
 As 2 de maior potencial do dia são as **campeãs**: recebem `"prioridade": 1` (saem primeiro no canal) e são as
-que o Divulgador leva para o Facebook. Aos domingos o Curador lê no painel de afiliado quais links/categorias
-tiveram mais clique e venda e anota em `ml.csv`; o Diretor puxa o rodízio para elas.
+que o Divulgador leva para o Facebook. Aos domingos o Curador lê em Métricas
+(https://www.mercadolivre.com.br/afiliados/dashboard) os cliques, vendas e ganhos dos últimos 7 dias POR
+ETIQUETA (telegram, facebook, twitter) e, se der, por categoria, e anota em `ml.csv` uma linha por etiqueta
+(cabeçalho: semana_ate,etiqueta,cliques,vendas,ganhos_estimados,observacao). O Diretor puxa o rodízio para
+o que vende mais e compara os três canais.
 
 ## Como escrever uma oferta na fila
 Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arquivos):
 ```json
 {"id": "20261114-01", "loja": "Mercado Livre", "nome": "Nome curto e claro do produto",
  "preco": 39.90, "preco_de": 69.90, "cupom": "", "motivo": "4,8★ · +5 mil vendidos · Full",
- "link": "https://meli.la/XXXX", "pagina": "https://www.mercadolivre.com.br/.../p/MLB000",
+ "link": "https://meli.la/XXXX", "link_facebook": "https://meli.la/YYYY", "link_x": "https://meli.la/ZZZZ",
+ "pagina": "https://www.mercadolivre.com.br/.../p/MLB000",
  "imagem": "https://http2.mlstatic.com/...-O.jpg", "categoria": "Casa",
  "conferido_em": "2026-11-14T19:50", "prioridade": 0, "potencial": 3}
 ```
 - Obrigatórios: `nome`, `preco`, `link` (link de AFILIADO, https, de domínio em `dominios_permitidos`).
 - `preco_de` só se a página mostrar o preço riscado de verdade. Nunca invente preço "de".
+- `link_facebook` e `link_x`: só nas 2 campeãs (ver "Etiquetas" acima). Quem não tem usa o `link`.
 - `pagina` = endereço normal do produto (sem ser de afiliado). Serve para os outros agentes conferirem o
   preço depois sem clicar no link de afiliado.
 - `imagem` = foto principal em **.jpg** (no Mercado Livre, troque o final `.webp` da foto por `.jpg`).
@@ -111,7 +122,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 - Diretor: leia também `x.md` (posts, aprendizados e avisos do X) e trate "Avisos do X" como os do Facebook.
 - Confirmar no painel de afiliado se o canal do Telegram e a página do Facebook precisam estar cadastrados
   como canais de divulgação.
-- Etiqueta: os links saem com a etiqueta padrão da conta ("viniciusmarrone"). Sem etiquetas separadas
-  ("telegram", "facebook", "x") não dá para saber de onde veio cada venda; criar etiqueta depende do Vini.
+- Perfil de afiliado (https://www.mercadolivre.com.br/afiliados/perfil): a parte "Redes sociais" está vazia
+  (é opcional). Cadastrar a página do Facebook e o X ali é decisão do Vini.
 - Limpeza: o Diretor apaga de `fila/` os arquivos com mais de 30 dias (o robô tira do `estado.json` sozinho).
 - Números de cliques e ganhos: o Curador lê no painel aos domingos e grava em `ml.csv`.
