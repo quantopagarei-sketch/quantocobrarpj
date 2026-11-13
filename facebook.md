@@ -10,18 +10,41 @@ No Chrome, o Facebook pode estar "como" o perfil pessoal ou "como" a página: an
 superior direito e troque para a página (botão "Trocar agora" na página, ou menu do perfil).
 
 ## O que fazer por dia (limites para a conta não ser bloqueada)
-1. Página: 2 posts por dia (3 por dia até 30/11, sprint da Black Friday), um para cada campeã do dia (foto do produto + texto + link de afiliado + convite ao canal).
-2. Grupos: no máximo 3 posts por dia, em grupos DIFERENTES, cada um com texto diferente, com intervalo de alguns
-   minutos. Nunca o mesmo grupo duas vezes em 48 h. Nas 2 primeiras semanas (até 27/11): no máximo 2 por dia.
+1. Página: 2 posts por dia (3 por dia até 30/11, sprint da Black Friday), um para cada campeã do dia
+   (foto do produto + texto + link de afiliado + convite ao canal).
    Conferir o preço antes de postar: abra a `pagina` da oferta (endereço normal do produto). Só se a oferta
-   não tiver `pagina`, abra o link de afiliado uma única vez. No post vai o `link_facebook` da oferta (etiqueta facebook); se ela não tiver, o `link`.
-3. Entrar em grupos: no máximo 3 pedidos por dia, até ter 15 grupos. Só grupos brasileiros de
-   ofertas/promoções/achadinhos/cupons/divulgação, com mais de 5 mil membros e posts recentes. Leia as regras
-   do grupo ANTES; se proibir link, afiliado ou página, não entre. Responder às perguntas de entrada só com
-   verdade ("página de ofertas"); nunca dado pessoal do Vini.
+   não tiver `pagina`, abra o link de afiliado uma única vez. No post vai o `link_facebook` da oferta
+   (etiqueta facebook); se ela não tiver, o `link`.
+2. GRUPOS = COMENTAR, NÃO POSTAR (decisão do Vini em 13/11: "o negócio é ser visto"). A página NÃO publica
+   posts em grupos. Ela entra em grupos e comenta posts dos outros, para as pessoas verem o nome e o logo,
+   clicarem e chegarem à página (que leva ao canal pelo post fixado e pelo botão "Saiba mais").
+   - Quanto: no máximo 6 comentários por dia no total, no máximo 2 por grupo por dia, com 2 a 4 minutos entre
+     um e outro. Nunca dois comentários no mesmo post.
+   - Onde comentar: posts em que alguém pergunta ou conversa sobre comprar algo (qual escolher, vale a pena,
+     onde está barato, alguém indica, achei caro) ou mostra uma oferta. Prefira posts recentes e com movimento.
+   - O que escrever: uma ajuda de verdade, curta e diferente a cada vez, sobre o que a pessoa perguntou:
+     o preço que você viu HOJE no Mercado Livre (confira antes), a nota e as vendas do produto, o que olhar
+     antes de comprar, um modelo parecido mais barato. Tom de quem entende de oferta, não de vendedor.
+   - O que NUNCA escrever: link, "entre no canal", "siga a página", hashtag, texto copiado, elogio vazio
+     ("top!", "amei"), nem experiência inventada ("comprei e adorei": a página não compra nada). Quem comenta
+     é a página "Black Achadinhos", sempre se mostrando como página de ofertas, nunca como cliente.
+   - Só se a própria pessoa pedir ("tem o link?", "onde vejo?"): responda com o link da oferta
+     (`link_facebook`) seguido de "(link de afiliado)" SE as regras do grupo permitirem link em comentário;
+     senão, diga que está na página.
+   - Onde não entrar na conversa: luto, doença, política, religião, briga, pedido de ajuda financeira,
+     posts de venda de outra pessoa (não atrapalhar a venda dela) e qualquer post sem relação com compras.
+3. Entrar em grupos: no máximo 3 pedidos por dia, até ter 20 grupos. Grupos brasileiros, com mais de 5 mil
+   membros e posts do dia, onde está quem compra online e gostaria de um canal de ofertas, nesta ordem:
+   (a) ofertas, promoções, achadinhos, cupons, Black Friday; (b) compradores e dicas do Mercado Livre;
+   (c) casa e organização, cozinha/air fryer, mães e enxoval, beleza e perfumes, tecnologia e celulares
+   baratos, ferramentas e faça-você-mesmo, pets. Leia as regras ANTES: se proibir páginas ou comentários de
+   páginas, não entre. Perguntas de entrada: só a verdade ("página de ofertas do Mercado Livre"); nunca dado
+   pessoal do Vini. Toda semana, veja em "Grupos" quais renderam mais reações/respostas e concentre neles;
+   saia dos que não renderam nada em 2 semanas.
 4. Se o grupo não deixa a página participar: anote em "Grupos" como "só perfil pessoal" e não use.
-5. Aviso do Facebook (post removido, "atividade incomum", bloqueio de recurso): pare tudo por 3 dias, anote aqui
-   em "Avisos" com a data. Dois avisos = parar os grupos e deixar para o Diretor falar com o Vini.
+5. Aviso do Facebook (comentário/post removido, "atividade incomum", bloqueio de recurso) ou bronca de
+   administrador de grupo: pare os comentários por 3 dias e saia daquele grupo; anote em "Avisos" com a data.
+   Dois avisos = parar os grupos e deixar para o Diretor falar com o Vini.
 
 ## Como postar bem (revisão de especialista, 13/11)
 - FOTO vale mais que prévia de link. Carregue também a ferramenta mcp__claude-in-chrome__upload_image
@@ -31,8 +54,7 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
 - Primeira linha = produto + preço (é o que aparece antes do "Ver mais"). Link na 3ª ou 4ª linha.
 - Na última tela ("Configurações do post"): NUNCA ligue "Turbinar post" (é pago). Se aparecer oferta de
   botão "Ligar agora" ou qualquer outra, clique em "Agora não".
-- Nessa mesma tela existe "Compartilhar nos grupos": use para levar o post aos grupos em que a página já
-  entrou e que permitem oferta (conta no limite diário de grupos).
+- Nessa mesma tela existe "Compartilhar nos grupos": NÃO use (a página não posta em grupos).
 - Comentários nos posts da página: responda com educação e, se perguntarem, com o link da oferta ou do
   canal. Nunca discuta; comentário ofensivo fica sem resposta.
 - O post fixado (apresentação + link do canal) e o botão "Saiba mais" (leva ao canal) já existem: não mexer.
@@ -44,10 +66,10 @@ Comprar: <link de afiliado>
 Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 (link de afiliado; o preço pode mudar)
 
-## Grupos (nome | link | membros | regra resumida | entrou em | último post)
+## Grupos (nome | link | membros | regra resumida | entrou em | comentários feitos | reações/respostas recebidas)
 (vazio)
 
-## Feito (data | onde | oferta | resultado)
+## Feito (data | onde | oferta ou assunto do comentário | resultado)
 - 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
 - 13/11: endereço novo (/blackachadinhos.ofertas), botão "Saiba mais" levando ao canal, post de apresentação
   publicado e fixado; 5 fotos antigas (Marrone Store) apagadas; bio e post fixado com o posicionamento novo.
