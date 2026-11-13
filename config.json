@@ -11,16 +11,13 @@
     20,
     21
   ],
+  "atraso_max_horas": 2,
+  "intervalo_min_minutos": 50,
   "validade_horas": 24,
   "dominios_permitidos": [
     "mercadolivre.com",
     "mercadolivre.com.br",
-    "meli.la",
-    "s.shopee.com.br",
-    "shopee.com.br",
-    "shope.ee",
-    "amzn.to",
-    "amazon.com.br"
+    "meli.la"
   ],
   "descricao_canal": "Black Achadinhos 🖤 ofertas e achadinhos do dia com preço conferido: casa, eletrônicos, beleza, ferramentas e mais. 🔔 Ative as notificações. Alguns links são de afiliado: você paga o mesmo e o canal pode receber comissão.",
   "boas_vindas": "👋 <b>Bem-vindo ao Black Achadinhos! 🖤</b>\n\nTodo dia: ofertas <b>conferidas</b> de várias categorias (casa, eletrônicos, beleza, ferramentas, pet e mais). Só o que vale a pena, sem enxurrada.\n\n🔔 Toque no nome do canal e ative as notificações: oferta boa acaba rápido.\n📌 O preço é o da hora em que foi conferido e pode mudar.\n\nℹ️ Transparência: alguns links são de afiliado. Você paga o mesmo preço e o canal pode receber uma comissão.",

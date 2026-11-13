@@ -10,6 +10,8 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
 1. Página: 2 posts por dia, um para cada campeã do dia (foto do produto + texto + link de afiliado + convite ao canal).
 2. Grupos: no máximo 3 posts por dia, em grupos DIFERENTES, cada um com texto diferente, com intervalo de alguns
    minutos. Nunca o mesmo grupo duas vezes em 48 h. Nas 2 primeiras semanas (até 27/11): no máximo 2 por dia.
+   Conferir o preço antes de postar: abra a `pagina` da oferta (endereço normal do produto). Só se a oferta
+   não tiver `pagina`, abra o link de afiliado uma única vez. No post vai sempre o `link` de afiliado.
 3. Entrar em grupos: no máximo 3 pedidos por dia, até ter 15 grupos. Só grupos brasileiros de
    ofertas/promoções/achadinhos/cupons/divulgação, com mais de 5 mil membros e posts recentes. Leia as regras
    do grupo ANTES; se proibir link, afiliado ou página, não entre. Responder às perguntas de entrada só com

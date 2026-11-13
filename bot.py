@@ -5,14 +5,15 @@ Roda de hora em hora no GitHub Actions. Em cada execução:
 1. sem token -> sai sem erro (projeto ainda não configurado);
 2. descobre sozinho o canal onde o bot foi colocado como administrador;
 3. anota o número de inscritos do dia (metricas.csv);
-4. se a hora atual é um horário de postagem ainda não usado hoje, publica a
-   próxima oferta pendente da pasta fila/ e registra em estado.json e postados.csv.
+4. se há um horário de postagem de hoje ainda não usado (o da hora atual ou um
+   atrasado em até config.atraso_max_horas, porque o GitHub costuma atrasar),
+   publica a próxima oferta pendente de fila/ e registra em estado.json e postados.csv.
 
 O robô nunca apaga nem edita os arquivos de fila/: quem escreve lá são os
 agentes (Curador) e o coletor da Shopee. O robô só escreve estado.json e os CSV.
 Teste local: DRY_RUN=1 TELEGRAM_BOT_TOKEN=x python3 bot.py
 """
-import csv, html, json, os, sys, urllib.error, urllib.parse, urllib.request
+import csv, html, json, math, os, sys, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -39,9 +40,12 @@ def api(metodo, **params):
                                                     "new_chat_member": {"status": "administrator"}}}],
                  "getChatMemberCount": 42, "getChat": {"id": -100123, "type": "channel", "title": "Canal Teste", "username": "canalteste"}}
         return True, falso.get(metodo, {"message_id": 999})
-    dados = json.dumps(params).encode()
-    req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{metodo}", data=dados,
-                                 headers={"Content-Type": "application/json"})
+    return _pedir(metodo, json.dumps(params).encode(), "application/json")
+
+
+def _pedir(metodo, corpo, tipo):
+    req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{metodo}", data=corpo,
+                                 headers={"Content-Type": tipo})
     try:
         with urllib.request.urlopen(req, timeout=40) as r:
             j = json.load(r)
@@ -51,7 +55,7 @@ def api(metodo, **params):
         except Exception:
             j = {"ok": False, "description": f"HTTP {e.code}"}
     except Exception as e:  # rede fora do ar etc. (nunca imprime o token)
-        j = {"ok": False, "description": type(e).__name__}
+        j = {"ok": False, "description": "REDE " + type(e).__name__}
     return bool(j.get("ok")), j.get("result") if j.get("ok") else str(j.get("description", "erro"))
 
 
@@ -64,19 +68,17 @@ def api_foto(metodo, chat_id, campo, caminho):
     corpo = (f'--{b}\r\nContent-Disposition: form-data; name="chat_id"\r\n\r\n{chat_id}\r\n'
              f'--{b}\r\nContent-Disposition: form-data; name="{campo}"; filename="logo.jpg"\r\n'
              f'Content-Type: image/jpeg\r\n\r\n').encode() + Path(caminho).read_bytes() + f'\r\n--{b}--\r\n'.encode()
-    req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{metodo}", data=corpo,
-                                 headers={"Content-Type": f"multipart/form-data; boundary={b}"})
-    try:
-        with urllib.request.urlopen(req, timeout=40) as r:
-            j = json.load(r)
-    except urllib.error.HTTPError as e:
-        try:
-            j = json.load(e)
-        except Exception:
-            j = {"ok": False, "description": f"HTTP {e.code}"}
-    except Exception as e:
-        j = {"ok": False, "description": type(e).__name__}
-    return bool(j.get("ok")), j.get("result") if j.get("ok") else str(j.get("description", "erro"))
+    return _pedir(metodo, corpo, f"multipart/form-data; boundary={b}")
+
+
+def tipo_de_falha(r):
+    """'canal' = o bot perdeu o canal ou a permissão; 'passageira' = tentar de novo depois; 'oferta' = culpa da oferta."""
+    r = str(r).lower()
+    if any(x in r for x in ("forbidden", "not enough rights", "chat not found", "kicked", "not a member", "administrator")):
+        return "canal"
+    if r.startswith(("rede ", "http 5", "too many requests", "internal server error", "bad gateway")):
+        return "passageira"
+    return "oferta"
 
 
 def carregar_estado():
@@ -176,7 +178,7 @@ def legenda(item, t):
     except (TypeError, ValueError):
         de = None
     if de and de > preco * 1.03:
-        linhas.append(f"De <s>{brl(de)}</s> por <b>{brl(preco)}</b> (-{round((1 - preco / de) * 100)}%)")
+        linhas.append(f"De <s>{brl(de)}</s> por <b>{brl(preco)}</b> (-{math.floor((1 - preco / de) * 100 + 1e-9)}%)")
     elif pct:
         linhas.append(f"💰 <b>{brl(preco)}</b> (-{int(float(pct))}%)")
     else:
@@ -212,6 +214,8 @@ def anotar_csv(nome, cabecalho, linha, chave_unica=False):
     arq = BASE / nome
     linhas = list(csv.reader(arq.open(encoding="utf-8"))) if arq.exists() else [cabecalho]
     if chave_unica:
+        for antiga in [l for l in linhas if l and l[0] == linha[0]]:  # não apaga um número já medido hoje
+            linha = [n if str(n) != "" else a for n, a in zip(linha, antiga)]
         linhas = [l for l in linhas if not l or l[0] != linha[0]]
     linhas.append([str(x) for x in linha])
     with arq.open("w", newline="", encoding="utf-8") as f:
@@ -233,7 +237,8 @@ def main():
         salvar_estado(e)
         return 0
     e["bot"] = "@" + str(eu.get("username"))
-    e.pop("erro", None)
+    if "token recusado" in str(e.get("erro", "")):
+        e.pop("erro")
 
     if not e.get("chat_id"):
         c = descobrir_canal(e)
@@ -244,8 +249,10 @@ def main():
             return 0
         e.update(chat_id=c["id"], chat_username=c.get("username") or "", chat_titulo=c.get("title") or "", ligado_em=t.isoformat(timespec="minutes"))
         e.pop("aguardando", None)
+        e.pop("vistos", None)
         print("Canal encontrado:", e["chat_titulo"], e["chat_username"])
     chat = e["chat_id"]
+    e.pop("vistos", None)  # era só diagnóstico de onde o bot foi colocado
 
     if not e.get("boas_vindas_ok"):
         api("setChatDescription", chat_id=chat, description=CFG["descricao_canal"][:255])
@@ -266,19 +273,24 @@ def main():
 
     ok, n = api("getChatMemberCount", chat_id=chat)
     membros = n if ok else ""
+    if not ok and tipo_de_falha(n) == "canal":
+        e["erro"] = f"{hoje}: o bot perdeu o acesso ao canal ({n})"[:200]
     slots_hoje = e.setdefault("slots", {}).setdefault(hoje, [])
     for d in [d for d in e["slots"] if d < (t.date() - timedelta(days=7)).isoformat()]:
         del e["slots"][d]
 
     itens = e.setdefault("itens", {})
     pendentes = []
+    na_pasta = set()
     for arq in sorted((BASE / "fila").glob("*.json")):
         try:
             item = json.loads(arq.read_text(encoding="utf-8"))
         except Exception:
+            na_pasta.add(arq.stem)
             itens.setdefault(arq.stem, {"status": "erro", "motivo": "arquivo ilegível"})
             continue
         iid = str(item.get("id") or arq.stem)
+        na_pasta.add(iid)
         if iid in itens:
             continue
         problema = validar(item)
@@ -289,28 +301,47 @@ def main():
         else:
             pendentes.append((-(item.get("prioridade") or 0), arq.name, iid, item))
     pendentes.sort(key=lambda x: (x[0], x[1]))
+    for velho in [k for k in itens if k not in na_pasta]:  # arquivo já apagado da fila (limpeza do Diretor)
+        del itens[velho]
     e["pendentes"] = len(pendentes)
 
-    if t.hour in CFG["horarios"] and t.hour not in slots_hoje and pendentes:
+    # Horário devido: o da hora atual ou um atrasado (o agendamento do GitHub atrasa até ~1 h e às vezes pula).
+    atraso = int(CFG.get("atraso_max_horas", 2))
+    devidos = [h for h in sorted(CFG["horarios"]) if h <= t.hour <= h + atraso and h not in slots_hoje]
+    try:  # nunca dois posts colados (um horário atrasado + o da hora)
+        minutos = (t - datetime.fromisoformat(e["ultimo_post"])).total_seconds() / 60
+    except Exception:
+        minutos = 10 ** 6
+    if devidos and pendentes and minutos < CFG.get("intervalo_min_minutos", 50):
+        print(f"Último post há {int(minutos)} min: espero a próxima execução.")
+    elif devidos and pendentes:
         _, _, iid, item = pendentes[0]
         ok, r = publicar(chat, item, t)
         if ok:
             itens[iid] = {"status": "postado", "message_id": r.get("message_id"), "em": t.isoformat(timespec="minutes")}
-            slots_hoje.append(t.hour)
+            slots_hoje.append(devidos[0])
+            e["ultimo_post"] = t.isoformat(timespec="minutes")
             e["pendentes"] -= 1
+            e.pop("erro", None)
+            salvar_estado(e)  # grava já: se algo falhar daqui para baixo, a oferta não sai duas vezes
             anotar_csv("postados.csv", ["data_hora", "id", "loja", "nome", "preco", "link", "message_id"],
                        [t.isoformat(timespec="minutes"), iid, item.get("loja", ""), item["nome"], item["preco"], item["link"], r.get("message_id")])
-            print("Postado:", iid)
+            print("Postado:", iid, f"(horário das {devidos[0]}h)")
         else:
-            itens[iid] = {"status": "erro", "motivo": f"Telegram recusou: {r}"[:200]}
-            print("Falhou:", iid, r)
+            falha = tipo_de_falha(r)
+            print("Falhou:", iid, falha, r)
+            if falha == "canal":  # não queima a oferta: o problema é o canal (o Diretor avisa o Vini)
+                e["erro"] = f"{hoje}: o bot não consegue postar no canal ({r})"[:200]
+            elif falha == "oferta":
+                itens[iid] = {"status": "erro", "motivo": f"Telegram recusou: {r}"[:200]}
+            # passageira: fica pendente e tenta na próxima execução
     else:
-        print(f"Sem postagem agora (hora {t.hour}h, pendentes {len(pendentes)}).")
+        print(f"Sem postagem agora (hora {t.hour}h, horários devidos {devidos}, pendentes {len(pendentes)}).")
 
     anotar_csv("metricas.csv", ["data", "inscritos", "posts_no_dia", "pendentes_na_fila"],
                [hoje, membros, len(slots_hoje), e["pendentes"]], chave_unica=True)
-    if t.hour in CFG["horarios"]:  # batimento só nos horários de postagem (menos commits)
-        e["ultima_execucao"] = t.isoformat(timespec="minutes")
+    e.pop("ultima_execucao", None)
+    e["ultimo_dia_ok"] = hoje  # batimento: muda 1 vez por dia (menos commits)
     salvar_estado(e)
     return 0
 
