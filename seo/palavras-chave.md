@@ -34,7 +34,7 @@ Formato de cada bloco: consulta principal e variações | intenção | sazonalid
 - Intenção: MEI com medo de desconto no Pix. Sazonalidade: dez–jan (junto com limite e DAS 2027).
 - Concorrência: Omie, Meu Contador Online, Agência Sebrae, Valor Final (guia), Seu Dinheiro, e-book do Sebrae (PDF) — artigos genéricos "reforma e MEI"; ninguém responde "quanto fica retido no Pix do MEI" (nada em 2027: o MEI recolhe CBS/IBS dentro do DAS).
 - Página NOVA /split-payment/mei/ — "MEI tem split payment? Como fica o MEI em 2027" (46). Precisa: resposta direta com a fonte oficial (regra do Vini: só publicar com o artigo da LC 214/Res. CGSN achado; senão dizer que depende de regulamentação); tabela "o que muda para o MEI em 2027" (limite, DAS com CBS/IBS, nota fiscal, split); links para /mei-2027/ e /das-mei-2027/ (B5); FAQ.
-- Status: novo
+- Status: publicada em 13/11 (SEO) — fonte oficial: Res. CGSN 190/2026 (art. 45-B e Anexo XIII: CBS R$ 0,994 + IBS R$ 0,006 no DAS em 2027–28)
 
 **B4. split payment cartão de crédito / boleto** — variações: "split payment cartão", "split payment maquininha", "split payment boleto", "split payment pix boleto ted", "split payment cartão fica de fora"
 - Intenção: comerciante/prestador querendo saber se a maquininha vai reter. Sazonalidade: jan/2027 e quando a Receita publicar as regras dos cartões.
@@ -64,7 +64,7 @@ Formato de cada bloco: consulta principal e variações | intenção | sazonalid
 - Intenção: decidir uma proposta. Sazonalidade: o ano todo; sobe em jan–fev (troca de emprego).
 - Concorrência: Contaja, Meu Contador Online ("a partir de R$ 5.000"), Contabilidade.com, Zen, Company Hero, CLM Controller, Calculadora Brasil (pequeno) — a maioria vende contabilidade; sites pequenos aparecem = chance real.
 - Página EXISTENTE /clt-pj/ — acrescentar bloco "Ponto de equilíbrio: a partir de qual salário compensa ser PJ" com a conta e uma tabela por faixa; FAQ com as duas perguntas exatas; nas /clt-pj/NNNN/, a frase "salário PJ equivalente a R$ X na CLT".
-- Status: novo (pesquisa de mercado 30/10, item 4)
+- Status: reforçada em 13/11 (bloco #equilibrio com tabela de empate por salário + 2 FAQs exatas; título "Salário CLT x PJ: tabela de quanto cobrar como PJ")
 
 **B9. quanto cobrar por hora desenvolvedor pj** — variações: "valor da hora desenvolvedor pj", "quanto cobrar hora técnica", "calculadora valor hora freelancer mei", "converter salário clt em valor hora", "quanto cobrar por hora designer / consultor"
 - Intenção: precificar. Sazonalidade: o ano todo; sobe em jan.
