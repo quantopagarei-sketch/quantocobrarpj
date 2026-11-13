@@ -139,7 +139,7 @@ def vencido(item, t):
 def legenda(item, t):
     e = html.escape
     preco = float(item["preco"])
-    linhas = [f"🏠 <b>{e(item['nome'].strip())}</b>", ""]
+    linhas = [f"🔥 <b>{e(item['nome'].strip())}</b>", ""]
     de = item.get("preco_de")
     pct = item.get("desconto_pct")
     try:
