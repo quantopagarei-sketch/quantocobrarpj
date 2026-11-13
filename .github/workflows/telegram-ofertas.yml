@@ -1,6 +1,6 @@
 name: Telegram Ofertas (robô postador)
-# Projeto "Achadinhos da Casa". Código, fila e estado ficam no ramo "telegram" (não mexe no site).
-# Sem o segredo TELEGRAM_BOT_TOKEN o robô sai sem fazer nada.
+# Canal "Black Achadinhos". Código, fila e estado ficam no ramo "telegram" (não mexe no site).
+# Este arquivo só agenda (de hora em hora). O que roda está em rodar.sh, no ramo telegram.
 on:
   schedule:
     - cron: "7 11-23 * * *"   # 8h07 às 20h07 em São Paulo
@@ -19,24 +19,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: telegram
-      - name: Coletar e postar
+      - name: Rodar o robô e guardar o estado
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
-        run: |
-          [ -f workflow-ok.txt ] || echo "Primeira execução do workflow: $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')" > workflow-ok.txt
-          python3 coletor_shopee.py || true
-          python3 bot.py
-      - name: Guardar estado no ramo telegram
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet && exit 0
-          git commit -q -m "Estado do robô $(TZ=America/Sao_Paulo date +%d/%m-%Hh) [skip netlify]"
-          for i in 1 2 3; do
-            git pull -q --rebase origin telegram && git push -q origin HEAD:telegram && exit 0
-            sleep 5
-          done
-          exit 1
+        run: bash rodar.sh
