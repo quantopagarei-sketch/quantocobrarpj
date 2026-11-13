@@ -5,15 +5,17 @@
   "fuso": "America/Sao_Paulo",
   "horarios": [
     9,
-    12,
+    11,
+    13,
     15,
-    18,
+    17,
+    19,
     20,
     21
   ],
   "atraso_max_horas": 2,
   "intervalo_min_minutos": 50,
-  "validade_horas": 24,
+  "validade_horas": 26,
   "dominios_permitidos": [
     "mercadolivre.com",
     "mercadolivre.com.br",

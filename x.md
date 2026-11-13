@@ -6,7 +6,9 @@ Por ser pessoal e ter seguidores de verdade: pouco volume, tom de gente, nada de
 Canal: https://t.me/Blackachados
 
 ## O que fazer por dia
-1. No máximo 2 posts de oferta por dia: as 2 campeãs do dia (maior `potencial` na fila, conferidas há menos de 24 h).
+1. ATÉ 30/11 (sprint da Black Friday): 3 posts por dia = 1 na hora + 2 programados (12h15 e 18h30 do dia
+   seguinte), com as 3 ofertas de maior potencial. Depois de 30/11, volta a valer o limite abaixo.
+   No máximo 2 posts de oferta por dia: as 2 campeãs do dia (maior `potencial` na fila, conferidas há menos de 24 h).
    - Post 1: publicado na hora da execução (noite).
    - Post 2: programado pelo próprio X (ícone de calendário no campo de post) para o dia seguinte às 12h15.
      Se a programação não funcionar, não publique o segundo; anote.

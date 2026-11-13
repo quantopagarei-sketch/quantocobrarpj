@@ -1,9 +1,8 @@
 # Facebook – página "Black Achadinhos" (diário do Divulgador)
 
-Página: "Black Achadinhos". ENDEREÇO: em 13/11 o Vini pediu para trocar /onmarronestore por
-/blackachadinhos.ofertas (a troca depende da senha dele). Use o que abrir:
-https://www.facebook.com/blackachadinhos.ofertas ou, se não abrir, https://www.facebook.com/onmarronestore ;
-na dúvida, abra https://www.facebook.com/pages/?category=your_pages e clique em "Black Achadinhos".
+Página: https://www.facebook.com/blackachadinhos.ofertas (endereço trocado em 13/11; o antigo /onmarronestore
+não vale mais, mesmo que o texto da tarefa cite). Na dúvida: https://www.facebook.com/pages/?category=your_pages
+e clique em "Black Achadinhos".
 (Antiga "Marrone Store", do Vini; em 13/11/2026 ele mandou
 usar e trocar nome, foto e descrição: feito no mesmo dia). Canal: https://t.me/Blackachados
 Só a PÁGINA fala. O perfil pessoal do Vini (Vinicius Marrone) nunca posta, comenta nem entra em grupo por este projeto.
@@ -11,7 +10,7 @@ No Chrome, o Facebook pode estar "como" o perfil pessoal ou "como" a página: an
 superior direito e troque para a página (botão "Trocar agora" na página, ou menu do perfil).
 
 ## O que fazer por dia (limites para a conta não ser bloqueada)
-1. Página: 2 posts por dia, um para cada campeã do dia (foto do produto + texto + link de afiliado + convite ao canal).
+1. Página: 2 posts por dia (3 por dia até 30/11, sprint da Black Friday), um para cada campeã do dia (foto do produto + texto + link de afiliado + convite ao canal).
 2. Grupos: no máximo 3 posts por dia, em grupos DIFERENTES, cada um com texto diferente, com intervalo de alguns
    minutos. Nunca o mesmo grupo duas vezes em 48 h. Nas 2 primeiras semanas (até 27/11): no máximo 2 por dia.
    Conferir o preço antes de postar: abra a `pagina` da oferta (endereço normal do produto). Só se a oferta

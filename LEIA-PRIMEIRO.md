@@ -12,6 +12,21 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
+## SPRINT BLACK FRIDAY (pedido do Vini em 13/11: antecipar tudo; ele quer ser envolvido o mínimo possível)
+Meta antecipada: chegar em **27/11/2026 com 100 inscritos e a 1ª comissão**. Vale de 13/11 a 30/11 e, onde
+houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas:
+- Canal: 8 posts por dia (9h, 11h, 13h, 15h, 17h, 19h, 20h, 21h). Ofertas valem 26 h.
+- Curador: 8 a 10 ofertas por dia (em vez de 6 a 8), de pelo menos 5 categorias; preferir as que têm o selo
+  "BLACK FRIDAY", "MAIS VENDIDO" ou "OFERTA DO DIA" na página de ofertas, e produtos de Natal. Não pare no
+  portão por já haver 6 pendentes: só pare se houver 8 ou mais.
+- Divulgador Facebook: 3 posts por dia na página (as 2 campeãs + 1). Grupos: os limites de `facebook.md` NÃO
+  mudam (passar deles bloqueia a conta).
+- Divulgador X: 3 posts por dia (1 na hora + programados para 12h15 e 18h30 do dia seguinte).
+- Mídia paga: teste antecipado para 16 a 22/11 (ver `midia.md`).
+- Diretor: em 22/11 e 29/11 compara com a meta e, se estiver longe, muda o que for preciso sem esperar;
+  só chama o Vini para o que depende dele (publicar/pagar anúncio, login que caiu, bloqueio de conta).
+- De 1/12 em diante volta ao normal: o Diretor repõe 6 horários e as cotas antigas.
+
 ## Situação
 - 13/11/2026 (tarde): página do Facebook pronta (nome, logo, capa, categoria "Serviço de compras", link do
   canal); etiquetas `telegram`, `facebook` e `twitter` criadas no painel de afiliado (em uso: `telegram`).
@@ -119,7 +134,7 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
    mexe em bio, link ou legenda do TikTok, mesmo que o texto da tarefa peça.
 
 ## Metas e ponto de decisão
-- 30 dias (13/12/2026): 100 inscritos e a 1ª comissão. 90 dias: 500 inscritos.
+- ANTECIPADA: 27/11/2026 (Black Friday): 100 inscritos e a 1ª comissão. 13/12: 200 inscritos. 90 dias: 500.
 - 13/12/2026: se houver menos de 50 inscritos e nenhuma comissão, o Diretor propõe mudar a
   fonte de inscritos ou encerrar. Canal de oferta só rende com gente dentro; o robô sozinho não traz ninguém.
 - Canal genérico concorre com canais gigantes: o Diretor acompanha quais categorias dão mais clique
@@ -129,6 +144,6 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 - Diretor: leia também `midia.md` (teste de anúncio pago: fase, gasto, veredito) e inclua 1 linha no aviso.
 - Diretor: leia também `x.md` (posts, aprendizados e avisos do X) e trate "Avisos do X" como os do Facebook.
 - (Feito em 13/11) Perfil de afiliado > "Redes sociais": cadastrados a página do Facebook
-  (facebook.com/onmarronestore), o X (x.com/titantuita) e o canal (t.me/Blackachados). Não mexer.
+  (facebook.com/blackachadinhos.ofertas), o X (x.com/titantuita) e o canal (t.me/Blackachados). Não mexer.
 - Limpeza: o Diretor apaga de `fila/` os arquivos com mais de 30 dias (o robô tira do `estado.json` sozinho).
 - Números de cliques e ganhos: o Curador lê no painel aos domingos e grava em `ml.csv`.
