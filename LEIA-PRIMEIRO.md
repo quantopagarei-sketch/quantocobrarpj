@@ -28,8 +28,8 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 - Curador: 8 a 10 ofertas por dia (em vez de 6 a 8), de pelo menos 5 categorias; preferir as que têm o selo
   "BLACK FRIDAY", "MAIS VENDIDO" ou "OFERTA DO DIA" na página de ofertas, e produtos de Natal. Não pare no
   portão por já haver 6 pendentes: só pare se houver 8 ou mais.
-- Divulgador Facebook: 3 posts por dia na página (as 2 campeãs + 1). Grupos: só comentários, até 6 por dia
-  (limites de `facebook.md`; passar deles bloqueia a conta).
+- Divulgador Facebook: 3 posts por dia na página (as 2 campeãs + 1). Grupos: posts (onde a regra deixa) e
+  comentários, nos limites de `facebook.md` (passar deles bloqueia a conta).
 - Divulgador X: 3 posts por dia (1 na hora + programados para 12h15 e 18h30 do dia seguinte).
 - Mídia paga: teste antecipado para 16 a 22/11 (ver `midia.md`).
 - Diretor: em 22/11 e 29/11 compara com a meta e, se estiver longe, muda o que for preciso sem esperar;
@@ -57,7 +57,7 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 | Robô postador (`bot.py`, chamado por `rodar.sh`) | Posta 1 oferta da fila em cada horário de `config.json` (9h, 12h, 15h, 18h, 20h, 21h), anota inscritos | GitHub Actions, de hora em hora e quando a fila muda | Não |
 | Curador (tarefa agendada diária, 19h47) | Escolhe 6 a 8 ofertas no Mercado Livre, gera os links de afiliado e grava em `fila/` | Claude + Chrome do PC do Vini | Sim |
 | Crescimento (seg e qui) | Traz inscritos sem spam; registra em `crescimento.md` | Claude (+ Chrome se houver) | Sim |
-| Divulgador Facebook (diário, 20h31) | Posta as campeãs do dia na página "Black Achadinhos" do Facebook e comenta (sem link) em posts de grupos para a página ser vista. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
+| Divulgador Facebook (diário, 20h31) | Posta as campeãs do dia na página "Black Achadinhos" do Facebook; em grupos, posta onde a regra permite e comenta (sem link) para gerar interação. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
 | Divulgador X (diário, 21h17) | Posta as 2 campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora, 1 programada para 12h15. Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
 | Gestor de Mídia (diário, 19h19, só de 14 a 28/11) | Prepara e acompanha o teste de anúncio pago de R$ 70 (20 a 27/11); pausa se passar do limite; nunca cria campanha nem aumenta verba. Regras em `midia.md` | Claude + Chrome do PC do Vini | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
@@ -122,8 +122,9 @@ Um arquivo por oferta em `fila/AAAAMMDD-NN.json` (o robô nunca edita esses arqu
 ## Regras que não podem ser quebradas
 1. Sem spam: nunca adicionar pessoas ao canal, nunca mandar mensagem em massa, nunca postar o link
    em grupos dos outros sem o dono permitir, nunca comprar inscritos. Isso derruba a conta do Telegram.
-   Facebook (decisão do Vini em 13/11): a página "Black Achadinhos" NÃO posta em grupos; ela entra em grupos
-   e faz comentários úteis, sem link e sem propaganda, só para ser vista, com os limites de `facebook.md`.
+   Facebook (decisão do Vini em 13/11): a página "Black Achadinhos" pode postar em grupos cujas regras
+   permitem oferta e faz comentários úteis (sem link e sem propaganda) em posts dos outros, sempre dentro
+   das regras do Facebook e de cada grupo e dos limites de `facebook.md`.
    No X: só posts na própria conta @titantuita, com os limites de `x.md` (nunca responder aos outros com link).
 2. Preço e desconto reais, conferidos na hora. Nada de urgência falsa ("últimas unidades") inventada.
 3. Transparência: a descrição e a mensagem fixada dizem que há links de afiliado. Não remover.

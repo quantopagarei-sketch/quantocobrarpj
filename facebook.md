@@ -15,9 +15,21 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
    Conferir o preço antes de postar: abra a `pagina` da oferta (endereço normal do produto). Só se a oferta
    não tiver `pagina`, abra o link de afiliado uma única vez. No post vai o `link_facebook` da oferta
    (etiqueta facebook); se ela não tiver, o `link`.
-2. GRUPOS = COMENTAR, NÃO POSTAR (decisão do Vini em 13/11: "o negócio é ser visto"). A página NÃO publica
-   posts em grupos. Ela entra em grupos e comenta posts dos outros, para as pessoas verem o nome e o logo,
-   clicarem e chegarem à página (que leva ao canal pelo post fixado e pelo botão "Saiba mais").
+2. GRUPOS = POSTAR (onde a regra do grupo deixa) + COMENTAR (decisão final do Vini em 13/11: pode postar em
+   grupos dentro das regras do Facebook e de cada grupo; a ideia é gerar interação e engajamento e ser visto).
+   POSTS EM GRUPOS:
+   - Só em grupos cujas regras permitem oferta/divulgação por páginas. Se a regra proíbe link, afiliado ou
+     divulgação, ali a página só comenta.
+   - Quanto: no máximo 2 posts em grupos por dia até 27/11 e 3 por dia depois; grupos DIFERENTES; nunca o
+     mesmo grupo duas vezes em 48 h; texto diferente em cada um; 3 a 5 minutos entre posts.
+   - Formato que gera conversa: foto do produto, produto + preço na 1ª linha, o motivo, e uma pergunta de
+     verdade no fim ("alguém já usa esse?", "qual vocês preferem, esse ou o X?"). Link `link_facebook` no post
+     ou no 1º comentário, conforme a regra do grupo, sempre com "(link de afiliado)". Siga o formato que o
+     grupo exigir (preço no título, tópico do dia etc.).
+   - Volte nos posts dos dias anteriores e responda quem comentou (isso é o que mais gera alcance).
+   COMENTÁRIOS EM POSTS DOS OUTROS (em qualquer grupo em que a página foi aceita):
+   Para as pessoas verem o nome e o logo, clicarem e chegarem à página (que leva ao canal pelo post fixado e
+   pelo botão "Saiba mais").
    - Quanto: no máximo 6 comentários por dia no total, no máximo 2 por grupo por dia, com 2 a 4 minutos entre
      um e outro. Nunca dois comentários no mesmo post.
    - Onde comentar: posts em que alguém pergunta ou conversa sobre comprar algo (qual escolher, vale a pena,
@@ -54,7 +66,8 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
 - Primeira linha = produto + preço (é o que aparece antes do "Ver mais"). Link na 3ª ou 4ª linha.
 - Na última tela ("Configurações do post"): NUNCA ligue "Turbinar post" (é pago). Se aparecer oferta de
   botão "Ligar agora" ou qualquer outra, clique em "Agora não".
-- Nessa mesma tela existe "Compartilhar nos grupos": NÃO use (a página não posta em grupos).
+- Nessa mesma tela existe "Compartilhar nos grupos": pode usar para levar o post a um grupo que permite
+  oferta (conta no limite diário de posts em grupos).
 - Comentários nos posts da página: responda com educação e, se perguntarem, com o link da oferta ou do
   canal. Nunca discuta; comentário ofensivo fica sem resposta.
 - O post fixado (apresentação + link do canal) e o botão "Saiba mais" (leva ao canal) já existem: não mexer.
@@ -66,7 +79,7 @@ Comprar: <link de afiliado>
 Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 (link de afiliado; o preço pode mudar)
 
-## Grupos (nome | link | membros | regra resumida | entrou em | comentários feitos | reações/respostas recebidas)
+## Grupos (nome | link | membros | regra: pode postar oferta? pode link? | entrou em | posts | comentários | reações/respostas recebidas)
 (vazio)
 
 ## Feito (data | onde | oferta ou assunto do comentário | resultado)
