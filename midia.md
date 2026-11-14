@@ -22,11 +22,11 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link,
   Advantage+ público com sugestão 35-60 (mínimo 25).
   Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
-  DESTINO (desde 14/11 ~20h40, pedido do Vini): página própria https://quantopagarei-sketch.github.io/quantocobrarpj/
-  (antes: https://t.me/Blackachados, página do Telegram em inglês mostrando "2 subscribers"). Link de exibição: vazio.
-  A página é o arquivo docs/index.html deste ramo, publicado pelo GitHub Pages (ramo telegram, pasta /docs; só a
-  pasta docs/ vai para o site). Botão "Entrar no canal grátis" abre o app do Telegram; se não abrir, mostra como
-  instalar. Para mudar: editar docs/index.html e dar push (no ar em ~1 min). Nada de dado sensível em docs/.
+  DESTINO: https://t.me/Blackachados (link de exibição t.me/Blackachados). DECISÃO DO VINI (14/11 20h45): o anúncio
+  leva DIRETO ao canal; ele achou suspeito o endereço da página própria. Não trocar o destino sem ele.
+  Página própria em português (fora de uso, sem link em nenhum anúncio): docs/index.html deste ramo, no ar pelo
+  GitHub Pages (ramo telegram, pasta /docs) em https://quantopagarei-sketch.github.io/quantocobrarpj/.
+  Só voltaria a ser usada com um endereço próprio do canal e com o "sim" do Vini. Nada de dado sensível em docs/.
   POSICIONAMENTOS (desde 14/11 ~20h05, com o "sim" do Vini): SÓ "Feed do Facebook" e "Feed do Instagram".
   Desligados: Stories/Status/Reels, in-stream, pesquisa, Apps e sites (Audience Network), perfis, Marketplace,
   Explorar, Threads, coluna da direita, notificações, e "Permitir gasto limitado em posicionamentos excluídos".
@@ -79,6 +79,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   posicionamentos trocados para só Feeds (FB e IG) e religado ~20h05 (Meta reanalisando). Novo período começa aqui.
 - 14/11 20h40 | 3 | R$ 10,78 | 0 | sem inscrito | Claude principal, a pedido do Vini: destino trocado para a página
   própria em português (docs/index.html). Ainda sem nenhuma impressão nos Feeds; Meta reanalisando. Período novo daqui.
+- 14/11 20h45 | 3 | R$ 10,78 | 0 | sem inscrito | Vini achou o endereço da página suspeito: destino voltou para
+  https://t.me/Blackachados (só Feeds continua). Meta reanalisando. A medição do período "só Feeds" começa aqui.
 
 ## Veredito
 (vazio)
