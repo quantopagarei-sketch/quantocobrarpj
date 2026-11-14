@@ -1,0 +1,6 @@
+Diagnóstico de tarefa agendada no PC - Black Achadinhos
+Data e hora (São Paulo): Fri Nov 13 21:36:50 -03 2026
+
+Passo 1 (add_repo): a ferramenta mcp__claude-code-remote__add_repo NÃO existe nesta sessão (ToolSearch respondeu "No matching deferred tools found"); não foi chamada.
+Passo 2 (git clone): deu certo, sem erro (clone --depth 1 da branch telegram em /home/claude/tgdiag, git config de nome e e-mail ok). pwd: /home/claude/tgdiag | uname: Linux vm 6.18.44-fc-v470 #1 SMP PREEMPT_DYNAMIC @0 x86_64 x8
+Passo 3 (Chrome): a ferramenta mcp__claude-in-chrome__list_connected_browsers existe; veio 1 navegador, sistema Windows.
