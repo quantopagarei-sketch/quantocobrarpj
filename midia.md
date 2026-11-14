@@ -17,7 +17,14 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   (CPC típico R$ 2,80 a 6,50; comissão 3 a 8%). Testar só com R$ 50-70 e parar se custo por venda > comissão.
 - Campanha no Gerenciador (conta 717391158814860): "Teste Telegram - Black Achadinhos" > conjunto "Brasil 35-60 - R$10/dia"
   (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link, destino
-  https://t.me/Blackachados, Advantage+ público com sugestão 35-60 (mínimo 25), posicionamentos automáticos.
+  https://t.me/Blackachados, Advantage+ público com sugestão 35-60 (mínimo 25).
+  POSICIONAMENTOS (desde 14/11 ~20h05, com o "sim" do Vini): SÓ "Feed do Facebook" e "Feed do Instagram".
+  Desligados: Stories/Status/Reels, in-stream, pesquisa, Apps e sites (Audience Network), perfis, Marketplace,
+  Explorar, Threads, coluna da direita, notificações, e "Permitir gasto limitado em posicionamentos excluídos".
+  Motivo: no automático, 98 dos 106 cliques vieram do Reels do Instagram (1 clique a cada 5 pessoas = toque sem
+  querer) e ninguém entrou no canal. NUNCA voltar para posicionamentos automáticos (Advantage+) sem o Vini.
+- Rascunhos na conta que NÃO podem ser publicados sem o "sim" do Vini: campanha/conjunto/anúncio "Novo ... de Vendas"
+  (R$ 6/dia, com erro) e a "Campanha Cinta1". Nunca clicar em "Conferir e publicar" com tudo marcado.
   Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
 - Pagamento: saldo pré-pago (Pix) de R$ 228,00 em 14/11. Sem saldo, a Meta pausa os anúncios. Só a campanha do canal foi publicada; a "Campanha Cinta1" (antiga, dropshipping) segue em rascunho e NÃO deve ser publicada.
 - Base antes do anúncio: 2 inscritos em 13/11 (metricas.csv).
@@ -57,7 +64,11 @@ Tom: "especialistas em ofertas do Mercado Livre" (ver "Posicionamento" no LEIA-P
 (vazio)
 
 ## Diário (data | fase | gasto total | inscritos no período | custo por inscrito | o que fiz)
-(vazio)
+Como medir todo dia: Gerenciador > Anúncios > período "Hoje" (e "Máximo") > Detalhamento > Posicionamento.
+Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer: anotar aqui e avisar no diário.
+- 14/11 20h05 | 3 | R$ 10,78 | 0 (metricas.csv seguia em 2) | sem inscrito | Claude principal: 109 cliques a R$ 0,10,
+  mas 98 no Reels do Instagram (497 impressões, ~20% de cliques) e 9 em Apps e sites; 0 entrou. Pausado ~19h55,
+  posicionamentos trocados para só Feeds (FB e IG) e religado ~20h05 (Meta reanalisando). Novo período começa aqui.
 
 ## Veredito
 (vazio)
