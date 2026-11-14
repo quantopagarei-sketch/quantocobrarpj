@@ -20,7 +20,8 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   Em 22/11, refazer esta conta com o custo por clique REAL do anúncio do canal (só cliques do Feed; os do Reels de 14/11 eram toque sem querer) e o preço médio das ofertas. Recomendação dada ao Vini: o canal continua prioridade.
 - Campanha no Gerenciador (conta 717391158814860): "Teste Telegram - Black Achadinhos" > conjunto "Brasil 35-60 - R$10/dia"
   (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link,
-  Advantage+ público com sugestão 35-60 (mínimo 25).
+  Advantage+ público com sugestão de idade 25-50 (desde 14/11 ~20h58, decisão do Vini; antes 35-60), idade mínima 25,
+  Brasil. Textos do anúncio mantidos: o Vini NÃO quer aviso "precisa ter o app Telegram" (acha que cria objeção).
   Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
   DESTINO: https://t.me/Blackachados (link de exibição t.me/Blackachados). DECISÃO DO VINI (14/11 20h45): o anúncio
   leva DIRETO ao canal; ele achou suspeito o endereço da página própria. Não trocar o destino sem ele.
@@ -92,13 +93,17 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   b) Depois de R$ 15 nos Feeds, se cliques ÷ impressões < 0,7%: propor ao Vini trocar a imagem por vídeo curto.
   c) Depois de R$ 30 nos Feeds, inscrito acima de R$ 1,50: pausar (regra do Vini).
   d) Inscrito abaixo de R$ 1,00 por 2 dias seguidos: sugerir ao Vini +20% de verba (só com o "sim" dele).
-  e) Depois de 48 h de Feeds: sugerir ao Vini testar idade 25-50. Telegram está em 57% dos celulares do Brasil
+  e) FEITO em 14/11 20h58 (o Vini antecipou): idade 25-50. Telegram está em 57% dos celulares do Brasil
      (63% um ano antes) e só 38% abrem quase todo dia (Mobile Time, 27/02/2025); o público 35-60 combina pouco.
   f) "Visualizações da página de destino" sem pixel só estima o carregamento; com t.me não mede a entrada. Só testar
      se o custo por clique subir muito.
 - 22/11: se o Telegram não render, levar ao Vini a opção de um canal de ofertas no WhatsApp (sem dado de custo ainda).
 - Descartado por ferir vontades do Vini: pedir indicação a conhecidos e divulgar em perfis pessoais dele.
 - Meta de 100 inscritos até 27/11 com ~R$ 180: só fecha se o inscrito custar até ~R$ 1,80 (incerto).
+- 14/11 21h: o Vini perguntou sobre grupo de ofertas no WhatsApp (é IDEIA, não começar sem ele mandar). Resposta dada:
+  WhatsApp está em 99% dos celulares; canal do WhatsApp é melhor que grupo (número escondido, sem limite, só a página
+  posta); porém não há jeito oficial de postar automático em canal/grupo (API oficial de grupos: máx. 8 pessoas;
+  ferramentas não oficiais arriscam o número). Opção dada: canal em paralelo, agentes postando pelo WhatsApp Web.
 
 ## Veredito
 (vazio)
