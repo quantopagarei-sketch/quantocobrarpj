@@ -4,3 +4,4 @@
 - 13/11 21:18 X: 1 post (fone Soundcore) + resposta com o canal e parou sem registro.
 - 13/11 21:33 Claude principal: fila reposta com 10 ofertas (20261113-06 a -15); robô postou a 1ª às 21h34.
 - 14/11 08:20 Claude principal: a pedido do Vini, Curador, Facebook, X e Gestor de Mídia foram disparados AGORA (execução de sábado antecipada). As execuções da noite de 14/11 devem ler este diário e o seu manual: se a cota do dia já foi cumprida, só completar o que faltar (sem duplicar posts).
+- 14/11 08:45 Claude principal: termos lidos (mídia paga em rede social permitida); anúncio do canal montado em rascunho (R$ 20/dia até 23/11); post de convite com a imagem do anúncio publicado na página. Falta o Vini: forma de pagamento + Publicar.

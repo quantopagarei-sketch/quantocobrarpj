@@ -4,8 +4,22 @@ Pedido do Vini em 13/11/2026: ver se pagar anúncio traz inscritos e vendas que 
 NADA de dinheiro sai sem o "sim" do Vini: quem publica e paga a campanha é ele (com o Claude da conversa
 principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, nunca aumenta verba.
 
-## FASE ATUAL: 1 – PREPARAR
+## FASE ATUAL: 2 – PRONTO, ESPERANDO O VINI (anúncio montado em 14/11 08:45; falta ele pôr forma de pagamento e clicar Publicar)
 (1 – PREPARAR · 2 – PRONTO, ESPERANDO O VINI · 3 – TESTE RODANDO · 4 – ENCERRADO)
+
+## MUDANÇA DO VINI EM 14/11/2026 (vale mais que os parâmetros abaixo)
+- Verba total: R$ 500. Agora: ~R$ 200 para levar gente ao canal (R$ 20/dia, de 14/11 até 23/11 09h30, a campanha para sozinha).
+  Semana da Black Friday (23 a 30/11): R$ 300, divididos entre canal e anúncio de produto (decidir em 22/11 com os números).
+- Termos lidos em 14/11 (mercadolivre.com.br/ajuda/30228): item 1.3.1 e 4.4 PERMITEM mídia paga em redes sociais
+  (Facebook/Instagram Ads) a partir das contas do afiliado cadastradas; proibido buscador (Google/Bing/YouTube Ads),
+  palavras-chave com a marca, parecer canal oficial e (4.3 h) usar a marca Mercado Livre como nossa. Anúncio sem a marca.
+- Estudo de produto (14/11): anúncio direto de produto com link de afiliado só se paga com CPC < R$ 1 e conversão >= 2%
+  (CPC típico R$ 2,80 a 6,50; comissão 3 a 8%). Testar só com R$ 50-70 e parar se custo por venda > comissão.
+- Campanha no Gerenciador (conta 717391158814860): "Teste Telegram - Black Achadinhos" > conjunto "Brasil 35-60 - R$10/dia"
+  (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link, destino
+  https://t.me/Blackachados, Advantage+ público com sugestão 35-60 (mínimo 25), posicionamentos automáticos.
+  Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
+- A conta de anúncios NÃO tem forma de pagamento: o Vini adiciona (Pix ou cartão) e publica.
 
 ## Parâmetros do teste (só o Vini muda)
 - Onde: anúncio no Facebook/Instagram pela página "Black Achadinhos", levando para https://t.me/Blackachados
