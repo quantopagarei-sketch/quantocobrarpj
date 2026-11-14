@@ -82,5 +82,23 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - 14/11 20h45 | 3 | R$ 10,78 | 0 | sem inscrito | Vini achou o endereço da página suspeito: destino voltou para
   https://t.me/Blackachados (só Feeds continua). Meta reanalisando. A medição do período "só Feeds" começa aqui.
 
+## Parecer do especialista em tráfego pago (14/11 20h50, pedido do Vini) – vale para o Gestor
+- Causa do 0 inscrito: toque sem querer no Reels (98 de 109 cliques) + meta "cliques no link" (busca quem clica,
+  não quem entra) + página t.me em inglês. Contagem conferida no t.me às 20h30: 2 inscritos.
+- Manter: só Feeds; destino t.me (decisão do Vini); R$ 20/dia; sem a marca; NÃO mexer no anúncio por 48 h depois
+  da última mudança (cada edição volta para análise e zera o aprendizado).
+- Regras de decisão (contar só o período "só Feeds"):
+  a) 24 h sem impressão nos Feeds: anotar e avisar (não recriar campanha).
+  b) Depois de R$ 15 nos Feeds, se cliques ÷ impressões < 0,7%: propor ao Vini trocar a imagem por vídeo curto.
+  c) Depois de R$ 30 nos Feeds, inscrito acima de R$ 1,50: pausar (regra do Vini).
+  d) Inscrito abaixo de R$ 1,00 por 2 dias seguidos: sugerir ao Vini +20% de verba (só com o "sim" dele).
+  e) Depois de 48 h de Feeds: sugerir ao Vini testar idade 25-50. Telegram está em 57% dos celulares do Brasil
+     (63% um ano antes) e só 38% abrem quase todo dia (Mobile Time, 27/02/2025); o público 35-60 combina pouco.
+  f) "Visualizações da página de destino" sem pixel só estima o carregamento; com t.me não mede a entrada. Só testar
+     se o custo por clique subir muito.
+- 22/11: se o Telegram não render, levar ao Vini a opção de um canal de ofertas no WhatsApp (sem dado de custo ainda).
+- Descartado por ferir vontades do Vini: pedir indicação a conhecidos e divulgar em perfis pessoais dele.
+- Meta de 100 inscritos até 27/11 com ~R$ 180: só fecha se o inscrito custar até ~R$ 1,80 (incerto).
+
 ## Veredito
 (vazio)
