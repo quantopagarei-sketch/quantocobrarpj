@@ -19,8 +19,14 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   Ex.: 1,65% (conversão média do e-commerce no Brasil) x R$ 200 x 6% = R$ 0,20 por clique; o clique de e-commerce no Meta costuma custar R$ 0,50 a R$ 1,50.
   Em 22/11, refazer esta conta com o custo por clique REAL do anúncio do canal (só cliques do Feed; os do Reels de 14/11 eram toque sem querer) e o preço médio das ofertas. Recomendação dada ao Vini: o canal continua prioridade.
 - Campanha no Gerenciador (conta 717391158814860): "Teste Telegram - Black Achadinhos" > conjunto "Brasil 35-60 - R$10/dia"
-  (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link, destino
-  https://t.me/Blackachados, Advantage+ público com sugestão 35-60 (mínimo 25).
+  (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link,
+  Advantage+ público com sugestão 35-60 (mínimo 25).
+  Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
+  DESTINO (desde 14/11 ~20h40, pedido do Vini): página própria https://quantopagarei-sketch.github.io/quantocobrarpj/
+  (antes: https://t.me/Blackachados, página do Telegram em inglês mostrando "2 subscribers"). Link de exibição: vazio.
+  A página é o arquivo docs/index.html deste ramo, publicado pelo GitHub Pages (ramo telegram, pasta /docs; só a
+  pasta docs/ vai para o site). Botão "Entrar no canal grátis" abre o app do Telegram; se não abrir, mostra como
+  instalar. Para mudar: editar docs/index.html e dar push (no ar em ~1 min). Nada de dado sensível em docs/.
   POSICIONAMENTOS (desde 14/11 ~20h05, com o "sim" do Vini): SÓ "Feed do Facebook" e "Feed do Instagram".
   Desligados: Stories/Status/Reels, in-stream, pesquisa, Apps e sites (Audience Network), perfis, Marketplace,
   Explorar, Threads, coluna da direita, notificações, e "Permitir gasto limitado em posicionamentos excluídos".
@@ -28,7 +34,6 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   querer) e ninguém entrou no canal. NUNCA voltar para posicionamentos automáticos (Advantage+) sem o Vini.
 - Rascunhos na conta que NÃO podem ser publicados sem o "sim" do Vini: campanha/conjunto/anúncio "Novo ... de Vendas"
   (R$ 6/dia, com erro) e a "Campanha Cinta1". Nunca clicar em "Conferir e publicar" com tudo marcado.
-  Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
 - Pagamento: saldo pré-pago (Pix) de R$ 228,00 em 14/11. Sem saldo, a Meta pausa os anúncios. Só a campanha do canal foi publicada; a "Campanha Cinta1" (antiga, dropshipping) segue em rascunho e NÃO deve ser publicada.
 - Base antes do anúncio: 2 inscritos em 13/11 (metricas.csv).
 
@@ -72,6 +77,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - 14/11 20h05 | 3 | R$ 10,78 | 0 (metricas.csv seguia em 2) | sem inscrito | Claude principal: 109 cliques a R$ 0,10,
   mas 98 no Reels do Instagram (497 impressões, ~20% de cliques) e 9 em Apps e sites; 0 entrou. Pausado ~19h55,
   posicionamentos trocados para só Feeds (FB e IG) e religado ~20h05 (Meta reanalisando). Novo período começa aqui.
+- 14/11 20h40 | 3 | R$ 10,78 | 0 | sem inscrito | Claude principal, a pedido do Vini: destino trocado para a página
+  própria em português (docs/index.html). Ainda sem nenhuma impressão nos Feeds; Meta reanalisando. Período novo daqui.
 
 ## Veredito
 (vazio)
