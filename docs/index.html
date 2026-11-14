@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Achadinhos 🖤 Ofertas do Dia no Telegram</title>
+<meta name="description" content="Ofertas garimpadas todo dia, com o preço conferido na hora. Canal grátis no Telegram.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Black Achadinhos 🖤 Ofertas do Dia">
+<meta property="og:description" content="Ofertas garimpadas todo dia, com o preço conferido na hora. Entre grátis no canal do Telegram.">
+<meta property="og:image" content="https://quantopagarei-sketch.github.io/quantocobrarpj/og.jpg">
+<meta name="theme-color" content="#0c0c0d">
+<link rel="icon" href="logo.jpg">
+<style>
+:root{--bg:#0c0c0d;--card:#17171a;--y:#ffd400;--t:#f5f5f5;--m:#b9b9be}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--t);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:18px;line-height:1.45}
+main{max-width:480px;margin:0 auto;padding:28px 20px 36px;text-align:center}
+.logo{width:112px;height:112px;border-radius:24px}
+h1{font-size:30px;line-height:1.15;margin:16px 0 6px}
+.sub{color:var(--y);font-size:21px;margin-bottom:24px}
+.btn{display:block;width:100%;background:var(--y);color:#0c0c0d;font-weight:800;font-size:22px;text-decoration:none;padding:18px 16px;border-radius:999px}
+.btn:active{transform:scale(.98)}
+.dica{color:var(--m);font-size:15px;margin-top:10px}
+.dica b{color:var(--t)}
+ul{list-style:none;text-align:left;margin:28px 0;display:grid;gap:12px}
+li{background:var(--card);border-radius:14px;padding:14px 16px}
+li b{color:var(--y)}
+.box{background:var(--card);border:2px solid #2a2a2e;border-radius:16px;padding:18px 16px;transition:border-color .3s}
+.box.alerta{border-color:var(--y)}
+.box h2{font-size:20px;margin-bottom:6px}
+.box p{color:var(--m);font-size:16px;margin-bottom:14px}
+.lojas{display:grid;gap:10px}
+.loja{display:block;border:2px solid var(--y);color:var(--y);text-decoration:none;font-weight:700;padding:13px;border-radius:999px;font-size:18px}
+.box .ja{margin:14px 0 0}
+.box .ja a{color:var(--t)}
+.rodape{color:#8c8c92;font-size:13px;margin-top:28px}
+.rodape a{color:#8c8c92}
+</style>
+</head>
+<body>
+<main>
+<img class="logo" src="logo.jpg" alt="Black Achadinhos" width="112" height="112">
+<h1>Ofertas garimpadas todo dia</h1>
+<p class="sub">com o preço conferido na hora</p>
+
+<a id="entrar" class="btn" href="https://t.me/Blackachados">Entrar no canal grátis</a>
+<p class="dica">Abre o app Telegram. Lá, é só tocar em <b>Entrar</b>.</p>
+
+<ul>
+<li>🛒 <b>Todo dia</b> separamos ofertas de verdade: casa, eletrônicos, beleza, ferramentas, pet e mais.</li>
+<li>✅ <b>Preço conferido</b> antes de cada post, sem enxurrada de mensagens.</li>
+<li>🔕 <b>Sem conversa e sem spam:</b> você só recebe as ofertas. Pode silenciar ou sair quando quiser.</li>
+<li>🆓 <b>Grátis</b> e sem cadastro.</li>
+</ul>
+
+<div id="instalar" class="box">
+<h2>Ainda não tem o Telegram?</h2>
+<p>É grátis e instala em 1 minuto. Depois, volte aqui e toque em "Entrar no canal grátis".</p>
+<div class="lojas">
+<a class="loja" href="https://play.google.com/store/apps/details?id=org.telegram.messenger">Baixar no Android</a>
+<a class="loja" href="https://apps.apple.com/br/app/telegram-messenger/id686449807">Baixar no iPhone</a>
+</div>
+<p class="ja">Já tem o Telegram e ele não abriu? <a href="https://t.me/Blackachados">Toque aqui</a>.</p>
+</div>
+
+<p class="rodape">Canal independente, sem ligação oficial com o Mercado Livre ou outras lojas. Usamos links de afiliado: você paga o mesmo preço e o canal pode receber uma comissão.</p>
+</main>
+<script>
+(function () {
+  var canal = 'Blackachados';
+  var ua = navigator.userAgent || '';
+  var android = /Android/i.test(ua);
+  var ios = /iPhone|iPad|iPod/i.test(ua);
+  var btn = document.getElementById('entrar');
+  var box = document.getElementById('instalar');
+
+  function mostrarInstalar() {
+    box.classList.add('alerta');
+    box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  if (location.hash === '#instalar') setTimeout(mostrarInstalar, 300);
+  window.addEventListener('hashchange', function () {
+    if (location.hash === '#instalar') mostrarInstalar();
+  });
+
+  btn.addEventListener('click', function (e) {
+    if (!android && !ios) return; // computador: segue o link normal do t.me
+    e.preventDefault();
+    var saiu = false;
+    document.addEventListener('visibilitychange', function () { if (document.hidden) saiu = true; });
+    window.addEventListener('pagehide', function () { saiu = true; });
+    if (android) {
+      var volta = location.href.split('#')[0] + '#instalar';
+      location.href = 'intent://resolve?domain=' + canal +
+        '#Intent;scheme=tg;S.browser_fallback_url=' + encodeURIComponent(volta) + ';end';
+    } else {
+      location.href = 'tg://resolve?domain=' + canal;
+    }
+    // Se o Telegram não abriu, mostra como instalar (sem tirar a pessoa da página).
+    setTimeout(function () { if (!saiu && !document.hidden) mostrarInstalar(); }, 2500);
+  });
+})();
+</script>
+</body>
+</html>
