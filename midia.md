@@ -4,7 +4,7 @@ Pedido do Vini em 13/11/2026: ver se pagar anúncio traz inscritos e vendas que 
 NADA de dinheiro sai sem o "sim" do Vini: quem publica e paga a campanha é ele (com o Claude da conversa
 principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, nunca aumenta verba.
 
-## FASE ATUAL: 2 – PRONTO, ESPERANDO O VINI (anúncio montado em 14/11 08:45; falta ele pôr forma de pagamento e clicar Publicar)
+## FASE ATUAL: 3 – TESTE RODANDO (publicado em 14/11 08:52; saldo pré-pago via Pix de R$ 228,00 posto pelo Vini; anúncio entrou em análise da Meta)
 (1 – PREPARAR · 2 – PRONTO, ESPERANDO O VINI · 3 – TESTE RODANDO · 4 – ENCERRADO)
 
 ## MUDANÇA DO VINI EM 14/11/2026 (vale mais que os parâmetros abaixo)
@@ -19,7 +19,8 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link, destino
   https://t.me/Blackachados, Advantage+ público com sugestão 35-60 (mínimo 25), posicionamentos automáticos.
   Imagem: anuncio/anuncio-1080x1080.jpg (também postada na página em 14/11). 3 textos, título "Ofertas do Dia no Telegram".
-- A conta de anúncios NÃO tem forma de pagamento: o Vini adiciona (Pix ou cartão) e publica.
+- Pagamento: saldo pré-pago (Pix) de R$ 228,00 em 14/11. Sem saldo, a Meta pausa os anúncios. Só a campanha do canal foi publicada; a "Campanha Cinta1" (antiga, dropshipping) segue em rascunho e NÃO deve ser publicada.
+- Base antes do anúncio: 2 inscritos em 13/11 (metricas.csv).
 
 ## Parâmetros do teste (só o Vini muda)
 - Onde: anúncio no Facebook/Instagram pela página "Black Achadinhos", levando para https://t.me/Blackachados
