@@ -15,6 +15,9 @@ principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, 
   palavras-chave com a marca, parecer canal oficial e (4.3 h) usar a marca Mercado Livre como nossa. Anúncio sem a marca.
 - Estudo de produto (14/11): anúncio direto de produto com link de afiliado só se paga com CPC < R$ 1 e conversão >= 2%
   (CPC típico R$ 2,80 a 6,50; comissão 3 a 8%). Testar só com R$ 50-70 e parar se custo por venda > comissão.
+- Conta de empate do anúncio direto (Claude principal, 14/11 20h, pergunta do Vini): só empata se custo por clique <= conversão x preço x comissão.
+  Ex.: 1,65% (conversão média do e-commerce no Brasil) x R$ 200 x 6% = R$ 0,20 por clique; o clique de e-commerce no Meta costuma custar R$ 0,50 a R$ 1,50.
+  Em 22/11, refazer esta conta com o custo por clique REAL do anúncio do canal (só cliques do Feed; os do Reels de 14/11 eram toque sem querer) e o preço médio das ofertas. Recomendação dada ao Vini: o canal continua prioridade.
 - Campanha no Gerenciador (conta 717391158814860): "Teste Telegram - Black Achadinhos" > conjunto "Brasil 35-60 - R$10/dia"
   (nome antigo; orçamento real R$ 20/dia) > anúncio "Canal Telegram - imagem logo". Tráfego, cliques no link, destino
   https://t.me/Blackachados, Advantage+ público com sugestão 35-60 (mínimo 25).
