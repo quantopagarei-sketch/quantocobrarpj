@@ -12,6 +12,19 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
+## REGISTRO: GRAVE CEDO E A CADA PASSO (vale para TODOS os agentes; vale mais que o texto da tarefa)
+Na 1ª noite (13/11) o Facebook e o X postaram, mas as execuções acabaram sem gravar nada aqui, e o Curador
+parou sem deixar rastro. Sem registro, o agente do dia seguinte repete oferta e ninguém sabe o que houve. Por isso:
+1. A ferramenta `add_repo` NÃO existe nas tarefas agendadas: pule esse passo sem insistir. O `git clone` e o
+   `git push` deste repositório funcionam direto (testado em 13/11, na nuvem e no PC).
+2. Logo depois de clonar, acrescente em `diario.md` uma linha "DD/MM HH:MM <agente>: comecei" e dê push.
+3. Depois de CADA ação concluída (cada post, cada story, cada comentário, cada lote de ofertas), registre no
+   seu arquivo e dê push NA HORA: `git add -A; git commit -m "<agente> DD/MM: <o que fez> [skip netlify]";
+   git pull --rebase origin telegram && git push origin HEAD:telegram`. Não deixe o registro para o fim.
+4. Vai parar cedo (Chrome fora do ar, login pedido, aviso, sem oferta, erro)? Escreva o motivo em `diario.md`
+   e dê push ANTES de terminar. Parar sem registro é o único erro que não tem conserto.
+5. `diario.md`: uma linha por evento, no máximo ~80 linhas (apague as mais antigas).
+
 ## POSICIONAMENTO (pedido do Vini em 13/11) – vale para todo texto de todo agente
 Somos **especialistas em ofertas do Mercado Livre**: só divulgamos links de lá porque é onde garimpamos, todo
 dia, os menores preços, sempre conferidos na hora. Use esse tom em posts, bios e anúncios.
@@ -37,6 +50,12 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 - De 1/12 em diante volta ao normal: o Diretor repõe 6 horários e as cotas antigas.
 
 ## Situação
+- 13/11/2026 (noite, 1ª execução dos agentes): o canal fechou o dia com 6 ofertas postadas e 2 inscritos.
+  Curador (19h47) não trouxe nada (provável: Chrome do PC ainda desligado; ele só conectou às 20h30).
+  Facebook (20h31) fez 1 post na página e parou; X (21h17) fez 1 post + resposta e parou; nenhum gravou
+  registro. O Claude principal repôs a fila às 21h33 (ofertas 20261113-06 a -15, válidas até 14/11 23h33),
+  anotou os posts em `facebook.md` e `x.md` e criou a regra "REGISTRO" acima. Diagnóstico feito: tarefa
+  agendada ligada ao PC clona, dá push e alcança o Chrome normalmente.
 - 13/11/2026 (tarde): página do Facebook pronta (nome, logo, capa, categoria "Serviço de compras", link do
   canal); etiquetas `telegram`, `facebook` e `twitter` criadas no painel de afiliado (em uso: `telegram`).
 - 13/11/2026 14h35: **NO AR.** Canal público https://t.me/Blackachados (@Blackachados), bot
@@ -54,12 +73,12 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 ## Peças
 | Peça | O que faz | Onde roda | Gasta uso do Claude? |
 |---|---|---|---|
-| Robô postador (`bot.py`, chamado por `rodar.sh`) | Posta 1 oferta da fila em cada horário de `config.json` (9h, 12h, 15h, 18h, 20h, 21h), anota inscritos | GitHub Actions, de hora em hora e quando a fila muda | Não |
-| Curador (tarefa agendada diária, 19h47) | Escolhe 6 a 8 ofertas no Mercado Livre, gera os links de afiliado e grava em `fila/` | Claude + Chrome do PC do Vini | Sim |
+| Robô postador (`bot.py`, chamado por `rodar.sh`) | Posta 1 oferta da fila em cada horário de `config.json` > `horarios` (no sprint: 9h, 11h, 13h, 15h, 17h, 19h, 20h, 21h), anota inscritos | GitHub Actions, de hora em hora e quando a fila muda | Não |
+| Curador (tarefa agendada diária, 19h47) | Escolhe 6 a 8 ofertas (8 a 10 no sprint) no Mercado Livre, gera os links de afiliado e grava em `fila/` | Claude + Chrome do PC do Vini | Sim |
 | Crescimento (seg e qui) | Traz inscritos sem spam; registra em `crescimento.md` | Claude (+ Chrome se houver) | Sim |
 | Divulgador Facebook (diário, 20h31) | Posta as campeãs do dia na página "Black Achadinhos" do Facebook; em grupos, posta onde a regra permite e comenta (sem link) para gerar interação. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
-| Divulgador X (diário, 21h17) | Posta as 2 campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora, 1 programada para 12h15. Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
-| Gestor de Mídia (diário, 19h19, só de 14 a 28/11) | Prepara e acompanha o teste de anúncio pago de R$ 70 (20 a 27/11); pausa se passar do limite; nunca cria campanha nem aumenta verba. Regras em `midia.md` | Claude + Chrome do PC do Vini | Sim |
+| Divulgador X (diário, 21h17) | Posta as campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora e as outras programadas (quantidade em `x.md`). Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
+| Gestor de Mídia (diário, 19h19, só de 14 a 28/11) | Prepara e acompanha o teste de anúncio pago de R$ 70 (16 a 22/11); pausa se passar do limite; nunca cria campanha nem aumenta verba. Regras em `midia.md` | Claude + Chrome do PC do Vini | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
 | Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |
 
@@ -81,8 +100,13 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
    - `link_facebook` = etiqueta `facebook` e `link_x` = etiqueta `twitter`, só para as 2 campeãs do dia.
    São 3 gerações no máximo (todas as páginas com `telegram`; as 2 campeãs com `facebook`; as 2 com `twitter`).
    No fim, deixe a etiqueta em uso de volta em `telegram`. Nunca crie, renomeie nem apague etiquetas.
-6. A fila conferida às 19h47 é postada às 20h e 21h do mesmo dia e às 9h, 12h, 15h e 18h do dia
-   seguinte. Ofertas vencem 24 h depois de `conferido_em`. O push da fila já dispara o robô na hora.
+6. A fila conferida às 19h47 é postada às 20h e 21h do mesmo dia e nos horários do dia seguinte
+   (`config.json` > `horarios`). Ofertas vencem `validade_horas` (hoje 26 h) depois de `conferido_em`.
+   O push da fila já dispara o robô na hora.
+   Se o Chrome estiver fora do ar às 19h47, registre (regra "REGISTRO") e termine: a fila da véspera cobre
+   até o fim do dia seguinte só se tiver 9 ou mais ofertas; por isso, em dia normal, deixe 10.
+   Preço "no Pix": se o preço em destaque da página valer só no Pix (aparece "no Pix" ao lado), escreva
+   "preço no Pix" no `motivo`. Voltagem: em eletro, acrescente "confira a voltagem na página".
 7. Só links do Mercado Livre são aceitos (`config.json` > `dominios_permitidos`: mercadolivre.com,
    mercadolivre.com.br, meli.la). O gerador hoje devolve links `https://meli.la/...`.
 

@@ -101,5 +101,9 @@ Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 - 13/11: endereço novo (/blackachadinhos.ofertas), botão "Saiba mais" levando ao canal, post de apresentação
   publicado e fixado; 5 fotos antigas (Marrone Store) apagadas; bio e post fixado com o posicionamento novo.
 
+- 13/11 20h35 | página | Kit 10 potes de vidro Vitrex (20261113-03), R$ 88,56 no Pix | publicado pelo agente, que
+  parou depois deste post sem registrar (anotado pelo Claude principal). Stories e grupos: nada feito ainda.
+  Próxima execução: siga a regra "REGISTRO" do LEIA-PRIMEIRO (push depois de cada post).
+
 ## Avisos do Facebook
 (nenhum)
