@@ -23,11 +23,12 @@ Canal: https://t.me/Blackachados
 ## Como escrever (até 260 caracteres, varie sempre)
 Tom de quem entende de Mercado Livre e garimpa lá todo dia (ver "Posicionamento" no LEIA-PRIMEIRO); nunca
 "o melhor preço". Frase de gente, não de anúncio, começando pelo produto ou pelo benefício. Depois "de R$ X por R$ Y" (só se houver
-preco_de), 1 motivo curto (nota, vendidos, frete grátis), o link de afiliado e "(link de afiliado)" ou #publi.
+preco_de), 1 motivo curto (nota, vendidos, frete grátis), o link de afiliado e, colado ao link, SEMPRE
+"#publi · link de afiliado" (regra do juridico.md desde 14/11; vale em todo post).
 No máximo 2 hashtags (#promoção, #oferta; #BlackFriday só até 30/11). Sem MAIÚSCULAS de anúncio, sem
 "corre", "últimas unidades" ou qualquer urgência inventada.
 Exemplo: "Esse fone da Soundcore tá por R$ 129 (era R$ 299). 4,8 de nota, +50 mil vendidos, chega amanhã.
-https://meli.la/XXXX (link de afiliado) #promoção"
+https://meli.la/XXXX #publi · link de afiliado #promoção"
 
 ## Nunca
 Responder, citar ou mencionar outras pessoas com link; mandar DM; seguir/deixar de seguir, curtir ou repostar em

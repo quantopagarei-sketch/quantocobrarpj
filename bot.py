@@ -194,7 +194,8 @@ def legenda(item, t):
         visto = f"Preço visto em {c.strftime('%d/%m às %Hh%M')}. Pode mudar."
     except Exception:
         pass
-    linhas += ["", f"🛒 {loja}: {e(item['link'])}", "", f"<i>{visto}</i>"]
+    # Aviso de publicidade em CADA post, colado ao link (CDC art. 36 e guia do CONAR; ver juridico.md).
+    linhas += ["", f"🛒 {loja}: {e(item['link'])}", f"<i>Publicidade · link de afiliado. {visto}</i>"]
     return "\n".join(linhas)[:1020]
 
 

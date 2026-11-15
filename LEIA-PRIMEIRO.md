@@ -12,6 +12,10 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
+## JURÍDICO: LEIA `juridico.md` ANTES DE POSTAR, COMENTAR OU ANUNCIAR (vale para TODOS; pedido do Vini em 14/11)
+As regras de `juridico.md` valem mais que qualquer manual. Em especial: "Publicidade · link de afiliado" em todo
+post (no X: "#publi · link de afiliado"), e NENHUM agente usa o WhatsApp Web (nem abre conversas do Vini).
+
 ## REGISTRO: GRAVE CEDO E A CADA PASSO (vale para TODOS os agentes; vale mais que o texto da tarefa)
 Na 1ª noite (13/11) o Facebook e o X postaram, mas as execuções acabaram sem gravar nada aqui, e o Curador
 parou sem deixar rastro. Sem registro, o agente do dia seguinte repete oferta e ninguém sabe o que houve. Por isso:

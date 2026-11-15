@@ -89,9 +89,10 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
 ## Modelo de post (varie as palavras a cada vez)
 <Nome curto do produto>
 De R$ X por R$ Y (-Z%)  ·  <nota>★ · <vendidos> vendidos · frete grátis
-Comprar: <link de afiliado>
+Publicidade · link de afiliado: <link de afiliado>
 Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
-(link de afiliado; o preço pode mudar)
+(o preço pode mudar)
+REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post, colado ao link, visível sem "ver mais".
 
 ## Grupos (nome | link | membros | regra: pode postar oferta? pode link? | entrou em | posts | comentários | reações/respostas recebidas)
 (vazio)
