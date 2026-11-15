@@ -28,6 +28,12 @@ parou sem deixar rastro. Sem registro, o agente do dia seguinte repete oferta e 
 4. Vai parar cedo (Chrome fora do ar, login pedido, aviso, sem oferta, erro)? Escreva o motivo em `diario.md`
    e dê push ANTES de terminar. Parar sem registro é o único erro que não tem conserto.
 5. `diario.md`: uma linha por evento, no máximo ~80 linhas (apague as mais antigas).
+6. SE O PUSH VOLTAR 403 (acontece nas tarefas agendadas desde 14/11; item 1 acima estava errado nesse ponto): NÃO PARE.
+   Divulgador Facebook e Divulgador X: façam os posts do dia assim mesmo. Para não repetir, olhem na própria
+   página / no próprio perfil o que já saiu hoje. Usem as ofertas de `fila/` e `postados.csv` (se a oferta não
+   tiver `link_facebook`/`link_x`, usem `link`), confiram o preço na `pagina` e, no fim, escrevam na resposta
+   final a lista do que postaram (o Claude principal copia para os manuais). Curador e Gestor de Mídia: sem
+   push não há como gravar; façam a parte de leitura e deixem o resultado na resposta final.
 
 ## POSICIONAMENTO (pedido do Vini em 13/11) – vale para todo texto de todo agente
 Somos **especialistas em ofertas do Mercado Livre**: só divulgamos links de lá porque é onde garimpamos, todo

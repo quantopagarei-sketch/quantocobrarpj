@@ -105,6 +105,10 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 13/11 20h35 | página | Kit 10 potes de vidro Vitrex (20261113-03), R$ 88,56 no Pix | publicado pelo agente, que
   parou depois deste post sem registrar (anotado pelo Claude principal). Stories e grupos: nada feito ainda.
   Próxima execução: siga a regra "REGISTRO" do LEIA-PRIMEIRO (push depois de cada post).
+- 14/11 manhã | página | post de convite ao canal (08h41), Deo Colônia Natura Hoje R$ 67,56 e Liz Flora O Boticário R$ 71,90 | vistos na página em 15/11 (não tinham sido registrados).
+- 15/11 14h45 | página | Lava-roupas Tixan Ypê 7 L (20261115-03), R$ 56,04, link https://meli.la/24xLiY7 | publicado com foto pelo Claude principal.
+- 15/11 14h50 | página | Lixeira automática 16 L (20261115-04), R$ 59,05, link https://meli.la/28WfAaA | publicado com foto pelo Claude principal. Cota do dia: falta 1 post e os stories.
+- 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
 
 ## Avisos do Facebook
 (nenhum)

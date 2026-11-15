@@ -31,3 +31,8 @@ consumiu. O saldo que sobra continua sendo dele.
 - Inscritos: metricas.csv.
 - Vendas e comissão: painel de afiliado do ML, filtrando a etiqueta `anuncio`. Venda pendente conta separada
   de venda confirmada (pode ser cancelada).
+
+## Campanhas no ar em 15/11 14h40 (gasto máximo previsto)
+- Teste Celulares - link direto: até R$ 90 (termina 18/11).
+- Seguidores da Página: até ~R$ 40 (termina 19/11); retorno medido em seguidores da página (base: 2).
+- Canal (Telegram): pausada.
