@@ -1,8 +1,9 @@
 # Balanço do tráfego pago: investido x retorno
 
 Pedido do Vini em 15/11/2026. Regra: o que não foi medido fica "não medido". Nunca inventar número.
-Quem atualiza: o Gestor de Mídia (toda execução) e o Claude principal (sempre que mexer em anúncio ou o Vini
-puser dinheiro). O Diretor copia o resumo no aviso de domingo.
+Quem atualiza: o AGENTE DE BALANÇO (tarefa agendada trig_01EkPWhNJF5ajKVepS1ojCB2, todo dia às 21h52, presa ao PC
+PCVinicius; lê depósitos na cobrança da Meta, gasto no Gerenciador e vendas no painel do ML), o Gestor de Mídia e o
+Claude principal (sempre que mexer em anúncio). O Diretor copia o resumo no aviso de domingo.
 
 Diferença importante: DEPOSITADO é o dinheiro que o Vini pôs na conta de anúncios; GASTO é o que a Meta já
 consumiu. O saldo que sobra continua sendo dele.
