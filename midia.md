@@ -109,3 +109,27 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 
 ## Veredito
 (vazio)
+
+## ANÚNCIO DIRETO DE PRODUTO – iPhone (pedido do Vini em 15/11/2026; AINDA NÃO PUBLICADO)
+- Pedido: usar o saldo que já está na conta para anunciar direto (link de afiliado) iPhones e celulares com 5%+ de
+  comissão, e chegar na Black Friday anunciando iPhones. Pediu parecer do especialista em tráfego e um Agente de Design.
+- Produto: iPhone 17e 256 GB Preto, loja oficial Apple no ML, R$ 4.299 no Pix (riscado R$ 5.799), 4,9★, +1000 vendidos,
+  "GANHOS 5%" (~R$ 215 por venda). Conferido em 15/11 08h55. Página: .../iphone-17e-256gb-preto-distribuidor-autorizado/p/MLB1066130044
+- Etiqueta nova no painel de afiliado: `anuncio` (criada em 15/11). Link do anúncio: https://meli.la/1irTFqj
+  (etiqueta em uso devolvida para `telegram`).
+- Parecer do especialista (15/11 09h): é aposta ("loteria barata"): resultado mais provável 0 a 1 venda. Conversão estimada
+  de tráfego frio para iPhone 0,05% a 0,3% (estimativa, sem fonte). Riscos: página com 2 seguidores + link encurtado de
+  afiliado pode ser recusado/limitado pela Meta; venda aparece com atraso e pode ser cancelada.
+  Estrutura: campanha NOVA, Tráfego/cliques no link, só Feed do Facebook e do Instagram, Brasil, 28-55, R$ 30/dia por
+  3 dias (teto R$ 90, NÃO os R$ 209), 1 conjunto, 2 anúncios (4:5 e 1:1). Recomenda PAUSAR o anúncio do canal (depende do Vini).
+  Parar: R$ 60 gastos com clique acima de R$ 0,80 ou taxa de clique abaixo de 0,8%; ou R$ 90 sem venda (não repetir).
+  Aumentar para R$ 50/dia só com 1 venda (confirmada ou pendente) até R$ 100 gastos. Decidir em 22/11 pelo painel do ML.
+  Black Friday (23 a 30/11): com venda, até R$ 300 em 5 dias (R$ 40-60/dia) e testar celular mais barato; sem venda mas
+  clique bom, 2º teste de R$ 60 com outro produto; sem venda e sem clique, parar.
+- Textos (principal, até 125): 1) "iPhone 17e 256 GB a R$ 4.299 no Pix, vendido na loja da Apple no Mercado Livre. Publicidade · link de afiliado"
+  2) "Procurando iPhone novo? Veja o 17e de 256 GB no Mercado Livre e compare o preço. Publicidade · link de afiliado"
+  3) "iPhone 17e 256 GB: confira preço e prazo de entrega para o seu CEP no Mercado Livre. Publicidade · link de afiliado"
+  Títulos: "iPhone 17e 256 GB no Pix" / "Confira a oferta do iPhone 17e". Sem "% OFF", sem "de/por", sem "oficial" na imagem.
+- Imagens (Agente de Design, manual design.md): anuncio/iphone17e-1080x1350.jpg e anuncio/iphone17e-1080x1080.jpg.
+- Antes de publicar: conferir o preço na página no dia. Quem publica e paga é o Vini. Falta o "sim" dele para: pausar o
+  anúncio do canal e montar a campanha (R$ 30/dia, 3 dias).
