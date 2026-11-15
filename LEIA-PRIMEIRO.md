@@ -95,6 +95,11 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 4. Critérios: desconto real de 15% ou mais, 500+ vendidos, nota 4,6+, R$ 20 a R$ 800, de preferência
    Full/frete grátis e loja oficial ou vendedor bem avaliado. Evitar oferta relâmpago com cronômetro
    que acaba antes do horário de postagem.
+   OFERTA PREMIUM (pedido do Vini em 15/11): além das ofertas normais, incluir 1 por dia (no máximo 2)
+   de valor alto, acima de R$ 800 e sem teto: iPhone ou outro celular/eletrônico de marca forte.
+   Só de LOJA OFICIAL, nota 4,8+, 1.000+ vendidos, com preço riscado na página e comissão de 4% ou mais
+   no selo "GANHOS". Preferir o horário das 20h ou 21h. O resto do dia continua variado (não virar
+   canal só de iPhone). O Diretor compara cliques e vendas das premium com as demais em 22/11.
 5. Link: SEMPRE pelo gerador do programa. Link comum do produto NÃO paga comissão. Jeito mais rápido:
    Gerador de links (https://www.mercadolivre.com.br/afiliados/linkbuilder): cole as páginas dos produtos
    escolhidos (uma por linha), escolha a etiqueta em "Etiqueta em uso" e clique em "Gerar"; os links
