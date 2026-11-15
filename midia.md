@@ -198,3 +198,6 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Os conjuntos A e B não foram tocados. FALTA: o "sim" do Vini para publicar (gasto de até R$ 30) e reconferir o preço na hora.
   Como subir imagem no Gerenciador: criar um <input type=file id=claude_file> na página, pôr o print nele com upload_image e
   redirecionar o click do input do botão "Carregar" para esse arquivo (o "soltar" por coordenada não funciona).
+- MARMITA: CANCELADO pelo Vini em 15/11 11h52 ("não vamos fazer, se não tem como ter certeza dos 22%"). Rascunho do conjunto C e do
+  anúncio DESCARTADO no Gerenciador (nunca publicado, R$ 0 gasto). Conjuntos A e B seguem ativos, sem alteração. A oferta continua na
+  fila do canal (fila/20261115-11). Regra que fica: só anunciar produto com a comissão confirmada no PC (não valer-se do selo "ganhos extras" do app).
