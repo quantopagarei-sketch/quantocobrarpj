@@ -31,3 +31,4 @@
 - 15/11 14:40 Claude principal: com o "sim" do Vini (teto ~R$ 40), PUBLICADA a campanha "Seguidores da Pagina - Black Achadinhos" (R$ 10/dia até 19/11, só Feed do Facebook; em análise da Meta). Só ela foi publicada.
 - 15/11 14:50 Claude principal: a página estava SEM post de produto desde 14/11 de manhã (Divulgador Facebook para no push 403). Postei 2 ofertas na página, com foto, preço conferido na hora: Tixan Ypê 7 L R$ 56,04 (20261115-03) e Lixeira automática 16 L R$ 59,05 (20261115-04). Regra nova no LEIA-PRIMEIRO (REGISTRO, item 6): com push 403 os Divulgadores postam assim mesmo.
 - 15/11 18:41 Diretor: comecei (leitura semanal)
+- 15/11 18:55 Diretor: números da semana gravados (inscritos 2, 19 posts, ganhos não medido); config.json mantido; fila/ sem arquivo com mais de 30 dias.

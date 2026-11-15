@@ -60,6 +60,10 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 - De 1/12 em diante volta ao normal: o Diretor repõe 6 horários e as cotas antigas.
 
 ## Situação
+- 15/11/2026 18h41 (Diretor, 1ª leitura semanal): 2 inscritos (igual a 13/11); 19 posts no canal; robô saudável (sem erro,
+  rodou hoje); fila com 6 ofertas que vencem em 16/11 entre 10h41 e 13h27 se o Curador das 19h47 não repuser. Curador, Facebook
+  e X seguem sem gravar (push 403 nas tarefas deles; este Diretor consegue dar push). Cliques, vendas e ganhos: não medido
+  (`ml.csv` não existe). Horários e rodízio mantidos (poucos dados; sprint vai até 30/11). Próxima comparação com a meta: 22/11.
 - 13/11/2026 (noite, 1ª execução dos agentes): o canal fechou o dia com 6 ofertas postadas e 2 inscritos.
   Curador (19h47) não trouxe nada (provável: Chrome do PC ainda desligado; ele só conectou às 20h30).
   Facebook (20h31) fez 1 post na página e parou; X (21h17) fez 1 post + resposta e parou; nenhum gravou

@@ -20,4 +20,8 @@ São dos agentes Divulgador Facebook (`facebook.md`) e Divulgador X (`x.md`), di
 (vazio)
 
 ## Números (o Diretor copia de metricas.csv aos domingos)
-(vazio)
+- Semana 13 a 15/11 (1ª semana; sem semana anterior para comparar): inscritos 2 -> 2 (sem variação; o anúncio do canal
+  levou cliques, mas nenhum inscrito). Posts no canal: 19 (6 + 8 + 5 até as 17h39 de 15/11). Dias com fila vazia: 0
+  (14/11 fechou com 1 pendente; a fila só zerou de madrugada). Ofertas vencidas: 1 de 20. Cliques/vendas/ganhos: não medido
+  (ml.csv não existe: o Curador não gravou). Categorias mais postadas: Casa/Cozinha, Beleza, Eletrodomésticos, Ferramentas.
+  Facebook: 5 posts na página (2 seguidores), 0 grupos, 0 stories registrados. Crescimento: nada novo registrado.
