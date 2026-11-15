@@ -201,3 +201,17 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - MARMITA: CANCELADO pelo Vini em 15/11 11h52 ("não vamos fazer, se não tem como ter certeza dos 22%"). Rascunho do conjunto C e do
   anúncio DESCARTADO no Gerenciador (nunca publicado, R$ 0 gasto). Conjuntos A e B seguem ativos, sem alteração. A oferta continua na
   fila do canal (fila/20261115-11). Regra que fica: só anunciar produto com a comissão confirmada no PC (não valer-se do selo "ganhos extras" do app).
+
+## ANÚNCIO DE SEGUIDORES DA PÁGINA (pedido do Vini em 15/11/2026 14h22; RASCUNHO, NÃO PUBLICADO)
+- Pedido: "faça um anúncio pra conseguir seguidores pra página" (página do Facebook Black Achadinhos; base: 2 seguidores em 15/11 14h50).
+- No Gerenciador (conta 717391158814860): campanha "Seguidores da Pagina - Black Achadinhos" (id 120248761122100656), objetivo Engajamento,
+  local da conversão "Instagram ou Facebook" > Página do Facebook. A Meta avisa que a meta "curtidas na Página" NÃO existe mais:
+  ficou "Maximizar o número de visitas à Página do Facebook" (paga-se a visita; seguir depende da pessoa). Lance: volume mais alto.
+  Conjunto "Brasil 25-55 - Feed FB - R$10/dia" (id 120248761122090656): R$ 10/dia, término 19/11 15h24 (teto ~R$ 40), Brasil,
+  idade mínima 25, público Advantage+ sem interesse, SÓ "Feed do Facebook" (gasto limitado em excluídos desligado).
+  Anúncio "Siga a pagina - imagem logo" (id 120248761122110656): imagem docs/an/pagina.jpg (subida como pagina-siga.jpg), botão "Acessar Página",
+  texto "Garimpamos ofertas todo dia e conferimos o preço na hora. Siga a página e veja as ofertas no seu feed. Página independente · links de afiliado".
+  Imagens de IA da Meta NÃO aplicadas (traziam pessoas inventadas).
+- FALTA: o "sim" do Vini para publicar (gasto de até ~R$ 40 do saldo pré-pago). Publicar só DENTRO desta campanha (nunca "Conferir e publicar" geral).
+- Medir: seguidores da página (facebook.com/blackachadinhos.ofertas) e gasto. Parar se, depois de R$ 20, o seguidor custar mais de R$ 1,50.
+- Truque de subir imagem que funcionou hoje: além do <input id=claude_file>, o "change" precisa ser disparado ~300 ms DEPOIS do click redirecionado.
