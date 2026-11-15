@@ -158,3 +158,20 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 
 - BALANÇO (pedido do Vini em 15/11): em toda execução, ler o gasto no Gerenciador e as vendas da etiqueta `anuncio` no painel do ML e
   acrescentar uma linha em `balanco.md` (e atualizar o Resumo). Depositado até agora: R$ 228 (Pix, 14/11). Não medido = "não medido".
+- MONTADO EM RASCUNHO (15/11 09:31, Claude principal; NADA publicado): campanha "Teste Celulares - link direto - 15/11"
+  (id 120248758022070656, DESATIVADA, cópia da campanha do canal). Tráfego, cliques no link, orçamento por conjunto,
+  sem compartilhamento. Dois conjuntos, cada um R$ 15/dia, término 18/11 09h31, Brasil, só celular, só "Feed do Facebook"
+  (gasto limitado em excluídos desligado), público Advantage+ com sugestão:
+  A) "A - iPhone 16e - R$15/dia": 25-55, interesse "iPhone (smartphone)" · anúncio "iPhone 16e - imagem" -> https://meli.la/2ACcyCs
+  B) "B - Galaxy A17 - R$15/dia": 25-60, interesse "Samsung Galaxy" · anúncio "Galaxy A17 - imagem" -> https://meli.la/2UhzGAP
+  Imagens em paisagem (1568x751, docs/an/*.jpg, script anuncio/gerar_anuncio_paisagem.py): o Gerenciador só aceitou imagem
+  pelo print da tela (envio de arquivo é bloqueado para o Claude). As versões 4:5 (anuncio/*-1080x1350.jpg) estão prontas
+  se o Vini quiser trocar à mão. 3 textos + título com preço; descrição "Canal independente · link de afiliado";
+  sem link de exibição; IA de imagem e "cortar e expandir" desligados.
+  DIFERENÇAS do parecer do especialista (para não gastar o dia montando): não limitei a Sul/Sudeste/Centro-Oeste no A
+  (Brasil todo), não pus "só Android" no B (mexer em dispositivo zera os posicionamentos) e ficou público Advantage+ com
+  sugestões em vez de público original.
+  A campanha do canal "Teste Telegram - Black Achadinhos" foi PAUSADA às ~09h10 com o "sim" do Vini.
+  FALTA (Vini): conferir preço do dia, clicar em "Ver prévia e publicar" DENTRO desta campanha e ligar a campanha.
+  NÃO usar "Conferir e publicar" geral (publicaria também os rascunhos antigos "Cinta1").
+  Parar: R$ 60 gastos com clique > R$ 0,80 ou taxa de clique < 0,8%; R$ 90 sem venda. Medir no painel do ML, etiqueta anuncio.
