@@ -46,8 +46,9 @@ bloqueio de conta, renda regular de comissão ou ideia de CNPJ, o Diretor recome
 - Nome "Black Achadinhos 🖤 Ofertas do Dia", link https://whatsapp.com/channel/0029Vb9YZMPGk1FlqwWirj1t
   (na conta pessoal do Vini; o WhatsApp não mostra o número nem a foto dele aos seguidores).
 - Como postar: SÓ uma pessoa (o Vini) cola e publica. Agentes podem PREPARAR textos, nunca publicar.
-- Decisão do Vini sobre o canal (postar à mão, agente mesmo com risco, ou deixar parado): PENDENTE. Em 14/11 21h ele
-  respondeu "sem preferência". Até ele decidir: nenhum agente posta; o canal fica sem posts ou com posts dele.
+- EM ESPERA (decisão do Vini, 14/11 21h18: "vamos esperar o Whats"): o canal fica criado e sem posts, e nenhum agente
+  mexe nele. A ideia de automatizar grupos/comunidade com Evolution API (Baileys) num chip exclusivo foi avaliada
+  (viável e barata, mas quebra os termos do WhatsApp: risco de banimento) e ficou guardada como IDEIA.
 - Pendente: cadastrar o canal no perfil de afiliado do Mercado Livre (só com o "sim" do Vini; em 14/11 sem resposta).
 
 ## Tributos (resumo, sem conselho personalizado)
