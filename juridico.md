@@ -27,7 +27,7 @@ bloqueio de conta, renda regular de comissão ou ideia de CNPJ, o Diretor recome
 6. NUNCA urgência ou escassez inventada ("últimas unidades", "corre", "só hoje" sem a página dizer).
 7. NUNCA "o melhor preço" nem comparação com outras lojas. Usar "preço conferido agora, pode mudar".
 8. NUNCA inventar experiência ("comprei e amei"). NUNCA "grátis" que a página não diga.
-9. SEMPRE anúncio pago levando ao canal (t.me), nunca a link de afiliado. NUNCA Google/Bing/YouTube Ads.
+9. Anúncio pago: só em rede social cadastrada (Facebook/Instagram), nunca Google/Bing/YouTube Ads. Desde 15/11/2026, por decisão do Vini, pode levar direto a link de afiliado (termos do ML, item 4.4, permitem), sem parecer canal oficial e SEMPRE com o aviso de publicidade (item 5.1 dos termos do ML obriga a indicar que conteúdo com link de afiliado é publicidade, nos moldes do guia do CONAR).
 10. SEMPRE seguir a regra de cada grupo; sair se proibirem página ou link. NUNCA o mesmo texto em vários grupos.
 11. NUNCA usar o perfil pessoal do Vini no Facebook. NUNCA nome ou foto do Vini em post, bio ou anúncio.
 12. NUNCA agente no WhatsApp Web (nem para olhar). NUNCA abrir, ler ou copiar conversas pessoais do Vini.
@@ -67,3 +67,4 @@ ou houver ideia de CNPJ, o Diretor recomenda ao Vini um contador.
 
 ## Diário do Jurídico (data | o que mudou | o que foi ajustado)
 - 14/11/2026 | revisão inicial | aviso de publicidade em cada post (bot.py, facebook.md, x.md); WhatsApp só manual.
+- 15/11/2026 | pergunta do Vini: dá para tirar "link de afiliado" do anúncio pago? | Não tirar o aviso: termos do ML 5.1 exigem indicar "publicidade" em conteúdo com link de afiliado. O mínimo é a palavra "Publicidade" (ou #publi); "link de afiliado" é reforço de transparência, não exigência literal. Regra 9 atualizada.
