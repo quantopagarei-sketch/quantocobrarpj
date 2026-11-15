@@ -175,3 +175,11 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   FALTA (Vini): conferir preço do dia, clicar em "Ver prévia e publicar" DENTRO desta campanha e ligar a campanha.
   NÃO usar "Conferir e publicar" geral (publicaria também os rascunhos antigos "Cinta1").
   Parar: R$ 60 gastos com clique > R$ 0,80 ou taxa de clique < 0,8%; R$ 90 sem venda. Medir no painel do ML, etiqueta anuncio.
+- PUBLICADO em 15/11 09:39 pelo Claude principal, com aprovação escrita do Vini no chat (09h36: "pode publicar tudo, aprovado").
+  Preços reconferidos às ~09h38 (iguais). Campanha "Teste Celulares - link direto - 15/11" LIGADA; os dois anúncios
+  (iPhone 16e e Galaxy A17) em "Em processamento" (análise da Meta). Publicado só esta campanha; os rascunhos antigos
+  ("Campanha Cinta1", "Novo anúncio de Vendas") continuam em rascunho e NÃO devem ser publicados.
+  Aviso "Publicidade · link de afiliado" mantido (termos do ML 5.1). Gasto máximo previsto: R$ 90 (2 x R$ 15/dia até 18/11 09h31).
+  FASE: TESTE DE PRODUTO RODANDO. O Gestor de Mídia mede todo dia (gasto, cliques, taxa de clique por anúncio; vendas e
+  cliques da etiqueta `anuncio` no painel do ML) e pausa pelas regras: R$ 60 com clique > R$ 0,80 ou taxa < 0,8%; R$ 90 sem venda.
+  Não mexer nos anúncios durante o teste. Se a Meta reprovar algum, anotar o motivo e avisar o Vini (não recriar).
