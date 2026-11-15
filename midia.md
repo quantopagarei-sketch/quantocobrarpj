@@ -133,3 +133,14 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Imagens (Agente de Design, manual design.md): anuncio/iphone17e-1080x1350.jpg e anuncio/iphone17e-1080x1080.jpg.
 - Antes de publicar: conferir o preço na página no dia. Quem publica e paga é o Vini. Falta o "sim" dele para: pausar o
   anúncio do canal e montar a campanha (R$ 30/dia, 3 dias).
+- TERMOS RELIDOS em 15/11 (ajuda/30228, item 4.4): "O Afiliado poderá promover seus Links Especiais por meio de mídia paga,
+  desde que restrita exclusivamente a redes sociais (Instagram Ads, Facebook Ads, TikTok Ads, Pinterest Ads)" e a partir de
+  contas do próprio afiliado, cadastradas e aprovadas no Programa. Condições: (ii) nada de palavra-chave com a marca;
+  (iii) nada de buscador/search/shopping/YouTube Ads; (iv) a campanha não pode parecer canal oficial ou autorizado do ML.
+  Ou seja: link de afiliado DIRETO no anúncio do Facebook É permitido. Por segurança, rodar só no Feed do FACEBOOK
+  (a página cadastrada); Instagram só se a conta estiver cadastrada no Programa.
+- Pesquisa de mercado (15/11, manual pesquisa.md): todos os 8 aparelhos conferidos pagam 5%. Candidatos: Galaxy A17 256GB
+  (R$ 1.258,20, +50 mil vendidos, R$ 63/venda), iPhone 16e 128GB (R$ 3.271,16, +10 mil, R$ 164/venda), iPhone 17 256GB
+  (R$ 5.566,05, +10 mil, R$ 278/venda), Galaxy S25 FE (R$ 3.483,90, loja de terceiro), iPhone 17e 256GB (R$ 4.299, +1000).
+  Proposta levada ao Vini: testar iPhone 16e x Galaxy A17 (R$ 15/dia cada, 3 dias, teto R$ 90). Aguardando o "sim".
+- Obs.: os horários das linhas de 15/11 no diario.md escritas pelo Claude principal antes desta estão ~25 min adiantados.
