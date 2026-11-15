@@ -46,7 +46,9 @@ bloqueio de conta, renda regular de comissão ou ideia de CNPJ, o Diretor recome
 - Nome "Black Achadinhos 🖤 Ofertas do Dia", link https://whatsapp.com/channel/0029Vb9YZMPGk1FlqwWirj1t
   (na conta pessoal do Vini; o WhatsApp não mostra o número nem a foto dele aos seguidores).
 - Como postar: SÓ uma pessoa (o Vini) cola e publica. Agentes podem PREPARAR textos, nunca publicar.
-- Pendente: cadastrar o canal no perfil de afiliado do Mercado Livre (com o "sim" do Vini).
+- Decisão do Vini sobre o canal (postar à mão, agente mesmo com risco, ou deixar parado): PENDENTE. Em 14/11 21h ele
+  respondeu "sem preferência". Até ele decidir: nenhum agente posta; o canal fica sem posts ou com posts dele.
+- Pendente: cadastrar o canal no perfil de afiliado do Mercado Livre (só com o "sim" do Vini; em 14/11 sem resposta).
 
 ## Tributos (resumo, sem conselho personalizado)
 Comissão de afiliado recebida como pessoa física costuma ir para o Carnê-Leão (gov.br). As fontes de 2026
