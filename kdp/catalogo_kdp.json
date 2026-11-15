@@ -15,9 +15,13 @@
         "data_publicacao": "2026-11-08",
         "kdp_id": "RWTNYVXS4DG",
         "isbn": "9798141074882",
-        "preco": 19.99
+        "preco": 19.99,
+        "status_kdp": "Live",
+        "asin": "B0HQYP7GXH"
       },
-      "obs": "09/11/2026: trocadas 4 palavras de personagens/filmes protegidos no config (RUDOLPH→HARNESS, GRINCH→DICKENS, POLAR EXPRESS→NUTCRACKER, FROSTY→SCARF). O miolo novo precisa ser reenviado no KDP (paperback e capa dura) — ver pendencias."
+      "obs": "09/11/2026: trocadas 4 palavras de personagens/filmes protegidos no config (RUDOLPH→HARNESS, GRINCH→DICKENS, POLAR EXPRESS→NUTCRACKER, FROSTY→SCARF). O miolo novo precisa ser reenviado no KDP (paperback e capa dura) — ver pendencias.",
+      "status_kdp": "Live",
+      "asin": "B0HQBCF19L"
     },
     {
       "n": 2,
@@ -32,8 +36,12 @@
         "data_publicacao": "2026-11-08",
         "kdp_id": "05GR44PV394",
         "isbn": "9798141077098",
-        "preco": 19.99
-      }
+        "preco": 19.99,
+        "status_kdp": "Live",
+        "asin": "B0HQYCVYBM"
+      },
+      "status_kdp": "Live",
+      "asin": "B0HQBCJNQC"
     },
     {
       "n": 3,
@@ -57,7 +65,9 @@
       "kdp_id": "68JRJCYZB5A",
       "capa_dura": {
         "status": "pendente"
-      }
+      },
+      "status_kdp": "Live",
+      "asin": "B0HQW9XPW7"
     },
     {
       "n": 4,
@@ -83,7 +93,9 @@
       "data_publicacao": "2026-11-08",
       "capa_dura": {
         "status": "pendente"
-      }
+      },
+      "status_kdp": "Live",
+      "asin": "B0HQYJ14SN"
     },
     {
       "n": 5,
@@ -161,7 +173,7 @@
       "n": 8,
       "pasta": "livro8",
       "titulo": "Large Print Christmas Baking Word Search for Adults",
-      "subtitulo": "50 Cozy Large Print Puzzles for Seniors and Adults About Christmas Cookies, Gingerbread, Pies, Candy and Holiday Kitchen Traditions, with Solutions – Gift for Grandma and Bakers",
+      "subtitulo": "50 Cozy Large Print Puzzles for Seniors About Christmas Cookies, Gingerbread, Pies and Holiday Kitchen Traditions, with Solutions – Gift for Grandma",
       "keywords": [
         "christmas gifts for grandma",
         "stocking stuffers for women",
@@ -171,15 +183,20 @@
         "christmas activity book for elderly",
         "easy word search for older adults"
       ],
-      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Cookbooks, Food & Wine > Baking (ou Holidays > Christmas, o que o KDP oferecer)",
+      "categorias": "Humor & Entertainment > Puzzles & Games > Word Search; ... > Word Games; Cookbooks, Food & Wine > Entertaining & Holidays > Christmas",
       "descricao": "ver kdp/livro8/descricao.txt",
       "idioma": "en",
-      "status": "pronto_aguardando_limite",
+      "status": "publicado",
       "sazonal": "natal (publicar até 20/11/2026)",
-      "obs": "Criado em 09/11/2026 na auditoria (decisão do Vini de 07/11: Natal primeiro). Engine OK nos dois modos; capa e páginas conferidas.",
+      "obs": "Criado em 09/11/2026 na auditoria (decisão do Vini de 07/11: Natal primeiro). Engine OK nos dois modos; capa e páginas conferidas. | 15/11/2026: publicado a pedido do Vini (In review). Subtítulo encurtado para caber em 200 caracteres (título+subtítulo = 199). Custo de impressão US$ 2.84, royalty US$ 3.15, sem Expanded Distribution. Falta incluir na série quando ficar Live.",
       "capa_dura": {
-        "status": "aguardando_paperback"
-      }
+        "status": "pendente"
+      },
+      "status_kdp": "In review",
+      "data_publicacao": "2026-11-15",
+      "kdp_id": "EH2Q3SVEGBW",
+      "isbn": "9798143006966",
+      "preco": 9.99
     }
   ],
   "limite_kdp": "Conta nova: limite SEMANAL de criacao de titulos paperback (em 01/11/2026 travou apos 2 livros). Reseta domingo 00:00 UTC. Ao bater o limite aparece o aviso 'Limite de criacao de titulos atingido'.",
@@ -227,31 +244,78 @@
     {
       "data": "2026-11-09",
       "evento": "livro8 (Christmas Baking) criado e colocado no INÍCIO da fila (Natal primeiro). livro1: 4 palavras protegidas trocadas no config. kdp/pauta.json criado."
+    },
+    {
+      "data": "2026-11-15",
+      "evento": "Relatório semanal: 4 livros ao vivo (paperback) + 2 capas duras ao vivo, 0 em revisão, 0 bloqueados, 4 na fila (8,5,6,7). 0 vendas. Série EN já existente (PT2MDHKMAWS) com os 4 livros. Otimização não feita (livro mais antigo tem 13 dias). Chrome traduziu o KDP Reports para PT (só leitura)."
+    },
+    {
+      "data": "2026-11-15",
+      "evento": "livro8 (Christmas Baking) publicado: EH2Q3SVEGBW, In review, ISBN 9798143006966, US$ 9.99. Fila: 5, 6, 7."
     }
   ],
   "pendencias": "Push pelo git ainda bloqueado nas execuções agendadas (repo fora das fontes da tarefa); em 08/11 os arquivos foram enviados pelo GitHub no Chrome. Se o push falhar de novo, usar o upload do GitHub no Chrome. | 09/11/2026: REENVIAR MIOLO DO LIVRO1 (paperback: python3 kdp/engine.py kdp/livro1 → Christmas_Word_Search_INTERIOR.pdf; capa dura: --hardcover → _HC_INTERIOR.pdf) no KDP, só o manuscrito, sem mexer em capa/preço/detalhes; apagar esta pendência depois.",
   "fila_ordem": [
-    8,
     5,
     6,
     7
   ],
   "limite_semanal": {
     "ultimo_bloqueio_utc": "2026-11-01",
-    "publicados_na_semana": 2,
-    "semana_utc": "2026-11-08",
+    "publicados_na_semana": 1,
+    "semana_utc": "2026-11-15",
     "observado": "2 títulos paperback por semana (conta nova). Reseta domingo 00:00 UTC (sábado 21h de Brasília). | Semana de 08/11: livro3 (manual) e livro4 publicados.",
     "regra": "publicados_na_semana vale só para a semana de semana_utc (domingo 00:00 UTC). Semana nova: zere o contador e grave o novo semana_utc. Ao publicar, some 1 e mantenha semana_utc = domingo da semana (igual a limite_semanal_capa_dura)."
   },
   "regras_capa_dura": "Capa dura (decisão do Vini 08/11/2026): versão hardcover de cada livro publicado, com o MESMO título e autor (a Amazon junta na mesma página do paperback). python3 kdp/engine.py kdp/livroN --hardcover gera <file_base>_HC_INTERIOR.pdf (8.25x11, 80 páginas, soluções 2 por página) e <file_base>_HC_COVER.pdf (case laminate). Se o KDP recusar o tamanho da capa, rode de novo com --cover <largura> <altura> <lombada> em polegadas, exatamente como o KDP mostrar. Preço US$ 19.99 (Amazon.com), free KDP ISBN, black & white, white paper, no bleed, Large-print. Na descrição troque '8.5 x 11' por '8.25 x 11'. Limite próprio: 2 capas duras por semana, separado do paperback. Confirmado 08/11 (livro1): capa do engine (8.25x11, 80 pág.) aceita sem ajuste; custo de impressão US$ 7.49; mínimo US$ 12.48; royalty US$ 4.50 a 19.99; Expanded Distribution não disponível nesse formato. No KDP os menus de IA são caixas customizadas (abrir com eventos de mouse via JS) e os campos de ferramenta precisam de setter nativo + evento input.",
   "fila_capa_dura": [
     3,
-    4
+    4,
+    8
   ],
   "limite_semanal_capa_dura": {
     "ultimo_bloqueio_utc": "",
-    "publicados_na_semana": 2,
-    "semana_utc": "2026-11-08",
+    "publicados_na_semana": 0,
+    "semana_utc": "2026-11-15",
     "regra": "Mesma regra de limite_semanal: contador vale só para semana_utc."
-  }
+  },
+  "serie_en": {
+    "nome_kdp": "cozy pine large print word search",
+    "series_id": "PT2MDHKMAWS",
+    "status": "Live",
+    "livros_incluidos": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "verificado_em": "2026-11-15",
+    "obs": "Série já existia no KDP (nome em minúsculas); paperback e capa dura dos 4 livros ao vivo aparecem nela."
+  },
+  "historico_semanal": [
+    {
+      "semana": "2026-11-09 a 2026-11-15",
+      "fonte": "KDP Reports > Orders (1 a 15/11/2026, todos os formatos/marketplaces)",
+      "en": {
+        "unidades": 0,
+        "royalties_usd": 0.0,
+        "por_livro": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "es": {
+        "unidades": 0,
+        "royalties_usd": 0.0,
+        "obs": "nenhum livro em espanhol publicado"
+      },
+      "acumulado": {
+        "unidades": 0,
+        "royalties_usd": 0.0
+      },
+      "obs": "Royalties = 0 porque 0 unidades processadas no período."
+    }
+  ]
 }
