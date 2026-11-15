@@ -35,3 +35,4 @@ Preço na imagem só se conferido na página do produto no dia. Se o preço muda
 
 ## Peças feitas
 - 15/11/2026 - iPhone 17e 256 GB, R$ 4.299 no Pix: `anuncio/iphone17e-1080x1350.jpg` e `anuncio/iphone17e-1080x1080.jpg`.
+- 15/11/2026 - Marmita elétrica bivolt, R$ 49,99 à vista: `anuncio/marmita-1080x1350.jpg`, `anuncio/marmita-1080x1080.jpg` e `docs/an/marmita.jpg`.

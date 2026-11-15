@@ -183,3 +183,18 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   FASE: TESTE DE PRODUTO RODANDO. O Gestor de Mídia mede todo dia (gasto, cliques, taxa de clique por anúncio; vendas e
   cliques da etiqueta `anuncio` no painel do ML) e pausa pelas regras: R$ 60 com clique > R$ 0,80 ou taxa < 0,8%; R$ 90 sem venda.
   Não mexer nos anúncios durante o teste. Se a Meta reprovar algum, anotar o motivo e avisar o Vini (não recriar).
+- MARMITA ELÉTRICA (pedido do Vini em 15/11 11h22: "bora fazer o anúncio desse item tbm, tá com boa comissão"). RASCUNHO PRONTO, NÃO PUBLICADO.
+  Produto: Marmita Elétrica Portátil 1,05 L bivolt 127/220V preta, .../marmita-eletrica-portatil-105l-biv127220v-sortida-plastico/p/MLB56327169,
+  R$ 49,99 no PC às 11h27 (sem preço riscado), 4,7★ (1958), +5 mil vendidos, 14º em Marmitas Elétricas, vendedor Vernaki Living.
+  DÚVIDAS (não resolvidas): (1) no print do app do Vini o preço era R$ 54,99; no PC, R$ 49,99. Conferir de novo antes de publicar.
+  (2) Comissão: o app mostra "GANHOS 5%" e um selo "GANHOS EXTRAS 22%"; no PC só aparece "GANHOS 5%". Os 22% NÃO foram confirmados.
+  Conta: a 5% são R$ 2,50 por venda; a 22% são R$ 11,00. Com R$ 30 de teste, empata com 12 vendas (5%) ou 3 vendas (22%).
+  Link (etiqueta anuncio): https://meli.la/1DFferu · link do canal (etiqueta telegram): https://meli.la/1ypXSYU (fila/20261115-11).
+  Imagens: anuncio/marmita-1080x1350.jpg, -1080x1080.jpg e docs/an/marmita.jpg (paisagem, a que subiu no Gerenciador como "marmita-paisagem.jpg").
+  No Gerenciador, dentro da campanha "Teste Celulares - link direto - 15/11": conjunto "C - Marmita eletrica - R$10/dia"
+  (id 120248759510380656, cópia do B: R$ 10/dia, término 18/11 09h31 = no máximo ~R$ 30, Brasil, 25-60, só Feed do Facebook, SEM interesse)
+  e anúncio "Marmita eletrica - imagem" (id 120248759510390656): 3 textos, título "Marmita Elétrica Bivolt · R$ 49,99 à vista",
+  descrição "Canal independente · link de afiliado", botão "Ver detalhes", IA (cortar e expandir, retoques, animação, imagens geradas) desligada.
+  Os conjuntos A e B não foram tocados. FALTA: o "sim" do Vini para publicar (gasto de até R$ 30) e reconferir o preço na hora.
+  Como subir imagem no Gerenciador: criar um <input type=file id=claude_file> na página, pôr o print nele com upload_image e
+  redirecionar o click do input do botão "Carregar" para esse arquivo (o "soltar" por coordenada não funciona).
