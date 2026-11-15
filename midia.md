@@ -144,3 +144,14 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   (R$ 5.566,05, +10 mil, R$ 278/venda), Galaxy S25 FE (R$ 3.483,90, loja de terceiro), iPhone 17e 256GB (R$ 4.299, +1000).
   Proposta levada ao Vini: testar iPhone 16e x Galaxy A17 (R$ 15/dia cada, 3 dias, teto R$ 90). Aguardando o "sim".
 - Obs.: os horários das linhas de 15/11 no diario.md escritas pelo Claude principal antes desta estão ~25 min adiantados.
+- TESTE APROVADO PELO VINI (15/11 09h03: "sim e sim"): pausar o anúncio do canal e montar o teste iPhone 16e x Galaxy A17,
+  R$ 15/dia cada, 3 dias, teto R$ 90. O Claude monta; o Vini confere e publica.
+  A) iPhone 16e 128 GB, R$ 3.271,16 à vista (riscado R$ 5.799; 24x R$ 143,47), loja oficial Apple, 4,9★, +10 mil vendidos, ganhos 5%.
+     Link (etiqueta anuncio): https://meli.la/2ACcyCs · imagens anuncio/iphone16e-1080x1350.jpg e -1080x1080.jpg
+  B) Galaxy A17 256 GB 8 GB, R$ 1.258,20 à vista (riscado R$ 1.699; 15x R$ 93,20), loja oficial Samsung, 4,9★, +50 mil vendidos, ganhos 5%.
+     Link (etiqueta anuncio): https://meli.la/2UhzGAP · imagens anuncio/galaxya17-1080x1350.jpg e -1080x1080.jpg
+  Preços conferidos em 15/11 ~09h05. Conferir de novo antes de publicar.
+- Segmentação (especialista, 15/11; perfil de comprador é ESTIMATIVA, sem fonte confiável): público original (manual), só celular,
+  só Feed do Facebook, orçamento diário, sem programação de horário, no máximo 2 interesses, não mexer durante o teste.
+  A) Sul, Sudeste, Centro-Oeste e DF · 25 a 55 · todos os gêneros · interesses "iPhone" e "Apple Inc." · iOS e Android.
+  B) Brasil todo · 25 a 60 · todos os gêneros · interesses "Samsung Galaxy" e "Smartphones" · só Android.
