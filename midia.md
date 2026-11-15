@@ -83,6 +83,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - 14/11 20h45 | 3 | R$ 10,78 | 0 | sem inscrito | Vini achou o endereço da página suspeito: destino voltou para
   https://t.me/Blackachados (só Feeds continua). Meta reanalisando. A medição do período "só Feeds" começa aqui.
 
+- 15/11 08h40 | 3 | +R$ 8,34 no dia (conta) | 0 | sem inscrito | Só Feeds funcionando: 32 cliques a R$ 0,26 (taxa de clique ~1,6%, normal), 1.967 impressões, quase tudo no Feed do Facebook; t.me segue com 2 inscritos. Cliques reais e ninguém entra: o gargalo é a ida do clique até o Telegram.
+
 ## Parecer do especialista em tráfego pago (14/11 20h50, pedido do Vini) – vale para o Gestor
 - Causa do 0 inscrito: toque sem querer no Reels (98 de 109 cliques) + meta "cliques no link" (busca quem clica,
   não quem entra) + página t.me em inglês. Contagem conferida no t.me às 20h30: 2 inscritos.
