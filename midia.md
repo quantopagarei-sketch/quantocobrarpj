@@ -215,3 +215,11 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - PUBLICADO em 15/11 14h40 (Vini: "Sim"). O Gestor de Mídia mede todo dia e põe no balanco.md. Não aumentar verba nem estender a data sem o Vini.
 - Medir: seguidores da página (facebook.com/blackachadinhos.ofertas) e gasto. Parar se, depois de R$ 20, o seguidor custar mais de R$ 1,50.
 - Truque de subir imagem que funcionou hoje: além do <input id=claude_file>, o "change" precisa ser disparado ~300 ms DEPOIS do click redirecionado.
+- MEDIÇÃO 15/11 19h55 (plantão do Claude principal; dia 1 do teste, ~10 h no ar): os dois anúncios ATIVOS (aprovados).
+  iPhone 16e: gasto R$ 7,21 · 2.066 impressões · 40 cliques no link · taxa 1,94% · R$ 0,18 por clique.
+  Galaxy A17: gasto R$ 7,96 · 1.879 impressões · 53 cliques no link · taxa 2,82% · R$ 0,15 por clique.
+  Total do teste: R$ 15,17 de R$ 90. Painel ML (até 18h30), etiqueta `anuncio`: 137 cliques, 0 venda, R$ 0 (inclui 2 cliques meus de conferência).
+  Regras de parada NÃO batidas (clique < R$ 0,80, taxa > 0,8%, gasto < R$ 60). Nada pausado nem editado.
+  Links conferidos às 11h25: meli.la/2UhzGAP e meli.la/2ACcyCs caem no perfil social viniciusmarrone (etiqueta anuncio), produto em destaque
+  com botão "Ir para produto" (1 clique a mais até o produto: suspeito nº 1 se houver muito clique e pouca venda).
+  Seguidores da Página (mesma leitura): R$ 5,21 · 9 visitas · R$ 0,58 por visita. Campanha do canal: pausada (R$ 9,23 hoje, antes da pausa das 09h31).
