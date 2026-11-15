@@ -155,3 +155,6 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   só Feed do Facebook, orçamento diário, sem programação de horário, no máximo 2 interesses, não mexer durante o teste.
   A) Sul, Sudeste, Centro-Oeste e DF · 25 a 55 · todos os gêneros · interesses "iPhone" e "Apple Inc." · iOS e Android.
   B) Brasil todo · 25 a 60 · todos os gêneros · interesses "Samsung Galaxy" e "Smartphones" · só Android.
+
+- BALANÇO (pedido do Vini em 15/11): em toda execução, ler o gasto no Gerenciador e as vendas da etiqueta `anuncio` no painel do ML e
+  acrescentar uma linha em `balanco.md` (e atualizar o Resumo). Depositado até agora: R$ 228 (Pix, 14/11). Não medido = "não medido".
