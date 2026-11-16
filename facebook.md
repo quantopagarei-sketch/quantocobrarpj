@@ -72,7 +72,27 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
    administrador de grupo: pare os comentários por 3 dias e saia daquele grupo; anote em "Avisos" com a data.
    Dois avisos = parar os grupos e deixar para o Diretor falar com o Vini.
 
+## LIMITE DE LINKS DA META (descoberto em 16/11 20h50; não é aviso de spam, é regra nova do Facebook)
+Ao publicar o 2º post de 16/11 o Facebook mostrou: "Você usou todos os seus 8 links este mês em reels, posts e
+comentários. Com o Meta One, você pode adicionar mais links a cada mês [...] Os links para afiliados aceitos [...]
+continuam sem limites." (botão "Assinar o Meta One" = pago: NÃO clicar; feche no X).
+O que foi testado na hora: o post com meli.la + t.me foi BARRADO; o mesmo post só com o link meli.la PASSOU.
+Ou seja: link de afiliado do Mercado Livre (meli.la) não conta; link comum (t.me/Blackachados) conta, e a cota de
+novembro acabou (cada post antigo gastava 1 link só com o t.me).
+ATÉ 30/11 (a cota deve voltar em 1/12; conferir): NÃO escreva t.me/... em post, story, comentário ou resposta.
+Cite o canal sem link: 'procure por Blackachados no Telegram' ou 'toque em "Saiba mais" na nossa página'
+(o botão e o post fixado já levam ao canal). Não escreva com @ (abre marcação de pessoas).
+DE 1/12 EM DIANTE: guardar os 8 links do mês para o que mais importa (ex.: 2 posts de convite ao canal por semana);
+nos posts de oferta, só o link meli.la. Assinar o Meta One é gasto: só o Vini decide (Diretor pergunta).
+
 ## Como postar bem (revisão de especialista, 13/11)
+- FOTO GRANDE (16/11): use a foto em alta, trocando no endereço da `imagem` "D_NQ_NP_" por "D_NQ_NP_2X_" e o final
+  "-O.jpg" por "-F.jpg". Depois de anexar o print, clique em "Editar" na foto > "Cortar", arraste os cantos do
+  recorte até as bordas da foto do produto (tira as faixas pretas), clique em "Concluir" (✓ à direita) e na seta
+  de voltar. O post fica com a foto ocupando a largura toda.
+- AVISO NA 2ª LINHA (16/11): na lista de posts da página o Facebook só mostra ~170 caracteres antes do "Ver mais".
+  Para cumprir o juridico.md (aviso visível sem "ver mais"): 1ª linha = produto + preço (até ~90 caracteres);
+  2ª linha = "Publicidade · link de afiliado: <link>"; detalhes da 3ª linha em diante.
 - FOTO vale mais que prévia de link. Carregue também a ferramenta mcp__claude-in-chrome__upload_image
   (ToolSearch). Abra a `imagem` da oferta numa aba sua, tire um print (mouse num canto) e anexe com
   upload_image no campo de arquivo do "No que você está pensando?". Se falhar 2 vezes, poste só com o link.
@@ -117,8 +137,9 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 15/11 14h50 | página | Lixeira automática 16 L (20261115-04), R$ 59,05, link https://meli.la/28WfAaA | publicado com foto pelo Claude principal. Cota do dia: falta 1 post e os stories.
 - 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
 - 15/11 ~20h35 | página | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, com foto | publicado pelo Divulgador Facebook (visto na página em 16/11 07h25; ele não conseguiu gravar: push 403). Grupos e comentários: não conferidos.
-- 16/11 20h44 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h39. Nesta execução o push FUNCIONA (sem 403).
-  Obs.: a linha "Publicidade · link de afiliado: <link>" foi para a 2ª linha do post, porque na lista de posts da página o Facebook só mostra ~170 caracteres antes do "Ver mais" (regra 1 do juridico.md: aviso visível sem "ver mais").
+- 16/11 20h40 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h35. Nesta execução o push FUNCIONA (sem 403).
+- 16/11 | página | Boneca reborn Adora (20261116-13, campeã) | NÃO postada: às 20h43 a página do produto mostrava R$ 134 (de R$ 359,80), diferente do arquivo (R$ 135, de R$ 239). Trocada pela próxima de potencial 5.
+- 16/11 20h55 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h45. SEM o link t.me (ver "Limite de links da Meta").
 
 ## Avisos do Facebook
 (nenhum)
