@@ -232,3 +232,10 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Link de destino dentro do anúncio NÃO reaberto na Meta; prova indireta: só os links do teste usam a etiqueta `anuncio` e ela recebeu 437 cliques.
   Seguidores da Página: R$ 15,06 · 520 impressões · 12 visitas · R$ 1,25 por visita · página segue com 2 seguidores (0 novo). Regra (parar após R$ 20
   se seguidor > R$ 1,50) ainda não vale: gasto < R$ 20; deve valer em 17/11 por volta do meio-dia.
+- LINK DIRETO (pedido do Vini em 16/11 20h28): as duas ferramentas oficiais (linkbuilder e botão Compartilhar da página do produto) geram o MESMO
+  meli.la, que cai no perfil social; o botão "Ir para produto" do perfil leva parâmetros de sessão (matt_event_ts, matt_d2id, matt_tracing_id).
+  Montados à mão, no formato antigo (NÃO oficiais; rastreio não confirmado; os termos falam em link gerado pela ferramenta):
+  iPhone 16e: https://www.mercadolivre.com.br/iphone-16e-128-gb-preto-distribuidor-autorizado/p/MLB1046215784?matt_word=anuncio&matt_tool=58037177
+  Galaxy A17: https://www.mercadolivre.com.br/celular-samsung-galaxy-a17-com-ia-256gb-8gb-ram-cam-de-50mp-tela-de-67-nfc-ip54-azul/p/MLB54982411?matt_word=anuncio&matt_tool=58037177
+  TESTE DE RASTREIO: às 20h31 abri 1 vez o link do Galaxy com matt_word=twitter (etiqueta zerada em 15 e 16/11). Se a etiqueta `twitter` mostrar
+  1 clique no painel em 17/11, o link direto conta clique (venda ainda não provada). NÃO trocar o link dos anúncios antes disso e sem o sim do Vini.
