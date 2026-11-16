@@ -109,6 +109,7 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 15/11 14h45 | página | Lava-roupas Tixan Ypê 7 L (20261115-03), R$ 56,04, link https://meli.la/24xLiY7 | publicado com foto pelo Claude principal.
 - 15/11 14h50 | página | Lixeira automática 16 L (20261115-04), R$ 59,05, link https://meli.la/28WfAaA | publicado com foto pelo Claude principal. Cota do dia: falta 1 post e os stories.
 - 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
+- 15/11 ~20h35 | página | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, com foto | publicado pelo Divulgador Facebook (visto na página em 16/11 07h25; ele não conseguiu gravar: push 403). Grupos e comentários: não conferidos.
 
 ## Avisos do Facebook
 (nenhum)

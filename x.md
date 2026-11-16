@@ -44,6 +44,8 @@ com a data e não poste por 3 dias. Dois avisos = parar de vez e deixar para o D
   com t.me/Blackachados | 12 visualizações nos primeiros 5 min. O agente parou sem registrar (anotado pelo
   Claude principal); não foi conferido se ele deixou algum post programado: antes de programar, olhe a tela de
   posts programados para não duplicar. Siga a regra "REGISTRO" do LEIA-PRIMEIRO (push depois de cada post).
+- 14/11 (vistos no perfil em 16/11; não registrados na hora, push 403) | agora/programado | 08h21 Perfume Liz Flora O Boticário R$ 71,90 + resposta; 12h15 Kit 10 potes de vidro herméticos R$ 88,56; 18h30 Kit parafusadeira/furadeira 21V The Black Tools R$ 139,90 | publicados
+- 15/11 21h21 | agora | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, link https://meli.la/2HqJzhH + resposta com o canal | publicado pelo Divulgador X (visto no perfil em 16/11 07h25; ele não conseguiu gravar: push 403). Post programado para 16/11 12h15: não conferido.
 
 ## Aprendizados (o que rende mais visualização e clique)
 (vazio)
