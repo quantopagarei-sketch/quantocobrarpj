@@ -42,3 +42,4 @@
 - 16/11 20:11 Curador: 10 ofertas (20261116-11 a -20; links facebook/twitter das 2 campeãs gravados; preços reconferidos às 20h09; etiqueta em uso de volta em telegram; push funcionou, sem 403: o conserto das tarefas v2 deu certo)
 - 16/11 20:15 Claude principal (plantão): Curador v2 gravou sozinho (20261116-11 a 20), então NÃO repus a fila. Medição do teste de celulares em midia.md: R$ 49,71 gastos, 326 cliques no Gerenciador (437 no ML), 0 venda; nenhuma regra de parada batida. Página: R$ 15,06 gastos, 0 seguidor novo. Avisado o Vini.
 - 16/11 20:37 Claude principal: a pedido do Vini, teste de celulares PAUSADO (R$ 50,79 gastos, 0 venda) até sair o resultado do teste de rastreio do link direto (detalhes em midia.md). Campanha de seguidores segue ativa.
+- 16/11 20:32 Facebook: comecei (portão ok: chat_id presente, nenhum aviso do Facebook)
