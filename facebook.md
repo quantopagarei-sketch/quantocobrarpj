@@ -140,7 +140,13 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 16/11 20h40 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h35. Nesta execução o push FUNCIONA (sem 403).
 - 16/11 | página | Boneca reborn Adora (20261116-13, campeã) | NÃO postada: às 20h42 a página do produto mostrava R$ 134 (de R$ 359,80), diferente do arquivo (R$ 135, de R$ 239). Trocada pela próxima de potencial 5.
 - 16/11 20h47 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h43. SEM o link t.me (ver "Limite de links da Meta").
-- 16/11 20h54 | página | Cama elástica pula-pula JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; sem link_facebook) | publicado com foto recortada; preço conferido às 20h49. Sem link t.me. Cota do dia na página (3 posts) cumprida.
+- 16/11 20h50 | página | Cama elástica pula-pula JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; sem link_facebook) | publicado com foto recortada; preço conferido às 20h48. Sem link t.me. Cota do dia na página (3 posts) cumprida.
+- 16/11 20h56 | grupo Achadinhos e Promoções | Ofertas Imperdíveis | Tênis Puma (20261116-12), link https://meli.la/1B7eJJG, com pergunta sobre a numeração | REMOVIDO em segundos (ver Avisos). Grupos parados até 19/11.
 
 ## Avisos do Facebook
-(nenhum)
+- 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
+  afiliado"), feito pela página no grupo "Achadinhos e Promoções | Ofertas Imperdíveis", sumiu em segundos. Aparece em
+  "Seu conteúdo > Removidos" do grupo, sem motivo e sem notificação (parece filtro automático do grupo ou do Facebook; o
+  feed do grupo é só de links da Shopee). Feito o que o manual manda: grupos PARADOS na hora (nada de 2º post, comentário
+  ou pedido de entrada em 16/11) e saída desse grupo. Grupos só voltam em 19/11 depois das 20h56 (3 dias).
+  Se vier um 2º aviso: parar os grupos de vez e o Diretor fala com o Vini.
