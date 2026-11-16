@@ -40,3 +40,4 @@
 - 16/11 19:48 Curador: comecei (fila com 3 pendentes que vencem hoje às 21h58; vou repor)
 - 16/11 20:06 Curador: 10 ofertas gravadas na fila (20261116-11 a -20), links com a etiqueta telegram; faltam os links facebook/twitter das 2 campeãs
 - 16/11 20:11 Curador: 10 ofertas (20261116-11 a -20; links facebook/twitter das 2 campeãs gravados; preços reconferidos às 20h09; etiqueta em uso de volta em telegram; push funcionou, sem 403: o conserto das tarefas v2 deu certo)
+- 16/11 20:15 Claude principal (plantão): Curador v2 gravou sozinho (20261116-11 a 20), então NÃO repus a fila. Medição do teste de celulares em midia.md: R$ 49,71 gastos, 326 cliques no Gerenciador (437 no ML), 0 venda; nenhuma regra de parada batida. Página: R$ 15,06 gastos, 0 seguidor novo. Avisado o Vini.

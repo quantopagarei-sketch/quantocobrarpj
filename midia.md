@@ -223,3 +223,12 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Links conferidos às 11h25: meli.la/2UhzGAP e meli.la/2ACcyCs caem no perfil social viniciusmarrone (etiqueta anuncio), produto em destaque
   com botão "Ir para produto" (1 clique a mais até o produto: suspeito nº 1 se houver muito clique e pouca venda).
   Seguidores da Página (mesma leitura): R$ 5,21 · 9 visitas · R$ 0,58 por visita. Campanha do canal: pausada (R$ 9,23 hoje, antes da pausa das 09h31).
+- MEDIÇÃO 16/11 20h00 (plantão do Claude principal; acumulado 15 e 16/11, ~34 h no ar): os dois anúncios ATIVOS.
+  iPhone 16e: gasto R$ 24,16 · 6.601 impressões · 136 cliques no link · taxa 2,06% · R$ 0,18 por clique.
+  Galaxy A17: gasto R$ 25,55 · 5.842 impressões · 190 cliques no link · taxa 3,25% · R$ 0,13 por clique.
+  Total do teste: R$ 49,71 de R$ 90. Painel ML (15 e 16/11), etiqueta `anuncio`: 437 cliques, 0 venda, R$ 0. Etiqueta telegram: 4 cliques, 0 venda.
+  Regras de parada NÃO batidas (gasto < R$ 60; clique < R$ 0,80; taxa > 0,8%). Nada pausado nem editado. O teto de R$ 60 deve ser cruzado na manhã de 17/11.
+  ALERTA: 437 cliques sem nenhuma venda. Suspeito nº 1: o link cai no perfil social (1 clique a mais até o produto). Decisão do Vini.
+  Link de destino dentro do anúncio NÃO reaberto na Meta; prova indireta: só os links do teste usam a etiqueta `anuncio` e ela recebeu 437 cliques.
+  Seguidores da Página: R$ 15,06 · 520 impressões · 12 visitas · R$ 1,25 por visita · página segue com 2 seguidores (0 novo). Regra (parar após R$ 20
+  se seguidor > R$ 1,50) ainda não vale: gasto < R$ 20; deve valer em 17/11 por volta do meio-dia.
