@@ -72,7 +72,7 @@ superior direito e troque para a página (botão "Trocar agora" na página, ou m
    administrador de grupo: pare os comentários por 3 dias e saia daquele grupo; anote em "Avisos" com a data.
    Dois avisos = parar os grupos e deixar para o Diretor falar com o Vini.
 
-## LIMITE DE LINKS DA META (descoberto em 16/11 20h50; não é aviso de spam, é regra nova do Facebook)
+## LIMITE DE LINKS DA META (descoberto em 16/11 20h46; não é aviso de spam, é regra nova do Facebook)
 Ao publicar o 2º post de 16/11 o Facebook mostrou: "Você usou todos os seus 8 links este mês em reels, posts e
 comentários. Com o Meta One, você pode adicionar mais links a cada mês [...] Os links para afiliados aceitos [...]
 continuam sem limites." (botão "Assinar o Meta One" = pago: NÃO clicar; feche no X).
@@ -138,8 +138,9 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
 - 15/11 ~20h35 | página | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, com foto | publicado pelo Divulgador Facebook (visto na página em 16/11 07h25; ele não conseguiu gravar: push 403). Grupos e comentários: não conferidos.
 - 16/11 20h40 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h35. Nesta execução o push FUNCIONA (sem 403).
-- 16/11 | página | Boneca reborn Adora (20261116-13, campeã) | NÃO postada: às 20h43 a página do produto mostrava R$ 134 (de R$ 359,80), diferente do arquivo (R$ 135, de R$ 239). Trocada pela próxima de potencial 5.
-- 16/11 20h55 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h45. SEM o link t.me (ver "Limite de links da Meta").
+- 16/11 | página | Boneca reborn Adora (20261116-13, campeã) | NÃO postada: às 20h42 a página do produto mostrava R$ 134 (de R$ 359,80), diferente do arquivo (R$ 135, de R$ 239). Trocada pela próxima de potencial 5.
+- 16/11 20h47 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h43. SEM o link t.me (ver "Limite de links da Meta").
+- 16/11 20h54 | página | Cama elástica pula-pula JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; sem link_facebook) | publicado com foto recortada; preço conferido às 20h49. Sem link t.me. Cota do dia na página (3 posts) cumprida.
 
 ## Avisos do Facebook
 (nenhum)
