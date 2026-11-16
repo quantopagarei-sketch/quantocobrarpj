@@ -28,13 +28,13 @@ Formato: consulta principal e variações | intenção | sazonalidade | concorr�
 - Intenção: ver numa tabela quanto "desconta" de um Pix em 2027 e se é verdade que o Pix será taxado. Sazonalidade: alta agora (boato voltou em 10/11), pico em jan/2027 (início da CBS e do split opcional) e sempre que o boato volta.
 - Concorrência: para "tabela pix 2027" o Google mostra relatórios do BCB (PDF), Meutudo ("Pix pode ser taxado em 2027?"), O Povo Trends, Jornal Contábil, Olhar Digital — nenhum tem tabela; nós já estamos na posição 5 com páginas que não têm a palavra "tabela".
 - Página NOVA /split-payment/tabela-pix-2027/ — título "Tabela do Pix 2027: quanto fica retido em cada valor" (52). Precisa: resposta direta no topo (Pix não tem imposto; o split payment só vale entre empresas, opcional em 2027, e só retém CBS/IBS já devidos; cartão e pessoa física fora); tabela R$ 100 a R$ 50.000 × regime (MEI = R$ 0; Simples tradicional = R$ 0 na 1ª fase; híbrido/normal = valor da calculadora) com link de cada linha para a página pix-NNNN quando existir; bloco "o que a Receita realmente vê" (e-Financeira: bancos e fintechs informam totais mensais, não Pix um a um — limite de R$ 5 mil para pessoa física citado pela IN RFB 2.278/2025 segundo o Meutudo de 10/11; CONFERIR a norma vigente e o limite de PJ antes de publicar, a regra mudou várias vezes em 2025–26); FAQ com as 4 perguntas da seção C; links de/para /split-payment/, /como-calcular/ e as 6 pix. Não é "página de boato": é a tabela que a consulta pede, com a verdade no topo (decisão de 08/11 sobre "taxação do pix" mantida: sem página de boato avulsa).
-- Status: novo
+- Status: publicada em 16/11 (SEO). e-Financeira: limites citados de forma neutra ("acima de limites da norma"), sem cravar R$ 5 mil (fontes divergem: IN 2.278/2025 manteve R$ 2 mil PF / R$ 6 mil PJ segundo Guia Tributário; notícias de 2026 falam em R$ 5 mil).
 
 **B2. split payment cartão de crédito / boleto** — variações: "split payment cartão", "split payment maquininha", "split payment boleto", "split payment boleto começa quando", "split payment pix boleto ted", "split de pagamento é a mesma coisa que split payment"
 - Intenção: comerciante/prestador querendo saber se a maquininha ou o boleto vai reter. Sazonalidade: jan/2027; julho/2027 (boleto entra no piloto); quando a Receita publicar regra dos cartões.
 - Concorrência: para "split payment cartão" o Google mistura Stone/Cielo ("split de pagamento" de marketplace — outro assunto) com LetsMoney, Guardar Dinheiro, Finsiders, Tactus, Jornal Contábil, Investnews — SERP confusa, ninguém separa os dois significados nem dá exemplo em reais.
 - Páginas NOVAS /split-payment/cartao/ — "Split payment no cartão de crédito: como funciona" (49) — e /split-payment/boleto/ — "Split payment no boleto: o que muda para quem cobra" (51). Precisam: resposta direta com o cronograma da Fin (cartão fora de 2027; boleto só a partir de julho/2027 no piloto e outubro para todos — "previsão das instituições financeiras"); caixa "não confunda: split de pagamento da maquininha (divisão entre lojista e marketplace) ≠ split payment da reforma"; exemplo em reais de uma venda de R$ 1.000 em cada meio (com e sem antecipação); tabela por meio de pagamento; links para /pix-1000/, /quando-comeca/ e a calculadora; FAQ.
-- Status: novo (próximo do SEO segundo o diário de 13/11)
+- Status: novo (próximo do SEO: qua 18/11)
 
 **B3. das mei 2027 valor** — variações: "quanto o mei vai pagar em 2027", "das do mei vai aumentar em 2027", "valor do das mei 2027", "boleto do mei 2027", "mei 2027 quanto paga por mês", "das mei 2027 com cbs"
 - Intenção: MEI quer o número do boleto. Sazonalidade: dez/2026 (decreto do salário mínimo) até fev/2027 (1º DAS de 2027); repete todo janeiro.
@@ -64,7 +64,7 @@ Formato: consulta principal e variações | intenção | sazonalidade | concorr�
 - Intenção: PJ querendo saber se tem direito e quanto separar. Sazonalidade: AGORA (até 18/12) e férias em dez–jan.
 - Concorrência: Contabilizei, Contabilidade.com (3 textos), Cora, Genyo, Meutudo, Jornal Contábil, Zen + sites pequenos (Blackpilado, Auditório Ibirapuera) — artigos sem calculadora.
 - Página EXISTENTE /13-salario-pj/ — reforço descrito na seção A (H2 "PJ recebe décimo terceiro?", FAQ de férias, "décimo terceiro" por extenso); cards na home e em /clt-pj/.
-- Status: publicada em 04/11 — reforçar até 20/11 (sazonal)
+- Status: publicada em 04/11 — reforçada em 16/11 (título "PJ recebe décimo terceiro? Quanto guardar por mês (2026)", H2 + resposta curta, FAQ exata "PJ recebe décimo terceiro?" e nova "PJ tem direito a férias?")
 
 **B8. quanto cobrar por hora como mei / desenvolvedor pj** — variações: "como calcular preço por hora mei" (consulta real, pos. 57), "valor da hora desenvolvedor pj", "quanto cobrar hora técnica", "calculadora valor hora freelancer", "converter salário clt em valor hora"
 - Intenção: precificar. Sazonalidade: o ano todo; sobe em jan.
