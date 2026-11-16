@@ -68,3 +68,9 @@ ou houver ideia de CNPJ, o Diretor recomenda ao Vini um contador.
 ## Diário do Jurídico (data | o que mudou | o que foi ajustado)
 - 14/11/2026 | revisão inicial | aviso de publicidade em cada post (bot.py, facebook.md, x.md); WhatsApp só manual.
 - 15/11/2026 | pergunta do Vini: dá para tirar "link de afiliado" do anúncio pago? | Não tirar o aviso: termos do ML 5.1 exigem indicar "publicidade" em conteúdo com link de afiliado. O mínimo é a palavra "Publicidade" (ou #publi); "link de afiliado" é reforço de transparência, não exigência literal. Regra 9 atualizada.
+
+## SHOPEE (liberada pelo Vini em 16/11/2026)
+- Tráfego pago: FAQ oficial (help.shopee.com.br, artigo 170923) permite impulsionar em Instagram, TikTok, Facebook, Pinterest e YouTube, a partir da rede
+  social cadastrada no programa; proíbe busca/shopping (Google Ads, Bing Ads). Os Termos e Condições completos ainda NÃO foram lidos.
+- Em 16/11 a rede cadastrada era um TikTok ("labobarp"), não a página do Facebook: não anunciar pela página antes de cadastrá-la.
+- Link só o gerado no painel affiliate.shopee.com.br. Não clicar nem comprar pelos próprios links.

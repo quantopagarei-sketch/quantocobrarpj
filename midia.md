@@ -245,3 +245,21 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   mesmo navegador logado do Vini (o ML pode contar como 1 só). LER EM 17/11: painel ML > Etiquetas de rastreamento, dia 16/11, etiqueta `twitter`
   (em 15 e 16/11 até 20h estava em 0; o Divulgador X posta com essa etiqueta, alcance mínimo). 1 a 5 cliques = link direto conta clique. 0 = não conta.
   Não religar a campanha nem trocar link sem o sim do Vini.
+
+## ANÚNCIO DE TESTE DA SHOPEE (pedido do Vini em 16/11/2026 20h52; NADA montado nem publicado ainda)
+- Pedido: "pesquisa o item mais vendido da Shopee com boa comissão e vamos criar um anúncio pra testar o link de afiliado". O link da Shopee
+  (s.shopee.com.br) abre DIRETO no produto (testado por ele), diferente do meli.la, que cai no perfil social.
+- Painel: https://affiliate.shopee.com.br (Chrome do PC logado). Lista "Oferta de produto" > aba "Melhor performance", lida em 16/11 21h05.
+- PRODUTO ESCOLHIDO: "40 Peças / 46 Peças Jogo De Chave Catraca Caixa De Ferramentas" · R$ 28,99 · 4,8 estrelas · 400 mil+ vendas (o mais vendido da lista).
+  Comissão no painel (canal Redes sociais): 16% do vendedor (R$ 4,64) + 3% da Shopee (R$ 0,87) = R$ 5,51 por venda (estimativa do painel).
+  Página normal (para conferir preço, sem clicar no link de afiliado): https://shopee.com.br/product/832036467/22892833180
+  Link de afiliado com Sub_id `anuncio`: https://s.shopee.com.br/8fTzA68kKD
+  Reservas: Mini Power Bank 10000mAh (R$ 31,99, 10 mil+, 28%); Kit de Ferramentas 46 peças MN (R$ 27,90, 2 mil+, 21%); Fone Pop-Up (R$ 42,89, 100 mil+, 14%).
+  Creatinas (até 26%, 200 mil+ vendas) ficaram FORA: suplemento é categoria proibida no projeto.
+- REGRA DA SHOPEE (FAQ oficial, help.shopee.com.br artigo 170923): anúncio pago com link de afiliado é permitido em Instagram, TikTok, Facebook,
+  Pinterest e YouTube, DESDE QUE feito a partir da rede social cadastrada no Programa de Afiliados. Proibido em busca/shopping (Google Ads, Bing Ads).
+- BLOQUEIO 1: a rede cadastrada na conta de afiliado da Shopee (Configurações da Conta > Informação de Mídia) é um perfil do TIKTOK ("labobarp", verificado),
+  NÃO a página do Facebook Black Achadinhos. Anunciar pela página, hoje, fica fora da regra (risco de comissão cancelada). Precisa trocar/incluir a página
+  do Facebook como rede cadastrada: mudança de conta, depende do sim do Vini (e a verificação pode pedir login dele).
+- BLOQUEIO 2: o painel mostra o aviso "complete suas Informações de Pagamento e Fiscais para receber suas comissões". Dados bancários/fiscais: só o Vini digita.
+- Conta: valor mínimo. Com R$ 5,51 por venda e clique a ~R$ 0,15 (referência do teste de celulares), o anúncio empata com 1 venda a cada ~37 cliques (2,7%).

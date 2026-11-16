@@ -150,3 +150,4 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
   feed do grupo é só de links da Shopee). Feito o que o manual manda: grupos PARADOS na hora (nada de 2º post, comentário
   ou pedido de entrada em 16/11) e saída desse grupo. Grupos só voltam em 19/11 depois das 20h56 (3 dias).
   Se vier um 2º aviso: parar os grupos de vez e o Diretor fala com o Vini.
+- 16/11 21h15 (Claude principal, pedido do Vini): BIO da página trocada para "Ofertas do Mercado Livre e da Shopee: garimpamos todo dia e conferimos o preço na hora. Canal no Telegram: t.me/Blackachados. Página independente (não oficial); alguns links são de afiliado." Post fixado de apresentação ainda fala só de Mercado Livre (não mexido: editar gasta nada da cota de links, mas fica para o Divulgador conferir).
