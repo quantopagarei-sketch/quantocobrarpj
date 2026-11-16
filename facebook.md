@@ -95,7 +95,14 @@ Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post, colado ao link, visível sem "ver mais".
 
 ## Grupos (nome | link | membros | regra: pode postar oferta? pode link? | entrou em | posts | comentários | reações/respostas recebidas)
-(vazio)
+(Em 16/11 a página já estava em 7 grupos; os 5 primeiros foram pedidos pelas execuções de 14 e 15/11, que não conseguiram gravar. Regras: conferindo em 16/11.)
+- Mundo dos Achadinhos | Promoções | Descontos | https://www.facebook.com/groups/2293527694373666/ | ? | regra a conferir | ~15/11 | 0 | 0 | -
+- Achadinhos e Promoções | Ofertas Imperdíveis | https://www.facebook.com/groups/1307078443297687/ | ? | regra a conferir | 15/11 | 0 | 0 | -
+- Achadinhos do dia (achadinhos da Shopee e mercado livre) | https://www.facebook.com/groups/1253572316079828/ | ? | regra a conferir | 15/11 | 0 | 0 | -
+- afiliados MercadoLivre | https://www.facebook.com/groups/1796184434636147/ | ? | regra a conferir | ~14/11 | 0 | 0 | -
+- mercado livre promoção excelente produto | https://www.facebook.com/groups/1962689470897388/ | ? | regra a conferir | ~15/11 | 0 | 0 | -
+- Na Biblia Mateus 24 / Daniel 9 | https://www.facebook.com/groups/356028288313922/ | - | grupo religioso antigo (da época Marrone Store): NÃO usar | antigo | 0 | 0 | -
+- CONECTADOS 37 | https://www.facebook.com/groups/413527782540000/ | ? | antigo, tema a conferir | antigo | 0 | 0 | -
 
 ## Feito (data | onde | oferta ou assunto do comentário | resultado)
 - 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
@@ -110,6 +117,8 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 15/11 14h50 | página | Lixeira automática 16 L (20261115-04), R$ 59,05, link https://meli.la/28WfAaA | publicado com foto pelo Claude principal. Cota do dia: falta 1 post e os stories.
 - 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
 - 15/11 ~20h35 | página | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, com foto | publicado pelo Divulgador Facebook (visto na página em 16/11 07h25; ele não conseguiu gravar: push 403). Grupos e comentários: não conferidos.
+- 16/11 20h44 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h39. Nesta execução o push FUNCIONA (sem 403).
+  Obs.: a linha "Publicidade · link de afiliado: <link>" foi para a 2ª linha do post, porque na lista de posts da página o Facebook só mostra ~170 caracteres antes do "Ver mais" (regra 1 do juridico.md: aviso visível sem "ver mais").
 
 ## Avisos do Facebook
 (nenhum)
