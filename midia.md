@@ -239,3 +239,9 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Galaxy A17: https://www.mercadolivre.com.br/celular-samsung-galaxy-a17-com-ia-256gb-8gb-ram-cam-de-50mp-tela-de-67-nfc-ip54-azul/p/MLB54982411?matt_word=anuncio&matt_tool=58037177
   TESTE DE RASTREIO: às 20h31 abri 1 vez o link do Galaxy com matt_word=twitter (etiqueta zerada em 15 e 16/11). Se a etiqueta `twitter` mostrar
   1 clique no painel em 17/11, o link direto conta clique (venda ainda não provada). NÃO trocar o link dos anúncios antes disso e sem o sim do Vini.
+- 16/11 20h35 (pedido do Vini): campanha "Teste Celulares - link direto - 15/11" PAUSADA até sair o resultado do teste de rastreio. Gasto final até a pausa:
+  R$ 50,79 · 331 cliques no link · 12.704 impressões. Campanha de seguidores segue ativa (R$ 15,09).
+  Teste de rastreio reforçado: 5 aberturas do link direto com matt_word=twitter no total (20h31 a 20h37; 3 no Galaxy A17, 2 no iPhone 16e), todas do
+  mesmo navegador logado do Vini (o ML pode contar como 1 só). LER EM 17/11: painel ML > Etiquetas de rastreamento, dia 16/11, etiqueta `twitter`
+  (em 15 e 16/11 até 20h estava em 0; o Divulgador X posta com essa etiqueta, alcance mínimo). 1 a 5 cliques = link direto conta clique. 0 = não conta.
+  Não religar a campanha nem trocar link sem o sim do Vini.
