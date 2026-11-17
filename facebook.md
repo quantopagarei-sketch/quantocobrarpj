@@ -93,6 +93,8 @@ nos posts de oferta, só o link meli.la. Assinar o Meta One é gasto: só o Vini
 - AVISO NA 2ª LINHA (16/11): na lista de posts da página o Facebook só mostra ~170 caracteres antes do "Ver mais".
   Para cumprir o juridico.md (aviso visível sem "ver mais"): 1ª linha = produto + preço (até ~90 caracteres);
   2ª linha = "Publicidade · link de afiliado: <link>"; detalhes da 3ª linha em diante.
+- EM GRUPO o feed mostra só a 1ª linha antes do "Ver mais": comece a 1ª linha com "Publicidade · " (ex.: "Publicidade ·
+  Tênis X por R$ Y") e mantenha a linha do link logo abaixo. Não use o botão "+ Adicionar grupos" do compositor.
 - FOTO vale mais que prévia de link. Carregue também a ferramenta mcp__claude-in-chrome__upload_image
   (ToolSearch). Abra a `imagem` da oferta numa aba sua, tire um print (mouse num canto) e anexe com
   upload_image no campo de arquivo do "No que você está pensando?". Se falhar 2 vezes, poste só com o link.
@@ -113,16 +115,21 @@ Publicidade · link de afiliado: <link de afiliado>
 Mais ofertas conferidas todo dia no nosso canal do Telegram: t.me/Blackachados
 (o preço pode mudar)
 REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post, colado ao link, visível sem "ver mais".
+(Desde 16/11: a linha "Publicidade · link de afiliado: <link>" vai na 2ª linha; até 30/11 troque o "t.me/Blackachados" por
+'procure por Blackachados no Telegram ou toque em "Saiba mais" na página'. Ver LIMITE DE LINKS DA META.)
 
 ## Grupos (nome | link | membros | regra: pode postar oferta? pode link? | entrou em | posts | comentários | reações/respostas recebidas)
-(Em 16/11 a página já estava em 7 grupos; os 5 primeiros foram pedidos pelas execuções de 14 e 15/11, que não conseguiram gravar. Regras: conferindo em 16/11.)
-- Mundo dos Achadinhos | Promoções | Descontos | https://www.facebook.com/groups/2293527694373666/ | ? | regra a conferir | ~15/11 | 0 | 0 | -
-- Achadinhos e Promoções | Ofertas Imperdíveis | https://www.facebook.com/groups/1307078443297687/ | ? | regra a conferir | 15/11 | 0 | 0 | -
-- Achadinhos do dia (achadinhos da Shopee e mercado livre) | https://www.facebook.com/groups/1253572316079828/ | ? | regra a conferir | 15/11 | 0 | 0 | -
-- afiliados MercadoLivre | https://www.facebook.com/groups/1796184434636147/ | ? | regra a conferir | ~14/11 | 0 | 0 | -
-- mercado livre promoção excelente produto | https://www.facebook.com/groups/1962689470897388/ | ? | regra a conferir | ~15/11 | 0 | 0 | -
-- Na Biblia Mateus 24 / Daniel 9 | https://www.facebook.com/groups/356028288313922/ | - | grupo religioso antigo (da época Marrone Store): NÃO usar | antigo | 0 | 0 | -
-- CONECTADOS 37 | https://www.facebook.com/groups/413527782540000/ | ? | antigo, tema a conferir | antigo | 0 | 0 | -
+(Conferido em 16/11. Os 5 primeiros foram pedidos pelas execuções de 13 a 15/11, que não conseguiam gravar. São "murais de
+links": centenas de posts de afiliados por dia e quase nenhuma pergunta, então rendem pouco comentário. Os próximos pedidos
+de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, onde as pessoas perguntam de verdade.)
+- Mundo dos Achadinhos | Promoções | Descontos | https://www.facebook.com/groups/2293527694373666/ | 9,0 mil | público; sem regras escritas; ~416 posts/dia de ofertas com link: oferta e link liberados | 15/11 | 0 | 0 | -
+- Achadinhos e Promoções | Ofertas Imperdíveis | https://www.facebook.com/groups/1307078443297687/ | 16,7 mil | regras só de gentileza, MAS o post da página foi removido em segundos em 16/11 (Aviso 1) | 15/11; a página SAIU em 16/11: não voltar | 1 (removido) | 0 | -
+- Achadinhos do dia (achadinhos da Shopee e mercado livre) | https://www.facebook.com/groups/1253572316079828/ | 16,6 mil | público; sem regras escritas; ~977 posts/dia de ofertas com link: oferta e link liberados | 15/11 | 0 | 0 | -
+- afiliados MercadoLivre | https://www.facebook.com/groups/1796184434636147/ | 18,3 mil | público; "criado para divulgar afiliados do Mercado Livre", capa diz "só aceitamos link oficial"; ~1.240 posts/dia: oferta e link do ML liberados | 13/11 | 1 (13/11 20h37: fone Soundcore P20i) | 0 | 0
+- mercado livre promoção excelente produto | https://www.facebook.com/groups/1962689470897388/ | 31,0 mil | público; "venda de produtos do Mercado Livre"; sem regras escritas; ~1.269 posts/dia: oferta e link liberados | 13/11 | 1 (13/11 20h38: perfume Quasar Blue) | 0 | 0
+- Na Biblia Mateus 24 / Daniel 9 | https://www.facebook.com/groups/356028288313922/ | - | religioso, antigo (época Marrone Store): NÃO usar | antigo | 0 | 0 | -
+- CONECTADOS 37 | https://www.facebook.com/groups/413527782540000/ | 2,8 mil | jogos on-line e "renda extra", proibido para menores (apostas): NÃO usar | antigo | 0 | 0 | -
+(Pedido pendente antigo, de 4 anos atrás: "Grupo de Saboaria e Cosméticos da Império do Banho". Não é deste projeto: ignorar.)
 
 ## Feito (data | onde | oferta ou assunto do comentário | resultado)
 - 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
@@ -137,13 +144,16 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 15/11 14h50 | página | Lixeira automática 16 L (20261115-04), R$ 59,05, link https://meli.la/28WfAaA | publicado com foto pelo Claude principal. Cota do dia: falta 1 post e os stories.
 - 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
 - 15/11 ~20h35 | página | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, com foto | publicado pelo Divulgador Facebook (visto na página em 16/11 07h25; ele não conseguiu gravar: push 403). Grupos e comentários: não conferidos.
-- 16/11 20h40 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h35. Nesta execução o push FUNCIONA (sem 403).
+- 16/11 20h41 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h35. Nesta execução o push FUNCIONA (sem 403).
 - 16/11 | página | Boneca reborn Adora (20261116-13, campeã) | NÃO postada: às 20h42 a página do produto mostrava R$ 134 (de R$ 359,80), diferente do arquivo (R$ 135, de R$ 239). Trocada pela próxima de potencial 5.
-- 16/11 20h47 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h43. SEM o link t.me (ver "Limite de links da Meta").
-- 16/11 20h50 | página | Cama elástica pula-pula JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; sem link_facebook) | publicado com foto recortada; preço conferido às 20h48. Sem link t.me. Cota do dia na página (3 posts) cumprida.
+- 16/11 20h48 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h43. SEM o link t.me (ver "Limite de links da Meta").
+- 16/11 20h51 | página | Cama elástica pula-pula JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; sem link_facebook) | publicado com foto recortada; preço conferido às 20h48. Sem link t.me. Cota do dia na página (3 posts) cumprida.
 - 16/11 20h56 | grupo Achadinhos e Promoções | Ofertas Imperdíveis | Tênis Puma (20261116-12), link https://meli.la/1B7eJJG, com pergunta sobre a numeração | REMOVIDO em segundos (ver Avisos). Grupos parados até 19/11.
-- 16/11 21h03 | grupo Achadinhos e Promoções | Ofertas Imperdíveis | a página SAIU do grupo (regra do item 5, depois do post removido).
-- 16/11 21h08 | story da página | Tênis Puma Flyer Runner, R$ 189,99 no Pix (de R$ 349,99) | publicado com foto e texto ("Publicidade · link de afiliado no post da nossa página · Canal no Telegram: Blackachados"), sem link.
+- 16/11 21h00 | grupo Achadinhos e Promoções | Ofertas Imperdíveis | a página SAIU do grupo (regra do item 5, depois do post removido).
+- 16/11 21h02 | story da página | Tênis Puma Flyer Runner, R$ 189,99 no Pix (de R$ 349,99) | publicado com foto e texto ("Publicidade · link de afiliado no post da nossa página · Canal no Telegram: Blackachados"), sem link.
+- 16/11 21h06 | story da página | Kit parafusadeira 12 V + 169 peças The Black Tools, R$ 227,90 no Pix (de R$ 489,90) | story de TEXTO (fundo preto), porque o story com foto deu "Não foi possível carregar a foto" 2 vezes. Stories do dia: 2 de 2.
+- 16/11 (Claude principal, pedido do Vini; estava em "Avisos" e veio para cá porque NÃO é aviso): BIO da página trocada para "Ofertas do Mercado Livre e da Shopee: garimpamos todo dia e conferimos o preço na hora. Canal no Telegram: t.me/Blackachados. Página independente (não oficial); alguns links são de afiliado." O post fixado de apresentação ainda fala só de Mercado Livre e NÃO foi mexido: o Divulgador é proibido de mexer no post fixado (texto da tarefa e "Como postar bem"); fica para o Claude principal/Diretor.
+- 16/11 | resumo do dia | página: 3 posts + 2 stories. Grupos: 1 post (removido), 0 comentários, 0 pedidos de entrada (parados pelo Aviso 1). Nenhum comentário novo nos posts da página. Página com 2 seguidores.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
@@ -152,4 +162,4 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
   feed do grupo é só de links da Shopee). Feito o que o manual manda: grupos PARADOS na hora (nada de 2º post, comentário
   ou pedido de entrada em 16/11) e saída desse grupo. Grupos só voltam em 19/11 depois das 20h56 (3 dias).
   Se vier um 2º aviso: parar os grupos de vez e o Diretor fala com o Vini.
-- 16/11 21h15 (Claude principal, pedido do Vini): BIO da página trocada para "Ofertas do Mercado Livre e da Shopee: garimpamos todo dia e conferimos o preço na hora. Canal no Telegram: t.me/Blackachados. Página independente (não oficial); alguns links são de afiliado." Post fixado de apresentação ainda fala só de Mercado Livre (não mexido: editar gasta nada da cota de links, mas fica para o Divulgador conferir).
+(Total de avisos até 16/11: 1. Nesta seção só entra aviso do Facebook ou bronca de administrador; o resto vai em "Feito".)
