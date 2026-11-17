@@ -157,7 +157,8 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - 16/11 | resumo do dia | página: 3 posts + 2 stories. Grupos: 1 post (removido), 0 comentários, 0 pedidos de entrada (parados pelo Aviso 1). Nenhum comentário novo nos posts da página. Página com 2 seguidores.
 - 17/11 20h35 | página | Camiseta Insider Tech Light masculina preta (20261117-02, campeã), R$ 56,70 (de R$ 189), link https://meli.la/2TBpk7W (etiqueta facebook) | publicado com foto recortada; preço conferido na página do produto às 20h33. Sem link t.me.
 - 17/11 20h38 | página | Árvore de Natal pinheiro canadense LuvinCo 1,80 m, 800 galhos (20261117-03, campeã), R$ 217,70 (de R$ 374,88), link https://meli.la/1gfwiGb (etiqueta facebook) | publicado com foto recortada; preço conferido na página do produto às 20h36. Sem link t.me.
-- 17/11 20h42 | página | Creme hidratante corporal Cetaphil 453 g (20261117-04), R$ 79,90 (de R$ 134,90), link https://meli.la/175eFSE (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada; preço conferido na página do produto às 20h39. Sem link t.me. Cota do dia na página (3 posts) cumprida.
+- 17/11 20h41 | página | Creme hidratante corporal Cetaphil 453 g (20261117-04), R$ 79,90 (de R$ 134,90), link https://meli.la/175eFSE (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada; preço conferido na página do produto às 20h39. Sem link t.me. Cota do dia na página (3 posts) cumprida.
+- 17/11 20h45 | story da página | Camiseta Insider Tech Light, R$ 56,70 (de R$ 189) | publicado com foto (zoom na barra para a foto encher a tela) e texto por cima ("Publicidade · link de afiliado no post da nossa página · Canal no Telegram: Blackachados"), sem link.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
