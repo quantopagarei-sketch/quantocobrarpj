@@ -263,3 +263,10 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   do Facebook como rede cadastrada: mudança de conta, depende do sim do Vini (e a verificação pode pedir login dele).
 - BLOQUEIO 2: o painel mostra o aviso "complete suas Informações de Pagamento e Fiscais para receber suas comissões". Dados bancários/fiscais: só o Vini digita.
 - Conta: valor mínimo. Com R$ 5,51 por venda e clique a ~R$ 0,15 (referência do teste de celulares), o anúncio empata com 1 venda a cada ~37 cliques (2,7%).
+- 16/11 21h20 VÍNCULO DO FACEBOOK NA SHOPEE (Vini: "faça você tudo isso"): NÃO concluído, nada salvo, nada autorizado.
+  Truque que funcionou para alcançar a janela: antes de clicar em "+ Adicionar", rodar na página `const o=window.open;window.open=u=>o.call(window,u,'_blank')`
+  (a janela vira aba dentro do grupo do Claude). O Facebook então exige trocar da página para o PERFIL PESSOAL e pede login do app "Shopee BR" com as permissões:
+  pages_show_list, pages_read_engagement, pages_read_user_content E TAMBÉM user_friends, user_posts, user_videos, user_location, user_link (dados do perfil pessoal).
+  Parei aí e cancelei: é mais do que "autorizar a página", envolve o perfil pessoal (que o Vini quer fora do projeto). Só com o sim dele sabendo disso.
+  A opção "Other" (colar URL) RECUSA endereço do Facebook ("Por favor, verifique sua conta").
+  O Facebook ficou no perfil pessoal por ~1 min e foi devolvido para "agir como a página" (conferido às 21h21).
