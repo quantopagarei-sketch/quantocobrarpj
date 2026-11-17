@@ -68,3 +68,4 @@
 - 17/11 19:49 Curador: comecei (fila com 3 pendentes que vencem hoje às 22h10; vou repor)
 - 17/11 19:57 Claude principal (checagem agendada): só medição, nada alterado. Impulso R$ 11,94 · 46 cliques · 0 venda; celulares fechados em R$ 51,61 · 0 venda; seguidores fechado em R$ 18,64 · 0 seguidor novo. Total em anúncios desde 15/11 (com o canal): ~R$ 91; vendas: 0. Detalhes em midia.md.
 - 17/11 20:11 Curador: 10 ofertas gravadas na fila (20261117-01 a -10), links com a etiqueta telegram; faltam os links facebook/twitter das 2 campeãs
+- 17/11 20:13 Curador: 10 ofertas (20261117-01 a -10; links facebook/twitter das 2 campeãs gravados; preços reconferidos às 20h09-20h10; etiqueta em uso de volta em telegram; aba do Chrome fechada; push sem 403). Detalhes e achado do selo Meli+ em curador.md.
