@@ -310,3 +310,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Espelho redondo 60cm: R$69,91 · 4,8 · +100mil · GANHOS EXTRAS 33% (ok). Link base: https://produto.mercadolivre.com.br/MLB-1684184338-espelho-para-banheiro-decorativo-redondo-60cm-com-suporte-_JM
 - Balança bioimpedância 180kg: R$32,90 · 4,8 · +100mil · GANHOS EXTRAS 17% (ok). Link base: https://www.mercadolivre.com.br/balanca-digital-bioimpedancia-profissional-smart-imc-180kg-bluetooth-corporal-aparelho-alta-capacidade-aplicativo-app-para-android-e-para-ios-balanca-de-banheiro-academia/p/MLB54514525
 - Falta: ler etiqueta testedireto (10h) para decidir formato do link (direto com ?matt_word=impulso&matt_tool=58037177 ou meli.la). Anúncios NÃO publicados ainda. Regra: R$10/dia cada, 3 dias, teto R$60, parar um se passar de R$20 sem venda.
+
+## Orçamento de impulso aprovado pelo Vini (17/11/2026 02h17)
+- Teto total R$200, liberado em blocos. Rodada 1: espelho + balança, até R$60 (R$10/dia cada, 3 dias; parar um se passar de R$20 sem venda).
+- Rodada 2 (até R$140): só se a rodada 1 mostrar sinal (venda ou custo por clique baixo). Candidatos: tênis Kappa (20%), kit 10 cuecas (25%), tatame (20%).
+- Se rodada 1 tiver 100+ cliques e zero venda: parar tudo, o problema é o link/atribuição.
