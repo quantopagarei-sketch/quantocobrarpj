@@ -315,3 +315,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Teto total R$200, liberado em blocos. Rodada 1: espelho + balança, até R$60 (R$10/dia cada, 3 dias; parar um se passar de R$20 sem venda).
 - Rodada 2 (até R$140): só se a rodada 1 mostrar sinal (venda ou custo por clique baixo). Candidatos: tênis Kappa (20%), kit 10 cuecas (25%), tatame (20%).
 - Se rodada 1 tiver 100+ cliques e zero venda: parar tudo, o problema é o link/atribuição.
+
+## RESULTADO teste limpo `testedireto` (lido 17/11/2026 ~06h40, painel atualizado até 4h28)
+- Etiqueta testedireto = 1 clique, 0 vendas. O link direto do produto (?matt_word=...&matt_tool=58037177) CONTA clique. Etiqueta anuncio = 0 hoje (anúncios de celular pausados).
+- Ainda NÃO provado: se a VENDA feita por esse link é creditada (só se vê numa compra real).
+- Decisão: rodada 1 de impulso (espelho + balança) usa link direto com etiqueta dedicada. Religar celulares com link direto só com "sim" do Vini.
