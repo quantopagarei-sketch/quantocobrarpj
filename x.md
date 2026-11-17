@@ -46,6 +46,9 @@ com a data e não poste por 3 dias. Dois avisos = parar de vez e deixar para o D
   posts programados para não duplicar. Siga a regra "REGISTRO" do LEIA-PRIMEIRO (push depois de cada post).
 - 14/11 (vistos no perfil em 16/11; não registrados na hora, push 403) | agora/programado | 08h21 Perfume Liz Flora O Boticário R$ 71,90 + resposta; 12h15 Kit 10 potes de vidro herméticos R$ 88,56; 18h30 Kit parafusadeira/furadeira 21V The Black Tools R$ 139,90 | publicados
 - 15/11 21h21 | agora | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, link https://meli.la/2HqJzhH + resposta com o canal | publicado pelo Divulgador X (visto no perfil em 16/11 07h25; ele não conseguiu gravar: push 403). Post programado para 16/11 12h15: não conferido.
+- 16/11 12h15 (visto no perfil em 16/11 21h20; deixado programado pela execução de 15/11, que não registrou) | programado | Maleta de maquiagem infantil Fenzza (20261115-02), R$ 97,78, link https://meli.la/2FZyWjX, com foto, sem resposta do canal | publicado; 17 visualizações em 9 h
+- 16/11 21h29 | agora | Tênis Puma Flyer Runner cinza (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link_x https://meli.la/15jR8W1, com foto + resposta com t.me/Blackachados | publicado: https://x.com/titantuita/status/2122487213204308456 (preço conferido às 21h25; tela de programados estava vazia antes de começar)
+- Visualizações lidas no perfil em 16/11 21h20 (para o domingo): fone 13/11 = 72 | perfume 14/11 08h21 = 62 | potes 14/11 12h15 = 25 | parafusadeira 21V 14/11 18h30 = 24 | amaciante 15/11 21h21 = 79 (1 curtida) | maleta 16/11 12h15 = 17. Os posts da noite (com resposta do canal) tiveram ~3x mais visualizações que os programados do dia.
 
 ## Aprendizados (o que rende mais visualização e clique)
 (vazio)
