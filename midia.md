@@ -277,3 +277,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   CONCLUSÃO: anúncio pago da Shopee pela página continua FORA da regra. NÃO montado, NÃO publicado, R$ 0 gasto. O app Shopee BR ficou autorizado no Facebook
   (remover em Configurações > Integrações de negócios, se o Vini quiser).
   Em troca, a oferta entrou na fila do canal (fila/20261116-21, loja Shopee, link com Sub_id telegram: s.shopee.com.br/70LlC5J9Qx): teste grátis do link.
+- 17/11 02h05 VÍNCULO DO FACEBOOK NA SHOPEE, 3ª tentativa (Vini avisou "loguei no Facebook"): a janela do Facebook agora abre e fecha sozinha (app já autorizado),
+  mas a Shopee responde em /api/v3/affiliates/social_media_accounts/oauth: code 355500051 "open api get token failed", e /facebook_accounts volta accounts:[].
+  Mesmo resultado com e sem o truque do window.open. É falha do lado da Shopee ao trocar o token com o Facebook (não é login, não é clique).
+  Hipótese não confirmada: a integração pede permissões de PERFIL (user_posts, user_videos...) que o Facebook não ofereceu, ou exige perfil em modo profissional.
+  Não insistir mais pelo painel. Próximo passo possível: chamado no suporte de afiliados da Shopee (Central de Ajuda do painel). Anúncio segue NÃO montado, R$ 0.
