@@ -164,3 +164,4 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
   ou pedido de entrada em 16/11) e saída desse grupo. Grupos só voltam em 19/11 depois das 20h56 (3 dias).
   Se vier um 2º aviso: parar os grupos de vez e o Diretor fala com o Vini.
 (Total de avisos até 16/11: 1. Nesta seção só entra aviso do Facebook ou bronca de administrador; o resto vai em "Feito".)
+- 17/11 02h15 (Claude principal, pedido do Vini): bio da página REVERTIDA para "Especialistas em ofertas do Mercado Livre: garimpamos só lá..." (Shopee retirada do projeto). O Facebook estava no perfil pessoal (o Vini tinha logado); devolvido para agir como a página.
