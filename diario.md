@@ -67,3 +67,4 @@
 2026-11-17: rodada 1 impulso (espelho + balança) publicada, R$10/dia cada, até 20/11. Ler cliques/vendas (label anuncio) + gasto Meta amanhã.
 - 17/11 19:49 Curador: comecei (fila com 3 pendentes que vencem hoje às 22h10; vou repor)
 - 17/11 19:57 Claude principal (checagem agendada): só medição, nada alterado. Impulso R$ 11,94 · 46 cliques · 0 venda; celulares fechados em R$ 51,61 · 0 venda; seguidores fechado em R$ 18,64 · 0 seguidor novo. Total em anúncios desde 15/11 (com o canal): ~R$ 91; vendas: 0. Detalhes em midia.md.
+- 17/11 20:11 Curador: 10 ofertas gravadas na fila (20261117-01 a -10), links com a etiqueta telegram; faltam os links facebook/twitter das 2 campeãs
