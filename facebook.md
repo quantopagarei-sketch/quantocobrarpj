@@ -155,7 +155,7 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - 16/11 21h06 | story da página | Kit parafusadeira 12 V + 169 peças The Black Tools, R$ 227,90 no Pix (de R$ 489,90) | story de TEXTO (fundo preto), porque o story com foto deu "Não foi possível carregar a foto" 2 vezes. Stories do dia: 2 de 2.
 - 16/11 (Claude principal, pedido do Vini; estava em "Avisos" e veio para cá porque NÃO é aviso): BIO da página trocada para "Ofertas do Mercado Livre e da Shopee: garimpamos todo dia e conferimos o preço na hora. Canal no Telegram: t.me/Blackachados. Página independente (não oficial); alguns links são de afiliado." O post fixado de apresentação ainda fala só de Mercado Livre e NÃO foi mexido: o Divulgador é proibido de mexer no post fixado (texto da tarefa e "Como postar bem"); fica para o Claude principal/Diretor.
 - 16/11 | resumo do dia | página: 3 posts + 2 stories. Grupos: 1 post (removido), 0 comentários, 0 pedidos de entrada (parados pelo Aviso 1). Nenhum comentário novo nos posts da página. Página com 2 seguidores.
-- 17/11 20h42 | página | Camiseta Insider Tech Light masculina preta (20261117-02, campeã), R$ 56,70 (de R$ 189), link https://meli.la/2TBpk7W (etiqueta facebook) | publicado com foto recortada; preço conferido na página do produto às 20h37. Sem link t.me.
+- 17/11 20h35 | página | Camiseta Insider Tech Light masculina preta (20261117-02, campeã), R$ 56,70 (de R$ 189), link https://meli.la/2TBpk7W (etiqueta facebook) | publicado com foto recortada; preço conferido na página do produto às 20h33. Sem link t.me.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
