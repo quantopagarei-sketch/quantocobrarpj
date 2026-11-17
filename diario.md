@@ -65,3 +65,4 @@
 - 17/11 02:22 Claude principal: a pedido do Vini, avaliada a Central de afiliados do ML: ela mostra a comissão por produto no PC. Proposta de teste de impulso Espelho 60 cm (33%) x Balança (17%) em midia.md. Nada montado; aguardando o sim do Vini.
 - 2026-11-17 06:40: teste testedireto lido: 1 clique contado (link direto conta clique). Venda via link direto ainda sem prova. Próximo: rodada 1 impulso com link direto.
 2026-11-17: rodada 1 impulso (espelho + balança) publicada, R$10/dia cada, até 20/11. Ler cliques/vendas (label anuncio) + gasto Meta amanhã.
+- 17/11 19:49 Curador: comecei (fila com 3 pendentes que vencem hoje às 22h10; vou repor)
