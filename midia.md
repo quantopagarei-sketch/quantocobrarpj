@@ -305,3 +305,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   (celulares do teste antigo pagam ~5%.)
 - RECOMENDAÇÃO: par Espelho (ganho alto: empata com 1 venda a cada ~150 cliques a R$ 0,15) x Balança (o mais barato/impulso: empata com 1 a cada ~37 cliques).
   Riscos: "ganhos extras" é do vendedor e pode acabar sem aviso (reconferir no dia); o link meli.la cai no perfil social (esperar o teste `testedireto`).
+
+## Produto de impulso: reconferido na central ML em 17/11/2026
+- Espelho redondo 60cm: R$69,91 · 4,8 · +100mil · GANHOS EXTRAS 33% (ok). Link base: https://produto.mercadolivre.com.br/MLB-1684184338-espelho-para-banheiro-decorativo-redondo-60cm-com-suporte-_JM
+- Balança bioimpedância 180kg: R$32,90 · 4,8 · +100mil · GANHOS EXTRAS 17% (ok). Link base: https://www.mercadolivre.com.br/balanca-digital-bioimpedancia-profissional-smart-imc-180kg-bluetooth-corporal-aparelho-alta-capacidade-aplicativo-app-para-android-e-para-ios-balanca-de-banheiro-academia/p/MLB54514525
+- Falta: ler etiqueta testedireto (10h) para decidir formato do link (direto com ?matt_word=impulso&matt_tool=58037177 ou meli.la). Anúncios NÃO publicados ainda. Regra: R$10/dia cada, 3 dias, teto R$60, parar um se passar de R$20 sem venda.
