@@ -320,3 +320,9 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Etiqueta testedireto = 1 clique, 0 vendas. O link direto do produto (?matt_word=...&matt_tool=58037177) CONTA clique. Etiqueta anuncio = 0 hoje (anúncios de celular pausados).
 - Ainda NÃO provado: se a VENDA feita por esse link é creditada (só se vê numa compra real).
 - Decisão: rodada 1 de impulso (espelho + balança) usa link direto com etiqueta dedicada. Religar celulares com link direto só com "sim" do Vini.
+
+## Rodada 1 impulso PUBLICADA (17/11/2026)
+- Campanha "Teste Impulso - Espelho e Balanca - 17/11" (id 120248791431290656): conjunto A espelho (R$10/dia, "em análise") e conjunto B balança (R$10/dia, "em processamento"). Fim 20/11 09:31. Público: Brasil, 25-55/60, sem interesses, só Feed do Facebook.
+- Link direto com matt_word=anuncio. Preços conferidos: espelho R$69,91, balança R$32,90.
+- Regras: produto passou de R$20 gasto sem venda = pausar; 100+ cliques e 0 vendas somados = parar tudo (rodada 2 só se houver sinal).
+- Rascunhos "Campanha Cinta1" e "Novo conjunto de anúncios de Vendas" NÃO publicados (não mexer).

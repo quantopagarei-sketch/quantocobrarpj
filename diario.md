@@ -64,3 +64,4 @@
 - 17/11 02:12 Claude principal: teste limpo do link direto feito (etiqueta nova `testedireto`, 1 abertura às 02h10). Ler o painel do ML em 17/11 (manhã ou noite). Campanha de celulares segue pausada.
 - 17/11 02:22 Claude principal: a pedido do Vini, avaliada a Central de afiliados do ML: ela mostra a comissão por produto no PC. Proposta de teste de impulso Espelho 60 cm (33%) x Balança (17%) em midia.md. Nada montado; aguardando o sim do Vini.
 - 2026-11-17 06:40: teste testedireto lido: 1 clique contado (link direto conta clique). Venda via link direto ainda sem prova. Próximo: rodada 1 impulso com link direto.
+2026-11-17: rodada 1 impulso (espelho + balança) publicada, R$10/dia cada, até 20/11. Ler cliques/vendas (label anuncio) + gasto Meta amanhã.
