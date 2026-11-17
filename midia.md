@@ -270,3 +270,10 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Parei aí e cancelei: é mais do que "autorizar a página", envolve o perfil pessoal (que o Vini quer fora do projeto). Só com o sim dele sabendo disso.
   A opção "Other" (colar URL) RECUSA endereço do Facebook ("Por favor, verifique sua conta").
   O Facebook ficou no perfil pessoal por ~1 min e foi devolvido para "agir como a página" (conferido às 21h21).
+- 16/11 21h25 VÍNCULO DO FACEBOOK NA SHOPEE, 2ª tentativa (Vini: "Autorizo"): autorização feita no Facebook (app "Shopee BR", SÓ a página Black Achadinhos,
+  permissões concedidas: ler o conteúdo da página e listar páginas; as permissões pessoais nem foram oferecidas na tela). Mas a Shopee NÃO aceitou:
+  a chamada /api/v3/affiliates/facebook_accounts volta {"accounts":[]} e o painel mostra "Algo deu errado, por favor, tente novamente mais tarde" (3 tentativas).
+  Ou seja, a Shopee não encontrou conta do Facebook elegível (causa não confirmada; suspeita: página com 2 seguidores / requisito mínimo). Rede cadastrada segue TikTok labobarp.
+  CONCLUSÃO: anúncio pago da Shopee pela página continua FORA da regra. NÃO montado, NÃO publicado, R$ 0 gasto. O app Shopee BR ficou autorizado no Facebook
+  (remover em Configurações > Integrações de negócios, se o Vini quiser).
+  Em troca, a oferta entrou na fila do canal (fila/20261116-21, loja Shopee, link com Sub_id telegram: s.shopee.com.br/70LlC5J9Qx): teste grátis do link.
