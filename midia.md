@@ -326,3 +326,11 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Link direto com matt_word=anuncio. Preços conferidos: espelho R$69,91, balança R$32,90.
 - Regras: produto passou de R$20 gasto sem venda = pausar; 100+ cliques e 0 vendas somados = parar tudo (rodada 2 só se houver sinal).
 - Rascunhos "Campanha Cinta1" e "Novo conjunto de anúncios de Vendas" NÃO publicados (não mexer).
+
+## MEDIÇÃO 17/11 19h55 (checagem agendada do Claude principal; só leitura, nada pausado nem editado)
+- Impulso (rodada 1, 1º dia): Balança R$ 5,94 · 1.487 impressões · 26 cliques · taxa 1,75% · R$ 0,23/clique. Espelho R$ 6,00 · 1.466 impressões · 20 cliques · taxa 1,36% · R$ 0,30/clique.
+  Total R$ 11,94 · 46 cliques · 0 venda. Regras não batidas (nenhum passou de R$ 20; soma < 100 cliques).
+- Celulares (pausados desde 16/11 20h35), final: iPhone 16e R$ 25,03 · 142 cliques; Galaxy A17 R$ 26,58 · 198 cliques. Total R$ 51,61 · 340 cliques · 0 venda.
+- Seguidores da Página: campanha já estava DESATIVADA (não fui eu nesta checagem). Final R$ 18,64 · 36 visitas · R$ 0,52/visita · página segue com 2 seguidores (0 novo).
+- Painel ML 15 a 17/11 (atualizado 17/11): anuncio 533 cliques, telegram 8, testedireto 1, twitter 2; 0 venda em todas; ganho R$ 0.
+  Teste de 16/11 com `twitter`: 5 aberturas do mesmo navegador viraram 2 cliques (1 por produto): confirma que o link direto conta clique e que o ML não repete clique igual.
