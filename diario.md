@@ -70,3 +70,4 @@
 - 17/11 20:11 Curador: 10 ofertas gravadas na fila (20261117-01 a -10), links com a etiqueta telegram; faltam os links facebook/twitter das 2 campeãs
 - 17/11 20:13 Curador: 10 ofertas (20261117-01 a -10; links facebook/twitter das 2 campeãs gravados; preços reconferidos às 20h09-20h10; etiqueta em uso de volta em telegram; aba do Chrome fechada; push sem 403). Detalhes e achado do selo Meli+ em curador.md.
 - 17/11 20:32 Facebook: comecei (portão ok: chat_id presente; Aviso 1 de 16/11 tem menos de 3 dias, então hoje NÃO mexo em grupos; página: 3 posts + 2 stories; campeãs: camiseta Insider 20261117-02, árvore de Natal 20261117-03, Cetaphil 20261117-04)
+- 17/11 20:43 Facebook: 3 posts na página publicados (camiseta Insider 20261117-02, árvore de Natal 20261117-03, Cetaphil 20261117-04), preços conferidos antes; seguindo para os stories. Grupos parados (Aviso 1 até 19/11 20h56).
