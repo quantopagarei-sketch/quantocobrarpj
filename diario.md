@@ -62,3 +62,4 @@
 - 17/11 02:06 Claude principal: 3ª tentativa de vincular o Facebook na Shopee falhou do lado da Shopee ("open api get token failed"). Rede cadastrada segue TikTok. Anúncio da Shopee não montado. Detalhes em midia.md.
 - 17/11 02:10 Claude principal: a pedido do Vini, Shopee RETIRADA do projeto (textos do canal, config, fila e bio da página revertidos para só Mercado Livre). Nada da Shopee foi postado nem anunciado.
 - 17/11 02:12 Claude principal: teste limpo do link direto feito (etiqueta nova `testedireto`, 1 abertura às 02h10). Ler o painel do ML em 17/11 (manhã ou noite). Campanha de celulares segue pausada.
+- 17/11 02:22 Claude principal: a pedido do Vini, avaliada a Central de afiliados do ML: ela mostra a comissão por produto no PC. Proposta de teste de impulso Espelho 60 cm (33%) x Balança (17%) em midia.md. Nada montado; aguardando o sim do Vini.

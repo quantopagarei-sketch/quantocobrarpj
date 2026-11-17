@@ -288,3 +288,20 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Aberto 1 vez, às 02h10 de 17/11, o link direto do Galaxy A17 com ?matt_word=testedireto&matt_tool=58037177 (navegador logado do Vini).
   LER no painel ML > Etiquetas de rastreamento, dia 17/11: `testedireto` com 1 clique = link direto CONTA clique (prova limpa). 0 = não conta.
   Se contar: propor ao Vini religar os anúncios de celular com o link direto (só com o sim dele: volta a gastar). Venda pelo link direto segue não provada até a 1ª venda.
+
+## PRODUTO DE IMPULSO PARA ANÚNCIO (ideia do Vini em 17/11/2026 02h11; NADA montado; aguardando o sim dele e o teste do link direto)
+- ACHADO: a Central de afiliados (mercadolivre.com.br/afiliados/hub) mostra NO PC a comissão de cada produto ("GANHOS x%" e "GANHOS EXTRAS x%", filtro "Ganhos extras").
+  Isso resolve a dúvida de 15/11 (selo só no app): usar essa página para confirmar comissão antes de anunciar.
+- "Campanhas com incentivos" (afiliados/incentives): nenhuma campanha ativa em 17/11 ("Em breve...").
+- Lista lida em 17/11 02h20 (preço · nota · vendidos · comissão · ganho por venda calculado):
+  Espelho redondo 60 cm com suporte: R$ 69,91 · 4,8 · +100 mil · EXTRA 33% (patrocinado por Rei dos Vidros) · ~R$ 23,07
+  Tênis Kappa Pulse Rx: R$ 125,99 · 4,6 · +100 mil · EXTRA 20% · ~R$ 25,20
+  Kit 10 cuecas boxer Usee: R$ 74,99 · 4,7 · +10 mil · EXTRA 25% · ~R$ 18,75
+  Tatame 1x1 m 30 mm: R$ 78,99 · 4,7 · +10 mil · EXTRA 20% · ~R$ 15,80
+  Balança digital bioimpedância: R$ 32,90 · 4,8 · +100 mil · EXTRA 17% · ~R$ 5,59
+  Máquina Dragão de cabelo/barba: R$ 20,61 no Pix · 4,8 · +10 mil · 16% · ~R$ 3,30
+  Aparador de pelos nariz/orelha: R$ 19,29 · 4,6 · +10 mil · 16% · ~R$ 3,09
+  Fita LED 5 m: R$ 24,31 · 4,8 · +100 mil · 12% · ~R$ 2,92
+  (celulares do teste antigo pagam ~5%.)
+- RECOMENDAÇÃO: par Espelho (ganho alto: empata com 1 venda a cada ~150 cliques a R$ 0,15) x Balança (o mais barato/impulso: empata com 1 a cada ~37 cliques).
+  Riscos: "ganhos extras" é do vendedor e pode acabar sem aviso (reconferir no dia); o link meli.la cai no perfil social (esperar o teste `testedireto`).
