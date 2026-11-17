@@ -6,10 +6,7 @@ O nome vale o ano todo ("Black" como marca); não prometer "preço de Black Frid
 
 Projeto do Vini iniciado em 13/11/2026. Canal de ofertas no Telegram com links de afiliado do
 **Mercado Livre, de TODAS as categorias** (decisão do Vini em 13/11: não focar em nicho; o Vini já é
-afiliado do Mercado Livre). **Shopee LIBERADA pelo Vini em 16/11/2026** (ele testou o link de afiliado
-`s.shopee.com.br` e abre direto no produto): os textos do canal e da página já dizem "Mercado Livre e Shopee",
-e `config.json` aceita links `shopee.com.br` e `s.shopee.com.br`. Posicionamento novo: "ofertas do Mercado Livre e
-da Shopee" (não dizer mais "só Mercado Livre"). Link da Shopee só o gerado no painel de afiliado dela. Amazon segue desligada.
+afiliado do Mercado Livre). Shopee e Amazon ficam desligadas até ele mandar (a Shopee foi testada em 16 e 17/11/2026 e DESFEITA a pedido dele: ver midia.md e juridico.md).
 Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. O ramo `main`
 (site Quanto Eu Pago) só tem o arquivo `.github/workflows/telegram-ofertas.yml` (o agendamento de
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
@@ -97,7 +94,7 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 | Divulgador X (diário, 21h17) | Posta as campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora e as outras programadas (quantidade em `x.md`). Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
 | Gestor de Mídia (diário, 19h19, só de 14 a 28/11) | Prepara e acompanha o teste de anúncio pago de R$ 70 (16 a 22/11); pausa se passar do limite; nunca cria campanha nem aumenta verba. Regras em `midia.md` | Claude + Chrome do PC do Vini | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
-| Coletor Shopee (`coletor_shopee.py`) | Desligado e nunca testado (a Shopee foi liberada em 16/11, mas as ofertas dela entram à mão, pelo painel de afiliado) | – | Não |
+| Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |
 
 ## Como o Curador trabalha (Mercado Livre)
 1. Chrome do PC do Vini, logado no Mercado Livre com a conta de afiliado. Nunca digitar senha.

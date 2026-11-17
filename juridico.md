@@ -74,3 +74,4 @@ ou houver ideia de CNPJ, o Diretor recomenda ao Vini um contador.
   social cadastrada no programa; proíbe busca/shopping (Google Ads, Bing Ads). Os Termos e Condições completos ainda NÃO foram lidos.
 - Em 16/11 a rede cadastrada era um TikTok ("labobarp"), não a página do Facebook: não anunciar pela página antes de cadastrá-la.
 - Link só o gerado no painel affiliate.shopee.com.br. Não clicar nem comprar pelos próprios links.
+- 17/11: Shopee DESLIGADA de novo a pedido do Vini. As notas acima ficam só como histórico. O app "Shopee BR" segue autorizado no Facebook para a página (remover em Configurações > Integrações de negócios, se ele pedir).

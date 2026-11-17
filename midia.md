@@ -282,3 +282,4 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
   Mesmo resultado com e sem o truque do window.open. É falha do lado da Shopee ao trocar o token com o Facebook (não é login, não é clique).
   Hipótese não confirmada: a integração pede permissões de PERFIL (user_posts, user_videos...) que o Facebook não ofereceu, ou exige perfil em modo profissional.
   Não insistir mais pelo painel. Próximo passo possível: chamado no suporte de afiliados da Shopee (Central de Ajuda do painel). Anúncio segue NÃO montado, R$ 0.
+- 17/11 02h10 SHOPEE DESFEITA (Vini: "vamos tirar tudo da shopee, não deu certo"): textos do canal de volta a "só Mercado Livre" (versao_textos 4), domínios shopee removidos do config, oferta 20261116-21 tirada da fila (nunca foi postada), bio da página revertida. Nenhum anúncio da Shopee existiu; R$ 0 gasto. Não reabrir sem o Vini mandar.
