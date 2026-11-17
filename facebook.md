@@ -142,6 +142,8 @@ REGRA (juridico.md, desde 14/11): "Publicidade · link de afiliado" em TODO post
 - 16/11 20h47 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h43. SEM o link t.me (ver "Limite de links da Meta").
 - 16/11 20h50 | página | Cama elástica pula-pula JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; sem link_facebook) | publicado com foto recortada; preço conferido às 20h48. Sem link t.me. Cota do dia na página (3 posts) cumprida.
 - 16/11 20h56 | grupo Achadinhos e Promoções | Ofertas Imperdíveis | Tênis Puma (20261116-12), link https://meli.la/1B7eJJG, com pergunta sobre a numeração | REMOVIDO em segundos (ver Avisos). Grupos parados até 19/11.
+- 16/11 21h03 | grupo Achadinhos e Promoções | Ofertas Imperdíveis | a página SAIU do grupo (regra do item 5, depois do post removido).
+- 16/11 21h08 | story da página | Tênis Puma Flyer Runner, R$ 189,99 no Pix (de R$ 349,99) | publicado com foto e texto ("Publicidade · link de afiliado no post da nossa página · Canal no Telegram: Blackachados"), sem link.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
