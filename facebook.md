@@ -99,7 +99,8 @@ nos posts de oferta, só o link meli.la. Assinar o Meta One é gasto: só o Vini
   (ToolSearch). Abra a `imagem` da oferta numa aba sua, tire um print (mouse num canto) e anexe com
   upload_image no campo de arquivo do "No que você está pensando?". Se falhar 2 vezes, poste só com o link.
 - Tom: especialistas em ofertas do Mercado Livre (ver "Posicionamento" no LEIA-PRIMEIRO). Nunca "o melhor preço".
-- Primeira linha = produto + preço (é o que aparece antes do "Ver mais"). Link na 3ª ou 4ª linha.
+- Primeira linha = produto + preço (é o que aparece antes do "Ver mais"). Link na 2ª linha desde 16/11 (antes era na
+  3ª ou 4ª, mas aí o aviso de publicidade ficava escondido atrás do "Ver mais": ver "AVISO NA 2ª LINHA" acima).
 - Na última tela ("Configurações do post"): NUNCA ligue "Turbinar post" (é pago). Se aparecer oferta de
   botão "Ligar agora" ou qualquer outra, clique em "Agora não".
 - Nessa mesma tela existe "Compartilhar nos grupos": pode usar para levar o post a um grupo que permite
