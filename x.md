@@ -17,6 +17,9 @@ Canal: https://t.me/Blackachados
 3. Link do post: o `link_x` da oferta (etiqueta twitter); se ela não tiver, o `link`.
    Conferir o preço antes: abra a `pagina` da oferta. Se mudou ou acabou, troque pela próxima de maior potencial.
 4. Foto: abra a `imagem` da oferta numa aba, tire um print e anexe ao post com upload_image. Se não der, poste sem foto.
+   Dica (16/11): a `imagem` terminada em `-O.jpg` é pequena (até 500 px) e sai miúda numa moldura preta. A mesma foto do
+   anúncio abre em tamanho grande trocando `D_NQ_NP_` por `D_NQ_NP_2X_` e `-O.jpg` por `-F.jpg` (deu certo nas 3 de 16/11).
+   Tire o mouse de cima da foto antes do print. No campo de post há dois campos de arquivo: use o da janela do post.
 5. Uma vez por semana (domingo), leia as visualizações dos posts de oferta dos últimos 7 dias no perfil e anote em
    "Aprendizados" que tipo de produto, preço e frase rendeu mais. Use isso para escolher e escrever os próximos.
 
@@ -49,6 +52,8 @@ com a data e não poste por 3 dias. Dois avisos = parar de vez e deixar para o D
 - 16/11 12h15 (visto no perfil em 16/11 21h20; deixado programado pela execução de 15/11, que não registrou) | programado | Maleta de maquiagem infantil Fenzza (20261115-02), R$ 97,78, link https://meli.la/2FZyWjX, com foto, sem resposta do canal | publicado; 17 visualizações em 9 h
 - 16/11 21h29 | agora | Tênis Puma Flyer Runner cinza (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link_x https://meli.la/15jR8W1, com foto + resposta com t.me/Blackachados | publicado: https://x.com/titantuita/status/2122487213204308456 (preço conferido às 21h25; tela de programados estava vazia antes de começar)
 - 16/11 21h36 | programado para 17/11 12h15 | Cama elástica JustFun 1,40 m (20261116-17), R$ 213,65 no Pix (de R$ 439,90), link https://meli.la/27w5WHJ (etiqueta telegram; a oferta não tem link_x), com foto | programado e conferido na tela de programados ("ter, 17 de nov de 2026 às 12:15 PM", Horário de Brasília). Sem resposta do canal (post programado não dá para responder na hora).
+- 16/11 21h41 | programado para 17/11 18h30 | Kit parafusadeira/furadeira 12V + jogo de 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; sem link_x), com foto | programado e conferido na tela de programados ("ter, 17 de nov de 2026 às 6:30 PM"). Sem resposta do canal.
+- 16/11, escolhas do dia: fiz 3 posts (1 + 2 programados) porque a regra do sprint acima manda 3 até 30/11 e o texto da tarefa diz que o x.md vale mais que ele; mas o texto da tarefa ainda diz "no máximo 2 por dia" (Diretor: alinhar um dos dois). Boneca reborn 20261116-13 ficou fora: preço mudou (página: R$ 134, de R$ 359,80; arquivo: R$ 135, de R$ 239). Oferta da Shopee 20261116-21 ficou fora do X: a tarefa do X é de links do Mercado Livre e o X não é rede cadastrada no programa da Shopee (juridico.md).
 - Visualizações lidas no perfil em 16/11 21h20 (para o domingo): fone 13/11 = 72 | perfume 14/11 08h21 = 62 | potes 14/11 12h15 = 25 | parafusadeira 21V 14/11 18h30 = 24 | amaciante 15/11 21h21 = 79 (1 curtida) | maleta 16/11 12h15 = 17. Os posts da noite (com resposta do canal) tiveram ~3x mais visualizações que os programados do dia.
 
 ## Aprendizados (o que rende mais visualização e clique)
