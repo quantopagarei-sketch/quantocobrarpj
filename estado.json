@@ -38,7 +38,8 @@
    19,
    20,
    21
-  ]
+  ],
+  "2026-11-17": []
  },
  "itens": {
   "20261113-01": {
@@ -221,10 +222,10 @@
  "chat_titulo": "Black Achadinhos 🖤 Ofertas do Dia",
  "ligado_em": "2026-11-13T14:35-03:00",
  "boas_vindas_ok": true,
- "pendentes": 9,
+ "pendentes": 8,
  "foto_ok": true,
  "ultimo_post": "2026-11-16T22:08-03:00",
- "ultimo_dia_ok": "2026-11-16",
+ "ultimo_dia_ok": "2026-11-17",
  "nome_bot_ok": true,
- "textos_v": 3
+ "textos_v": 4
 }
