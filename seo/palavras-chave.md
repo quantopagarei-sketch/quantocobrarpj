@@ -34,7 +34,7 @@ Formato: consulta principal e variações | intenção | sazonalidade | concorr�
 - Intenção: comerciante/prestador querendo saber se a maquininha ou o boleto vai reter. Sazonalidade: jan/2027; julho/2027 (boleto entra no piloto); quando a Receita publicar regra dos cartões.
 - Concorrência: para "split payment cartão" o Google mistura Stone/Cielo ("split de pagamento" de marketplace — outro assunto) com LetsMoney, Guardar Dinheiro, Finsiders, Tactus, Jornal Contábil, Investnews — SERP confusa, ninguém separa os dois significados nem dá exemplo em reais.
 - Páginas NOVAS /split-payment/cartao/ — "Split payment no cartão de crédito: como funciona" (49) — e /split-payment/boleto/ — "Split payment no boleto: o que muda para quem cobra" (51). Precisam: resposta direta com o cronograma da Fin (cartão fora de 2027; boleto só a partir de julho/2027 no piloto e outubro para todos — "previsão das instituições financeiras"); caixa "não confunda: split de pagamento da maquininha (divisão entre lojista e marketplace) ≠ split payment da reforma"; exemplo em reais de uma venda de R$ 1.000 em cada meio (com e sem antecipação); tabela por meio de pagamento; links para /pix-1000/, /quando-comeca/ e a calculadora; FAQ.
-- Status: novo (próximo do SEO: qua 18/11)
+- Status: /split-payment/cartao/ publicada em 18/11 (SEO; cronograma da Fin marcado como previsão, simulador cartão x split, caixa "não confunda", 7 FAQs). /split-payment/boleto/ = próximo (sex 20/11).
 
 **B3. das mei 2027 valor** — variações: "quanto o mei vai pagar em 2027", "das do mei vai aumentar em 2027", "valor do das mei 2027", "boleto do mei 2027", "mei 2027 quanto paga por mês", "das mei 2027 com cbs"
 - Intenção: MEI quer o número do boleto. Sazonalidade: dez/2026 (decreto do salário mínimo) até fev/2027 (1º DAS de 2027); repete todo janeiro.
@@ -70,7 +70,7 @@ Formato: consulta principal e variações | intenção | sazonalidade | concorr�
 - Intenção: precificar. Sazonalidade: o ano todo; sobe em jan.
 - Concorrência: Valor Final, Calculadora de Taxas, TradeMap, Freelas em Crise, Calculadora Brasil, Clockify, Contabilizei — calculadoras de sites pequenos no top 10 = passa-se com exemplos por profissão + título melhor.
 - Página EXISTENTE /quanto-cobrar-por-hora/ (pos. 13,3) — reforço descrito na seção A (título 60, H2 "preço por hora como MEI", exemplos).
-- Status: publicada em 04/11 — reforçar
+- Status: publicada em 04/11 — reforçada em 18/11 (título "Quanto cobrar por hora? Calculadora MEI, PJ e freelancer", H2 "Como calcular o preço por hora como MEI" com conta passo a passo, tabela designer/desenvolvedor/consultor, 2 FAQs exatas)
 
 **B9. a partir de qual salário compensa ser pj / clt X vs pj Y** — variações: "quanto pj precisa faturar para igualar clt", "ponto de equilíbrio clt pj", "clt 5000 ou pj 7000", "salário pj equivalente ao clt", "pj ganha quanto" (consulta real, pos. 8,0)
 - Intenção: decidir uma proposta. Sazonalidade: o ano todo; sobe em jan–fev.
