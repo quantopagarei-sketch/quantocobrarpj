@@ -1,5 +1,7 @@
 # X (Twitter) – conta @titantuita (diário do Divulgador X)
 
+> **18/11/2026: CUPOM POUPAMAIS (+25% OFF só pelo nosso link). Siga o item 2 da seção "CUPOM POUPAMAIS" do LEIA-PRIMEIRO.md.**
+
 Conta PESSOAL do Vini ("titan.", ~2,5 mil seguidores em 13/11/2026), que ele liberou em 13/11 para divulgar
 os links de afiliado do Mercado Livre. A mesma conta também divulga o site Quanto Eu Pago (outro projeto).
 Por ser pessoal e ter seguidores de verdade: pouco volume, tom de gente, nada de mexer no perfil.

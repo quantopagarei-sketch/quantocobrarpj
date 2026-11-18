@@ -12,6 +12,27 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
+## CUPOM POUPAMAIS (presente do Mercado Livre ao Vini em 18/11/2026; vale para TODOS os agentes; prioridade máxima no sprint)
+O ML liberou ao Vini o cupom **POUPAMAIS: +25% OFF para quem comprar pelo link de afiliado dele**. Compra mínima R$ 1,
+desconto máximo R$ 500, "enquanto durarem os estoques". SÓ vale para os produtos da lista "Produtos válidos"
+(Central de afiliados e criadores do ML > aviso do cupom > botão "Produtos válidos"). Data de fim: NÃO informada.
+É a melhor arma do canal até agora (desconto que só existe no nosso link). Como usar:
+1. **Curador (todo dia)**: ANTES do garimpo normal, abra a lista "Produtos válidos" e escolha dela **pelo menos 5 das
+   8-10 ofertas do dia** (mesmos critérios de qualidade: nota 4,6+, 500+ vendidos; o desconto de 15% pode vir do
+   cupom). Na página do produto (endereço normal, sem clicar no próprio link), confira se o cupom aparece aplicável.
+   No arquivo da fila: `"cupom": "POUPAMAIS"`, `"preco"` = preço da página SEM o cupom, e no `"motivo"` escreva
+   "+25% OFF com o cupom POUPAMAIS (só pelo link do post), até R$ 500". Nunca some o cupom ao preço como se fosse certo:
+   o cliente aplica no pagamento. `"prioridade": 1` nessas ofertas. Anote em `curador.md` quantos itens a lista tem
+   e se mostra data de fim. Se a lista sumir ou o cupom não aparecer mais: volte ao normal e registre "cupom encerrado".
+2. **Facebook e X**: as 2 campeãs do dia devem ser ofertas com cupom. Frase-base (varie): "🎟 Cupom POUPAMAIS:
+   +25% OFF, só comprando pelo link do Black Achadinhos". Convite ao canal: "lá tem o cupom em várias ofertas por dia".
+   Mantenha "Publicidade · link de afiliado" / "#publi · link de afiliado".
+3. **Gestor de Mídia**: se houver novo impulso aprovado pelo Vini, use produto com cupom (o anúncio fica mais forte:
+   "25% OFF extra"). Nenhum gasto novo sem o "sim" do Vini.
+4. **Diretor**: no domingo, comparar cliques/vendas das ofertas com cupom x sem cupom e dizer ao Vini em 1 linha.
+Proibido: inventar validade ("só hoje"), dizer que o cupom vale para o site todo, ou dizer que é cupom "oficial do canal"
+de forma que pareça canal do Mercado Livre. Pode dizer: "cupom exclusivo para quem compra pelo nosso link".
+
 ## JURÍDICO: LEIA `juridico.md` ANTES DE POSTAR, COMENTAR OU ANUNCIAR (vale para TODOS; pedido do Vini em 14/11)
 As regras de `juridico.md` valem mais que qualquer manual. Em especial: "Publicidade · link de afiliado" em todo
 post (no X: "#publi · link de afiliado"), e NENHUM agente usa o WhatsApp Web (nem abre conversas do Vini).

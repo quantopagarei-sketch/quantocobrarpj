@@ -1,5 +1,7 @@
 # Mídia paga – teste de anúncio (diário do Gestor de Mídia)
 
+> **18/11/2026: CUPOM POUPAMAIS (+25% OFF só pelo nosso link). Siga o item 3 da seção "CUPOM POUPAMAIS" do LEIA-PRIMEIRO.md.**
+
 Pedido do Vini em 13/11/2026: ver se pagar anúncio traz inscritos e vendas que paguem o investimento.
 NADA de dinheiro sai sem o "sim" do Vini: quem publica e paga a campanha é ele (com o Claude da conversa
 principal montando junto). O Gestor prepara, mede e pausa. Nunca cria campanha, nunca aumenta verba.

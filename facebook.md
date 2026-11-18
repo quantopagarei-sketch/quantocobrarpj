@@ -1,5 +1,7 @@
 # Facebook – página "Black Achadinhos" (diário do Divulgador)
 
+> **18/11/2026: CUPOM POUPAMAIS (+25% OFF só pelo nosso link). Siga o item 2 da seção "CUPOM POUPAMAIS" do LEIA-PRIMEIRO.md.**
+
 Página: https://www.facebook.com/blackachadinhos.ofertas (endereço trocado em 13/11; o antigo /onmarronestore
 não vale mais, mesmo que o texto da tarefa cite). Na dúvida: https://www.facebook.com/pages/?category=your_pages
 e clique em "Black Achadinhos".
