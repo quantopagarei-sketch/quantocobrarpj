@@ -57,7 +57,8 @@
    17,
    19,
    20
-  ]
+  ],
+  "2026-11-19": []
  },
  "itens": {
   "20261113-01": {
@@ -327,7 +328,7 @@
  "pendentes": 0,
  "foto_ok": true,
  "ultimo_post": "2026-11-18T20:50-03:00",
- "ultimo_dia_ok": "2026-11-18",
+ "ultimo_dia_ok": "2026-11-19",
  "nome_bot_ok": true,
  "textos_v": 5
 }
