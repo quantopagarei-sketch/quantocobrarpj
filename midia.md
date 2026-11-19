@@ -341,3 +341,28 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Etiqueta `anuncio`: 629 cliques (12 a 18/11), 1 venda: Kit 10 puxadores R$ 75,15, ganho R$ 3,70, venda indireta (6%), em revisão. Taxa 0,16%.
 - Prova que o link direto com matt_word credita VENDA, não só clique. Veio do anúncio de impulso (espelho/balança), único ativo em 18/11.
 - Gasto em anúncios até 17/11 ~R$ 91; retorno R$ 3,70 (pendente). Ainda no prejuízo. Rodada 1 termina 20/11 09h31: decidir rodada 2 com base no gasto final x vendas.
+
+## ESTRATÉGIA BLACK FRIDAY (decisão do Vini, 19/11/2026 10h19) — VALE MAIS QUE AS SEÇÕES ANTERIORES
+Foco: Black Friday (27/11) com CELULARES de comissão alta. Usar os testes de 14 a 20/11 como estudo.
+
+O que os testes ensinaram (até 19/11):
+- Anúncio para o canal do Telegram: R$ 20,92 · 148 cliques · 0 inscrito. NÃO repetir.
+- Anúncio de seguidores da página: R$ 18,64 · 0 seguidor. NÃO repetir.
+- Celulares com link direto (iPhone 16e 5%, Galaxy A17): R$ 51,61 · 340 cliques · 0 venda. Clique barato (R$ 0,15), mas sem venda
+  fora da Black. Na época não se sabia se o link creditava venda; em 19/11 ficou PROVADO que credita.
+- Impulso (espelho/balança): 1 venda indireta (kit puxadores, R$ 3,70). Prova que quem clica compra outras coisas.
+- Orgânico (telegram/facebook/twitter): ~30 cliques, 0 venda.
+
+Plano:
+1. 20/11: rodada 1 de impulso acaba às 09h31. NÃO fazer rodada 2: o dinheiro vai para os celulares.
+2. 20 a 23/11 — PESQUISA (Gestor de Mídia, no Chrome): na Central de afiliados do ML, listar celulares com GANHOS EXTRAS
+   (comissão 8% ou mais de preferência; mínimo 5%), nota 4,6+, muitas vendas, desconto real. Ganho por venda = preço x comissão.
+   Escolher 3 (de preferência 1 iPhone, 1 Samsung de entrada e 1 Xiaomi/Motorola). Gravar a tabela aqui, com data e hora.
+3. 24 a 26/11 — AQUECER: Agente de Design faz as imagens; 1 conjunto por aparelho a R$ 5/dia para ver o custo por clique.
+   Reconferir comissão e preço todo dia (ganhos extras podem acabar sem aviso).
+4. 27 a 30/11 (Black Friday até Cyber Monday) — CONCENTRAR: verba no(s) aparelho(s) com melhor clique, link direto
+   (?matt_word=anuncio&matt_tool=58037177), Feed do Facebook + Instagram.
+   Regras: aparelho com R$ 60 gastos e 0 venda = pausar e passar a verba ao outro; parar tudo se a soma passar do teto.
+5. Teto: o que tiver de saldo na conta (sem depósito novo sem o "sim" do Vini). O plano dele era R$ 300 na Black;
+   se o saldo for menor, avisar o Vini 1 vez, até 25/11, quanto falta depositar.
+6. Em 1/12: balanço final (gasto x comissão por aparelho) e lição para a próxima data (Natal).
