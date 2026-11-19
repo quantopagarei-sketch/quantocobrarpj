@@ -336,3 +336,8 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Seguidores da Página: campanha já estava DESATIVADA (não fui eu nesta checagem). Final R$ 18,64 · 36 visitas · R$ 0,52/visita · página segue com 2 seguidores (0 novo).
 - Painel ML 15 a 17/11 (atualizado 17/11): anuncio 533 cliques, telegram 8, testedireto 1, twitter 2; 0 venda em todas; ganho R$ 0.
   Teste de 16/11 com `twitter`: 5 aberturas do mesmo navegador viraram 2 cliques (1 por produto): confirma que o link direto conta clique e que o ML não repete clique igual.
+
+## 1ª VENDA (lida 19/11/2026 09h55, print do Vini)
+- Etiqueta `anuncio`: 629 cliques (12 a 18/11), 1 venda: Kit 10 puxadores R$ 75,15, ganho R$ 3,70, venda indireta (6%), em revisão. Taxa 0,16%.
+- Prova que o link direto com matt_word credita VENDA, não só clique. Veio do anúncio de impulso (espelho/balança), único ativo em 18/11.
+- Gasto em anúncios até 17/11 ~R$ 91; retorno R$ 3,70 (pendente). Ainda no prejuízo. Rodada 1 termina 20/11 09h31: decidir rodada 2 com base no gasto final x vendas.
