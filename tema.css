@@ -24,7 +24,7 @@ a:focus-visible,summary:focus-visible,.btn:focus-visible,.x:focus-visible{outlin
 
 /* ---------- topo: um bloco verde só (cabeçalho + abas + título) ---------- */
 .site{background:var(--deep)!important;border:0!important}
-.hd{padding-top:12px!important;padding-bottom:10px!important}
+.hd{padding-top:8px!important;padding-bottom:8px!important}
 .site .brand{color:#fff!important}
 .brand svg rect{fill:#072a1d}
 .hdl a.tx{color:#cfe3d7!important}.hdl a.tx:hover{color:#fff!important}
@@ -52,7 +52,7 @@ a:focus-visible,summary:focus-visible,.btn:focus-visible,.x:focus-visible{outlin
  .top-hero .hbtn .btn:not(.btn2)[href^="#"]:first-child{display:none!important}
  .top-hero .hbtn .btn2{padding:10px 16px!important;font-size:.93rem!important}
 }
-@media(min-width:900px){.top-hero{padding:56px 0 48px!important}.hd{padding-top:16px!important;padding-bottom:14px!important}.lift{background:linear-gradient(var(--deep) 0,var(--deep) 110px,var(--paper) 110px)!important;padding-bottom:64px!important}.in{padding-left:24px!important;padding-right:24px!important}}
+@media(min-width:900px){.top-hero{padding:56px 0 48px!important}.hd{padding-top:13px!important;padding-bottom:13px!important}.lift{background:linear-gradient(var(--deep) 0,var(--deep) 110px,var(--paper) 110px)!important;padding-bottom:64px!important}.in{padding-left:24px!important;padding-right:24px!important}}
 
 /* ---------- faixas ---------- */
 .band{padding:52px 0!important}.band.compact{padding:40px 0!important}
@@ -166,3 +166,12 @@ table.tb{border-radius:14px!important}
 .foot{background:var(--deep)!important;color:#b5cdbf!important;padding:44px 0 56px!important}
 .foot a{color:#e6f1ea!important}
 .emb-credit{font-family:var(--txt)!important;color:var(--accent2)!important}
+
+/* ---------- UX 19/11/2026: alvo de toque de 44px e celular pequeno (320px) ----------
+   Logo e "Calcular agora" com 44px de altura (o topo continua com 60px: o respiro do .hd caiu para 8px, no alto desta folha).
+   Link solto (a.lk sem .btn) com 44px. Até 359px: logo menor e respiro menor no topo, para o botão não ser cortado,
+   e a legenda da barra do split em uma coluna (antes as duas faziam a página rolar para o lado em 320px). */
+.brand{min-height:44px}
+.hd .btn.cta{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+a.lk:not(.btn){display:flex;align-items:center;justify-content:center;min-height:44px;margin-top:0}
+@media(max-width:359px){.hd{padding-left:12px!important;padding-right:12px!important;gap:8px!important}.brand svg{height:28px!important}.hd .btn.cta{padding:9px 12px!important}.splitleg{grid-template-columns:1fr}}
