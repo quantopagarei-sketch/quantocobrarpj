@@ -60,7 +60,7 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 |---|---|---|---|---|---|---|---|---|---|---|---|
 
 ## Plano (o Estrategista revisa todo dia)
-- FASE A (21 a 23/11, ~R$ 10/dia no total): 2 conjuntos de isca, cada um com etiqueta própria, 2-3 criativos.
+- FASE A (20 a 23/11, ~R$ 20/dia no total; começa na manhã de 20/11, feriado): 2 conjuntos de isca, cada um com etiqueta própria, 2-3 criativos.
   Isca 1: produto de casa/organização com ganhos extras ≥ 20%. Isca 2: produto de moda/calçado feminino ≥ 15%.
   Público: o que o Detalhamento mostrar como melhor; sem dado, Brasil 25-55, todos.
 - FASE B (24 a 26/11, até R$ 15/dia): só os criativos com melhor custo por clique e alguma venda; trocar o pior.
@@ -92,16 +92,17 @@ Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6
 De preferência casa/organização/cozinha e moda feminina (H2). Ver também a tabela de 17/11 em midia.md (tênis Kappa, tatame, cuecas).
 
 ## ORDENS (o Estrategista escreve; o Gestor executa e marca FEITO com hora)
-- [ABERTA] 20/11 — ORDEM 1 (para o Gestor, hoje 19h19):
+- [ABERTA] 20/11 — ORDEM 1 (para o Gestor, AGORA de manhã: hoje é feriado e o Vini quer os anúncios no ar o quanto antes):
   a) Criar no painel de afiliado as etiquetas `anuncio-a` e `anuncio-b`.
   b) Ler o Detalhamento (idade/sexo/posicionamento) da campanha de impulso de 17 a 20/11 e gravar em balanco.md.
   c) Preencher PRODUTOS AVALIADOS com pelo menos 10 produtos do GRUPO 1 (mais vendidos: casa, cozinha, calçados/moda feminina,
      beleza, celulares) e 10 do GRUPO 2 (maior comissão), com a comissão lida na Central de afiliados. Fazer a conta da
      seção ESCOLHA DO PRODUTO e escolher os 2 com maior ganho esperado por clique que "passam" (de preferência 1 de cada grupo).
      Pedir as imagens (design.md). Se nenhum passar, NÃO publicar: anotar e deixar para o Estrategista.
-  d) Montar a FASE A: 1 campanha de Tráfego (cliques no link), 2 conjuntos (R$ 5/dia cada, até 23/11 23h59),
+  d) Montar a FASE A: 1 campanha de Tráfego (cliques no link), 2 conjuntos (R$ 10/dia cada, até 23/11 23h59; feriado = mais gente comprando),
      Feed do Facebook + Feed do Instagram, link direto do produto com ?matt_word=anuncio-a (ou -b)&matt_tool=58037177.
      Publicar (autorizado pelo Vini em 20/11: "está liberado"). Registrar ids e links aqui.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
+- 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
