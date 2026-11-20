@@ -176,6 +176,7 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - 20/11 06h28 | grupos | pedidos de entrada COMO A PÁGINA, com as regras lidas antes: TUDO PODE SOBRE AIRFRYER, DICAS DE MARCENARIA e Dicas de dona de casa | os 3 entraram na hora, sem perguntas (nenhum proíbe páginas). Hoje sem posts na página nem em grupos: nenhuma oferta com menos de 24 h na fila.
 - 20/11 06h29 a 06h33 | comentários em grupos | 0 | procurei pergunta de compra recente nos 7 grupos ativos (feed em ordem de novos posts, busca dentro do grupo e busca geral): só anúncios de outras afiliadas, vendas, memes e boas-vindas do administrador. Não forcei comentário. Notificações da página (facebook.com/notifications): só curtidas nos anúncios pagos e 1 marcação de outra afiliada em foto de grupo (spam, ignorada); nenhum comentário para responder.
 - 20/11 | resumo do dia | página: 0 posts e 0 stories (nenhuma oferta com menos de 24 h na fila). Grupos: 3 pedidos de entrada (aceitos na hora), 0 posts, 0 comentários. Nenhum aviso do Facebook.
+- 20/11 08h45 | página | Parafusadeira Mackie 2 baterias + maleta (20261120-01, campeã), R$ 114,90 (de R$ 219,90), link https://meli.la/26v7b3z (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada; preço conferido na página do produto às 08h40 (R$ 114,90, 47% OFF). Sem link t.me (cota da Meta). Apareceu a oferta 'Ligar agora': clicado 'Agora não'.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
