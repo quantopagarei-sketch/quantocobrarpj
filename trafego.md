@@ -39,6 +39,26 @@ Alavancas (o que fazer):
 3. CLIQUE MAIS BARATO: 3 criativos por conjunto; Feed do Facebook + Feed do Instagram; meta R$ 0,15 por clique.
 4. MEDIR CERTO: uma etiqueta por conjunto (anuncio-a, anuncio-b...) para saber qual isca vende. Hoje `anuncio` mistura tudo.
 
+## ESCOLHA DO PRODUTO (pedido do Vini, 20/11/2026 06h33) — OBRIGATÓRIA antes de pôr dinheiro em qualquer produto
+Comparar sempre os dois grupos e escolher pela conta, nunca por achismo:
+- GRUPO 1 "MAIS VENDIDOS": produtos campeões de venda do ML (páginas "Mais vendidos" por categoria e ofertas do dia), com a comissão de cada um.
+- GRUPO 2 "MAIOR COMISSÃO": produtos com GANHOS EXTRAS altos (Central de afiliados), mesmo vendendo menos.
+Tabela (o Gestor coleta, o Estrategista calcula), uma linha por produto, em PRODUTOS AVALIADOS abaixo:
+produto · categoria · preço hoje · desconto real · comissão % (com ganhos extras) · vendidos · nota · nº de avaliações · cupom POUPAMAIS (s/n) · data/hora conferido.
+Conta:
+- Ganho por venda = preço × comissão.
+- Chance de compra (nota de 1 a 3, para comparar, não é número exato): 3 = muito vendido (10 mil+), preço até R$ 150, desconto real ≥ 20% ou cupom; 2 = meio-termo; 1 = pouco vendido, caro ou sem desconto.
+- Ganho esperado por clique = conversão estimada × ganho por venda, com conversão estimada 0,5% (nota 1), 1,2% (nota 2), 2% (nota 3).
+  A conversão de 1,2% veio das 2 vendas do impulso (amostra pequena): troque pela taxa real de cada etiqueta assim que houver 3+ vendas nela.
+- SÓ ENTRA NO ANÚNCIO o produto cujo ganho esperado por clique for MAIOR que o custo por clique atual (hoje ~R$ 0,25).
+  Ex.: R$ 70 × 33% = R$ 23 × 1,2% = R$ 0,28 (passa raspando). R$ 1.500 × 5% = R$ 75 × 0,5% = R$ 0,37 (passaria, mas o teste deu 0 em ~500 cliques: conta o dado real).
+- Empate: preferir o que já tem dado real nosso (vendas na etiqueta) ao que é só estimativa.
+Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim: dinheiro pequeno primeiro (R$ 5/dia por produto), etiqueta própria por produto, Regras de corte, e só aumentar com venda real.
+
+## PRODUTOS AVALIADOS (preencher; manter só os últimos 7 dias)
+| Data | Grupo | Produto | Preço | Comissão | Ganho/venda | Vendidos | Nota | Cupom | Chance (1-3) | Ganho esperado/clique | Passa? |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
 ## Plano (o Estrategista revisa todo dia)
 - FASE A (21 a 23/11, ~R$ 10/dia no total): 2 conjuntos de isca, cada um com etiqueta própria, 2-3 criativos.
   Isca 1: produto de casa/organização com ganhos extras ≥ 20%. Isca 2: produto de moda/calçado feminino ≥ 15%.
@@ -75,7 +95,10 @@ De preferência casa/organização/cozinha e moda feminina (H2). Ver também a t
 - [ABERTA] 20/11 — ORDEM 1 (para o Gestor, hoje 19h19):
   a) Criar no painel de afiliado as etiquetas `anuncio-a` e `anuncio-b`.
   b) Ler o Detalhamento (idade/sexo/posicionamento) da campanha de impulso de 17 a 20/11 e gravar em balanco.md.
-  c) Escolher 2 iscas pelos critérios acima (1 casa, 1 moda feminina), conferir comissão e preço, pedir as imagens (design.md).
+  c) Preencher PRODUTOS AVALIADOS com pelo menos 10 produtos do GRUPO 1 (mais vendidos: casa, cozinha, calçados/moda feminina,
+     beleza, celulares) e 10 do GRUPO 2 (maior comissão), com a comissão lida na Central de afiliados. Fazer a conta da
+     seção ESCOLHA DO PRODUTO e escolher os 2 com maior ganho esperado por clique que "passam" (de preferência 1 de cada grupo).
+     Pedir as imagens (design.md). Se nenhum passar, NÃO publicar: anotar e deixar para o Estrategista.
   d) Montar a FASE A: 1 campanha de Tráfego (cliques no link), 2 conjuntos (R$ 5/dia cada, até 23/11 23h59),
      Feed do Facebook + Feed do Instagram, link direto do produto com ?matt_word=anuncio-a (ou -b)&matt_tool=58037177.
      Publicar (autorizado pelo Vini em 20/11: "está liberado"). Registrar ids e links aqui.
