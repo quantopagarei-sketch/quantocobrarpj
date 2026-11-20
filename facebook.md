@@ -148,18 +148,7 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 (Pedido pendente antigo, de 4 anos atrás: "Grupo de Saboaria e Cosméticos da Império do Banho". Não é deste projeto: ignorar.)
 
 ## Feito (data | onde | oferta ou assunto do comentário | resultado)
-- 13/11: página renomeada para "Black Achadinhos"; logo, capa, bio, categoria e link do canal trocados.
-- 13/11: endereço novo (/blackachadinhos.ofertas), botão "Saiba mais" levando ao canal, post de apresentação
-  publicado e fixado; 5 fotos antigas (Marrone Store) apagadas; bio e post fixado com o posicionamento novo.
-
-- 13/11 20h35 | página | Kit 10 potes de vidro Vitrex (20261113-03), R$ 88,56 no Pix | publicado pelo agente, que
-  parou depois deste post sem registrar (anotado pelo Claude principal). Stories e grupos: nada feito ainda.
-  Próxima execução: siga a regra "REGISTRO" do LEIA-PRIMEIRO (push depois de cada post).
-- 14/11 manhã | página | post de convite ao canal (08h41), Deo Colônia Natura Hoje R$ 67,56 e Liz Flora O Boticário R$ 71,90 | vistos na página em 15/11 (não tinham sido registrados).
-- 15/11 14h45 | página | Lava-roupas Tixan Ypê 7 L (20261115-03), R$ 56,04, link https://meli.la/24xLiY7 | publicado com foto pelo Claude principal.
-- 15/11 14h50 | página | Lixeira automática 16 L (20261115-04), R$ 59,05, link https://meli.la/28WfAaA | publicado com foto pelo Claude principal. Cota do dia: falta 1 post e os stories.
-- 15/11: página com 2 seguidores; anúncio de seguidores no ar (ver midia.md).
-- 15/11 ~20h35 | página | Amaciante Ypê Aconchego Ultra 5 L (20261116-01), R$ 14,99, com foto | publicado pelo Divulgador Facebook (visto na página em 16/11 07h25; ele não conseguiu gravar: push 403). Grupos e comentários: não conferidos.
+- 13/11 a 15/11 (resumo): página renomeada para Black Achadinhos (logo, capa, bio, link do canal, post fixado). Posts: Kit potes Vitrex (13/11), Deo Natura e Liz Flora (14/11), Lava-roupas Tixan e Lixeira automática (15/11), Amaciante Ypê (15/11 20h35). Em 15/11 a página tinha 2 seguidores; anúncio de seguidores no ar (ver midia.md).
 - 16/11 20h41 | página | Tênis Puma Flyer Runner Mesh (20261116-12), R$ 189,99 no Pix (de R$ 349,99), link https://meli.la/1B7eJJG | publicado com foto pelo Divulgador Facebook; preço conferido na página do produto às 20h35. Nesta execução o push FUNCIONA (sem 403).
 - 16/11 | página | Boneca reborn Adora (20261116-13, campeã) | NÃO postada: às 20h42 a página do produto mostrava R$ 134 (de R$ 359,80), diferente do arquivo (R$ 135, de R$ 239). Trocada pela próxima de potencial 5.
 - 16/11 20h48 | página | Kit parafusadeira 12 V + jogo de ferramentas 169 peças The Black Tools (20261116-16), R$ 227,90 no Pix (de R$ 489,90), link https://meli.la/2avrDfb (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada (ver "Como postar bem"); preço conferido às 20h43. SEM o link t.me (ver "Limite de links da Meta").
@@ -188,6 +177,8 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - 20/11 09h00 | grupo Dicas de dona de casa | Óleo Elseve Extraordinário 100 ml (20261120-02), R$ 29,90 (de R$ 64,19), link https://meli.la/1QUts43, com foto recortada, 1ª linha 'Publicidade · ...', link de afiliado na 2ª linha e pergunta 'Quem aqui usa óleo no cabelo?' | grupo sem regras escritas (muitos anúncios no feed, nada proíbe página ou link): o grupo também mostrou 'Ele foi enviado aos administradores do grupo para aprovação': post PENDENTE de aprovação (não foi removido). Conferir se saiu. Posts de grupo de 20/11: 2 de 2 (cota cumprida).
 - 20/11 09h05 | comentários em grupos | 0 | reconferi o feed em ordem de novos posts de Dicas de dona de casa: só anúncio de roupão, vídeo de dança, 'bom dia' e venda de pérolas, nenhuma pergunta de compra (airfryer e marcenaria já tinham sido vistos hoje, sem pergunta). Não forcei comentário. Notificações da página (09h03): administrador aprovou o post do Elseve em Dona de casa; só curtidas nos anúncios pagos; nenhum comentário para responder nos 3 posts de hoje; nenhum aviso.
 - 20/11 | resumo do dia (2ª execução, 08h41 às 09h08) | página: 3 posts (Mackie, Elseve, Fritadeira) + 2 stories. Grupos: 2 posts (airfryer pendente, dona de casa aprovado), 0 comentários, 0 pedidos novos (3 já feitos às 06h28). Cotas de 20/11 de posts e stories cumpridas. Nenhum aviso do Facebook (total segue em 1).
+
+- 20/11 20h37 a 20h50 | 2ª execução do dia | cotas de 20/11 (3 posts na página, 2 stories, 2 posts em grupos) já cumpridas de manhã: nada postado agora. Comentários em grupos: 0. Li o feed em ordem de novos posts de TUDO PODE SOBRE AIRFRYER (só boas-vindas do administrador; nosso post da Fritadeira segue 'Aguardando aprovação'), DICAS DE MARCENARIA (só anúncio de montador com WhatsApp) e Dicas de dona de casa (só anúncios de decoração): nenhuma pergunta de compra, não forcei comentário. Notificações: nenhum comentário nos nossos posts para responder (houve curtidas em links e 1 seguidor novo); nenhum aviso do Facebook. A página agiu como 'Black Achadinhos' o tempo todo.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
