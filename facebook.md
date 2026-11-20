@@ -132,6 +132,10 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - mercado livre promoção excelente produto | https://www.facebook.com/groups/1962689470897388/ | 31,0 mil | público; "venda de produtos do Mercado Livre"; sem regras escritas; ~1.269 posts/dia: oferta e link liberados | 13/11 | 1 (13/11 20h38: perfume Quasar Blue) | 0 | 0
 - Na Biblia Mateus 24 / Daniel 9 | https://www.facebook.com/groups/356028288313922/ | - | religioso, antigo (época Marrone Store): NÃO usar | antigo | 0 | 0 | -
 - CONECTADOS 37 | https://www.facebook.com/groups/413527782540000/ | 2,8 mil | jogos on-line e "renda extra", proibido para menores (apostas): NÃO usar | antigo | 0 | 0 | -
+- TUDO PODE SOBRE AIRFRYER | https://www.facebook.com/groups/606442463475732/ | 22,4 mil | público; ~3 a 4 posts/dia; só airfryer, e a descrição diz "aqui pode link, aqui pode marcas": dúvidas, links e acessórios liberados (tipo b) | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
+- DICAS DE MARCENARIA | https://www.facebook.com/groups/317689266181074/ | 45,8 mil | público; ~16 posts/dia; única regra escrita: ser gentil; nada proíbe páginas, oferta ou link (tipo c) | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
+- Dicas de dona de casa | https://www.facebook.com/groups/1128739248599336/ | 73,2 mil | público; ~130 posts/dia; sem regras escritas (tipo b) | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
+(Avaliados em 20/11 e NÃO pedidos: Apaixonados por Ferramentas, 181 mil, grupo da loja A Mega Loja, regra "PROIBIDO VENDAS"; Donas de casa limpas e organizadas, 339 mil, regra "proibido promoção ou spam". Grupos de compra e venda de ferramentas e "Mercado Livre" genéricos são murais de vendedores: pular.)
 (Pedido pendente antigo, de 4 anos atrás: "Grupo de Saboaria e Cosméticos da Império do Banho". Não é deste projeto: ignorar.)
 
 ## Feito (data | onde | oferta ou assunto do comentário | resultado)
@@ -161,6 +165,9 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - 17/11 20h38 | página | Árvore de Natal pinheiro canadense LuvinCo 1,80 m, 800 galhos (20261117-03, campeã), R$ 217,70 (de R$ 374,88), link https://meli.la/1gfwiGb (etiqueta facebook) | publicado com foto recortada; preço conferido na página do produto às 20h36. Sem link t.me.
 - 17/11 20h41 | página | Creme hidratante corporal Cetaphil 453 g (20261117-04), R$ 79,90 (de R$ 134,90), link https://meli.la/175eFSE (etiqueta telegram; a oferta não tem link_facebook) | publicado com foto recortada; preço conferido na página do produto às 20h39. Sem link t.me. Cota do dia na página (3 posts) cumprida.
 - 17/11 20h45 | story da página | Camiseta Insider Tech Light, R$ 56,70 (de R$ 189) | publicado com foto (zoom na barra para a foto encher a tela) e texto por cima ("Publicidade · link de afiliado no post da nossa página · Canal no Telegram: Blackachados"), sem link.
+
+- 18/11 e 19/11 | tudo | SEM REGISTRO DESTES DIAS: a página não recebeu post nenhum (o último é de 17/11 20h41) e nem a execução das 20h31 nem o Curador deixaram registro; a fila ficou sem oferta nova (a mais recente é de 17/11 20h09). Causa não confirmada.
+- 20/11 06h28 | grupos | pedidos de entrada COMO A PÁGINA, com as regras lidas antes: TUDO PODE SOBRE AIRFRYER, DICAS DE MARCENARIA e Dicas de dona de casa | os 3 entraram na hora, sem perguntas (nenhum proíbe páginas). Hoje sem posts na página nem em grupos: nenhuma oferta com menos de 24 h na fila.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
