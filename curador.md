@@ -4,3 +4,6 @@
 
 ## BLACK FRIDAY (19/11/2026): de 20 a 30/11, pôr na fila 2 celulares por dia (preferir os de GANHOS EXTRAS e desconto real),
 mesmos critérios de preço/nota. Ver lista do Gestor de Mídia em midia.md, seção ESTRATÉGIA BLACK FRIDAY.
+
+## ISCAS PARA ANÚNCIO (20/11/2026): todo dia, ao olhar a Central de afiliados, anote em trafego.md (seção ISCAS) até 3 produtos
+com GANHOS EXTRAS ≥ 15%, R$ 30-200, nota 4,6+, 1.000+ vendidos (de preferência casa/cozinha/organização e moda feminina).
