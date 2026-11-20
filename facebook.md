@@ -87,6 +87,12 @@ Cite o canal sem link: 'procure por Blackachados no Telegram' ou 'toque em "Saib
 DE 1/12 EM DIANTE: guardar os 8 links do mês para o que mais importa (ex.: 2 posts de convite ao canal por semana);
 nos posts de oferta, só o link meli.la. Assinar o Meta One é gasto: só o Vini decide (Diretor pergunta).
 
+## Como mexer nos grupos (aprendido em 20/11)
+- Achar grupo: https://www.facebook.com/search/groups/?q=<assunto>, já COMO A PÁGINA. Os 3 grupos abertos de 20/11 aceitaram a página NA HORA com "Participar do grupo", sem perguntas; depois abre uma tela de boas-vindas (Avançar, depois Entendi: só mostra as regras). Nunca clique em "Convidar".
+- Regras: abra https://www.facebook.com/groups/<id>/about ANTES de entrar (get_page_text mostra regras, posts por dia e membros).
+- Achar post para comentar: abra o grupo com ?sorting_setting=CHRONOLOGICAL (ordem de novos posts). A busca dentro do grupo e a busca geral de posts só trazem posts velhos: não servem. Grupos com mais de 1.000 posts/dia são murais de afiliados (nada para comentar); os de assunto (airfryer, marcenaria, casa) têm poucas perguntas de compra de manhã: tente à noite.
+- Respostas e curtidas nos nossos posts: https://www.facebook.com/notifications (o sininho do topo não carrega). Os endereços /groups/<id>/my_posts e /your_content não existem.
+
 ## Como postar bem (revisão de especialista, 13/11)
 - FOTO GRANDE (16/11): use a foto em alta, trocando no endereço da `imagem` "D_NQ_NP_" por "D_NQ_NP_2X_" e o final
   "-O.jpg" por "-F.jpg". Depois de anexar o print, clique em "Editar" na foto > "Cortar", arraste os cantos do
@@ -132,9 +138,9 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - mercado livre promoção excelente produto | https://www.facebook.com/groups/1962689470897388/ | 31,0 mil | público; "venda de produtos do Mercado Livre"; sem regras escritas; ~1.269 posts/dia: oferta e link liberados | 13/11 | 1 (13/11 20h38: perfume Quasar Blue) | 0 | 0
 - Na Biblia Mateus 24 / Daniel 9 | https://www.facebook.com/groups/356028288313922/ | - | religioso, antigo (época Marrone Store): NÃO usar | antigo | 0 | 0 | -
 - CONECTADOS 37 | https://www.facebook.com/groups/413527782540000/ | 2,8 mil | jogos on-line e "renda extra", proibido para menores (apostas): NÃO usar | antigo | 0 | 0 | -
-- TUDO PODE SOBRE AIRFRYER | https://www.facebook.com/groups/606442463475732/ | 22,4 mil | público; ~3 a 4 posts/dia; só airfryer, e a descrição diz "aqui pode link, aqui pode marcas": dúvidas, links e acessórios liberados (tipo b) | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
-- DICAS DE MARCENARIA | https://www.facebook.com/groups/317689266181074/ | 45,8 mil | público; ~16 posts/dia; única regra escrita: ser gentil; nada proíbe páginas, oferta ou link (tipo c) | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
-- Dicas de dona de casa | https://www.facebook.com/groups/1128739248599336/ | 73,2 mil | público; ~130 posts/dia; sem regras escritas (tipo b) | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
+- TUDO PODE SOBRE AIRFRYER | https://www.facebook.com/groups/606442463475732/ | 22,4 mil | público; ~3 a 4 posts/dia; só airfryer, e a descrição diz "aqui pode link, aqui pode marcas": dúvidas, links e acessórios liberados (tipo b); em 20/11 só havia boas-vindas do administrador e 1 oferta de afiliada, sem perguntas | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
+- DICAS DE MARCENARIA | https://www.facebook.com/groups/317689266181074/ | 45,8 mil | público; ~16 posts/dia; única regra escrita: ser gentil; nada proíbe páginas, oferta ou link (tipo c); em 20/11 só memes, tutoriais e uma foto de ferramenta, sem pergunta de compra | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
+- Dicas de dona de casa | https://www.facebook.com/groups/1128739248599336/ | 73,2 mil | público; ~130 posts/dia; sem regras escritas (tipo b); em 20/11 era mural de anúncios, peixe seco e spam, sem perguntas: sair se nada render em 2 semanas | 20/11 (entrou na hora, sem perguntas) | 0 | 0 | -
 (Avaliados em 20/11 e NÃO pedidos: Apaixonados por Ferramentas, 181 mil, grupo da loja A Mega Loja, regra "PROIBIDO VENDAS"; Donas de casa limpas e organizadas, 339 mil, regra "proibido promoção ou spam". Grupos de compra e venda de ferramentas e "Mercado Livre" genéricos são murais de vendedores: pular.)
 (Pedido pendente antigo, de 4 anos atrás: "Grupo de Saboaria e Cosméticos da Império do Banho". Não é deste projeto: ignorar.)
 
@@ -168,6 +174,8 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 
 - 18/11 e 19/11 | tudo | SEM REGISTRO DESTES DIAS: a página não recebeu post nenhum (o último é de 17/11 20h41) e nem a execução das 20h31 nem o Curador deixaram registro; a fila ficou sem oferta nova (a mais recente é de 17/11 20h09). Causa não confirmada.
 - 20/11 06h28 | grupos | pedidos de entrada COMO A PÁGINA, com as regras lidas antes: TUDO PODE SOBRE AIRFRYER, DICAS DE MARCENARIA e Dicas de dona de casa | os 3 entraram na hora, sem perguntas (nenhum proíbe páginas). Hoje sem posts na página nem em grupos: nenhuma oferta com menos de 24 h na fila.
+- 20/11 06h29 a 06h33 | comentários em grupos | 0 | procurei pergunta de compra recente nos 7 grupos ativos (feed em ordem de novos posts, busca dentro do grupo e busca geral): só anúncios de outras afiliadas, vendas, memes e boas-vindas do administrador. Não forcei comentário. Notificações da página (facebook.com/notifications): só curtidas nos anúncios pagos e 1 marcação de outra afiliada em foto de grupo (spam, ignorada); nenhum comentário para responder.
+- 20/11 | resumo do dia | página: 0 posts e 0 stories (nenhuma oferta com menos de 24 h na fila). Grupos: 3 pedidos de entrada (aceitos na hora), 0 posts, 0 comentários. Nenhum aviso do Facebook.
 
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de

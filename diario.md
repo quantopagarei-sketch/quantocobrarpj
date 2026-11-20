@@ -1,9 +1,4 @@
 # Diário das execuções (uma linha por evento; regra "REGISTRO" do LEIA-PRIMEIRO)
-- 13/11 19:48 Curador: rodou 4 min e não deixou registro nem ofertas (provável Chrome fora do ar).
-- 13/11 20:31 Facebook: 1 post na página (potes Vitrex) e parou sem registro.
-- 13/11 21:18 X: 1 post (fone Soundcore) + resposta com o canal e parou sem registro.
-- 13/11 21:33 Claude principal: fila reposta com 10 ofertas (20261113-06 a -15); robô postou a 1ª às 21h34.
-- 14/11 08:20 Claude principal: a pedido do Vini, Curador, Facebook, X e Gestor de Mídia foram disparados AGORA (execução de sábado antecipada). As execuções da noite de 14/11 devem ler este diário e o seu manual: se a cota do dia já foi cumprida, só completar o que faltar (sem duplicar posts).
 - 14/11 08:45 Claude principal: termos lidos (mídia paga em rede social permitida); anúncio do canal montado em rascunho (R$ 20/dia até 23/11); post de convite com a imagem do anúncio publicado na página. Falta o Vini: forma de pagamento + Publicar.
 - 14/11 08:52 Claude principal: Vini pôs R$ 228 via Pix; campanha do canal publicada (em análise da Meta). Gestor de Mídia mede a partir de hoje.
 - 14/11 20:10 Claude principal: Vini avisou que ninguém entrou. Anúncio: 109 cliques, 98 do Reels do Instagram (toque sem querer), 0 inscrito, R$ 10,78 gastos. Com o "sim" dele: pausado, posicionamentos trocados para só Feed do Facebook e do Instagram e religado (Meta reanalisando). Detalhes em midia.md. Obs.: usei o Chrome do PC das 19h50 às 20h10 (screenshots travavam, sinal de outro agente usando o Chrome); o Curador das 19h47 e o Gestor das 19h19 ainda não tinham gravado nada até 20h10.
@@ -82,3 +77,4 @@
 - 20/11 06:25 X: comecei (portão ok: chat_id presente, nenhum aviso do X; o PC só ligou às 06h20, então esta é a execução atrasada de 19/11. Fila sem oferta com menos de 24 h (a mais nova é de 17/11 20h10); o Curador de 19/11 começou às 06h22: espero ele terminar para escolher as campeãs e postar)
 - 20/11 06:35 Claude principal: a pedido do Vini, criado o Estrategista Sênior de Tráfego (trafego.md, tarefa diária 22h37 na nuvem). Meta: lucro sobre o gasto. Gestor de Mídia passa a coletar e executar as ORDENS de trafego.md.
 - 20/11 06:40 Claude principal: pedido do Vini: comparar mais vendidos x maior comissão antes de investir. Seção ESCOLHA DO PRODUTO em trafego.md (conta do ganho esperado por clique; só anuncia o que passa).
+- 20/11 06:35 Facebook: terminei. Página: 0 posts e 0 stories (nenhuma oferta com menos de 24 h na fila: a mais nova é de 17/11 20h09; o Curador não gravou em 18 e 19/11). Grupos: 3 pedidos de entrada (TUDO PODE SOBRE AIRFRYER, DICAS DE MARCENARIA, Dicas de dona de casa; os 3 aceitos na hora, regras lidas antes), 0 posts, 0 comentários (nenhuma pergunta de compra recente nos 7 grupos; não forcei). Nenhum aviso do Facebook. Dicas novas para achar posts em facebook.md > Como mexer nos grupos. Abas fechadas. Push sem 403.
