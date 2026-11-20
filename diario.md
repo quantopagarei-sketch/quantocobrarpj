@@ -81,3 +81,4 @@
 - 20/11 20:35 Curador: comecei (rodada tardia das 19h47; fila com 4 pendentes que vencem 21/11 ~08h38; vou repor 8 a 10 ofertas, 5+ com cupom POUPAMAIS se a lista existir, 2 celulares)
 - 20/11 20:37 Facebook: comecei (2ª execução do dia; cotas de posts da página, stories e posts em grupos de 20/11 já cumpridas às 08h45-09h00: hoje só comentários em grupos, respostas e conferência de aprovação; 0 pedidos de entrada novos, os 3 de hoje já foram feitos)
 - 20/11 20:52 Facebook: terminei. Nada postado (cotas de 20/11 já cumpridas às 08h45-09h00); 0 comentários (nenhuma pergunta de compra nos 3 grupos ativos); sem aviso do Facebook; abas fechadas. Detalhes em facebook.md.
+- 20/11 20:39 Curador: 10 ofertas novas na fila (20261120-11 a -20), 7 categorias, 2 celulares BF (Edge 60 premium + A36); campeãs Cetaphil e Intelbras (sem link FB/X); cupom POUPAMAIS não localizado; etiqueta em telegram; aba do Chrome fechada. Detalhes em curador.md.
