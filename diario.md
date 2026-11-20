@@ -77,3 +77,4 @@
 - 20/11 06:25 Balanço: depositado R$ 228,00, gasto R$ 149,27, comissão R$ 6,32 pendente (R$ 0,00 confirmada), resultado R$ -149,27 (confirmado)
 - PARA O VINI (Diretor avisa): já entraram 2 vendas pelo anúncio (18/11 R$ 3,70 e 19/11 R$ 2,62 de comissão, ainda "em revisão" no Mercado Livre). Até agora você pôs R$ 228,00 e a Meta já usou cerca de R$ 170 do saldo; sobram R$ 58,08. A Meta também está pedindo uma verificação da conta de anúncios; só você pode fazer.
 - 20/11 06:21 Facebook: comecei (portão ok: chat_id presente; Aviso 1 de 16/11 tem mais de 3 dias, então grupos liberados; fila sem oferta com menos de 24 h, a mais nova é de 17/11 20h09: hoje sem posts na página, só pedidos de entrada, comentários e respostas)
+- 20/11 06:21 Curador: comecei (fila vazia: 0 pendentes; canal sem post desde 18/11 20h50; vou repor 8 a 10 ofertas, 5+ com cupom POUPAMAIS)
