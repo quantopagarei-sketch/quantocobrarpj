@@ -1,14 +1,6 @@
 {
  "chat_id": -1004273740257,
  "slots": {
-  "2026-11-13": [
-   12,
-   15,
-   17,
-   19,
-   20,
-   21
-  ],
   "2026-11-14": [
    9,
    11,
@@ -68,7 +60,8 @@
    19,
    20,
    21
-  ]
+  ],
+  "2026-11-21": []
  },
  "itens": {
   "20261113-01": {
@@ -368,6 +361,18 @@
    "status": "postado",
    "message_id": 59,
    "em": "2026-11-20T22:09-03:00"
+  },
+  "20261120-07": {
+   "status": "vencido"
+  },
+  "20261120-08": {
+   "status": "vencido"
+  },
+  "20261120-09": {
+   "status": "vencido"
+  },
+  "20261120-10": {
+   "status": "vencido"
   }
  },
  "bot": "@blackachados_bot",
@@ -375,10 +380,10 @@
  "chat_titulo": "Black Achadinhos 🖤 Ofertas do Dia",
  "ligado_em": "2026-11-13T14:35-03:00",
  "boas_vindas_ok": true,
- "pendentes": 12,
+ "pendentes": 8,
  "foto_ok": true,
  "ultimo_post": "2026-11-20T22:09-03:00",
- "ultimo_dia_ok": "2026-11-20",
+ "ultimo_dia_ok": "2026-11-21",
  "nome_bot_ok": true,
  "textos_v": 5
 }
