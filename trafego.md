@@ -155,8 +155,39 @@ De preferência casa/organização/cozinha e moda feminina (H2). Ver também a t
   d) Saldo: R$ 50 x 5 dias + R$ 300 = ~R$ 550 a partir de 22/11; saldo hoje R$ 384,36. Faltam ~R$ 170. Avisar o Vini UMA vez em 25/11 com o valor exato que falta (ele deposita por Pix; o Claude nunca deposita).
   e) Toda leitura vai para balanco.md com gasto x comissão por etiqueta.
 
+- [ABERTA] 21/11 — ORDEM 4 (Claude principal, 21/11 15h00). DECISÃO DO VINI: "produto chamativo, o que vende mais e comissão alta; se tiver que mudar todo dia, mude o produto; o foco é LUCRO com o tráfego pago". VALE MAIS QUE AS ORDENS 1 a 3 onde conflitar (verba total continua R$ 50/dia até 26/11 e R$ 300 na Black).
+  Pesquisa feita na Central de afiliados (filtros Ganhos extras + Mais vendidos), 21/11 ~14h55. Ganho por venda = preço x %:
+  | Produto | Preço | Comissão | Ganho/venda | Vendidos · nota |
+  |---|---|---|---|---|
+  | Esteira Ergométrica Elétrica Dobrável Residencial (54% OFF) | R$ 689,99 | EXTRAS 28% | ~R$ 193 | +10 mil · 4,7 |
+  | Smartphone OPPO A6t 128 GB (patroc. OPPO) | R$ 833,52 no Pix | EXTRAS 10% | ~R$ 83 | +10 mil · 4,8 |
+  | Colchão Solteiro D23 Zidi (patroc. ZIDI) | R$ 189,99 | EXTRAS 26% | ~R$ 49 | +10 mil · 4,8 |
+  | Perfume Ferofire 100 ml | R$ 161 | EXTRAS 26% | ~R$ 42 | +10 mil · 4,3 |
+  | Air Fryer Midea 5,5 L (67% OFF no Pix) | R$ 243,51 no Pix | EXTRAS 13% | ~R$ 32 | +10 mil · 4,9 |
+  | Kit 2 Luminária Solar 3500 W | R$ 175,77 no Pix | EXTRAS 17% | ~R$ 30 | +1 mil · 4,7 |
+  | Câmera Intelbras iM3 C (patroc. ACER) | R$ 143,91 no Pix | EXTRAS 16% | ~R$ 23 | +250 mil · 4,9 |
+  | Espelho redondo 60 cm | R$ 69,91 | EXTRAS 33% | ~R$ 23 | +100 mil · 4,8 |
+  | Samsung TV 65" Mini LED | R$ 3.629 | EXTRAS 8% | ~R$ 290 | +5 mil · 4,9 |
+  ATENÇÃO: ganhos extras só valem na compra DIRETA do produto anunciado; venda indireta paga a % normal (6-8%).
+  a) MONTAR HOJE (Gestor, agora): na campanha "Fase A - Iscas Black - 20/11", 3 conjuntos NOVOS (duplicar o "A - Camera Dupla Wifi - anuncioa" e trocar produto, imagem, link e nome):
+     - "C - Esteira - anuncioc" R$ 10/dia (link direto ?matt_word=anuncioc&matt_tool=58037177)
+     - "D - Air Fryer Midea - anunciod" R$ 10/dia (?matt_word=anunciod...)
+     - "E - Celular OPPO A6t - anuncioe" R$ 10/dia (?matt_word=anuncioe...)
+     Criar as etiquetas anuncioc/d/e no painel ML (adminlabel). Reconferir preço e % na página antes. Imagens pelo design.md (preço "no Pix" só se for o do dia).
+     Fim dos conjuntos: 26/11 23h59. Só Feed do Facebook + Feed do Instagram, Brasil, mesma idade dos atuais.
+  b) PAUSAR "A - Camera Dupla Wifi - anuncioa" (0 venda, fora da lista). Baixar "B - Cinta Modeladora - anunciob" de R$ 35 para R$ 20 (segue como motor de vendas indiretas). Estender o fim do B até 26/11 23h59.
+     Total = 20 + 10 + 10 + 10 = R$ 50/dia.
+  c) TROCA DIÁRIA (todo dia, a partir de 22/11, no horário do Gestor): reabrir a Central (Ganhos extras + Mais vendidos), refazer a tabela e a conta.
+     O conjunto com PIOR "comissão ganha ÷ gasto" que já gastou R$ 15 é PAUSADO e o dinheiro vai para o melhor produto novo da tabela que ainda não foi testado (conjunto novo, etiqueta nova). Produto que vendeu NÃO sai.
+     Se um produto vender (venda direta), dobrar a verba dele no dia seguinte, sem passar do total de R$ 50/dia.
+     Ganhos extras somem sem aviso: se a % caiu, pausar e trocar.
+  d) BLACK (27/11 18h00 a 28/11 23h59, R$ 300): verba nos 2 produtos com melhor comissão ÷ gasto da semana; se nenhum vendeu, nos 2 de maior ganho por venda com CTR acima de 1%.
+  e) Medir LUCRO: em balanco.md, por etiqueta: gasto (Meta) x comissão (ML). Meta da semana: comissão > gasto.
+  f) Pode criar conjuntos e trocar produtos SEM perguntar ao Vini (autorizado em 21/11: "pesquise e aplique... mude o produto"). NUNCA passar de R$ 50/dia somados até 26/11. Proibidos: suplementos com promessa de saúde, adulto, armas, remédios.
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
 - 20/11 22h40 Estrategista (1ª rodada): ORDEM 1 sem registro (Fase A no ar, R$ 0,66/6 cliques, sem ids/etiquetas/produtos escritos). Aberta ORDEM 2 (documentar e conferir Fase A, coleta, Detalhamento). Verba mantida R$ 20/dia; pedido de depósito para a Black adiado para 25/11, só se alguma etiqueta chegar a comissão÷gasto ≥ 0,7.
 - 21/11 14h50 Claude principal: Vini aprovou R$ 50/dia até 26/11 e R$ 300 na Black (desde a véspera). Orçamentos ajustados (B R$ 35, A R$ 15). Aberta ORDEM 3.
+- 21/11 15h00 Claude principal: Vini pediu produto chamativo + mais vendido + comissão alta, trocando todo dia. Pesquisa na Central e ORDEM 4 aberta; Gestor disparado fora do horário.
