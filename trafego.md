@@ -133,6 +133,7 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 ## ISCAS (candidatos; o Curador acrescenta, o Estrategista escolhe)
 Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6+, 1.000+ vendidos, foto boa, desconto real.
 De preferência casa/organização/cozinha e moda feminina (H2). Ver também a tabela de 17/11 em midia.md (tênis Kappa, tatame, cuecas).
+- 21/11 19h55 (Claude principal, selo GANHOS comum, não "extras"): Cicaplast Baume B5+ 40 ml R$ 64,37 · 16% · 4,9 · +500 mil (loja oficial); Revlon Uniq One 150 ml R$ 59,97 · 16% · 4,9 · +50 mil; Kit 6 cuecas Polo Wear R$ 59,99 · 16% · 4,7 · +10 mil; Ventilador Arno Ultra Silence Force R$ 279,99 · 20% · 4,8 · +5 mil (acima de R$ 200, mas é verão).
 
 ## LIÇÕES (pedido do Vini, 21/11/2026: "replicar o que deu certo e não repetir o que deu errado") — LER ANTES DE QUALQUER DECISÃO
 Atualizar esta seção a cada leitura com venda nova ou corte. Toda ordem e toda troca de produto têm que respeitar isto.
