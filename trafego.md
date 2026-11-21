@@ -141,7 +141,22 @@ De preferência casa/organização/cozinha e moda feminina (H2). Ver também a t
      o criativo (pedir ao design.md uma 2ª imagem 1080x1350 do mesmo produto). Saldo da Meta abaixo de R$ 10: só anotar (ela para sozinha).
   f) NÃO criar campanha nova, NÃO pôr celular, NÃO mexer nas campanhas antigas desativadas nem nos rascunhos.
 
+- [ABERTA] 21/11 — ORDEM 3 (Claude principal, 21/11 14h50, decisão do Vini: "bora investir 50 por dia e na Black 300 só no dia, ou começar um dia antes"). VALE MAIS QUE A ORDEM 2 f) e o teto de R$ 20/dia.
+  FEITO 21/11 ~14h50 (Claude principal): na Fase A, conjunto "B - Cinta Modeladora - anunciob" de R$ 10 para R$ 35/dia; "A - Camera Dupla Wifi - anuncioa" de R$ 10 para R$ 15/dia. Total R$ 50/dia.
+  Motivo: painel ML 13-21/11 por etiqueta: anunciob 69 cliques, 3 unidades (extensão E27, venda INDIRETA), conversão 1,45%; anuncioa 64 cliques, 0 venda; anuncio (antiga) 714 cliques, 2 vendas indiretas. Orgânico (telegram/facebook/twitter) 0 venda. TODAS as 3 vendas foram indiretas (ninguém comprou o produto anunciado).
+  Saldo Meta em 21/11 ~14h55: R$ 384,36 (Vini depositou R$ 358,57 via Pix em 21/11).
+  PLANO até a Black:
+  a) 22 a 26/11: R$ 50/dia no total. Antes de 23/11 23h59 (fim atual dos conjuntos), ESTENDER a data de fim da Fase A até 26/11 23h59.
+     Regra de troca: conjunto A com R$ 20 gastos (somando desde 20/11) e 0 venda em anuncioa = pausar e passar os R$ 15 para o B (B fica R$ 50).
+     Se o B passar de R$ 60 gastos desde 21/11 sem venda NOVA em anunciob = baixar o B para R$ 20 e anotar para o Estrategista.
+  b) 24/11: aquecer 1 conjunto de CELULAR (aparelho com melhor comissão conferida no gerador de links; mínimo 5%) a R$ 10/dia DENTRO dos R$ 50 (tirar do A ou do B, o que estiver pior). Etiqueta própria: anuncio-cel.
+     PS5: só entra se a comissão conferida for 5% ou mais. Anotar a comissão lida.
+  c) BLACK: R$ 300 de 27/11 18h00 até 28/11 23h59 (começa na véspera à noite). Divisão inicial: 60% no melhor conjunto de 22-26/11 (maior comissão ÷ gasto), 40% no celular. Regra: conjunto com R$ 60 gastos na Black e 0 venda = pausar e passar a verba.
+  d) Saldo: R$ 50 x 5 dias + R$ 300 = ~R$ 550 a partir de 22/11; saldo hoje R$ 384,36. Faltam ~R$ 170. Avisar o Vini UMA vez em 25/11 com o valor exato que falta (ele deposita por Pix; o Claude nunca deposita).
+  e) Toda leitura vai para balanco.md com gasto x comissão por etiqueta.
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
 - 20/11 22h40 Estrategista (1ª rodada): ORDEM 1 sem registro (Fase A no ar, R$ 0,66/6 cliques, sem ids/etiquetas/produtos escritos). Aberta ORDEM 2 (documentar e conferir Fase A, coleta, Detalhamento). Verba mantida R$ 20/dia; pedido de depósito para a Black adiado para 25/11, só se alguma etiqueta chegar a comissão÷gasto ≥ 0,7.
+- 21/11 14h50 Claude principal: Vini aprovou R$ 50/dia até 26/11 e R$ 300 na Black (desde a véspera). Orçamentos ajustados (B R$ 35, A R$ 15). Aberta ORDEM 3.

@@ -29,6 +29,7 @@ consumiu. O saldo que sobra continua sendo dele.
 | Data | Valor | Como | Obs. |
 |---|---|---|---|
 | 14/11/2026 | R$ 228,00 | Pix | 1º depósito |
+| 21/11/2026 | R$ 358,57 | Pix | 2º depósito (saldo após: R$ 384,36 às ~14h55) |
 
 ## Leituras (uma linha por leitura; gasto e retorno ACUMULADOS)
 | Data e hora | Campanha | Gasto acum. | Cliques | Inscritos novos | Vendas (etiqueta anuncio) | Comissão acum. | Resultado |
