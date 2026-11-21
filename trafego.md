@@ -108,6 +108,22 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6+, 1.000+ vendidos, foto boa, desconto real.
 De preferência casa/organização/cozinha e moda feminina (H2). Ver também a tabela de 17/11 em midia.md (tênis Kappa, tatame, cuecas).
 
+## LIÇÕES (pedido do Vini, 21/11/2026: "replicar o que deu certo e não repetir o que deu errado") — LER ANTES DE QUALQUER DECISÃO
+Atualizar esta seção a cada leitura com venda nova ou corte. Toda ordem e toda troca de produto têm que respeitar isto.
+DEU CERTO (replicar):
+- Anúncio de Tráfego com link DIRETO do produto (?matt_word=<etiqueta>&matt_tool=58037177), Feed do Facebook + Instagram: credita venda (provado em 18/11).
+- Produto barato/de impulso como isca: o "B - Cinta Modeladora" (anunciob) teve a melhor conversão (69 cliques, 3 unidades, 1,45%). Manter um conjunto "motor" desse tipo.
+- Quem clica compra OUTRAS coisas: as 3 vendas foram indiretas (puxadores, babuche, extensão E27), todas itens de casa/uso diário de R$ 40 a R$ 75.
+- Clique barato: R$ 0,11 a R$ 0,25 por clique no link.
+- Etiqueta própria por conjunto: só assim se sabe o que vendeu.
+DEU ERRADO (não repetir):
+- Anúncio para o canal do Telegram (R$ 20,92, 0 inscrito) e para seguidores da página (R$ 18,64, 0 seguidor).
+- Celular caro com comissão baixa sem Black (iPhone 16e e Galaxy A17: R$ 51,61, 340 cliques, 0 venda). Celular só volta com comissão ≥ 10% (ex.: OPPO A6t) e preço de Black.
+- Produto anunciado que só gera clique: espelho/balança e câmera (anuncioa, 64 cliques, 0 venda) nunca venderam o produto em si.
+- Etiqueta única "anuncio" para tudo (não dava para saber o que vendeu).
+- Divulgação orgânica (Telegram, Facebook, X): ~45 cliques, 0 venda. Não gastar verba nisso.
+- Agente que não grava registro (Fase A ficou sem documentação em 20/11).
+
 ## ORDENS (o Estrategista escreve; o Gestor executa e marca FEITO com hora)
 - [ABERTA] 20/11 — ORDEM 1 (para o Gestor, AGORA de manhã: hoje é feriado e o Vini quer os anúncios no ar o quanto antes):
   a) Criar no painel de afiliado as etiquetas `anuncio-a` e `anuncio-b`.
