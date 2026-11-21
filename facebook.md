@@ -1,6 +1,13 @@
 # Facebook – página "Black Achadinhos" (diário do Divulgador)
 
-> **18/11/2026: CUPOM POUPAMAIS (+25% OFF só pelo nosso link). Siga o item 2 da seção "CUPOM POUPAMAIS" do LEIA-PRIMEIRO.md.**
+> **21/11/2026 – SEMANA DA BLACK (vale mais que o resto deste arquivo): o Vini decidiu manter a página postando ("deixar postando").
+> TRAVA OBRIGATÓRIA (a Meta travou a conta do Vini em 21/11 às 15h02 por dois acessos automáticos ao mesmo tempo, e é a mesma conta
+> dos anúncios, que são o que vende): antes de abrir o Facebook, `git pull` e leia o fim de diario.md. Se houver linha "comecei" de
+> HOJE sem o "terminei" correspondente (ex.: "Mídia: comecei (Gerenciador em uso)"), espere 10 min e confira de novo, até 3 vezes; se
+> continuar ocupado, anote "DD/MM: Facebook adiado (Meta em uso)" e termine. Livre: escreva "DD/MM HH:MM Facebook: comecei
+> (Facebook em uso)", dê push, trabalhe, e no fim escreva "DD/MM HH:MM Facebook: terminei" e dê push. Uma aba por vez, sem recarregar
+> à toa. Nunca abra o Gerenciador de Anúncios.**
+> **Cupom POUPAMAIS: não localizado desde 20/11 (ver LEIA-PRIMEIRO); não procure.**
 
 Página: https://www.facebook.com/blackachadinhos.ofertas (endereço trocado em 13/11; o antigo /onmarronestore
 não vale mais, mesmo que o texto da tarefa cite). Na dúvida: https://www.facebook.com/pages/?category=your_pages

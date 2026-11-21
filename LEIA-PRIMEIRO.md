@@ -12,7 +12,21 @@ Tudo deste projeto mora NESTE ramo (`telegram`) do repositório quantocobrarpj. 
 hora em hora). Nunca escreva arquivos deste projeto no `main` (lá cada push pode publicar o site).
 O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só chamam esse arquivo).
 
-## CUPOM POUPAMAIS (presente do Mercado Livre ao Vini em 18/11/2026; vale para TODOS os agentes; prioridade máxima no sprint)
+## SEMANA DA BLACK (22 a 30/11/2026) — LEIA ANTES DE TUDO (revisão do Claude principal em 21/11, pedido do Vini)
+- A Black Friday é SEXTA, 27/11. Foco do Vini desde 20/11: LUCRO com o anúncio pago (comissão maior que o gasto). O canal, a página e o X
+  continuam rodando, mas o orgânico ainda não trouxe venda: ninguém gasta verba nem tempo extra nele. Plano do anúncio: trafego.md > ORDEM 5.
+- TRAVA: 1 acesso por vez à Meta (Facebook e Gerenciador). Antes de entrar, `git pull` e confira em diario.md que não há linha "comecei"
+  de hoje sem o "terminei" correspondente; entre escrevendo "DD/MM HH:MM <agente>: comecei (Facebook em uso)" e saia com "terminei".
+  Ocupado: espere 10 min e confira de novo (até 3 vezes). A Meta travou a conta em 21/11 por dois acessos automáticos ao mesmo tempo.
+- Equipe da semana: robô (posta sozinho) · Curador 19h47 · Gestor de Mídia v2 19h19 (anúncios + balanço) · Divulgador Facebook 20h31 ·
+  Divulgador X 21h17 · Estrategista 22h37 (nuvem) · Crescimento seg e qui · Diretor domingo 18h41. O Gestor antigo e o agente de
+  Balanço foram desligados em 21/11.
+- Diretor (22/11 e 29/11): manda o aviso de domingo com os números do canal e 1 linha do anúncio (copiada do Resumo de balanco.md).
+  NÃO mexe em anúncio, verba, horários nem agentes nesta semana (anúncio é do Estrategista; o resto, do Claude principal).
+
+## CUPOM POUPAMAIS (presente do Mercado Livre ao Vini em 18/11/2026) — NÃO LOCALIZADO DESDE 20/11: CONSIDERAR ENCERRADO
+(21/11: o Curador procurou o aviso e a lista "Produtos válidos" duas vezes em 20/11 e não achou. Não gaste a execução procurando: só use
+o cupom se o aviso aparecer sozinho no painel; aí volte a seguir as regras abaixo e anote em curador.md.)
 O ML liberou ao Vini o cupom **POUPAMAIS: +25% OFF para quem comprar pelo link de afiliado dele**. Compra mínima R$ 1,
 desconto máximo R$ 500, "enquanto durarem os estoques". SÓ vale para os produtos da lista "Produtos válidos"
 (Central de afiliados e criadores do ML > aviso do cupom > botão "Produtos válidos"). Data de fim: NÃO informada.
@@ -81,6 +95,11 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 - De 1/12 em diante volta ao normal: o Diretor repõe 6 horários e as cotas antigas.
 
 ## Situação
+- 21/11/2026 19h30 (Claude principal, revisão da semana da Black): canal com 2 inscritos; robô saudável (postou hoje). Anúncios: 3 vendas,
+  todas indiretas (R$ 6,32 pendentes + a extensão E27, valor não medido) contra R$ 152,60 gastos até 20/11 (21/11 não medido);
+  o plano da Black está em trafego.md > ORDEM 5.
+  Curador, Divulgador Facebook e Divulgador X v2 estão no modelo Fable, que bateu o limite de uso: falharam de 20/11 à noite em diante
+  (o Vini vai trocar os três para Sonnet). Gestor de Mídia antigo (sem gravar, push 403) e agente de Balanço desligados; Gestor v2 criado.
 - 15/11/2026 18h41 (Diretor, 1ª leitura semanal): 2 inscritos (igual a 13/11); 19 posts no canal; robô saudável (sem erro,
   rodou hoje); fila com 6 ofertas que vencem em 16/11 entre 10h41 e 13h27 se o Curador das 19h47 não repuser. Curador, Facebook
   e X seguem sem gravar (push 403 nas tarefas deles; este Diretor consegue dar push). Cliques, vendas e ganhos: não medido
@@ -113,7 +132,8 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 | Crescimento (seg e qui) | Traz inscritos sem spam; registra em `crescimento.md` | Claude (+ Chrome se houver) | Sim |
 | Divulgador Facebook (diário, 20h31) | Posta as campeãs do dia na página "Black Achadinhos" do Facebook; em grupos, posta onde a regra permite e comenta (sem link) para gerar interação. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
 | Divulgador X (diário, 21h17) | Posta as campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora e as outras programadas (quantidade em `x.md`). Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
-| Gestor de Mídia (diário, 19h19, só de 14 a 28/11) | Prepara e acompanha o teste de anúncio pago de R$ 70 (16 a 22/11); pausa se passar do limite; nunca cria campanha nem aumenta verba. Regras em `midia.md` | Claude + Chrome do PC do Vini | Sim |
+| Gestor de Mídia v2 (diário, 19h19, de 22 a 30/11) | Coleta os números, faz o balanço e executa as ORDENS do Estrategista (cria, troca e pausa anúncios dentro da verba do Vini). Regras em `trafego.md` | Claude + Chrome do PC do Vini | Sim |
+| Estrategista de Tráfego (diário, 22h37) | Lê os números e escreve as ORDENS do dia seguinte; avisa o Vini por push quando precisa. Regras em `trafego.md` | Claude (nuvem) | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
 | Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |
 
@@ -140,6 +160,10 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
    - `link_facebook` = etiqueta `facebook` e `link_x` = etiqueta `twitter`, só para as 2 campeãs do dia.
    São 3 gerações no máximo (todas as páginas com `telegram`; as 2 campeãs com `facebook`; as 2 com `twitter`).
    No fim, deixe a etiqueta em uso de volta em `telegram`. Nunca crie, renomeie nem apague etiquetas.
+   JEITO NOVO (21/11; a troca da "Etiqueta em uso" foi barrada pelo ambiente em 20/11): gere tudo só com `telegram` e monte
+   `link_facebook` e `link_x` das 2 campeãs pelo link direto do produto, que credita venda (provado em 18/11):
+   `<pagina>?matt_word=facebook&matt_tool=58037177` e `<pagina>?matt_word=twitter&matt_tool=58037177`
+   (se a `pagina` já tiver "?", troque o "?" do começo por "&"). Não troque a etiqueta em uso.
 6. A fila conferida às 19h47 é postada às 20h e 21h do mesmo dia e nos horários do dia seguinte
    (`config.json` > `horarios`). Ofertas vencem `validade_horas` (hoje 26 h) depois de `conferido_em`.
    O push da fila já dispara o robô na hora.

@@ -23,6 +23,11 @@ Nome do produto, variação (ex.: 256 GB), "R$ X no Pix", "Vendido no Mercado Li
 ## Não pode aparecer
 Logo da Apple ou do Mercado Livre desenhado à parte, a palavra "oficial", "% OFF", preço "de/por", "só hoje", "últimas unidades", contagem regressiva, setas, botão falso, "clique aqui", "grátis", emoji, nome ou foto de qualquer pessoa.
 
+## Exceção da semana da Black (22 a 27/11/2026; decisão do Claude principal em 21/11)
+- Pode "de R$ X por R$ Y" SÓ se a página do produto mostrar o preço riscado X no mesmo dia (anote a hora conferida em trafego.md).
+- Pode "Black Friday" SÓ se a página do produto mostrar o selo de Black Friday.
+- Continua proibido: "% OFF", "só hoje", "últimas unidades", contagem regressiva e todo o resto da lista acima.
+
 ## Regra do preço
 Preço na imagem só se conferido na página do produto no dia. Se o preço mudar, refazer a imagem.
 

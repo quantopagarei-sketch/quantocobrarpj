@@ -344,7 +344,10 @@ Cliques no link ÷ impressões acima de 5% num posicionamento = toque sem querer
 - Prova que o link direto com matt_word credita VENDA, não só clique. Veio do anúncio de impulso (espelho/balança), único ativo em 18/11.
 - Gasto em anúncios até 17/11 ~R$ 91; retorno R$ 3,70 (pendente). Ainda no prejuízo. Rodada 1 termina 20/11 09h31: decidir rodada 2 com base no gasto final x vendas.
 
-## ESTRATÉGIA BLACK FRIDAY (decisão do Vini, 19/11/2026 10h19) — VALE MAIS QUE AS SEÇÕES ANTERIORES
+## ⚠️ 21/11/2026: o plano que vale agora é o de trafego.md (ATUALIZAÇÃO e ORDEM 5). A Black é 27/11; a verba da Black vai de
+## 26/11 18h00 a 27/11 23h59. O Gestor de Mídia antigo foi aposentado (não gravava); quem executa é o Gestor v2.
+
+## ESTRATÉGIA BLACK FRIDAY (decisão do Vini, 19/11/2026 10h19) — SUBSTITUÍDA por trafego.md em 20 e 21/11
 Foco: Black Friday (27/11) com CELULARES de comissão alta. Usar os testes de 14 a 20/11 como estudo.
 
 O que os testes ensinaram (até 19/11):

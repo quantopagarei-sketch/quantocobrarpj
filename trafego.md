@@ -3,11 +3,32 @@
 Criado em 20/11/2026 a pedido do Vini: "descobrir o motivo das duas vendas e replicar a estratégia visando LUCRO
 sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for anúncio pago.
 
+## ⚠️ ATUALIZAÇÃO 21/11 19h30 (Claude principal, revisão da semana da Black pedida pelo Vini) — VALE MAIS QUE TUDO ABAIXO
+1. GESTOR ANTIGO APOSENTADO. A tarefa "Telegram Ofertas: Gestor de Mídia (coleta e executa)" (trig_017jvWiDF1TBcyUioy9YmaDt)
+   nunca conseguiu gravar aqui (push 403 desde 14/11: por isso a Fase A ficou sem registro). Com o "sim" do Vini (21/11), ela foi
+   substituída pelo GESTOR DE MÍDIA v2 (trig_01AAWAbRKe2XzysEA5JJsKir, 19h19, de 22 a 30/11, Opus, já ligado e preso ao PC).
+   NINGUÉM religa o antigo. Se você é o Gestor e o texto da sua tarefa NÃO começa com "Você é o GESTOR DE MÍDIA v2", você é o
+   antigo: termine agora, sem abrir o Chrome, com uma linha.
+2. BALANÇO DENTRO DO GESTOR. O agente de Balanço (trig_01EkPWhNJF5ajKVepS1ojCB2) foi desligado (estava no modelo Fable, que bateu
+   o limite de uso e não rodava desde 20/11). O Gestor v2 faz o balanço na mesma visita: 1 acesso por dia à Meta em vez de 2.
+3. DATA DA BLACK CORRIGIDA. A Black Friday é SEXTA, 27/11/2026. A "véspera" é quinta, 26/11. Os R$ 300 da Black vão de
+   26/11 18h00 até 27/11 23h59 (as ORDENS 3 e 4 diziam 27/11 18h00 a 28/11 23h59, o que perderia o próprio dia da Black).
+4. TRAVA: 1 ACESSO POR VEZ À META (a conta foi travada em 21/11 às 15h02 por dois acessos automáticos ao mesmo tempo).
+   Quem vai mexer no Facebook ou no Gerenciador escreve antes em diario.md "DD/MM HH:MM <agente>: comecei (Facebook em uso)"
+   ou "(Gerenciador em uso)", dá push, e no fim escreve "DD/MM HH:MM <agente>: terminei". Antes de entrar, git pull e confira
+   que não há "comecei" de hoje sem o "terminei" correspondente; se houver, espere 10 min e confira de novo (até 3 vezes).
+   Horários fixos da semana: retomada 22/11 10h13 · Gestor v2 19h19 · Divulgador Facebook 20h31 · checagem da Black 27/11 09h13.
+   O Claude principal não entra na Meta entre 19h15 e 21h15. No máximo 1 sessão de EDIÇÃO de anúncios por dia (pausar por
+   regra de corte não conta).
+5. PLANO DA SEMANA: ver ORDEM 5 (calendário dia a dia). Ela vale mais que as ORDENS 1 a 4 onde houver diferença.
+6. DIVULGADOR FACEBOOK SEGUE LIGADO (decisão do Vini em 21/11 19h15: "deixar postando"), sempre com a TRAVA do item 4.
+   A linha de 21/11 15h15 no Diário ("Divulgador Facebook DESLIGADO") ficou velha: não desligue o Divulgador por conta própria.
+
 ## Equipe
 | Quem | Quando | O que faz |
 |---|---|---|
 | Estrategista Sênior (este manual) | todo dia 22h37, na nuvem (não usa o PC) | lê os números gravados, decide, escreve as ORDENS do dia seguinte |
-| Gestor de Mídia (midia.md) | todo dia 19h19, no Chrome do PC | COLETA os números (seção COLETA) e EXECUTA as ORDENS abertas |
+| Gestor de Mídia v2 (trig_01AAWAbRKe2XzysEA5JJsKir) | todo dia 19h19, de 22 a 30/11, no Chrome do PC | COLETA os números, faz o BALANÇO e EXECUTA as ORDENS abertas |
 | Agente de Design (design.md) | quando a ORDEM pedir | faz as imagens dos anúncios |
 | Curador (curador.md) | todo dia 19h47 | passa candidatos a "isca" (seção ISCAS) |
 
@@ -81,7 +102,7 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
   Isca 1: produto de casa/organização com ganhos extras ≥ 20%. Isca 2: produto de moda/calçado feminino ≥ 15%.
   Público: o que o Detalhamento mostrar como melhor; sem dado, Brasil 25-55, todos.
 - FASE B (24 a 26/11, até R$ 15/dia): só os criativos com melhor custo por clique e alguma venda; trocar o pior.
-- FASE C (27/11 a 01/12, Black Friday): concentrar no conjunto vencedor (R$ 30-60/dia, conforme saldo).
+- FASE C (26/11 18h00 a 27/11 23h59, Black Friday; data corrigida em 21/11): R$ 300 nos 2 melhores conjuntos (ver ORDEM 5).
   Celular só como teste pequeno (até R$ 10/dia) e só com GANHOS EXTRAS ≥ 8% e desconto real grande.
 - 02/12: balanço final por etiqueta (gasto x comissão) e lição para o Natal.
 
@@ -91,9 +112,12 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 - Meta de lucro: comissão ÷ gasto ≥ 1,0 (empate) até 26/11; ≥ 1,3 na Black. Comissão "em revisão" conta à parte da confirmada.
 - Prejuízo acumulado de todos os testes passar de R$ 250 sem nenhum conjunto acima de 0,7: parar tudo e avisar o Vini.
 
-## COLETA (o Gestor grava todo dia em balanco.md, seção "Leituras")
-- Meta, por conjunto e por anúncio: gasto, impressões, cliques no link, CPC, CTR.
-- Meta, Detalhamento por idade e sexo, e por posicionamento (dos últimos 3 dias).
+## COLETA (o Gestor v2 grava todo dia em balanco.md: "Leituras", "Resumo" e "Depósitos")
+- Ordem para não perder tempo na Meta: 1) painel do ML (não é Meta); 2) Gerenciador; 3) Cobrança. Uma aba por vez.
+- Meta, por conjunto e por anúncio: gasto, impressões, cliques no link, CPC, CTR. Situação de cada um (ativo, em análise, reprovado).
+- Meta, Detalhamento por idade e sexo, e por posicionamento (dos últimos 3 dias): em 22/11, 25/11 e 28/11 (não todo dia).
+- Cobrança (Atividade de pagamento): depósitos novos (data e valor) e saldo pré-pago. A Meta tira ~1,14 x o gasto do saldo.
+- BALANÇO: reescrever o "Resumo" de balanco.md (depositado, gasto, saldo, comissão pendente e confirmada, resultado, e comissão ÷ gasto por etiqueta).
 - ML, painel de afiliado (período: últimos 7 dias): aba "Etiquetas" (cliques e vendas de cada etiqueta) e aba "Vendas"
   (data, produto, categoria, valor, ganho, direta ou indireta, estado). Copiar cada venda nova para a tabela VENDAS abaixo.
 - Saldo da conta de anúncios.
@@ -167,7 +191,7 @@ DEU ERRADO (não repetir):
      Se o B passar de R$ 60 gastos desde 21/11 sem venda NOVA em anunciob = baixar o B para R$ 20 e anotar para o Estrategista.
   b) 24/11: aquecer 1 conjunto de CELULAR (aparelho com melhor comissão conferida no gerador de links; mínimo 5%) a R$ 10/dia DENTRO dos R$ 50 (tirar do A ou do B, o que estiver pior). Etiqueta própria: anuncio-cel.
      PS5: só entra se a comissão conferida for 5% ou mais. Anotar a comissão lida.
-  c) BLACK: R$ 300 de 27/11 18h00 até 28/11 23h59 (começa na véspera à noite). Divisão inicial: 60% no melhor conjunto de 22-26/11 (maior comissão ÷ gasto), 40% no celular. Regra: conjunto com R$ 60 gastos na Black e 0 venda = pausar e passar a verba.
+  c) BLACK: R$ 300 de 26/11 18h00 até 27/11 23h59 (começa na véspera à noite; data corrigida em 21/11, a Black é 27/11). Divisão inicial: 60% no melhor conjunto de 22-26/11 (maior comissão ÷ gasto), 40% no celular. Regra: conjunto com R$ 60 gastos na Black e 0 venda = pausar e passar a verba.
   d) Saldo: R$ 50 x 5 dias + R$ 300 = ~R$ 550 a partir de 22/11; saldo hoje R$ 384,36. Faltam ~R$ 170. Avisar o Vini UMA vez em 25/11 com o valor exato que falta (ele deposita por Pix; o Claude nunca deposita).
   e) Toda leitura vai para balanco.md com gasto x comissão por etiqueta.
 
@@ -197,9 +221,49 @@ DEU ERRADO (não repetir):
      O conjunto com PIOR "comissão ganha ÷ gasto" que já gastou R$ 15 é PAUSADO e o dinheiro vai para o melhor produto novo da tabela que ainda não foi testado (conjunto novo, etiqueta nova). Produto que vendeu NÃO sai.
      Se um produto vender (venda direta), dobrar a verba dele no dia seguinte, sem passar do total de R$ 50/dia.
      Ganhos extras somem sem aviso: se a % caiu, pausar e trocar.
-  d) BLACK (27/11 18h00 a 28/11 23h59, R$ 300): verba nos 2 produtos com melhor comissão ÷ gasto da semana; se nenhum vendeu, nos 2 de maior ganho por venda com CTR acima de 1%.
+  d) BLACK (26/11 18h00 a 27/11 23h59, R$ 300; data corrigida em 21/11): verba nos 2 produtos com melhor comissão ÷ gasto da semana; se nenhum vendeu, nos 2 de maior ganho por venda com CTR acima de 1%.
   e) Medir LUCRO: em balanco.md, por etiqueta: gasto (Meta) x comissão (ML). Meta da semana: comissão > gasto.
   f) Pode criar conjuntos e trocar produtos SEM perguntar ao Vini (autorizado em 21/11: "pesquise e aplique... mude o produto"). NUNCA passar de R$ 50/dia somados até 26/11. Proibidos: suplementos com promessa de saúde, adulto, armas, remédios.
+
+- [ABERTA] 21/11 — ORDEM 5: CALENDÁRIO DA SEMANA DA BLACK (Claude principal, 21/11 19h30; pedido do Vini: "revisa tudo, sem margem
+  para erro, deixe pronto"). VALE MAIS QUE AS ORDENS 1 a 4 onde houver diferença. Verba (decisão do Vini): R$ 50/dia de 22 a 26/11
+  + R$ 300 na Black. Respeite a TRAVA (ATUALIZAÇÃO, item 4) em todo acesso à Meta.
+  · Dom 22/11 10h13 — RETOMADA (a única sessão de edição do dia; quem faz: a tarefa "Retomar anúncios (C, D, E) com cuidado" do
+    Claude principal): conferir o Gerenciador 1 vez; publicar C Esteira e D Air Fryer (preço, imagem e link conferidos no dia);
+    criar E OPPO A6t; B Cinta R$ 20/dia; A Câmera pausado; total R$ 50/dia; TODOS os conjuntos com fim 26/11 23h59; etiquetas
+    anuncioc, anunciod e anuncioe criadas no painel do ML e, de uma vez, as reservas anunciof, anunciog, anuncioh, anuncioi,
+    anunciobf1 e anunciobf2 (assim o Gestor não precisa criar etiqueta durante a semana). Marcar FEITO aqui com ids e links.
+    NÃO religar o Gestor antigo (trig_017jvWiDF1TBcyUioy9YmaDt): o v2 já está ligado.
+  · Dom 22/11 19h19 — Gestor v2: COLETA + balanço + REGRAS DE CORTE (só pausar, se bater). Nada novo: C, D e E têm menos de 1 dia.
+  · Seg 23 a Qua 25/11 19h19 — Gestor v2: COLETA + balanço + TROCA DIÁRIA (ORDEM 4 c, com os AJUSTES abaixo).
+  · Ter 24/11 22h37 — Estrategista: calcula quanto falta na conta para a Black e avisa o Vini por push (você mesmo, sem esperar o
+    Diretor; uma vez só; o Vini decide se deposita): "Para a Black faltam R$ X na conta de anúncios; se quiser, deposite até 25/11
+    às 18h". Conta: (R$ 50 x dias que faltam até 26/11, contando 26/11 + R$ 300) x 1,14 − saldo lido pelo Gestor em 24/11.
+    Estimativa do Claude principal em 21/11 (sem leitura nova): faltam ~R$ 240.
+  · Qua 25/11 19h19 — Gestor v2: MONTAR A BLACK JÁ AGENDADA (a revisão da Meta acontece antes do dia): campanha nova
+    "Black - 26 e 27/11", objetivo Tráfego, 2 conjuntos duplicados dos 2 melhores da semana (maior comissão ÷ gasto; se nenhum
+    vendeu, os 2 de maior ganho por venda com CTR acima de 1%), com orçamento TOTAL (vitalício) e programação início 26/11 18h00,
+    fim 27/11 23h59: R$ 180 no 1º (etiqueta anunciobf1) e R$ 120 no 2º (anunciobf2). Só Feed do Facebook + Feed do Instagram,
+    Brasil, a idade que o Detalhamento mostrar melhor. Preço da imagem reconferido no dia (design.md). Se o saldo não cobrir,
+    monte assim mesmo (a Meta para sozinha quando o saldo acaba) e escreva "PARA O VINI" com o valor que falta.
+  · Qui 26/11 19h19 — Gestor v2: conferir que os 2 conjuntos da Black COMEÇARAM às 18h00 (Ativo e entregando). Reprovado = corrigir
+    pelo motivo da Meta e reenviar na hora. Os de R$ 50/dia acabam sozinhos às 23h59.
+  · Sex 27/11 09h13 — checagem da Black (Claude principal, agendada na conversa da revisão): entrega, saldo e reprovação. Só corrige
+    ou pausa; não cria conjunto.
+  · Sex 27/11 19h19 — Gestor v2: corte da Black: conjunto com R$ 60 gastos desde 26/11 18h e 0 venda na etiqueta dele = pausar e passar
+    o que sobrou para o outro.
+  · Sáb 28 a Seg 30/11 — sem verba nova (o plano do Vini acaba na Black). Gestor v2 só faz a COLETA (vendas aparecem com atraso).
+    Se a Black fechar com comissão ÷ gasto ≥ 1,3, o Estrategista propõe ao Vini por push mais R$ 50/dia até a Cyber Monday (30/11);
+    só com o "sim" dele.
+  · Qua 02/12 — Estrategista: balanço final por etiqueta (gasto x comissão) e lição para o Natal.
+  AJUSTES NA TROCA DIÁRIA (valem de 23/11 em diante):
+  - O painel do ML mostra venda com atraso: decida com as vendas e o gasto até ONTEM.
+  - Empate (todos com 0 venda): pausar o de MAIOR custo por clique. No máximo 1 troca por dia.
+  - Produto novo só se passar na conta da ESCOLHA DO PRODUTO no próprio dia (preço e % conferidos), com etiqueta reserva (anunciof...).
+  - Conjunto que vendeu fica; se a venda foi DIRETA (o produto do anúncio), dobra a verba no dia seguinte tirando do pior (total R$ 50).
+  - B Cinta é o "motor" de vendas indiretas: só sai se o Estrategista mandar.
+  - Ganhos extras somem sem aviso: se a % do produto caiu, pausar e trocar (vale também para o PS5 e celulares: só com comissão ≥ 5%,
+    e celular só com GANHOS EXTRAS ≥ 8%).
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
@@ -208,3 +272,4 @@ DEU ERRADO (não repetir):
 - 21/11 14h50 Claude principal: Vini aprovou R$ 50/dia até 26/11 e R$ 300 na Black (desde a véspera). Orçamentos ajustados (B R$ 35, A R$ 15). Aberta ORDEM 3.
 - 21/11 15h00 Claude principal: Vini pediu produto chamativo + mais vendido + comissão alta, trocando todo dia. Pesquisa na Central e ORDEM 4 aberta; Gestor disparado fora do horário.
 - 21/11 15h15 Claude principal: Meta RESTRINGIU a conta do Vini às ~15h02 ("alguém pode ter acessado sem permissão"), provável excesso de acesso automático (Claude principal + Gestor ao mesmo tempo). Vini desbloqueou e relogou às ~15h10. Situação lida: B Cinta ATIVO R$ 20/dia; C Esteira e D Air Fryer em RASCUNHO (não publicados); E OPPO não criado. Gestor e Divulgador Facebook DESLIGADOS. REGRA NOVA: no máximo 1 agente por vez no Facebook/Gerenciador e no máximo 1 sessão de edição por dia; nunca duas conversas mexendo ao mesmo tempo.
+- 21/11 19h30 Claude principal (revisão da semana da Black, pedido do Vini): Gestor antigo aposentado (push 403) e Gestor v2 criado (trig_01AAWAbRKe2XzysEA5JJsKir, grava aqui, faz também o balanço); agente de Balanço desligado; data da Black corrigida para 26/11 18h a 27/11 23h59; trava de 1 acesso por vez à Meta; ORDEM 5 com o calendário dia a dia. Curador, Divulgador X e Divulgador Facebook estão no modelo Fable (limite de uso batido desde 20/11): o Vini vai trocá-los para Sonnet.
