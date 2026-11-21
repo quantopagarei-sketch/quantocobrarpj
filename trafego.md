@@ -21,6 +21,8 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
    O Claude principal não entra na Meta entre 19h15 e 21h15. No máximo 1 sessão de EDIÇÃO de anúncios por dia (pausar por
    regra de corte não conta).
 5. PLANO DA SEMANA: ver ORDEM 5 (calendário dia a dia). Ela vale mais que as ORDENS 1 a 4 onde houver diferença.
+   Estrategista: ajuste a ORDEM 5 com sub-itens datados quando os números pedirem (produto, verba por conjunto, público), mas sem
+   mudar as datas, a verba total do Vini nem a TRAVA.
 6. DIVULGADOR FACEBOOK SEGUE LIGADO (decisão do Vini em 21/11 19h15: "deixar postando"), sempre com a TRAVA do item 4.
    A linha de 21/11 15h15 no Diário ("Divulgador Facebook DESLIGADO") ficou velha: não desligue o Divulgador por conta própria.
 
@@ -241,17 +243,20 @@ DEU ERRADO (não repetir):
     às 18h". Conta: (R$ 50 x dias que faltam até 26/11, contando 26/11 + R$ 300) x 1,14 − saldo lido pelo Gestor em 24/11.
     Estimativa do Claude principal em 21/11 (sem leitura nova): faltam ~R$ 240.
   · Qua 25/11 19h19 — Gestor v2: MONTAR A BLACK JÁ AGENDADA (a revisão da Meta acontece antes do dia): campanha nova
-    "Black - 26 e 27/11", objetivo Tráfego, 2 conjuntos duplicados dos 2 melhores da semana (maior comissão ÷ gasto; se nenhum
-    vendeu, os 2 de maior ganho por venda com CTR acima de 1%), com orçamento TOTAL (vitalício) e programação início 26/11 18h00,
-    fim 27/11 23h59: R$ 180 no 1º (etiqueta anunciobf1) e R$ 120 no 2º (anunciobf2). Só Feed do Facebook + Feed do Instagram,
+    "Black - 26 e 27/11", objetivo Tráfego, 2 conjuntos duplicados dos melhores da semana, com orçamento TOTAL (vitalício) e
+    programação início 26/11 18h00, fim 27/11 23h59:
+    - bf1, R$ 180, etiqueta anunciobf1: o conjunto de maior comissão ÷ gasto da semana, contando venda indireta (na Black quem clica
+      compra muita coisa, e toda compra no cookie paga comissão). Sem venda em nenhum: o de MENOR custo por clique com CTR ≥ 1%.
+    - bf2, R$ 120, etiqueta anunciobf2: o produto de MAIOR ganho por venda direta (preço x % de hoje) com CTR ≥ 1% (a aposta alta).
+    - Se bf1 e bf2 cairiam no mesmo produto, bf2 fica com o 2º de maior ganho por venda. Só Feed do Facebook + Feed do Instagram,
     Brasil, a idade que o Detalhamento mostrar melhor. Preço da imagem reconferido no dia (design.md). Se o saldo não cobrir,
     monte assim mesmo (a Meta para sozinha quando o saldo acaba) e escreva "PARA O VINI" com o valor que falta.
   · Qui 26/11 19h19 — Gestor v2: conferir que os 2 conjuntos da Black COMEÇARAM às 18h00 (Ativo e entregando). Reprovado = corrigir
     pelo motivo da Meta e reenviar na hora. Os de R$ 50/dia acabam sozinhos às 23h59.
   · Sex 27/11 09h13 — checagem da Black (Claude principal, agendada na conversa da revisão): entrega, saldo e reprovação. Só corrige
     ou pausa; não cria conjunto.
-  · Sex 27/11 19h19 — Gestor v2: corte da Black: conjunto com R$ 60 gastos desde 26/11 18h e 0 venda na etiqueta dele = pausar e passar
-    o que sobrou para o outro.
+  · Sex 27/11 19h19 — Gestor v2: corte da Black: conjunto com R$ 60 gastos desde 26/11 18h e 0 venda na etiqueta dele, enquanto o
+    OUTRO já tem venda = pausar e passar o que sobrou para o que vende. Se os dois estão sem venda, não pause (o painel atrasa horas).
   · Sáb 28 a Seg 30/11 — sem verba nova (o plano do Vini acaba na Black). Gestor v2 só faz a COLETA (vendas aparecem com atraso).
     Se a Black fechar com comissão ÷ gasto ≥ 1,3, o Estrategista propõe ao Vini por push mais R$ 50/dia até a Cyber Monday (30/11);
     só com o "sim" dele.
