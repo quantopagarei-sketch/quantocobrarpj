@@ -39,6 +39,23 @@ Alavancas (o que fazer):
 3. CLIQUE MAIS BARATO: 3 criativos por conjunto; Feed do Facebook + Feed do Instagram; meta R$ 0,15 por clique.
 4. MEDIR CERTO: uma etiqueta por conjunto (anuncio-a, anuncio-b...) para saber qual isca vende. Hoje `anuncio` mistura tudo.
 
+### Revisão do Estrategista (20/11 22h40, números do Balanço de 20/11 21h50)
+| Etiqueta/campanha | Gasto | Cliques Meta | CPC | Vendas | Ganho | Comissão÷gasto |
+|---|---|---|---|---|---|---|
+| Impulso espelho+balança (anuncio) | R$ 60,76 | 239 | R$ 0,25 | 2 (indiretas) | R$ 6,32 (em revisão) | 0,10 |
+| Celulares (anuncio) | R$ 51,61 | 340 | R$ 0,15 | 0 | R$ 0 | 0,00 |
+| Canal + Seguidores | R$ 39,57 | 148 + 36 visitas | - | 0 | R$ 0 | 0,00 |
+| Fase A (etiqueta não registrada) | R$ 0,66 | 6 | R$ 0,11 | não medido | não medido | não medido |
+| TOTAL | R$ 152,60 | - | - | 2 | R$ 6,32 | 0,04 |
+- H1 COOKIE: mantida (2 de 2 vendas indiretas, de outros produtos). Consequência: o ganho por venda real foi o da comissão comum (6-8%),
+  não o GANHOS EXTRAS da isca. Conta honesta: mesmo com isca de 25%, se as vendas continuarem indiretas o ganho fica ~R$ 3 por venda.
+- H3 PREÇO: sinal a favor (impulso 2 vendas em 239 cliques x celulares 0 em 340), mas com 2 vendas isso NÃO é prova.
+- H2 PÚBLICO: não medido (Detalhamento ainda não lido).
+- Conversão da Meta para venda no impulso: 2/239 = 0,84% (pelo clique do ML, ~1,2%). Comissão por clique ≈ R$ 0,026 contra R$ 0,25 pagos.
+- Para empatar: com CPC de R$ 0,11 (início da Fase A) e 0,84%, a venda média precisa render ≥ R$ 13 → só com venda DIRETA de isca
+  de ganhos extras altos. Por isso a etiqueta por conjunto e a tabela VENDAS (direta x indireta) são o que decide a Black.
+- Dinheiro: saldo R$ 54,32 (a Meta tira ~1,14 x o gasto) ≈ R$ 47 de gasto ≈ 2,4 dias a R$ 20/dia. Prejuízo até a regra de parar tudo (R$ 250): ~R$ 100.
+
 ## ESCOLHA DO PRODUTO (pedido do Vini, 20/11/2026 06h33) — OBRIGATÓRIA antes de pôr dinheiro em qualquer produto
 Comparar sempre os dois grupos e escolher pela conta, nunca por achismo:
 - GRUPO 1 "MAIS VENDIDOS": produtos campeões de venda do ML (páginas "Mais vendidos" por categoria e ofertas do dia), com a comissão de cada um.
@@ -103,6 +120,28 @@ De preferência casa/organização/cozinha e moda feminina (H2). Ver também a t
      Feed do Facebook + Feed do Instagram, link direto do produto com ?matt_word=anuncio-a (ou -b)&matt_tool=58037177.
      Publicar (autorizado pelo Vini em 20/11: "está liberado"). Registrar ids e links aqui.
 
+- [ABERTA] 21/11 — ORDEM 2 (Estrategista, 20/11 22h40; para o Gestor às 19h19 de 21/11). MOTIVO: a campanha "Fase A - Iscas Black - 20/11"
+  está ATIVA (Balanço 21h50: R$ 0,66, 6 cliques), mas NADA da ORDEM 1 foi escrito no repositório (nenhum commit do Gestor em 20/11;
+  não se sabe quais produtos, etiquetas, links, verba nem posicionamentos). Sem isso não dá para medir lucro por isca.
+  a) DOCUMENTAR a Fase A aqui embaixo da ORDEM 1: id da campanha; para cada conjunto: nome, id, verba/dia, data de fim, público
+     (idade, sexo, Brasil), posicionamentos, produto, preço conferido, comissão (GANHOS/GANHOS EXTRAS %), link completo e imagem usada.
+     Marcar o que da ORDEM 1 foi FEITO (com hora) e o que NÃO foi (e por quê).
+  b) CONFERIR e corrigir só se estiver fora do manual (pode editar sem perguntar):
+     - Posicionamentos = SÓ Feed do Facebook + Feed do Instagram. Se tiver Reels/Stories/automático: desligar.
+     - Cada conjunto com etiqueta PRÓPRIA no link (?matt_word=anuncio-a ou anuncio-b &matt_tool=58037177). Se estiver `anuncio`, trocar.
+       Confirmar no painel do ML (Etiquetas) que anuncio-a e anuncio-b existem e já mostram clique.
+     - Verba: R$ 10/dia por conjunto (no máximo R$ 20/dia somados). NÃO aumentar. Fim: 23/11 23h59.
+     - Preço do produto na página = preço da imagem. Se mudou: pedir imagem nova (design.md) e trocar.
+  c) Se a ORDEM 1 c) (PRODUTOS AVALIADOS) não foi feita: fazer agora, pelo menos 5 do GRUPO 1 e 5 do GRUPO 2, com a conta
+     "ganho esperado por clique". Se a isca no ar NÃO passa na conta, anotar; não pausar por isso antes de R$ 10 gastos nela.
+  d) COLETA completa de trafego.md (gravar em balanco.md > Leituras): por conjunto e anúncio (gasto, impressões, cliques no link, CPC, CTR);
+     Detalhamento por idade/sexo e posicionamento do IMPULSO 17-20/11 (ORDEM 1 b, ainda não feita) e da Fase A; painel ML Etiquetas
+     (anuncio, anuncio-a, anuncio-b) e aba Vendas (cada venda nova vai para a tabela VENDAS, com "direta" ou "indireta").
+  e) Regras de corte valem já: conjunto com R$ 20 gastos e 0 venda na etiqueta dele = pausar. CTR < 0,8% após 1.000 impressões = trocar
+     o criativo (pedir ao design.md uma 2ª imagem 1080x1350 do mesmo produto). Saldo da Meta abaixo de R$ 10: só anotar (ela para sozinha).
+  f) NÃO criar campanha nova, NÃO pôr celular, NÃO mexer nas campanhas antigas desativadas nem nos rascunhos.
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
+- 20/11 22h40 Estrategista (1ª rodada): ORDEM 1 sem registro (Fase A no ar, R$ 0,66/6 cliques, sem ids/etiquetas/produtos escritos). Aberta ORDEM 2 (documentar e conferir Fase A, coleta, Detalhamento). Verba mantida R$ 20/dia; pedido de depósito para a Black adiado para 25/11, só se alguma etiqueta chegar a comissão÷gasto ≥ 0,7.
