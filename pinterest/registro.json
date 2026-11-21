@@ -1,276 +1,444 @@
 {
-  "conta": "br.pinterest.com/CellwiseSheets — conta business (convertida em 05/11/2026 com autorização do Vini); perfil com logo, bio e site da loja; pastas pessoais (futebol/tatuagem) deixadas secretas. O criador de Pins agora tem 'Publicar em outra data' (agendar).",
-  "pastas": [
-    "Christmas & Holiday Planning",
-    "Printable Planners 2027",
-    "Budget Spreadsheet Templates"
-  ],
-  "pins": [
-    {
-      "data": "2026-11-05",
-      "etsy_id": "4609718911",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Plan your Christmas gift budget without overspending"
-    },
-    {
-      "data": "2026-11-05",
-      "etsy_id": "4610074435",
-      "board": "Christmas & Holiday Planning",
-      "style": 2,
-      "headline": "Thanksgiving Dinner Planner Printable"
-    },
-    {
-      "data": "2026-11-05",
-      "etsy_id": "4609862376",
-      "board": "Printable Planners 2027",
-      "style": 3,
-      "headline": "2027 Budget Binder: plan every dollar of the new year"
-    },
-    {
-      "data": "2026-11-06",
-      "etsy_id": "4609650711",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Your whole Christmas in one printable planner"
-    },
-    {
-      "data": "2026-11-06",
-      "etsy_id": "4609859650",
-      "board": "Christmas & Holiday Planning",
-      "style": 2,
-      "headline": "Host a cookie exchange your friends will love"
-    },
-    {
-      "data": "2026-11-06",
-      "etsy_id": "4609938088",
-      "board": "Budget Spreadsheet Templates",
-      "style": 3,
-      "headline": "Throw a great party without blowing the budget"
-    },
-    {
-      "data": "2026-11-09",
-      "etsy_id": "4610914156",
-      "board": "Budget Spreadsheet Templates",
-      "style": 1,
-      "headline": "Give every dollar a job in 2027"
-    },
-    {
-      "data": "2026-11-09",
-      "etsy_id": "4610896095",
-      "board": "Budget Spreadsheet Templates",
-      "style": 2,
-      "headline": "Know where your money goes in 2027"
-    },
-    {
-      "data": "2026-11-09",
-      "etsy_id": "4609690783",
-      "board": "Budget Spreadsheet Templates",
-      "style": 3,
-      "headline": "Plan your wedding without losing track of a dollar"
-    },
-    {
-      "data": "2026-11-10",
-      "etsy_id": "4612860064",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Every gift, budget and order on one list"
-    },
-    {
-      "data": "2026-11-10",
-      "etsy_id": "4612837093",
-      "board": "Printable Planners 2027",
-      "style": 2,
-      "headline": "Never miss a bill due date in 2027"
-    },
-    {
-      "data": "2026-11-10",
-      "etsy_id": "4610913326",
-      "board": "Christmas & Holiday Planning",
-      "style": 3,
-      "headline": "Host the holidays without the last-minute stress"
-    },
-    {
-      "data": "2026-11-15",
-      "etsy_id": "4615286792",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Organize your whole Christmas season in one kit",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-15",
-      "etsy_id": "4613680475",
-      "board": "Budget Spreadsheet Templates",
-      "style": 2,
-      "headline": "Plan, track and pay every bill on time in 2027",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-15",
-      "etsy_id": "4613697630",
-      "board": "Budget Spreadsheet Templates",
-      "style": 3,
-      "headline": "Every guest, RSVP and table in one calm place",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-16",
-      "etsy_id": "4615702655",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Wish lists for little kids, tweens and teens",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-16",
-      "etsy_id": "4615285802",
-      "board": "Debt Payoff & Savings Trackers",
-      "style": 2,
-      "headline": "Stuff your cash envelopes paycheck by paycheck",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-16",
-      "etsy_id": "4613681245",
-      "board": "Printable Planners 2027",
-      "style": 3,
-      "headline": "Keep every dose and refill in one easy binder",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-17",
-      "etsy_id": "4611621095",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "24 screen-free Christmas countdown activities",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-17",
-      "etsy_id": "4610920750",
-      "board": "Printable Planners 2027",
-      "style": 2,
-      "headline": "Picture your 2027 and turn it into real steps",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-17",
-      "etsy_id": "4611620225",
-      "board": "Budget Spreadsheet Templates",
-      "style": 3,
-      "headline": "Keep every donation receipt ready for tax time",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-18",
-      "etsy_id": "4610893205",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Bake every Christmas cookie on schedule",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-18",
-      "etsy_id": "4612857222",
-      "board": "Budget Spreadsheet Templates",
-      "style": 2,
-      "headline": "Budget around shift pay that changes every week",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-18",
-      "etsy_id": "4611621865",
-      "board": "Small Business Spreadsheets",
-      "style": 3,
-      "headline": "Price every bake and never lose a holiday order",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-19",
-      "etsy_id": "4610918576",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Know exactly what your Secret Santa wants",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-19",
-      "etsy_id": "4610901165",
-      "board": "Budget Spreadsheet Templates",
-      "style": 2,
-      "headline": "Cover your summer months on a teacher's pay",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-19",
-      "etsy_id": "4611640674",
-      "board": "Small Business Spreadsheets",
-      "style": 3,
-      "headline": "See your real take-home after every split",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-20",
-      "etsy_id": "4610898949",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "Never forget who sent you a Christmas card",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-20",
-      "etsy_id": "4612838619",
-      "board": "Budget Spreadsheet Templates",
-      "style": 2,
-      "headline": "Make your semester money last to the very end",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-20",
-      "etsy_id": "4612862650",
-      "board": "Small Business Spreadsheets",
-      "style": 3,
-      "headline": "Know your cost per mile and profit every month",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-21",
-      "etsy_id": "4611622637",
-      "board": "Christmas & Holiday Planning",
-      "style": 1,
-      "headline": "7 easy games for a fun countdown to midnight",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-21",
-      "etsy_id": "4610900459",
-      "board": "Small Business Spreadsheets",
-      "style": 2,
-      "headline": "Simple bookkeeping and monthly P&L for 2027",
-      "pacote": "2026-11-14"
-    },
-    {
-      "data": "2026-11-21",
-      "etsy_id": "4612861404",
-      "board": "Small Business Spreadsheets",
-      "style": 3,
-      "headline": "Weighted grades that calculate themselves",
-      "pacote": "2026-11-14"
-    }
-  ],
-  "ocorrencias": [
-    {
-      "data": "2026-11-08",
-      "evento": "Nenhum pin publicado: a loja do Etsy está em modo férias ('This shop is taking a short break', nota do dono atualizada em 07/11/2026). Pins não publicados para não mandar compradores a anúncios que não podem ser comprados. Escolhidos para quando a loja reabrir: 4609690783 (Wedding Budget), 4610914156 (Monthly Budget Planner 2027), 4610896095 (Income & Expense Tracker 2027)."
-    },
-    {
-      "data": "2026-11-08",
-      "evento": "2ª execução seguida sem pins (22h45 UTC): a loja do Etsy continua em modo férias ('This shop is taking a short break' nos anúncios 4610914156, 4610896095, 4610097302). Nenhum pin publicado. Vini avisado por notificação. Escolhidos para quando a loja reabrir: 4610914156 (Monthly Budget Planner 2027), 4610896095 (Income & Expense Tracker 2027), 4610097302 (Emergency Fund Tracker)."
-    },
-    {
-      "data": "2026-11-09",
-      "evento": "Loja do Etsy reaberta (sem aviso de férias). 3 pins publicados. Brinde sem url ainda, pin de segunda pulado. Upload de arquivo só funciona a partir de /mnt/user-data/outputs."
-    }
-  ]
+ "conta": "br.pinterest.com/CellwiseSheets — conta business (convertida em 05/11/2026 com autorização do Vini); perfil com logo, bio e site da loja; pastas pessoais (futebol/tatuagem) deixadas secretas. O criador de Pins agora tem 'Publicar em outra data' (agendar).",
+ "pastas": [
+  "Christmas & Holiday Planning",
+  "Printable Planners 2027",
+  "Budget Spreadsheet Templates"
+ ],
+ "pins": [
+  {
+   "data": "2026-11-05",
+   "etsy_id": "4609718911",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Plan your Christmas gift budget without overspending"
+  },
+  {
+   "data": "2026-11-05",
+   "etsy_id": "4610074435",
+   "board": "Christmas & Holiday Planning",
+   "style": 2,
+   "headline": "Thanksgiving Dinner Planner Printable"
+  },
+  {
+   "data": "2026-11-05",
+   "etsy_id": "4609862376",
+   "board": "Printable Planners 2027",
+   "style": 3,
+   "headline": "2027 Budget Binder: plan every dollar of the new year"
+  },
+  {
+   "data": "2026-11-06",
+   "etsy_id": "4609650711",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Your whole Christmas in one printable planner"
+  },
+  {
+   "data": "2026-11-06",
+   "etsy_id": "4609859650",
+   "board": "Christmas & Holiday Planning",
+   "style": 2,
+   "headline": "Host a cookie exchange your friends will love"
+  },
+  {
+   "data": "2026-11-06",
+   "etsy_id": "4609938088",
+   "board": "Budget Spreadsheet Templates",
+   "style": 3,
+   "headline": "Throw a great party without blowing the budget"
+  },
+  {
+   "data": "2026-11-09",
+   "etsy_id": "4610914156",
+   "board": "Budget Spreadsheet Templates",
+   "style": 1,
+   "headline": "Give every dollar a job in 2027"
+  },
+  {
+   "data": "2026-11-09",
+   "etsy_id": "4610896095",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Know where your money goes in 2027"
+  },
+  {
+   "data": "2026-11-09",
+   "etsy_id": "4609690783",
+   "board": "Budget Spreadsheet Templates",
+   "style": 3,
+   "headline": "Plan your wedding without losing track of a dollar"
+  },
+  {
+   "data": "2026-11-10",
+   "etsy_id": "4612860064",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Every gift, budget and order on one list"
+  },
+  {
+   "data": "2026-11-10",
+   "etsy_id": "4612837093",
+   "board": "Printable Planners 2027",
+   "style": 2,
+   "headline": "Never miss a bill due date in 2027"
+  },
+  {
+   "data": "2026-11-10",
+   "etsy_id": "4610913326",
+   "board": "Christmas & Holiday Planning",
+   "style": 3,
+   "headline": "Host the holidays without the last-minute stress"
+  },
+  {
+   "data": "2026-11-15",
+   "etsy_id": "4615286792",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Organize your whole Christmas season in one kit",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-15",
+   "etsy_id": "4613680475",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Plan, track and pay every bill on time in 2027",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-15",
+   "etsy_id": "4613697630",
+   "board": "Budget Spreadsheet Templates",
+   "style": 3,
+   "headline": "Every guest, RSVP and table in one calm place",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-16",
+   "etsy_id": "4615702655",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Wish lists for little kids, tweens and teens",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-16",
+   "etsy_id": "4615285802",
+   "board": "Debt Payoff & Savings Trackers",
+   "style": 2,
+   "headline": "Stuff your cash envelopes paycheck by paycheck",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-16",
+   "etsy_id": "4613681245",
+   "board": "Printable Planners 2027",
+   "style": 3,
+   "headline": "Keep every dose and refill in one easy binder",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-17",
+   "etsy_id": "4611621095",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "24 screen-free Christmas countdown activities",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-17",
+   "etsy_id": "4610920750",
+   "board": "Printable Planners 2027",
+   "style": 2,
+   "headline": "Picture your 2027 and turn it into real steps",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-17",
+   "etsy_id": "4611620225",
+   "board": "Budget Spreadsheet Templates",
+   "style": 3,
+   "headline": "Keep every donation receipt ready for tax time",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-18",
+   "etsy_id": "4610893205",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Bake every Christmas cookie on schedule",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-18",
+   "etsy_id": "4612857222",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Budget around shift pay that changes every week",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-18",
+   "etsy_id": "4611621865",
+   "board": "Small Business Spreadsheets",
+   "style": 3,
+   "headline": "Price every bake and never lose a holiday order",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-19",
+   "etsy_id": "4610918576",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Know exactly what your Secret Santa wants",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-19",
+   "etsy_id": "4610901165",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Cover your summer months on a teacher's pay",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-19",
+   "etsy_id": "4611640674",
+   "board": "Small Business Spreadsheets",
+   "style": 3,
+   "headline": "See your real take-home after every split",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-20",
+   "etsy_id": "4610898949",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Never forget who sent you a Christmas card",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-20",
+   "etsy_id": "4612838619",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Make your semester money last to the very end",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-20",
+   "etsy_id": "4612862650",
+   "board": "Small Business Spreadsheets",
+   "style": 3,
+   "headline": "Know your cost per mile and profit every month",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-21",
+   "etsy_id": "4611622637",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "7 easy games for a fun countdown to midnight",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-21",
+   "etsy_id": "4610900459",
+   "board": "Small Business Spreadsheets",
+   "style": 2,
+   "headline": "Simple bookkeeping and monthly P&L for 2027",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-21",
+   "etsy_id": "4612861404",
+   "board": "Small Business Spreadsheets",
+   "style": 3,
+   "headline": "Weighted grades that calculate themselves",
+   "pacote": "2026-11-14"
+  },
+  {
+   "data": "2026-11-22",
+   "etsy_id": "4615286792",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Six Christmas planners in one easy download",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-22",
+   "etsy_id": "4613680475",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Your whole 2027 money system in one bundle",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-22",
+   "etsy_id": "4610913326",
+   "board": "Christmas & Holiday Planning",
+   "style": 3,
+   "headline": "Guest list, menu and cooking timeline in one file",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-23",
+   "etsy_id": "4612860064",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Set a gift budget for every person on your list",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-23",
+   "etsy_id": "4610914156",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "One simple weekly spending number for 2027",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-23",
+   "etsy_id": "4612855170",
+   "board": "Printable Planners 2027",
+   "style": 3,
+   "headline": "Track homeschool days and hours for up to 4 kids",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-24",
+   "etsy_id": "4615702655",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Wish lists and a Letter to Santa for all ages",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-24",
+   "etsy_id": "4610896095",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Try the 30-day spending challenge in 2027",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-24",
+   "etsy_id": "4612858712",
+   "board": "Small Business Spreadsheets",
+   "style": 3,
+   "headline": "See which tutoring families still owe you",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-25",
+   "etsy_id": "4611621095",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "A cozy family activity for every day of December",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-25",
+   "etsy_id": "4612837093",
+   "board": "Printable Planners 2027",
+   "style": 2,
+   "headline": "Check off every bill in a simple 2027 binder",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-25",
+   "etsy_id": "4613697630",
+   "board": "Budget Spreadsheet Templates",
+   "style": 3,
+   "headline": "Meal counts for your caterer, done for you",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-26",
+   "etsy_id": "4610893205",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Host a cookie exchange party without the stress",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-26",
+   "etsy_id": "4615285802",
+   "board": "Debt Payoff & Savings Trackers",
+   "style": 2,
+   "headline": "Watch your sinking funds grow all through 2027",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-26",
+   "etsy_id": "4613681245",
+   "board": "Printable Planners 2027",
+   "style": 3,
+   "headline": "A calm health binder for caregivers and seniors",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-27",
+   "etsy_id": "4610918576",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Run the office gift exchange in 5 easy steps",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-27",
+   "etsy_id": "4610920750",
+   "board": "Printable Planners 2027",
+   "style": 2,
+   "headline": "Host a 2027 vision board party with friends",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-27",
+   "etsy_id": "4610898949",
+   "board": "Christmas & Holiday Planning",
+   "style": 3,
+   "headline": "One tidy address list for every holiday card",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-28",
+   "etsy_id": "4611622637",
+   "board": "Christmas & Holiday Planning",
+   "style": 1,
+   "headline": "Resolution bingo, trivia and more for New Year's Eve",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-28",
+   "etsy_id": "4612857222",
+   "board": "Budget Spreadsheet Templates",
+   "style": 2,
+   "headline": "Estimate your take-home pay from every shift",
+   "pacote": "2026-11-21"
+  },
+  {
+   "data": "2026-11-28",
+   "etsy_id": "4610900459",
+   "board": "Small Business Spreadsheets",
+   "style": 3,
+   "headline": "Plan your quarterly tax set-asides for 2027",
+   "pacote": "2026-11-21"
+  }
+ ],
+ "ocorrencias": [
+  {
+   "data": "2026-11-08",
+   "evento": "Nenhum pin publicado: a loja do Etsy está em modo férias ('This shop is taking a short break', nota do dono atualizada em 07/11/2026). Pins não publicados para não mandar compradores a anúncios que não podem ser comprados. Escolhidos para quando a loja reabrir: 4609690783 (Wedding Budget), 4610914156 (Monthly Budget Planner 2027), 4610896095 (Income & Expense Tracker 2027)."
+  },
+  {
+   "data": "2026-11-08",
+   "evento": "2ª execução seguida sem pins (22h45 UTC): a loja do Etsy continua em modo férias ('This shop is taking a short break' nos anúncios 4610914156, 4610896095, 4610097302). Nenhum pin publicado. Vini avisado por notificação. Escolhidos para quando a loja reabrir: 4610914156 (Monthly Budget Planner 2027), 4610896095 (Income & Expense Tracker 2027), 4610097302 (Emergency Fund Tracker)."
+  },
+  {
+   "data": "2026-11-09",
+   "evento": "Loja do Etsy reaberta (sem aviso de férias). 3 pins publicados. Brinde sem url ainda, pin de segunda pulado. Upload de arquivo só funciona a partir de /mnt/user-data/outputs."
+  }
+ ]
 }
