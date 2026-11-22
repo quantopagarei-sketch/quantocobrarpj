@@ -4,6 +4,7 @@ Pedido do Vini em 22/11/2026: "um agente especialista em Reels que leva pro Tele
 promos, diário; vocês fazem tudo, da criação à postagem; pesquisem as melhores ofertas com as melhores comissões".
 Objetivo: **1 Reel por dia** na página, com 3 ou 4 ofertas do dia, para levar gente ao canal do Telegram (2 inscritos em 22/11).
 Quando: tarefa diária das **21h47** (depois do Divulgador Facebook, 20h31). Usa o Chrome do PC do Vini (ligado até ~22h20).
+Tarefa agendada: `trig_01267ib4c8Y1G7Shb7r4FbBf` (criada em 22/11, presa ao PC; nasceu no modelo Fable: o Vini troca para Sonnet).
 Este agente NÃO fala com o Vini. Problema que depende dele: linha "PARA O DIRETOR (Reels): ..." em `diario.md` e fim.
 Vale mais que este arquivo: `juridico.md` (capítulo REELS) e as seções TRAVA e REGISTRO do `LEIA-PRIMEIRO.md`.
 
