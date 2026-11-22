@@ -19,7 +19,8 @@ O que o robô faz em cada execução está em `rodar.sh` (os dois workflows só 
   de hoje sem o "terminei" correspondente; entre escrevendo "DD/MM HH:MM <agente>: comecei (Facebook em uso)" e saia com "terminei".
   Ocupado: espere 10 min e confira de novo (até 3 vezes). A Meta travou a conta em 21/11 por dois acessos automáticos ao mesmo tempo.
 - Equipe da semana: robô (posta sozinho) · Curador 19h47 · Gestor de Mídia v2 19h19 (anúncios + balanço) · Divulgador Facebook 20h31 ·
-  Divulgador X 21h17 · Estrategista 22h37 (nuvem) · Crescimento seg e qui · Diretor domingo 18h41. O Gestor antigo e o agente de
+  Divulgador X 21h17 · Reels 21h47 (novo em 22/11: 1 vídeo por dia na página, chamando para o canal; manual reels.md) ·
+  Estrategista 22h37 (nuvem) · Crescimento seg e qui · Diretor domingo 18h41. O Gestor antigo e o agente de
   Balanço foram desligados em 21/11.
 - Diretor (22/11 e 29/11): manda o aviso de domingo com os números do canal e 1 linha do anúncio (copiada do Resumo de balanco.md).
   NÃO mexe em anúncio, verba, horários nem agentes nesta semana (anúncio é do Estrategista; o resto, do Claude principal).
@@ -133,6 +134,7 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 | Divulgador Facebook (diário, 20h31) | Posta as campeãs do dia na página "Black Achadinhos" do Facebook; em grupos, posta onde a regra permite e comenta (sem link) para gerar interação. Regras em `facebook.md` | Claude + Chrome do PC do Vini | Sim |
 | Divulgador X (diário, 21h17) | Posta as campeãs do dia no X @titantuita (conta pessoal do Vini): 1 na hora e as outras programadas (quantidade em `x.md`). Regras em `x.md` | Claude + Chrome do PC do Vini | Sim |
 | Gestor de Mídia v2 (diário, 19h19, de 22 a 30/11) | Coleta os números, faz o balanço e executa as ORDENS do Estrategista (cria, troca e pausa anúncios dentro da verba do Vini). Regras em `trafego.md` | Claude + Chrome do PC do Vini | Sim |
+| Agente de Reels (diário, 21h47; criado em 22/11) | Faz 1 vídeo por dia (por código) com 3 ou 4 ofertas já postadas no canal e publica como Reel na página, chamando para o Telegram. Regras em `reels.md` | Claude + Chrome do PC do Vini | Sim |
 | Estrategista de Tráfego (diário, 22h37) | Lê os números e escreve as ORDENS do dia seguinte; avisa o Vini por push quando precisa. Regras em `trafego.md` | Claude (nuvem) | Sim |
 | Diretor (domingo) | Lê os números, ajusta e manda 1 aviso curto ao Vini | Claude | Sim |
 | Coletor Shopee (`coletor_shopee.py`) | Desligado (só serve se um dia a Shopee voltar) | – | Não |

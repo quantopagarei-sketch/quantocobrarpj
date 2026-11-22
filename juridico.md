@@ -6,11 +6,14 @@ NÃO é parecer de advogado: é triagem de regras públicas. Quando aparecer not
 bloqueio de conta, renda regular de comissão ou ideia de CNPJ, o Diretor recomenda ao Vini um advogado/contador.
 
 Última revisão: 14/11/2026 (Agente Jurídico). Próxima: todo dia 14 (tarefa agendada "Agente Jurídico").
+Capítulo REELS criado em 22/11/2026 (Agente Jurídico de Reels, pedido do Vini); entra na revisão de todo dia 14.
 
 ## Semáforo (14/11/2026)
 - Telegram (robô, Bot API oficial): VERDE depois do aviso em cada post (feito no bot.py em 14/11).
 - Facebook página: AMARELO. Aviso em cada post; automação por navegador é zona cinzenta (manter limites de facebook.md).
 - Facebook grupos: AMARELO ALTO. Só grupos que permitem; comentário com link é o maior risco de spam.
+- Reels na página (1 por dia, vídeo feito por código): AMARELO. Aviso no vídeo e na legenda, rótulo de IA ligado, trilha própria,
+  sem link (cota de links da Meta). Regras no capítulo REELS, no fim deste arquivo.
 - X @titantuita: AMARELO. "#publi · link de afiliado" em cada post.
 - Anúncio Meta para t.me: AMARELO. Permitido pelos termos do Mercado Livre (itens 1.3.1 e 4.4); destino t.me, sem marca.
 - Canal do WhatsApp postado por AGENTE no WhatsApp Web: VERMELHO. Os Termos do WhatsApp proíbem acesso por
@@ -63,10 +66,12 @@ ou houver ideia de CNPJ, o Diretor recomenda ao Vini um contador.
 - Meta anúncios: https://transparency.meta.com/policies/ad-standards/
 - X automação: https://help.x.com/rules-and-policies/x-automation
 - CONAR (guia de influenciadores, desde 01/06/2026) e CDC arts. 36-37.
+- REELS: as fontes da Meta listadas no capítulo REELS (originalidade, rótulo de IA, música, conteúdo de marca) e os itens "NÃO CONFIRMADO".
 - Receita Federal (carnê-leão) e ANPD (LGPD).
 
 ## Diário do Jurídico (data | o que mudou | o que foi ajustado)
 - 14/11/2026 | revisão inicial | aviso de publicidade em cada post (bot.py, facebook.md, x.md); WhatsApp só manual.
+- 22/11/2026 | pedido do Vini: agente jurídico especialista em Reels | capítulo REELS criado (pesquisa em fontes da Meta, CDC e CONAR); checklist de 11 itens em reels.md; 1º Reel conferido antes de postar (aviso no vídeo e na legenda, rótulo de IA, trilha própria, sem link).
 - 15/11/2026 | pergunta do Vini: dá para tirar "link de afiliado" do anúncio pago? | Não tirar o aviso: termos do ML 5.1 exigem indicar "publicidade" em conteúdo com link de afiliado. O mínimo é a palavra "Publicidade" (ou #publi); "link de afiliado" é reforço de transparência, não exigência literal. Regra 9 atualizada.
 
 ## SHOPEE (liberada pelo Vini em 16/11/2026)
@@ -75,3 +80,50 @@ ou houver ideia de CNPJ, o Diretor recomenda ao Vini um contador.
 - Em 16/11 a rede cadastrada era um TikTok ("labobarp"), não a página do Facebook: não anunciar pela página antes de cadastrá-la.
 - Link só o gerado no painel affiliate.shopee.com.br. Não clicar nem comprar pelos próprios links.
 - 17/11: Shopee DESLIGADA de novo a pedido do Vini. As notas acima ficam só como histórico. O app "Shopee BR" segue autorizado no Facebook para a página (remover em Configurações > Integrações de negócios, se ele pedir).
+
+## REELS (22/11/2026 – Agente Jurídico de Reels, pedido do Vini: "um agente jurídico especialista nos termos e condições de reels")
+Vale para todo Reel da página. Quem aplica: o Agente de Reels (checklist em reels.md) e o Divulgador Facebook, se um dia postar vídeo.
+Triagem de regras públicas, não parecer de advogado. Várias páginas da Central de Ajuda da Meta não abrem para leitura automática:
+o que não deu para ler está em "NÃO CONFIRMADO" e fica para a revisão do dia 14.
+
+SEMPRE
+R1. Aviso "Publicidade · links de afiliado" DENTRO do vídeo, do primeiro ao último quadro, e na 1ª linha da legenda (antes do "Ver mais").
+    Base: CDC art. 36 (publicidade identificável de imediato), guia do CONAR, termos do Mercado Livre 5.1.
+R2. Preço: "de/por" só com o preço riscado na página; desconto arredondado para baixo; data e hora da conferência e "podem mudar"
+    na legenda e na tela final. Base: CDC arts. 30, 31 e 37.
+R3. Rótulo de IA do Facebook LIGADO em todo Reel ("Adicionar rótulo de IA", na tela Configurações) e "Vídeo criado com IA." na legenda.
+    A própria tela diz: "Exigimos que os conteúdos realistas criados com IA incluam um rótulo informativo". O nosso vídeo é animação
+    feita por código (não é imagem realista de IA), mas a regra 18 deste manual manda rotular tudo o que o Claude cria.
+R4. Trilha: só a música original do gerador (reels/fazer_reel.py) ou a biblioteca livre da Meta. Sem locução.
+R5. Conteúdo original: vídeo produzido por nós, com produtos e textos novos a cada dia. Regra da Meta de 13/03/2026: conteúdo não
+    original (repost, duplicata, edição mínima) perde alcance no Feed e nos Reels, e a conta pode virar "não recomendável".
+R6. "Canal independente (não oficial)" na legenda e na tela final. Foto só da página do anúncio, sem editar o produto.
+
+NUNCA
+R7. Música comercial ou trecho de vídeo de terceiros (o Reel pode ficar mudo, ser bloqueado ou removido).
+R8. Isca de engajamento ("comente QUERO", "marque amigos", "compartilhe para ganhar"), urgência inventada, contagem regressiva.
+R9. Logo do Mercado Livre, do Telegram ou de marca desenhado à parte, nem a palavra "oficial". A marca que já aparece na foto do
+    produto pode ficar. Nunca rosto ou nome de pessoa (nem do Vini).
+R10. Rótulo "Parceria paga" (é para acordo com marca; não temos acordo com marca nenhuma). Ver NÃO CONFIRMADO.
+R11. Link t.me na legenda ou em comentário enquanto a cota de links estiver zerada (facebook.md > LIMITE DE LINKS). Nunca "@".
+R12. "Turbinar reel" / "Turbinar post" (é gasto: só com o "sim" do Vini). Voz sintética (se um dia entrar: rótulo de IA obrigatório).
+R13. Repetir o mesmo vídeo, ou mais de 1 Reel por dia sem o Claude principal mandar.
+
+NÃO CONFIRMADO (sem texto oficial lido em 22/11; conferir no dia 14)
+- Se Reel com link de afiliado, sem acordo com marca, exige o rótulo "Parceria paga" (a Meta trata Afiliados como programa separado).
+- Texto oficial da Meta sobre spam e isca de engajamento; efeito de link externo ou de citar outro aplicativo no alcance.
+- Se vídeo de fotos paradas ("slideshow") é rebaixado; zonas seguras e tamanho máximo de arquivo oficiais.
+- Texto do guia do CONAR sobre a posição e a duração do aviso em vídeo curto (as fontes também divergem sobre a data de vigência).
+
+Especificações (documentação de desenvolvedores da Meta): MP4, H.264, 9:16, 1080x1920 (mínimo 540x960), 3 a 90 s, 24 a 60 fps,
+áudio AAC estéreo 48 kHz com 128 kbps ou mais. O gerador entrega isso.
+
+Fontes (22/11/2026)
+- CDC: https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm · Decreto 7.962/2013: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm
+- Meta, originalidade (13/03/2026, conferido pelo Claude principal): https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/
+- Meta, todos os vídeos viram Reels (17/06/2025): https://creators.facebook.com/blog/making-it-easier-to-create-videos-on-facebook
+- Meta, rótulo de IA: https://www.meta.com/help/artificial-intelligence/1783222608822690/ (a página não reabriu na conferência; vale o texto da tela do Reel)
+- Meta, música em vídeo: https://about.instagram.com/blog/announcements/updates-and-guidelines-for-including-music-in-video
+- Meta, conteúdo de marca: https://creators.facebook.com/tools/branded-content
+- Meta, especificações de Reels: https://developers.facebook.com/docs/video-api/guides/reels-publishing/
+

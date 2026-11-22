@@ -8,6 +8,7 @@
 > (Facebook em uso)", dê push, trabalhe, e no fim escreva "DD/MM HH:MM Facebook: terminei" e dê push. Uma aba por vez, sem recarregar
 > à toa. Nunca abra o Gerenciador de Anúncios.**
 > **Cupom POUPAMAIS: não localizado desde 20/11 (ver LEIA-PRIMEIRO); não procure.**
+> **REELS (22/11): o Reel diário da página é do Agente de Reels (reels.md, 21h47). O Divulgador não cria Reel nem mexe nos Reels publicados.**
 
 Página: https://www.facebook.com/blackachadinhos.ofertas (endereço trocado em 13/11; o antigo /onmarronestore
 não vale mais, mesmo que o texto da tarefa cite). Na dúvida: https://www.facebook.com/pages/?category=your_pages
