@@ -327,7 +327,8 @@ def main():
 
     # Horário devido: o da hora atual ou um atrasado (o agendamento do GitHub atrasa até ~1 h e às vezes pula).
     atraso = int(CFG.get("atraso_max_horas", 2))
-    devidos = [h for h in sorted(CFG["horarios"]) if h <= t.hour <= h + atraso and h not in slots_hoje]
+    horarios = set(CFG["horarios"]) | set((CFG.get("horarios_extra") or {}).get(hoje, []))  # extras só naquele dia
+    devidos = [h for h in sorted(horarios) if h <= t.hour <= h + atraso and h not in slots_hoje]
     try:  # nunca dois posts colados (um horário atrasado + o da hora)
         minutos = (t - datetime.fromisoformat(e["ultimo_post"])).total_seconds() / 60
     except Exception:
