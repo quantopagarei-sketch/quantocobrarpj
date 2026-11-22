@@ -16,6 +16,14 @@ Vale mais que este arquivo: `juridico.md` (capítulo REELS) e as seções TRAVA 
    Nunca digite senha nem código, nunca resolva captcha.
 
 ## Passo 1 – Escolher 3 ou 4 ofertas (as que mais vendem e mais pagam)
+**CINTA SEMPRE (ordem do Vini, 22/11/2026 20h35: "o Reels tem que ter a cinta sempre")**: todo Reel leva a Cinta Modeladora
+Opta Corpus (MLB-4810647054, a que mais vende no projeto) como uma das 3 ou 4 ofertas. Ela não segue a regra dos 7 dias sem repetir.
+- Fica em 1º lugar se tiver o maior desconto; senão, em 2º. As outras 2 ou 3 vagas seguem os critérios abaixo.
+- Ela precisa estar no canal nas últimas 24 h (o Curador põe todo dia; ver `curador.md` > CINTA TODO DIA). Se não estiver, ou se na
+  conferência (passo 2) sumir o riscado, acabar o estoque ou o desconto cair abaixo de 20%: use a reserva da "família da cinta" que
+  estiver no canal (cinta shorts Shaper MLB-6171656788, macaquinho modelador MLB-5046520966) e anote no "Feito" "sem cinta: motivo".
+- Texto e foto: só a foto do produto (sem corpo de modelo, sem antes e depois); nunca "emagrece", "perca X cm" ou promessa de corpo.
+  Pode: "cinta modeladora", "com barbatanas", nota e vendidos da página.
 `python3 reels/candidatas.py` lista as ofertas JÁ POSTADAS no canal nas últimas 24 h e ainda não usadas em Reel (7 dias).
 Só entram ofertas que já estão no canal, porque o vídeo manda a pessoa procurar o link lá.
 Escolha 4 (3 se faltar), nesta ordem de peso:
@@ -72,6 +80,7 @@ O gerador recorta sozinho o fundo escuro do print. Use sempre a foto principal d
 4. Saem prontos: `reel.mp4`, `legenda.txt` (copie como está) e `comentario.txt` (opcional; hoje não usamos).
 
 ## Passo 6 – Checklist jurídico (todos "sim", senão não posta; detalhes em juridico.md > REELS)
+- A cinta (ou a reserva da família dela) está no vídeo, só com foto do produto e sem promessa de corpo ou de emagrecer?
 1. Vídeo feito por nós hoje, com produtos e textos diferentes dos últimos dias? 2. Preços, riscado e % conferidos na página agora?
 3. Aviso de publicidade no vídeo e na 1ª linha da legenda? 4. Data e hora da conferência e "podem mudar" na legenda?
 5. "Canal independente (não oficial)" na legenda e na tela final? 6. Nenhum logo do Mercado Livre ou de marca desenhado à parte?
