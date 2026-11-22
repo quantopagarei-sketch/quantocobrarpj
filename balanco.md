@@ -47,6 +47,7 @@ consumiu. O saldo que sobra continua sendo dele.
 | 20/11 21h50 | Celulares R$ 51,61 (340) · Canal R$ 20,92 (148) · Seguidores R$ 18,65 (36 visitas): sem mudança, desativadas | - | - | - | - | - | - |
 | 20/11 21h50 | TOTAL anúncios (etiqueta anuncio) | R$ 152,60 | ML: 710 | 0 | 2 (pendente 2, confirmada 0) | pendente R$ 6,32 · confirmada R$ 0,00 | R$ -152,60 (confirmado) |
 | 22/11 15h19 | Painel do ML por etiqueta, período 15 a 21/11, SEM leitura da Meta (Claude principal) | não medido | ML: anunciob 116 · anuncio 716 · anuncioa 70 · telegram 29 · facebook 8 · twitter 2 · testedireto 1 (total 942) | - | 6 vendas, 8 unidades: anunciob 4 vendas/6 un. (1 DIRETA: a cinta) · anuncio 2 vendas/2 un. | em revisão R$ 51,16 (anunciob R$ 44,84 · anuncio R$ 6,32) · confirmada R$ 0,00 | não medido (falta o gasto; o Gestor v2 mede às 19h19) |
+| 22/11 19h24 | Painel do ML (Gestor v2): 7 dias 15 a 21/11 (atualizado até 22/nov) SEM MUDANÇA desde 15h19 · HOJE 22/11 parcial (atualizado até 16h30) | gasto: ver linhas da Meta abaixo | 7 dias: anunciob 116 · anuncio 716 · anuncioa 70 · telegram 29 · facebook 8 · twitter 2 · testedireto 1 (total 942) · HOJE até 16h30: anunciob 59 · anuncioe 19 · anuncioc 18 · anuncio 3 (total 99) | - | 7 dias: 6 vendas, 8 un. (anunciob 4 vendas/6 un., 1 DIRETA; anuncio 2/2) · 0 não efetivada · HOJE: 0 venda | em revisão R$ 51,16 (anunciob R$ 44,84 · anuncio R$ 6,32) · confirmada R$ 0,00 | ver Resumo |
 
 ## Como ler as fontes
 - Gasto e cliques: Gerenciador de Anúncios da Meta (coluna "Valor usado"), por campanha.
