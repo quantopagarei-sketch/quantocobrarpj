@@ -238,6 +238,18 @@ DEU ERRADO (não repetir):
     anuncioc, anunciod e anuncioe criadas no painel do ML e, de uma vez, as reservas anunciof, anunciog, anuncioh, anuncioi,
     anunciobf1 e anunciobf2 (assim o Gestor não precisa criar etiqueta durante a semana). Marcar FEITO aqui com ids e links.
     NÃO religar o Gestor antigo (trig_017jvWiDF1TBcyUioy9YmaDt): o v2 já está ligado.
+    FEITO 22/11 ~10h40 (Claude principal, retomada):
+    - Etiquetas criadas no painel ML: anunciof, anunciog, anuncioh, anuncioi, anunciobf1, anunciobf2 (anuncioc/d/e já existiam). Etiqueta em uso continua "telegram".
+    - C Esteira (conjunto 120248862437100656, anúncio 120248862437130656): PUBLICADO, R$ 15/dia, início 22/11 12h13, fim 26/11 23h59, Feed FB + Feed IG, Brasil.
+      Produto conferido 22/11 ~10h20: "Esteira Ergométrica Elétrica Dobrável Residencial Cardio", R$ 689,99 (de R$ 1.499), 10x R$ 69, GANHOS EXTRAS 28%, +10 mil vendidos, nota 4,7 (ganho/venda direta ~R$ 193).
+      Link: https://www.mercadolivre.com.br/esteira-ergometrica-eletrica-dobravel-residencial-cardio/up/MLBU4760101286?pdp_filters=item_id%3AMLB5070173491&matt_word=anuncioc&matt_tool=58037177
+      Imagem: "esteira-anuncio" já na biblioteca da Meta (feita pelo Gestor em 21/11, preço R$ 689,99 confere). Texto e título reescritos (o rascunho tinha texto da câmera). "Adicionar detalhes ao layout" desligado; sem imagens de IA.
+    - E OPPO A6t (conjunto 120248862437080656): já tinha anúncio pronto (link com anuncioe); LIGADO e publicado, R$ 15/dia, fim 26/11 23h59.
+      Conferido 22/11: R$ 833,52 no Pix, GANHOS EXTRAS 10%, +10 mil vendidos, 4,8 (ganho/venda direta ~R$ 83).
+    - B Cinta: R$ 20/dia, fim já era 26/11 23h59 (sem mudança). A Câmera: desligado.
+    - D Air Fryer: NÃO publicado (fica em rascunho). Motivo: a Air Fryer Midea 5,5 L com GANHOS EXTRAS 13% sumiu da Central em 22/11 (só aparecem air fryers com 5%); não passa na ESCOLHA DO PRODUTO. O rascunho D ainda tem o criativo da câmera: NÃO publicar.
+    - TOTAL no ar: B 20 + C 15 + E 15 = R$ 50/dia.
+    - Painel ML (7 dias até 22/11): 951 cliques, 8 pedidos, R$ 51,16 de ganho estimado.
   · Dom 22/11 19h19 — Gestor v2: COLETA + balanço + REGRAS DE CORTE (só pausar, se bater). Nada novo: C, D e E têm menos de 1 dia.
   · Seg 23 a Qua 25/11 19h19 — Gestor v2: COLETA + balanço + TROCA DIÁRIA (ORDEM 4 c, com os AJUSTES abaixo).
   · Ter 24/11 22h37 — Estrategista: calcula quanto falta na conta para a Black e avisa o Vini por push (você mesmo, sem esperar o
