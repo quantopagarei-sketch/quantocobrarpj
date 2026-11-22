@@ -28,6 +28,9 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
 7. 22/11 15h50 — ORDEM 6 (pedidos do Vini: reforçar a cinta e pôr um anúncio "primo" dela). Só em 23/11 às 19h19 o Gestor v2 sobe o
    B Cinta (R$ 20 → R$ 35) e cria o conjunto "F - Conjunto Fitness - anunciof" (R$ 15); C Esteira e E OPPO sem venda saem. Em 23/11
    a ORDEM 6 VALE MAIS que a troca diária da ORDEM 5. Imagem do F já pronta: anuncio/conjuntofitness-1080x1350.jpg.
+8. 22/11 16h00 — TETO NOVO, aprovado pelo Vini ("Sim, teto de R$ 100 por dia"): de 24 a 26/11 o total pode ir de R$ 50 até R$ 100 por
+   dia, SÓ para a cinta subir em degraus (R$ 35 → 55 → 80) e SÓ se ela estiver pagando (regra R, ORDEM 6 h). Em 22 e 23/11 o total
+   continua R$ 50. Black: R$ 300, sem mudança. Sem a condição da regra R, ninguém passa de R$ 50 por dia.
 
 ## Equipe
 | Quem | Quando | O que faz |
@@ -280,6 +283,7 @@ DEU ERRADO (não repetir):
     Diretor; uma vez só; o Vini decide se deposita): "Para a Black faltam R$ X na conta de anúncios; se quiser, deposite até 25/11
     às 18h". Conta: (R$ 50 x dias que faltam até 26/11, contando 26/11 + R$ 300) x 1,14 − saldo lido pelo Gestor em 24/11.
     Estimativa do Claude principal em 21/11 (sem leitura nova): faltam ~R$ 240.
+    Desde 22/11 (ORDEM 6 h): some à conta o gasto a mais dos degraus da cinta que estiverem valendo (até ~R$ 125 se subir os dois).
   · Qua 25/11 19h19 — Gestor v2: MONTAR A BLACK JÁ AGENDADA (a revisão da Meta acontece antes do dia): campanha nova
     "Black - 26 e 27/11", objetivo Tráfego, 2 conjuntos duplicados dos melhores da semana, com orçamento TOTAL (vitalício) e
     programação início 26/11 18h00, fim 27/11 23h59:
@@ -312,8 +316,9 @@ DEU ERRADO (não repetir):
   (Claude principal, 22/11 15h50.) PEDIDOS DO VINI em 22/11: "o grande chamariz me parece ser o anúncio da cinta, algo ligado ao estético
   da mulher; amanhã, além dela, um anúncio de algo derivado dela com boa comissão, para testar e fazer companhia" e, em seguida, "talvez
   valha potencializar ainda mais a cinta". O produto do F foi escolhido por ele entre 2 opções ("Sim, conjunto de academia").
-  VALE MAIS QUE AS ORDENS 1 a 5 onde houver diferença. NÃO MUDA: verba total (R$ 50/dia até 26/11 e R$ 300 na Black), datas, TRAVA,
-  limites e regras de corte.
+  VALE MAIS QUE AS ORDENS 1 a 5 onde houver diferença. NÃO MUDA: datas, TRAVA, limites, regras de corte e os R$ 300 da Black.
+  VERBA DIÁRIA: R$ 50 em 22 e 23/11; de 24 a 26/11 o TETO é R$ 100/dia, só pela regra dos degraus do item h (aprovado pelo Vini em
+  22/11 16h00).
   MOTIVO (painel do ML lido em 22/11 15h19, período 15 a 21/11, aba Etiquetas): anunciob (B Cinta) 116 cliques, 6 unidades, conversão
   3,45%, R$ 44,84 = 88% de toda a comissão (R$ 51,16) com 12% dos cliques (942). anuncio 716 cliques, 2 un., R$ 6,32. anuncioa 70 cliques,
   0. telegram 29, facebook 8, twitter 2, testedireto 1: 0 venda. Vendas do anunciob, todas de 21/11 e "em revisão": a CINTA (venda DIRETA,
@@ -385,12 +390,45 @@ DEU ERRADO (não repetir):
         (isca barata; ganho baixo por venda)
      Fora de questão para anúncio: produtos pós-cirúrgicos ou pós-operatórios (a loja Opta Corpus vende muitos): é tema de saúde.
   e) DEPOIS (24 a 26/11): F com venda fica; venda DIRETA dobra no dia seguinte tirando de quem não vende (B nunca abaixo de R$ 25). F
-     cortado → entra a próxima reserva (1 troca por dia). Se o B continuar vendendo, pode ir a R$ 40 em 24/11 (dentro dos R$ 50).
+     cortado → entra a próxima reserva (1 troca por dia). A verba do B de 24 a 26/11 é a dos DEGRAUS (item h).
      Estrategista: pode ajustar os valores com os números do Gestor (custo por clique, vendas), mas o reforço da cinta e o teste da
      "família da cinta" são decisões do Vini: só mudam com número que justifique, escrito aqui.
   f) BLACK (ORDEM 5, montagem em 25/11): sem mudança. O bf1 (R$ 180) já vai para o conjunto de maior comissão ÷ gasto da semana (hoje, o B).
   g) Marcar FEITO aqui com hora, ids (conjunto e anúncio do F), verbas finais, público lido do B e situação de C e E. Checagem do Claude
      principal marcada para 23/11 21h16: lê este arquivo e, se a ORDEM 6 não estiver FEITA, executa ele mesmo, respeitando a TRAVA.
+  h) DEGRAUS DA CINTA, de 24 a 26/11 (Claude principal, 22/11 16h00). PEDIDO DO VINI em 22/11 15h51, quando perguntei quanto pôr a mais
+     na cinta: "o valor, você mesmo junto com análise de agente especialista irá definir o maior potencial de ROI". TETO aprovado por ele
+     em seguida, numa pergunta com os números: "Sim, teto de R$ 100 por dia". Vale de 24 a 26/11; a Black continua com R$ 300.
+     POR QUE DEGRAUS E NÃO UM VALOR FIXO: a prova de que a cinta dá lucro ainda é pequena (4 vendas, 1 direta, em 116 cliques). Com R$ 20
+     a R$ 35/dia entram ~130 a 230 cliques por dia; um dia inteiro sem venda direta é normal mesmo se ela for boa. Subir aos poucos, só
+     com o número medido a favor, dá o maior retorno com o menor risco: se ela paga, a verba cresce 4x em 3 dias; se não paga, nada a
+     mais é gasto.
+     REGRA R (o Gestor calcula em toda visita e escreve em balanco.md; tudo ACUMULADO desde 20/11):
+       R = ganho estimado da etiqueta anunciob (painel do ML, aba Etiquetas) ÷ (gasto do conjunto B no Gerenciador x 1,14)
+     DEGRAUS (verba do B por dia; no máximo 1 degrau por dia; nenhum conjunto sobe mais que o dobro de um dia para o outro):
+       | Dia (visita das 19h19) | Sobe se... | B vai para |
+       |---|---|---|
+       | 23/11 | sempre (cabe nos R$ 50) | R$ 35, ou o valor da tabela do item b se C ou E tiverem vendido |
+       | 24/11 | R ≥ 1,3 E pelo menos 1 venda nova em anunciob desde a visita de 23/11 | R$ 55 |
+       | 25/11 | R ≥ 1,3 E pelo menos 1 venda nova em anunciob desde a última subida | R$ 80 (se ainda estava em R$ 35: R$ 55) |
+       | 26/11 | não sobe mais (às 18h começa a Black) | fica |
+     Condição não cumprida = o B fica onde está (não é motivo para descer).
+     DESCIDA (de 24/11 em diante): R abaixo de 1,0 → B volta para R$ 35. R abaixo de 0,7 → R$ 20. Continua valendo a trava do item b
+     (R$ 60 gastos depois de 23/11 19h19 sem venda nova em anunciob → R$ 20).
+     TOTAL: B + F + o que mais estiver no ar nunca passa de R$ 100/dia de 24 a 26/11 (e de R$ 50 em 23/11). Se não couber, o B recebe o
+     que sobrar. O F e as reservas continuam em R$ 10 a R$ 15 (ou o dobro, se tiverem venda DIRETA). Sem R ≥ 1,3, o total fica em R$ 50.
+     SALDO: gastar só o que já está na conta (limite de sempre). Se o saldo não cobrir os degraus E a Black, a BLACK TEM PRIORIDADE: não
+     subir de degrau e escrever "PARA O VINI" com o valor que falta. Só o Vini deposita.
+     ESTRATEGISTA (o agente especialista), em 22/11 às 22h37 e nas noites seguintes: com os números medidos pelo Gestor (gasto e custo
+     por clique do B, vendas por etiqueta, saldo), confira esta conta, escreva aqui o R do dia e o valor do B para a visita seguinte.
+     Pode ser MAIS cauteloso que os degraus (valor menor), nunca mais ousado: acima do degrau ou do teto só com novo "sim" do Vini.
+     Em 24/11, no aviso do depósito (ORDEM 5), use o plano com os degraus: o que falta para a Black sobe em até ~R$ 125 se a cinta subir
+     os dois degraus (20 + 45 + 45 = R$ 110 de gasto a mais, x 1,14). Avise o Vini por push, em 2 linhas, quando o B mudar de degrau.
+     BLACK (montagem em 25/11): se R ≥ 1,3 na visita de 25/11, o bf1 (cinta) pode ficar com até R$ 240 dos R$ 300 e o bf2 com R$ 60;
+     senão vale a divisão da ORDEM 5 (R$ 180 e R$ 120). O total da Black não muda.
+     CONTA DE 22/11 (só para comparar; o gasto NÃO foi medido, é estimativa pelas verbas): gasto do B até 21/11 ~R$ 14 a 18 → R estimado
+     ~2,2 a 2,8. Sem venda nova em 22 e 23/11, o R cai para ~0,8 na visita de 23/11 (gasto ~R$ 52 x 1,14 = ~R$ 59 contra R$ 44,84):
+     por isso a subida além de R$ 35 depende de venda nova.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
@@ -401,3 +439,4 @@ DEU ERRADO (não repetir):
 - 21/11 15h15 Claude principal: Meta RESTRINGIU a conta do Vini às ~15h02 ("alguém pode ter acessado sem permissão"), provável excesso de acesso automático (Claude principal + Gestor ao mesmo tempo). Vini desbloqueou e relogou às ~15h10. Situação lida: B Cinta ATIVO R$ 20/dia; C Esteira e D Air Fryer em RASCUNHO (não publicados); E OPPO não criado. Gestor e Divulgador Facebook DESLIGADOS. REGRA NOVA: no máximo 1 agente por vez no Facebook/Gerenciador e no máximo 1 sessão de edição por dia; nunca duas conversas mexendo ao mesmo tempo.
 - 21/11 19h30 Claude principal (revisão da semana da Black, pedido do Vini): Gestor antigo aposentado (push 403) e Gestor v2 criado (trig_01AAWAbRKe2XzysEA5JJsKir, grava aqui, faz também o balanço); agente de Balanço desligado; data da Black corrigida para 26/11 18h a 27/11 23h59; trava de 1 acesso por vez à Meta; ORDEM 5 com o calendário dia a dia. Curador, Divulgador X e Divulgador Facebook estão no modelo Fable (limite de uso batido desde 20/11): o Vini vai trocá-los para Sonnet.
 - 22/11 15h50 Claude principal: Vini observou que o chamariz é o anúncio da cinta (estética da mulher) e pediu (1) um anúncio de algo derivado dela, com boa comissão, para 23/11 e (2) potencializar ainda mais a cinta. Painel do ML: anunciob 116 cliques, R$ 44,84 de R$ 51,16. Pesquisa na Central (família da cinta) em PRODUTOS AVALIADOS; o Vini escolheu o conjunto fitness NBZ (R$ 71, EXTRAS 28%). Aberta a ORDEM 6 (23/11 19h19: B R$ 35 + F R$ 15; C e E sem venda saem). Imagens do F prontas em anuncio/. Não abri a Meta.
+- 22/11 16h00 Claude principal: perguntei ao Vini quanto pôr a mais na cinta; ele respondeu "o valor, você mesmo junto com análise de agente especialista irá definir o maior potencial de ROI" e aprovou o teto de R$ 100/dia (24 a 26/11). Definido em degraus (ORDEM 6 h): B R$ 35 em 23/11, R$ 55 em 24/11 e R$ 80 em 25/11, só com R ≥ 1,3 e venda nova; desce se R < 1,0. Black sem mudança (R$ 300). Estrategista: conferir a conta hoje às 22h37 com o gasto medido pelo Gestor.
