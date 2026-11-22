@@ -82,3 +82,4 @@
 - 22/11 10:15 Claude principal (retomada): comecei (Gerenciador em uso)
 - 22/11 10:45 Claude principal (retomada): terminei (C Esteira e E OPPO publicados a R$ 15/dia; B R$ 20; D não publicado: comissão da air fryer caiu; total R$ 50/dia; etiquetas reserva criadas)
 - 22/11 11:45 Claude principal (checagem agendada): retomada OK (C Esteira e E OPPO R$ 15/dia + B R$ 20 = R$ 50/dia; D fora por comissão). Gestor antigo segue desligado; Gestor v2 ligado (19h19). Curador, Facebook e X v2 ainda no Fable: Facebook e X FALHARAM ontem (limite de uso), sem post; o Estrategista (Opus) também falhou ontem às 22h37 por limite de uso, sem ordens novas.
+- 22/11 13:51 Claude principal (Reels, pedido do Vini): comecei (Facebook em uso) — 1º Reel da página: 4 ofertas já postadas no canal (pisca-pisca, tênis Kappa, parafusadeira Black Tools, Cicaplast), preços conferidos às 13h38-13h41

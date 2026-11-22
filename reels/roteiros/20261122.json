@@ -1,0 +1,10 @@
+{
+  "data": "2026-11-22",
+  "conferido": "22/11 às 13h41",
+  "ofertas": [
+    {"id": "20261122-03", "nome": "Pisca-pisca cascata de Natal 400 LEDs", "nome_legenda": "Pisca-pisca cascata de Natal, 400 LEDs, 10 m", "preco": 59.99, "preco_de": 219.99, "info": "4,7★ · +10 mil vendidos", "foto": "bruta1-pisca.png", "comissao": "20%"},
+    {"id": "20261122-02", "nome": "Tênis Kappa Zenit unissex", "nome_legenda": "Tênis casual Kappa Zenit unissex", "preco": 99.99, "preco_de": 229.99, "info": "4,7★ · +100 mil vendidos", "foto": "bruta2-kappa.png", "comissao": "20%"},
+    {"id": "20261122-05", "nome": "Parafusadeira The Black Tools 21V, 2 baterias", "nome_legenda": "Parafusadeira e furadeira The Black Tools 21V, 2 baterias e maleta", "preco": 139.90, "preco_de": 259.90, "info": "4,8★ · +250 mil vendidos", "foto": "bruta3-blacktools.png", "comissao": "não vista"},
+    {"id": "20261121-01", "nome": "Cicaplast Baume B5+ La Roche-Posay 40 ml", "nome_legenda": "Cicaplast Baume B5+ La Roche-Posay, 40 ml", "preco": 64.37, "preco_de": 109.90, "info": "4,9★ · +500 mil vendidos", "foto": "bruta4-cicaplast.png", "comissao": "16%"}
+  ]
+}
