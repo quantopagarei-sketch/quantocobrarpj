@@ -188,6 +188,8 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 
 - 20/11 20h37 a 20h50 | 2ª execução do dia | cotas de 20/11 (3 posts na página, 2 stories, 2 posts em grupos) já cumpridas de manhã: nada postado agora. Comentários em grupos: 0. Li o feed em ordem de novos posts de TUDO PODE SOBRE AIRFRYER (só boas-vindas do administrador; nosso post da Fritadeira segue 'Aguardando aprovação'), DICAS DE MARCENARIA (só anúncio de montador com WhatsApp) e Dicas de dona de casa (só anúncios de decoração): nenhuma pergunta de compra, não forcei comentário. Notificações: nenhum comentário nos nossos posts para responder (houve curtidas em links e 1 seguidor novo); nenhum aviso do Facebook. A página agiu como 'Black Achadinhos' o tempo todo.
 
+- 22/11 20h48 | página | Cozinha infantil completa Atentu (20261122-09, campeã do Curador, potencial 5), R$ 78,90 (de R$ 149,90), link_facebook direto do produto (mercadolivre.com.br, com matt_word=facebook) | publicado com a PRÉVIA DO LINK (foto e título do produto) em vez de foto anexada: as janelas do Chrome estavam minimizadas e o print não sai nelas (ver 'Modo sem print'). Preço conferido na página às 20h46. O link direto do Mercado Livre PASSOU no limite de links da Meta (nenhum aviso de cota). Sem t.me; Turbinar desligado; nenhuma oferta de botão apareceu.
+
 ## Avisos do Facebook
 - 16/11 20h56 | AVISO 1 | post removido em grupo: o post do tênis Puma (foto + texto + link meli.la, com "Publicidade · link de
   afiliado"), feito pela página no grupo "Achadinhos e Promoções | Ofertas Imperdíveis", sumiu em segundos. Aparece em
