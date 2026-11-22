@@ -276,20 +276,18 @@ class Reel:
         self.a_rod = txt(f'no Mercado Livre · conferidos em {self.conferido.split(" às ")[0]}', 37, CINZA, bold=False)
 
     def quadro_abre(self, t):
+        """O 1º quadro já sai completo: é ele que vira a capa do Reel e segura quem está rolando a tela."""
         im = self.fundo.copy()
         cola(im, self.aviso_centro, W / 2, 205)
-        a = p(t, 0.0, 0.34)
-        e = 0.72 + 0.28 * pulo(a)
-        al = min(1, a * 3)
         for cam, y in ((self.a_black, 470), (self.a_tag, 690), (self.a_ach, 912), (self.a_sub, 992)):
-            cola(im, cam, W / 2, 690 + (y - 690) * e, escala=e, alpha=al)
-        a = suave(p(t, 0.34, 0.3))
-        cola(im, self.a_tit, W / 2, 1150 + (1 - a) * 30, alpha=a)
-        a = p(t, 0.84, 0.3)
-        if a > 0:
-            cola(im, self.a_faixa, W / 2, 1300, escala=0.55 + 0.45 * pulo(a), alpha=min(1, a * 3))
-        a = suave(p(t, 1.12, 0.3))
-        cola(im, self.a_rod, W / 2, 1432 + (1 - a) * 14, alpha=a)
+            cola(im, cam, W / 2, y)
+        cola(im, self.a_tit, W / 2, 1150)
+        fx = self.a_faixa
+        q = p(t, 0.15, 0.6)
+        if 0 < q < 1:
+            fx = com_brilho(fx, q)
+        cola(im, fx, W / 2, 1300, escala=1.0 + 0.10 * math.sin(math.pi * p(t, 0.88, 0.34)))   # pulso na 3ª batida
+        cola(im, self.a_rod, W / 2, 1432)
         return im
 
     # ---- produto
