@@ -25,6 +25,9 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
    mudar as datas, a verba total do Vini nem a TRAVA.
 6. DIVULGADOR FACEBOOK SEGUE LIGADO (decisão do Vini em 21/11 19h15: "deixar postando"), sempre com a TRAVA do item 4.
    A linha de 21/11 15h15 no Diário ("Divulgador Facebook DESLIGADO") ficou velha: não desligue o Divulgador por conta própria.
+7. 22/11 15h50 — ORDEM 6 (pedidos do Vini: reforçar a cinta e pôr um anúncio "primo" dela). Só em 23/11 às 19h19 o Gestor v2 sobe o
+   B Cinta (R$ 20 → R$ 35) e cria o conjunto "F - Conjunto Fitness - anunciof" (R$ 15); C Esteira e E OPPO sem venda saem. Em 23/11
+   a ORDEM 6 VALE MAIS que a troca diária da ORDEM 5. Imagem do F já pronta: anuncio/conjuntofitness-1080x1350.jpg.
 
 ## Equipe
 | Quem | Quando | O que faz |
@@ -98,6 +101,14 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 ## PRODUTOS AVALIADOS (preencher; manter só os últimos 7 dias)
 | Data | Grupo | Produto | Preço | Comissão | Ganho/venda | Vendidos | Nota | Cupom | Chance (1-3) | Ganho esperado/clique | Passa? |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| 22/11 15h21 | no ar (conjunto B) | Cinta Modeladora Feminina c/ Barbatana Cintura 750, Opta Corpus loja oficial (MLB-4810647054) | R$ 90,57 no Pix ou R$ 95,34 em 3x (de R$ 179,90) | EXTRAS 27% (patroc. OPTA CORPUS) | pela etiqueta R$ 24,45 a 25,74 · REAL em 21/11: R$ 35,10 ("venda direta 44%") | +50 mil | 4,6 (17.633) | não conferido | 3 | REAL: R$ 0,39 (R$ 44,84 em 116 cliques, direta + indiretas) | no ar |
+| 22/11 15h34 | 2 (família da cinta) | Conjunto Top + Calça Legging Academia, NBZ (MLB-4223661377) | R$ 71 (de R$ 175,90; 12x R$ 6,99) | EXTRAS 28% | R$ 19,88 | +5 mil | 4,8 (1.354) | cupom da loja R$ 63,90 (POUPAMAIS não conferido) | 2 | R$ 0,24 | passa com clique abaixo de R$ 0,24 · ESCOLHIDO pelo Vini = conjunto F |
+| 22/11 15h27 | 2 (família da cinta) | Kit 2 Top Academia Puma, Decco (MLB-5223814662) | R$ 78,38 (de R$ 163,30) | EXTRAS 20% (patroc. DECCO MODA INTIMA) | R$ 15,68 | +10 mil | 4,7 (7.490) | não conferido | 3 | R$ 0,31 | passa · reserva 1 |
+| 22/11 15h33 | 2 (família da cinta) | Cinta Body Modelador Macaquinho Plus Size, Vi Lingerie (MLB-5046520966) | R$ 135,60 no Pix ou R$ 150,67 (riscado R$ 150,67) | EXTRAS 24% | R$ 32,54 | +1000 | 4,8 (471) | não conferido | 1 a 2 | R$ 0,16 a 0,39 | depende do clique · reserva 2 (só bege, tamanhos 44 a 50) |
+| 22/11 15h26 | 2 (família da cinta) | Sutiã Clássico Comfort+ Lupo Loba c/ bojo (MLBU752869251) | R$ 119,99 (de R$ 159,98) | EXTRAS 36% | R$ 43,20 | +1000 | 4,9 (400) | não conferido | 2 | R$ 0,52 | passa · reserva 3 (foto de sutiã em modelo pode ser reprovada: usar foto só do produto) |
+| 22/11 15h24 | 2 (família da cinta) | 3 Calcinhas cintura alta "segura barriga", K2M (MLB-1966475990) | R$ 39,90 (de R$ 49,90) | EXTRAS 28% | R$ 11,17 | +10 mil | 4,7 (3.983) | cupom da loja R$ 33,90 | 3 | R$ 0,22 | passa com clique abaixo de R$ 0,22 · reserva 4 |
+| 22/11 15h27 | 2 (família da cinta) | Cinta Modeladora Shorts Alta Compressão Shaper 4 Barbatana (MLB-6171656788) | R$ 34,99 (de R$ 59,99) | EXTRAS 21% | R$ 7,35 | +10 mil | 4,7 (7.205) | não conferido | 3 | R$ 0,15 | só passa com clique abaixo de R$ 0,15 · reserva 5 |
+| 22/11 15h24 | 2 (fora do tema) | Kit 4 Blusinhas Regata Canelada, Maria Malui (MLB-4281293069) | R$ 65 (de R$ 99,99) | EXTRAS 31% | R$ 20,15 | +10 mil | 4,8 (4.499) | não conferido | 3 | R$ 0,40 | passa (moda básica, não é estética) |
 
 ## Plano (o Estrategista revisa todo dia)
 - FASE A (20 a 23/11, ~R$ 20/dia no total; começa na manhã de 20/11, feriado): 2 conjuntos de isca, cada um com etiqueta própria, 2-3 criativos.
@@ -129,12 +140,17 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 |---|---|---|---|---|---|---|---|
 | 18/11 | Kit 10 puxadores armário | Móveis para casa | R$ 75,15 | R$ 3,70 (6%) | indireta | anuncio | impulso espelho+balança |
 | 19/11 | Babuche feminina | Calçados | R$ 39,99 | R$ 2,62 (8%) | indireta | anuncio | impulso espelho+balança |
+| 21/11 | Cinta Modeladora Feminina Com Barbatana Redutora Cintura 750 (Opta Corpus) | Moda Íntima e Lingerie | R$ 95,34 | R$ 35,10 (44%) | DIRETA | anunciob | B - Cinta |
+| 21/11 | Extensão com bocal soquete E27 2 m (3 unidades) | Iluminação Residencial | R$ 57,90 | R$ 2,85 (6%) | indireta | anunciob | B - Cinta |
+| 21/11 | Tapete porta-malas borracha Fiat Palio | Aces. de Carros e Caminhonetes | R$ 99,90 | R$ 4,92 (6%) | indireta | anunciob | B - Cinta |
+| 21/11 | Jogo 12 barbeadores masculino e feminino | Higiene Pessoal | R$ 19,99 | R$ 1,97 (12%) | indireta | anunciob | B - Cinta |
 
 ## ISCAS (candidatos; o Curador acrescenta, o Estrategista escolhe)
 Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6+, 1.000+ vendidos, foto boa, desconto real.
 De preferência casa/organização/cozinha e moda feminina (H2). Ver também a tabela de 17/11 em midia.md (tênis Kappa, tatame, cuecas).
 - 21/11 Curador: Garrafa Térmica Nórdica 1 L cabo madeira (R$ 54,99, GANHOS EXTRAS 21%, 4,7★, +5 mil; sem preço riscado); Kit boleiras acrílico (R$ 78,95 de 141, extras 17%, 4,8★, +1.000; fila 20261121-14); Kit 60 bolas de Natal LuvinCo (R$ 67,99 de 98,63, extras 15%, 4,8★, +5 mil; fila 20261121-15).
 - 21/11 19h55 (Claude principal, selo GANHOS comum, não "extras"): Cicaplast Baume B5+ 40 ml R$ 64,37 · 16% · 4,9 · +500 mil (loja oficial); Revlon Uniq One 150 ml R$ 59,97 · 16% · 4,9 · +50 mil; Kit 6 cuecas Polo Wear R$ 59,99 · 16% · 4,7 · +10 mil; Ventilador Arno Ultra Silence Force R$ 279,99 · 20% · 4,8 · +5 mil (acima de R$ 200, mas é verão).
+- 22/11 15h35 (Claude principal, pedido do Vini): "FAMÍLIA DA CINTA" (mulher, estética, moda íntima e fitness, com GANHOS EXTRAS). O escolhido e as 5 reservas estão em PRODUTOS AVALIADOS e na ORDEM 6 d.
 
 ## LIÇÕES (pedido do Vini, 21/11/2026: "replicar o que deu certo e não repetir o que deu errado") — LER ANTES DE QUALQUER DECISÃO
 Atualizar esta seção a cada leitura com venda nova ou corte. Toda ordem e toda troca de produto têm que respeitar isto.
@@ -144,6 +160,13 @@ DEU CERTO (replicar):
 - Quem clica compra OUTRAS coisas: as 3 vendas foram indiretas (puxadores, babuche, extensão E27), todas itens de casa/uso diário de R$ 40 a R$ 75.
 - Clique barato: R$ 0,11 a R$ 0,25 por clique no link.
 - Etiqueta própria por conjunto: só assim se sabe o que vendeu.
+- 22/11 (painel do ML, 15 a 21/11): o B - Cinta (anunciob) fez 116 cliques → 4 vendas, 6 unidades → R$ 44,84 = 88% de toda a comissão (R$ 51,16)
+  com 12% dos cliques. Foi a 1ª venda DIRETA (a própria cinta: R$ 95,34 → R$ 35,10) + 3 indiretas. Perfil a replicar (observação do Vini em
+  22/11: "o chamariz é a cinta, algo ligado ao estético da mulher"): produto feminino de corpo/estética, menos de R$ 100, cerca de 50% de
+  desconto, dezenas de milhares de vendidos, loja oficial, GANHOS EXTRAS alto. Ver ORDEM 6.
+- A venda direta pagou MAIS que a etiqueta: o painel mostra "Venda direta: 44%" (R$ 35,10 = 36,8% do preço cheio), e a etiqueta da cinta diz
+  GANHOS EXTRAS 27%. Pelo que esta venda mostra, o "extra" SOMA com a comissão normal da categoria (16% em moda) e a base de cálculo é ~82% do
+  preço (as indiretas também: 6% rende 4,9% do preço). É 1 venda só: confirmar na próxima venda direta antes de usar isso na conta.
 DEU ERRADO (não repetir):
 - Anúncio para o canal do Telegram (R$ 20,92, 0 inscrito) e para seguidores da página (R$ 18,64, 0 seguidor).
 - Celular caro com comissão baixa sem Black (iPhone 16e e Galaxy A17: R$ 51,61, 340 cliques, 0 venda). Celular só volta com comissão ≥ 10% (ex.: OPPO A6t) e preço de Black.
@@ -252,6 +275,7 @@ DEU ERRADO (não repetir):
     - Painel ML (7 dias até 22/11): 951 cliques, 8 pedidos, R$ 51,16 de ganho estimado.
   · Dom 22/11 19h19 — Gestor v2: COLETA + balanço + REGRAS DE CORTE (só pausar, se bater). Nada novo: C, D e E têm menos de 1 dia.
   · Seg 23 a Qua 25/11 19h19 — Gestor v2: COLETA + balanço + TROCA DIÁRIA (ORDEM 4 c, com os AJUSTES abaixo).
+    Em 23/11 a troca do dia é a da ORDEM 6 (reforço do B + conjunto F): leia a ORDEM 6 antes de mexer em qualquer coisa.
   · Ter 24/11 22h37 — Estrategista: calcula quanto falta na conta para a Black e avisa o Vini por push (você mesmo, sem esperar o
     Diretor; uma vez só; o Vini decide se deposita): "Para a Black faltam R$ X na conta de anúncios; se quiser, deposite até 25/11
     às 18h". Conta: (R$ 50 x dias que faltam até 26/11, contando 26/11 + R$ 300) x 1,14 − saldo lido pelo Gestor em 24/11.
@@ -284,6 +308,90 @@ DEU ERRADO (não repetir):
   - Ganhos extras somem sem aviso: se a % do produto caiu, pausar e trocar (vale também para o PS5 e celulares: só com comissão ≥ 5%,
     e celular só com GANHOS EXTRAS ≥ 8%).
 
+- [ABERTA] 22/11 — ORDEM 6: REFORÇAR A CINTA + ANÚNCIO "PRIMO" DA CINTA. EXECUTAR SÓ EM 23/11 ÀS 19h19 (Gestor v2). NÃO executar em 22/11.
+  (Claude principal, 22/11 15h50.) PEDIDOS DO VINI em 22/11: "o grande chamariz me parece ser o anúncio da cinta, algo ligado ao estético
+  da mulher; amanhã, além dela, um anúncio de algo derivado dela com boa comissão, para testar e fazer companhia" e, em seguida, "talvez
+  valha potencializar ainda mais a cinta". O produto do F foi escolhido por ele entre 2 opções ("Sim, conjunto de academia").
+  VALE MAIS QUE AS ORDENS 1 a 5 onde houver diferença. NÃO MUDA: verba total (R$ 50/dia até 26/11 e R$ 300 na Black), datas, TRAVA,
+  limites e regras de corte.
+  MOTIVO (painel do ML lido em 22/11 15h19, período 15 a 21/11, aba Etiquetas): anunciob (B Cinta) 116 cliques, 6 unidades, conversão
+  3,45%, R$ 44,84 = 88% de toda a comissão (R$ 51,16) com 12% dos cliques (942). anuncio 716 cliques, 2 un., R$ 6,32. anuncioa 70 cliques,
+  0. telegram 29, facebook 8, twitter 2, testedireto 1: 0 venda. Vendas do anunciob, todas de 21/11 e "em revisão": a CINTA (venda DIRETA,
+  R$ 95,34 → R$ 35,10) + 3 indiretas (extensão E27, tapete de porta-malas, jogo de barbeadores: R$ 9,74). Gasto do B: NÃO medido nesta
+  leitura (não abri a Meta; o Gestor mede às 19h19 de 22/11).
+  POR QUE SÓ EM 23/11: a única sessão de edição de 22/11 já foi a retomada das 10h13 (TRAVA). Na visita de 22/11 o Gestor só coleta, faz o
+  balanço e ANOTA AQUI o público do B (idade, gênero, posicionamentos, otimização), que não está escrito em lugar nenhum.
+  a) C (Esteira, anuncioc) e E (OPPO, anuncioe): decidir pelo painel do ML, aba Etiquetas, com o que ele mostrar na hora da visita:
+     - sem NENHUMA venda na etiqueta dele → PAUSAR (a verba vai para a cinta e para o F; na noite de 23/11 cada um já terá ~R$ 20 gastos,
+       que é a regra de corte);
+     - com venda na etiqueta dele → fica como está (não mexer no criativo).
+  b) VERBA de 23/11, depois do item a. Total sempre R$ 50/dia: nunca passar.
+     | Situação em 23/11 19h19 | B Cinta | F Conjunto | C Esteira e E OPPO |
+     |---|---|---|---|
+     | C e E sem venda (o esperado) | R$ 35 | R$ 15 | os dois pausados |
+     | só um deles vendeu | R$ 25 | R$ 10 | o que vendeu fica com R$ 15; o outro pausado |
+     | os dois venderam | R$ 20 | R$ 10 | R$ 10 cada |
+     O B nunca fica abaixo de R$ 20 e nenhum conjunto sobe mais que o dobro de um dia para o outro. Fim do B continua 26/11 23h59.
+     NÃO mexer em mais nada do B (público, posicionamento, imagem, texto, link): não se mexe no que vende. A página da cinta hoje destaca
+     R$ 90,57 no Pix (R$ 95,34 em 3x no cartão; riscado R$ 179,90; GANHOS EXTRAS 27%, conferido 22/11 15h21): só trocar a imagem do B se o
+     preço escrito nela tiver ficado FALSO.
+     Trava do reforço: se o B gastar R$ 60 depois de 23/11 19h19 sem venda nova em anunciob, volta para R$ 20 (como na ORDEM 3 a).
+  c) CRIAR o conjunto "F - Conjunto Fitness - anunciof" na campanha "Fase A - Iscas Black - 20/11":
+     - Como: DUPLICAR o conjunto "B - Cinta Modeladora - anunciob" (herda o que funciona) e trocar nome, verba, gênero do público, imagem,
+       textos e link. Anúncio NOVO (não "usar publicação existente"). Antes de publicar, conferir que NÃO sobrou nada da cinta no anúncio
+       novo (em 22/11 um rascunho duplicado ainda tinha o texto da câmera).
+     - Público: mesma região (Brasil) e mesma idade do B, mas gênero = MULHERES (produto feminino; evita clique de curioso).
+     - Posicionamentos: SÓ Feed do Facebook + Feed do Instagram. Fim: 26/11 23h59. Etiqueta: anunciof (criada em 22/11).
+     - Produto (conferido 22/11 15h23 e 15h34): "Top Com Calça Academia Feminino Fitness Legging Conjunto", marca NBZ, vendedor
+       NBZMODAFITNESS (MercadoLíder Platinum). R$ 71 (riscado R$ 175,90; 12x R$ 6,99; cupom da loja R$ 63,90), GANHOS EXTRAS 28%, nota 4,8
+       (1.354 opiniões), +5 mil vendidos, tamanhos P a GG, entrega em 4 a 5 dias (não é Full).
+     - Link do anúncio:
+       https://produto.mercadolivre.com.br/MLB-4223661377-top-com-calca-academia-feminino-fitness-legging-conjunto-_JM?matt_word=anunciof&matt_tool=58037177
+       Para CONFERIR preço, abra o mesmo endereço SEM o "?matt_word...". Nunca clique no link de afiliado.
+     - Imagem (pronta, feita em 22/11 pelo design.md): anuncio/conjuntofitness-1080x1350.jpg (4:5, a principal) e
+       anuncio/conjuntofitness-1080x1080.jpg (reserva). Foto-fonte: anuncio/fonte-conjuntofitness.png = só a pose DE FRENTE da 1ª foto do
+       anúncio (a pose de costas ficou de fora de propósito: a Meta reprova imagem com foco em parte do corpo).
+       "Adicionar detalhes ao layout" e todos os aprimoramentos de IA DESLIGADOS, como no C.
+     - Textos (máx. 125 caracteres; conferir os números no dia):
+       principal 1: "Conjunto fitness com top e calça legging, de R$ 175,90 por R$ 71 no Mercado Livre. Publicidade · link de afiliado"
+       principal 2: "Top + calça legging para academia por R$ 71 no Mercado Livre. Veja cores e tamanhos. Publicidade · link de afiliado"
+       título: "Conjunto fitness por R$ 71" · descrição: "Canal independente · link de afiliado" · botão: o mesmo do B.
+       PROIBIDO no texto e na imagem (regra da Meta de aparência pessoal e as nossas): prometer corpo ou resultado ("modela", "empina",
+       "seca", "afina"), "antes e depois", falar do corpo de quem lê ("você que..."), "% OFF", "só hoje", "Black Friday" (a página não
+       mostra o selo).
+     - RECONFERIR em 23/11 antes de publicar (página normal + Central): preço, preço riscado, GANHOS EXTRAS, nota e estoque.
+       · Preço ou riscado mudou → refazer as imagens com os valores do dia e ajustar os textos:
+         python3 anuncio/gerar_anuncio_produto.py --foto anuncio/fonte-conjuntofitness.png --nome "Conjunto fitness" --linha2 "Top + calça legging" --preco "De R$ <riscado> por R$ <preço>" --sufixo "" --saida-prefixo anuncio/conjuntofitness
+         Se a página não mostrar mais preço riscado: --preco "R$ <preço>" --sufixo "". A 1080x1080 saiu de outra chamada (--linha2
+         "Top + calça" --preco "R$ <preço>" --sufixo "de R$ <riscado>"): na quadrada, texto comprido sai cortado.
+       · GANHOS EXTRAS abaixo de 20%, sem estoque ou nota abaixo de 4,6 → NÃO publicar este produto: usar a 1ª RESERVA do item d que
+         passar na conta do dia (imagem pelo design.md). Se nenhuma passar: o F não entra, o B vai a R$ 40 e o resto fica sem gastar.
+     - Conta da ESCOLHA DO PRODUTO (22/11): ganho por venda pela etiqueta R$ 19,88 (28% x R$ 71); chance 2 (1,2%) → R$ 0,24 por clique:
+       passa com custo por clique abaixo de R$ 0,24 (a Fase A começou em R$ 0,11; o do B o Gestor mede em 22/11). Pelo padrão REAL da venda
+       da cinta (ver LIÇÕES) o ganho seria ~R$ 25 por venda. É TESTE: vale a regra de corte normal (R$ 20 gastos e 0 venda em anunciof =
+       pausar).
+  d) RESERVAS da "família da cinta" (conferidas em 22/11 entre 15h21 e 15h35; números em PRODUTOS AVALIADOS). Entram uma por dia, no lugar
+     do F se ele for cortado, com etiqueta reserva (anunciog, anuncioh, anuncioi), sempre reconferindo preço e % no dia. O Estrategista
+     escolhe pela conta; sugestão de ordem:
+     1. Kit 2 Top Academia Puma: https://produto.mercadolivre.com.br/MLB-5223814662-kit-2-top-academia-puma-treino-fitness-esportivo-algodo-_JM
+        (foto só do produto, sem risco de reprovação; Full)
+     2. Cinta Body Modelador Macaquinho Plus Size: https://produto.mercadolivre.com.br/MLB-5046520966-cinta-body-modelador-macaquinho-plus-size-com-perna-350725-_JM
+        (o parente mais direto da cinta e a 2ª opção mostrada ao Vini; mais caro, só 10% de desconto no Pix, só bege, tamanhos 44 a 50)
+     3. Sutiã Clássico Comfort+ Lupo Loba: https://www.mercadolivre.com.br/sutia-classico-sutia-comfort-lupo-loba-feminino-c-bojo/up/MLBU752869251
+        (maior ganho por venda; usar foto só do produto)
+     4. 3 Calcinhas cintura alta: https://produto.mercadolivre.com.br/MLB-1966475990-3-calcinha-pos-parto-segura-barriga-lingerie-luxo-especial-_JM
+        (no anúncio não escrever "pós-parto")
+     5. Cinta Modeladora Shorts Shaper: https://produto.mercadolivre.com.br/MLB-6171656788-cinta-modeladora-shorts-alta-compresso-shaper-4-barbatana-_JM
+        (isca barata; ganho baixo por venda)
+     Fora de questão para anúncio: produtos pós-cirúrgicos ou pós-operatórios (a loja Opta Corpus vende muitos): é tema de saúde.
+  e) DEPOIS (24 a 26/11): F com venda fica; venda DIRETA dobra no dia seguinte tirando de quem não vende (B nunca abaixo de R$ 25). F
+     cortado → entra a próxima reserva (1 troca por dia). Se o B continuar vendendo, pode ir a R$ 40 em 24/11 (dentro dos R$ 50).
+     Estrategista: pode ajustar os valores com os números do Gestor (custo por clique, vendas), mas o reforço da cinta e o teste da
+     "família da cinta" são decisões do Vini: só mudam com número que justifique, escrito aqui.
+  f) BLACK (ORDEM 5, montagem em 25/11): sem mudança. O bf1 (R$ 180) já vai para o conjunto de maior comissão ÷ gasto da semana (hoje, o B).
+  g) Marcar FEITO aqui com hora, ids (conjunto e anúncio do F), verbas finais, público lido do B e situação de C e E. Checagem do Claude
+     principal marcada para 23/11 21h16: lê este arquivo e, se a ORDEM 6 não estiver FEITA, executa ele mesmo, respeitando a TRAVA.
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
@@ -292,3 +400,4 @@ DEU ERRADO (não repetir):
 - 21/11 15h00 Claude principal: Vini pediu produto chamativo + mais vendido + comissão alta, trocando todo dia. Pesquisa na Central e ORDEM 4 aberta; Gestor disparado fora do horário.
 - 21/11 15h15 Claude principal: Meta RESTRINGIU a conta do Vini às ~15h02 ("alguém pode ter acessado sem permissão"), provável excesso de acesso automático (Claude principal + Gestor ao mesmo tempo). Vini desbloqueou e relogou às ~15h10. Situação lida: B Cinta ATIVO R$ 20/dia; C Esteira e D Air Fryer em RASCUNHO (não publicados); E OPPO não criado. Gestor e Divulgador Facebook DESLIGADOS. REGRA NOVA: no máximo 1 agente por vez no Facebook/Gerenciador e no máximo 1 sessão de edição por dia; nunca duas conversas mexendo ao mesmo tempo.
 - 21/11 19h30 Claude principal (revisão da semana da Black, pedido do Vini): Gestor antigo aposentado (push 403) e Gestor v2 criado (trig_01AAWAbRKe2XzysEA5JJsKir, grava aqui, faz também o balanço); agente de Balanço desligado; data da Black corrigida para 26/11 18h a 27/11 23h59; trava de 1 acesso por vez à Meta; ORDEM 5 com o calendário dia a dia. Curador, Divulgador X e Divulgador Facebook estão no modelo Fable (limite de uso batido desde 20/11): o Vini vai trocá-los para Sonnet.
+- 22/11 15h50 Claude principal: Vini observou que o chamariz é o anúncio da cinta (estética da mulher) e pediu (1) um anúncio de algo derivado dela, com boa comissão, para 23/11 e (2) potencializar ainda mais a cinta. Painel do ML: anunciob 116 cliques, R$ 44,84 de R$ 51,16. Pesquisa na Central (família da cinta) em PRODUTOS AVALIADOS; o Vini escolheu o conjunto fitness NBZ (R$ 71, EXTRAS 28%). Aberta a ORDEM 6 (23/11 19h19: B R$ 35 + F R$ 15; C e E sem venda saem). Imagens do F prontas em anuncio/. Não abri a Meta.
