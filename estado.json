@@ -422,6 +422,12 @@
    "status": "postado",
    "message_id": 67,
    "em": "2026-11-21T22:05-03:00"
+  },
+  "20261120-19": {
+   "status": "vencido"
+  },
+  "20261120-20": {
+   "status": "vencido"
   }
  },
  "bot": "@blackachados_bot",
@@ -429,7 +435,7 @@
  "chat_titulo": "Black Achadinhos 🖤 Ofertas do Dia",
  "ligado_em": "2026-11-13T14:35-03:00",
  "boas_vindas_ok": true,
- "pendentes": 15,
+ "pendentes": 13,
  "foto_ok": true,
  "ultimo_post": "2026-11-21T22:05-03:00",
  "ultimo_dia_ok": "2026-11-21",
