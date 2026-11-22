@@ -96,6 +96,10 @@ houver diferença, vale mais que o resto deste arquivo e que o texto das tarefas
 - De 1/12 em diante volta ao normal: o Diretor repõe 6 horários e as cotas antigas.
 
 ## Situação
+- 22/11/2026 18h41 (Diretor, 2ª leitura semanal; semana da Black: nada de anúncio, verba, horários ou agentes mexido): canal com 2 inscritos
+  (igual a 13/11); 49 posts na semana (10 hoje, com os horários extras); robô saudável (sem erro, rodou hoje); 1 dia de fila vazia (19/11);
+  12 ofertas vencidas na semana. Canal: 29 cliques e 0 vendas (etiquetas telegram/facebook/twitter, 15 a 21/11). Pendência da equipe: Curador,
+  Facebook, X e Reels ainda no modelo Fable (limite de uso) até o Vini trocar para Sonnet. Limpeza de fila/: nada com mais de 30 dias. Próximo: 29/11.
 - 21/11/2026 19h30 (Claude principal, revisão da semana da Black): canal com 2 inscritos; robô saudável (postou hoje). Anúncios: 3 vendas,
   todas indiretas (R$ 6,32 pendentes + a extensão E27, valor não medido) contra R$ 152,60 gastos até 20/11 (21/11 não medido);
   o plano da Black está em trafego.md > ORDEM 5.
