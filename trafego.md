@@ -189,6 +189,10 @@ DEU ERRADO (não repetir):
   d) Montar a FASE A: 1 campanha de Tráfego (cliques no link), 2 conjuntos (R$ 10/dia cada, até 23/11 23h59; feriado = mais gente comprando),
      Feed do Facebook + Feed do Instagram, link direto do produto com ?matt_word=anuncio-a (ou -b)&matt_tool=58037177.
      Publicar (autorizado pelo Vini em 20/11: "está liberado"). Registrar ids e links aqui.
+  SITUAÇÃO 22/11 19h35 (Gestor v2): nada a executar. a) superada: as etiquetas em uso são anuncioa, anunciob, anuncioc... (sem hífen) e as
+  reservas até anunciobf2, criadas em 21 e 22/11. b) NÃO feita para o impulso de 17 a 20/11 (campanha encerrada; li o Detalhamento da Fase A,
+  que está no ar: balanco.md > Detalhamento). c) feita pelo Claude principal em 22/11 (PRODUTOS AVALIADOS). d) feita: Fase A no ar desde 20/11
+  (campanha 120248844812630656).
 
 - [ABERTA] 21/11 — ORDEM 2 (Estrategista, 20/11 22h40; para o Gestor às 19h19 de 21/11). MOTIVO: a campanha "Fase A - Iscas Black - 20/11"
   está ATIVA (Balanço 21h50: R$ 0,66, 6 cliques), mas NADA da ORDEM 1 foi escrito no repositório (nenhum commit do Gestor em 20/11;
@@ -210,6 +214,12 @@ DEU ERRADO (não repetir):
   e) Regras de corte valem já: conjunto com R$ 20 gastos e 0 venda na etiqueta dele = pausar. CTR < 0,8% após 1.000 impressões = trocar
      o criativo (pedir ao design.md uma 2ª imagem 1080x1350 do mesmo produto). Saldo da Meta abaixo de R$ 10: só anotar (ela para sozinha).
   f) NÃO criar campanha nova, NÃO pôr celular, NÃO mexer nas campanhas antigas desativadas nem nos rascunhos.
+  SITUAÇÃO 22/11 19h35 (Gestor v2): a) Fase A: campanha 120248844812630656; B 120248844944900656 (público e configuração na ORDEM 6,
+  REGISTRO de 22/11); C 120248862437100656 e E 120248862437080656 (ORDEM 5, FEITO de 22/11); A desligado; D em rascunho. Link completo do B
+  NÃO lido (não abri o anúncio): o painel do ML confirma que ele usa anunciob (59 cliques hoje até 16h30, contra 98 cliques da Meta no dia
+  até 19h34). b) conferido: só Feed do Facebook + Feed do Instagram (Detalhamento), etiqueta própria em B, C e E, total R$ 50/dia, fim
+  26/11 23h59 (lido no editor do B). Preço do B não conferido hoje (não é dia de edição; a ORDEM 6 b manda conferir em 23/11). c) feita pelo
+  Claude principal em 22/11. d) COLETA feita (balanco.md). e) regras de corte: nada bateu. f) cumprida (nada criado).
 
 - [ABERTA] 21/11 — ORDEM 3 (Claude principal, 21/11 14h50, decisão do Vini: "bora investir 50 por dia e na Black 300 só no dia, ou começar um dia antes"). VALE MAIS QUE A ORDEM 2 f) e o teto de R$ 20/dia.
   FEITO 21/11 ~14h50 (Claude principal): na Fase A, conjunto "B - Cinta Modeladora - anunciob" de R$ 10 para R$ 35/dia; "A - Camera Dupla Wifi - anuncioa" de R$ 10 para R$ 15/dia. Total R$ 50/dia.
@@ -224,6 +234,10 @@ DEU ERRADO (não repetir):
   c) BLACK: R$ 300 de 26/11 18h00 até 27/11 23h59 (começa na véspera à noite; data corrigida em 21/11, a Black é 27/11). Divisão inicial: 60% no melhor conjunto de 22-26/11 (maior comissão ÷ gasto), 40% no celular. Regra: conjunto com R$ 60 gastos na Black e 0 venda = pausar e passar a verba.
   d) Saldo: R$ 50 x 5 dias + R$ 300 = ~R$ 550 a partir de 22/11; saldo hoje R$ 384,36. Faltam ~R$ 170. Avisar o Vini UMA vez em 25/11 com o valor exato que falta (ele deposita por Pix; o Claude nunca deposita).
   e) Toda leitura vai para balanco.md com gasto x comissão por etiqueta.
+  SITUAÇÃO 22/11 19h35 (Gestor v2): a) no ar B R$ 20 + C R$ 15 + E R$ 15 = R$ 50/dia, todos com fim 26/11 23h59; A pausado desde 22/11;
+  B com R$ 34,84 gastos no total e venda na etiqueta: nada a mudar. b) o celular já está no ar (E OPPO A6t, anuncioe, desde 22/11).
+  c) e d) ver ORDEM 5 (Black montada em 25/11; aviso do depósito pelo Estrategista em 24/11). Saldo em 22/11 19h35: R$ 344,36.
+  e) feita (balanco.md).
 
 - [ABERTA] 21/11 — ORDEM 4 (Claude principal, 21/11 15h00). DECISÃO DO VINI: "produto chamativo, o que vende mais e comissão alta; se tiver que mudar todo dia, mude o produto; o foco é LUCRO com o tráfego pago". VALE MAIS QUE AS ORDENS 1 a 3 onde conflitar (verba total continua R$ 50/dia até 26/11 e R$ 300 na Black).
   Pesquisa feita na Central de afiliados (filtros Ganhos extras + Mais vendidos), 21/11 ~14h55. Ganho por venda = preço x %:
@@ -254,6 +268,8 @@ DEU ERRADO (não repetir):
   d) BLACK (26/11 18h00 a 27/11 23h59, R$ 300; data corrigida em 21/11): verba nos 2 produtos com melhor comissão ÷ gasto da semana; se nenhum vendeu, nos 2 de maior ganho por venda com CTR acima de 1%.
   e) Medir LUCRO: em balanco.md, por etiqueta: gasto (Meta) x comissão (ML). Meta da semana: comissão > gasto.
   f) Pode criar conjuntos e trocar produtos SEM perguntar ao Vini (autorizado em 21/11: "pesquise e aplique... mude o produto"). NUNCA passar de R$ 50/dia somados até 26/11. Proibidos: suplementos com promessa de saúde, adulto, armas, remédios.
+  SITUAÇÃO 22/11 19h35 (Gestor v2): a) C e E no ar desde 22/11 (Claude principal); D em rascunho (comissão da air fryer caiu). b) feita em
+  22/11. c) a TROCA DIÁRIA começa em 23/11 (ORDEM 5: em 22/11 só coleta e corte; em 23/11 a troca é a da ORDEM 6). d) a f) sem mudança.
 
 - [ABERTA] 21/11 — ORDEM 5: CALENDÁRIO DA SEMANA DA BLACK (Claude principal, 21/11 19h30; pedido do Vini: "revisa tudo, sem margem
   para erro, deixe pronto"). VALE MAIS QUE AS ORDENS 1 a 4 onde houver diferença. Verba (decisão do Vini): R$ 50/dia de 22 a 26/11
@@ -277,6 +293,9 @@ DEU ERRADO (não repetir):
     - TOTAL no ar: B 20 + C 15 + E 15 = R$ 50/dia.
     - Painel ML (7 dias até 22/11): 951 cliques, 8 pedidos, R$ 51,16 de ganho estimado.
   · Dom 22/11 19h19 — Gestor v2: COLETA + balanço + REGRAS DE CORTE (só pausar, se bater). Nada novo: C, D e E têm menos de 1 dia.
+    FEITO 22/11 19h35 (Gestor v2): COLETA + balanço gravados (balanco.md: Resumo, Leituras, Detalhamento, regra R). REGRAS DE CORTE: nada
+    bateu (B R$ 34,84 com 4 vendas em anunciob; C R$ 6,41 e E R$ 6,25, abaixo de R$ 20; CTR de todos acima de 2%; prejuízo, se as pendentes
+    confirmarem, R$ 161,80, abaixo de R$ 250, e o B acima de 0,7). Nada pausado, criado ou editado. Saldo R$ 344,36.
   · Seg 23 a Qua 25/11 19h19 — Gestor v2: COLETA + balanço + TROCA DIÁRIA (ORDEM 4 c, com os AJUSTES abaixo).
     Em 23/11 a troca do dia é a da ORDEM 6 (reforço do B + conjunto F): leia a ORDEM 6 antes de mexer em qualquer coisa.
   · Ter 24/11 22h37 — Estrategista: calcula quanto falta na conta para a Black e avisa o Vini por push (você mesmo, sem esperar o
@@ -429,6 +448,21 @@ DEU ERRADO (não repetir):
      CONTA DE 22/11 (só para comparar; o gasto NÃO foi medido, é estimativa pelas verbas): gasto do B até 21/11 ~R$ 14 a 18 → R estimado
      ~2,2 a 2,8. Sem venda nova em 22 e 23/11, o R cai para ~0,8 na visita de 23/11 (gasto ~R$ 52 x 1,14 = ~R$ 59 contra R$ 44,84):
      por isso a subida além de R$ 35 depende de venda nova.
+  REGISTRO 22/11 19h35 (Gestor v2; NADA da ORDEM 6 foi executado: fica para 23/11 19h19):
+     - PÚBLICO DO B (lido no editor do conjunto 120248844944900656, sem salvar nada; o botão seguiu "Conferir e publicar (4)"): público
+       Advantage+ LIGADO; único controle = localização Brasil (sem idade mínima extra, sem gênero, sem interesse; público estimado 160,6 a
+       188,9 milhões); posicionamentos MANUAIS (Advantage+ desligado) e a entrega saiu só no Feed do Facebook e no Feed do Instagram;
+       meta "Maximizar o número de cliques no link"; lance "Volume mais alto"; orçamento diário R$ 20 (a Meta avisa: até R$ 35 num dia,
+       R$ 140 na semana); início 20/11 08h03, fim 26/11 23h59.
+     - QUEM CLICA NO B (Detalhamento de 20 a 22/11, balanco.md): mulheres 75% dos cliques; 45+ anos 88%; mulher de 65+ sozinha 36%.
+       Custo por clique igual no Feed do Facebook e no do Instagram (R$ 0,15).
+     - PARA O F (23/11): no B o gênero NÃO está travado (a tela do público Advantage+ diz que também alcança pessoas fora de "idade, gênero
+       e direcionamento detalhado" quando acha melhor). Para o F ficar só MULHERES (item c), confira no editor do F se o gênero entra como
+       controle; se não entrar, troque o público do F para as opções originais (sem Advantage+) com gênero = Mulheres e Brasil, como no B.
+       Não mexer no B.
+     - FUSO: o editor mostra "GMT-2" ao lado dos horários (08:03 GMT-2, 23:59 GMT-2). Se a conta estiver em GMT-2, o 23h59 dela é 22h59 de
+       Brasília e o "18h00" da Black seria 17h00 de Brasília. Conferir antes de agendar a Black (ORDEM 5, 25/11).
+     - R do dia = 1,13 (balanco.md > Resumo). C e E: 0 venda até agora (painel do ML só até 16h30 de hoje), com R$ 6,41 e R$ 6,25 gastos.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
