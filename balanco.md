@@ -11,6 +11,22 @@ Diferença importante: DEPOSITADO é o dinheiro que o Vini pôs na conta de anú
 consumiu. O saldo que sobra continua sendo dele.
 
 ## Resumo (atualizado em 22/11/2026 19h35, pelo Gestor de Mídia v2)
+- ATUALIZAÇÃO PARCIAL de 23/11 18h47 (Claude principal; hoje o Gestor NÃO rodou: passou para 7h19 a partir de 24/11). As linhas de 22/11
+  abaixo continuam como estavam; o Gestor reescreve tudo em 24/11.
+  · Saldo pré-pago: R$ 292,85 (Cobrança, 18h46). Nenhum Pix novo desde 21/11. Fatura nova: 23/11 R$ 45,45.
+  · Saiu do saldo até agora: R$ 293,72 (R$ 586,57 depositados − R$ 292,85).
+  · Comissão (painel do ML, 17 a 23/11; 23/11 parcial até 16h30): EM REVISÃO R$ 117,88 · confirmada R$ 0,00 · 9 pedidos, 11 unidades,
+    6 compradores · 0 não efetivada · vendas R$ 1.858,67 · 764 cliques.
+  · Resultado: confirmado R$ -293,72 pelo saldo. Se as 9 vendas em revisão forem confirmadas: R$ -175,84 pelo saldo.
+  · Por etiqueta (ML 17 a 23/11 x Gerenciador no período Máximo às 18h42):
+    anuncioe (E OPPO): 80 cliques no ML, 1 venda, R$ 57,36 · gasto R$ 21,43, 102 cliques, CPC R$ 0,21 → R = 2,35.
+    anunciob (B Cinta): 296 cliques no ML, 8 unidades, R$ 54,20 · gasto R$ 57,22, 381 cliques, CPC R$ 0,15 → R da hora 0,83; até 22/11
+    (gasto R$ 41,03) R = 1,16.
+    anuncioc (C Esteira, desligado pelo Vini ~10h): 61 cliques no ML, 0 venda · gasto final NÃO lido.
+    anuncio 227 cliques/R$ 6,32 · anuncioa 70/0 · telegram 21/0 · facebook 8/0 · testedireto 1/0. Campanhas antigas e A Câmera: não lidas hoje.
+  · Verbas desde 18h46 de 23/11 (ORDEM 11, decisão do Vini): E R$ 30/dia + B R$ 20/dia = R$ 50/dia.
+  · Para a Black (estimativa): resto de hoje ~R$ 14 + 3 dias x R$ 50 x 1,137 = R$ 171 + Black R$ 300 x 1,137 = R$ 341 → precisa de ~R$ 526;
+    saldo R$ 292,85 → FALTAM ~R$ 235. Só o Vini deposita (avisado em 23/11; o Estrategista confirma o valor em 24/11).
 - Depositado na conta de anúncios: R$ 586,57 (Pix 14/11 R$ 228,00 + Pix 21/11 R$ 358,57). Nenhum depósito novo desde 21/11 (cobrança lida em 22/11 19h35).
 - Gasto pela Meta (Gerenciador, período Máximo, até 22/11 ~19h34): R$ 212,96 = Fase A - Iscas Black - 20/11 R$ 60,73 (ATIVA: B Cinta R$ 34,84 · A Câmera R$ 13,23, desligado · C Esteira R$ 6,41 · E OPPO R$ 6,25) + Impulso Espelho e Balança R$ 61,05 + Teste Celulares R$ 51,61 + Canal (Telegram) R$ 20,92 + Seguidores da Página R$ 18,65 (as 4 últimas desativadas).
   Gasto de HOJE (22/11 até ~19h34): ~R$ 28,16 (B R$ 15,50 · C R$ 6,41 · E R$ 6,25) e 166 cliques no link (B 98 · C 31 · E 37).
@@ -64,6 +80,11 @@ Conferido em 22/11 19h35 (Atividade de pagamento, 16 a 22/11): nenhum Pix novo d
 | 22/11 19h34 | Rascunhos (NÃO publicados, não mexi; o botão segue "Conferir e publicar (4)"): D - Air Fryer Midea - anunciod (com o criativo da câmera), "Novo conjunto de anúncios de Vendas", "Campanha Cinta1" | - | - | - | - | - | - |
 | 22/11 19h34 | Desativadas, sem gasto novo: Impulso R$ 61,05 (240 cliques; era R$ 60,76 em 20/11: gasto lançado depois) · Celulares R$ 51,61 (340) · Canal R$ 20,92 (148) · Seguidores R$ 18,65 (36 visitas) | - | - | - | - | - | - |
 | 22/11 19h35 | TOTAL anúncios | R$ 212,96 | ML: 942 (15-21/11) + 99 (hoje até 16h30) | 0 | 6 (em revisão 6, confirmada 0) | em revisão R$ 51,16 · confirmada R$ 0,00 | R$ -212,96 (confirmado) · R$ -161,80 se as pendentes confirmarem |
+| 23/11 18h13 | Painel do ML (Claude principal): 17 a 23/11, hoje parcial até 16h30 | ver linhas da Meta abaixo | 764 no total: anunciob 296 · anuncio 227 · anuncioe 80 · anuncioa 70 · anuncioc 61 · telegram 21 · facebook 8 · testedireto 1. Só 23/11: 125 (anunciob 66 · anuncioe 40 · anuncioc 18 · anuncio 1). Só 22/11: 207 (anunciob 114 · anuncioc 43 · anuncioe 40 · anuncio 10) | - | 9 pedidos, 11 unidades. Novas: 22/11 2 regatas Voker (anunciob, R$ 9,36) · 23/11 Galaxy A17 256 GB R$ 1.399 (anuncioe, R$ 57,36) | em revisão R$ 117,88 (anunciob R$ 54,20 · anuncioe R$ 57,36 · anuncio R$ 6,32) · confirmada R$ 0,00 | ver Resumo |
+| 23/11 18h42 | Fase A: E - Celular OPPO A6t - anuncioe (conjunto 120248862437080656), ATIVO; verba R$ 15 → R$ 30/dia às 18h44 | R$ 21,43 (até 22/11: R$ 9,21; hoje R$ 12,22) | 102 no link (R$ 0,21 · 4.218 impr.; hoje 53) | - | anuncioe: 1 venda (23/11) | em revisão R$ 57,36 | R$ +35,93 se confirmada (pelo saldo, x1,14: R$ +32,93) · R = 2,35 |
+| 23/11 18h42 | Fase A: B - Cinta Modeladora - anunciob (conjunto 120248844944900656), ATIVO; verba R$ 35 → R$ 20/dia às 18h45 (tinha subido para R$ 35 às ~10h05) | R$ 57,22 (até 22/11: R$ 41,03; hoje R$ 16,19) | 381 no link (R$ 0,15 · 9.762 impr.; hoje 107) | - | anunciob: 5 pedidos, 8 unidades (nenhuma em 23/11 até 16h30) | em revisão R$ 54,20 | R$ -3,02 se confirmada (pelo saldo: R$ -11,03) · R da hora 0,83 |
+| 23/11 18h42 | Vistos sem mudança (desativados): Balança R$ 30,55 (132) · Espelho R$ 30,50 (108) · Seguidores R$ 18,65 (36 visitas) · Galaxy A17 R$ 26,58 (198) · iPhone 16e R$ 25,03 (142). NÃO lidos: C Esteira, A Câmera, Canal. Rascunhos: 4, intocados | - | - | - | - | - | - |
+| 23/11 18h46 | Cobrança: saldo pré-pago R$ 292,85; fatura 23/11 R$ 45,45; sem Pix novo | saiu do saldo R$ 293,72 | - | - | - | - | R$ -175,84 se tudo confirmar (pelo saldo) |
 
 ## Detalhamento da Meta (o Gestor v2 lê em 22/11, 25/11 e 28/11)
 ### 22/11 19h30 — Fase A, período Máximo (= 20 a 22/11), cliques no link e gasto

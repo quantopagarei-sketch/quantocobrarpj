@@ -210,12 +210,25 @@ DEU CERTO (replicar):
   com 12% dos cliques. Foi a 1ª venda DIRETA (a própria cinta: R$ 95,34 → R$ 35,10) + 3 indiretas. Perfil a replicar (observação do Vini em
   22/11: "o chamariz é a cinta, algo ligado ao estético da mulher"): produto feminino de corpo/estética, menos de R$ 100, cerca de 50% de
   desconto, dezenas de milhares de vendidos, loja oficial, GANHOS EXTRAS alto. Ver ORDEM 6.
+- 23/11: o anúncio de CELULAR ("E - OPPO A6t", anuncioe) trouxe a maior comissão do projeto: R$ 57,36 numa venda (Galaxy A17 256 GB, R$ 1.399),
+  com R$ 21,43 gastos e 102 cliques (R = 2,35). Quem clicou no OPPO comprou OUTRO celular: na semana da Black, anúncio de celular atrai quem
+  está comprando celular, e qualquer aparelho comprado paga ~5% (R$ 40 a R$ 150 por venda). É UMA venda: confirmar com a próxima antes de
+  tratar como regra. Decisão do Vini: dobrar o E (R$ 30) sem aumentar o total (ORDEM 11).
+- 23/11: "Venda direta" no painel NÃO quer dizer "o produto do anúncio". A regata (etiqueta da cinta) e o Galaxy A17 (etiqueta do OPPO)
+  aparecem como "direta". O que se vê: "direta" paga a % cheia da categoria (16% em moda, 5% em celular; a cinta, 44% com os extras) e
+  "indireta" paga menos (6% a 12%). O significado exato não foi conferido nas regras do programa. Não basear regra de verba em
+  "direta x indireta": usar o GANHO em reais de cada etiqueta dividido pelo gasto do conjunto.
 - A venda direta pagou MAIS que a etiqueta: o painel mostra "Venda direta: 44%" (R$ 35,10 = 36,8% do preço cheio), e a etiqueta da cinta diz
   GANHOS EXTRAS 27%. Pelo que esta venda mostra, o "extra" SOMA com a comissão normal da categoria (16% em moda) e a base de cálculo é ~82% do
   preço (as indiretas também: 6% rende 4,9% do preço). É 1 venda só: confirmar na próxima venda direta antes de usar isso na conta.
 DEU ERRADO (não repetir):
 - Anúncio para o canal do Telegram (R$ 20,92, 0 inscrito) e para seguidores da página (R$ 18,64, 0 seguidor).
 - Celular caro com comissão baixa sem Black (iPhone 16e e Galaxy A17: R$ 51,61, 340 cliques, 0 venda). Celular só volta com comissão ≥ 10% (ex.: OPPO A6t) e preço de Black.
+  (23/11: na semana da Black o anúncio de celular VENDEU, ver acima. Esta lição vale para FORA da Black.)
+- 23/11: anúncio no ar com preço velho. O E dizia "R$ 833,52 no Pix, conferido hoje" e a página já estava em R$ 789,30. Na semana da Black o
+  preço muda quase todo dia: o Gestor confere a página de TODO anúncio no ar em toda visita e nunca escreve "conferido hoje" (usar a data).
+- 23/11: mudanças feitas sem registro (push negado de manhã): B a R$ 35 e Gestor às 7h19 só entraram aqui às 18h18. Sem push, avisar o Vini e
+  pedir o "sim" para gravar; o plano escrito mandava PAUSAR o E na noite em que ele vendeu.
 - Produto anunciado que só gera clique: espelho/balança e câmera (anuncioa, 64 cliques, 0 venda) nunca venderam o produto em si.
 - Etiqueta única "anuncio" para tudo (não dava para saber o que vendeu).
 - Divulgação orgânica (Telegram, Facebook, X): ~45 cliques, 0 venda. Não gastar verba nisso.
@@ -374,9 +387,9 @@ DEU ERRADO (não repetir):
   - Ganhos extras somem sem aviso: se a % do produto caiu, pausar e trocar (vale também para o PS5 e celulares: só com comissão ≥ 5%,
     e celular só com GANHOS EXTRAS ≥ 8%).
 
-- [ENCERRADA em 23/11 18h21 — NÃO EXECUTAR MAIS; VALE A ORDEM 11] 22/11 — ORDEM 6: REFORÇAR A CINTA + ANÚNCIO "PRIMO" DA CINTA.
+- [ENCERRADA em 23/11 18h38 — NÃO EXECUTAR MAIS; VALE A ORDEM 11] 22/11 — ORDEM 6: REFORÇAR A CINTA + ANÚNCIO "PRIMO" DA CINTA.
   SITUAÇÃO FINAL (23/11): o B subiu para R$ 35 às ~10h05 (Claude principal, pedido do Vini); o C foi desligado pelo Vini; o E NÃO sai
-  (vendeu: R$ 57,36); o F NÃO foi criado e NÃO deve ser criado agora (decisão do Vini às 18h21: R$ 50/dia = celular R$ 30 + cinta R$ 20).
+  (vendeu: R$ 57,36); o F NÃO foi criado e NÃO deve ser criado agora (decisão do Vini às ~18h38: R$ 50/dia = celular R$ 30 + cinta R$ 20).
   A checagem das 21h16 não tem nada a executar na Meta: só confere a ORDEM 11. O texto abaixo fica como registro e como ficha do F.
   (Claude principal, 22/11 15h50.) PEDIDOS DO VINI em 22/11: "o grande chamariz me parece ser o anúncio da cinta, algo ligado ao estético
   da mulher; amanhã, além dela, um anúncio de algo derivado dela com boa comissão, para testar e fazer companhia" e, em seguida, "talvez
@@ -510,7 +523,7 @@ DEU ERRADO (não repetir):
        Brasília e o "18h00" da Black seria 17h00 de Brasília. Conferir antes de agendar a Black (ORDEM 5, 25/11).
      - R do dia = 1,13 (balanco.md > Resumo). C e E: 0 venda até agora (painel do ML só até 16h30 de hoje), com R$ 6,41 e R$ 6,25 gastos.
 
-- [ENCERRADA em 23/11 18h21, junto com a ORDEM 6; do que está abaixo só continuam valendo a letra a (R com período igual) e a letra e
+- [ENCERRADA em 23/11 18h38, junto com a ORDEM 6; do que está abaixo só continuam valendo a letra a (R com período igual) e a letra e
   (ler o fuso da conta)] 22/11 — ORDEM 7 (Estrategista, 22/11 22h40; para o Gestor v2 em 23/11 19h19). EXECUTAR JUNTO COM A ORDEM 6 (ela continua
   valendo inteira; aqui só os ajustes). Respeitar a TRAVA e a 1 sessão de edição do dia.
   a) R DO DIA (vale para os DEGRAUS da ORDEM 6 h, de 23/11 em diante): calcular com o MESMO período nos dois lados.
@@ -542,7 +555,7 @@ DEU ERRADO (não repetir):
   e) Não muda verba, degrau nem a regra R (a etiqueta é a mesma: anunciob).
 
 - [ABERTA] 22/11 23h30 — ORDEM 9 (Claude principal, pesquisa no YouTube pedida pelo Vini). VALE MAIS QUE A ORDEM 6 h NOS DEGRAUS.
-  (23/11 18h21: a letra a, DEGRAUS, está SUSPENSA pela ORDEM 11. As letras b a e continuam valendo.)
+  (23/11 18h38: a letra a, DEGRAUS, está SUSPENSA pela ORDEM 11. As letras b a e continuam valendo.)
   Fontes: Giovani Mezon (anúncio com link direto de afiliado, fev/2026), André Nunes (escala no Meta, out/2026), Daiane (link no Reel, mar/2026).
   a) DEGRAUS MENORES (só mais cauteloso, dentro do que o Vini aprovou): subir no máximo 30% por dia, 1 mudança de verba por dia, para a Meta
      não voltar ao "aprendizado". B: 23/11 R$ 35 → 24/11 R$ 45 → 25/11 R$ 58, com as MESMAS condições (R ≥ 1,3 e venda nova). Descer também
@@ -576,7 +589,7 @@ DEU ERRADO (não repetir):
 
 - [ABERTA] 23/11 18h18 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
   necessário"). VERBA DE 24 A 26/11 DEPOIS DA VENDA DO CELULAR. VALE MAIS QUE AS ORDENS 5 a 9 ONDE HOUVER DIFERENÇA.
-  DECIDIDO PELO VINI em 23/11 18h21 (pergunta com os números e 3 opções: R$ 50, R$ 65 ou R$ 80 por dia; resposta dele: "R$ 50/dia"):
+  DECIDIDO PELO VINI em 23/11 ~18h38 (pergunta feita às 18h20; pergunta com os números e 3 opções: R$ 50, R$ 65 ou R$ 80 por dia; resposta dele: "R$ 50/dia"):
   de 24 a 26/11 o total CONTINUA R$ 50/dia, só muda a divisão:
      E - Celular OPPO A6t (anuncioe): R$ 30/dia (dobra)   +   B - Cinta (anunciob): R$ 20/dia.
   O conjunto fitness (F) NÃO entra agora: fica guardado (imagens, textos e link prontos na ORDEM 6 c). C Esteira segue desligado (Vini).
@@ -585,13 +598,34 @@ DEU ERRADO (não repetir):
   MOTIVO (painel do ML, 17 a 23/11, lido às 18h13): anuncioe 80 cliques → R$ 57,36 (R$ 0,72 por clique). anunciob 296 cliques → R$ 54,20
   (R$ 0,18 por clique; nos últimos 2 dias, 180 cliques → R$ 9,36). É UMA venda de celular: amostra mínima, pode não se repetir. Por isso o
   dinheiro só mudou de lugar, não aumentou.
-  a) VERBAS NA META (Claude principal, sessão de 23/11 à noite): ver o FEITO abaixo.
+  a) VERBAS NA META — FEITO 23/11 18h44 a 18h46 (Claude principal; 1 aba; sessão de 18h40 a 18h47, com a TRAVA no diario.md):
+     - "E - Celular OPPO A6t - anuncioe" (conjunto 120248862437080656): de R$ 15 para R$ 30/dia. Segue ATIVO.
+     - "B - Cinta Modeladora - anunciob" (conjunto 120248844944900656): de R$ 35 para R$ 20/dia. Segue ATIVO.
+     - Total no ar: R$ 50/dia. Publicado direto; o botão segue "Conferir e publicar (4)" (rascunhos antigos intocados). Nada mais foi mexido.
+     - Lido na mesma visita (período Máximo, 18h42): E R$ 21,43 gastos · 102 cliques · CPC R$ 0,21 · 4.218 impressões (até 22/11: R$ 9,21 e
+       49 cliques). B R$ 57,22 · 381 cliques · CPC R$ 0,15 · 9.762 impressões (até 22/11: R$ 41,03 e 274 cliques). Saldo pré-pago R$ 292,85.
+       R do E = 57,36 ÷ (21,43 x 1,14) = 2,35. R do B = 54,20 ÷ (57,22 x 1,14) = 0,83 (da hora); até 22/11 = 54,20 ÷ (41,03 x 1,14) = 1,16.
+     - FUSO DA CONTA (resposta da ORDEM 7 e): "Brazil/DeNoronha" (GMT-2) = Brasília + 1 hora (lido no seletor de datas do Gerenciador).
+       No editor, SOMAR 1 HORA ao horário de Brasília. Black: 18h00 de Brasília em 26/11 = 19:00 no editor; fim 23h59 de Brasília em 27/11 =
+       00:59 de 28/11 no editor. Os conjuntos diários acabam 26/11 23:59 da conta = 22h59 de Brasília. O "dia" do orçamento vira às 23h de Brasília.
   b) GESTOR, 24/11 7h19 (1ª visita de manhã): COLETA + balanço (ML e Meta; hoje não houve leitura da Meta). Conferir: B = R$ 20/dia e
      E = R$ 30/dia, os dois ATIVOS, fim 26/11 23h59, C desligado. NÃO criar o F. NÃO subir o B.
-     PREÇO DO OPPO: na busca do ML em 23/11 18h15 o OPPO A6t 128 GB estava R$ 798,99 no Pix (de R$ 1.299; 18x R$ 49,32); em 22/11 era
-     R$ 833,52. Abrir a página normal do produto e comparar com o preço escrito na imagem e no texto do anúncio do E. Se estiver diferente:
-     refazer a imagem (design.md) com o preço do dia e trocar SÓ a imagem e o número do texto (mesmo link anuncioe, mesmo público). Conferir
-     também a % de GANHOS EXTRAS do OPPO na Central (era 10%).
+     PREÇO DO OPPO — O ANÚNCIO ESTÁ DESATUALIZADO (lido em 23/11 18h47 na prévia do anúncio e 18h50 na página do produto):
+     o anúncio "OPPO A6t - imagem" (id 120248862437120656) diz "R$ 833,52 no Pix, conferido hoje" na imagem, no texto e no título. A página
+     hoje mostra: cor Azul Cristal (a da foto do anúncio) R$ 789,30 no Pix, riscado R$ 1.299, 39% OFF, ou R$ 877 em 18x R$ 48,72
+     (https://www.mercadolivre.com.br/smartphone-oppo-a6t-128gb-12gb-ram-4gb-8gb-virtual-ram-bateria-gigante-de-6500mah-processador-snapdragon-tela-120hz-ai-camera-ip64-azul-cristal/p/MLB66447547);
+     cor Violeta R$ 798,99 (.../p/MLB75697418). Selo BLACK FRIDAY e "MAIS VENDIDO 1º em Celulares e Smartphones Oppo" na página; loja oficial
+     Oppo, Full, 4,8, +10 mil; barra de afiliado: GANHOS EXTRAS 10% (patrocinado por OPPO). O preço real é MENOR que o do anúncio.
+     O QUE FAZER às 7h19: 1) abrir a página normal (sem matt_word) e ler o preço do dia da cor Azul Cristal; 2) gerar a imagem com o preço do
+     dia (foto-fonte em anuncio/fonte-oppoa6t.png; comando em anuncio/LEIA-oppo.txt; se o preço for o mesmo de 23/11, a imagem
+     anuncio/oppoa6t-1080x1350.jpg já está pronta); 3) no conjunto E, DUPLICAR o anúncio "OPPO A6t - imagem" e, no novo, trocar a imagem e os
+     números do texto e do título (mesmo link anuncioe, mesmo botão); no lugar de "conferido hoje" escrever "preço conferido em DD/MM";
+     nome "OPPO A6t - imagem 24/11"; aprimoramentos de IA desligados; publicar. 4) NÃO editar o anúncio antigo (ele segue entregando enquanto
+     o novo passa pela análise). Se o novo já estiver "Ativo" no fim da visita, pausar o antigo; se estiver "Em análise", deixar os dois e
+     anotar: a visita seguinte pausa o antigo. 5) Se a % de GANHOS EXTRAS do OPPO tiver caído, anotar (a comissão comum de celular é 5%).
+     Textos-base (ajustar os números ao dia; máx. 125 caracteres no principal):
+       principal: "Smartphone OPPO A6t 128 GB, bateria de 6500 mAh. De R$ 1.299 por R$ 789,30 no Pix (conferido em 24/11). Publicidade · link de afiliado"
+       título: "OPPO A6t 128 GB por R$ 789,30 no Pix" · descrição: "Canal independente · link de afiliado".
      ORDEM 8 (vídeo "B2" da cinta) continua valendo, se o arquivo anuncio/cinta-video.mp4 existir.
   c) REGRAS DE 24 A 26/11: venda nova em anuncioe → E fica em R$ 30 (não sobe: o total é R$ 50). E com R$ 60 gastos DEPOIS de 23/11 19h00 sem
      venda nova em anuncioe → E volta para R$ 15 e os R$ 15 voltam para o B. O B não sai (motor) e não fica abaixo de R$ 20.
