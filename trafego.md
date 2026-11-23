@@ -518,6 +518,20 @@ DEU ERRADO (não repetir):
      imagem, pausar o vídeo; se for menor ou igual, manter os dois na Black. Gravar a comparação em balanco.md e no Diário do Estrategista.
   e) Não muda verba, degrau nem a regra R (a etiqueta é a mesma: anunciob).
 
+- [ABERTA] 22/11 23h30 — ORDEM 9 (Claude principal, pesquisa no YouTube pedida pelo Vini). VALE MAIS QUE A ORDEM 6 h NOS DEGRAUS.
+  Fontes: Giovani Mezon (anúncio com link direto de afiliado, fev/2026), André Nunes (escala no Meta, out/2026), Daiane (link no Reel, mar/2026).
+  a) DEGRAUS MENORES (só mais cauteloso, dentro do que o Vini aprovou): subir no máximo 30% por dia, 1 mudança de verba por dia, para a Meta
+     não voltar ao "aprendizado". B: 23/11 R$ 35 → 24/11 R$ 45 → 25/11 R$ 58, com as MESMAS condições (R ≥ 1,3 e venda nova). Descer também
+     em passos de ~30%. A Black (R$ 300) continua como está.
+  b) Na visita de 23/11, conferir em B, F (e B2 em 24/11): "Aprimoramentos" (Advantage+ criativo) DESLIGADOS (a Meta não pode mexer na foto
+     nem no texto: risco de foto diferente do produto) e "anúncios com vários anunciantes" DESLIGADO. Anotar o que estava ligado.
+  c) Régua do clique (link direto, objetivo tráfego): CPC bom até R$ 0,10; acima de R$ 0,10 sem venda = trocar o criativo. CTR: abaixo de 2%
+     ruim, 3% bom, 4% ou mais ótimo. Frequência acima de 2 = criativo cansando: pedir criativo novo (ângulo diferente do mesmo produto).
+     Ordem de leitura: vendas da etiqueta primeiro; só sem venda olhar CPC, CTR e frequência. Gravar CTR e frequência em balanco.md.
+  d) Escalar dentro da MESMA campanha (duplicar conjunto ou somar criativo), não criar campanha nova que concorre com a antiga.
+  e) Coleta no painel do ML (Gestor, quando estiver lá): conferir se a página do Facebook "Black Achadinhos" está ligada no perfil de afiliado
+     (Central de afiliados > editar perfil > redes sociais). Só anotar; ligar é decisão do Claude principal (perfil não mostra nome do Vini).
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
