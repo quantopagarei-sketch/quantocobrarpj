@@ -42,3 +42,4 @@ Preço na imagem só se conferido na página do produto no dia. Se o preço muda
 - 15/11/2026 - iPhone 17e 256 GB, R$ 4.299 no Pix: `anuncio/iphone17e-1080x1350.jpg` e `anuncio/iphone17e-1080x1080.jpg`.
 - 15/11/2026 - Marmita elétrica bivolt, R$ 49,99 à vista: `anuncio/marmita-1080x1350.jpg`, `anuncio/marmita-1080x1080.jpg` e `docs/an/marmita.jpg`.
 - 23/11/2026 - OPPO A6t 128 GB (Azul Cristal), R$ 789,30 no Pix (conferido às 18h45): `anuncio/oppoa6t-1080x1350.jpg`, `anuncio/oppoa6t-1080x1080.jpg` e `anuncio/oppoa6t-depor-1080x1350.jpg`; foto-fonte `anuncio/fonte-oppoa6t.png`; instruções em `anuncio/LEIA-oppo.txt`. Para o Gestor trocar a imagem do anúncio E (ORDEM 11 b).
+- 23/11/2026 - Galaxy A17 128 GB (Preto), R$ 949,05 no Pix (conferido às 19h27): `anuncio/galaxya17-128-1080x1350.jpg` e `anuncio/galaxya17-128-1080x1080.jpg`; foto-fonte `anuncio/fonte-galaxya17-preto.png` (434x525 de origem: não ampliar mais). Para o conjunto G (ORDEM 12).

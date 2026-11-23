@@ -44,7 +44,8 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
      Por isso HOJE (23/11) NÃO HOUVE visita do Gestor: não há coleta da Meta de 23/11. O PC precisa estar ligado com o Chrome aberto às 7h15.
    PARA O ESTRATEGISTA (22h37) E O GESTOR (24/11 7h19) (a checagem das 21h16 foi cancelada às 19h06, com o "sim" do Vini):
    a) O "E - Celular OPPO A6t - anuncioe" FICA NO AR (tem venda na etiqueta). Ninguém pausa o E.
-   b) VERBA ATUAL, desde 23/11 18h42 (decisão do Vini às ~18h38, ORDEM 11): E Celular R$ 30/dia + B Cinta R$ 20/dia = R$ 50/dia.
+   b) VERBA: desde 23/11 18h42, E Celular R$ 30/dia + B Cinta R$ 20/dia = R$ 50/dia (decisão do Vini às ~18h38, ORDEM 11).
+      A PARTIR DE 24/11 ÀS 7h19 (decisão do Vini às ~19h38, ORDEM 12): E OPPO R$ 15 + G Galaxy A17 R$ 15 (conjunto NOVO) + B Cinta R$ 20 = R$ 50.
       Ninguém muda isso sem ordem nova. A tabela da ORDEM 6 b e os degraus da cinta NÃO valem mais.
    c) O F (conjunto fitness) NÃO é criado agora, e não entra conjunto novo até a Black (ORDEM 11 c). O plano completo, o preço velho do
       anúncio do OPPO (para o Gestor corrigir às 7h19) e os horários novos estão na ORDEM 11, no fim das ORDENS.
@@ -153,6 +154,14 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 | 22/11 15h24 | 2 (família da cinta) | 3 Calcinhas cintura alta "segura barriga", K2M (MLB-1966475990) | R$ 39,90 (de R$ 49,90) | EXTRAS 28% | R$ 11,17 | +10 mil | 4,7 (3.983) | cupom da loja R$ 33,90 | 3 | R$ 0,22 | passa com clique abaixo de R$ 0,22 · reserva 4 |
 | 22/11 15h27 | 2 (família da cinta) | Cinta Modeladora Shorts Alta Compressão Shaper 4 Barbatana (MLB-6171656788) | R$ 34,99 (de R$ 59,99) | EXTRAS 21% | R$ 7,35 | +10 mil | 4,7 (7.205) | não conferido | 3 | R$ 0,15 | só passa com clique abaixo de R$ 0,15 · reserva 5 |
 | 22/11 15h24 | 2 (fora do tema) | Kit 4 Blusinhas Regata Canelada, Maria Malui (MLB-4281293069) | R$ 65 (de R$ 99,99) | EXTRAS 31% | R$ 20,15 | +10 mil | 4,8 (4.499) | não conferido | 3 | R$ 0,40 | passa (moda básica, não é estética) |
+| 23/11 19h27 | 1 (mais vendido) | Samsung Galaxy A17 128 GB 4 GB, Preto (MLB65114795), loja oficial Samsung / Mercado Livre Eletrônicos, Full | R$ 949,05 no Pix (de R$ 1.499) ou R$ 999 em 15x | 5% | R$ 38,91 a R$ 40,96 | +100 mil | 4,9 (110.928) | não conferido | 3 pela procura, mas é compra pensada | não medido: é o que o teste de 24 e 25/11 vai medir | ESCOLHIDO pelo Vini = conjunto G (ORDEM 12) |
+| 23/11 19h29 | 1 (mais vendido) | Samsung Galaxy A17 256 GB 8 GB, Azul (MLB54982411), selo "1º em Celulares e Smartphones" | R$ 1.259,10 no Pix (de R$ 1.699) ou R$ 1.399 em 15x | 5% | R$ 51,62 a R$ 57,36 (REAL em 23/11: R$ 57,36) | +50 mil | 4,9 | não conferido | 2 | REAL pela etiqueta anuncioe: R$ 0,72 por clique do ML (1 venda em 80 cliques) | variação que o comprador de 23/11 levou; aparece na mesma página do 128 GB |
+| 23/11 18h45 | 2 (maior comissão) | OPPO A6t 128 GB, Azul Cristal (MLB66447547), loja oficial Oppo, Full | R$ 789,30 no Pix (de R$ 1.299) ou R$ 877 em 18x | EXTRAS 10% (patroc. OPPO) + 5% | ~R$ 97 se o extra somar (não confirmado); R$ 64,72 se forem só 10% | +10 mil | 4,8 (4.125) | não conferido | 2 | REAL: o conjunto trouxe R$ 57,36 em 80 cliques, mas a venda foi de um Galaxy | no ar = conjunto E (ORDEM 11 e 12) |
+| 23/11 19h26 | 1 (mais vendido) | Motorola Moto G17 4G 128 GB | R$ 798,30 no Pix (de R$ 1.599, 50% OFF) | 5% | R$ 32,73 | +10 mil | 4,9 | não conferido | 2 | não medido | reserva (paga menos por venda que o A17 e vende menos) |
+| 23/11 19h26 | 1 (mais vendido) | Motorola Moto G06 64 GB | R$ 599 no Pix (de R$ 1.299, 53% OFF) | 5% | R$ 24,56 | +5 mil | 4,9 | não conferido | 2 a 3 | não medido | fora: ganho baixo por venda |
+| 23/11 19h26 | 1 (mais vendido) | Motorola Edge 60 Fusion 5G 256 GB | R$ 1.799 no Pix (de R$ 3.299, 45% OFF) | 5% | R$ 73,76 | +10 mil | 4,9 | não conferido | 1 a 2 | não medido | reserva cara (desconto grande); só com verba maior |
+| 23/11 19h28 | 1 (mais vendido) | Samsung Galaxy A57 5G 128 GB | R$ 1.999 (de R$ 3.799, 47% OFF) | 5% | R$ 81,96 | +10 mil | 4,9 | não conferido | 1 | não medido | fora por ora: caro; o teste de celular caro (iPhone 16e) deu 0 venda em 142 cliques |
+| 23/11 19h25 | 1 (mais vendido) | Apple iPhone 16 256 GB (1º da lista "Mais vendidos") | R$ 5.204 no Pix (de R$ 8.599) | 5% (não conferido na barra) | ~R$ 213 | +5 mil | 4,9 | não conferido | 1 | não medido | fora: tíquete alto demais para R$ 15/dia |
 
 ## Plano (o Estrategista revisa todo dia)
 - FASE A (20 a 23/11, ~R$ 20/dia no total; começa na manhã de 20/11, feriado): 2 conjuntos de isca, cada um com etiqueta própria, 2-3 criativos.
@@ -591,6 +600,9 @@ DEU ERRADO (não repetir):
 
 - [ABERTA] 23/11 18h18 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
   necessário"). VERBA DE 24 A 26/11 DEPOIS DA VENDA DO CELULAR. VALE MAIS QUE AS ORDENS 5 a 9 ONDE HOUVER DIFERENÇA.
+  >>> ATUALIZADA ÀS 19h40 PELA ORDEM 12 (logo abaixo): a partir de 24/11 às 7h19 o celular vira DOIS conjuntos, E OPPO R$ 15 + G Galaxy A17
+  R$ 15 (o total de celular continua R$ 30 e o total geral R$ 50). Onde esta ordem diz "E R$ 30", leia "E R$ 15 + G R$ 15" a partir de 24/11.
+  O item c abaixo foi SUBSTITUÍDO pelas regras da ORDEM 12. O item b (preço do OPPO) continua valendo. <<<
   DECIDIDO PELO VINI em 23/11 ~18h38 (pergunta feita às 18h20; pergunta com os números e 3 opções: R$ 50, R$ 65 ou R$ 80 por dia; resposta dele: "R$ 50/dia"):
   de 24 a 26/11 o total CONTINUA R$ 50/dia, só muda a divisão:
      E - Celular OPPO A6t (anuncioe): R$ 30/dia (dobra)   +   B - Cinta (anunciob): R$ 20/dia.
@@ -611,7 +623,7 @@ DEU ERRADO (não repetir):
        No editor, SOMAR 1 HORA ao horário de Brasília. Black: 18h00 de Brasília em 26/11 = 19:00 no editor; fim 23h59 de Brasília em 27/11 =
        00:59 de 28/11 no editor. Os conjuntos diários acabam 26/11 23:59 da conta = 22h59 de Brasília. O "dia" do orçamento vira às 23h de Brasília.
   b) GESTOR, 24/11 7h19 (1ª visita de manhã): COLETA + balanço (ML e Meta; hoje não houve leitura da Meta). Conferir: B = R$ 20/dia e
-     E = R$ 30/dia, os dois ATIVOS, fim 26/11 23h59, C desligado. NÃO criar o F. NÃO subir o B.
+     E = R$ 30/dia (antes de baixar para R$ 15 pela ORDEM 12), os dois ATIVOS, fim 26/11 23h59, C desligado. NÃO criar o F. NÃO subir o B.
      PREÇO DO OPPO — O ANÚNCIO ESTÁ DESATUALIZADO (lido em 23/11 18h43 na prévia do anúncio e 18h45 na página do produto):
      o anúncio "OPPO A6t - imagem" (id 120248862437120656) diz "R$ 833,52 no Pix, conferido hoje" na imagem, no texto e no título. A página
      hoje mostra: cor Azul Cristal (a da foto do anúncio) R$ 789,30 no Pix, riscado R$ 1.299, 39% OFF, ou R$ 877 em 18x R$ 48,72
@@ -642,18 +654,75 @@ DEU ERRADO (não repetir):
      dia. O Estrategista decide em 24/11 às 22h37, com os números do Gestor, e escreve a ordem da montagem.
   e) HORÁRIOS: o Gestor agora roda às 7h19. Onde a ORDEM 5 diz "19h19", vale o AJUSTE DE HORÁRIOS abaixo.
   AJUSTE DE HORÁRIOS (23/11; Gestor v2 às 7h19, de 24 a 30/11; pedido do Vini: anúncio sempre de manhã cedo):
-  · Ter 24/11 7h19 — Gestor: coleta + balanço + ORDEM 11 b + ORDEM 8.
+  · Ter 24/11 7h19 — Gestor: coleta + balanço + ORDEM 12 (E a R$ 15 e conjunto novo do Galaxy A17) + ORDEM 11 b (preço do OPPO) + ORDEM 8 por último.
   · Ter 24/11 08h43 — Claude principal (lembrete): confere se o Gestor rodou e fez a ORDEM 11 b; avisa o Vini. [trig_011iRauAxhCFzuNc7obJ4wQp]
   · Ter 24/11 22h37 — Estrategista: aviso do depósito ao Vini (ORDEM 5) com o saldo lido de manhã + ordem da montagem da Black.
   · Qua 25/11 7h19 — Gestor: MONTAR A BLACK JÁ AGENDADA (ORDEM 5, item "Qua 25/11"): início 26/11 18h00 e fim 27/11 23h59 NO HORÁRIO DE
     BRASÍLIA. A conta está no fuso Brazil/DeNoronha (Brasília + 1h): no editor, início 26/11 19:00 e fim 28/11 00:59.
   · Qui 26/11 7h19 — Gestor: coleta; conferir que os 2 conjuntos da Black estão APROVADOS e programados; reprovado = corrigir e reenviar.
+    Nesta visita o Gestor também aplica a DIVISÃO FINAL da Black e escolhe o celular dela (ORDEM 12, "DECISÃO DO CELULAR DA BLACK").
   · Qui 26/11 18h40 — Claude principal (lembrete agendado na conversa de 23/11): conferir que a Black COMEÇOU às 18h (ativa e entregando). [trig_011j7pgZt7LuijXdXZcL4rDK]
   · Sex 27/11 7h19 — Gestor: coleta + situação da Black. 09h13: checagem já agendada. 15h07 — Claude principal (lembrete): CORTE DA BLACK
     (a regra do item "Sex 27/11 19h19" da ORDEM 5, antecipada). [trig_01UrqsVYrCNznMcnMiro4397]
   · Sáb 28 a Seg 30/11 7h19 — Gestor: só coleta.
   TRAVA: horários fixos da Meta agora = Gestor 7h19 · Divulgador Facebook 20h31 · Reels 21h47. O Claude principal evita a Meta de 7h15 a
   8h30 e de 20h25 a 22h20. O PC precisa estar ligado com o Chrome aberto às 7h15 (e das 19h45 às 22h20, para Curador, Facebook, X e Reels).
+
+- [ABERTA] 23/11 19h40 — ORDEM 12 (Claude principal). DOIS CELULARES NO AR: OPPO A6t + GALAXY A17. PARA O GESTOR EM 24/11 ÀS 7h19.
+  VALE MAIS QUE A ORDEM 11 ONDE HOUVER DIFERENÇA (a verba do E e as regras do item c).
+  PEDIDOS DO VINI em 23/11: 19h23 "Organize o melhor celular pra ser anunciado, temos que ser certeiros!" e 19h28 "Pense se vale a pena
+  anunciar dois talvez". DECISÃO DELE às ~19h38, numa pergunta com os números e 3 opções (os dois / só o Galaxy / só o OPPO):
+  "Os dois, R$ 15 cada". A partir da visita de 24/11:
+     E - Celular OPPO A6t (anuncioe): R$ 15/dia  +  G - Galaxy A17 (anunciog, NOVO): R$ 15/dia  +  B - Cinta (anunciob): R$ 20/dia = R$ 50/dia.
+  Até a visita das 7h19 fica como está (E R$ 30 + B R$ 20). Nada acima de R$ 50/dia sem novo "sim" do Vini.
+  POR QUE O GALAXY A17 (pesquisa de 23/11 19h25 a 19h31; tabela em pesquisa.md):
+  - É o celular mais vendido do Mercado Livre: 128 GB com "+100 mil vendidos" e 256 GB com "+50 mil vendidos" e selo "MAIS VENDIDO 1º em
+    Celulares e Smartphones"; nota 4,9 (110.928 opiniões); loja oficial Samsung, vendido por Mercado Livre Eletrônicos; Full.
+  - Foi o que o nosso comprador levou em 23/11 (256 GB, R$ 1.399), clicando no anúncio do OPPO.
+  - No teste de 15 e 16/11 o anúncio do A17 teve o clique mais barato dos celulares: R$ 0,13 e CTR 3,25% (o OPPO: R$ 0,21 e CTR 2,4%).
+    Naquele teste (antes da semana da Black) não vendeu: 198 cliques, 0 venda.
+  - Comissão 5% (barra de afiliado "GANHOS 5%"): 128 GB = R$ 38,91 (Pix) a R$ 40,96 (cartão) por venda; 256 GB = R$ 51,62 a R$ 57,36.
+    Conta: preço x 82% x 5% (a venda de 23/11 confirma: R$ 1.399 → R$ 57,36).
+  POR QUE MANTER O OPPO: é o único celular com GANHOS EXTRAS (10%, patrocinado pela OPPO; todos os outros pagam 5%): ~R$ 97 por venda do
+  próprio OPPO se o extra somar aos 5% como somou na cinta (não confirmado em celular), e o conjunto dele é o único que já trouxe venda.
+  Vende ~10 vezes menos que o A17 ("+10 mil vendidos"). Ninguém sabe qual rende mais por clique: por isso os dois, com etiquetas separadas.
+  O QUE FAZER (nesta ordem; se o tempo apertar, parar depois do item 3 e anotar o que faltou):
+  1) COLETA + balanço (ML primeiro, depois Meta), como sempre.
+  2) Baixar o conjunto "E - Celular OPPO A6t - anuncioe" (120248862437080656) de R$ 30 para R$ 15/dia (lápis da coluna Orçamento).
+  3) CRIAR o conjunto "G - Galaxy A17 - anunciog", R$ 15/dia, na campanha "Fase A - Iscas Black - 20/11":
+     - Como: DUPLICAR o conjunto E (herda público, posicionamentos Feed do Facebook + Feed do Instagram, meta de cliques no link e o fim em
+       26/11 23:59). Trocar nome e orçamento (R$ 15). Não mexer em público nem em posicionamento.
+     - ATENÇÃO: o conjunto E tem 2 anúncios: "OPPO A6t - imagem" (ativo) e "Camera dupla - foto produto" (RASCUNHO velho). No conjunto novo
+       tem que sobrar UM anúncio só: o do Galaxy. Apagar do conjunto novo a cópia do rascunho da câmera e conferir que não sobrou NADA do OPPO
+       (imagem, texto, título, link).
+     - Anúncio: nome "Galaxy A17 128 GB - imagem". Imagem: anuncio/galaxya17-128-1080x1350.jpg (reserva 1:1: anuncio/galaxya17-128-1080x1080.jpg).
+       Aprimoramentos de IA e "adicionar detalhes" DESLIGADOS; "anúncios com vários anunciantes" desligado; mesmo botão do E.
+     - Link: https://www.mercadolivre.com.br/celular-samsung-galaxy-a17-com-ia-128gb-4gb-ram-cam-de-50mp-tela-de-67-nfc-ip54-preto/p/MLB65114795?matt_word=anunciog&matt_tool=58037177
+       (a etiqueta anunciog foi criada em 22/11). Para CONFERIR o preço, abrir o mesmo endereço SEM o "?matt_word...". Nunca clicar no link de afiliado.
+     - Conferido em 23/11 19h27: R$ 949,05 no Pix (riscado R$ 1.499, 36% OFF) ou R$ 999 em 15x R$ 66,60 sem juros no cartão Mercado Pago;
+       "+100 mil vendidos"; 4,9. RECONFERIR antes de publicar. Preço mudou → gerar de novo e ajustar os textos:
+       python3 anuncio/gerar_anuncio_produto.py --foto anuncio/fonte-galaxya17-preto.png --nome "Galaxy A17" --linha2 "128 GB" --preco "R$ <preço do dia>" --sufixo "no Pix" --saida-prefixo anuncio/galaxya17-128
+     - Textos (ajustar os números ao dia):
+       principal: "Samsung Galaxy A17 128 GB, tela Super AMOLED de 6,7 polegadas. De R$ 1.499 por R$ 949,05 no Pix (conferido em 24/11). Publicidade · link de afiliado"
+       título: "Galaxy A17 128 GB por R$ 949,05 no Pix" · descrição: "Canal independente · link de afiliado".
+       Proibido: "oficial", "% OFF", "só hoje", "últimas unidades", "o mais vendido do Brasil" (a página diz "mais vendido" no Mercado Livre:
+       não escrever isso como nosso), logo da Samsung ou do Mercado Livre desenhado à parte.
+     - Publicar e anotar aqui os ids (conjunto e anúncio) e a situação (em análise/ativo/reprovado).
+  4) PREÇO DO OPPO: fazer a ORDEM 11 b (anúncio novo "OPPO A6t - imagem 24/11" com o preço do dia; imagem pronta em anuncio/oppoa6t-1080x1350.jpg).
+  5) ORDEM 8 (vídeo "B2" da cinta): por último e só se sobrar tempo; se não der, anotar "ORDEM 8 adiada" (a cinta agora tem R$ 20).
+  6) Marcar FEITO aqui e na ORDEM 11 b, gravar balanco.md e diario.md, com push depois de cada item.
+  REGRAS DE 24 A 26/11 (substituem o item c da ORDEM 11):
+  - É um TESTE DE 2 DIAS decidido pelo Vini: E e G NÃO são pausados nem mudam de verba antes da visita de 26/11 às 7h19. A regra "R$ 20 gastos e
+    0 venda = pausar" NÃO vale para eles nestes 2 dias (celular vende devagar: o empate fica em 1 venda a cada ~R$ 35 a R$ 50 de gasto). Só
+    param antes se a Meta reprovar ou se a taxa de clique ficar abaixo de 0,8% depois de 1.000 impressões.
+  - Medir por etiqueta, com o mesmo período dos dois lados: anuncioe ÷ gasto do E e anunciog ÷ gasto do G (x 1,14). Gravar CTR e CPC dos dois.
+  - B Cinta: fica em R$ 20; não sai.
+  DECISÃO DO CELULAR DA BLACK (visita de 26/11 às 7h19, antes do início às 18h de Brasília):
+  - O celular com MAIOR ganho ÷ gasto de 24 e 25/11 (etiqueta dele) fica com a parte de celular da Black. Empate ou os dois com 0 venda:
+    fica o de MENOR custo por clique com CTR de 1% ou mais. O outro celular não entra na Black.
+  - A divisão entre celular e cinta segue a ORDEM 5 (R$ 180 para o melhor ganho ÷ gasto da semana e R$ 120 para o segundo), com os números que
+    o Estrategista escrever nas noites de 24 e 25/11. Em 25/11 às 7h19 a Black é montada com a divisão provisória; em 26/11 às 7h19 o Gestor
+    aplica a divisão final ANTES do início. Total da Black: R$ 300, e só o saldo que existir.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
