@@ -623,7 +623,7 @@ DEU ERRADO (não repetir):
      nome "OPPO A6t - imagem 24/11"; aprimoramentos de IA desligados; publicar. 4) NÃO editar o anúncio antigo (ele segue entregando enquanto
      o novo passa pela análise). Se o novo já estiver "Ativo" no fim da visita, pausar o antigo; se estiver "Em análise", deixar os dois e
      anotar: a visita seguinte pausa o antigo. 5) Se a % de GANHOS EXTRAS do OPPO tiver caído, anotar (a comissão comum de celular é 5%).
-     Textos-base (ajustar os números ao dia; máx. 125 caracteres no principal):
+     Textos-base (ajustar os números ao dia; no principal, o que passa de ~125 caracteres fica atrás do "Ver mais"):
        principal: "Smartphone OPPO A6t 128 GB, bateria de 6500 mAh. De R$ 1.299 por R$ 789,30 no Pix (conferido em 24/11). Publicidade · link de afiliado"
        título: "OPPO A6t 128 GB por R$ 789,30 no Pix" · descrição: "Canal independente · link de afiliado".
      ORDEM 8 (vídeo "B2" da cinta) continua valendo, se o arquivo anuncio/cinta-video.mp4 existir.
@@ -643,7 +643,7 @@ DEU ERRADO (não repetir):
   · Ter 24/11 7h19 — Gestor: coleta + balanço + ORDEM 11 b + ORDEM 8.
   · Ter 24/11 22h37 — Estrategista: aviso do depósito ao Vini (ORDEM 5) com o saldo lido de manhã + ordem da montagem da Black.
   · Qua 25/11 7h19 — Gestor: MONTAR A BLACK JÁ AGENDADA (ORDEM 5, item "Qua 25/11"): início 26/11 18h00 e fim 27/11 23h59 NO HORÁRIO DE
-    BRASÍLIA (conferir o fuso da conta antes: o editor mostrou "GMT-2").
+    BRASÍLIA. A conta está no fuso Brazil/DeNoronha (Brasília + 1h): no editor, início 26/11 19:00 e fim 28/11 00:59.
   · Qui 26/11 7h19 — Gestor: coleta; conferir que os 2 conjuntos da Black estão APROVADOS e programados; reprovado = corrigir e reenviar.
   · Qui 26/11 18h40 — Claude principal (lembrete agendado na conversa de 23/11): conferir que a Black COMEÇOU às 18h (ativa e entregando).
   · Sex 27/11 7h19 — Gestor: coleta + situação da Black. 09h13: checagem já agendada. 15h07 — Claude principal (lembrete): CORTE DA BLACK
