@@ -31,6 +31,23 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
 8. 22/11 16h00 — TETO NOVO, aprovado pelo Vini ("Sim, teto de R$ 100 por dia"): de 24 a 26/11 o total pode ir de R$ 50 até R$ 100 por
    dia, SÓ para a cinta subir em degraus (R$ 35 → 55 → 80) e SÓ se ela estiver pagando (regra R, ORDEM 6 h). Em 22 e 23/11 o total
    continua R$ 50. Black: R$ 300, sem mudança. Sem a condição da regra R, ninguém passa de R$ 50 por dia.
+9. 23/11 18h50 (Claude principal) — O CELULAR VENDEU: NÃO PAUSAR O "E". VALE MAIS QUE A ORDEM 6 a/b NESTE PONTO.
+   Painel do ML lido às 18h30 (23/11 parcial, "atualizado até as 16h30"; período 17 a 23/11, aba Etiquetas):
+   - anuncioe (E OPPO): 80 cliques (40 em 22/11 + 40 em 23/11), 1 venda em 23/11: Galaxy A17 256 GB, R$ 1.399 → R$ 57,36 (em revisão).
+     É a maior comissão do projeto, com no máximo ~R$ 30 gastos no conjunto (gasto exato: ver balanco.md quando lido).
+   - anunciob (B Cinta): 296 cliques, 8 unidades, R$ 54,20 (21/11 R$ 44,84 + 22/11 R$ 9,36 de 2 regatas; 23/11: 66 cliques e 0 venda até 16h30).
+   - anuncioc (C Esteira): 61 cliques, 0 venda. anuncio 227/R$ 6,32 · anuncioa 70/0 · telegram 21/0 · facebook 8/0. Total 7 dias: R$ 117,88.
+   O QUE MUDOU HOJE E NÃO ESTAVA ESCRITO (o push estava negado de manhã):
+   - ~10h00: o VINI desligou ele mesmo o C Esteira ("não faz sentido manter").
+   - ~10h05: o Claude principal subiu o B Cinta de R$ 20 para R$ 35/dia, a pedido do Vini ("suba a cinta agora já"). Foi a sessão de edição do dia.
+   - O GESTOR v2 passou para 7h19 (cron de 24 a 30/11), pedido do Vini: "antecipar os horários sempre para manhã cedo e não à noite".
+     Por isso HOJE (23/11) NÃO HOUVE visita do Gestor: não há coleta da Meta de 23/11. O PC precisa estar ligado com o Chrome aberto às 7h15.
+   PARA A CHECAGEM DAS 21h16, O ESTRATEGISTA (22h37) E O GESTOR (24/11 7h19):
+   a) O "E - Celular OPPO A6t - anuncioe" FICA NO AR (tem venda na etiqueta). Ninguém pausa o E.
+   b) O B fica em R$ 35. NÃO aplicar a linha "só um deles vendeu → B R$ 25" da tabela da ORDEM 6 b (o Vini mandou subir hoje).
+   c) A divisão da verba de 24 a 26/11 e a criação do F estão na ORDEM 11 (no fim das ORDENS). Sem a ORDEM 11 marcada "DECIDIDO",
+      NINGUÉM cria conjunto nem muda verba: fica B R$ 35 + E R$ 15 = R$ 50/dia.
+   d) "Venda direta" no painel NÃO quer dizer "o produto do anúncio": ver LIÇÕES (23/11).
 
 ## Equipe
 | Quem | Quando | O que faz |
@@ -170,6 +187,8 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 | 21/11 | Extensão com bocal soquete E27 2 m (3 unidades) | Iluminação Residencial | R$ 57,90 | R$ 2,85 (6%) | indireta | anunciob | B - Cinta |
 | 21/11 | Tapete porta-malas borracha Fiat Palio | Aces. de Carros e Caminhonetes | R$ 99,90 | R$ 4,92 (6%) | indireta | anunciob | B - Cinta |
 | 21/11 | Jogo 12 barbeadores masculino e feminino | Higiene Pessoal | R$ 19,99 | R$ 1,97 (12%) | indireta | anunciob | B - Cinta |
+| 22/11 | Regata Dry Fit UV Camiseta Masculina Academia Treino Voker (2 unidades, 1 comprador) | Moda Fitness | R$ 71,40 (2 x R$ 35,70) | R$ 9,36 (16%; R$ 4,68 cada) | "direta" no painel (NÃO é o produto do anúncio) | anunciob | B - Cinta |
+| 23/11 | Celular Samsung Galaxy A17 256 GB 8 GB Cinza (loja Mercado Livre Eletrônicos) | Celulares e Smartphones | R$ 1.399 | R$ 57,36 (5% sobre ~82% do preço) | "direta" no painel (o anúncio era do OPPO A6t) | anuncioe | E - OPPO A6t |
 
 ## ISCAS (candidatos; o Curador acrescenta, o Estrategista escolhe)
 Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6+, 1.000+ vendidos, foto boa, desconto real.
@@ -549,6 +568,11 @@ DEU ERRADO (não repetir):
   d) (Vini, 22/11 23h29: "ver o que tá no topo e pouca concorrência") Critério do PRODUTO CAMPEÃO: anúncio de afiliado ativo há 30+ dias
      (demanda provada) E busca pelo nome do produto na Biblioteca com 10 ou menos anunciantes ativos (pouca concorrência) E ganhos extras
      no ML. Os que passarem vão para PRODUTOS AVALIADOS com a nota "campeão da Biblioteca". Copiar só formato e ângulo, com vídeo e texto nossos.
+
+- [ABERTA] 23/11 18h50 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
+  necessário"). VERBA DE 24 A 26/11 DEPOIS DA VENDA DO CELULAR. VALE MAIS QUE AS ORDENS 5 a 9 ONDE HOUVER DIFERENÇA.
+  SITUAÇÃO: PENDENTE — a divisão foi perguntada ao Vini às 18h55 de 23/11. Enquanto esta linha disser PENDENTE, ninguém cria conjunto nem
+  muda verba (fica B R$ 35 + E R$ 15 = R$ 50/dia; E no ar; C desligado pelo Vini).
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
