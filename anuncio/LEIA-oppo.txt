@@ -1,0 +1,21 @@
+OPPO A6t (anúncio "E - Celular OPPO A6t", etiqueta anuncioe) — imagem do anúncio
+
+Foto-fonte: anuncio/fonte-oppoa6t.png (cor Azul Cristal, a mesma do anúncio no ar; tirada da 1ª foto da página do produto em
+23/11/2026 às 18h51, com as bordas brancas recortadas).
+
+Página para CONFERIR o preço (endereço normal, sem matt_word; nunca clicar no link de afiliado):
+https://www.mercadolivre.com.br/smartphone-oppo-a6t-128gb-12gb-ram-4gb-8gb-virtual-ram-bateria-gigante-de-6500mah-processador-snapdragon-tela-120hz-ai-camera-ip64-azul-cristal/p/MLB66447547
+
+Preço em 23/11/2026 às 18h50: R$ 789,30 no Pix (riscado R$ 1.299, 39% OFF; ou R$ 877 em 18x R$ 48,72). Selo BLACK FRIDAY na página.
+Loja oficial Oppo, Full, nota 4,8, +10 mil vendidos. Barra de afiliado: GANHOS EXTRAS 10%.
+
+Imagens PRONTAS com esse preço:
+- anuncio/oppoa6t-1080x1350.jpg (principal, 4:5): "R$ 789,30 no Pix"
+- anuncio/oppoa6t-1080x1080.jpg (reserva, 1:1)
+- anuncio/oppoa6t-depor-1080x1350.jpg: "De R$ 1.299 por R$ 789,30 no Pix" (só usar se a página mostrar o preço riscado no dia)
+
+Se o preço do dia for OUTRO, gerar de novo (leva 2 segundos):
+python3 anuncio/gerar_anuncio_produto.py --foto anuncio/fonte-oppoa6t.png --nome "OPPO A6t" --linha2 "128 GB" --preco "R$ <preço do dia>" --sufixo "no Pix" --saida-prefixo anuncio/oppoa6t
+
+Não escrever "12 GB de RAM" na imagem nem no texto: são 4 GB + 8 GB de RAM virtual (o título do vendedor explica isso).
+No texto do anúncio, nunca "conferido hoje": escrever "preço conferido em DD/MM".
