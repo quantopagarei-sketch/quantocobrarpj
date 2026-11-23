@@ -546,6 +546,9 @@ DEU ERRADO (não repetir):
   c) Rotina: toda segunda, o agente Crescimento abre a Biblioteca (Brasil, ativos, "meli.la" e "cinta modeladora"), anota em crescimento.md
      os 5 anúncios mais antigos ainda ativos (produto, duração do vídeo, gancho, texto, botão) e sugere 1 ângulo novo ao Estrategista.
      Só leitura; 1 acesso por vez ao Facebook (TRAVA).
+  d) (Vini, 22/11 23h29: "ver o que tá no topo e pouca concorrência") Critério do PRODUTO CAMPEÃO: anúncio de afiliado ativo há 30+ dias
+     (demanda provada) E busca pelo nome do produto na Biblioteca com 10 ou menos anunciantes ativos (pouca concorrência) E ganhos extras
+     no ML. Os que passarem vão para PRODUTOS AVALIADOS com a nota "campeão da Biblioteca". Copiar só formato e ângulo, com vídeo e texto nossos.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.

@@ -39,3 +39,4 @@ São dos agentes Divulgador Facebook (`facebook.md`) e Divulgador X (`x.md`), di
 Abrir facebook.com/ads/library (Brasil, ativos), buscar "meli.la" e "cinta modeladora", ordenar por impressões. Anotar aqui os 5 anúncios
 mais antigos ainda ativos (produto, duração do vídeo, gancho, texto, botão) e escrever 1 ângulo novo para o Estrategista no Diário dele.
 Só leitura, nunca copiar o anúncio. Respeitar a TRAVA (1 acesso por vez ao Facebook, "comecei/terminei" no diario.md).
+Também buscar candidatos a PRODUTO CAMPEÃO (critério em trafego.md > ORDEM 10 d) e listar até 3 por semana.
