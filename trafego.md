@@ -42,7 +42,7 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
    - ~10h05: o Claude principal subiu o B Cinta de R$ 20 para R$ 35/dia, a pedido do Vini ("suba a cinta agora já"). Foi a sessão de edição do dia.
    - O GESTOR v2 passou para 7h19 (cron de 24 a 30/11), pedido do Vini: "antecipar os horários sempre para manhã cedo e não à noite".
      Por isso HOJE (23/11) NÃO HOUVE visita do Gestor: não há coleta da Meta de 23/11. O PC precisa estar ligado com o Chrome aberto às 7h15.
-   PARA A CHECAGEM DAS 21h16, O ESTRATEGISTA (22h37) E O GESTOR (24/11 7h19):
+   PARA O ESTRATEGISTA (22h37) E O GESTOR (24/11 7h19) (a checagem das 21h16 foi cancelada às 19h06, com o "sim" do Vini):
    a) O "E - Celular OPPO A6t - anuncioe" FICA NO AR (tem venda na etiqueta). Ninguém pausa o E.
    b) VERBA ATUAL, desde 23/11 18h42 (decisão do Vini às ~18h38, ORDEM 11): E Celular R$ 30/dia + B Cinta R$ 20/dia = R$ 50/dia.
       Ninguém muda isso sem ordem nova. A tabela da ORDEM 6 b e os degraus da cinta NÃO valem mais.
@@ -391,7 +391,8 @@ DEU ERRADO (não repetir):
 - [ENCERRADA em 23/11 18h38 — NÃO EXECUTAR MAIS; VALE A ORDEM 11] 22/11 — ORDEM 6: REFORÇAR A CINTA + ANÚNCIO "PRIMO" DA CINTA.
   SITUAÇÃO FINAL (23/11): o B subiu para R$ 35 às ~10h05 (Claude principal, pedido do Vini); o C foi desligado pelo Vini; o E NÃO sai
   (vendeu: R$ 57,36); o F NÃO foi criado e NÃO deve ser criado agora (decisão do Vini às ~18h38: R$ 50/dia = celular R$ 30 + cinta R$ 20).
-  A checagem das 21h16 não tem nada a executar na Meta: só confere a ORDEM 11. O texto abaixo fica como registro e como ficha do F.
+  A checagem das 21h16 (trig_019qQqoDaUtQQy65vEgcBjwj) foi CANCELADA às 19h06 de 23/11, com o "sim" do Vini: hoje à noite ninguém mexe
+  nos anúncios. O texto abaixo fica só como registro e como ficha do F.
   (Claude principal, 22/11 15h50.) PEDIDOS DO VINI em 22/11: "o grande chamariz me parece ser o anúncio da cinta, algo ligado ao estético
   da mulher; amanhã, além dela, um anúncio de algo derivado dela com boa comissão, para testar e fazer companhia" e, em seguida, "talvez
   valha potencializar ainda mais a cinta". O produto do F foi escolhido por ele entre 2 opções ("Sim, conjunto de academia").
