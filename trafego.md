@@ -374,7 +374,10 @@ DEU ERRADO (não repetir):
   - Ganhos extras somem sem aviso: se a % do produto caiu, pausar e trocar (vale também para o PS5 e celulares: só com comissão ≥ 5%,
     e celular só com GANHOS EXTRAS ≥ 8%).
 
-- [ABERTA] 22/11 — ORDEM 6: REFORÇAR A CINTA + ANÚNCIO "PRIMO" DA CINTA. EXECUTAR SÓ EM 23/11 ÀS 19h19 (Gestor v2). NÃO executar em 22/11.
+- [ENCERRADA em 23/11 18h21 — NÃO EXECUTAR MAIS; VALE A ORDEM 11] 22/11 — ORDEM 6: REFORÇAR A CINTA + ANÚNCIO "PRIMO" DA CINTA.
+  SITUAÇÃO FINAL (23/11): o B subiu para R$ 35 às ~10h05 (Claude principal, pedido do Vini); o C foi desligado pelo Vini; o E NÃO sai
+  (vendeu: R$ 57,36); o F NÃO foi criado e NÃO deve ser criado agora (decisão do Vini às 18h21: R$ 50/dia = celular R$ 30 + cinta R$ 20).
+  A checagem das 21h16 não tem nada a executar na Meta: só confere a ORDEM 11. O texto abaixo fica como registro e como ficha do F.
   (Claude principal, 22/11 15h50.) PEDIDOS DO VINI em 22/11: "o grande chamariz me parece ser o anúncio da cinta, algo ligado ao estético
   da mulher; amanhã, além dela, um anúncio de algo derivado dela com boa comissão, para testar e fazer companhia" e, em seguida, "talvez
   valha potencializar ainda mais a cinta". O produto do F foi escolhido por ele entre 2 opções ("Sim, conjunto de academia").
@@ -507,7 +510,8 @@ DEU ERRADO (não repetir):
        Brasília e o "18h00" da Black seria 17h00 de Brasília. Conferir antes de agendar a Black (ORDEM 5, 25/11).
      - R do dia = 1,13 (balanco.md > Resumo). C e E: 0 venda até agora (painel do ML só até 16h30 de hoje), com R$ 6,41 e R$ 6,25 gastos.
 
-- [ABERTA] 22/11 — ORDEM 7 (Estrategista, 22/11 22h40; para o Gestor v2 em 23/11 19h19). EXECUTAR JUNTO COM A ORDEM 6 (ela continua
+- [ENCERRADA em 23/11 18h21, junto com a ORDEM 6; do que está abaixo só continuam valendo a letra a (R com período igual) e a letra e
+  (ler o fuso da conta)] 22/11 — ORDEM 7 (Estrategista, 22/11 22h40; para o Gestor v2 em 23/11 19h19). EXECUTAR JUNTO COM A ORDEM 6 (ela continua
   valendo inteira; aqui só os ajustes). Respeitar a TRAVA e a 1 sessão de edição do dia.
   a) R DO DIA (vale para os DEGRAUS da ORDEM 6 h, de 23/11 em diante): calcular com o MESMO período nos dois lados.
      R = ganho de anunciob no painel do ML (7 dias, "atualizado até" o dia D) ÷ (gasto do B no Gerenciador de 20/11 até o FIM do dia D x 1,14).
@@ -538,6 +542,7 @@ DEU ERRADO (não repetir):
   e) Não muda verba, degrau nem a regra R (a etiqueta é a mesma: anunciob).
 
 - [ABERTA] 22/11 23h30 — ORDEM 9 (Claude principal, pesquisa no YouTube pedida pelo Vini). VALE MAIS QUE A ORDEM 6 h NOS DEGRAUS.
+  (23/11 18h21: a letra a, DEGRAUS, está SUSPENSA pela ORDEM 11. As letras b a e continuam valendo.)
   Fontes: Giovani Mezon (anúncio com link direto de afiliado, fev/2026), André Nunes (escala no Meta, out/2026), Daiane (link no Reel, mar/2026).
   a) DEGRAUS MENORES (só mais cauteloso, dentro do que o Vini aprovou): subir no máximo 30% por dia, 1 mudança de verba por dia, para a Meta
      não voltar ao "aprendizado". B: 23/11 R$ 35 → 24/11 R$ 45 → 25/11 R$ 58, com as MESMAS condições (R ≥ 1,3 e venda nova). Descer também
@@ -571,8 +576,44 @@ DEU ERRADO (não repetir):
 
 - [ABERTA] 23/11 18h18 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
   necessário"). VERBA DE 24 A 26/11 DEPOIS DA VENDA DO CELULAR. VALE MAIS QUE AS ORDENS 5 a 9 ONDE HOUVER DIFERENÇA.
-  SITUAÇÃO: PENDENTE — a divisão foi perguntada ao Vini às 18h20 de 23/11. Enquanto esta linha disser PENDENTE, ninguém cria conjunto nem
-  muda verba (fica B R$ 35 + E R$ 15 = R$ 50/dia; E no ar; C desligado pelo Vini).
+  DECIDIDO PELO VINI em 23/11 18h21 (pergunta com os números e 3 opções: R$ 50, R$ 65 ou R$ 80 por dia; resposta dele: "R$ 50/dia"):
+  de 24 a 26/11 o total CONTINUA R$ 50/dia, só muda a divisão:
+     E - Celular OPPO A6t (anuncioe): R$ 30/dia (dobra)   +   B - Cinta (anunciob): R$ 20/dia.
+  O conjunto fitness (F) NÃO entra agora: fica guardado (imagens, textos e link prontos na ORDEM 6 c). C Esteira segue desligado (Vini).
+  O teto de R$ 100/dia e os DEGRAUS da cinta (ORDEM 6 h e ORDEM 9 a) ficam SUSPENSOS: acima de R$ 50/dia só com novo "sim" do Vini,
+  numa pergunta com o número. A Black continua com R$ 300 (ORDEM 5).
+  MOTIVO (painel do ML, 17 a 23/11, lido às 18h13): anuncioe 80 cliques → R$ 57,36 (R$ 0,72 por clique). anunciob 296 cliques → R$ 54,20
+  (R$ 0,18 por clique; nos últimos 2 dias, 180 cliques → R$ 9,36). É UMA venda de celular: amostra mínima, pode não se repetir. Por isso o
+  dinheiro só mudou de lugar, não aumentou.
+  a) VERBAS NA META (Claude principal, sessão de 23/11 à noite): ver o FEITO abaixo.
+  b) GESTOR, 24/11 7h19 (1ª visita de manhã): COLETA + balanço (ML e Meta; hoje não houve leitura da Meta). Conferir: B = R$ 20/dia e
+     E = R$ 30/dia, os dois ATIVOS, fim 26/11 23h59, C desligado. NÃO criar o F. NÃO subir o B.
+     PREÇO DO OPPO: na busca do ML em 23/11 18h15 o OPPO A6t 128 GB estava R$ 798,99 no Pix (de R$ 1.299; 18x R$ 49,32); em 22/11 era
+     R$ 833,52. Abrir a página normal do produto e comparar com o preço escrito na imagem e no texto do anúncio do E. Se estiver diferente:
+     refazer a imagem (design.md) com o preço do dia e trocar SÓ a imagem e o número do texto (mesmo link anuncioe, mesmo público). Conferir
+     também a % de GANHOS EXTRAS do OPPO na Central (era 10%).
+     ORDEM 8 (vídeo "B2" da cinta) continua valendo, se o arquivo anuncio/cinta-video.mp4 existir.
+  c) REGRAS DE 24 A 26/11: venda nova em anuncioe → E fica em R$ 30 (não sobe: o total é R$ 50). E com R$ 60 gastos DEPOIS de 23/11 19h00 sem
+     venda nova em anuncioe → E volta para R$ 15 e os R$ 15 voltam para o B. O B não sai (motor) e não fica abaixo de R$ 20.
+     Qualquer valor acima de R$ 50/dia: o Estrategista PROPÕE ao Vini por push, com o número; só com o "sim" dele.
+  d) BLACK (montagem em 25/11 às 7h19): a divisão segue a ORDEM 5 (bf1 R$ 180 = maior comissão ÷ gasto da semana; bf2 R$ 120 = maior ganho
+     por venda). Com os números de hoje, o bf1 seria o CELULAR (anuncioe). Candidato a criativo de celular na Black: Galaxy A17 256 GB, que foi
+     o que o comprador levou (busca do ML em 23/11 18h15: R$ 1.349 no Pix, de R$ 2.199, 15x R$ 99,93, selo BLACK FRIDAY, 4,9, +10 mil;
+     página .../p/MLB54961455; gerador e foto em anuncio/galaxya17-* e anuncio/fonte-galaxya17.png). Conferir preço, selo e comissão (5%) no
+     dia. O Estrategista decide em 24/11 às 22h37, com os números do Gestor, e escreve a ordem da montagem.
+  e) HORÁRIOS: o Gestor agora roda às 7h19. Onde a ORDEM 5 diz "19h19", vale o AJUSTE DE HORÁRIOS abaixo.
+  AJUSTE DE HORÁRIOS (23/11; Gestor v2 às 7h19, de 24 a 30/11; pedido do Vini: anúncio sempre de manhã cedo):
+  · Ter 24/11 7h19 — Gestor: coleta + balanço + ORDEM 11 b + ORDEM 8.
+  · Ter 24/11 22h37 — Estrategista: aviso do depósito ao Vini (ORDEM 5) com o saldo lido de manhã + ordem da montagem da Black.
+  · Qua 25/11 7h19 — Gestor: MONTAR A BLACK JÁ AGENDADA (ORDEM 5, item "Qua 25/11"): início 26/11 18h00 e fim 27/11 23h59 NO HORÁRIO DE
+    BRASÍLIA (conferir o fuso da conta antes: o editor mostrou "GMT-2").
+  · Qui 26/11 7h19 — Gestor: coleta; conferir que os 2 conjuntos da Black estão APROVADOS e programados; reprovado = corrigir e reenviar.
+  · Qui 26/11 18h40 — Claude principal (lembrete agendado na conversa de 23/11): conferir que a Black COMEÇOU às 18h (ativa e entregando).
+  · Sex 27/11 7h19 — Gestor: coleta + situação da Black. 09h13: checagem já agendada. 15h07 — Claude principal (lembrete): CORTE DA BLACK
+    (a regra do item "Sex 27/11 19h19" da ORDEM 5, antecipada).
+  · Sáb 28 a Seg 30/11 7h19 — Gestor: só coleta.
+  TRAVA: horários fixos da Meta agora = Gestor 7h19 · Divulgador Facebook 20h31 · Reels 21h47. O Claude principal evita a Meta de 7h15 a
+  8h30 e de 20h25 a 22h20. O PC precisa estar ligado com o Chrome aberto às 7h15 (e das 19h45 às 22h20, para Curador, Facebook, X e Reels).
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
