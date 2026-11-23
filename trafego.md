@@ -630,6 +630,9 @@ DEU ERRADO (não repetir):
   c) REGRAS DE 24 A 26/11: venda nova em anuncioe → E fica em R$ 30 (não sobe: o total é R$ 50). E com R$ 60 gastos DEPOIS de 23/11 19h00 sem
      venda nova em anuncioe → E volta para R$ 15 e os R$ 15 voltam para o B. O B não sai (motor) e não fica abaixo de R$ 20.
      Qualquer valor acima de R$ 50/dia: o Estrategista PROPÕE ao Vini por push, com o número; só com o "sim" dele.
+     TROCA DIÁRIA SUSPENSA de 24 a 26/11 (ORDEM 4 c e ORDEM 5): ninguém cria conjunto novo, ninguém pausa o B nem o E, ninguém "dobra a
+     verba de quem vendeu" (o E já dobrou). O Gestor só confere, mede, corrige preço de anúncio no ar e cumpre a ORDEM 8. Mudança de verba
+     ou de produto antes da Black: só por ordem nova do Estrategista DENTRO dos R$ 50/dia, ou com o "sim" do Vini acima disso.
   d) BLACK (montagem em 25/11 às 7h19): a divisão segue a ORDEM 5 (bf1 R$ 180 = maior comissão ÷ gasto da semana; bf2 R$ 120 = maior ganho
      por venda). Com os números de hoje, o bf1 seria o CELULAR (anuncioe). Candidato a criativo de celular na Black: Galaxy A17 256 GB, que foi
      o que o comprador levou (busca do ML em 23/11 18h15: R$ 1.349 no Pix, de R$ 2.199, 15x R$ 99,93, selo BLACK FRIDAY, 4,9, +10 mil;
