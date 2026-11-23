@@ -34,3 +34,8 @@ São dos agentes Divulgador Facebook (`facebook.md`) e Divulgador X (`x.md`), di
   1 Reel em 22/11; 21/11 sem post (Curador, Facebook e X v2 pararam por limite de uso do modelo Fable); 1 aviso do Facebook no total (16/11, antigo);
   2 posts em grupos em 20/11. Crescimento: nada novo registrado. Anúncio (balanco.md): painel do ML 7 dias até 22/11 = R$ 51,16 de ganho
   em revisão, R$ 0,00 confirmado; gasto de 21 e 22/11 não medido (até 20/11: R$ 152,60 na Meta).
+
+## TODA SEGUNDA: BIBLIOTECA DE ANÚNCIOS (desde 22/11; detalhes em trafego.md > ORDEM 10 c)
+Abrir facebook.com/ads/library (Brasil, ativos), buscar "meli.la" e "cinta modeladora", ordenar por impressões. Anotar aqui os 5 anúncios
+mais antigos ainda ativos (produto, duração do vídeo, gancho, texto, botão) e escrever 1 ângulo novo para o Estrategista no Diário dele.
+Só leitura, nunca copiar o anúncio. Respeitar a TRAVA (1 acesso por vez ao Facebook, "comecei/terminei" no diario.md).
