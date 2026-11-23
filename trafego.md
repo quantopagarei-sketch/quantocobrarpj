@@ -25,10 +25,10 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
    mudar as datas, a verba total do Vini nem a TRAVA.
 6. DIVULGADOR FACEBOOK SEGUE LIGADO (decisão do Vini em 21/11 19h15: "deixar postando"), sempre com a TRAVA do item 4.
    A linha de 21/11 15h15 no Diário ("Divulgador Facebook DESLIGADO") ficou velha: não desligue o Divulgador por conta própria.
-7. 22/11 15h50 — ORDEM 6 (pedidos do Vini: reforçar a cinta e pôr um anúncio "primo" dela). Só em 23/11 às 19h19 o Gestor v2 sobe o
+7. [SUPERADO em 23/11: ver o item 9 e a ORDEM 11] 22/11 15h50 — ORDEM 6 (pedidos do Vini: reforçar a cinta e pôr um anúncio "primo" dela). Só em 23/11 às 19h19 o Gestor v2 sobe o
    B Cinta (R$ 20 → R$ 35) e cria o conjunto "F - Conjunto Fitness - anunciof" (R$ 15); C Esteira e E OPPO sem venda saem. Em 23/11
    a ORDEM 6 VALE MAIS que a troca diária da ORDEM 5. Imagem do F já pronta: anuncio/conjuntofitness-1080x1350.jpg.
-8. 22/11 16h00 — TETO NOVO, aprovado pelo Vini ("Sim, teto de R$ 100 por dia"): de 24 a 26/11 o total pode ir de R$ 50 até R$ 100 por
+8. [SUSPENSO em 23/11: ver o item 9 e a ORDEM 11] 22/11 16h00 — TETO NOVO, aprovado pelo Vini ("Sim, teto de R$ 100 por dia"): de 24 a 26/11 o total pode ir de R$ 50 até R$ 100 por
    dia, SÓ para a cinta subir em degraus (R$ 35 → 55 → 80) e SÓ se ela estiver pagando (regra R, ORDEM 6 h). Em 22 e 23/11 o total
    continua R$ 50. Black: R$ 300, sem mudança. Sem a condição da regra R, ninguém passa de R$ 50 por dia.
 9. 23/11 18h18 (Claude principal) — O CELULAR VENDEU: NÃO PAUSAR O "E". VALE MAIS QUE A ORDEM 6 a/b NESTE PONTO.
