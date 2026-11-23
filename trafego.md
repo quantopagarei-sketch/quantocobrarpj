@@ -532,6 +532,21 @@ DEU ERRADO (não repetir):
   e) Coleta no painel do ML (Gestor, quando estiver lá): conferir se a página do Facebook "Black Achadinhos" está ligada no perfil de afiliado
      (Central de afiliados > editar perfil > redes sociais). Só anotar; ligar é decisão do Claude principal (perfil não mostra nome do Vini).
 
+- [ABERTA] 22/11 23h40 — ORDEM 10 (Claude principal). BIBLIOTECA DE ANÚNCIOS DA META: copiar o FORMATO de quem já vende, nunca o anúncio.
+  Pesquisa feita em 22/11 (Chrome, facebook.com/ads/library, Brasil, ativos, busca "meli.la", ordenado por impressões):
+  - Quase todo anúncio de afiliado do ML que roda há MESES é VÍDEO curto (9 a 24 s), botão "Comprar agora", link meli.la e texto de UMA linha
+    ("A calça mais incrível do Mercado Livre", no ar desde 17/05; "A calça mais perfeita do Mercado Livre", desde 28/06; calça wide leg,
+    desde 01/08; "Comenta Eu quero", desde 27/05). Moda feminina (calças) domina os que duram. Confirma a cinta e a "família da cinta".
+  - "cinta modeladora mercado livre": só ~4 anúncios ativos (concorrência baixa). Um concorrente usa vídeo de 21 s, gancho "cinturinha de
+    violão" e cinta de menos de R$ 30.
+  a) B2 (ORDEM 8): texto principal CURTO, 1 linha + aviso: "Cinta modeladora com barbatana por R$ X,XX (preço conferido hoje).
+     Publicidade · link de afiliado". Sem promessa de emagrecer/reduzir medidas, sem "estoque limitado".
+  b) Nova reserva da família da cinta: CALÇA FEMININA (wide leg ou legging de cintura alta) com GANHOS EXTRAS. O Curador avalia em
+     PRODUTOS AVALIADOS (nota 4,6+, +1 mil vendidos) para o teste pós-Black; não gasta antes.
+  c) Rotina: toda segunda, o agente Crescimento abre a Biblioteca (Brasil, ativos, "meli.la" e "cinta modeladora"), anota em crescimento.md
+     os 5 anúncios mais antigos ainda ativos (produto, duração do vídeo, gancho, texto, botão) e sugere 1 ângulo novo ao Estrategista.
+     Só leitura; 1 acesso por vez ao Facebook (TRAVA).
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.

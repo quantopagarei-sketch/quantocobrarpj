@@ -127,3 +127,9 @@ Fontes (22/11/2026)
 - Meta, conteúdo de marca: https://creators.facebook.com/tools/branded-content
 - Meta, especificações de Reels: https://developers.facebook.com/docs/video-api/guides/reels-publishing/
 
+
+## PENDENTE PARA A REVISÃO DE 14/12 (Claude principal, 22/11)
+- Uma página antiga do ML (/l/afiliados-pode-compartilhar, hoje redireciona para a home) aparece em buscas listando "Telegram" perto de
+  "Plataformas não permitidas". A página atual "Comece a recomendar" fala em "redes sociais, canais de mensagens, sites pessoais ou blog".
+  Conferir nos Termos e Condições VIGENTES do programa (logado no Chrome) se o Telegram está permitido e se precisa estar cadastrado no
+  perfil de afiliado. Se houver dúvida, avisar o Diretor, que avisa o Vini.
