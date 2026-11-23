@@ -642,13 +642,14 @@ DEU ERRADO (não repetir):
   e) HORÁRIOS: o Gestor agora roda às 7h19. Onde a ORDEM 5 diz "19h19", vale o AJUSTE DE HORÁRIOS abaixo.
   AJUSTE DE HORÁRIOS (23/11; Gestor v2 às 7h19, de 24 a 30/11; pedido do Vini: anúncio sempre de manhã cedo):
   · Ter 24/11 7h19 — Gestor: coleta + balanço + ORDEM 11 b + ORDEM 8.
+  · Ter 24/11 08h43 — Claude principal (lembrete): confere se o Gestor rodou e fez a ORDEM 11 b; avisa o Vini. [trig_011iRauAxhCFzuNc7obJ4wQp]
   · Ter 24/11 22h37 — Estrategista: aviso do depósito ao Vini (ORDEM 5) com o saldo lido de manhã + ordem da montagem da Black.
   · Qua 25/11 7h19 — Gestor: MONTAR A BLACK JÁ AGENDADA (ORDEM 5, item "Qua 25/11"): início 26/11 18h00 e fim 27/11 23h59 NO HORÁRIO DE
     BRASÍLIA. A conta está no fuso Brazil/DeNoronha (Brasília + 1h): no editor, início 26/11 19:00 e fim 28/11 00:59.
   · Qui 26/11 7h19 — Gestor: coleta; conferir que os 2 conjuntos da Black estão APROVADOS e programados; reprovado = corrigir e reenviar.
-  · Qui 26/11 18h40 — Claude principal (lembrete agendado na conversa de 23/11): conferir que a Black COMEÇOU às 18h (ativa e entregando).
+  · Qui 26/11 18h40 — Claude principal (lembrete agendado na conversa de 23/11): conferir que a Black COMEÇOU às 18h (ativa e entregando). [trig_011j7pgZt7LuijXdXZcL4rDK]
   · Sex 27/11 7h19 — Gestor: coleta + situação da Black. 09h13: checagem já agendada. 15h07 — Claude principal (lembrete): CORTE DA BLACK
-    (a regra do item "Sex 27/11 19h19" da ORDEM 5, antecipada).
+    (a regra do item "Sex 27/11 19h19" da ORDEM 5, antecipada). [trig_01UrqsVYrCNznMcnMiro4397]
   · Sáb 28 a Seg 30/11 7h19 — Gestor: só coleta.
   TRAVA: horários fixos da Meta agora = Gestor 7h19 · Divulgador Facebook 20h31 · Reels 21h47. O Claude principal evita a Meta de 7h15 a
   8h30 e de 20h25 a 22h20. O PC precisa estar ligado com o Chrome aberto às 7h15 (e das 19h45 às 22h20, para Curador, Facebook, X e Reels).
