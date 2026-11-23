@@ -34,7 +34,7 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
 9. 23/11 18h18 (Claude principal) — O CELULAR VENDEU: NÃO PAUSAR O "E". VALE MAIS QUE A ORDEM 6 a/b NESTE PONTO.
    Painel do ML lido às 18h10 (23/11 parcial, "atualizado até as 16h30"; período 17 a 23/11, aba Etiquetas):
    - anuncioe (E OPPO): 80 cliques (40 em 22/11 + 40 em 23/11), 1 venda em 23/11: Galaxy A17 256 GB, R$ 1.399 → R$ 57,36 (em revisão).
-     É a maior comissão do projeto, com no máximo ~R$ 30 gastos no conjunto (gasto exato: ver balanco.md quando lido).
+     É a maior comissão do projeto, com R$ 21,43 gastos no conjunto e 102 cliques (Gerenciador, 18h40): R = 2,35.
    - anunciob (B Cinta): 296 cliques, 8 unidades, R$ 54,20 (21/11 R$ 44,84 + 22/11 R$ 9,36 de 2 regatas; 23/11: 66 cliques e 0 venda até 16h30).
    - anuncioc (C Esteira): 61 cliques, 0 venda. anuncio 227/R$ 6,32 · anuncioa 70/0 · telegram 21/0 · facebook 8/0. Total 7 dias: R$ 117,88.
    O QUE MUDOU HOJE E NÃO ESTAVA ESCRITO (o push estava negado de manhã):
@@ -44,9 +44,10 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
      Por isso HOJE (23/11) NÃO HOUVE visita do Gestor: não há coleta da Meta de 23/11. O PC precisa estar ligado com o Chrome aberto às 7h15.
    PARA A CHECAGEM DAS 21h16, O ESTRATEGISTA (22h37) E O GESTOR (24/11 7h19):
    a) O "E - Celular OPPO A6t - anuncioe" FICA NO AR (tem venda na etiqueta). Ninguém pausa o E.
-   b) O B fica em R$ 35. NÃO aplicar a linha "só um deles vendeu → B R$ 25" da tabela da ORDEM 6 b (o Vini mandou subir hoje).
-   c) A divisão da verba de 24 a 26/11 e a criação do F estão na ORDEM 11 (no fim das ORDENS). Sem a ORDEM 11 marcada "DECIDIDO",
-      NINGUÉM cria conjunto nem muda verba: fica B R$ 35 + E R$ 15 = R$ 50/dia.
+   b) VERBA ATUAL, desde 23/11 18h42 (decisão do Vini às ~18h38, ORDEM 11): E Celular R$ 30/dia + B Cinta R$ 20/dia = R$ 50/dia.
+      Ninguém muda isso sem ordem nova. A tabela da ORDEM 6 b e os degraus da cinta NÃO valem mais.
+   c) O F (conjunto fitness) NÃO é criado agora, e não entra conjunto novo até a Black (ORDEM 11 c). O plano completo, o preço velho do
+      anúncio do OPPO (para o Gestor corrigir às 7h19) e os horários novos estão na ORDEM 11, no fim das ORDENS.
    d) "Venda direta" no painel NÃO quer dizer "o produto do anúncio": ver LIÇÕES (23/11).
 
 ## Equipe
