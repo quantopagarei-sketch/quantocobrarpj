@@ -510,5 +510,6 @@
  "ultimo_post": "2026-11-22T20:41-03:00",
  "ultimo_dia_ok": "2026-11-22",
  "nome_bot_ok": true,
- "textos_v": 5
+ "textos_v": 5,
+ "erro": "2026-11-22: token recusado"
 }
