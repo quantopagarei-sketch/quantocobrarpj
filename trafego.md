@@ -85,6 +85,29 @@ Alavancas (o que fazer):
   de ganhos extras altos. Por isso a etiqueta por conjunto e a tabela VENDAS (direta x indireta) são o que decide a Black.
 - Dinheiro: saldo R$ 54,32 (a Meta tira ~1,14 x o gasto) ≈ R$ 47 de gasto ≈ 2,4 dias a R$ 20/dia. Prejuízo até a regra de parar tudo (R$ 250): ~R$ 100.
 
+### Revisão do Estrategista (22/11 22h40, números do Gestor v2 de 22/11 19h35) — amostra ainda MUITO pequena
+| Etiqueta/conjunto | Gasto | Cliques Meta | CPC | CTR | Vendas | Comissão (em revisão) | Comissão÷gasto (R, x1,14) |
+|---|---|---|---|---|---|---|---|
+| anunciob B Cinta | R$ 34,84 | 230 | R$ 0,15 | 3,83% | 4 (1 direta) | R$ 44,84 | 1,29 (1,13) |
+| anuncioc C Esteira | R$ 6,41 | 31 | R$ 0,21 | 2,31% | 0 | R$ 0 | 0 (1º dia) |
+| anuncioe E OPPO | R$ 6,25 | 37 | R$ 0,17 | 3,06% | 0 | R$ 0 | 0 (1º dia) |
+| anuncioa A Câmera (off) | R$ 13,23 | 79 | R$ 0,17 | 3,03% | 0 | R$ 0 | 0 |
+| TOTAL tudo desde 14/11 | R$ 212,96 | - | - | - | 6 | R$ 51,16 | 0,24 |
+- O lucro do B depende de UMA venda direta: R$ 35,10 dos R$ 44,84. Sem ela, as indiretas dão R$ 9,74 em 230 cliques = R$ 0,04 por clique
+  (contra R$ 0,17 pagos com a taxa). Conta de empate do B: com CPC R$ 0,15 x 1,14 = R$ 0,17, é preciso ~1 venda DIRETA da cinta a cada
+  ~200 cliques da Meta (~R$ 30 de gasto). Hoje: 1 em 230. Está no limite, não é lucro provado.
+- H1 COOKIE: confirmada de novo (5 de 6 vendas indiretas), mas as indiretas pagam pouco (média R$ 2,81). O que dá lucro é venda DIRETA de
+  produto com GANHOS EXTRAS. Muda a prioridade: ganho por venda direta > conversão total.
+- H2 PÚBLICO: a Meta (otimizando clique no link, sem idade travada) entrega o B quase todo a mulher 45+ (68%) e 65+ (36%), onde o clique é
+  mais barato. Quem COMPROU: não medido. Risco: clique barato de 65+ que não compra. Para o F (conjunto fitness, compradora provável mais
+  jovem) vamos testar idade travada (ORDEM 7 c). No B não se mexe.
+- H3 PREÇO: segue a favor (cinta R$ 95 vendeu; esteira R$ 690 e OPPO R$ 834 com 0 em 68 cliques, ainda cedo, e o público deles é homem).
+- Correção de MEDIDA: o painel do ML fecha com atraso ("atualizado até" o dia anterior), mas o gasto da Meta é até a hora da leitura. Isso
+  puxa o R para baixo (hoje: gasto até 21/11 ~R$ 19,34 → R ≈ 2,0; gasto até 22/11 19h → R = 1,13). Daqui em diante o R usa o MESMO
+  período nos dois lados (ver ORDEM 7 a).
+- Dinheiro: saldo R$ 344,36 ≈ R$ 302 de gasto. Plano mínimo até o fim da Black: ~R$ 22 (resto de 22/11) + R$ 50 (23/11) + R$ 150
+  (24 a 26/11) + R$ 300 (Black) = R$ 522 de gasto ≈ R$ 595 do saldo. Faltam ~R$ 250 (sem degraus). Aviso ao Vini: em 24/11 (ORDEM 5).
+
 ## ESCOLHA DO PRODUTO (pedido do Vini, 20/11/2026 06h33) — OBRIGATÓRIA antes de pôr dinheiro em qualquer produto
 Comparar sempre os dois grupos e escolher pela conta, nunca por achismo:
 - GRUPO 1 "MAIS VENDIDOS": produtos campeões de venda do ML (páginas "Mais vendidos" por categoria e ofertas do dia), com a comissão de cada um.
@@ -465,6 +488,23 @@ DEU ERRADO (não repetir):
        Brasília e o "18h00" da Black seria 17h00 de Brasília. Conferir antes de agendar a Black (ORDEM 5, 25/11).
      - R do dia = 1,13 (balanco.md > Resumo). C e E: 0 venda até agora (painel do ML só até 16h30 de hoje), com R$ 6,41 e R$ 6,25 gastos.
 
+- [ABERTA] 22/11 — ORDEM 7 (Estrategista, 22/11 22h40; para o Gestor v2 em 23/11 19h19). EXECUTAR JUNTO COM A ORDEM 6 (ela continua
+  valendo inteira; aqui só os ajustes). Respeitar a TRAVA e a 1 sessão de edição do dia.
+  a) R DO DIA (vale para os DEGRAUS da ORDEM 6 h, de 23/11 em diante): calcular com o MESMO período nos dois lados.
+     R = ganho de anunciob no painel do ML (7 dias, "atualizado até" o dia D) ÷ (gasto do B no Gerenciador de 20/11 até o FIM do dia D x 1,14).
+     No Gerenciador, escolher o período "20/11 até D" (D = o dia que o painel diz "atualizado até"). Gravar os dois números e o R em balanco.md.
+     Escrever também o "R da hora" (gasto até agora), só para comparar. A decisão de degrau usa o R do período igual.
+     Estimativa de hoje: R (até 21/11) ≈ 44,84 ÷ (19,34 x 1,14) ≈ 2,0; R da hora = 1,13.
+  b) B Cinta em 23/11: R$ 35/dia (degrau da ORDEM 6 h, conferido pelo Estrategista). Nada mais muda no B. Se C ou E tiverem venda, vale a
+     tabela da ORDEM 6 b.
+  c) F Conjunto Fitness (ORDEM 6 c), AJUSTE DE PÚBLICO: Mulheres, 25 a 54 anos, Brasil, SEM Advantage+ de público (opções originais), para
+     o gênero e a idade valerem de verdade. Motivo: no B a Meta mandou 36% dos cliques para 65+, e conjunto de legging de academia é compra
+     de mulher mais nova; é um teste da H2. R$ 15/dia. Resto igual à ORDEM 6 c (posicionamentos, link anunciof, imagem, textos, reconferência).
+     Se o editor não deixar travar a idade, publicar com Mulheres 18+ e anotar.
+  d) C e E: como na ORDEM 6 a (sem venda na etiqueta = pausar). Anotar gasto final de cada um.
+  e) Fuso (REGISTRO da ORDEM 6): ler em Configurações da conta de anúncios o fuso horário e gravar aqui. Não mudar nada.
+  f) Gravar em balanco.md: gasto de 23/11 por conjunto, CPC, CTR, vendas novas por etiqueta (direta x indireta) e o R da letra a.
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
@@ -475,3 +515,4 @@ DEU ERRADO (não repetir):
 - 21/11 19h30 Claude principal (revisão da semana da Black, pedido do Vini): Gestor antigo aposentado (push 403) e Gestor v2 criado (trig_01AAWAbRKe2XzysEA5JJsKir, grava aqui, faz também o balanço); agente de Balanço desligado; data da Black corrigida para 26/11 18h a 27/11 23h59; trava de 1 acesso por vez à Meta; ORDEM 5 com o calendário dia a dia. Curador, Divulgador X e Divulgador Facebook estão no modelo Fable (limite de uso batido desde 20/11): o Vini vai trocá-los para Sonnet.
 - 22/11 15h50 Claude principal: Vini observou que o chamariz é o anúncio da cinta (estética da mulher) e pediu (1) um anúncio de algo derivado dela, com boa comissão, para 23/11 e (2) potencializar ainda mais a cinta. Painel do ML: anunciob 116 cliques, R$ 44,84 de R$ 51,16. Pesquisa na Central (família da cinta) em PRODUTOS AVALIADOS; o Vini escolheu o conjunto fitness NBZ (R$ 71, EXTRAS 28%). Aberta a ORDEM 6 (23/11 19h19: B R$ 35 + F R$ 15; C e E sem venda saem). Imagens do F prontas em anuncio/. Não abri a Meta.
 - 22/11 16h00 Claude principal: perguntei ao Vini quanto pôr a mais na cinta; ele respondeu "o valor, você mesmo junto com análise de agente especialista irá definir o maior potencial de ROI" e aprovou o teto de R$ 100/dia (24 a 26/11). Definido em degraus (ORDEM 6 h): B R$ 35 em 23/11, R$ 55 em 24/11 e R$ 80 em 25/11, só com R ≥ 1,3 e venda nova; desce se R < 1,0. Black sem mudança (R$ 300). Estrategista: conferir a conta hoje às 22h37 com o gasto medido pelo Gestor.
+- 22/11 22h40 Estrategista: Gestor v2 cumpriu a 1ª visita. B Cinta R$ 34,84/230 cliques/CPC R$ 0,15, R da hora 1,13 (≈2,0 com o mesmo período do painel). Lucro do B depende de venda direta (1 a cada ~200 cliques para empatar). B R$ 35 em 23/11 confirmado; ORDEM 7: R com período igual, F só mulheres 25-54 (teste H2), fuso. Saldo cobre ~R$ 302 de gasto: faltam ~R$ 250 para a Black (aviso em 24/11).
