@@ -534,5 +534,10 @@ DEU ERRADO (não repetir):
 - Quando: semana de 30/11 (depois da Black). Não começar antes. O Claude principal retoma em 30/11.
 - Por quê: anúncio pago com link de afiliado do ML é permitido no Pinterest (além de Facebook, Instagram e TikTok); público forte de mulher
   ligado a estética e moda, o mesmo da cinta.
+- 22/11 23h20 (2º vídeo que o Vini mandou, Thiago Hora, out/2026): começar pelo Pinterest ORGÂNICO (grátis): pins com foto do produto,
+  título e descrição com as palavras que a pessoa busca e o link direto com matt_word (etiqueta nova "pinterest"). Público de casa,
+  decoração e moda; preferir tíquete baixo. Foto: só a do anúncio, sem mudar o produto. Depois de 1 semana de pins, avaliar o anúncio pago.
+- DESCARTADO do mesmo vídeo: responder "onde comprar?" no X ou no Threads com link de afiliado (regra do Vini no X: não responder outras
+  pessoas com link; risco de spam na conta pessoal @titantuita).
 - Antes de gastar: criar conta comercial do Pinterest (só com o "sim" do Vini; senha e cartão quem digita é ele), confirmar as regras atuais
   do Pinterest para link de afiliado (jurídico) e propor a verba ao Vini numa pergunta. Começar pela cinta e pelo vídeo do anúncio.
