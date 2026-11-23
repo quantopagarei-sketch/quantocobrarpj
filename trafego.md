@@ -32,7 +32,7 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
    dia, SÓ para a cinta subir em degraus (R$ 35 → 55 → 80) e SÓ se ela estiver pagando (regra R, ORDEM 6 h). Em 22 e 23/11 o total
    continua R$ 50. Black: R$ 300, sem mudança. Sem a condição da regra R, ninguém passa de R$ 50 por dia.
 9. 23/11 18h18 (Claude principal) — O CELULAR VENDEU: NÃO PAUSAR O "E". VALE MAIS QUE A ORDEM 6 a/b NESTE PONTO.
-   Painel do ML lido às 18h13 (23/11 parcial, "atualizado até as 16h30"; período 17 a 23/11, aba Etiquetas):
+   Painel do ML lido às 18h10 (23/11 parcial, "atualizado até as 16h30"; período 17 a 23/11, aba Etiquetas):
    - anuncioe (E OPPO): 80 cliques (40 em 22/11 + 40 em 23/11), 1 venda em 23/11: Galaxy A17 256 GB, R$ 1.399 → R$ 57,36 (em revisão).
      É a maior comissão do projeto, com no máximo ~R$ 30 gastos no conjunto (gasto exato: ver balanco.md quando lido).
    - anunciob (B Cinta): 296 cliques, 8 unidades, R$ 54,20 (21/11 R$ 44,84 + 22/11 R$ 9,36 de 2 regatas; 23/11: 66 cliques e 0 venda até 16h30).
@@ -595,14 +595,14 @@ DEU ERRADO (não repetir):
   O conjunto fitness (F) NÃO entra agora: fica guardado (imagens, textos e link prontos na ORDEM 6 c). C Esteira segue desligado (Vini).
   O teto de R$ 100/dia e os DEGRAUS da cinta (ORDEM 6 h e ORDEM 9 a) ficam SUSPENSOS: acima de R$ 50/dia só com novo "sim" do Vini,
   numa pergunta com o número. A Black continua com R$ 300 (ORDEM 5).
-  MOTIVO (painel do ML, 17 a 23/11, lido às 18h13): anuncioe 80 cliques → R$ 57,36 (R$ 0,72 por clique). anunciob 296 cliques → R$ 54,20
+  MOTIVO (painel do ML, 17 a 23/11, lido às 18h10): anuncioe 80 cliques → R$ 57,36 (R$ 0,72 por clique). anunciob 296 cliques → R$ 54,20
   (R$ 0,18 por clique; nos últimos 2 dias, 180 cliques → R$ 9,36). É UMA venda de celular: amostra mínima, pode não se repetir. Por isso o
   dinheiro só mudou de lugar, não aumentou.
-  a) VERBAS NA META — FEITO 23/11 18h44 a 18h46 (Claude principal; 1 aba; sessão de 18h40 a 18h47, com a TRAVA no diario.md):
+  a) VERBAS NA META — FEITO 23/11 18h41 e 18h42 (Claude principal; 1 aba; sessão de 18h40 a 18h45, com a TRAVA no diario.md):
      - "E - Celular OPPO A6t - anuncioe" (conjunto 120248862437080656): de R$ 15 para R$ 30/dia. Segue ATIVO.
      - "B - Cinta Modeladora - anunciob" (conjunto 120248844944900656): de R$ 35 para R$ 20/dia. Segue ATIVO.
      - Total no ar: R$ 50/dia. Publicado direto; o botão segue "Conferir e publicar (4)" (rascunhos antigos intocados). Nada mais foi mexido.
-     - Lido na mesma visita (período Máximo, 18h42): E R$ 21,43 gastos · 102 cliques · CPC R$ 0,21 · 4.218 impressões (até 22/11: R$ 9,21 e
+     - Lido na mesma visita (período Máximo, 18h40): E R$ 21,43 gastos · 102 cliques · CPC R$ 0,21 · 4.218 impressões (até 22/11: R$ 9,21 e
        49 cliques). B R$ 57,22 · 381 cliques · CPC R$ 0,15 · 9.762 impressões (até 22/11: R$ 41,03 e 274 cliques). Saldo pré-pago R$ 292,85.
        R do E = 57,36 ÷ (21,43 x 1,14) = 2,35. R do B = 54,20 ÷ (57,22 x 1,14) = 0,83 (da hora); até 22/11 = 54,20 ÷ (41,03 x 1,14) = 1,16.
      - FUSO DA CONTA (resposta da ORDEM 7 e): "Brazil/DeNoronha" (GMT-2) = Brasília + 1 hora (lido no seletor de datas do Gerenciador).
@@ -610,7 +610,7 @@ DEU ERRADO (não repetir):
        00:59 de 28/11 no editor. Os conjuntos diários acabam 26/11 23:59 da conta = 22h59 de Brasília. O "dia" do orçamento vira às 23h de Brasília.
   b) GESTOR, 24/11 7h19 (1ª visita de manhã): COLETA + balanço (ML e Meta; hoje não houve leitura da Meta). Conferir: B = R$ 20/dia e
      E = R$ 30/dia, os dois ATIVOS, fim 26/11 23h59, C desligado. NÃO criar o F. NÃO subir o B.
-     PREÇO DO OPPO — O ANÚNCIO ESTÁ DESATUALIZADO (lido em 23/11 18h47 na prévia do anúncio e 18h50 na página do produto):
+     PREÇO DO OPPO — O ANÚNCIO ESTÁ DESATUALIZADO (lido em 23/11 18h43 na prévia do anúncio e 18h45 na página do produto):
      o anúncio "OPPO A6t - imagem" (id 120248862437120656) diz "R$ 833,52 no Pix, conferido hoje" na imagem, no texto e no título. A página
      hoje mostra: cor Azul Cristal (a da foto do anúncio) R$ 789,30 no Pix, riscado R$ 1.299, 39% OFF, ou R$ 877 em 18x R$ 48,72
      (https://www.mercadolivre.com.br/smartphone-oppo-a6t-128gb-12gb-ram-4gb-8gb-virtual-ram-bateria-gigante-de-6500mah-processador-snapdragon-tela-120hz-ai-camera-ip64-azul-cristal/p/MLB66447547);
