@@ -31,8 +31,8 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
 8. 22/11 16h00 — TETO NOVO, aprovado pelo Vini ("Sim, teto de R$ 100 por dia"): de 24 a 26/11 o total pode ir de R$ 50 até R$ 100 por
    dia, SÓ para a cinta subir em degraus (R$ 35 → 55 → 80) e SÓ se ela estiver pagando (regra R, ORDEM 6 h). Em 22 e 23/11 o total
    continua R$ 50. Black: R$ 300, sem mudança. Sem a condição da regra R, ninguém passa de R$ 50 por dia.
-9. 23/11 18h50 (Claude principal) — O CELULAR VENDEU: NÃO PAUSAR O "E". VALE MAIS QUE A ORDEM 6 a/b NESTE PONTO.
-   Painel do ML lido às 18h30 (23/11 parcial, "atualizado até as 16h30"; período 17 a 23/11, aba Etiquetas):
+9. 23/11 18h18 (Claude principal) — O CELULAR VENDEU: NÃO PAUSAR O "E". VALE MAIS QUE A ORDEM 6 a/b NESTE PONTO.
+   Painel do ML lido às 18h13 (23/11 parcial, "atualizado até as 16h30"; período 17 a 23/11, aba Etiquetas):
    - anuncioe (E OPPO): 80 cliques (40 em 22/11 + 40 em 23/11), 1 venda em 23/11: Galaxy A17 256 GB, R$ 1.399 → R$ 57,36 (em revisão).
      É a maior comissão do projeto, com no máximo ~R$ 30 gastos no conjunto (gasto exato: ver balanco.md quando lido).
    - anunciob (B Cinta): 296 cliques, 8 unidades, R$ 54,20 (21/11 R$ 44,84 + 22/11 R$ 9,36 de 2 regatas; 23/11: 66 cliques e 0 venda até 16h30).
@@ -569,9 +569,9 @@ DEU ERRADO (não repetir):
      (demanda provada) E busca pelo nome do produto na Biblioteca com 10 ou menos anunciantes ativos (pouca concorrência) E ganhos extras
      no ML. Os que passarem vão para PRODUTOS AVALIADOS com a nota "campeão da Biblioteca". Copiar só formato e ângulo, com vídeo e texto nossos.
 
-- [ABERTA] 23/11 18h50 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
+- [ABERTA] 23/11 18h18 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
   necessário"). VERBA DE 24 A 26/11 DEPOIS DA VENDA DO CELULAR. VALE MAIS QUE AS ORDENS 5 a 9 ONDE HOUVER DIFERENÇA.
-  SITUAÇÃO: PENDENTE — a divisão foi perguntada ao Vini às 18h55 de 23/11. Enquanto esta linha disser PENDENTE, ninguém cria conjunto nem
+  SITUAÇÃO: PENDENTE — a divisão foi perguntada ao Vini às 18h20 de 23/11. Enquanto esta linha disser PENDENTE, ninguém cria conjunto nem
   muda verba (fica B R$ 35 + E R$ 15 = R$ 50/dia; E no ar; C desligado pelo Vini).
 
 ## Diário do Estrategista
