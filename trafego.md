@@ -711,6 +711,10 @@ DEU ERRADO (não repetir):
   4) PREÇO DO OPPO: fazer a ORDEM 11 b (anúncio novo "OPPO A6t - imagem 24/11" com o preço do dia; imagem pronta em anuncio/oppoa6t-1080x1350.jpg).
   5) ORDEM 8 (vídeo "B2" da cinta): por último e só se sobrar tempo; se não der, anotar "ORDEM 8 adiada" (a cinta agora tem R$ 20).
   6) Marcar FEITO aqui e na ORDEM 11 b, gravar balanco.md e diario.md, com push depois de cada item.
+  PARA A CHECAGEM DAS 08h43 DE 24/11 (Claude principal; o texto do lembrete é mais velho que esta ordem e ainda fala em "E R$ 30"): vale
+  ESTA ordem. Se o Gestor não tiver rodado ou tiver parado no meio, o Claude principal faz o que faltou dos itens 2, 3 e 4, com a TRAVA, o
+  preço conferido na hora e o total em R$ 50/dia. Isso já foi aprovado pelo Vini em 23/11 às ~19h33 ("Os dois, R$ 15 cada"; a pergunta dizia
+  que os anúncios seriam publicados em 24/11 de manhã). Qualquer coisa além disso: perguntar a ele.
   REGRAS DE 24 A 26/11 (substituem o item c da ORDEM 11):
   - É um TESTE DE 2 DIAS decidido pelo Vini: E e G NÃO são pausados nem mudam de verba antes da visita de 26/11 às 7h19. A regra "R$ 20 gastos e
     0 venda = pausar" NÃO vale para eles nestes 2 dias (celular vende devagar: o empate fica em 1 venda a cada ~R$ 35 a R$ 50 de gasto). Só
