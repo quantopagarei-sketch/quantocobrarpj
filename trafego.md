@@ -45,7 +45,7 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
    PARA O ESTRATEGISTA (22h37) E O GESTOR (24/11 7h19) (a checagem das 21h16 foi cancelada às 19h06, com o "sim" do Vini):
    a) O "E - Celular OPPO A6t - anuncioe" FICA NO AR (tem venda na etiqueta). Ninguém pausa o E.
    b) VERBA: desde 23/11 18h42, E Celular R$ 30/dia + B Cinta R$ 20/dia = R$ 50/dia (decisão do Vini às ~18h38, ORDEM 11).
-      A PARTIR DE 24/11 ÀS 7h19 (decisão do Vini às ~19h38, ORDEM 12): E OPPO R$ 15 + G Galaxy A17 R$ 15 (conjunto NOVO) + B Cinta R$ 20 = R$ 50.
+      A PARTIR DE 24/11 ÀS 7h19 (decisão do Vini às ~19h33, ORDEM 12): E OPPO R$ 15 + G Galaxy A17 R$ 15 (conjunto NOVO) + B Cinta R$ 20 = R$ 50.
       Ninguém muda isso sem ordem nova. A tabela da ORDEM 6 b e os degraus da cinta NÃO valem mais.
    c) O F (conjunto fitness) NÃO é criado agora, e não entra conjunto novo até a Black (ORDEM 11 c). O plano completo, o preço velho do
       anúncio do OPPO (para o Gestor corrigir às 7h19) e os horários novos estão na ORDEM 11, no fim das ORDENS.
@@ -600,7 +600,7 @@ DEU ERRADO (não repetir):
 
 - [ABERTA] 23/11 18h18 — ORDEM 11 (Claude principal; pedido do Vini às 18h07, ao ver a venda de R$ 57,36: "tem que fazer isso dar certo, faça o
   necessário"). VERBA DE 24 A 26/11 DEPOIS DA VENDA DO CELULAR. VALE MAIS QUE AS ORDENS 5 a 9 ONDE HOUVER DIFERENÇA.
-  >>> ATUALIZADA ÀS 19h40 PELA ORDEM 12 (logo abaixo): a partir de 24/11 às 7h19 o celular vira DOIS conjuntos, E OPPO R$ 15 + G Galaxy A17
+  >>> ATUALIZADA ÀS 19h34 PELA ORDEM 12 (logo abaixo): a partir de 24/11 às 7h19 o celular vira DOIS conjuntos, E OPPO R$ 15 + G Galaxy A17
   R$ 15 (o total de celular continua R$ 30 e o total geral R$ 50). Onde esta ordem diz "E R$ 30", leia "E R$ 15 + G R$ 15" a partir de 24/11.
   O item c abaixo foi SUBSTITUÍDO pelas regras da ORDEM 12. O item b (preço do OPPO) continua valendo. <<<
   DECIDIDO PELO VINI em 23/11 ~18h38 (pergunta feita às 18h20; pergunta com os números e 3 opções: R$ 50, R$ 65 ou R$ 80 por dia; resposta dele: "R$ 50/dia"):
@@ -668,10 +668,10 @@ DEU ERRADO (não repetir):
   TRAVA: horários fixos da Meta agora = Gestor 7h19 · Divulgador Facebook 20h31 · Reels 21h47. O Claude principal evita a Meta de 7h15 a
   8h30 e de 20h25 a 22h20. O PC precisa estar ligado com o Chrome aberto às 7h15 (e das 19h45 às 22h20, para Curador, Facebook, X e Reels).
 
-- [ABERTA] 23/11 19h40 — ORDEM 12 (Claude principal). DOIS CELULARES NO AR: OPPO A6t + GALAXY A17. PARA O GESTOR EM 24/11 ÀS 7h19.
+- [ABERTA] 23/11 19h34 — ORDEM 12 (Claude principal). DOIS CELULARES NO AR: OPPO A6t + GALAXY A17. PARA O GESTOR EM 24/11 ÀS 7h19.
   VALE MAIS QUE A ORDEM 11 ONDE HOUVER DIFERENÇA (a verba do E e as regras do item c).
   PEDIDOS DO VINI em 23/11: 19h23 "Organize o melhor celular pra ser anunciado, temos que ser certeiros!" e 19h28 "Pense se vale a pena
-  anunciar dois talvez". DECISÃO DELE às ~19h38, numa pergunta com os números e 3 opções (os dois / só o Galaxy / só o OPPO):
+  anunciar dois talvez". DECISÃO DELE às ~19h33, numa pergunta com os números e 3 opções (os dois / só o Galaxy / só o OPPO):
   "Os dois, R$ 15 cada". A partir da visita de 24/11:
      E - Celular OPPO A6t (anuncioe): R$ 15/dia  +  G - Galaxy A17 (anunciog, NOVO): R$ 15/dia  +  B - Cinta (anunciob): R$ 20/dia = R$ 50/dia.
   Até a visita das 7h19 fica como está (E R$ 30 + B R$ 20). Nada acima de R$ 50/dia sem novo "sim" do Vini.
