@@ -137,6 +137,14 @@ Em https://www.facebook.com/blackachadinhos.ofertas/reels/ cada cartão mostra a
 semana | Reels postados | visualizações somadas | inscritos do canal (metricas.csv). A meta é o canal crescer; se em 14 dias
 os Reels tiverem visualização e o canal não crescer, o Diretor propõe ao Vini pôr também os links de afiliado no 1º comentário.
 
+## VÍDEO DE ANÚNCIO DA CINTA (pedido do Vini em 22/11; fazer em 23/11, depois do Reel do dia; ORDEM 8 de trafego.md)
+Uma vez só (refazer apenas se o Gestor pedir no diario.md porque o preço mudou). Usa a mesma foto e os mesmos preços conferidos da cinta do Reel.
+1. Roteiro com `"modo": "anuncio"` e SÓ a cinta (1 oferta), na mesma pasta da foto. O gerador faz 12 s: abertura, cinta (6 s) e tela final
+   "Toque no botão abaixo do vídeo" (o clique do anúncio vai direto ao produto, sem Telegram).
+2. `python3 reels/fazer_reel.py --roteiro PASTA/anuncio.json --saida PASTA/anuncio --quadros`, conferir `conferencia.jpg`, depois sem `--quadros`.
+3. Copiar `reel.mp4` para `anuncio/cinta-video.mp4` e `legenda.txt` para `anuncio/cinta-video-legenda.txt`; commit e push.
+4. Anotar em "Feito": "vídeo de anúncio da cinta gravado em anuncio/". Não posta esse vídeo na página: quem usa é o Gestor.
+
 ## Aprendizados técnicos (22/11, 1º Reel)
 - `file_upload` do Chrome aceita arquivo criado nesta sessão, até 3,8 MB por envio. `upload_image` só serve para print (não para vídeo).
 - Para trocar o vídeo sem perder a legenda: novo `find` do "file input" e outro `file_upload` (é o "Substituir mídia").

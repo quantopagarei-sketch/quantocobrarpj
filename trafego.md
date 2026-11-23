@@ -505,6 +505,19 @@ DEU ERRADO (não repetir):
   e) Fuso (REGISTRO da ORDEM 6): ler em Configurações da conta de anúncios o fuso horário e gravar aqui. Não mudar nada.
   f) Gravar em balanco.md: gasto de 23/11 por conjunto, CPC, CTR, vendas novas por etiqueta (direta x indireta) e o R da letra a.
 
+- [ABERTA] 22/11 23h20 — ORDEM 8 (Claude principal, pedido do Vini: "Sim"). VÍDEO NO ANÚNCIO DA CINTA. EXECUTAR EM 24/11 ÀS 19h19 (Gestor v2),
+  na mesma sessão de edição do dia (TRAVA). NÃO gasta nada a mais: o vídeo entra DENTRO do conjunto B, com a mesma verba do B.
+  Origem: vídeo da Mayara Prado (YouTube, fev/2026) sobre a regra de anúncio pago do ML: o vídeo do produto é o que faz clicar; nós só usamos imagem.
+  a) Arquivo: anuncio/cinta-video.mp4 e anuncio/cinta-video-legenda.txt (feitos pelo agente de Reels em 23/11; ver reels.md > VÍDEO DE ANÚNCIO).
+     Se não existirem, anote "ORDEM 8 adiada: sem vídeo" e tente no dia seguinte (último dia: 25/11).
+  b) No conjunto B, DUPLICAR o anúncio da cinta e trocar só a mídia pelo vídeo (envio de arquivo pelo Chrome). Nome: "B2 - Cinta video".
+     Mesmo link (matt_word=anunciob), mesmo botão, texto principal = cinta-video-legenda.txt. Rótulo de IA ligado, se o editor oferecer.
+     O anúncio de imagem continua ligado: a Meta divide a verba do B entre os dois.
+  c) Antes de publicar: preço e "de" do vídeo iguais à página da cinta AGORA. Se mudou, não publica (pede vídeo novo ao Reels no diário).
+  d) Avaliação na visita de 26/11 (antes da Black), por anúncio, no Gerenciador: cliques, CTR e CPC. Se o CPC do vídeo for 1,5x ou mais o da
+     imagem, pausar o vídeo; se for menor ou igual, manter os dois na Black. Gravar a comparação em balanco.md e no Diário do Estrategista.
+  e) Não muda verba, degrau nem a regra R (a etiqueta é a mesma: anunciob).
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
@@ -516,3 +529,10 @@ DEU ERRADO (não repetir):
 - 22/11 15h50 Claude principal: Vini observou que o chamariz é o anúncio da cinta (estética da mulher) e pediu (1) um anúncio de algo derivado dela, com boa comissão, para 23/11 e (2) potencializar ainda mais a cinta. Painel do ML: anunciob 116 cliques, R$ 44,84 de R$ 51,16. Pesquisa na Central (família da cinta) em PRODUTOS AVALIADOS; o Vini escolheu o conjunto fitness NBZ (R$ 71, EXTRAS 28%). Aberta a ORDEM 6 (23/11 19h19: B R$ 35 + F R$ 15; C e E sem venda saem). Imagens do F prontas em anuncio/. Não abri a Meta.
 - 22/11 16h00 Claude principal: perguntei ao Vini quanto pôr a mais na cinta; ele respondeu "o valor, você mesmo junto com análise de agente especialista irá definir o maior potencial de ROI" e aprovou o teto de R$ 100/dia (24 a 26/11). Definido em degraus (ORDEM 6 h): B R$ 35 em 23/11, R$ 55 em 24/11 e R$ 80 em 25/11, só com R ≥ 1,3 e venda nova; desce se R < 1,0. Black sem mudança (R$ 300). Estrategista: conferir a conta hoje às 22h37 com o gasto medido pelo Gestor.
 - 22/11 22h40 Estrategista: Gestor v2 cumpriu a 1ª visita. B Cinta R$ 34,84/230 cliques/CPC R$ 0,15, R da hora 1,13 (≈2,0 com o mesmo período do painel). Lucro do B depende de venda direta (1 a cada ~200 cliques para empatar). B R$ 35 em 23/11 confirmado; ORDEM 7: R com período igual, F só mulheres 25-54 (teste H2), fuso. Saldo cobre ~R$ 302 de gasto: faltam ~R$ 250 para a Black (aviso em 24/11).
+
+## TESTE GUARDADO: PINTEREST (pedido do Vini em 22/11 23h11: "salva pra testar o Pinterest semana que vem")
+- Quando: semana de 30/11 (depois da Black). Não começar antes. O Claude principal retoma em 30/11.
+- Por quê: anúncio pago com link de afiliado do ML é permitido no Pinterest (além de Facebook, Instagram e TikTok); público forte de mulher
+  ligado a estética e moda, o mesmo da cinta.
+- Antes de gastar: criar conta comercial do Pinterest (só com o "sim" do Vini; senha e cartão quem digita é ele), confirmar as regras atuais
+  do Pinterest para link de afiliado (jurídico) e propor a verba ao Vini numa pergunta. Começar pela cinta e pelo vídeo do anúncio.

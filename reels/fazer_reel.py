@@ -244,7 +244,8 @@ class Reel:
         self.r = roteiro
         self.ofertas = roteiro['ofertas']
         self.n = len(self.ofertas)
-        self.seg_prod = float(roteiro.get('segundos_por_produto', 4.0))
+        self.anuncio = roteiro.get('modo') == 'anuncio'   # vídeo de 1 produto para anúncio pago (o clique vai direto ao produto)
+        self.seg_prod = float(roteiro.get('segundos_por_produto', 6.0 if self.anuncio else 4.0))
         self.fundo = Image.new('RGB', (W, H), PRETO)
         self.conferido = roteiro['conferido']
         descontos = [pct(o['preco'], o['preco_de']) for o in self.ofertas if o.get('preco_de')]
@@ -268,7 +269,7 @@ class Reel:
         self.a_tag = etiqueta(330)
         self.a_ach = txt('ACHADINHOS', 96, AMARELO)
         self.a_sub = txt('OFERTAS DO DIA', 40)
-        self.a_tit = txt(f'{n} ACHADOS DE HOJE', 78)
+        self.a_tit = txt('ACHADO DE HOJE' if n == 1 else f'{n} ACHADOS DE HOJE', 78)
         if self.max_desc >= 15:
             self.a_faixa = faixa_texto(f'ATÉ {self.max_desc}% OFF', 92, 150, pad=56)
         else:
@@ -375,6 +376,8 @@ class Reel:
         self.f_rod2 = txt(f'Preços conferidos em {self.conferido} · podem mudar', 27, CINZA, bold=False)
 
     def quadro_fecha(self, t):
+        if self.anuncio:
+            return self.quadro_fecha_anuncio(t)
         im = self.fundo.copy()
         im.paste(self.cab, (0, 0), self.cab)
         d = ImageDraw.Draw(im)
@@ -402,6 +405,27 @@ class Reel:
             cola(im, self.f_gratis, W / 2, 1050, escala=0.6 + 0.4 * pulo(a), alpha=min(1, a * 3))
         a = suave(p(t, 2.85, 0.3))
         cola(im, self.f_saiba, W / 2, 1176 + (1 - a) * 14, alpha=a)
+        a = suave(p(t, 0.2, 0.4))
+        cola(im, self.f_rod1, W / 2, 1300, alpha=a)
+        cola(im, self.f_rod2, W / 2, 1344, alpha=a)
+        return im
+
+    def quadro_fecha_anuncio(self, t):
+        if not hasattr(self, 'g_t1'):
+            self.g_t1 = txt('Gostou?', 96)
+            self.g_t2 = txt('Toque no botão', 80)
+            self.g_t3 = linha([('abaixo do ', BRANCO), ('vídeo', AMARELO)], 80)
+            self.g_faixa = faixa_texto('Preço conferido hoje', 56, 116, pad=48, max_w=900)
+        im = self.fundo.copy()
+        im.paste(self.cab, (0, 0), self.cab)
+        d = ImageDraw.Draw(im)
+        barra(d, self.n, self.n, 1)
+        for cam, y, t0 in ((self.g_t1, 560, 0.0), (self.g_t2, 720, 0.25), (self.g_t3, 824, 0.4)):
+            a = suave(p(t, t0, 0.32))
+            cola(im, cam, W / 2, y + (1 - a) * 30, alpha=a)
+        a = p(t, 1.0, 0.32)
+        if a > 0:
+            cola(im, self.g_faixa, W / 2, 1000, escala=0.6 + 0.4 * pulo(a), alpha=min(1, a * 3))
         a = suave(p(t, 0.2, 0.4))
         cola(im, self.f_rod1, W / 2, 1300, alpha=a)
         cola(im, self.f_rod2, W / 2, 1344, alpha=a)
@@ -598,6 +622,15 @@ def folha(reel, destino):
 
 def textos(r, saida):
     ofs = r['ofertas']
+    if r.get('modo') == 'anuncio':
+        o = ofs[0]
+        nome = o.get('nome_legenda') or o['nome']
+        pix = ' no Pix' if o.get('pix') else ''
+        preco = f'de {brl(o["preco_de"])} por {brl(o["preco"])}{pix}' if o.get('preco_de') else f'{brl(o["preco"])}{pix}'
+        L = ['Publicidade · link de afiliado', f'{nome}: {preco} 👇', '',
+             f'Preço conferido em {r["conferido"]}; pode mudar. Canal independente (não oficial).', 'Vídeo criado com IA.']
+        (saida / 'legenda.txt').write_text('\n'.join(L) + '\n', encoding='utf-8')
+        return
     descontos = [pct(o['preco'], o['preco_de']) for o in ofs if o.get('preco_de')]
     ate = f', com até {max(descontos)}% OFF' if descontos and max(descontos) >= 15 else ''
     L = ['Publicidade · links de afiliado', f'{len(ofs)} achados de hoje no Mercado Livre{ate} 👇', '']
@@ -620,7 +653,10 @@ def textos(r, saida):
 def valida(r, base):
     erros = []
     ofs = r.get('ofertas', [])
-    if not 3 <= len(ofs) <= 4:
+    if r.get('modo') == 'anuncio':
+        if len(ofs) != 1:
+            erros.append('no modo "anuncio" o roteiro precisa de exatamente 1 oferta')
+    elif not 3 <= len(ofs) <= 4:
         erros.append('o roteiro precisa de 3 ou 4 ofertas')
     if ' às ' not in r.get('conferido', ''):
         erros.append('falta "conferido" no formato "22/11 às 13h41"')
