@@ -541,3 +541,13 @@ DEU ERRADO (não repetir):
   pessoas com link; risco de spam na conta pessoal @titantuita).
 - Antes de gastar: criar conta comercial do Pinterest (só com o "sim" do Vini; senha e cartão quem digita é ele), confirmar as regras atuais
   do Pinterest para link de afiliado (jurídico) e propor a verba ao Vini numa pergunta. Começar pela cinta e pelo vídeo do anúncio.
+
+## IDEIAS DOS VÍDEOS QUE O VINI MANDOU (22/11 23h20; só ideias, não começar sem o Vini mandar)
+- (Hyeser) "Comenta QUERO" no Reel e resposta automática no Messenger da página com o link. Resolve o Reel sem link (cota da Meta).
+  Junta com a ideia guardada da resposta automática no Messenger. Avaliar depois da Black; regras da Meta para mensagem automática primeiro.
+- (Hyeser) Post em carrossel na página (vários produtos, o mais chamativo na capa).
+- (Ruan do Digital) Grupo de WhatsApp enchido com anúncio pago: ele relata ~R$ 0,68 por pessoa que entra, 30% saem em 48 h, R$ 70/dia com
+  1 grupo cheio (números dele, não conferidos). Postagem automática dele usa API NÃO oficial (risco de banir o número). Comparar com o
+  Telegram (140 cliques no anúncio e 0 entradas). Decisão do Vini segue "esperar o Whats".
+- DESCARTADOS: Pulso Social (entrar e postar em massa em centenas de grupos do Facebook: spam, contra as regras do Facebook e do facebook.md);
+  site de review no Google (projeto novo e lento).
