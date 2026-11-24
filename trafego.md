@@ -733,6 +733,10 @@ DEU ERRADO (não repetir):
   4) PREÇO DO OPPO: fazer a ORDEM 11 b (anúncio novo "OPPO A6t - imagem 24/11" com o preço do dia; imagem pronta em anuncio/oppoa6t-1080x1350.jpg).
   5) ORDEM 8 (vídeo "B2" da cinta): por último e só se sobrar tempo; se não der, anotar "ORDEM 8 adiada" (a cinta agora tem R$ 20).
   6) Marcar FEITO aqui e na ORDEM 11 b, gravar balanco.md e diario.md, com push depois de cada item.
+  EXECUÇÃO 24/11 (Gestor v2, visita das 7h19 que disparou às 07h57; 1 aba; TRAVA no diario.md):
+  - 1) FEITO 08h05: COLETA do ML e do Gerenciador em balanco.md (Cobrança no fim da visita).
+  - 2) FEITO 24/11 08:06: "E - Celular OPPO A6t - anuncioe" (120248862437080656) de R$ 30 para R$ 15/dia (lápis da coluna Orçamento, "Publicar";
+       a Meta confirmou "1 conjunto de anúncios foi atualizado"). Segue ATIVO. O botão geral segue "Conferir e publicar (4)" (rascunhos intocados).
   PARA A CHECAGEM DAS 08h43 DE 24/11 (Claude principal; o texto do lembrete é mais velho que esta ordem e ainda fala em "E R$ 30"): vale
   ESTA ordem. Se o Gestor não tiver rodado ou tiver parado no meio, o Claude principal faz o que faltou dos itens 2, 3 e 4, com a TRAVA, o
   preço conferido na hora e o total em R$ 50/dia. Isso já foi aprovado pelo Vini em 23/11 às ~19h33 ("Os dois, R$ 15 cada"; a pergunta dizia
