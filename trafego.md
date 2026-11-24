@@ -899,3 +899,4 @@ DEU ERRADO (não repetir):
   Telegram (140 cliques no anúncio e 0 entradas). Decisão do Vini segue "esperar o Whats".
 - DESCARTADOS: Pulso Social (entrar e postar em massa em centenas de grupos do Facebook: spam, contra as regras do Facebook e do facebook.md);
   site de review no Google (projeto novo e lento).
+- 24/11 10:17 CHECAGEM 10h15 (ORDEM 13): Cinta 24/11, OPPO A6t 24/11 e Galaxy A17 128 GB estão "Ativo" (R$ 0,00 gasto e sem impressões ainda, recém-aprovados). Pausei o OPPO ANTIGO (120248862437120656) porque o novo está Ativo; Meta confirmou "Anúncio atualizado". Cinta antiga segue Desativada. Não mexi em verba nem criei anúncio. Conferir entrega na visita de 25/11 7h19.
