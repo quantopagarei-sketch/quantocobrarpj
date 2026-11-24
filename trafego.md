@@ -663,6 +663,7 @@ DEU ERRADO (não repetir):
        principal: "Smartphone OPPO A6t 128 GB, bateria de 6500 mAh. De R$ 1.299 por R$ 789,30 no Pix (conferido em 24/11). Publicidade · link de afiliado"
        título: "OPPO A6t 128 GB por R$ 789,30 no Pix" · descrição: "Canal independente · link de afiliado".
      ORDEM 8 (vídeo "B2" da cinta) continua valendo, se o arquivo anuncio/cinta-video.mp4 existir.
+     FEITO 24/11 08:32 (Gestor v2): anúncio novo "OPPO A6t - imagem 24/11" (120248896936020656) publicado com R$ 789,30; detalhes na ORDEM 12, item 4. Antigo segue ativo até o novo ficar "Ativo".
   c) REGRAS DE 24 A 26/11: venda nova em anuncioe → E fica em R$ 30 (não sobe: o total é R$ 50). E com R$ 60 gastos DEPOIS de 23/11 19h00 sem
      venda nova em anuncioe → E volta para R$ 15 e os R$ 15 voltam para o B. O B não sai (motor) e não fica abaixo de R$ 20.
      Qualquer valor acima de R$ 50/dia: o Estrategista PROPÕE ao Vini por push, com o número; só com o "sim" dele.
@@ -752,6 +753,21 @@ DEU ERRADO (não repetir):
        (página normal): R$ 949,05 no Pix (riscado R$ 1.499) ou R$ 999 em 15x; +100 mil vendidos; 4,9 (111.167); GANHOS 5%.
        Situação no fim da publicação: "Em processamento" (análise da Meta). A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram
        publicados"; "Conferir e publicar (4)" segue igual (rascunhos antigos intocados).
+  - 4) FEITO 24/11 08:32 (ORDEM 11 b): no conjunto E, anúncio NOVO "OPPO A6t - imagem 24/11" (id 120248896936020656), duplicado do
+       "OPPO A6t - imagem" sem as recomendações do diálogo e sem as reações do post antigo. Preço conferido às 08h02 (página normal, Azul
+       Cristal): R$ 789,30 no Pix (riscado R$ 1.299, 39% OFF) ou R$ 877 em 18x R$ 48,72; selo BLACK FRIDAY; 4,8 (4.155); +10 mil; GANHOS
+       EXTRAS 10% (OPPO) — igual a 23/11 18h45, então a imagem pronta anuncio/oppoa6t-1080x1350.jpg serviu (4:5 "Original").
+       Texto: "OPPO A6t 128 GB, bateria de 6500 mAh. De R$ 1.299 por R$ 789,30 no Pix (conferido em 24/11). Publicidade · link de afiliado"
+       (123 caracteres; sem "12 GB de RAM" e sem "conferido hoje"); título "OPPO A6t 128 GB por R$ 789,30 no Pix"; descrição "Canal
+       independente · link de afiliado"; botão "Ver detalhes"; mesmo link: .../p/MLB66447547 + parâmetros "matt_word=anuncioe&matt_tool=58037177".
+       DESLIGADOS no novo: "anúncios com vários anunciantes" (estava LIGADO no antigo), colagem com fotos do site, "destaques do site"
+       (a prévia mostrava até foto de OUTRO celular, um HOTWAV, tirada da página do ML), "resumos do site" com IA (repetiam "12gb Ram"),
+       detalhes de loja de apps, Aprimorar CTA, brilho/contraste; Advantage+ 0/6; sem imagem de IA. Fica só "Comentários relevantes".
+       Ao subir a imagem, a Meta ofereceu pôr a foto nova TAMBÉM no anúncio antigo ("mídia relacionada", vinha marcado): desmarquei.
+       APRENDIZADO: com o link com "?matt_word=..." dentro do campo URL, a prévia dava "Seu anúncio não será veiculado em 2 posicionamentos
+       (Opa!)"; com a URL limpa e os parâmetros no campo "Parâmetros de URL" (Rastreamento), a prévia voltou (Feed FB e IG) — use sempre assim.
+       O anúncio ANTIGO "OPPO A6t - imagem" (120248862437120656) NÃO foi editado e segue ATIVO (texto velho R$ 833,52): o novo está "Em
+       processamento" no fim da publicação; quando ele estiver "Ativo", PAUSAR o antigo (a visita de 25/11 faz, se esta não fizer).
   PARA A CHECAGEM DAS 08h43 DE 24/11 (Claude principal; o texto do lembrete é mais velho que esta ordem e ainda fala em "E R$ 30"): vale
   ESTA ordem. Se o Gestor não tiver rodado ou tiver parado no meio, o Claude principal faz o que faltou dos itens 2, 3 e 4, com a TRAVA, o
   preço conferido na hora e o total em R$ 50/dia. Isso já foi aprovado pelo Vini em 23/11 às ~19h33 ("Os dois, R$ 15 cada"; a pergunta dizia
