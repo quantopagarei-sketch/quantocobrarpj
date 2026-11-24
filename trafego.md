@@ -737,6 +737,21 @@ DEU ERRADO (não repetir):
   - 1) FEITO 08h05: COLETA do ML e do Gerenciador em balanco.md (Cobrança no fim da visita).
   - 2) FEITO 24/11 08:06: "E - Celular OPPO A6t - anuncioe" (120248862437080656) de R$ 30 para R$ 15/dia (lápis da coluna Orçamento, "Publicar";
        a Meta confirmou "1 conjunto de anúncios foi atualizado"). Segue ATIVO. O botão geral segue "Conferir e publicar (4)" (rascunhos intocados).
+  - 3) FEITO 24/11 08:18: conjunto "G - Galaxy A17 - anunciog" (id 120248896794760656) PUBLICADO, R$ 15/dia, início 24/11 09:07 da conta
+       (08h07 de Brasília), fim 26/11 23:59 da conta; duplicado do E SEM as "recomendações" do diálogo de duplicar (Instagram Stories/Reels,
+       Advantage+ criativo, música, visualização da página de destino, vídeo e aumento de orçamento: todas desmarcadas) e sem "mostrar reações
+       do post antigo". Revisão da Meta antes de publicar: Brasil, 18+, todos os gêneros, sem expansão; posicionamentos Facebook Feeds +
+       Instagram Feed; meta cliques no link; lance volume mais alto. O rascunho da câmera NÃO veio junto (ele está no conjunto D, não no E).
+       Anúncio "Galaxy A17 128 GB - imagem" (id 120248896794770656): imagem anuncio/galaxya17-128-1080x1350.jpg (subida na biblioteca, 4:5
+       "Original"); URL https://www.mercadolivre.com.br/celular-samsung-galaxy-a17-com-ia-128gb-4gb-ram-cam-de-50mp-tela-de-67-nfc-ip54-preto/p/MLB65114795
+       + parâmetros de URL "matt_word=anunciog&matt_tool=58037177" (o editor guarda os parâmetros no campo Rastreamento; conferido no resumo).
+       Texto: "Samsung Galaxy A17 128 GB. De R$ 1.499 por R$ 949,05 no Pix (preço conferido em 24/11). Publicidade · link de afiliado"
+       (118 caracteres: o aviso fica visível sem "Ver mais"); título "Galaxy A17 128 GB por R$ 949,05 no Pix"; descrição "Canal independente ·
+       link de afiliado"; botão "Ver detalhes". Aprimoramentos Advantage+ 0/6, sem imagens de IA, "anúncios com vários anunciantes"
+       DESLIGADO, "Aprimorar CTA" e "Ajustar brilho e contraste" DESLIGADOS (fica só "Comentários relevantes"). Preço conferido às 08h01
+       (página normal): R$ 949,05 no Pix (riscado R$ 1.499) ou R$ 999 em 15x; +100 mil vendidos; 4,9 (111.167); GANHOS 5%.
+       Situação no fim da publicação: "Em processamento" (análise da Meta). A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram
+       publicados"; "Conferir e publicar (4)" segue igual (rascunhos antigos intocados).
   PARA A CHECAGEM DAS 08h43 DE 24/11 (Claude principal; o texto do lembrete é mais velho que esta ordem e ainda fala em "E R$ 30"): vale
   ESTA ordem. Se o Gestor não tiver rodado ou tiver parado no meio, o Claude principal faz o que faltou dos itens 2, 3 e 4, com a TRAVA, o
   preço conferido na hora e o total em R$ 50/dia. Isso já foi aprovado pelo Vini em 23/11 às ~19h33 ("Os dois, R$ 15 cada"; a pergunta dizia
