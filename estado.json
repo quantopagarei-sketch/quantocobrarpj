@@ -68,7 +68,8 @@
   ],
   "2026-11-24": [
    9,
-   11
+   11,
+   13
   ]
  },
  "itens": {
@@ -575,6 +576,11 @@
    "status": "postado",
    "message_id": 90,
    "em": "2026-11-24T11:58-03:00"
+  },
+  "20261123-05": {
+   "status": "postado",
+   "message_id": 91,
+   "em": "2026-11-24T13:07-03:00"
   }
  },
  "bot": "@blackachados_bot",
@@ -582,9 +588,9 @@
  "chat_titulo": "Black Achadinhos 🖤 Ofertas do Dia",
  "ligado_em": "2026-11-13T14:35-03:00",
  "boas_vindas_ok": true,
- "pendentes": 6,
+ "pendentes": 5,
  "foto_ok": true,
- "ultimo_post": "2026-11-24T11:58-03:00",
+ "ultimo_post": "2026-11-24T13:07-03:00",
  "ultimo_dia_ok": "2026-11-24",
  "nome_bot_ok": true,
  "textos_v": 5
