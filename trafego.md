@@ -213,12 +213,12 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 | Data | Produto | Categoria | Valor | Ganho | Tipo | Etiqueta | Anúncio no ar |
 |---|---|---|---|---|---|---|---|
 | 18/11 | Kit 10 puxadores armário | Móveis para casa | R$ 75,15 | R$ 3,70 (6%) | indireta | anuncio | impulso espelho+balança |
-| 19/11 | Babuche feminina | Calçados | R$ 39,99 | R$ 2,62 (8%) | indireta | anuncio | impulso espelho+balança |
+| 19/11 | Babuche feminina | Calçados | R$ 39,99 | R$ 5,24 (16%; era R$ 2,62 a 8%, o ML revisou em 24/11) | indireta | anuncio | impulso espelho+balança |
 | 21/11 | Cinta Modeladora Feminina Com Barbatana Redutora Cintura 750 (Opta Corpus) | Moda Íntima e Lingerie | R$ 95,34 | R$ 35,10 (44%) | DIRETA | anunciob | B - Cinta |
 | 21/11 | Extensão com bocal soquete E27 2 m (3 unidades) | Iluminação Residencial | R$ 57,90 | R$ 2,85 (6%) | indireta | anunciob | B - Cinta |
 | 21/11 | Tapete porta-malas borracha Fiat Palio | Aces. de Carros e Caminhonetes | R$ 99,90 | R$ 4,92 (6%) | indireta | anunciob | B - Cinta |
 | 21/11 | Jogo 12 barbeadores masculino e feminino | Higiene Pessoal | R$ 19,99 | R$ 1,97 (12%) | indireta | anunciob | B - Cinta |
-| 22/11 | Regata Dry Fit UV Camiseta Masculina Academia Treino Voker (2 unidades, 1 comprador) | Moda Fitness | R$ 71,40 (2 x R$ 35,70) | R$ 9,36 (16%; R$ 4,68 cada) | "direta" no painel (NÃO é o produto do anúncio) | anunciob | B - Cinta |
+| 22/11 | Regata Dry Fit UV Camiseta Masculina Academia Treino Voker (2 unidades, 1 comprador) | Moda Fitness | R$ 71,40 (2 x R$ 35,70) | R$ 14,04 (24%; R$ 7,02 cada; era R$ 9,36 a 16%, o ML revisou em 24/11) | "direta" no painel (NÃO é o produto do anúncio) | anunciob | B - Cinta |
 | 23/11 | Celular Samsung Galaxy A17 256 GB 8 GB Cinza (loja Mercado Livre Eletrônicos) | Celulares e Smartphones | R$ 1.399 | R$ 57,36 (5% sobre ~82% do preço) | "direta" no painel (o anúncio era do OPPO A6t) | anuncioe | E - OPPO A6t |
 
 ## ISCAS (candidatos; o Curador acrescenta, o Estrategista escolhe)
@@ -586,6 +586,7 @@ DEU ERRADO (não repetir):
   d) Avaliação na visita de 26/11 (antes da Black), por anúncio, no Gerenciador: cliques, CTR e CPC. Se o CPC do vídeo for 1,5x ou mais o da
      imagem, pausar o vídeo; se for menor ou igual, manter os dois na Black. Gravar a comparação em balanco.md e no Diário do Estrategista.
   e) Não muda verba, degrau nem a regra R (a etiqueta é a mesma: anunciob).
+  24/11 08h40 (Gestor v2): ORDEM 8 adiada: sem vídeo (anuncio/cinta-video.mp4 não existe no repositório). Último dia: 25/11.
 
 - [ABERTA] 22/11 23h30 — ORDEM 9 (Claude principal, pesquisa no YouTube pedida pelo Vini). VALE MAIS QUE A ORDEM 6 h NOS DEGRAUS.
   (23/11 18h38: a letra a, DEGRAUS, está SUSPENSA pela ORDEM 11. As letras b a e continuam valendo.)
@@ -601,6 +602,12 @@ DEU ERRADO (não repetir):
   d) Escalar dentro da MESMA campanha (duplicar conjunto ou somar criativo), não criar campanha nova que concorre com a antiga.
   e) Coleta no painel do ML (Gestor, quando estiver lá): conferir se a página do Facebook "Black Achadinhos" está ligada no perfil de afiliado
      (Central de afiliados > editar perfil > redes sociais). Só anotar; ligar é decisão do Claude principal (perfil não mostra nome do Vini).
+  SITUAÇÃO 24/11 (Gestor v2): b) B: o anúncio da cinta (antigo) tinha Advantage+ 4/6 LIGADOS (sobreposições, música, melhorias no texto,
+     detalhes ao layout), "otimizar texto por pessoa", Aprimorar CTA, brilho/contraste e "anúncios com vários anunciantes"; o E (OPPO antigo)
+     tinha "vários anunciantes", colagem/destaques/resumos do site. Nos 3 anúncios novos de 24/11 (G, OPPO 24/11, Cinta 24/11) tudo isso
+     ficou DESLIGADO (só "Comentários relevantes"). Os antigos não foram editados (saem quando os novos estiverem ativos). F não existe.
+     c) CTR e frequência gravados em balanco.md (E 2,45%/1,19 · B 3,89%/1,27). e) Perfil de afiliado do ML > Contas vinculadas: Facebook
+     https://www.facebook.com/blackachadinhos.ofertas, X https://x.com/titantuita e t.me/Blackachados JÁ ESTÃO ligados (Instagram não).
 
 - [ABERTA] 22/11 23h40 — ORDEM 10 (Claude principal). BIBLIOTECA DE ANÚNCIOS DA META: copiar o FORMATO de quem já vende, nunca o anúncio.
   Pesquisa feita em 22/11 (Chrome, facebook.com/ads/library, Brasil, ativos, busca "meli.la", ordenado por impressões):
