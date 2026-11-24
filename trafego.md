@@ -51,6 +51,9 @@ sobre o gasto em anúncio". Este manual VALE MAIS que midia.md em tudo que for a
       anúncio do OPPO (para o Gestor corrigir às 7h19) e os horários novos estão na ORDEM 11, no fim das ORDENS.
    d) "Venda direta" no painel NÃO quer dizer "o produto do anúncio": ver LIÇÕES (23/11).
 
+10. 24/11 05h30 (Claude principal) — ORDEM 14: PLANO FINAL DA BLACK EM DEGRAUS, APROVADO PELO VINI ("Sim", 05h26). VALE MAIS QUE A
+   PRÉVIA DA ORDEM 13 E QUE A ORDEM 5 ONDE HOUVER DIFERENÇA. Ver ORDEM 14 no fim das ORDENS.
+
 ## Equipe
 | Quem | Quando | O que faz |
 |---|---|---|
@@ -763,6 +766,34 @@ DEU ERRADO (não repetir):
   - bf1 R$ 180 (anunciobf1) = celular líder em ganho ÷ gasto (hoje: E OPPO; empate/sem venda nova: o de menor CPC com CTR ≥ 1%).
   - bf2 R$ 120 (anunciobf2) = B Cinta SÓ se anunciob tiver venda nova desde 23/11 com R (24 e 25/11) ≥ 0,7; senão o 2º celular (o lucro desta
     semana veio de celular; venda miúda da cinta não paga o clique).
+
+- [ABERTA] 24/11 05h30 — ORDEM 14 (Claude principal). BLACK EM DEGRAUS (pedido do Vini às 05h15: "o que for melhor em ROI; se tiver que
+  colocar mais, vai mais; análise profunda e decisão final"; aprovado com "Sim" às 05h26). VALE MAIS QUE A PRÉVIA DA ORDEM 13.
+  POR QUE (simulação de 200 mil cenários com os números medidos até 23/11; estimativa, não medição):
+  - Celular: 442 cliques nossos, 1 venda. R$ 300 fixo: média -R$ 40, chance de lucro ~1 em 3. R$ 1.000 fixo: média -R$ 250, ~1 em 4.
+    Degraus (R$ 300 + até R$ 300 só com prova): média ~R$ 0 e ganham dos dois nos cenários pessimista, central e otimista.
+  - Clique só vale 24 h (janela do ML): verba tem que estar no ar na hora da compra. Leilão da Meta 22% a 57% mais caro na semana da Black.
+  - Pico de oferta de celular: quinta 18h-19h e virada quinta/sexta (22h a 1h).
+  a) ATÉ 26/11: nada muda. E OPPO R$ 15 + G Galaxy R$ 15 + B Cinta R$ 20 = R$ 50/dia (ORDEM 12/13).
+  b) BASE DA BLACK, 26/11 18h00 a 27/11 23h59 (Brasília; no editor somar 1 h): R$ 300 no total.
+     bf1 R$ 240 (anunciobf1) = o celular que ganhar o teste de 24-25/11 (regra da ORDEM 12: maior ganho ÷ gasto; sem venda nova, menor CPC
+     com CTR ≥ 1%). bf2 R$ 60 (anunciobf2) = B Cinta SÓ se anunciob tiver venda nova desde 23/11 com R ≥ 0,7; senão o 2º celular.
+     Verba como ORÇAMENTO TOTAL do conjunto (vitalício), para a Meta gastar mais na quinta à noite e na virada. Sem carrossel, sem
+     formato novo, sem mais celulares (quem clica no OPPO compra Galaxy: o anúncio é só a porta).
+  c) DEGRAUS (sexta 27/11, nas checagens já agendadas das 09h13 e das 15h07): R = comissão das etiquetas anunciobf1+anunciobf2 no painel
+     do ML (em revisão conta) ÷ (gasto da Black x 1,14), mesmo período.
+     · 09h13: R ≥ 1,5 → somar R$ 150 ao conjunto que vendeu mais (orçamento total). R < 1,5 → nada muda.
+     · 15h07: R acumulado ≥ 1,5 e o degrau das 9h foi dado → mais R$ 150. Senão, nada. R < 0,5 com gasto ≥ R$ 150 → pausar o que não vendeu.
+     · TETO DA BLACK: R$ 600 (R$ 300 base + 2 x R$ 150). Nunca passar. Sem saldo, não sobe (só o Vini deposita).
+  d) DEPOIS DA BLACK (28 a 30/11): R$ 100/dia só se a Black fechar com R ≥ 1,3, no(s) conjunto(s) que venderam; senão R$ 50/dia ou menos
+     (o Estrategista decide em 27/11 22h37 e escreve a ordem; dinheiro acima do saldo depende de depósito do Vini).
+  e) SALDO (pedido do Vini às 05h26: "me avise até lá quanto preciso colocar"): conta de 24/11 05h30, com saldo de R$ 292,85 (23/11 18h44):
+     até 26/11 ~R$ 185 (R$ 50/dia x 1,14 + resto de 23/11) + base da Black R$ 342 = ~R$ 527 → faltam ~R$ 235.
+     Degraus: +R$ 342. RECOMENDADO AO VINI: depositar R$ 600 até QUARTA 25/11 22h00 (cobre base + degraus com folga; o que não for usado
+     fica no saldo, é dele). Pós-Black a R$ 100/dia: até mais ~R$ 340, só se der certo (avisado no sábado).
+     ESTRATEGISTA: no aviso de 24/11 22h37 e de 25/11 22h37, refaça a conta com o saldo lido pelo Gestor de manhã e mande ao Vini o valor
+     que FALTA para R$ 600 de teto (não o de R$ 300). Se em 26/11 7h19 o saldo não cobrir a base, a base tem prioridade e não há degrau.
+  f) Fora desta ordem ninguém passa de R$ 50/dia antes da Black nem de R$ 600 na Black.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
