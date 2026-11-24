@@ -797,6 +797,21 @@ DEU ERRADO (não repetir):
      sobrar tempo depois da ORDEM 12, duplicar o anúncio com o preço do dia (mesmo método da ORDEM 11 b). Verba do B: R$ 20, não mexer.
   d) Se o G for REPROVADO: corrigir pelo motivo da Meta e reenviar uma vez; se for reprovado de novo, os R$ 15 do G voltam para o E (E R$ 30).
   e) Nada além disso: não criar outro conjunto, não ligar o F nem o C, não mexer em público.
+  EXECUÇÃO 24/11 (Gestor v2):
+  - a) e b) FEITO 08h05 (balanco.md > Leituras e Resumo; VENDAS sem venda nova: o ML fechou 23/11 só com o Galaxy de anuncioe, que já estava na tabela).
+  - c) PREÇO DA CINTA FICOU FALSO e foi corrigido em 08:37: o anúncio "Cinta - foto produto" (120248844944910656) tem a IMAGEM só com a foto
+       (sem preço), mas o TEXTO dizia "Preço conferido hoje: R$ 90,57 no Pix (de R$ 179,90)" e o TÍTULO "Cinta modeladora por R$ 90,57".
+       A página às 08h02 (Nude e Preto iguais): R$ 119,90 (riscado R$ 179,90, 33% OFF), 6x R$ 19,98, sem preço de Pix; GANHOS EXTRAS 27%
+       (Opta Corpus); 4,6 (17.725); +50 mil. Anúncio NOVO no conjunto B: "Cinta - foto produto 24/11" (id 120248897116150656), mesma foto,
+       mesmo link (.../MLB-4810647054-...-_JM + parâmetros "matt_word=anunciob&matt_tool=58037177", agora no campo "Parâmetros de URL"),
+       mesmo botão, texto só com o preço trocado: "Cinta modeladora feminina com barbatana, redutora de cintura. R$ 119,90 (de R$ 179,90),
+       preço conferido em 24/11. Compra no Mercado Livre. Publicidade · link de afiliado"; título "Cinta modeladora por R$ 119,90".
+       O anúncio antigo da cinta tinha LIGADOS: Advantage+ 4/6 (sobreposições, música, melhorias no texto, detalhes ao layout), "otimizar
+       texto por pessoa", Aprimorar CTA, brilho/contraste e "anúncios com vários anunciantes" (resposta da ORDEM 9 b para o B). No novo:
+       tudo DESLIGADO (fica só "Comentários relevantes"). Verba do B intocada (R$ 20). Situação: "Em processamento". O antigo segue ATIVO
+       (com o preço velho) até o novo ficar "Ativo"; aí PAUSAR o antigo (esta visita, se der; senão a de 25/11).
+       Atenção para a Black: a cinta subiu de R$ 90,57/95,34 para R$ 119,90 (comissão pela etiqueta 27%: ~R$ 32 por venda direta).
+  - d) G não foi reprovado até aqui (em processamento). e) cumprida.
   PRÉVIA DA BLACK (o Estrategista confirma em 24/11 22h37 com os números de amanhã; o Gestor só monta em 25/11 7h19 pela ordem que estiver escrita):
   - bf1 R$ 180 (anunciobf1) = celular líder em ganho ÷ gasto (hoje: E OPPO; empate/sem venda nova: o de menor CPC com CTR ≥ 1%).
   - bf2 R$ 120 (anunciobf2) = B Cinta SÓ se anunciob tiver venda nova desde 23/11 com R (24 e 25/11) ≥ 0,7; senão o 2º celular (o lucro desta
