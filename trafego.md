@@ -819,7 +819,7 @@ DEU ERRADO (não repetir):
        (com o preço velho) até o novo ficar "Ativo"; aí PAUSAR o antigo (esta visita, se der; senão a de 25/11).
        Atenção para a Black: a cinta subiu de R$ 90,57/95,34 para R$ 119,90 (comissão pela etiqueta 27%: ~R$ 32 por venda direta).
   - d) G não foi reprovado até aqui (em processamento). e) cumprida.
-  SITUAÇÃO NO FIM DA VISITA (08:40, tabela atualizada às 08h45): G "Galaxy A17 128 GB - imagem" = Preparando (aprovado) · "OPPO A6t - imagem 24/11"
+  SITUAÇÃO NO FIM DA VISITA (08:40, tabela atualizada às ~08h39): G "Galaxy A17 128 GB - imagem" = Preparando (aprovado) · "OPPO A6t - imagem 24/11"
   = Preparando (aprovado) · "Cinta - foto produto 24/11" = Em análise. Nenhum novo estava "Ativo" → os ANTIGOS "OPPO A6t - imagem"
   (120248862437120656, texto R$ 833,52) e "Cinta - foto produto" (120248844944910656, texto R$ 90,57, PREÇO FALSO: hoje R$ 119,90) seguem ATIVOS,
   como manda a ORDEM 11 b. PARA O CLAUDE PRINCIPAL (checagem de hoje) / GESTOR 25/11 7h19: assim que o novo do mesmo conjunto estiver "Ativo",
