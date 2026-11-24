@@ -3,8 +3,11 @@
 Pedido do Vini em 22/11/2026: "um agente especialista em Reels que leva pro Telegram, pra postar no Facebook da página; vídeo com as
 promos, diário; vocês fazem tudo, da criação à postagem; pesquisem as melhores ofertas com as melhores comissões".
 Objetivo: **1 Reel por dia** na página, com 3 ou 4 ofertas do dia, para levar gente ao canal do Telegram (2 inscritos em 22/11).
-Quando: tarefa diária das **21h47** (depois do Divulgador Facebook, 20h31). Usa o Chrome do PC do Vini (ligado até ~22h20).
-Tarefa agendada: `trig_01267ib4c8Y1G7Shb7r4FbBf` (criada em 22/11, presa ao PC; nasceu no modelo Fable: o Vini troca para Sonnet).
+**Quem faz (desde 24/11): o Divulgador Facebook (tarefa das 20h31), dentro da própria sessão dele**: depois dos posts e stories da
+página e antes dos grupos e do "terminei" (bloco REEL DO DIA no topo de `facebook.md`). O Reel sai por volta das 21h; PC ligado até ~21h45.
+Por quê: a tarefa separada das 21h47 (`trig_01267ib4c8Y1G7Shb7r4FbBf`, criada em 22/11) NÃO consegue gravar no repositório: o push dá 403
+("repositório fora da lista autorizada desta sessão") e, sem push, não há trava da Meta nem registro. Ela não postou em 22 nem em 23/11.
+**Se você é essa tarefa das 21h47 ("Telegram Ofertas: Reels"): não faça nada e termine com a linha "O Reel é do Divulgador Facebook".**
 Este agente NÃO fala com o Vini. Problema que depende dele: linha "PARA O DIRETOR (Reels): ..." em `diario.md` e fim.
 Vale mais que este arquivo: `juridico.md` (capítulo REELS) e as seções TRAVA e REGISTRO do `LEIA-PRIMEIRO.md`.
 
@@ -22,6 +25,8 @@ Opta Corpus (MLB-4810647054, a que mais vende no projeto) como uma das 3 ou 4 of
 - Ela precisa estar no canal nas últimas 24 h (o Curador põe todo dia; ver `curador.md` > CINTA TODO DIA). Se não estiver, ou se na
   conferência (passo 2) sumir o riscado, acabar o estoque ou o desconto cair abaixo de 20%: use a reserva da "família da cinta" que
   estiver no canal (cinta shorts Shaper MLB-6171656788, macaquinho modelador MLB-5046520966) e anote no "Feito" "sem cinta: motivo".
+  Se a cinta ainda não saiu no canal quando você chegar aqui (o Curador solta por volta das 20h40), espere até 10 min (`git pull` e
+  `candidatas.py` de novo) antes de ir para a reserva.
 - Texto e foto: só a foto do produto (sem corpo de modelo, sem antes e depois); nunca "emagrece", "perca X cm" ou promessa de corpo.
   Pode: "cinta modeladora", "com barbatanas", nota e vendidos da página.
 `python3 reels/candidatas.py` lista as ofertas JÁ POSTADAS no canal nas últimas 24 h e ainda não usadas em Reel (7 dias).
@@ -89,8 +94,10 @@ O gerador recorta sozinho o fundo escuro do print. Use sempre a foto principal d
 11. Nenhum produto proibido (adulto, armas, remédio/suplemento, cigarro, álcool, apostas)?
 
 ## Passo 7 – Postar (TRAVA da Meta: 1 acesso por vez)
-1. TRAVA: `git pull`; se houver "comecei (… em uso)" de HOJE sem "terminei", espere 10 min e confira de novo (até 3 vezes);
-   continuou ocupado: anote "Reels adiado (Meta em uso)" e termine. Livre: escreva "DD/MM HH:MM Reels: comecei (Facebook em uso)" e dê push.
+1. TRAVA: se você é o Divulgador Facebook e a sua linha "Facebook: comecei (Facebook em uso)" de hoje está aberta, a trava já é sua:
+   pule este item. Qualquer outro caso: `git pull`; se houver "comecei (… em uso)" de HOJE sem "terminei", espere 10 min e confira de
+   novo (até 3 vezes); continuou ocupado: anote "Reels adiado (Meta em uso)" e termine. Livre: escreva "DD/MM HH:MM Reels: comecei
+   (Facebook em uso)" e dê push.
 2. Abra https://www.facebook.com/blackachadinhos.ofertas . Se aparecer "Troque para a Página de Black Achadinhos" com o botão
    "Trocar agora", clique nele (`find` + ref) e espere 5 s. Confira que o Facebook está COMO A PÁGINA (foto do canto superior direito =
    logo preto e amarelo; o botão "Trocar agora" sumiu). O perfil pessoal do Vini NUNCA posta.
@@ -106,7 +113,8 @@ O gerador recorta sozinho o fundo escuro do print. Use sempre a foto principal d
 6. Clique em "Postar". O Facebook volta para a página inicial.
 7. Confirme em https://www.facebook.com/blackachadinhos.ofertas/reels/ ("Seus reels": o 1º cartão é o de hoje) e copie o endereço
    (`a[href*="/reel/"]`, sem o que vem depois de "?").
-8. Feche a aba. Escreva "DD/MM HH:MM Reels: terminei (…)" em `diario.md` e dê push. Nunca clique em "Turbinar reel".
+8. Feche a aba do Reel. Escreva "DD/MM HH:MM Reels: publicado (<endereço>)" em `diario.md` e dê push. A trava fecha com o "terminei" de
+   quem a abriu: o do Divulgador, no fim do trabalho dele (ou "Reels: terminei", se foi você que abriu). Nunca clique em "Turbinar reel".
 As posições (x, y) valem para a tela do PC do Vini (quadro 1568x751). Se a tela mudar, ache os botões com `find` ou com um print.
 
 ## Passo 8 – Registro (na hora, com push)
@@ -146,6 +154,8 @@ Uma vez só (refazer apenas se o Gestor pedir no diario.md porque o preço mudou
 4. Anotar em "Feito": "vídeo de anúncio da cinta gravado em anuncio/". Não posta esse vídeo na página: quem usa é o Gestor.
 
 ## Aprendizados técnicos (22/11, 1º Reel)
+- 23/11: tarefa agendada nova, criada numa conversa que só ganhou o repositório por `add_repo`, nasce SEM permissão de gravar (push 403
+  em toda execução; a execução não pode adicionar o repositório sozinha). Por isso o Reel foi para dentro do Divulgador Facebook, que grava.
 - `file_upload` do Chrome aceita arquivo criado nesta sessão, até 3,8 MB por envio. `upload_image` só serve para print (não para vídeo).
 - Para trocar o vídeo sem perder a legenda: novo `find` do "file input" e outro `file_upload` (é o "Substituir mídia").
 - O servidor não alcança `mlstatic.com` (403): foto só por print. O print com `zoom` da tela inteira sai em 1568x751.

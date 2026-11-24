@@ -8,7 +8,14 @@
 > (Facebook em uso)", dê push, trabalhe, e no fim escreva "DD/MM HH:MM Facebook: terminei" e dê push. Uma aba por vez, sem recarregar
 > à toa. Nunca abra o Gerenciador de Anúncios.**
 > **Cupom POUPAMAIS: não localizado desde 20/11 (ver LEIA-PRIMEIRO); não procure.**
-> **REELS (22/11): o Reel diário da página é do Agente de Reels (reels.md, 21h47). O Divulgador não cria Reel nem mexe nos Reels publicados.**
+> **REEL DO DIA (desde 24/11; ordem do Claude principal em 23/11, vale mais que o texto da tarefa): a tarefa separada de Reels (21h47)
+> não consegue gravar no repositório (push 403), então o Reel diário passa a ser feito AQUI, por você, na mesma sessão. Depois dos 3 posts
+> e dos 2 stories da página, ANTES dos grupos e do "terminei", siga `reels.md` do Passo 1 ao Passo 8 (ofertas já postadas no canal, com a
+> CINTA sempre; preço conferido na hora; vídeo pelo gerador `reels/fazer_reel.py`; checklist jurídico; postar pela página com o rótulo de IA
+> ligado). A trava "Facebook em uso" já é sua: não escreva outra. Ferramentas a mais, num ToolSearch só:
+> `select:mcp__claude-in-chrome__file_upload,mcp__claude-in-chrome__browser_batch,mcp__claude-in-chrome__javascript_tool`.
+> É 1 Reel por dia (confira "Feito" em `reels.md`). Se o Reel falhar ou faltar tempo: escreva "Reel não saiu: <motivo>" em diario.md e siga
+> o resto do seu trabalho (os posts da página não dependem dele); não tente mais de 2 vezes o mesmo passo. Não mexa nos Reels já publicados.**
 > **GRUPOS PARADOS ATÉ 24/11 15h02 (nota do Divulgador em 22/11, não é ordem do Vini; o Diretor ou o Claude principal podem mudar): pausa de 3 dias depois da restrição da Meta de 21/11 (juridico.md, regra 16); ver "Avisos do Facebook". Até lá, só posts e stories na página.**
 
 Página: https://www.facebook.com/blackachadinhos.ofertas (endereço trocado em 13/11; o antigo /onmarronestore
