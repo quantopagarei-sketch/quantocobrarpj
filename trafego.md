@@ -824,14 +824,14 @@ DEU ERRADO (não repetir):
   (120248862437120656, texto R$ 833,52) e "Cinta - foto produto" (120248844944910656, texto R$ 90,57, PREÇO FALSO: hoje R$ 119,90) seguem ATIVOS,
   como manda a ORDEM 11 b. PARA O CLAUDE PRINCIPAL (checagem de hoje) / GESTOR 25/11 7h19: assim que o novo do mesmo conjunto estiver "Ativo",
   PAUSAR o antigo (chave do anúncio, não do conjunto). Prioridade: a cinta antiga, porque o preço dela está abaixo do real.
-  CHECAGEM DAS 08h43 (Claude principal, sessão na Meta de 08h46 a 08h49, só leitura e pausa):
+  CHECAGEM DAS 08h43 (Claude principal, sessão na Meta de 08h46 a 08h48, só leitura e pausa):
   - Página da cinta às 08h46: R$ 113,90 no Pix (riscado R$ 179,90, 36% OFF) ou R$ 119,90 em 6x R$ 19,98; GANHOS EXTRAS 27%. O texto antigo
     ("R$ 90,57 no Pix") estava FALSO para menos.
-  - PAUSADO às 08h48 o anúncio antigo "Cinta - foto produto" (120248844944910656): a tabela confirmou "Desativado". Pausei mesmo com o novo
+  - PAUSADO às 08h47 o anúncio antigo "Cinta - foto produto" (120248844944910656): a tabela confirmou "Desativado". Pausei mesmo com o novo
     ainda em "Preparando" (aprovado), porque preço abaixo do real não pode ficar no ar. O conjunto B fica só com "Cinta - foto produto 24/11".
-  - Às 08h49: "Cinta - foto produto 24/11", "OPPO A6t - imagem 24/11" e "Galaxy A17 128 GB - imagem" = Preparando (os três aprovados, ainda
+  - Às 08h47: "Cinta - foto produto 24/11", "OPPO A6t - imagem 24/11" e "Galaxy A17 128 GB - imagem" = Preparando (os três aprovados, ainda
     sem entrega). O antigo "OPPO A6t - imagem" (120248862437120656) segue ATIVO: o preço dele (R$ 833,52) é MAIOR que o real, não engana;
-    pausar quando o "OPPO A6t - imagem 24/11" estiver "Ativo" (checagem do Claude principal às ~10h15 de hoje; se não der, Gestor de 25/11).
+    pausar quando o "OPPO A6t - imagem 24/11" estiver "Ativo" (checagem do Claude principal às 10h15 de hoje, lembrete nesta conversa; se não der, Gestor de 25/11).
   PRÉVIA DA BLACK (o Estrategista confirma em 24/11 22h37 com os números de amanhã; o Gestor só monta em 25/11 7h19 pela ordem que estiver escrita):
   - bf1 R$ 180 (anunciobf1) = celular líder em ganho ÷ gasto (hoje: E OPPO; empate/sem venda nova: o de menor CPC com CTR ≥ 1%).
   - bf2 R$ 120 (anunciobf2) = B Cinta SÓ se anunciob tiver venda nova desde 23/11 com R (24 e 25/11) ≥ 0,7; senão o 2º celular (o lucro desta
