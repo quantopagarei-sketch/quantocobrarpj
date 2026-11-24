@@ -127,6 +127,24 @@ Alavancas (o que fazer):
 - Dinheiro: saldo R$ 344,36 ≈ R$ 302 de gasto. Plano mínimo até o fim da Black: ~R$ 22 (resto de 22/11) + R$ 50 (23/11) + R$ 150
   (24 a 26/11) + R$ 300 (Black) = R$ 522 de gasto ≈ R$ 595 do saldo. Faltam ~R$ 250 (sem degraus). Aviso ao Vini: em 24/11 (ORDEM 5).
 
+### Revisão do Estrategista (23/11 22h40, números do Claude principal de 23/11 18h10 a 18h45; o Gestor NÃO rodou hoje) — amostra pequena
+| Etiqueta/conjunto | Gasto (Meta, até 18h40) | Cliques Meta | CPC | Cliques ML | Vendas | Comissão (em revisão) | R (x1,14) |
+|---|---|---|---|---|---|---|---|
+| anuncioe E OPPO (R$ 30/dia) | R$ 21,43 (23/11: ~R$ 12,22) | 102 (23/11: 53) | R$ 0,21 (23/11: R$ 0,23) | 80 | 1 (Galaxy A17 256 GB) | R$ 57,36 | 2,35 |
+| anunciob B Cinta (R$ 20/dia) | R$ 57,22 (23/11: ~R$ 16,19) | 381 (23/11: 107) | R$ 0,15 | 296 | 8 un. | R$ 54,20 | 0,83 (desde 22/11: ~0,22) |
+| anuncioc C Esteira (desligado) | não lido (~R$ 10) | não lido | - | 61 | 0 | R$ 0 | 0 |
+| TOTAL desde 14/11 (pelo saldo) | R$ 293,72 saídos | - | - | 764 (7 dias) | 9 pedidos | R$ 117,88 | 0,40 |
+- O DINHEIRO VEM DE POUCAS VENDAS "CHEIAS": cinta (R$ 35,10) + Galaxy (R$ 57,36) = R$ 92,46 = 78% da comissão. As outras 7 vendas pagaram em média
+  R$ 3,63. Lucro = conseguir venda de valor alto (celular a 5% ou produto com GANHOS EXTRAS), não volume de venda miúda.
+- H1 COOKIE: mantida. NOVA H4 NICHO: quem clica compra o item do MESMO NICHO que prefere (OPPO → Galaxy; cinta → regata fitness). 2 casos, um fraco.
+  Consequência: na Black o anúncio de celular vende "celular", e qualquer celular paga ~5% x 82% do preço. Por isso testar 2 celulares (ORDEM 12) está certo.
+- H3 PREÇO: DERRUBADA EM PARTE: na semana da Black o celular (R$ 1.399) vendeu com 102 cliques. Fora da Black segue valendo (0 em 340 em 15-16/11).
+- B CINTA ENFRAQUECENDO: desde 22/11 o B gastou ~R$ 38 e trouxe R$ 9,36 (R ≈ 0,22). O lucro dele foi a venda direta de 21/11. Não sai (motor,
+  decisão do Vini, piso R$ 20), mas NÃO sobe e só vai para a Black se vender de novo (ORDEM 13 c).
+- H2 PÚBLICO: quem comprou segue não medido (Detalhamento de 25/11).
+- Dinheiro: saldo R$ 292,85 (23/11 18h44). Precisa ~R$ 11 (resto de 23/11) + R$ 150 (24 a 26/11) + R$ 300 (Black) = ~R$ 461 de gasto x 1,137
+  = ~R$ 524 → FALTAM ~R$ 231. Aviso ao Vini em 24/11 22h37 com o saldo lido pelo Gestor de manhã (ORDEM 5), uma vez só.
+
 ## ESCOLHA DO PRODUTO (pedido do Vini, 20/11/2026 06h33) — OBRIGATÓRIA antes de pôr dinheiro em qualquer produto
 Comparar sempre os dois grupos e escolher pela conta, nunca por achismo:
 - GRUPO 1 "MAIS VENDIDOS": produtos campeões de venda do ML (páginas "Mais vendidos" por categoria e ofertas do dia), com a comissão de cada um.
@@ -729,6 +747,23 @@ DEU ERRADO (não repetir):
     o Estrategista escrever nas noites de 24 e 25/11. Em 25/11 às 7h19 a Black é montada com a divisão provisória; em 26/11 às 7h19 o Gestor
     aplica a divisão final ANTES do início. Total da Black: R$ 300, e só o saldo que existir.
 
+- [ABERTA] 23/11 22h40 — ORDEM 13 (Estrategista; para o Gestor v2 em 24/11 às 7h19). NÃO MUDA A ORDEM 12 NEM A 11 b: faça elas primeiro, na ordem
+  escrita. Aqui só o que falta para medir e decidir a Black. Total segue R$ 50/dia (E R$ 15 + G R$ 15 + B R$ 20). TRAVA de sempre.
+  a) COLETA com o MESMO período nos dois lados: no painel do ML anote o "atualizado até" (dia D e hora); no Gerenciador, gasto de cada conjunto
+     (E, G, B, e o gasto FINAL do C) de 20/11 até o fim de D, e também o da hora. Grave em balanco.md o R de cada etiqueta (anuncioe, anunciog,
+     anunciob) nos dois jeitos.
+  b) ABA VENDAS do ML: copie cada venda nova para a tabela VENDAS de trafego.md (produto, categoria, valor, ganho, direta/indireta, etiqueta).
+     Escreva ao lado se o produto é do MESMO NICHO do anúncio (celular para anuncioe/anunciog; moda íntima, fitness ou estética para anunciob):
+     é o teste da H4.
+  c) B CINTA: conferir na página normal (sem matt_word) se o preço escrito na imagem do B ainda é verdadeiro; se ficou FALSO, anotar e, só se
+     sobrar tempo depois da ORDEM 12, duplicar o anúncio com o preço do dia (mesmo método da ORDEM 11 b). Verba do B: R$ 20, não mexer.
+  d) Se o G for REPROVADO: corrigir pelo motivo da Meta e reenviar uma vez; se for reprovado de novo, os R$ 15 do G voltam para o E (E R$ 30).
+  e) Nada além disso: não criar outro conjunto, não ligar o F nem o C, não mexer em público.
+  PRÉVIA DA BLACK (o Estrategista confirma em 24/11 22h37 com os números de amanhã; o Gestor só monta em 25/11 7h19 pela ordem que estiver escrita):
+  - bf1 R$ 180 (anunciobf1) = celular líder em ganho ÷ gasto (hoje: E OPPO; empate/sem venda nova: o de menor CPC com CTR ≥ 1%).
+  - bf2 R$ 120 (anunciobf2) = B Cinta SÓ se anunciob tiver venda nova desde 23/11 com R (24 e 25/11) ≥ 0,7; senão o 2º celular (o lucro desta
+    semana veio de celular; venda miúda da cinta não paga o clique).
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
@@ -740,6 +775,7 @@ DEU ERRADO (não repetir):
 - 22/11 15h50 Claude principal: Vini observou que o chamariz é o anúncio da cinta (estética da mulher) e pediu (1) um anúncio de algo derivado dela, com boa comissão, para 23/11 e (2) potencializar ainda mais a cinta. Painel do ML: anunciob 116 cliques, R$ 44,84 de R$ 51,16. Pesquisa na Central (família da cinta) em PRODUTOS AVALIADOS; o Vini escolheu o conjunto fitness NBZ (R$ 71, EXTRAS 28%). Aberta a ORDEM 6 (23/11 19h19: B R$ 35 + F R$ 15; C e E sem venda saem). Imagens do F prontas em anuncio/. Não abri a Meta.
 - 22/11 16h00 Claude principal: perguntei ao Vini quanto pôr a mais na cinta; ele respondeu "o valor, você mesmo junto com análise de agente especialista irá definir o maior potencial de ROI" e aprovou o teto de R$ 100/dia (24 a 26/11). Definido em degraus (ORDEM 6 h): B R$ 35 em 23/11, R$ 55 em 24/11 e R$ 80 em 25/11, só com R ≥ 1,3 e venda nova; desce se R < 1,0. Black sem mudança (R$ 300). Estrategista: conferir a conta hoje às 22h37 com o gasto medido pelo Gestor.
 - 22/11 22h40 Estrategista: Gestor v2 cumpriu a 1ª visita. B Cinta R$ 34,84/230 cliques/CPC R$ 0,15, R da hora 1,13 (≈2,0 com o mesmo período do painel). Lucro do B depende de venda direta (1 a cada ~200 cliques para empatar). B R$ 35 em 23/11 confirmado; ORDEM 7: R com período igual, F só mulheres 25-54 (teste H2), fuso. Saldo cobre ~R$ 302 de gasto: faltam ~R$ 250 para a Black (aviso em 24/11).
+- 23/11 22h40 Estrategista: Gestor sem visita hoje (passou para 7h19). E OPPO R = 2,35 (1 venda, Galaxy R$ 57,36); B Cinta R = 0,83 e só ~0,22 desde 22/11. 78% da comissão veio de 2 vendas "cheias": nova H4 (nicho). ORDEM 13: medir R com período igual e venda por nicho; B fica R$ 20; prévia da Black: bf1 celular, bf2 cinta só se vender de novo. Faltam ~R$ 231 para a Black (aviso em 24/11).
 
 ## TESTE GUARDADO: PINTEREST (pedido do Vini em 22/11 23h11: "salva pra testar o Pinterest semana que vem")
 - Quando: semana de 30/11 (depois da Black). Não começar antes. O Claude principal retoma em 30/11.
