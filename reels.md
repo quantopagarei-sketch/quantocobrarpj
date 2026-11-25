@@ -163,8 +163,22 @@ Uma vez só (refazer apenas se o Gestor pedir no diario.md porque o preço mudou
 - O Reel publicado mostra "Conteúdo de IA" ao lado do nome da página (é o rótulo ligado no passo 7.5) e a legenda corta em
   "Publicidade · links de afiliado… Ver mais": o aviso fica visível sem abrir, como o jurídico pede.
 
+- 24/11 (1º Reel do Divulgador): (1) `zoom` com `save_to_disk` grava o print em /tmp/claude-chrome-screenshots-*/ (o caminho vem no resultado), não em
+  /tmp/claude-tool-results. (2) O `file_upload` só aceita arquivo da pasta de saída da sessão: copie o reel.mp4 para /mnt/user-data/outputs/ e envie de lá.
+  (3) Confira os preços DEPOIS da virada da hora (o Mercado Livre troca preço e riscado na hora cheia) e poste em seguida. (4) Na página do produto, 'Encerra em'
+  junto de 'Oferta relâmpago' = cronômetro: troque de oferta. (5) Com a janela minimizada, ponha o pontinho animado (facebook.md > PRINT QUE NÃO SAI) na cor do
+  fundo, rgb(14,14,14), também na aba da foto: o gerador ignora. (6) Foto de peça vestida: aumente a foto com CSS (height:140vh, centrada) antes do print e
+  recorte só a peça com o PIL; o arquivo sem borda escura entra direto no cartão.
+
 ## Feito (data | ofertas | endereço do Reel | observações)
 - 22/11 13h56 | pisca-pisca cascata 400 LEDs R$ 59,99 de R$ 219,99 (-72%, ganhos extras 20%); tênis Kappa Zenit R$ 99,99 de R$ 229,99
   (-56%, ganhos extras 20%); parafusadeira The Black Tools 21V R$ 139,90 de R$ 259,90 (-46%, comissão não vista); Cicaplast Baume B5+
   R$ 64,37 de R$ 109,90 (-41%, ganhos 16%) | https://www.facebook.com/reel/1554465049846732/ | 1º Reel, feito pelo Claude principal;
   preços conferidos às 13h38-13h41; 22 s; 3,36 MB; rótulo de IA ligado; página com 3 seguidores e canal com 2 inscritos nesse dia.
+- 24/11 21h04 | air fryer Midea Widemax 5,5 L R$ 237,91 no Pix de R$ 739,68 (-67%, ganhos extras 13%); CINTA Opta Corpus R$ 113,90 no Pix de R$ 179,90
+  (-36%, ganhos extras 27%; 2º lugar, porque não tinha o maior desconto); carrinho de controle remoto Kizumba R$ 58,56 no Pix de R$ 149 (-60%, ganhos extras 20%);
+  tapete de atividades Maxi Baby R$ 58,41 no Pix de R$ 129,90 (-55%, ganhos 12%) | https://www.facebook.com/reel/2575264492994414/ | 1º Reel feito pelo Divulgador
+  Facebook; preços conferidos às 21h00-21h01, DEPOIS da virada da hora (às 21h o Kizumba, a Midea e o Taiff mudaram de preço); 22 s; 3,11 MB; rótulo de IA ligado;
+  Turbinar desligado; legenda do gerador sem link. Trocas: secador Taiff saiu (o riscado caiu de R$ 613,74 para R$ 401: 26% OFF) e jogo de chaves Black Tools saiu
+  (virou oferta relâmpago com cronômetro). FOTO DA CINTA: o anúncio só tem fotos da peça vestida em modelo (nenhuma só do produto); usei a foto principal
+  recortada só na peça (colchetes e etiqueta, sem busto, quadril, mão ou braço). PARA O CLAUDE PRINCIPAL: confirmar se esse recorte atende ao 'sem corpo de modelo'.
