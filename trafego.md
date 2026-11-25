@@ -951,9 +951,14 @@ DEU ERRADO (não repetir):
        "matt_word=anunciobf2&matt_tool=58037177". Advantage+ criativo 0/6; vários anunciantes DESLIGADO; só "Comentários relevantes".
        ACHADO: a cópia veio com "Configuração do criativo 2/4" LIGADA: "Resumos do site" (texto de IA tirado da página, com "Loja oficial", "Mais de 100
        mil vendidos", "4.9/5 estrelas") e "Destaques do site" (imagens e links de OUTROS produtos da página: iPhone, Galaxy A06...). DESLIGUEI os dois no
-       bf2 antes de publicar (ficou 0/4; "Links de site" já estava desligado). Como o bf2 é cópia do G, o anúncio NO AR do G ("Galaxy A17 128 GB -
-       imagem", 120248896794770656) provavelmente está com os dois LIGADOS desde 24/11 (a nota de 24/11 não fala deles). NÃO mexi no G (ORDEM 15 d).
-       PARA O ESTRATEGISTA: decidir se o G (que acaba amanhã) deve ser corrigido; o bf1 (cópia do OPPO 24/11) já estava 0/3.
+       bf2 antes de publicar (ficou 0/4; "Links de site" já estava desligado). Conferi depois (só leitura, sem salvar): o anúncio NO AR do G ("Galaxy
+       A17 128 GB - imagem", 120248896794770656) está 0/4, ou seja, foi a DUPLICAÇÃO que ligou os dois sozinha. LIÇÃO para toda cópia de anúncio:
+       abrir "Configuração do criativo" e deixar 0/x antes de publicar. O bf1 (cópia do OPPO 24/11) ficou 0/3.
+  - SITUAÇÃO no fim da montagem (~09h00): conjuntos bf1 e bf2 = "Programado"; anúncios "bf1 - OPPO A6t - imagem 24/11" e "bf2 - Galaxy A17 128 GB -
+       imagem" = "Em processamento" (análise da Meta). A miniatura dos dois na tabela ainda mostrava o logo da página (não a foto do celular) enquanto
+       processava: na visita de 26/11 7h19, conferir na prévia que a imagem é a do produto antes da divisão final.
+       E, G e B: intocados (R$ 15 + R$ 15 + R$ 20, fim 26/11 23:59 da conta). Total da Black programado: R$ 300 (R$ 240 + R$ 60), dentro da base.
+  - d) cumprida (E, G e B intocados). ORDEM 8: ENCERRADA sem executar (a própria ORDEM 15 d manda).
        A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados"; "Conferir e publicar (4)" seguiu igual.
 
 ## Diário do Estrategista
