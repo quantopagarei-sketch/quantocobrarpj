@@ -919,6 +919,27 @@ DEU ERRADO (não repetir):
      - Se bf1 e bf2 estiverem APROVADOS (programados): mudar o FIM de E e G para 26/11 19:00 da conta (18h de Brasília), para não disputarem o
        mesmo público com os da Black. O B Cinta fica até o fim normal. Se algum da Black estiver reprovado: não mexer no fim de E e G.
      - Reconferir os preços dos dois anúncios da Black; preço mudou → duplicar o anúncio com o preço do dia (como em 24/11) e pausar o velho.
+  EXECUÇÃO 25/11 (Gestor v2, visita das 7h19; 1 aba; TRAVA no diario.md):
+  - a) FEITO 07h50: COLETA em balanco.md (ML 18-24/11 fechado + 24/11 + hoje até 4h13; Gerenciador até 24/11 e da hora; Detalhamento de E e G).
+       R (mesmo período): anuncioe 1,08 · anunciog 0 (R$ 10,24, 77 cliques, CPC R$ 0,13, CTR 4,21%) · anunciob 0,62. Nenhuma venda nova (24/11: 259 cliques, 0 venda).
+  - PREÇOS conferidos na página normal às ~07h33: OPPO A6t Azul Cristal R$ 789,30 no Pix (riscado R$ 1.299, 39% OFF) ou R$ 877 em 18x R$ 48,72; selo
+       BLACK FRIDAY; 4,8 (4.214); +10 mil. Galaxy A17 128 GB Preto R$ 949,05 no Pix (riscado R$ 1.499, 36% OFF) ou R$ 999 em 15x R$ 66,60; 4,9 (111.817);
+       +100 mil; selo "PREÇO BAIXOU" (sem selo Black Friday). Os dois IGUAIS a 24/11 → mesma imagem e mesmo texto (ORDEM 15 c).
+       ATENÇÃO: a barra de afiliado do OPPO agora diz "GANHOS 5%" (era GANHOS EXTRAS 10% patrocinado pela OPPO até 24/11 08h02). O extra da OPPO SUMIU.
+       Pela ORDEM 15 c só anoto (não muda a montagem). Galaxy A17: GANHOS 5% (igual).
+  - b/c) bf1 FEITO 25/11 ~08h35: conjunto "bf1 - Black OPPO A6t - anunciobf1" (id 120248916055980656) PUBLICADO na campanha "Fase A - Iscas Black -
+       20/11" (a Meta aceitou orçamento total nela). Duplicado do E sem as recomendações do diálogo (posicionamentos do Instagram, Advantage+ criativo,
+       música no Reels, visualizações da página de destino, aumento de orçamento: todas desmarcadas), sem "mostrar reações" e sem "ativar cópias".
+       Orçamento TOTAL R$ 240,00; início qui 26/11/2026 19:00 da conta (= 18h00 de Brasília); fim sáb 28/11/2026 00:59 da conta (= 27/11 23h59 de
+       Brasília). Revisão da Meta antes de publicar: Site; BR; 18+; todos os gêneros; expansão nenhuma; posicionamentos Facebook Feeds + Instagram
+       Feed; lance volume mais alto; meta cliques no link; cobrança por impressão. "Permitir gasto limitado em posicionamentos excluídos" DESMARCADO.
+       Anúncio único "bf1 - OPPO A6t - imagem 24/11" (id 120248916055990656), cópia do "OPPO A6t - imagem 24/11": mesma imagem (R$ 789,30 no Pix) e
+       mesmo texto ("... De R$ 1.299 por R$ 789,30 no Pix (conferido em 24/11). Publicidade · link de afiliado"), título "OPPO A6t 128 GB por R$ 789,30
+       no Pix", descrição "Canal independente · link de afiliado", botão "Ver detalhes"; URL limpa .../p/MLB66447547 + parâmetros de URL
+       "matt_word=anunciobf1&matt_tool=58037177". Advantage+ criativo 0/6, configuração do criativo 0/3, mídia relacionada 0, sem imagem de IA,
+       "anúncios com vários anunciantes" DESLIGADO; aprimoramentos essenciais só "Comentários relevantes". A cópia do anúncio ANTIGO pausado
+       ("OPPO A6t - imagem", R$ 833,52) veio junto e foi EXCLUÍDA do bf1 antes de publicar (o original no E não foi tocado).
+       A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados"; "Conferir e publicar (4)" seguiu igual (rascunhos antigos intocados).
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
