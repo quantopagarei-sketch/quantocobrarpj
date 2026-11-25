@@ -966,6 +966,7 @@ DEU ERRADO (não repetir):
        bf2 antes de publicar (ficou 0/4; "Links de site" já estava desligado). Conferi depois (só leitura, sem salvar): o anúncio NO AR do G ("Galaxy
        A17 128 GB - imagem", 120248896794770656) está 0/4, ou seja, foi a DUPLICAÇÃO que ligou os dois sozinha. LIÇÃO para toda cópia de anúncio:
        abrir "Configuração do criativo" e deixar 0/x antes de publicar. O bf1 (cópia do OPPO 24/11) ficou 0/3.
+       A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados" (bf2); "Conferir e publicar (4)" seguiu igual.
   - SITUAÇÃO no fim da montagem (~07h41): conjuntos bf1 e bf2 = "Programado"; anúncios "bf1 - OPPO A6t - imagem 24/11" e "bf2 - Galaxy A17 128 GB -
        imagem" = "Em processamento" (análise da Meta). A miniatura dos dois na tabela ainda mostrava o logo da página (não a foto do celular) enquanto
        processava: na visita de 26/11 7h19, conferir na prévia que a imagem é a do produto antes da divisão final.
@@ -978,7 +979,6 @@ DEU ERRADO (não repetir):
   - PARA A DIVISÃO FINAL (g, 26/11 7h19), números de hoje: sem venda nova em 24/11 em nenhuma etiqueta; G com CPC R$ 0,13 e CTR 4,21% x E com CPC
        R$ 0,19 e CTR 2,79% (24/11 sozinho: E R$ 0,16 / 3,47%). Se 25/11 também fechar sem venda, a regra dá os R$ 240 ao G (bf2) e R$ 60 ao E (bf1):
        basta trocar os orçamentos totais. Lembrete: o OPPO perdeu o GANHOS EXTRAS (agora 5%, ~R$ 32 por venda direta, menos que o A17 128 GB).
-       A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados"; "Conferir e publicar (4)" seguiu igual.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
