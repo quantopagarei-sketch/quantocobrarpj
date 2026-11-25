@@ -940,6 +940,21 @@ DEU ERRADO (não repetir):
        "anúncios com vários anunciantes" DESLIGADO; aprimoramentos essenciais só "Comentários relevantes". A cópia do anúncio ANTIGO pausado
        ("OPPO A6t - imagem", R$ 833,52) veio junto e foi EXCLUÍDA do bf1 antes de publicar (o original no E não foi tocado).
        A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados"; "Conferir e publicar (4)" seguiu igual (rascunhos antigos intocados).
+  - b/c) bf2 FEITO 25/11 ~08h55: conjunto "bf2 - Black Galaxy A17 - anunciobf2" (id 120248916116930656) PUBLICADO na mesma campanha. Duplicado do G
+       sem as recomendações (posicionamentos do Instagram, Advantage+ criativo, música, visualizações da página de destino, "adicionar um vídeo",
+       aumento de orçamento: desmarcadas) e sem "mostrar reações". Orçamento TOTAL R$ 60,00; início qui 26/11/2026 19:00 da conta; fim sáb 28/11/2026
+       00:59 da conta (mesma janela do bf1). Revisão da Meta: Site; 18-65+; todos os gêneros; expansão nenhuma; Facebook Feeds + Instagram Feed; volume
+       mais alto; cliques no link; impressão. "Permitir gasto limitado em posicionamentos excluídos" DESMARCADO.
+       Anúncio único "bf2 - Galaxy A17 128 GB - imagem" (id 120248916116940656), cópia do "Galaxy A17 128 GB - imagem": mesma imagem (R$ 949,05 no Pix),
+       texto "Samsung Galaxy A17 128 GB. De R$ 1.499 por R$ 949,05 no Pix (preço conferido em 24/11). Publicidade · link de afiliado", título "Galaxy A17
+       128 GB por R$ 949,05 no Pix", descrição "Canal independente · link de afiliado", botão "Ver detalhes"; URL limpa .../p/MLB65114795 + parâmetros
+       "matt_word=anunciobf2&matt_tool=58037177". Advantage+ criativo 0/6; vários anunciantes DESLIGADO; só "Comentários relevantes".
+       ACHADO: a cópia veio com "Configuração do criativo 2/4" LIGADA: "Resumos do site" (texto de IA tirado da página, com "Loja oficial", "Mais de 100
+       mil vendidos", "4.9/5 estrelas") e "Destaques do site" (imagens e links de OUTROS produtos da página: iPhone, Galaxy A06...). DESLIGUEI os dois no
+       bf2 antes de publicar (ficou 0/4; "Links de site" já estava desligado). Como o bf2 é cópia do G, o anúncio NO AR do G ("Galaxy A17 128 GB -
+       imagem", 120248896794770656) provavelmente está com os dois LIGADOS desde 24/11 (a nota de 24/11 não fala deles). NÃO mexi no G (ORDEM 15 d).
+       PARA O ESTRATEGISTA: decidir se o G (que acaba amanhã) deve ser corrigido; o bf1 (cópia do OPPO 24/11) já estava 0/3.
+       A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados"; "Conferir e publicar (4)" seguiu igual.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
