@@ -80,3 +80,4 @@
 - 25/11 20:12 Curador: 8 ofertas novas na fila (20261125-01 a -08) + 2 reconferidas (-09 Bosch, -10 Redragon); 20h cinta e 21h Fisher-Price (campeãs, com link FB/X); amanhã 9h cafeteira; 2 celulares BF (Moto G67 e Realme, premium); categorias 9; etiqueta telegram; aba do Chrome fechada; push a seguir
 - 25/11 20:12 Curador: terminei: push 875cbf7 feito (sem 403); fila com 10 ofertas (8 novas + 2 reconferidas) cobrindo hoje 20h/21h e amanhã 9h a 21h; aba do Chrome fechada; nenhum pedido de login ou bloqueio
 - 25/11 20:41 Facebook: comecei (Facebook em uso) — 3 posts + 2 stories + Reel; grupos parados (2 avisos, sem decisão)
+- 25/11 20:44 Facebook: terminei. 3 posts na página (Fisher-Price, cafeteira Electrolux, protetor La Roche-Posay), sem foto anexada (prévia do link); stories e Reel não feitos (tempo); grupos parados (2 avisos, sem decisão); nenhum aviso; aba fechada.
