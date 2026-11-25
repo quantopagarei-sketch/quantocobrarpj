@@ -185,6 +185,8 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 ## PRODUTOS AVALIADOS (preencher; manter só os últimos 7 dias)
 | Data | Grupo | Produto | Preço | Comissão | Ganho/venda | Vendidos | Nota | Cupom | Chance (1-3) | Ganho esperado/clique | Passa? |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| 25/11 07h33 | no ar (E e bf1) | OPPO A6t 128 GB Azul Cristal (MLB66447547), loja oficial Oppo, Full | R$ 789,30 no Pix (de R$ 1.299, 39% OFF) ou R$ 877 em 18x; selo BLACK FRIDAY | GANHOS 5% (o EXTRAS 10% da OPPO SUMIU) | ~R$ 32 | +10 mil | 4,8 (4.214) | não conferido | 2 | REAL: R$ 57,36 em 212 cliques do ML (R$ 0,27 por clique; a venda foi de um Galaxy) | no ar (E até 26/11; bf1 na Black) |
+| 25/11 07h35 | no ar (G e bf2) | Galaxy A17 128 GB Preto (MLB65114795), loja oficial Samsung / ML Eletrônicos, Full | R$ 949,05 no Pix (de R$ 1.499, 36% OFF) ou R$ 999 em 15x; selo "PREÇO BAIXOU" | GANHOS 5% | ~R$ 39 a R$ 41 | +100 mil | 4,9 (111.817) | não conferido | 3 pela procura | 0 venda em 69 cliques do ML (24/11) | no ar (G até 26/11; bf2 na Black) |
 | 22/11 15h21 | no ar (conjunto B) | Cinta Modeladora Feminina c/ Barbatana Cintura 750, Opta Corpus loja oficial (MLB-4810647054) | R$ 90,57 no Pix ou R$ 95,34 em 3x (de R$ 179,90) | EXTRAS 27% (patroc. OPTA CORPUS) | pela etiqueta R$ 24,45 a 25,74 · REAL em 21/11: R$ 35,10 ("venda direta 44%") | +50 mil | 4,6 (17.633) | não conferido | 3 | REAL: R$ 0,39 (R$ 44,84 em 116 cliques, direta + indiretas) | no ar |
 | 22/11 15h34 | 2 (família da cinta) | Conjunto Top + Calça Legging Academia, NBZ (MLB-4223661377) | R$ 71 (de R$ 175,90; 12x R$ 6,99) | EXTRAS 28% | R$ 19,88 | +5 mil | 4,8 (1.354) | cupom da loja R$ 63,90 (POUPAMAIS não conferido) | 2 | R$ 0,24 | passa com clique abaixo de R$ 0,24 · ESCOLHIDO pelo Vini = conjunto F |
 | 22/11 15h27 | 2 (família da cinta) | Kit 2 Top Academia Puma, Decco (MLB-5223814662) | R$ 78,38 (de R$ 163,30) | EXTRAS 20% (patroc. DECCO MODA INTIMA) | R$ 15,68 | +10 mil | 4,7 (7.490) | não conferido | 3 | R$ 0,31 | passa · reserva 1 |
@@ -280,6 +282,10 @@ DEU ERRADO (não repetir):
   preço muda quase todo dia: o Gestor confere a página de TODO anúncio no ar em toda visita e nunca escreve "conferido hoje" (usar a data).
 - 23/11: mudanças feitas sem registro (push negado de manhã): B a R$ 35 e Gestor às 7h19 só entraram aqui às 18h18. Sem push, avisar o Vini e
   pedir o "sim" para gravar; o plano escrito mandava PAUSAR o E na noite em que ele vendeu.
+- 25/11: DUPLICAR anúncio liga sozinho "Configuração do criativo" (Resumos do site com IA e Destaques do site com fotos de OUTROS produtos da
+  página, até iPhone). Aconteceu na cópia do G para o bf2 (o G original estava 0/4). Em TODA cópia: abrir "Configuração do criativo" e deixar 0/x
+  antes de publicar. Na cópia do conjunto E também veio junto o anúncio antigo pausado: apagar a cópia antes de publicar.
+- 25/11: GANHOS EXTRAS somem sem aviso de verdade: o OPPO A6t passou de EXTRAS 10% (24/11 08h02) para GANHOS 5% (25/11 07h33), às vésperas da Black.
 - Produto anunciado que só gera clique: espelho/balança e câmera (anuncioa, 64 cliques, 0 venda) nunca venderam o produto em si.
 - Etiqueta única "anuncio" para tudo (não dava para saber o que vendeu).
 - Divulgação orgânica (Telegram, Facebook, X): ~45 cliques, 0 venda. Não gastar verba nisso.
@@ -419,6 +425,8 @@ DEU ERRADO (não repetir):
     - Se bf1 e bf2 cairiam no mesmo produto, bf2 fica com o 2º de maior ganho por venda. Só Feed do Facebook + Feed do Instagram,
     Brasil, a idade que o Detalhamento mostrar melhor. Preço da imagem reconferido no dia (design.md). Se o saldo não cobrir,
     monte assim mesmo (a Meta para sozinha quando o saldo acaba) e escreva "PARA O VINI" com o valor que falta.
+    FEITO 25/11 ~08h35-08h55 (Gestor v2, pela ORDEM 15, que vale mais nos valores): bf1 OPPO R$ 240 + bf2 Galaxy R$ 60, orçamento total, 26/11 19:00 a
+    28/11 00:59 da conta, dentro da campanha "Fase A - Iscas Black - 20/11"; ids e detalhes na ORDEM 15. "PARA O VINI" escrito em diario.md (faltam ~R$ 230).
   · Qui 26/11 19h19 — Gestor v2: conferir que os 2 conjuntos da Black COMEÇARAM às 18h00 (Ativo e entregando). Reprovado = corrigir
     pelo motivo da Meta e reenviar na hora. Os de R$ 50/dia acabam sozinhos às 23h59.
   · Sex 27/11 09h13 — checagem da Black (Claude principal, agendada na conversa da revisão): entrega, saldo e reprovação. Só corrige
@@ -593,7 +601,7 @@ DEU ERRADO (não repetir):
   e) Fuso (REGISTRO da ORDEM 6): ler em Configurações da conta de anúncios o fuso horário e gravar aqui. Não mudar nada.
   f) Gravar em balanco.md: gasto de 23/11 por conjunto, CPC, CTR, vendas novas por etiqueta (direta x indireta) e o R da letra a.
 
-- [ABERTA] 22/11 23h20 — ORDEM 8 (Claude principal, pedido do Vini: "Sim"). VÍDEO NO ANÚNCIO DA CINTA. EXECUTAR EM 24/11 ÀS 19h19 (Gestor v2),
+- [ENCERRADA em 25/11 pela ORDEM 15 d, sem executar: o vídeo não existe e a cinta não vai para a Black] 22/11 23h20 — ORDEM 8 (Claude principal, pedido do Vini: "Sim"). VÍDEO NO ANÚNCIO DA CINTA. EXECUTAR EM 24/11 ÀS 19h19 (Gestor v2),
   na mesma sessão de edição do dia (TRAVA). NÃO gasta nada a mais: o vídeo entra DENTRO do conjunto B, com a mesma verba do B.
   Origem: vídeo da Mayara Prado (YouTube, fev/2026) sobre a regra de anúncio pago do ML: o vídeo do produto é o que faz clicar; nós só usamos imagem.
   a) Arquivo: anuncio/cinta-video.mp4 e anuncio/cinta-video-legenda.txt (feitos pelo agente de Reels em 23/11; ver reels.md > VÍDEO DE ANÚNCIO).
@@ -804,6 +812,8 @@ DEU ERRADO (não repetir):
     param antes se a Meta reprovar ou se a taxa de clique ficar abaixo de 0,8% depois de 1.000 impressões.
   - Medir por etiqueta, com o mesmo período dos dois lados: anuncioe ÷ gasto do E e anunciog ÷ gasto do G (x 1,14). Gravar CTR e CPC dos dois.
   - B Cinta: fica em R$ 20; não sai.
+  SITUAÇÃO 25/11 07h50 (Gestor v2): E e G seguem ativos a R$ 15 cada, sem pausa e sem mudança de verba (teste de 2 dias). R com o mesmo período:
+  anuncioe 1,08 · anunciog 0 · anunciob 0,62. CTR: E 2,79% · G 4,21% · B 3,88% (todos acima de 0,8%). Nada reprovado.
   DECISÃO DO CELULAR DA BLACK (visita de 26/11 às 7h19, antes do início às 18h de Brasília):
   - O celular com MAIOR ganho ÷ gasto de 24 e 25/11 (etiqueta dele) fica com a parte de celular da Black. Empate ou os dois com 0 venda:
     fica o de MENOR custo por clique com CTR de 1% ou mais. O outro celular não entra na Black.
@@ -883,6 +893,8 @@ DEU ERRADO (não repetir):
      ESTRATEGISTA: no aviso de 24/11 22h37 e de 25/11 22h37, refaça a conta com o saldo lido pelo Gestor de manhã e mande ao Vini o valor
      que FALTA para R$ 600 de teto (não o de R$ 300). Se em 26/11 7h19 o saldo não cobrir a base, a base tem prioridade e não há degrau.
   f) Fora desta ordem ninguém passa de R$ 50/dia antes da Black nem de R$ 600 na Black.
+  SITUAÇÃO 25/11 (Gestor v2): a) cumprida (E R$ 15 + G R$ 15 + B R$ 20). b) base montada: bf1 R$ 240 (OPPO, provisório) + bf2 R$ 60 (Galaxy), orçamento
+  total, ver ORDEM 15. A cinta ficou fora (sem venda nova desde 23/11 e R 0,62). e) saldo R$ 220,34 em 25/11 09h05 (sem Pix novo).
 
 - [ABERTA] 24/11 22h40 — ORDEM 15 (Estrategista). MONTAGEM DA BLACK. PARA O GESTOR v2 EM 25/11 ÀS 7h19 (itens a a f) E EM 26/11 ÀS 7h19 (item g).
   Segue a ORDEM 14 (vale mais que a ORDEM 5 nos valores). TRAVA de sempre; esta é a sessão de edição do dia 25/11. Nada acima de R$ 300 de base.
@@ -959,6 +971,13 @@ DEU ERRADO (não repetir):
        processava: na visita de 26/11 7h19, conferir na prévia que a imagem é a do produto antes da divisão final.
        E, G e B: intocados (R$ 15 + R$ 15 + R$ 20, fim 26/11 23:59 da conta). Total da Black programado: R$ 300 (R$ 240 + R$ 60), dentro da base.
   - d) cumprida (E, G e B intocados). ORDEM 8: ENCERRADA sem executar (a própria ORDEM 15 d manda).
+  - e) FEITO 09h05: saldo pré-pago R$ 220,34; nenhum Pix novo desde 21/11 (fatura 25/11 R$ 52,79). Faltam ~R$ 230 para a base da Black e ~R$ 570 para o
+       teto de R$ 600 (conta em balanco.md > Resumo). A Black foi montada mesmo assim (a Meta para sozinha quando o saldo acaba).
+  - f) nenhuma reprovação até 09h00 (anúncios "Em processamento"). Nenhum pedido de login, código ou bloqueio. O editor segue mostrando a sugestão
+       "Verifique quem está por trás dos seus anúncios antes que seja obrigatório" (não cliquei; é do Vini se um dia virar obrigatório).
+  - PARA A DIVISÃO FINAL (g, 26/11 7h19), números de hoje: sem venda nova em 24/11 em nenhuma etiqueta; G com CPC R$ 0,13 e CTR 4,21% x E com CPC
+       R$ 0,19 e CTR 2,79% (24/11 sozinho: E R$ 0,16 / 3,47%). Se 25/11 também fechar sem venda, a regra dá os R$ 240 ao G (bf2) e R$ 60 ao E (bf1):
+       basta trocar os orçamentos totais. Lembrete: o OPPO perdeu o GANHOS EXTRAS (agora 5%, ~R$ 32 por venda direta, menos que o A17 128 GB).
        A Meta confirmou "1 conjunto de anúncios e 1 anúncio foram publicados"; "Conferir e publicar (4)" seguiu igual.
 
 ## Diário do Estrategista
