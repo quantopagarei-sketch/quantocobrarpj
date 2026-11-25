@@ -162,7 +162,6 @@ Uma vez só (refazer apenas se o Gestor pedir no diario.md porque o preço mudou
 - O Facebook pode estar no perfil pessoal (o Vini usa o Gerenciador): sempre confira e troque para a página antes de postar.
 - O Reel publicado mostra "Conteúdo de IA" ao lado do nome da página (é o rótulo ligado no passo 7.5) e a legenda corta em
   "Publicidade · links de afiliado… Ver mais": o aviso fica visível sem abrir, como o jurídico pede.
-
 - 24/11 (1º Reel do Divulgador): (1) `zoom` com `save_to_disk` grava o print em /tmp/claude-chrome-screenshots-*/ (o caminho vem no resultado), não em
   /tmp/claude-tool-results. (2) O `file_upload` só aceita arquivo da pasta de saída da sessão: copie o reel.mp4 para /mnt/user-data/outputs/ e envie de lá.
   (3) Confira os preços DEPOIS da virada da hora (o Mercado Livre troca preço e riscado na hora cheia) e poste em seguida. (4) Na página do produto, 'Encerra em'
