@@ -1037,6 +1037,19 @@ DEU ERRADO (não repetir):
   l) SÁBADO 28/11: se o R da Black em 27/11 22h37 for ≥ 1,5 com 2+ vendas, o Estrategista pode estender o conjunto vencedor até 28/11 23:59 da conta,
      só com o saldo que existir (sem novo Pix pedido). Senão, vale o item h) (R < 0,7 → pausar tudo em 28/11).
   m) PERDA MÁXIMA da Black: gasto da Black ≤ R$ 300 + degrau (≤ R$ 150). Nunca passar disso sem "sim" do Vini. <<<
+  >>> 26/11 04h30 — AJUSTES DO VINI (aprovou a estratégia; valem mais que b, d, g, k, l, m e a correção de 26/11 do Estrategista):
+  n) SALDO: "quase R$ 500" NÃO está conferido. Conciliação: depósitos R$ 736,57 (228 + 358,57 + 150); a Cobrança mostrou R$ 324,88 em 25/11 20h08,
+     ou seja, R$ 411,69 já tinham saído. O Gestor usa SÓ o saldo da tela às 7h19 e registra a conciliação em balanco.md
+     (depósitos − saldo = saído; diferença inexplicada → anotar). Se a tela mostrar mais que R$ 324,88 sem Pix novo visível: anotar e avisar.
+  o) ENCARGOS DENTRO DOS LIMITES: todo limite é dinheiro que SAI do saldo (verba x 1,145). Base da Black = R$ 300 saindo do saldo
+     → verba total = R$ 262 (ou (S − 35) ÷ 1,145, o que for menor). Degrau máximo R$ 150 saindo → R$ 131 de verba. Teto R$ 600 saindo, no total.
+  p) DIVISÃO 50/50: bf1 OPPO e bf2 Galaxy com a mesma verba (R$ 131 + R$ 131 com a base inteira). Nada de 80% com amostra pequena.
+     Remanejar entre os dois só com 3+ vendas num e 0 no outro, e no máximo 70/30.
+  q) ESCALA SAZONAL x CAMPANHA VALIDADA: 1 ou 2 vendas = oportunidade sazonal, nunca validação. Degrau de 27/11 só com R ≥ 1,5 E 3+ vendas
+     na Black, e só do saldo existente. "Campanha validada" = R ≥ 1,0 depois de cancelamentos, 5+ vendas, 3+ dias diferentes. A Black não valida nada sozinha.
+  r) DEPÓSITO: não pedir Pix só porque vendeu. Aviso ao Vini (substitui o k) apenas se: R ≥ 2,0, 3+ vendas, saldo projetado acaba antes de 27/11 23h59,
+     e o total saído continua ≤ R$ 600. O aviso traz retorno, margem, saldo e risco.
+  s) METAS DE NATAL: não reduzir. Metas ficam como objetivos ambiciosos, revisão semanal pelos resultados da Etapa 2. <<<
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.

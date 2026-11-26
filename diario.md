@@ -85,3 +85,4 @@
 - 26/11 Estrategista (correção): o Vini disse que o saldo é de quase R$ 500. A Black roda com a base inteira de R$ 300 (não ~R$ 230); sobra ~R$ 106 para 1 degrau em 27/11 se vender (R ≥ 1,5). B Cinta até o fim normal.
 - 26/11 04:20 Claude principal: comecei (Gerenciador em uso) — Vini mandou parar a cinta (anunciob) agora; adendo j-m na ORDEM 16. 1 aba.
 - 26/11 04:28 Claude principal: terminei (Gerenciador livre). B Cinta (anunciob) DESATIVADO às 04h27 a pedido do Vini (gasto final R$ 103,80; a Meta chamava de 'alto desempenho' por clique barato, mas sem venda desde 22/11). E e G intocados; rascunhos intocados; aba fechada.
+- 26/11 04:30 Claude principal: Vini aprovou a estratégia com ajustes (trafego.md > ORDEM 16 n-s): saldo a conciliar na tela, limites incluem encargos (base = R$ 262 de verba), divisão 50/50, 1-2 vendas não validam, Pix só com R ≥ 2,0 e 3+ vendas, metas de Natal mantidas.
