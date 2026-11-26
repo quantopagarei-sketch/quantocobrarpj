@@ -1052,28 +1052,28 @@ DEU ERRADO (não repetir):
      e o total saído continua ≤ R$ 600. O aviso traz retorno, margem, saldo e risco.
   s) METAS DE NATAL: não reduzir. Metas ficam como objetivos ambiciosos, revisão semanal pelos resultados da Etapa 2. <<<
   EXECUÇÃO 26/11 (Gestor v2, visita das 7h19; 1 aba; TRAVA no diario.md 07:22):
-  - a) FEITO 07h26-07h33: COLETA em balanco.md (ML 19-25/11 fechado + 25/11 + hoje até 4h01; Cobrança; Gerenciador até 25/11 e da hora).
+  - a) FEITO 07h22-07h27: COLETA em balanco.md (ML 19-25/11 fechado + 25/11 + hoje até 4h01; Cobrança; Gerenciador até 25/11 e da hora).
        25/11: 268 cliques no ML e 1 venda NOVA: meia infantil (Roupas de Bebê) R$ 24,90 → R$ 1,23, INDIRETA, etiqueta anunciog (tabela VENDAS).
        R (mesmo período): anuncioe 0,83 · anunciog 0,04 · anunciob final 0,49 (B desativado às 04h27, gasto final R$ 104,71). Regras de corte: nada
        bateu (E e G têm venda na etiqueta; CTR E 2,79% e G 4,02%; o E com R 0,83 > 0,7 segura a regra dos R$ 250).
-  - n) SALDO na tela (Cobrança ~07h28): S = R$ 464,05. Havia Pix NOVO visível: R$ 151,00 em 25/11 (além do de R$ 150,00 já conhecido). Conciliação:
+  - n) SALDO na tela (Cobrança ~07h24): S = R$ 464,05. Havia Pix NOVO visível: R$ 151,00 em 25/11 (além do de R$ 150,00 já conhecido). Conciliação:
        depósitos R$ 887,57 (228 + 358,57 + 150 + 151) − saldo R$ 464,05 = R$ 423,52 saído; Gerenciador da hora R$ 372,00 x 1,139 = o mesmo.
        Nenhuma diferença sem explicação (a tela acima de R$ 324,88 é o Pix de R$ 151).
   - o/p) VERBA DA BLACK: T = mín(R$ 262; (464,05 − 35) ÷ 1,145 = R$ 374) = R$ 262 → 50/50 = R$ 131 + R$ 131 (nenhum celular tem 3+ vendas).
        Sobra do saldo depois da base e da reserva: 464,05 − 35 − 300 = ~R$ 129 saindo (~R$ 112 de verba) para um degrau em 27/11, se a regra q deixar.
-  - c+p) bf2 FEITO 26/11 ~07h45: "bf2 - Black Galaxy A17 - anunciobf2" (120248916116930656) orçamento TOTAL R$ 60 → R$ 131; idade 18-65+ → 25 a 64.
+  - c+p) bf2 FEITO 26/11 ~07h29: "bf2 - Black Galaxy A17 - anunciobf2" (120248916116930656) orçamento TOTAL R$ 60 → R$ 131; idade 18-65+ → 25 a 64.
        Para a idade valer de verdade (no Advantage+ a idade é só sugestão; o único controle é a idade mínima), troquei o público para
        "Alcançar um público limitado" (opções originais): Brasil, 25 a 64, todos os gêneros, sem direcionamento detalhado, todos os idiomas,
        "Usar como sugestão" DESMARCADO (público estimado 120,6 a 141,9 milhões). Posicionamentos intocados (manuais; "Permitir gasto limitado em
        posicionamentos excluídos" desmarcado; não pus o Feed do Threads sugerido). Programação intocada (26/11 19:00 a 28/11 00:59 da conta).
        A Meta confirmou "1 conjunto de anúncios foi atualizado(a)"; segue "Programado"; "Conferir e publicar (4)" igual.
-  - p) bf1 FEITO 26/11 ~07h49: "bf1 - Black OPPO A6t - anunciobf1" (120248916055980656) orçamento TOTAL R$ 240 → R$ 131 (lápis da coluna Orçamento,
+  - p) bf1 FEITO 26/11 ~07h30: "bf1 - Black OPPO A6t - anunciobf1" (120248916055980656) orçamento TOTAL R$ 240 → R$ 131 (lápis da coluna Orçamento,
        "Publicar"; a Meta confirmou "1 conjunto de anúncios foi atualizado(a)"). Público, posicionamentos e programação intocados (18+, como manda o item c).
        Black agora: bf1 OPPO R$ 131 + bf2 Galaxy R$ 131 = R$ 262 de verba (≈ R$ 300 saindo do saldo), os dois "Programado", anúncios aprovados.
-  - e) FEITO 26/11 ~07h52 e ~07h55: FIM de "E - Celular OPPO A6t - anuncioe" (120248862437080656) e de "G - Galaxy A17 - anunciog" (120248896794760656)
+  - e) FEITO 26/11 ~07h31 e ~07h32: FIM de "E - Celular OPPO A6t - anuncioe" (120248862437080656) e de "G - Galaxy A17 - anunciog" (120248896794760656)
        mudado de 26/11 23:59 para 26/11 19:00 da conta (= 18h00 de Brasília, quando a Black começa). Verba diária R$ 15 de cada um intocada. A Meta
        confirmou "1 conjunto de anúncios foi atualizado(a)" nos dois; a tabela mostra "Termina hoje". B Cinta segue "Desativado" (item j; não religuei).
-       Gasto de hoje até ~07h55: E R$ 1,23 (4 cliques, CTR 2,72%) · G R$ 1,05 (5 cliques, CTR 4,00%) · B R$ 0,80 (antes das 04h27).
+       Gasto de hoje até ~07h32: E R$ 1,23 (4 cliques, CTR 2,72%) · G R$ 1,05 (5 cliques, CTR 4,00%) · B R$ 0,80 (antes das 04h27).
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
