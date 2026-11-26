@@ -1029,7 +1029,7 @@ DEU ERRADO (não repetir):
      (regra dos R$ 250, que hoje só não para tudo porque a base da Black foi aprovada pelo Vini). R ≥ 1,3 → seguir no que vendeu, do tamanho do saldo.
   i) Marcar FEITO aqui com hora, gravar balanco.md e diario.md, push depois de cada item.
   >>> 26/11 04h20 — ADENDO do Claude principal (diretriz do Vini de 26/11; vale mais que os itens acima onde houver diferença):
-  j) B CINTA: o Vini mandou PARAR AGORA (R 0,62 < 0,7). O Claude principal desliga o conjunto anunciob em 26/11 ~04h20. Gestor: não religar;
+  j) B CINTA: o Vini mandou PARAR AGORA (R 0,62 < 0,7). FEITO 26/11 04h27: conjunto anunciob DESATIVADO pelo Claude principal (gasto final R$ 103,80, 650 cliques). Gestor: não religar;
      só conferir às 7h19 que está "Desativado". O item e) vale só para E e G (fim às 18h de 26/11).
   k) AVISO DE PIX (dentro do teto de R$ 600 já aprovado): na checagem de 27/11 09h13 ou 15h07, se R da Black ≥ 2,0 com 2 ou mais vendas na etiqueta
      anunciobf1/anunciobf2, o Estrategista/Diretor avisa o Vini: "um Pix de até R$ X permite subir o degrau" (X = o que falta para R$ 600 de verba

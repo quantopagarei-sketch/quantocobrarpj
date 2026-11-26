@@ -84,3 +84,4 @@
 - 25/11 Estrategista: sem venda nova desde 23/11 (R: E 1,08 · G 0 · B 0,62). ORDEM 16 para 26/11 7h19: Black ajustada ao saldo (R$ 324,88 → ~R$ 230), 80% Galaxy (bf2, idade 25-64) e 20% OPPO se 25/11 fechar sem venda; E, G e B terminam às 18h de 26/11. Se a Black fechar com R < 0,7, tudo pausa em 28/11.
 - 26/11 Estrategista (correção): o Vini disse que o saldo é de quase R$ 500. A Black roda com a base inteira de R$ 300 (não ~R$ 230); sobra ~R$ 106 para 1 degrau em 27/11 se vender (R ≥ 1,5). B Cinta até o fim normal.
 - 26/11 04:20 Claude principal: comecei (Gerenciador em uso) — Vini mandou parar a cinta (anunciob) agora; adendo j-m na ORDEM 16. 1 aba.
+- 26/11 04:28 Claude principal: terminei (Gerenciador livre). B Cinta (anunciob) DESATIVADO às 04h27 a pedido do Vini (gasto final R$ 103,80; a Meta chamava de 'alto desempenho' por clique barato, mas sem venda desde 22/11). E e G intocados; rascunhos intocados; aba fechada.
