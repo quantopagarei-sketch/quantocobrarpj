@@ -1,3 +1,5 @@
+> **ANTES DE DECIDIR: leia `visao.md` (visão de 5 a 10 anos e marcos de lucro do Vini, 26/11/2026).**
+
 # TELEGRAM OFERTAS – "Black Achadinhos" (LEIA PRIMEIRO)
 
 Nome do canal (escolha do Vini em 13/11, gatilho de Black Friday): **Black Achadinhos 🖤 Ofertas do Dia**.
