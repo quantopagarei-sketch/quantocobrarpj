@@ -9,10 +9,12 @@ https://www.mercadolivre.com.br/smartphone-oppo-a6t-128gb-12gb-ram-4gb-8gb-virtu
 Preço em 23/11/2026 às 18h45: R$ 789,30 no Pix (riscado R$ 1.299, 39% OFF; ou R$ 877 em 18x R$ 48,72). Selo BLACK FRIDAY na página.
 Loja oficial Oppo, Full, nota 4,8, +10 mil vendidos. Barra de afiliado: GANHOS EXTRAS 10%.
 
-Imagens PRONTAS com esse preço:
-- anuncio/oppoa6t-1080x1350.jpg (principal, 4:5): "R$ 789,30 no Pix"
+ATUALIZADO 26/11/2026 ~07h33: R$ 781,89 no Pix (riscado R$ 1.299; ou R$ 868,77 em 18x R$ 48,27); GANHOS EXTRAS 10% de volta.
+
+Imagens PRONTAS (preço de 26/11):
+- anuncio/oppoa6t-1080x1350.jpg (principal, 4:5): "R$ 781,89 no Pix"
 - anuncio/oppoa6t-1080x1080.jpg (reserva, 1:1)
-- anuncio/oppoa6t-depor-1080x1350.jpg: "De R$ 1.299 por R$ 789,30 no Pix" (só usar se a página mostrar o preço riscado no dia)
+- anuncio/oppoa6t-depor-1080x1350.jpg: "De R$ 1.299 por R$ 789,30 no Pix" (VELHA, preço de 23/11: não usar sem refazer)
 
 Se o preço do dia for OUTRO, gerar de novo (leva 2 segundos):
 python3 anuncio/gerar_anuncio_produto.py --foto anuncio/fonte-oppoa6t.png --nome "OPPO A6t" --linha2 "128 GB" --preco "R$ <preço do dia>" --sufixo "no Pix" --saida-prefixo anuncio/oppoa6t

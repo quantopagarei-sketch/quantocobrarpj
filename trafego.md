@@ -1074,6 +1074,20 @@ DEU ERRADO (não repetir):
        mudado de 26/11 23:59 para 26/11 19:00 da conta (= 18h00 de Brasília, quando a Black começa). Verba diária R$ 15 de cada um intocada. A Meta
        confirmou "1 conjunto de anúncios foi atualizado(a)" nos dois; a tabela mostra "Termina hoje". B Cinta segue "Desativado" (item j; não religuei).
        Gasto de hoje até ~07h32: E R$ 1,23 (4 cliques, CTR 2,72%) · G R$ 1,05 (5 cliques, CTR 4,00%) · B R$ 0,80 (antes das 04h27).
+  - f) PREÇOS na página normal (~07h33): OPPO A6t Azul Cristal MUDOU: R$ 781,89 no Pix (riscado R$ 1.299, 39% OFF) ou R$ 868,77 em 18x R$ 48,27;
+       selo BLACK FRIDAY; 4,8 (4.278); +10 mil; e a barra de afiliado VOLTOU a "GANHOS EXTRAS 10% · Patrocinado por OPPO" (em 25/11 estava GANHOS 5%).
+       Galaxy A17 128 GB Preto IGUAL: R$ 949,05 no Pix (riscado R$ 1.499, 36% OFF) ou R$ 999 em 15x R$ 66,60; 4,9 (112.527); +100 mil; GANHOS 5%.
+       FEITO ~07h40: imagem nova anuncio/oppoa6t-1080x1350.jpg (e -1080x1080) com "R$ 781,89 no Pix" (design.md; conferida) e, no bf1, anúncio NOVO
+       "bf1 - OPPO A6t - imagem 26/11" (id 120248932578690656), duplicado do "bf1 - OPPO A6t - imagem 24/11" SEM as recomendações do diálogo (Criativo
+       Advantage+ e música desmarcados) e sem "mostrar reações". Texto: "OPPO A6t 128 GB, bateria de 6500 mAh. De R$ 1.299 por R$ 781,89 no Pix
+       (conferido em 26/11). Publicidade · link de afiliado" (123 caracteres: o aviso fica antes do "Ver mais"; por isso "conferido" e não "preço
+       conferido", que daria 129); título "OPPO A6t 128 GB por R$ 781,89 no Pix"; descrição e botão iguais; URL limpa .../p/MLB66447547 + parâmetros
+       "matt_word=anunciobf1&matt_tool=58037177" (conferidos na revisão). A cópia veio com "Destaques do site" (imagens e links de OUTROS celulares) e
+       "Experiências interativas: captura de tela do site" LIGADOS: desliguei os dois (Configuração do criativo 0/4; Experiências 0/1). Aprimoramentos
+       Advantage+ 0/8, nenhuma imagem de IA, vários anunciantes DESLIGADO; padrão só "Comentários relevantes". A imagem nova NÃO foi posta no anúncio do E.
+       A Meta confirmou "1 anúncio foi publicado"; situação "Em processamento" (análise). O antigo "bf1 - OPPO A6t - imagem 24/11" (120248916055990656,
+       R$ 789,30, MAIOR que o preço de hoje) segue "Programado" até o novo ser aprovado (mesma regra da ORDEM 11 b).
+       E e G (terminam às 18h) NÃO ganharam anúncio novo: o do E diz R$ 789,30 "conferido em 24/11" (acima do real, com data) e o do G está certo.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
