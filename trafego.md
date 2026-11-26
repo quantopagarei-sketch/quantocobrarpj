@@ -1070,6 +1070,10 @@ DEU ERRADO (não repetir):
   - p) bf1 FEITO 26/11 ~07h49: "bf1 - Black OPPO A6t - anunciobf1" (120248916055980656) orçamento TOTAL R$ 240 → R$ 131 (lápis da coluna Orçamento,
        "Publicar"; a Meta confirmou "1 conjunto de anúncios foi atualizado(a)"). Público, posicionamentos e programação intocados (18+, como manda o item c).
        Black agora: bf1 OPPO R$ 131 + bf2 Galaxy R$ 131 = R$ 262 de verba (≈ R$ 300 saindo do saldo), os dois "Programado", anúncios aprovados.
+  - e) FEITO 26/11 ~07h52 e ~07h55: FIM de "E - Celular OPPO A6t - anuncioe" (120248862437080656) e de "G - Galaxy A17 - anunciog" (120248896794760656)
+       mudado de 26/11 23:59 para 26/11 19:00 da conta (= 18h00 de Brasília, quando a Black começa). Verba diária R$ 15 de cada um intocada. A Meta
+       confirmou "1 conjunto de anúncios foi atualizado(a)" nos dois; a tabela mostra "Termina hoje". B Cinta segue "Desativado" (item j; não religuei).
+       Gasto de hoje até ~07h55: E R$ 1,23 (4 cliques, CTR 2,72%) · G R$ 1,05 (5 cliques, CTR 4,00%) · B R$ 0,80 (antes das 04h27).
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
