@@ -1028,6 +1028,15 @@ DEU ERRADO (não repetir):
   h) DEPOIS DA BLACK (o Estrategista decide em 27/11 22h37): R da Black (anunciobf1 + anunciobf2) < 0,7 → PAUSAR TUDO em 28/11 e avisar o Vini
      (regra dos R$ 250, que hoje só não para tudo porque a base da Black foi aprovada pelo Vini). R ≥ 1,3 → seguir no que vendeu, do tamanho do saldo.
   i) Marcar FEITO aqui com hora, gravar balanco.md e diario.md, push depois de cada item.
+  >>> 26/11 04h20 — ADENDO do Claude principal (diretriz do Vini de 26/11; vale mais que os itens acima onde houver diferença):
+  j) B CINTA: o Vini mandou PARAR AGORA (R 0,62 < 0,7). O Claude principal desliga o conjunto anunciob em 26/11 ~04h20. Gestor: não religar;
+     só conferir às 7h19 que está "Desativado". O item e) vale só para E e G (fim às 18h de 26/11).
+  k) AVISO DE PIX (dentro do teto de R$ 600 já aprovado): na checagem de 27/11 09h13 ou 15h07, se R da Black ≥ 2,0 com 2 ou mais vendas na etiqueta
+     anunciobf1/anunciobf2, o Estrategista/Diretor avisa o Vini: "um Pix de até R$ X permite subir o degrau" (X = o que falta para R$ 600 de verba
+     x 1,14 menos o saldo). Sem isso, nenhum pedido de depósito.
+  l) SÁBADO 28/11: se o R da Black em 27/11 22h37 for ≥ 1,5 com 2+ vendas, o Estrategista pode estender o conjunto vencedor até 28/11 23:59 da conta,
+     só com o saldo que existir (sem novo Pix pedido). Senão, vale o item h) (R < 0,7 → pausar tudo em 28/11).
+  m) PERDA MÁXIMA da Black: gasto da Black ≤ R$ 300 + degrau (≤ R$ 150). Nunca passar disso sem "sim" do Vini. <<<
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
