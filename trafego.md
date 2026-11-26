@@ -166,6 +166,24 @@ Alavancas (o que fazer):
 - Dinheiro: saldo R$ 265,00 (24/11 08h38). Até o início da Black (~R$ 130 de verba x 1,145) sobra ~R$ 115 → para a base da Black (R$ 343)
   FALTAM ~R$ 230; para o teto de R$ 600 (R$ 687) faltam ~R$ 575. Aviso ao Vini feito hoje (push + diario.md), uma vez só.
 
+### Revisão do Estrategista (25/11 22h40, números do Gestor v2 de 25/11 07h24-07h43 + saldo lido pelo Claude principal às 20h08) — amostra pequena
+| Etiqueta/conjunto | Gasto até 24/11 | Cliques Meta | CPC | CTR | Cliques ML (18-24/11) | Vendas | Comissão (em revisão) | R (x1,14) |
+|---|---|---|---|---|---|---|---|---|
+| anuncioe E OPPO (R$ 15/dia) | R$ 46,52 | 248 | R$ 0,19 | 2,79% | 212 | 1 (Galaxy A17 256 GB, 23/11) | R$ 57,36 | 1,08 |
+| anunciog G Galaxy A17 (R$ 15/dia) | R$ 10,24 | 77 | R$ 0,13 | 4,21% | 69 | 0 | R$ 0 | 0 |
+| anunciob B Cinta (R$ 20/dia) | R$ 83,29 | 539 | R$ 0,15 | 3,88% | 456 | 5 pedidos/8 un. (nada desde 22/11) | R$ 58,88 | 0,62 |
+| TOTAL desde 14/11 | R$ 321,69 (até 25/11 07h28) | - | - | - | 1.084 | 9 pedidos | R$ 125,18 | 0,34 |
+- 24/11 inteiro: 259 cliques no ML e 0 venda (R$ 46,21 gastos). 25/11: não medido depois das 4h13 (ML) e das 07h28 (Meta).
+- H2 PÚBLICO (1ª leitura real): quem CLICA nos celulares é HOMEM 45+ (E 81% homens, 73% 45+; G 83% homens, 83% 55+ e 53% 65+). Quem COMPRA: não medido
+  (o ML não mostra). O CPC baixo do G vem do 65+ (R$ 0,11). Risco: clique barato que não compra. Teste na Black: bf do Galaxy com 25-64 (ORDEM 16 c).
+- H3/H4: sem dado novo. A comissão do OPPO caiu (EXTRAS 10% → 5%): a venda direta do OPPO agora paga ~R$ 32, menos que o Galaxy A17 (~R$ 39-41).
+  Como quem clicou no OPPO comprou um Galaxy (H4), a "porta" do Galaxy é a mais lógica para o dinheiro grande.
+- REGRA DOS R$ 250: vai encostar em 26/11 18h (prejuízo pelo Gerenciador ~R$ 280 em revisão; o R do E cai para ~0,70). Decisão: a base da Black (aprovada pelo
+  Vini em 24/11 sabendo do prejuízo, e com Pix de R$ 150 em 25/11 para ela) NÃO para. Sem degrau se não vender. Se a Black fechar com R < 0,7, tudo pausa em
+  28/11 e o Vini é avisado (ORDEM 16 f).
+- Dinheiro: saldo R$ 324,88 (25/11 20h08, com o Pix de R$ 150). Base inteira precisa de ~R$ 343 + o resto de E/G/B: não cabe; a Black roda ~R$ 230-250
+  (ajuste ao saldo na ORDEM 16 b). Teto de R$ 600: impossível sem novo depósito (não pedir de novo; o Vini já sabe: faltam ~R$ 150 / ~R$ 490).
+
 ## ESCOLHA DO PRODUTO (pedido do Vini, 20/11/2026 06h33) — OBRIGATÓRIA antes de pôr dinheiro em qualquer produto
 Comparar sempre os dois grupos e escolher pela conta, nunca por achismo:
 - GRUPO 1 "MAIS VENDIDOS": produtos campeões de venda do ML (páginas "Mais vendidos" por categoria e ofertas do dia), com a comissão de cada um.
@@ -980,6 +998,32 @@ DEU ERRADO (não repetir):
        R$ 0,19 e CTR 2,79% (24/11 sozinho: E R$ 0,16 / 3,47%). Se 25/11 também fechar sem venda, a regra dá os R$ 240 ao G (bf2) e R$ 60 ao E (bf1):
        basta trocar os orçamentos totais. Lembrete: o OPPO perdeu o GANHOS EXTRAS (agora 5%, ~R$ 32 por venda direta, menos que o A17 128 GB).
 
+- [ABERTA] 25/11 22h40 — ORDEM 16 (Estrategista). DIVISÃO FINAL DA BLACK COM O SALDO REAL. PARA O GESTOR v2 EM 26/11 ÀS 7h19.
+  Completa a ORDEM 15 g (vale mais que ela onde houver diferença). TRAVA de sempre; esta é a sessão de edição do dia 26/11.
+  a) COLETA curta (ML: Etiquetas e Vendas de 25/11 fechado; Gerenciador: gasto e cliques de E, G, B em 25/11; Cobrança: saldo pré-pago S).
+     Gravar em balanco.md. Venda nova → tabela VENDAS. Não precisa de Detalhamento.
+  b) QUEM FICA COM 80% (regra da ORDEM 12/15 g, sem mudança): maior comissão ÷ gasto de 24-25/11 entre anuncioe e anunciog. Se os dois seguirem
+     sem venda nova: o Galaxy (bf2) fica com 80% (menor CPC, R$ 0,13, CTR 4,21%) e o OPPO (bf1) com 20%. Só trocar os ORÇAMENTOS TOTAIS.
+  c) PÚBLICO DO bf2 (Galaxy, teste da H2): mudar a idade do conjunto "bf2 - Black Galaxy A17 - anunciobf2" de 18-65+ para 25 a 64 (sexo: todos;
+     resto igual). Motivo: 53% dos cliques do G foram de 65+ (clique barato, compra não medida) e a única venda veio do E, que espalha mais por
+     idade. O bf1 (OPPO) fica como está (18+), para comparar. Se o editor avisar que a mudança reinicia a análise do anúncio, fazer assim mesmo
+     (ele só começa às 18h). Não mexer em mais nada do público nem dos posicionamentos.
+  d) VALOR DA BLACK PELO SALDO (o saldo NÃO cobre os R$ 300):
+     - Reserva para E, G e B até 18h de hoje: R$ 35 (≈ R$ 22 de gasto x 1,14 + folga de cobrança).
+     - Total da Black T = (S − 35) ÷ 1,145, arredondado para baixo; máximo R$ 300.
+     - Quem tem 80% (item b) = T x 0,8; o outro = T x 0,2 (arredondar para baixo). Ex.: S = R$ 300 → T = R$ 231 → R$ 184 + R$ 46.
+     - Se S ≥ R$ 378: R$ 240 + R$ 60, como estava.
+  e) FIM DOS CONJUNTOS VELHOS (se bf1 e bf2 estiverem aprovados/"Programado" com a foto do produto na prévia): mudar o FIM de E, G E TAMBÉM do
+     B Cinta para 26/11 19:00 da conta (= 18h de Brasília). O B sai junto porque o saldo é curto e a base da Black tem prioridade (ORDEM 14 e);
+     ele está sem venda desde 22/11 (R 0,62). Se algum da Black estiver reprovado: corrigir pelo motivo 1 vez e NÃO mexer no fim de E, G e B.
+  f) Preços: reconferir OPPO A6t e Galaxy A17 128 GB na página normal. Mudou → duplicar o anúncio com o preço do dia (Configuração do criativo
+     0/x, LIÇÃO de 25/11) e pausar o velho. Texto com "(preço conferido em 26/11)".
+  g) DEGRAUS de 27/11 (09h13 e 15h07): só se houver saldo para eles (não há sem Pix novo). Sem saldo: nada sobe. Segue valendo o corte das 15h07
+     (R < 0,5 com gasto ≥ R$ 150 → pausar o que não vendeu).
+  h) DEPOIS DA BLACK (o Estrategista decide em 27/11 22h37): R da Black (anunciobf1 + anunciobf2) < 0,7 → PAUSAR TUDO em 28/11 e avisar o Vini
+     (regra dos R$ 250, que hoje só não para tudo porque a base da Black foi aprovada pelo Vini). R ≥ 1,3 → seguir no que vendeu, do tamanho do saldo.
+  i) Marcar FEITO aqui com hora, gravar balanco.md e diario.md, push depois de cada item.
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
@@ -993,6 +1037,7 @@ DEU ERRADO (não repetir):
 - 22/11 22h40 Estrategista: Gestor v2 cumpriu a 1ª visita. B Cinta R$ 34,84/230 cliques/CPC R$ 0,15, R da hora 1,13 (≈2,0 com o mesmo período do painel). Lucro do B depende de venda direta (1 a cada ~200 cliques para empatar). B R$ 35 em 23/11 confirmado; ORDEM 7: R com período igual, F só mulheres 25-54 (teste H2), fuso. Saldo cobre ~R$ 302 de gasto: faltam ~R$ 250 para a Black (aviso em 24/11).
 - 23/11 22h40 Estrategista: Gestor sem visita hoje (passou para 7h19). E OPPO R = 2,35 (1 venda, Galaxy R$ 57,36); B Cinta R = 0,83 e só ~0,22 desde 22/11. 78% da comissão veio de 2 vendas "cheias": nova H4 (nicho). ORDEM 13: medir R com período igual e venda por nicho; B fica R$ 20; prévia da Black: bf1 celular, bf2 cinta só se vender de novo. Faltam ~R$ 231 para a Black (aviso em 24/11).
 - 24/11 22h40 Estrategista: Gestor cumpriu as ORDENS 11 b, 12 e 13 (G Galaxy no ar, anúncios com preço do dia). Sem leitura depois das 08h05: E R 1,67, B R 0,81 (~0,28 desde 22/11), G sem dado. ORDEM 15: Black montada em 25/11 (bf1 OPPO R$ 240 + bf2 Galaxy R$ 60, provisório; cinta fora sem venda nova); divisão final e ajuste ao saldo em 26/11. Saldo R$ 265: faltam ~R$ 230 para a base e ~R$ 575 para o teto; Vini avisado.
+- 25/11 22h40 Estrategista: Gestor cumpriu a ORDEM 15 a-f (Black programada; OPPO perdeu o EXTRAS, agora 5%). 24/11: 259 cliques, 0 venda. R: E 1,08 · G 0 · B 0,62. Detalhamento: quem clica em celular é homem 45+ (G 53% 65+). Pix de R$ 150 do Vini (saldo R$ 324,88): não cobre os R$ 300. ORDEM 16: Galaxy 80% / OPPO 20% (sem venda nova), Black ajustada ao saldo (~R$ 230), bf2 com idade 25-64, E/G/B terminam às 18h de 26/11; regra dos R$ 250 suspensa só para a base da Black; R < 0,7 na Black → pausa tudo em 28/11.
 
 ## TESTE GUARDADO: PINTEREST (pedido do Vini em 22/11 23h11: "salva pra testar o Pinterest semana que vem")
 - Quando: semana de 30/11 (depois da Black). Não começar antes. O Claude principal retoma em 30/11.
