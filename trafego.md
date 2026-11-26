@@ -1051,6 +1051,22 @@ DEU ERRADO (não repetir):
   r) DEPÓSITO: não pedir Pix só porque vendeu. Aviso ao Vini (substitui o k) apenas se: R ≥ 2,0, 3+ vendas, saldo projetado acaba antes de 27/11 23h59,
      e o total saído continua ≤ R$ 600. O aviso traz retorno, margem, saldo e risco.
   s) METAS DE NATAL: não reduzir. Metas ficam como objetivos ambiciosos, revisão semanal pelos resultados da Etapa 2. <<<
+  EXECUÇÃO 26/11 (Gestor v2, visita das 7h19; 1 aba; TRAVA no diario.md 07:22):
+  - a) FEITO 07h26-07h33: COLETA em balanco.md (ML 19-25/11 fechado + 25/11 + hoje até 4h01; Cobrança; Gerenciador até 25/11 e da hora).
+       25/11: 268 cliques no ML e 1 venda NOVA: meia infantil (Roupas de Bebê) R$ 24,90 → R$ 1,23, INDIRETA, etiqueta anunciog (tabela VENDAS).
+       R (mesmo período): anuncioe 0,83 · anunciog 0,04 · anunciob final 0,49 (B desativado às 04h27, gasto final R$ 104,71). Regras de corte: nada
+       bateu (E e G têm venda na etiqueta; CTR E 2,79% e G 4,02%; o E com R 0,83 > 0,7 segura a regra dos R$ 250).
+  - n) SALDO na tela (Cobrança ~07h28): S = R$ 464,05. Havia Pix NOVO visível: R$ 151,00 em 25/11 (além do de R$ 150,00 já conhecido). Conciliação:
+       depósitos R$ 887,57 (228 + 358,57 + 150 + 151) − saldo R$ 464,05 = R$ 423,52 saído; Gerenciador da hora R$ 372,00 x 1,139 = o mesmo.
+       Nenhuma diferença sem explicação (a tela acima de R$ 324,88 é o Pix de R$ 151).
+  - o/p) VERBA DA BLACK: T = mín(R$ 262; (464,05 − 35) ÷ 1,145 = R$ 374) = R$ 262 → 50/50 = R$ 131 + R$ 131 (nenhum celular tem 3+ vendas).
+       Sobra do saldo depois da base e da reserva: 464,05 − 35 − 300 = ~R$ 129 saindo (~R$ 112 de verba) para um degrau em 27/11, se a regra q deixar.
+  - c+p) bf2 FEITO 26/11 ~07h45: "bf2 - Black Galaxy A17 - anunciobf2" (120248916116930656) orçamento TOTAL R$ 60 → R$ 131; idade 18-65+ → 25 a 64.
+       Para a idade valer de verdade (no Advantage+ a idade é só sugestão; o único controle é a idade mínima), troquei o público para
+       "Alcançar um público limitado" (opções originais): Brasil, 25 a 64, todos os gêneros, sem direcionamento detalhado, todos os idiomas,
+       "Usar como sugestão" DESMARCADO (público estimado 120,6 a 141,9 milhões). Posicionamentos intocados (manuais; "Permitir gasto limitado em
+       posicionamentos excluídos" desmarcado; não pus o Feed do Threads sugerido). Programação intocada (26/11 19:00 a 28/11 00:59 da conta).
+       A Meta confirmou "1 conjunto de anúncios foi atualizado(a)"; segue "Programado"; "Conferir e publicar (4)" igual.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
