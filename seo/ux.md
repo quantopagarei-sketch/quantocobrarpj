@@ -10,34 +10,39 @@ Mantido pelo Agente de UX (quinta, 16h37). Objetivo: site curto, rápido e fáci
 - Extra (desde 19/11): nenhuma página rola para o lado em 320px (iPhone SE e celular com zoom de tela).
 - Como medir: Playwright em 375x800 e 1280x800, com Analytics, AdSense, contador, /eventos.js, Clarity e cotações bloqueados; telas = scrollHeight/800 ao carregar; link dentro de frase não conta como alvo pequeno; das páginas /clt-pj/NNNN/ e /split-payment/pix-NNNN/ medir só 2 de cada.
 
-## MEDIÇÃO 19/11/2026
+## MEDIÇÃO 26/11/2026
 | página | telas 375 | telas 1280 | KB | problemas |
 |---|---|---|---|---|
-| / | 11,1 | 8,6 | 78 | – |
-| /impostos/ | 9,9 | 6,9 | 78 | % do supermercado com 13,6px; "Dólar agora" com 12,8px |
-| /clt-pj/ | 10,3 | 8,0 | 51 | – |
-| /split-payment/ | 13,3 | 8,5 | 57 | – |
-| /mei-2027/ | 10,9 | 7,5 | 53 | – |
+| / | 11,2 | 8,7 | 80 | – |
+| /impostos/ | 10,0 | 7,0 | 79 | % do supermercado com 13,6px; "Dólar agora" com 12,8px |
+| /clt-pj/ | 10,4 | 8,1 | 52 | – |
+| /split-payment/ | 13,6 | 8,7 | 58 | – (era 13,3 em 19/11: cresce com FAQs novas) |
+| /mei-2027/ | 11,1 | 7,7 | 54 | – |
 | /mei-passou-do-limite/ | 13,9 | 9,2 | 56 | selos de 12,5px |
 | /privacidade/ | 4,7 | 3,1 | 37 | – |
 | /sobre/ | 5,1 | 3,5 | 39 | – |
 | /incorporar/ | 4,5 | 4,1 | 36 | crédito do exemplo com 13px (página protegida) |
-| /guia-split-payment/ | 4,3 | 2,9 | 39 | – |
+| /guia-split-payment/ | 5,0 | 3,5 | 41 | – |
 | /relatorio-mensal-mei/ | 7,8 | 5,7 | 48 | – |
 | /quanto-cobrar-por-hora/ | 9,7 | 6,8 | 49 | – |
-| /13-salario-pj/ | 10,6 | 7,6 | 49 | – |
-| /split-payment/como-calcular/ | 10,6 | 7,5 | 49 | 7 links de valores com 20–22px |
+| /13-salario-pj/ | 10,9 | 7,7 | 50 | – |
+| /split-payment/como-calcular/ | 10,6 | 7,5 | 49 | corrigido hoje (7 links de 20–22px → 0) |
 | /split-payment/quando-comeca/ | 10,0 | 6,1 | 49 | 3 links "Pix de R$" com 21px |
 | /split-payment/simples-nacional/ | 8,7 | 5,7 | 50 | – |
 | /split-payment/mei/ | 9,1 | 5,8 | 50 | – |
-| /split-payment/cartao/ (nova) | 9,5 | 6,0 | 51 | – |
-| /split-payment/tabela-pix-2027/ (nova) | 9,5 | 6,7 | 51 | – |
+| /split-payment/cartao/ | 9,5 | 6,0 | 51 | – |
+| /split-payment/tabela-pix-2027/ | 9,7 | 6,9 | 52 | – (página com mais cliques no Google: mexer com cuidado) |
+| /split-payment/boleto/ (nova) | 10,6 | 6,3 | 53 | – |
+| /ir-2027/ (nova) | 11,0 | 7,5 | 53 | corrigido hoje (caixa "Fontes" fora do contêiner) |
+| /das-mei-2027/ (nova) | 9,4 | 6,1 | 50 | – |
 | /split-payment/pix-1000/ e pix-2000 | 9,4 | 6,8 | 48 | – |
 | /clt-pj/4000/ e /5000/ | 6,3 | 4,1 | 42 | faixas da tabela com 13,1px |
 
-Números depois da correção de hoje. Todas dentro do orçamento; nenhuma com erro de JavaScript, rolagem lateral (375, 1280 e 320px), imagem sem width/height ou id repetido; 56 páginas do sitemap com zero link interno quebrado (âncoras conferidas). Antes da correção: as 56 páginas rolavam para o lado em 320px (o botão "Calcular agora" saía cortado) e todas tinham 3 ou 4 alvos pequenos no topo e no rodapé. Comum a todas (tema.css): etiquetas .tag com 12,8px e texto do consentimento do formulário com 13,1px.
+Números depois da correção de hoje. Todas dentro do orçamento; nenhuma com erro de JavaScript, rolagem lateral (375, 1280 e 320px), imagem sem width/height ou id repetido; 59 páginas do sitemap (+ obrigado, baixar, promessas e 404) com zero link interno quebrado (âncoras conferidas). Parser HTML: só /ir-2027/ tinha erro (um </div> sem abertura), corrigido. Maior página em 320px: /mei-passou-do-limite/ com 15,6 telas. Comum a todas (tema.css): etiquetas .tag com 12,8px e texto do consentimento do formulário com 13,1px. Em 1280px os links do menu do topo têm 24px (fora do orçamento, que vale para 375px).
 
 ## Feito
+- 26/11/2026 (UX): /ir-2027/ — um </div> a mais (sem abertura) tirava a caixa "Fontes" de dentro do contêiner: no celular ela encostava nas bordas da tela e no computador ocupava os 1.280px da largura, desalinhada do texto. Tirei o </div>; nenhum texto mudou. Telas: 11,0 → 11,0.
+- 26/11/2026 (UX): /split-payment/como-calcular/ — só CSS (bloco <style id="ux-css">, como em /clt-pj/): os 5 valores com link da tabela rápida ocupam a célula inteira (20px → 48px de altura) e os 2 links "Ver a página do Pix" dos exemplos ganharam área de toque de 49px sem mudar o visual (padding com margem negativa). Alvos pequenos: 7 → 0. Telas: 10,6 → 10,6.
 - 19/11/2026 (UX): tema.css (vale para todas as páginas; nenhum HTML mudou) — logo e botão "Calcular agora" do topo com 44px de altura (eram 34 e 38px; o topo continua com 60px no celular e 70px no computador, porque o respiro do .hd caiu de 12/10 para 8/8px), logo do rodapé com 44px e link solto (a.lk sem .btn: home, /clt-pj/, /mei-2027/) com 44px (era 24px). Celular pequeno (até 359px): logo com 28px e respiro lateral de 12px no topo (antes o botão saía cortado e as 56 páginas rolavam para o lado em 320px) e legenda da barra do split em uma coluna (o cartão da calculadora ficava maior que a tela em /, /split-payment/, pix-10000 e pix-20000). Alvos pequenos: 3–4 → 0 por página (ficam só os de como-calcular e quando-comeca, item 1 da fila). Rolagem em 320px: 56 → 0 páginas. Telas: iguais (+0,1 no máximo, pelo rodapé).
 - 12/11/2026 (UX): /impostos/ — o botão "Calcular agora" do topo apontava para #clt-mei, que só existe na home (link quebrado: o botão não fazia nada); agora vai para /#clt-mei, como nas outras páginas, e o logo vai para / (estava #top, copiado da home). Guia dos impostos: os 10 cartões e o do FGTS viraram <details> com o nome do imposto no <summary> (h3 mantido, nenhum texto apagado); CSS pequeno no bloco <style id="ux-css"> da página. FAQ e JSON-LD sem mudança. Telas: 16,4 → 9,9 no celular; 9,7 → 6,9 no computador.
 - 12/11/2026 (UX): /clt-pj/ — na tabela, "Peça como PJ" (a resposta da página) virou a 2ª coluna: antes ficava escondida no celular, só aparecia arrastando a tabela. Números iguais, só mudou a ordem das colunas. O link do salário ocupa a célula inteira (20px → 48px de altura) e há um aviso só no celular ("Arraste a tabela para o lado para ver o ganho real e o regime"). Links pequenos: 36 → 5. Telas: 7,0 → 7,0.
@@ -45,11 +50,11 @@ Números depois da correção de hoje. Todas dentro do orçamento; nenhuma com e
 - 08/11/2026 (sócio, pedido do Vini): home enxugada de 33,3 para 11,7 telas no celular. Ficaram: calculadoras CLT x PJ e split payment, grade "Mais calculadoras e guias" (#ferramentas), planilha, formulário do contador, 11 perguntas (CLT x PJ, MEI, split) e "Como calculamos" recolhido. Saíram para /impostos/: imposto no salário (janela #calc), supermercado, guia dos impostos, dólar e juros, contadores ao vivo e 9 perguntas. Explicação de split payment repetida saiu (está em /split-payment/). Links "/#guia" de 48 páginas agora apontam para /impostos/ (as protegidas continuam com /#guia, que cai no card). Script principal com $ seguro (elemento vazio se o id não existir).
 
 ## Fila
-1. /split-payment/como-calcular/ e /split-payment/quando-comeca/: links de valores (20–22px) com a célula ou a linha inteira tocável, como em /clt-pj/ (páginas com impressões no Google: só CSS, sem mexer em texto).
-2. /split-payment/ (13,3 telas): ver o que dá para recolher abaixo da calculadora, sem mexer no topo — só depois de 22/11 (teste de título do SEO) e sem tirar texto que responde busca.
-3. /mei-passou-do-limite/ (13,9 telas): ver se o passo a passo e as fontes podem ir para <details>.
+1. /split-payment/quando-comeca/: os 3 links "Pix de R$" (21px) da caixa de resposta com área de toque de 44px só com CSS (o mesmo padding com margem negativa dos cartões de /como-calcular/), sem mexer em texto.
+2. /split-payment/ (13,6 telas; 13,3 em 19/11 — cada FAQ nova soma): ver o que dá para recolher abaixo da calculadora, sem mexer no topo e sem tirar texto que responde busca. O SEO mede o título novo até 06/12: mexer depois disso, ou antes só se passar de 15 telas.
+3. /mei-passou-do-limite/ (13,9 telas; 15,6 em 320px): ver se o passo a passo e as fontes podem ir para <details>.
 4. Textos abaixo de 14px que vêm do tema ou da base (etiquetas .tag 12,8px, consentimento 13,1px, % do supermercado 13,6px, faixas das páginas de salário 13,1px, selos 12,5px, avisos de 13,6–13,8px): avaliar junto com o visual, sem mudar a aparência do site por conta própria.
-5. Toda medição: conferir também 320px nas páginas novas (rolagem lateral).
+5. Toda medição: conferir também 320px nas páginas novas e passar o parser HTML procurando </div> sem abertura (foi assim que apareceu o erro de /ir-2027/).
 
 ## Pedidos ao SEO
 - (nenhum)
