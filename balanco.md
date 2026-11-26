@@ -10,7 +10,7 @@ aviso de domingo.
 Diferença importante: DEPOSITADO é o dinheiro que o Vini pôs na conta de anúncios; GASTO é o que a Meta já
 consumiu. O saldo que sobra continua sendo dele.
 
-## Resumo (atualizado em 26/11/2026 ~07h45, pelo Gestor de Mídia v2)
+## Resumo (atualizado em 26/11/2026 ~07h42, pelo Gestor de Mídia v2)
 - Depositado na conta de anúncios: R$ 887,57 (Pix 14/11 R$ 228,00 + 21/11 R$ 358,57 + 25/11 R$ 150,00 + 25/11 R$ 151,00). Cobrança lida em 26/11 ~07h24 (20 a 26/11).
 - Saldo pré-pago: R$ 464,05 (26/11 ~07h24). Fatura 26/11 R$ 56,14 (a tela desconta o gasto quase na hora; a fatura só registra).
 - Saiu do saldo até agora: R$ 423,52 (R$ 887,57 − R$ 464,05).

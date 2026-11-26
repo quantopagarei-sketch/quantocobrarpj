@@ -1090,7 +1090,7 @@ DEU ERRADO (não repetir):
        A Meta confirmou "1 anúncio foi publicado"; situação "Em processamento" (análise). O antigo "bf1 - OPPO A6t - imagem 24/11" (120248916055990656,
        R$ 789,30, MAIOR que o preço de hoje) segue "Programado" até o novo ser aprovado (mesma regra da ORDEM 11 b).
        E e G (terminam às 18h) NÃO ganharam anúncio novo: o do E diz R$ 789,30 "conferido em 24/11" (acima do real, com data) e o do G está certo.
-  - SITUAÇÃO NO FIM DA VISITA (~07h47; tabela atualizada): bf1 (R$ 131 total) e bf2 (R$ 131 total, 25-64) = "Programado"; anúncios: "bf2 - Galaxy A17 128 GB -
+  - SITUAÇÃO NO FIM DA VISITA (~07h43; tabela atualizada): bf1 (R$ 131 total) e bf2 (R$ 131 total, 25-64) = "Programado"; anúncios: "bf2 - Galaxy A17 128 GB -
        imagem" = Programado (aprovado; a troca de público não o mandou de volta à análise) · "bf1 - OPPO A6t - imagem 24/11" = Programado · "bf1 - OPPO
        A6t - imagem 26/11" = EM ANÁLISE. E e G ativos até 26/11 19:00 da conta (18h de Brasília). B desativado. Rascunhos intocados ("Conferir e publicar (4)").
        Nenhum pedido de login, código ou bloqueio; o aviso "Verifique quem está por trás dos seus anúncios" segue lá (não cliquei).
