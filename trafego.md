@@ -1067,6 +1067,9 @@ DEU ERRADO (não repetir):
        "Usar como sugestão" DESMARCADO (público estimado 120,6 a 141,9 milhões). Posicionamentos intocados (manuais; "Permitir gasto limitado em
        posicionamentos excluídos" desmarcado; não pus o Feed do Threads sugerido). Programação intocada (26/11 19:00 a 28/11 00:59 da conta).
        A Meta confirmou "1 conjunto de anúncios foi atualizado(a)"; segue "Programado"; "Conferir e publicar (4)" igual.
+  - p) bf1 FEITO 26/11 ~07h49: "bf1 - Black OPPO A6t - anunciobf1" (120248916055980656) orçamento TOTAL R$ 240 → R$ 131 (lápis da coluna Orçamento,
+       "Publicar"; a Meta confirmou "1 conjunto de anúncios foi atualizado(a)"). Público, posicionamentos e programação intocados (18+, como manda o item c).
+       Black agora: bf1 OPPO R$ 131 + bf2 Galaxy R$ 131 = R$ 262 de verba (≈ R$ 300 saindo do saldo), os dois "Programado", anúncios aprovados.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
