@@ -1013,9 +1013,14 @@ DEU ERRADO (não repetir):
      - Total da Black T = (S − 35) ÷ 1,145, arredondado para baixo; máximo R$ 300.
      - Quem tem 80% (item b) = T x 0,8; o outro = T x 0,2 (arredondar para baixo). Ex.: S = R$ 300 → T = R$ 231 → R$ 184 + R$ 46.
      - Se S ≥ R$ 378: R$ 240 + R$ 60, como estava.
+     >>> 26/11 (Vini, no chat, depois da ORDEM): "Tem quase 500 de saldo". Com S ≈ R$ 500 vale a linha acima: R$ 240 + R$ 60 (base inteira).
+     A conta de 25/11 usava o saldo das 20h08 (R$ 324,88), velho. O Gestor confirma S na Cobrança às 7h19 e usa o número da tela.
+     SOBRA PARA DEGRAU = (S − 35 − 343) ÷ 1,145 (com S = R$ 500: ~R$ 106). Na checagem de 27/11 09h13 (R ≥ 1,5), o degrau é esse valor,
+     no máximo R$ 150; o das 15h07 só se ainda houver saldo. Teto da Black R$ 600 continua. <<<
   e) FIM DOS CONJUNTOS VELHOS (se bf1 e bf2 estiverem aprovados/"Programado" com a foto do produto na prévia): mudar o FIM de E, G E TAMBÉM do
      B Cinta para 26/11 19:00 da conta (= 18h de Brasília). O B sai junto porque o saldo é curto e a base da Black tem prioridade (ORDEM 14 e);
-     ele está sem venda desde 22/11 (R 0,62). Se algum da Black estiver reprovado: corrigir pelo motivo 1 vez e NÃO mexer no fim de E, G e B.
+     ele está sem venda desde 22/11 (R 0,62). [26/11: com S ≥ R$ 378 o B NÃO precisa sair antes: fica até o fim normal, 26/11 23:59 da conta;
+     só E e G terminam às 18h.] Se algum da Black estiver reprovado: corrigir pelo motivo 1 vez e NÃO mexer no fim de E, G e B.
   f) Preços: reconferir OPPO A6t e Galaxy A17 128 GB na página normal. Mudou → duplicar o anúncio com o preço do dia (Configuração do criativo
      0/x, LIÇÃO de 25/11) e pausar o velho. Texto com "(preço conferido em 26/11)".
   g) DEGRAUS de 27/11 (09h13 e 15h07): só se houver saldo para eles (não há sem Pix novo). Sem saldo: nada sobe. Segue valendo o corte das 15h07
@@ -1038,6 +1043,7 @@ DEU ERRADO (não repetir):
 - 23/11 22h40 Estrategista: Gestor sem visita hoje (passou para 7h19). E OPPO R = 2,35 (1 venda, Galaxy R$ 57,36); B Cinta R = 0,83 e só ~0,22 desde 22/11. 78% da comissão veio de 2 vendas "cheias": nova H4 (nicho). ORDEM 13: medir R com período igual e venda por nicho; B fica R$ 20; prévia da Black: bf1 celular, bf2 cinta só se vender de novo. Faltam ~R$ 231 para a Black (aviso em 24/11).
 - 24/11 22h40 Estrategista: Gestor cumpriu as ORDENS 11 b, 12 e 13 (G Galaxy no ar, anúncios com preço do dia). Sem leitura depois das 08h05: E R 1,67, B R 0,81 (~0,28 desde 22/11), G sem dado. ORDEM 15: Black montada em 25/11 (bf1 OPPO R$ 240 + bf2 Galaxy R$ 60, provisório; cinta fora sem venda nova); divisão final e ajuste ao saldo em 26/11. Saldo R$ 265: faltam ~R$ 230 para a base e ~R$ 575 para o teto; Vini avisado.
 - 25/11 22h40 Estrategista: Gestor cumpriu a ORDEM 15 a-f (Black programada; OPPO perdeu o EXTRAS, agora 5%). 24/11: 259 cliques, 0 venda. R: E 1,08 · G 0 · B 0,62. Detalhamento: quem clica em celular é homem 45+ (G 53% 65+). Pix de R$ 150 do Vini (saldo R$ 324,88): não cobre os R$ 300. ORDEM 16: Galaxy 80% / OPPO 20% (sem venda nova), Black ajustada ao saldo (~R$ 230), bf2 com idade 25-64, E/G/B terminam às 18h de 26/11; regra dos R$ 250 suspensa só para a base da Black; R < 0,7 na Black → pausa tudo em 28/11.
+- 26/11 Vini (chat): saldo de quase R$ 500. ORDEM 16 corrigida: Black com a base inteira (R$ 240 + R$ 60, 80% para quem ganhar a regra), ~R$ 106 livres para 1 degrau em 27/11 se R ≥ 1,5; o B Cinta fica até o fim normal.
 
 ## TESTE GUARDADO: PINTEREST (pedido do Vini em 22/11 23h11: "salva pra testar o Pinterest semana que vem")
 - Quando: semana de 30/11 (depois da Black). Não começar antes. O Claude principal retoma em 30/11.
