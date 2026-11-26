@@ -258,6 +258,7 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 | 21/11 | Jogo 12 barbeadores masculino e feminino | Higiene Pessoal | R$ 19,99 | R$ 1,97 (12%) | indireta | anunciob | B - Cinta |
 | 22/11 | Regata Dry Fit UV Camiseta Masculina Academia Treino Voker (2 unidades, 1 comprador) | Moda Fitness | R$ 71,40 (2 x R$ 35,70) | R$ 14,04 (24%; R$ 7,02 cada; era R$ 9,36 a 16%, o ML revisou em 24/11) | "direta" no painel (NÃO é o produto do anúncio) | anunciob | B - Cinta |
 | 23/11 | Celular Samsung Galaxy A17 256 GB 8 GB Cinza (loja Mercado Livre Eletrônicos) | Celulares e Smartphones | R$ 1.399 | R$ 57,36 (5% sobre ~82% do preço) | "direta" no painel (o anúncio era do OPPO A6t) | anuncioe | E - OPPO A6t |
+| 25/11 | Meia infantil com renda, laço e babado, feminina, para batizado, preta, 4 a 7 anos (loja CASAFACILPARAVOCELTDA) | Roupas de Bebê | R$ 24,90 | R$ 1,23 (6%) | indireta (nicho: NÃO, não é celular) | anunciog | G - Galaxy A17 |
 
 ## ISCAS (candidatos; o Curador acrescenta, o Estrategista escolhe)
 Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6+, 1.000+ vendidos, foto boa, desconto real.
