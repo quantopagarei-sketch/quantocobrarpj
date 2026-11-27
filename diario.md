@@ -78,3 +78,4 @@
 - 26/11 18:42 Claude principal: comecei (Gerenciador em uso) — checagem das 18h40: Black (bf1/bf2) começou? anúncio novo do bf1 aprovado (pausar o de R$ 789,30)? saldo. 1 aba, sem criar conjunto nem aumentar verba.
 - 26/11 18:42 Claude principal: terminei (Gerenciador livre). Black rodando (bf1+bf2 Ativos); OPPO antigo do bf1 pausado; saldo R$ 431,92 cobre o resto; aba fechada.
 - 26/11 20:50 Curador: 10 ofertas (20261126-01 a -10), 8 categorias; 2 premium (JBL Boombox 4 e Galaxy S25 5G); só 1 celular (S25: sem outro elegível, repetidos em 14 dias ou loja não oficial).
+- 26/11 21:16 Facebook: comecei (Facebook em uso) — 3 posts na página (+ stories/Reel se der tempo); grupos parados (2 avisos, sem decisão)
