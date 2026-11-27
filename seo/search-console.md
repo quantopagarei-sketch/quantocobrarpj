@@ -2,96 +2,102 @@
 
 Dados reais do Google (propriedade sc-domain:quantocobrarpj.com.br). Atualizado pela tarefa "Site: Search Console" (domingo e quarta).
 
-## ÚLTIMA LEITURA 25/11/2026
+## ÚLTIMA LEITURA 27/11/2026
 
 ### Desempenho (Resultados da pesquisa)
 
 | Período | Cliques | Impressões | CTR | Posição média |
 |---|---|---|---|---|
-| Últimos 28 dias | 19 | 1.330 | 1,4% | 9,4 |
-| Últimos 7 dias | 14 | 638 | 2,2% | 9,7 |
+| Últimos 28 dias | 30 | 1.760 (o Google mostra "1,76 mil") | 1,7% | 8,8 |
+| Últimos 7 dias | 25 | 1.030 (o Google mostra "1,03 mil") | 2,4% | 8,4 |
 
-Dados do Google vão até 23/11/2026 (28 dias = 27/10 a 23/11; 7 dias = 17/11 a 23/11). Na leitura de 22/11 eram 6/908 (28d) e 1/291 (7d). Salto grande: a /split-payment/tabela-pix-2027/ sozinha fez 13 cliques e 376 impressões na semana (CTR 3,5%, pos. 5,6). Só 2 dos 19 cliques aparecem com consulta; o resto é "anônimo".
+Dados do Google vão até 25/11/2026 (28 dias = 29/10 a 25/11; 7 dias = 19/11 a 25/11). Na leitura de 25/11 eram 19/1.330 (28d) e 14/638 (7d). A /split-payment/tabela-pix-2027/ sozinha fez 22 dos 25 cliques da semana (659 impressões, CTR 3,3%, pos. 5,9). Só 4 cliques aparecem com consulta; o resto é "anônimo".
 
 ### Consultas (28 dias)
 
-O Google mostra 55 consultas. Top 25:
+O Google mostra 68 consultas. Top 25:
 
 | Consulta | Cliques | Impressões | CTR | Posição |
 |---|---|---|---|---|
-| tabela do pix 2027 | 1 | 52 | 1,9% | 4,7 |
-| tabela pix 2027 | 1 | 45 | 2,2% | 4,4 |
+| tabela do pix 2027 | 2 | 70 | 2,9% | 4,6 |
+| tabela pix 2027 | 2 | 52 | 3,8% | 3,9 |
+| imposto do pix 2027 | 0 | 13 | 0% | 10,7 |
 | salario pj | 0 | 10 | 0% | 94,0 |
-| pix de 20000 reais | 0 | 7 | 0% | 8,1 |
-| valor da taxa do pix 2027 | 0 | 5 | 0% | 9,4 |
-| calculadora pj | 0 | 5 | 0% | 64,2 |
+| valor da taxa do pix 2027 | 0 | 8 | 0% | 8,1 |
+| pix de 20000 reais | 0 | 8 | 0% | 8,4 |
+| calculadora pj | 0 | 6 | 0% | 67,0 |
+| pix de 10.000 | 0 | 5 | 0% | 9,0 |
 | clt x pj | 0 | 5 | 0% | 74,4 |
-| pix de 10.000 | 0 | 4 | 0% | 8,8 |
+| o pix vai ser taxado em 2027 | 0 | 4 | 0% | 9,8 |
 | relatório mensal mei | 0 | 4 | 0% | 39,5 |
 | pj recebe decimo terceiro | 0 | 4 | 0% | 67,0 |
 | mei | 0 | 3 | 0% | 2,3 |
 | a partir de qual salário compensa ser pj | 0 | 3 | 0% | 34,7 |
 | split payment quando começa | 0 | 3 | 0% | 57,0 |
 | como calcular salario pj | 0 | 3 | 0% | 64,0 |
+| calcular salario pj x clt | 0 | 3 | 0% | 70,7 |
 | calculo salario pj | 0 | 3 | 0% | 71,0 |
 | calculo clt para pj | 0 | 3 | 0% | 77,7 |
-| imposto do pix 2027 | 0 | 2 | 0% | 11,0 |
+| sou mei | 0 | 2 | 0% | 3,5 |
+| mei sera afetado pelo split payment | 0 | 2 | 0% | 6,0 |
+| tarifa pix 2027 | 0 | 2 | 0% | 9,5 |
+| qual vai ser a taxa do pix em 2027 | 0 | 2 | 0% | 10,0 |
+| taxacao pix pj 2027 | 0 | 2 | 0% | 11,0 |
 | calculo pj clt | 0 | 2 | 0% | 49,5 |
-| como calcular preço por hora mei | 0 | 2 | 0% | 56,0 |
-| calculo clt pj | 0 | 2 | 0% | 62,0 |
-| calcular salario pj x clt | 0 | 2 | 0% | 70,0 |
-| mei sera afetado pelo split payment | 0 | 1 | 0% | 1,0 |
-| split payment cronograma | 0 | 1 | 0% | 1,0 |
-| trabalhador individual | 0 | 1 | 0% | 1,0 |
-| sou mei | 0 | 1 | 0% | 2,0 |
 
-Outras (1 impressão cada): e para mei (3), regime tributário mei (3), 10mil (5), pj 2000 (6), pretensão salarial pj hora (6), mei terá split payment (7), imposto no pix 2027 (8), pj ganha quanto (8), mei vai ter split payment (9), tarifa pix 2027 (9), split payment vai afetar mei (10), mei paga split payment (11), pix taxado em 2027 (11), taxacao pix pj 2027 (11), calculo pj (20), tabela do pix (36), conta clt x pj (39), calculo de pj (42), conversor de clt para pj (44), conversão clt para pj (52), salário pj (56), relatório mensal mei word (58), pj x clt (60), calculo desconto pj (62), pj e clt (63), relatorio mensal do mei (67), relatorio mensal mei (76), mei tem direito a decimo terceiro (79)…
+Outras: como calcular preço por hora mei 2 (56,0), calculo clt pj 2 (62,0), cnpj recebe decimo terceiro 1 (1,0), split payment cronograma 1 (1,0), trabalhador individual 1 (1,0) e mais ~38 com 1 impressão.
 
-7 dias (45 consultas): tabela do pix 2027 1 clique/39 imp. (pos. 3,6); tabela pix 2027 1/18 (2,9); valor da taxa do pix 2027 5 (9,4); calculadora pj 5 (64,2); pix de 20000 reais 4 (9,5); salario pj 4 (92,8); mei 3 (2,3); a partir de qual salário compensa ser pj 3 (34,7); split payment quando começa 3 (57,0); como calcular salario pj 3 (64,0); calculo salario pj 3 (71,0); o resto 1–2. Várias consultas novas de "mei + split payment" (pos. 1–11).
+7 dias: tabela do pix 2027 2 cliques/56 imp. (pos. 3,7); tabela pix 2027 2/23 (CTR 8,7%, pos. 1,6); imposto do pix 2027 13 (10,7); valor da taxa do pix 2027 8 (8,1); calculadora pj 6 (67,0); pix de 20000 reais 5 (9,6); o pix vai ser taxado em 2027 4 (9,8); mei 3 (2,3); calcular salario pj x clt 3 (70,7); calculo salario pj 3 (71,0); salario pj 3 (91,3); o resto 1–2. Novas da semana: "imposto do pix 2027", "o pix vai ser taxado em 2027", "qual vai ser a taxa do pix em 2027" (todas pos. ~10).
 
-### Páginas (28 dias; 40 páginas com impressão, top 15)
+### Páginas (28 dias; 45 páginas com impressão, top 15)
 
 | Página | Cliques | Impressões | CTR | Posição |
 |---|---|---|---|---|
-| /split-payment/tabela-pix-2027/ | 13 | 376 | 3,5% | 5,6 |
-| /split-payment/ | 3 | 344 | 0,9% | 5,9 |
-| /split-payment/pix-3000/ | 1 | 38 | 2,6% | 6,9 |
-| /split-payment/pix-1000/ | 1 | 34 | 2,9% | 6,5 |
-| /clt-pj/4000/ | 1 | 16 | 6,3% | 8,6 |
-| /split-payment/mei/ | 0 | 97 | 0% | 4,9 |
-| /split-payment/pix-2000/ | 0 | 75 | 0% | 6,8 |
-| /clt-pj/ | 0 | 52 | 0% | 54,6 |
-| /13-salario-pj/ | 0 | 36 | 0% | 15,8 |
-| /split-payment/pix-20000/ | 0 | 33 | 0% | 7,7 |
-| /split-payment/pix-10000/ | 0 | 31 | 0% | 6,6 |
-| /split-payment/como-calcular/ | 0 | 28 | 0% | 6,8 |
-| /quanto-cobrar-por-hora/ | 0 | 20 | 0% | 14,4 |
-| / | 0 | 17 | 0% | 52,5 |
-| /split-payment/boleto/ | 0 | 15 | 0% | 3,9 |
+| /split-payment/tabela-pix-2027/ | 22 | 660 | 3,3% | 5,9 |
+| /split-payment/ | 3 | 373 | 0,8% | 5,8 |
+| /split-payment/mei/ | 1 | 137 | 0,7% | 5,3 |
+| /split-payment/pix-3000/ | 1 | 44 | 2,3% | 6,7 |
+| /split-payment/boleto/ | 1 | 42 | 2,4% | 7,2 |
+| /split-payment/pix-1000/ | 1 | 35 | 2,9% | 6,5 |
+| /clt-pj/4000/ | 1 | 18 | 5,6% | 8,4 |
+| /split-payment/pix-2000/ | 0 | 76 | 0% | 6,8 |
+| /clt-pj/ | 0 | 53 | 0% | 54,9 |
+| /13-salario-pj/ | 0 | 46 | 0% | 15,1 |
+| /split-payment/pix-20000/ | 0 | 35 | 0% | 7,9 |
+| /split-payment/pix-10000/ | 0 | 32 | 0% | 6,8 |
+| /split-payment/como-calcular/ | 0 | 29 | 0% | 6,6 |
+| /quanto-cobrar-por-hora/ | 0 | 21 | 0% | 14,0 |
+| /relatorio-mensal-mei/ | 0 | 18 | 0% | 32,3 |
 
-Outras: /split-payment/pix-5000/ 15 imp. (pos. 5,6), /relatorio-mensal-mei/ 15 (34,6), /clt-pj/8000/ 14 (9,6), /clt-pj/10000/ 12 (6,5), /clt-pj/6000/ 12 (8,4), /mei-passou-do-limite/ 11 (8,3), /split-payment/cartao/ 10 (4,7), /split-payment/quando-comeca/ 9 (22,6), /clt-pj/5000/ 8 (7,3), /mei-2027/ 8 (9,3), /clt-pj/3000/ 6 (7,0), /impostos/ 3 (6,3), /clt-pj/2000/ 3 (8,3), /clt-pj/5500/ 2 (1,0), /clt-pj/2500/ 2 (8,0), 1 impressão: /clt-pj/ 18000 (6), 15000 (7), 20000 (7), 25000 (7), 7000 (7), 12000 (9), 9000 (10), 4500 (11), 14000 (77), /privacidade/ (62).
+Outras: /clt-pj/8000/ 17 (8,8), / 17 (57,0), /split-payment/cartao/ 16 (4,5), /pix-5000/ 16 (5,3), /quando-comeca/ 16 (15,6), /mei-passou-do-limite/ 13 (7,8), /clt-pj/10000/ 12 (6,5), /clt-pj/6000/ 12 (8,4), /clt-pj/3000/ 8 (6,9), /clt-pj/5000/ 8 (7,3), /mei-2027/ 8 (9,3), /impostos/ 4 (5,8), /clt-pj/25000/ 4 (6,3), /clt-pj/5500/ 3 (4,3), /clt-pj/2000/ 3 (8,3), 2 imp.: /clt-pj/ 18000, 2500, 2200, 2800, 4500; 1 imp.: /clt-pj/ 7500, 15000, 20000, 7000, 12000, 3200, 9000, 14000, /das-mei-2027/ (pos. 1,0), /privacidade/.
 
-7 dias: /split-payment/tabela-pix-2027/ 13 cliques/376 (pos. 5,6); /split-payment/pix-3000/ 1/5; /split-payment/mei/ 91 (5,1); /clt-pj/ 25 (61,7); /split-payment/ 19 (4,5); /split-payment/boleto/ 15 (3,9 — primeiras impressões); / 13 (60,5); /split-payment/cartao/ 10 (4,7); /pix-20000/ 9; /13-salario-pj/ 9 (16,3); /quando-comeca/ 9 (22,6); /pix-2000/ 8; /pix-1000/ 8; /clt-pj/8000/ 6; demais 2–5.
+7 dias (42 páginas): /split-payment/tabela-pix-2027/ 22 cliques/659 (pos. 5,9); /split-payment/mei/ 1/119 (5,3); /split-payment/boleto/ 1/42 (7,2); /split-payment/pix-3000/ 1/9; /split-payment/ 45 (4,7); /clt-pj/ 21 (63,6); /13-salario-pj/ 18 (14,7); /split-payment/cartao/ 16 (4,5); /quando-comeca/ 14 (13,6); / 14 (61,9); /clt-pj/8000/ 9; /pix-20000/ 9; /pix-2000/ 6; /como-calcular/ 6; /pix-1000/ 5; /relatorio-mensal-mei/ 5; demais 1–4.
 
-Leitura simples: a /split-payment/tabela-pix-2027/ virou a página principal do site (13 dos 14 cliques da semana, CTR 3,5%). /split-payment/mei/ tem 91 impressões na semana na posição 5,1 e zero clique — é a maior chance de ganhar cliques agora (título/descrição falando de "MEI vai ter split payment?"). /split-payment/boleto/ e /cartao/ já aparecem na posição ~4. /clt-pj/ principal e a home seguem longe (pos. 52–62).
+Leitura simples: a tabela do Pix 2027 continua puxando quase tudo (22 cliques). Surgiram buscas de "imposto/taxa do pix 2027" na posição ~10 — dá para subir com título/descrição falando de "imposto do Pix 2027". /split-payment/mei/ tem 119 impressões na semana (pos. 5,3) e só 1 clique — ainda é a maior chance de ganhar cliques. /clt-pj/ e a home seguem longe (pos. 55–64).
 
 ### Indexação (Páginas)
 
-Relatório (última atualização do Google ainda 15/11/2026, igual às leituras de 20/11 e 22/11): **40 indexadas, 16 não indexadas** (2 motivos com páginas).
+Relatório atualizado pelo Google em 22/11/2026 (antes era 15/11): **56 indexadas, 6 não indexadas** (4 motivos). Grande melhora: as 14 "Detectada, mas não indexada" de antes foram indexadas.
 
 | Motivo | Fonte | Páginas | Exemplos |
 |---|---|---|---|
-| Detectada, mas não indexada no momento | Google | 14 | /clt-pj/11000/, /clt-pj/14000/, /clt-pj/16000/, /clt-pj/18000/, /clt-pj/22000/ (lista de 15/11; várias já têm impressões agora, ex.: 18000, 14000, 7000, 9000) |
-| Página com redirecionamento | Site | 2 | https://www.quantocobrarpj.com.br/, http://quantocobrarpj.com.br/ (normal) |
-| Rastreada, mas não indexada no momento | Google | 0 | — |
+| Página com redirecionamento | Site | 2 | http://quantocobrarpj.com.br/, https://www.quantocobrarpj.com.br/ (normal) |
+| Página alternativa com tag canônica adequada | Site | 2 | https://quantocobrarpj.com.br/?s=20000, https://quantocobrarpj.com.br/?s= (normal: busca interna aponta para a página certa) |
+| Excluída pela tag "noindex" | Site | 1 | https://quantocobrarpj.com.br/promessas/ (fora do sitemap; noindex parece de propósito) |
+| Rastreada, mas não indexada no momento | Google | 1 | https://quantocobrarpj.com.br/clt-pj/30000/ (pedida em 20/11) |
+| Detectada, mas não indexada no momento | Google | 0 | — |
 
-Inspeção hoje: /ir-2027/ e /das-mei-2027/ (páginas novas) "O URL não está no Google" → indexação pedida.
+Inspeção hoje: /salario-minimo-2027/ (página nova) "O URL não está no Google" (Detectada, mas não indexada) → indexação pedida. /ir-2027/ e /guia-split-payment/ (alteradas) "O URL está no Google".
 
 ### Sitemaps
 
-https://quantocobrarpj.com.br/sitemap.xml — Processado (sem erro). Enviado 30/10/2026, última leitura pelo Google 25/11/2026, 59 páginas encontradas (= 59 URLs do arquivo, já com /ir-2027/ e /das-mei-2027/). Não precisou reenviar.
+https://quantocobrarpj.com.br/sitemap.xml — Processado (sem erro). Enviado 30/10/2026, última leitura pelo Google 27/11/2026, 60 páginas encontradas (= 60 URLs do arquivo, já com /salario-minimo-2027/). Não precisou reenviar.
 
 ## URLs pedidas
+
+27/11/2026 — 1 pedido (a página nova). Páginas alteradas em 26/11 e 27/11 (/, /clt-pj/, /impostos/, /mei-2027/, /das-mei-2027/, /ir-2027/, /guia-split-payment/, /split-payment/mei/, /pix-2000/, /pix-3000/, /como-calcular/) já estão indexadas (têm impressões ou "O URL está no Google" na inspeção) — não pedi de novo. Páginas principais todas indexadas. Única do sitemap fora do Google: /clt-pj/30000/ ("Rastreada, mas não indexada"), pedida em 20/11 — só repedir a partir de 04/12. Sem aviso de cota.
+
+- https://quantocobrarpj.com.br/salario-minimo-2027/ — 27/11/2026 — indexação solicitada (página nova de 27/11; "O URL não está no Google")
 
 25/11/2026 — 2 pedidos (as duas páginas novas). Páginas alteradas em 23/11 e 25/11 (/, /clt-pj/, /13-salario-pj/, /impostos/, /mei-2027/, /guia-split-payment/, /relatorio-mensal-mei/, /split-payment/, /split-payment/mei/, /split-payment/tabela-pix-2027/) já estão indexadas (têm impressões) — não pedi de novo. Demais não indexadas do sitemap foram pedidas há menos de 14 dias. Sem aviso de cota.
 
@@ -193,3 +199,4 @@ Antes (registrado em seo/diario.md): 30/10/2026 — /split-payment/, /mei-2027/,
 | 20/11/2026 | 1 | 187 | 40 | 16 (14 detectadas não indexadas + 2 redirecionamentos) |
 | 22/11/2026 | 1 | 291 | 40 (relatório de 15/11) | 16 (14 detectadas não indexadas + 2 redirecionamentos) |
 | 25/11/2026 | 14 | 638 | 40 (relatório de 15/11) | 16 (14 detectadas não indexadas + 2 redirecionamentos) |
+| 27/11/2026 | 25 | 1.030 | 56 (relatório de 22/11) | 6 (2 redirecionamentos + 2 canônicas ?s= + 1 noindex /promessas/ + 1 rastreada não indexada) |
