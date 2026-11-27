@@ -221,6 +221,9 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 ## PRODUTOS AVALIADOS (preencher; manter só os últimos 7 dias)
 | Data | Grupo | Produto | Preço | Comissão | Ganho/venda | Vendidos | Nota | Cupom | Chance (1-3) | Ganho esperado/clique | Passa? |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| 27/11 07h31 | no ar (bf1 na Black desde ~03h, troca pedida pelo Vini) | iPhone 17 256 GB 8 GB Preto (MLB1055308917), loja oficial Apple / ML Eletrônicos, Full | R$ 5.566,05 no Pix (de R$ 7.999, 30% OFF) ou R$ 5.859 em 27x; selo BLACK FRIDAY | GANHOS 5% | ~R$ 228 (Pix) a ~R$ 240 (cartão) | não lido | 4,9 (20.042) | não conferido | 1 (caro) | não medido (no ar há ~4 h: 20 cliques na Meta, CPC R$ 0,39) | no ar (bf1) |
+| 27/11 07h23 | no ar (bf2 na Black) | Galaxy A17 128 GB Preto (MLB65114795), loja oficial Samsung / ML Eletrônicos, Full | R$ 949,05 no Pix (de R$ 1.499, 36% OFF) ou R$ 999 em 15x; selo "PREÇO BAIXOU" | GANHOS 5% | ~R$ 39 (Pix) a R$ 40,96 (REAL, venda de 26/11 em 15x) | +100 mil | 4,9 (115.361) | não conferido | 3 pela procura | REAL bf2: R$ 40,96 em 132 cliques do ML (R$ 0,31 por clique; venda DIRETA do próprio Galaxy) | no ar (bf2, 25-64) |
+| 27/11 07h22 | fora do ar desde ~03h (Vini trocou pelo iPhone 17) | OPPO A6t 128 GB Azul Cristal (MLB66447547), loja oficial Oppo, Full | R$ 699,99 no Pix (de R$ 1.299, 46% OFF) ou R$ 777,77 em 18x; selo BLACK FRIDAY | GANHOS EXTRAS 10% (patroc. OPPO) | ~R$ 57 (só os 10%) a ~R$ 86 (se somar aos 5%) | +10 mil | 4,8 (4.342) | não conferido | 2 | REAL bf1-OPPO: 0 venda em ~157 cliques do ML (26/11 e madrugada de 27/11) | fora (decisão do Vini) |
 | 26/11 07h33 | no ar (E até 18h; bf1 na Black) | OPPO A6t 128 GB Azul Cristal (MLB66447547), loja oficial Oppo, Full | R$ 781,89 no Pix (de R$ 1.299, 39% OFF) ou R$ 868,77 em 18x; selo BLACK FRIDAY | GANHOS EXTRAS 10% (patroc. OPPO) DE VOLTA | ~R$ 64 (só os 10%) a ~R$ 96 (se somar aos 5%) | +10 mil | 4,8 (4.278) | não conferido | 2 | REAL: R$ 57,36 em 280 cliques do ML (R$ 0,20 por clique; a venda foi de um Galaxy) | no ar (bf1 com anúncio novo de R$ 781,89) |
 | 26/11 07h33 | no ar (G até 18h; bf2 na Black) | Galaxy A17 128 GB Preto (MLB65114795), loja oficial Samsung / ML Eletrônicos, Full | R$ 949,05 no Pix (de R$ 1.499, 36% OFF) ou R$ 999 em 15x; selo "PREÇO BAIXOU" | GANHOS 5% | ~R$ 39 a R$ 41 | +100 mil | 4,9 (112.527) | não conferido | 3 pela procura | REAL: R$ 1,23 em 167 cliques do ML (1 venda indireta) | no ar (bf2 25-64) |
 | 25/11 07h27 | no ar (E e bf1) | OPPO A6t 128 GB Azul Cristal (MLB66447547), loja oficial Oppo, Full | R$ 789,30 no Pix (de R$ 1.299, 39% OFF) ou R$ 877 em 18x; selo BLACK FRIDAY | GANHOS 5% (o EXTRAS 10% da OPPO SUMIU) | ~R$ 32 | +10 mil | 4,8 (4.214) | não conferido | 2 | REAL: R$ 57,36 em 212 cliques do ML (R$ 0,27 por clique; a venda foi de um Galaxy) | no ar (E até 26/11; bf1 na Black) |
@@ -316,6 +319,9 @@ DEU CERTO (replicar):
 - A venda direta pagou MAIS que a etiqueta: o painel mostra "Venda direta: 44%" (R$ 35,10 = 36,8% do preço cheio), e a etiqueta da cinta diz
   GANHOS EXTRAS 27%. Pelo que esta venda mostra, o "extra" SOMA com a comissão normal da categoria (16% em moda) e a base de cálculo é ~82% do
   preço (as indiretas também: 6% rende 4,9% do preço). É 1 venda só: confirmar na próxima venda direta antes de usar isso na conta.
+- 26/11 (1ª noite da Black): o bf2 (Galaxy A17 128 GB, público com idade TRAVADA em 25-64) trouxe a 1ª venda de celular do PRÓPRIO produto anunciado
+  (R$ 999 → R$ 40,96) com R$ 27,58 gastos e 143 cliques até 23h (R = 1,30). O clique do 25-64 saiu MAIS BARATO que o do bf1 18+ (R$ 0,19 x R$ 0,25).
+  É 1 venda: não valida nada (ORDEM 16 q); serve só de pista para a H2.
 DEU ERRADO (não repetir):
 - Anúncio para o canal do Telegram (R$ 20,92, 0 inscrito) e para seguidores da página (R$ 18,64, 0 seguidor).
 - Celular caro com comissão baixa sem Black (iPhone 16e e Galaxy A17: R$ 51,61, 340 cliques, 0 venda). Celular só volta com comissão ≥ 10% (ex.: OPPO A6t) e preço de Black.
@@ -1168,6 +1174,17 @@ DEU ERRADO (não repetir):
        +100 mil; selo "PREÇO BAIXOU"; GANHOS 5%; estoque disponível = IGUAL ao anúncio do bf2 → nada a fazer.
        OPPO A6t Azul Cristal CAIU para R$ 699,99 no Pix (riscado R$ 1.299, 46% OFF) ou R$ 777,77 em 18x R$ 43,21; 4,8 (4.342); selo BLACK FRIDAY; GANHOS
        EXTRAS 10% (OPPO). Gerei a imagem nova (anuncio/oppoa6t-1080x1350.jpg com R$ 699,99), mas NÃO criei anúncio: o OPPO saiu do ar por decisão do Vini às ~03h.
+       iPHONE 17 256 GB Preto (o anúncio no ar do bf1), página às ~07h31: R$ 5.566,05 no Pix (riscado R$ 7.999, 30% OFF) ou R$ 5.859 em 27x R$ 217; 4,9 (20.042);
+       selo BLACK FRIDAY; loja oficial Apple, vendido por Mercado Livre Eletrônicos, Full; estoque disponível; GANHOS 5% (~R$ 228 a R$ 240 por venda direta).
+       Prévia do anúncio (só leitura, ~07h32): imagem "R$ 5.566,05 no Pix", texto "... De R$ 7.999 por R$ 5.566,05 no Pix (conferido em 27/11)", título
+       "iPhone 17 256 GB por R$ 5.566,05 no Pix" = IGUAL à página → nada a fazer.
+       PARA O CLAUDE PRINCIPAL (não mexi): a imagem e o texto do iPhone dizem "Loja oficial Apple" (é o vendedor, está na página), mas o design.md proíbe a
+       palavra "oficial" em anúncio. Trocar agora mandaria o anúncio de volta à análise no dia da Black; fica para você decidir.
+  - SITUAÇÃO NO FIM DA VISITA (~07h32): bf1 (iPhone 17) e bf2 (Galaxy) ATIVOS, 50/50, nada editado, criado ou pausado nesta visita. Rascunhos intocados
+       ("Conferir e publicar (4)"). Aba fechada.
+  - PARA AS CHECAGENS DE HOJE (09h13 e 15h07, Claude principal): R da Black 0,59 (mesmo período) / 0,37 (da hora), 1 venda (bf2) → sem degrau (regra q) e sem
+       remanejar (regra p). Saldo R$ 324,31 cobre o resto da Black (~R$ 188 saindo) com folga de ~R$ 136. O bf1 tem R$ 54,75 e 0 venda em anunciobf1, mas só
+       R$ 7,20 disso foram no iPhone (o resto foi OPPO).
   - e) Fim do bf1 e do bf2: intocado (28/11 00:59 da conta). f) Nenhuma reprovação; nenhum pedido de login, código ou bloqueio.
 
 ## Diário do Estrategista
