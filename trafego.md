@@ -1145,6 +1145,30 @@ DEU ERRADO (não repetir):
      (ORDEM 16 l: R ≥ 1,5 com 2+ vendas), a ordem nova sai em 27/11 22h37 e quem executa é a visita seguinte; sem ordem, acabam e fica tudo parado.
   f) Reprovação: corrigir pelo motivo 1 vez e anotar. Login caído, código ou bloqueio: NÃO insistir; escrever "PARA O VINI (Diretor avisa)" no diario.md.
   g) Marcar FEITO aqui com hora; balanco.md e diario.md (comecei/terminei).
+  EXECUÇÃO 27/11 (Gestor v2, visita das 7h19; 1 aba; TRAVA no diario.md 07:20):
+  - MUDANÇA FEITA DE MADRUGADA E NÃO GRAVADA AQUI (achada no Gerenciador às ~07h25 e explicada no documento do projeto "TROCA-OPPO-IPHONE-27-11",
+       escrito pelo Claude principal às ~03h; o push dele foi negado): às ~03h05 de 27/11 o VINI pausou o bf1 (OPPO) e pediu o anúncio do iPHONE 17 no
+       lugar, com a mesma verba. O conjunto bf1 (120248916055980656) virou "bf1 - Black iPhone 17 (era OPPO) - anunciobf1" (mesma verba R$ 131 total e
+       mesma programação); anúncio novo "bf1 - iPhone 17 256 GB - imagem 27/11" (120248946325860656), link .../p/MLB1055308917 + matt_word=anunciobf1,
+       imagem com "R$ 5.566,05 no Pix" (segundo o documento; o arquivo anuncio/iphone17-1080x1350.jpg NÃO está no repositório); "bf1 - OPPO A6t - imagem 26/11"
+       DESLIGADO. Conferido por mim às ~07h27: os três exatamente assim (iPhone "Ativo"; os dois OPPO "Desativado"). Não religuei o OPPO.
+  - a) FEITO 07h21-07h29: COLETA em balanco.md (ML 20-26/11 fechado + 26/11 + hoje até 4h27; Gerenciador Máximo e até 26/11; Cobrança).
+       26/11: 401 cliques no ML e 2 VENDAS NOVAS: Galaxy A17 128 GB Preto R$ 999 → R$ 40,96 DIRETA em anunciobf2 (o próprio produto do bf2: 1ª venda da
+       Black) e 6 pilhas Duracell 675 (4 un.) R$ 99,52 → R$ 4,89 indireta em anunciog (não é celular). Tabela VENDAS atualizada.
+       Black até ~07h27: bf1 R$ 54,75 (41,8% do total; 206 cliques; CPC R$ 0,26; 0 venda) · bf2 R$ 42,06 (32,1%; 200 cliques; CPC R$ 0,21; CTR 2,00%; 1 venda).
+       R da Black: 0,59 no mesmo período (até 26/11) · 0,37 da hora. bf2 1,30 / 0,85. bf1 0.
+       Saldo S = R$ 324,31; conciliação: R$ 887,57 − 324,31 = R$ 563,26 saídos = R$ 494,20 de gasto x 1,140 (sem diferença). Sem Pix novo.
+       Antigo "bf1 - OPPO A6t - imagem 24/11": DESATIVADO (ok).
+  - b) 50/50 FICA: 1 venda no bf2 e 0 no bf1 (a regra pede 3+ vendas num e 0 no outro, com os dois acima de R$ 60). Nenhum degrau (não é a visita do degrau).
+       Nenhum conjunto pausado (não pausar de manhã). PARA A CHECAGEM DAS 15h07: o bf1 já passou de R$ 54 sem venda em anunciobf1, mas o produto dele
+       mudou às ~03h (o iPhone tem só R$ 7,20 gastos, 18 cliques, CPC R$ 0,40, CTR 1,58%); o bf2 tem a única venda da Black.
+  - c) PÚBLICO DO bf2: NÃO mexi. O bf2 tem venda em anunciobf2 e o CPC dele (R$ 0,21) é MENOR que o do bf1 (R$ 0,26). Entrega normal: bf2 com 32% do
+       orçamento gasto (acima dos 20%). H2: com a idade travada em 25-64 o clique NÃO encareceu (R$ 0,19 até 26/11 contra R$ 0,25 do OPPO 18+) e veio a venda.
+  - d) PREÇOS (página normal, ~07h23): Galaxy A17 128 GB Preto R$ 949,05 no Pix (riscado R$ 1.499, 36% OFF) ou R$ 999 em 15x R$ 66,60; 4,9 (115.361);
+       +100 mil; selo "PREÇO BAIXOU"; GANHOS 5%; estoque disponível = IGUAL ao anúncio do bf2 → nada a fazer.
+       OPPO A6t Azul Cristal CAIU para R$ 699,99 no Pix (riscado R$ 1.299, 46% OFF) ou R$ 777,77 em 18x R$ 43,21; 4,8 (4.342); selo BLACK FRIDAY; GANHOS
+       EXTRAS 10% (OPPO). Gerei a imagem nova (anuncio/oppoa6t-1080x1350.jpg com R$ 699,99), mas NÃO criei anúncio: o OPPO saiu do ar por decisão do Vini às ~03h.
+  - e) Fim do bf1 e do bf2: intocado (28/11 00:59 da conta). f) Nenhuma reprovação; nenhum pedido de login, código ou bloqueio.
 
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
