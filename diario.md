@@ -80,3 +80,4 @@
 - 26/11 20:50 Curador: 10 ofertas (20261126-01 a -10), 8 categorias; 2 premium (JBL Boombox 4 e Galaxy S25 5G); só 1 celular (S25: sem outro elegível, repetidos em 14 dias ou loja não oficial).
 - 26/11 21:16 Facebook: comecei (Facebook em uso) — 3 posts na página (+ stories/Reel se der tempo); grupos parados (2 avisos, sem decisão)
 - 26/11 21:18 Facebook: terminei. 3 posts na página (Hot Wheels, fone Philips, cafeteira Arno), prévia do link; stories e Reel não feitos (tempo); grupos parados (2 avisos, sem decisão); nenhum aviso; aba fechada.
+- 26/11 Estrategista: Gestor fez a ORDEM 16 toda; Black no ar desde 18h (50/50, R$ 262), sem venda medida ainda; celulares 24-25/11 R ≈ 0,02; saldo cobre a Black (folga ~R$ 117, sem Pix). ORDEM 17 para 27/11 7h19: coleta, 50/50 fica, bf2 volta a 18+ só se o clique custar 2x, preços.
