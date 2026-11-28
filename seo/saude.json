@@ -1,7 +1,9 @@
 {
- "verificado_em": "27/11/2026, 09:34:33",
- "status": "OK",
- "problemas": [],
+ "verificado_em": "28/11/2026, 09:25:21",
+ "status": "PROBLEMA",
+ "problemas": [
+  "Página não abriu: https://quantocobrarpj.com.br/clt-pj/"
+ ],
  "ok": [
   "60 páginas do sitemap verificadas",
   "Calculadora CLT x PJ ok",
