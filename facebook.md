@@ -204,6 +204,8 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
   - 28/11 04:18 | 20261126-07 | Headphone Philips TAH2300 | R$ 99 | cartão não
   - 28/11 04:21 | 20261126-08 | Kit ferramentas 122 peças | R$ 74 | cartão não
   - 28/11 04:25 | 20261126-06 | Panelas Essenza 10 peças | R$ 180,26 | cartão não
+  - 28/11 08:44 | cupons | CUPONS DO DIA (5 cupons públicos) | - | cartão não
+  - 28/11 08:46 | 20261126-03 | Cafeteira Dolce Gusto Arno Genio S Plus | R$ 459,83 | cartão sim
 - VISUAL DOS POSTS (pedido do Vini em 28/11: "aparecerem melhor visualmente, já mostrar preço, cupom e parcelamento"): todo post de oferta no GRUPO PRÓPRIO (e, se der tempo, na página) leva o CARTÃO DE OFERTA como foto, no lugar da prévia do link:
   1. Ao conferir o preço na página do produto, anote também o PARCELAMENTO exatamente como a página mostra (ex.: "10x R$ 9,90 sem juros"; se a página não mostrar parcelas, deixe vazio) e o CUPOM, se a página mostrar um cupom público para aquele produto (ex.: "Cupom de R$ 20 OFF acima de R$ 150"; se não houver, vazio). Nunca invente parcela nem cupom.
   2. Numa aba sua do facebook.com, rode cartao/cartao.js inteiro no javascript_tool, trocando o objeto do fim pelos dados conferidos (nome curto, preco, preco_de só se a página mostrar o riscado, parcelas, cupom, imagem .jpg da fila). Deve responder "ok".
