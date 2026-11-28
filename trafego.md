@@ -304,6 +304,9 @@ Sem "perfeito": nenhum produto tem venda garantida. O risco é controlado assim:
 | 25/11 | Meia infantil com renda, laço e babado, feminina, para batizado, preta, 4 a 7 anos (loja CASAFACILPARAVOCELTDA) | Roupas de Bebê | R$ 24,90 | R$ 1,23 (6%) | indireta (nicho: NÃO, não é celular) | anunciog | G - Galaxy A17 |
 | 26/11 | Celular Samsung Galaxy A17 128 GB 4 GB Preto (loja Mercado Livre Eletrônicos) | Celulares e Smartphones | R$ 999 (o preço em 15x; o anúncio mostra R$ 949,05 no Pix) | R$ 40,96 (5% sobre ~82%) | "direta" no painel e É O PRODUTO DO ANÚNCIO (celular: SIM) — 1ª venda da Black | anunciobf2 | bf2 - Black Galaxy A17 (25-64, desde 26/11 18h) |
 | 26/11 | 6 pilhas Duracell 675 PR44 para aparelho auditivo, 4 unidades (loja NVFULLCOMM) | Pilhas e Carregadores | R$ 99,52 | R$ 4,89 (5,5%) | indireta (celular: NÃO) | anunciog | G - Galaxy A17 (rodou até 26/11 18h) |
+| 27/11 | Tinta para parede e pintura residencial, cerâmica fosco, "escolha a sua cor" (loja ULTRASELA) | Loja das Tintas | R$ 70,49 | R$ 8,09 (14%) | indireta (celular: NÃO) | anunciobf1 | bf1 - Black (OPPO A6t até ~03h de 27/11; iPhone 17 depois; hora da venda não medida) |
+| 27/11 | Kit 10 calcinhas cotton algodão tanga feminina, tamanho G (loja VELTORUNDERWARE) | Moda Íntima e Lingerie | R$ 66,00 | R$ 7,04 (13%) | indireta (celular: NÃO) | anunciobf1 | bf1 - Black (OPPO até ~03h; iPhone 17 depois) |
+| 27/11 | Cooktop 5 bocas Dako Pratiko com mesa de vidro, preto, bivolt (loja ATLAS ELETRODOMÉSTICOS) | Fornos e Fogões | R$ 469,00 | R$ 9,61 (2,5%) | indireta (celular: NÃO) | anunciobf2 | bf2 - Black Galaxy A17 (25-64) |
 
 ## ISCAS (candidatos; o Curador acrescenta, o Estrategista escolhe)
 Critérios: GANHOS EXTRAS ≥ 15% (de preferência ≥ 20%), R$ 30-200, nota 4,6+, 1.000+ vendidos, foto boa, desconto real.
