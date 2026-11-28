@@ -202,6 +202,26 @@ Alavancas (o que fazer):
 - Dinheiro: saldo R$ 431,92 (26/11 18h50); o resto da Black sai ~R$ 298 → sobra ~R$ 134 saindo (~R$ 117 de verba). Fase C coberta: NÃO pedir Pix.
   Prejuízo do projeto já passa de R$ 250 (R$ -297 se tudo confirmar); a regra de parar tudo só está suspensa para a base da Black (aprovada pelo Vini).
 
+### Revisão do Estrategista (27/11 22h40, números do Gestor v2 de 27/11 07h21-07h32 + corte do Claude principal às 15h10-15h30; NADA medido depois) — amostra pequena
+| Etiqueta/conjunto | Gasto da Black (até ~15h30) | Cliques Meta | CPC | Cliques ML (26/11 a 27/11 parcial) | Vendas | Comissão (em revisão) | R (x1,14) |
+|---|---|---|---|---|---|---|---|
+| anunciobf1 bf1 (OPPO até ~03h de 27/11; iPhone 17 depois) | R$ 87,96 (26/11 33,22 + 27/11 54,74) | não lido no total (27/11: 224) | R$ 0,24 (27/11) | 277 | 1 indireta (produto não registrado) | R$ 8,09 | 0,08 |
+| anunciobf2 bf2 Galaxy A17 128 GB (25-64) | R$ 86,66 (26/11 27,58 + 27/11 59,08) | não lido no total (27/11: 264) | R$ 0,22 (27/11) | 291 | 1 DIRETA (o próprio Galaxy, 26/11) | R$ 40,96 | 0,41 |
+| BLACK (bf1 + bf2) | R$ 174,62 de R$ 262 (~R$ 199 saídos) | - | - | 568 | 2 | R$ 49,05 | 0,25 (se fechar sem venda nova: ~0,16) |
+| TOTAL desde 14/11 (projeção no fim da Black, verba inteira gasta) | ~R$ 659 de gasto = ~R$ 752 saídos | - | - | - | 12 pedidos | ~R$ 180 em revisão · R$ 0 confirmada | ~0,24 |
+- 27/11 depois das 15h30: não medido. O painel do ML atrasa; venda da noite da Black só aparece em 28/11 ou depois. Para o R da Black chegar a 0,7 seriam precisas
+  ~4 vendas de Galaxy a mais; para o 1,5 da extensão (ORDEM 16 l), ~R$ 450 de comissão. Nenhum dos dois é provável: a Black NÃO é estendida (ORDEM 18).
+- CONTA DO CELULAR A 5% (a lição mais importante da semana): uma venda do Galaxy paga ~R$ 41. Com clique a ~R$ 0,22 x 1,14 = R$ 0,25, empatar exige 1 venda a cada
+  ~160 cliques. Medido: bf2 1 em 291 cliques do ML (R 0,41); E+G em 24-26/11: 1 venda de celular em ~600 cliques. Celular a 5% não fecha a conta com o nosso
+  clique e a nossa conversão, nem na Black. O único "lucro" de celular foi o Galaxy 256 GB de 23/11 (R$ 57,36), uma venda.
+- iPhone 17 (R$ 5.566, 5% ≈ R$ 228 por venda): ~R$ 55 gastos e ~224 cliques em 27/11, 0 venda do próprio iPhone (1 indireta de R$ 8,09). H3 PREÇO: mais um 0 em celular caro.
+- H1 COOKIE: mantida (a venda do bf1 é de outro produto). H4 NICHO: não medido (o produto da venda do bf1 não foi anotado; ORDEM 18 a).
+- H2 PÚBLICO: o bf2 com idade travada 25-64 teve clique MAIS BARATO que o bf1 18+ (R$ 0,22 x R$ 0,24 em 27/11) e a única venda direta. É 1 venda: pista, não prova.
+  O Detalhamento de 28/11 (ORDEM 18 a) diz quem clicou.
+- REGRA DOS R$ 250 (Regras de corte): BATEU. Prejuízo ~R$ 570 se tudo confirmar, e nenhum conjunto acima de 0,7 (melhor da Black: bf2 0,41). A suspensão valia só
+  para a base da Black, que termina hoje às 23h59. Daqui em diante: NADA novo no ar sem o "sim" do Vini. Vini avisado por push hoje (ORDEM 16 h).
+- Dinheiro: saldo no fim da Black ~R$ 136 (324,31 às 07h29 − ~R$ 89 até 15h30 − ~R$ 100 do resto da verba). Fica parado na conta; ninguém gasta.
+
 ## ESCOLHA DO PRODUTO (pedido do Vini, 20/11/2026 06h33) — OBRIGATÓRIA antes de pôr dinheiro em qualquer produto
 Comparar sempre os dois grupos e escolher pela conta, nunca por achismo:
 - GRUPO 1 "MAIS VENDIDOS": produtos campeões de venda do ML (páginas "Mais vendidos" por categoria e ofertas do dia), com a comissão de cada um.
@@ -322,6 +342,9 @@ DEU CERTO (replicar):
 - 26/11 (1ª noite da Black): o bf2 (Galaxy A17 128 GB, público com idade TRAVADA em 25-64) trouxe a 1ª venda de celular do PRÓPRIO produto anunciado
   (R$ 999 → R$ 40,96) com R$ 27,58 gastos e 143 cliques até 23h (R = 1,30). O clique do 25-64 saiu MAIS BARATO que o do bf1 18+ (R$ 0,19 x R$ 0,25).
   É 1 venda: não valida nada (ORDEM 16 q); serve só de pista para a H2.
+- 27/11 (fim da Black, parcial até 15h30): a Black inteira (R$ 175 de R$ 262 de verba) trouxe 2 vendas e R$ 49 (R ≈ 0,25). Celular a 5% paga ~R$ 41 por venda e
+  precisaria de 1 venda a cada ~160 cliques para empatar; tivemos 1 em ~290. Para o Natal: tráfego pago só para produto cuja conta feche ANTES de gastar
+  (ganho por venda ÷ custo por clique com encargos > cliques por venda medidos), e não para celular de 5%.
 DEU ERRADO (não repetir):
 - Anúncio para o canal do Telegram (R$ 20,92, 0 inscrito) e para seguidores da página (R$ 18,64, 0 seguidor).
 - Celular caro com comissão baixa sem Black (iPhone 16e e Galaxy A17: R$ 51,61, 340 cliques, 0 venda). Celular só volta com comissão ≥ 10% (ex.: OPPO A6t) e preço de Black.
@@ -334,6 +357,8 @@ DEU ERRADO (não repetir):
   página, até iPhone). Aconteceu na cópia do G para o bf2 (o G original estava 0/4). Em TODA cópia: abrir "Configuração do criativo" e deixar 0/x
   antes de publicar. Na cópia do conjunto E também veio junto o anúncio antigo pausado: apagar a cópia antes de publicar.
 - 25/11: GANHOS EXTRAS somem sem aviso de verdade: o OPPO A6t passou de EXTRAS 10% (24/11 08h02) para GANHOS 5% (25/11 07h27), às vésperas da Black.
+- 27/11: celular caro na Black (iPhone 17, R$ 5.566, 5%): ~224 cliques, 0 venda do próprio aparelho. Troca de produto às 03h do dia da Black, sem
+  registro no repositório (achada pelo Gestor no Gerenciador). Toda troca vai escrita aqui antes ou logo depois.
 - Produto anunciado que só gera clique: espelho/balança e câmera (anuncioa, 64 cliques, 0 venda) nunca venderam o produto em si.
 - Etiqueta única "anuncio" para tudo (não dava para saber o que vendeu).
 - Divulgação orgânica (Telegram, Facebook, X): ~45 cliques, 0 venda. Não gastar verba nisso.
@@ -1128,7 +1153,7 @@ DEU ERRADO (não repetir):
        (~R$ 39). (2) A venda nova de 25/11 em anunciog é INDIRETA e fora do nicho (meia infantil, R$ 1,23): H4 sem confirmação. (3) Folga de saldo para um
        degrau em 27/11: ~R$ 112 de verba sem Pix (balanco.md > Resumo). (4) O bf2 agora usa público LIMITADO 25-64 (idade travada), o bf1 segue Advantage+ 18+.
 
-- [ABERTA] 26/11 22h40 — ORDEM 17 (Estrategista). BLACK NO AR: CONFERIR, NÃO MEXER SEM REGRA. PARA O GESTOR v2 EM 27/11 ÀS 7h19.
+- [FEITA 27/11 07h34 pelo Gestor v2] 26/11 22h40 — ORDEM 17 (Estrategista). BLACK NO AR: CONFERIR, NÃO MEXER SEM REGRA. PARA O GESTOR v2 EM 27/11 ÀS 7h19.
   Segue a ORDEM 16 com os ajustes n-s do Vini (valem mais onde houver diferença). TRAVA de sempre; esta é a sessão de edição de 27/11.
   a) COLETA (ML primeiro: aba Etiquetas e Vendas, "ontem" 26/11 fechado + hoje parcial; depois Gerenciador; Cobrança no fim). Gravar em balanco.md:
      - ML: cliques e vendas de anunciobf1, anunciobf2, anuncioe, anunciog (E e G rodaram até 18h de 26/11; o cookie de 24 h ainda pode trazer venda).
@@ -1187,6 +1212,27 @@ DEU ERRADO (não repetir):
        R$ 7,20 disso foram no iPhone (o resto foi OPPO).
   - e) Fim do bf1 e do bf2: intocado (28/11 00:59 da conta). f) Nenhuma reprovação; nenhum pedido de login, código ou bloqueio.
 
+- [ABERTA] 27/11 22h40 — ORDEM 18 (Estrategista). FIM DA BLACK: TUDO PARADO, SÓ COLETA. PARA O GESTOR v2 EM 28, 29 E 30/11 ÀS 7h19.
+  MOTIVO: Black com R ≈ 0,25 até 15h30 (2 vendas, R$ 49,05 em ~R$ 199 saídos); a extensão para 28/11 (ORDEM 16 l) pede R ≥ 1,5 com 2+ vendas: não bateu.
+  A regra dos R$ 250 bateu (prejuízo projetado ~R$ 570, nenhum conjunto acima de 0,7) e a suspensão dela acabava com a Black. Diretriz do Vini (26/11): abaixo de
+  0,70 = pausar. Nenhum conjunto novo, nenhuma verba nova e nenhum Pix pedido até o Vini dizer "sim" a um plano novo.
+  a) 28/11 7h19 (TRAVA de sempre; 1 aba): COLETA FINAL.
+     - ML (Etiquetas e Vendas): 27/11 fechado (se o painel ainda não fechou, anotar "atualizado até") + 28/11 parcial; cliques e vendas de anunciobf1, anunciobf2,
+       anuncioe, anunciog. Toda venda nova vai para a tabela VENDAS, incluindo a venda indireta de R$ 8,09 do bf1 (produto e categoria NÃO estão na tabela: anotar).
+       Contar também quantas vendas estão "em revisão", "confirmadas" e "canceladas/não efetivadas".
+     - Gerenciador: gasto FINAL, impressões, cliques no link, CPC, CTR e frequência de bf1 e bf2 (e de cada anúncio do bf1: OPPO 26/11 e iPhone 17 separados).
+       Detalhamento da Black (26/11 a 27/11) por idade e sexo e por posicionamento, de bf1 e bf2 (é o dia de Detalhamento da COLETA). Se houver "por horário",
+       anotar as 3 faixas de hora com mais cliques.
+     - Conferir que bf1 e bf2 estão "Concluído" e que NENHUM conjunto da conta está ativo e gastando. Se algum estiver: DESATIVAR (pausa por regra não é edição)
+       e anotar. NÃO estender, NÃO duplicar, NÃO religar nada, NÃO mexer nos rascunhos, NÃO publicar o anúncio com o OPPO de R$ 699,99.
+     - Cobrança: saldo S e conciliação (R$ 887,57 − S = saído; saído ÷ gasto ≈ 1,14). O saldo fica parado na conta.
+     - balanco.md: reescrever o Resumo com o resultado FINAL da Black (gasto x comissão por etiqueta, R de cada uma e da Black).
+  b) 29/11 e 30/11 7h19: SÓ o painel do ML (Etiquetas e Vendas, últimos 7 dias): vendas novas (o cookie ainda traz) e mudança de estado (em revisão → confirmada ou
+     cancelada). NÃO abrir o Gerenciador nem a Cobrança (não há nada no ar; menos acesso à Meta). Se o painel não abrir, anotar e terminar.
+  c) Se em alguma visita aparecer algo inesperado (conjunto gastando, cobrança sem anúncio, login caído, bloqueio): escrever "PARA O VINI (Diretor avisa)" no diario.md.
+  d) 02/12 22h37 (Estrategista): balanço final por etiqueta e lição para o Natal; proposta ao Vini só com conta que feche antes de gastar (LIÇÕES 27/11).
+  e) Marcar FEITO aqui com hora; balanco.md e diario.md (comecei/terminei).
+
 ## Diário do Estrategista
 - 20/11 06h30 Claude principal: manual criado; diagnóstico inicial; ORDEM 1 aberta.
 - 20/11 06h40 Vini: começar AGORA (feriado). ORDEM 1 antecipada; Gestor disparado fora do horário.
@@ -1203,6 +1249,7 @@ DEU ERRADO (não repetir):
 - 25/11 22h40 Estrategista: Gestor cumpriu a ORDEM 15 a-f (Black programada; OPPO perdeu o EXTRAS, agora 5%). 24/11: 259 cliques, 0 venda. R: E 1,08 · G 0 · B 0,62. Detalhamento: quem clica em celular é homem 45+ (G 53% 65+). Pix de R$ 150 do Vini (saldo R$ 324,88): não cobre os R$ 300. ORDEM 16: Galaxy 80% / OPPO 20% (sem venda nova), Black ajustada ao saldo (~R$ 230), bf2 com idade 25-64, E/G/B terminam às 18h de 26/11; regra dos R$ 250 suspensa só para a base da Black; R < 0,7 na Black → pausa tudo em 28/11.
 - 26/11 Vini (chat): saldo de quase R$ 500. ORDEM 16 corrigida: Black com a base inteira (R$ 240 + R$ 60, 80% para quem ganhar a regra), ~R$ 106 livres para 1 degrau em 27/11 se R ≥ 1,5; o B Cinta fica até o fim normal.
 - 26/11 22h40 Estrategista: Gestor cumpriu a ORDEM 16 inteira (Black 50/50, R$ 131 + R$ 131; bf2 25-64; E/G terminaram às 18h; B parado). Black no ar desde 18h (5 + 2 cliques na 1ª hora; bf2 caro, amostra mínima). Celulares em 24-25/11: R ≈ 0,02. OPPO voltou a EXTRAS 10%. Saldo cobre a Black com ~R$ 117 de folga: sem Pix. ORDEM 17: coleta, 50/50 fica, bf2 volta a 18+ se o clique custar 2x o do bf1, preços.
+- 27/11 22h40 Estrategista: Gestor cumpriu a ORDEM 17 (coleta, 50/50, nada mexido; achou a troca OPPO→iPhone 17 das 03h). Black até 15h30: R$ 174,62 de R$ 262, 2 vendas (Galaxy direta R$ 40,96 + indireta R$ 8,09), R ≈ 0,25. Sem extensão (precisa R ≥ 1,5). Regra dos R$ 250 bateu: tudo para às 23h59, nada novo sem o Vini. ORDEM 18: coleta final + Detalhamento em 28/11; 29-30/11 só painel do ML. Celular a 5% não fecha a conta (1 venda a cada ~290 cliques; empate pede ~160). Vini avisado por push.
 
 ## TESTE GUARDADO: PINTEREST (pedido do Vini em 22/11 23h11: "salva pra testar o Pinterest semana que vem")
 - Quando: semana de 30/11 (depois da Black). Não começar antes. O Claude principal retoma em 30/11.
