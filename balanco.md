@@ -10,46 +10,38 @@ aviso de domingo.
 Diferença importante: DEPOSITADO é o dinheiro que o Vini pôs na conta de anúncios; GASTO é o que a Meta já
 consumiu. O saldo que sobra continua sendo dele.
 
-## Resumo (atualizado em 27/11/2026 ~07h30, pelo Gestor de Mídia v2)
-- Depositado na conta de anúncios: R$ 887,57 (Pix 14/11 R$ 228,00 + 21/11 R$ 358,57 + 25/11 R$ 150,00 + 25/11 R$ 151,00). Nenhum Pix novo (Cobrança lida em 27/11 ~07h29, 21 a 27/11).
-- Saldo pré-pago: R$ 324,31 (27/11 ~07h29). Fatura 27/11 R$ 101,24.
-- Saiu do saldo até agora: R$ 563,26 (R$ 887,57 − R$ 324,31).
-- Gasto pela Meta (Gerenciador, Máximo, ~07h27): R$ 494,20 = Fase A R$ 341,97 (B Cinta 104,96 · E OPPO 74,25 · bf1 54,75 · bf2 42,06 · G Galaxy 38,71 ·
-  C Esteira 14,01 · A Câmera 13,23) + encerradas R$ 152,23 (Impulso 61,05 · Celulares 51,61 · Canal 20,92 · Seguidores 18,65).
-  Até o fim de 26/11 (fuso da conta): R$ 458,19; só 26/11: R$ 89,27 (bf1 33,22 · bf2 27,58 · G 13,95 · E 13,47 · B 1,05). Hoje (dia 27/11 da conta, que começou
-  às 23h de Brasília de 26/11) até ~07h27: R$ 36,01 (bf1 21,53 · bf2 14,48). Saído ÷ gasto = 1,140.
-- CONCILIAÇÃO (ORDEM 16 n e 17 a): R$ 563,26 saídos = R$ 494,20 x 1,140 (a taxa de sempre). Nenhuma diferença sem explicação. Desde a leitura de 26/11 07h24
-  saíram R$ 139,74 do saldo para R$ 122,20 de gasto (x 1,144).
-- Comissão (painel do ML, "Últimos 7 dias" = 20 a 26/11, fechado, "atualizado até 27/nov"): EM REVISÃO R$ 163,32 · confirmada R$ 0,00 · 10 pedidos,
-  15 unidades, 7 compradores · 0 não efetivada · vendas R$ 2.866,95 · 1.605 cliques. Fora da janela: 19/11 babuche R$ 5,24 e 18/11 puxadores R$ 3,70 →
-  PROJETO inteiro: R$ 172,26 em revisão. 26/11 (dia inteiro): 401 cliques, 2 vendas (Galaxy A17 128 GB em anunciobf2, R$ 40,96, DIRETA, o próprio produto
-  do anúncio; pilhas Duracell em anunciog, R$ 4,89, indireta). Hoje até 4h27: 43 cliques, 0 venda.
-- Resultado: confirmado R$ -563,26 pelo saldo (R$ -494,20 pelo Gerenciador). Se todas as vendas em revisão forem confirmadas: R$ -391,00 pelo saldo
-  (R$ -321,94 pelo Gerenciador).
-- BLACK (26/11 18h00 a 27/11 23h59 de Brasília = 26/11 19:00 a 28/11 00:59 da conta), 50/50, R$ 131 + R$ 131 de verba:
-  · bf1 (anunciobf1): OPPO A6t até ~03h de 27/11; desde então iPhone 17 256 GB (troca pedida pelo Vini, feita pelo Claude principal; ver trafego.md > ORDEM 17).
-    Gasto R$ 54,75 (41,8%) · 206 cliques · CPC R$ 0,26 · ML 157 cliques (131 em 26/11 + 26 hoje) · 0 venda → R = 0. Só o iPhone: R$ 7,20, 18 cliques,
-    CPC R$ 0,40, CTR 1,58% (o clique mais caro da conta).
-  · bf2 (anunciobf2, Galaxy A17 128 GB, público 25-64): gasto R$ 42,06 (32,1%) · 200 cliques · CPC R$ 0,21 · CTR 2,00% · ML 132 cliques (116 + 16) ·
-    1 venda DIRETA (o próprio Galaxy A17 128 GB, R$ 999 → R$ 40,96) → R (mesmo período, até 26/11) = 1,30 · R da hora = 0,85.
-  · R DA BLACK = 40,96 ÷ (gasto da Black x 1,14): mesmo período (até 26/11) = 0,59 · da hora = 0,37. Com 1 venda: sem degrau (ORDEM 16 q: R ≥ 1,5 e 3+ vendas)
-    e 50/50 fica (ORDEM 16 p: remanejar só com 3+ vendas num e 0 no outro).
-  · Falta gastar R$ 165,19 de verba (≈ R$ 188 saindo). FOLGA DO SALDO depois da Black: ~R$ 136 saindo (~R$ 119 de verba). Sem Pix novo.
-- Por etiqueta (R = comissão ÷ (gasto x 1,14); MESMO período: ML 20 a 26/11 x gasto final ou do Gerenciador até o fim de 26/11):
-  · anuncioe (E OPPO, terminou 26/11 18h): ML 332 cliques (26/11: 52), 1 venda (Galaxy A17 256 GB, 23/11) R$ 57,36 · gasto FINAL R$ 74,25, 397 cliques,
-    CPC R$ 0,19, CTR 2,91% no anúncio de 24/11 → R final = 0,68 (o cookie de 24 h ainda pode trazer venda até ~18h de hoje).
-  · anunciog (G Galaxy, terminou 26/11 18h): ML 240 cliques (26/11: 73), 2 vendas INDIRETAS (meia infantil 25/11 R$ 1,23; pilhas 26/11 R$ 4,89) R$ 6,12 ·
-    gasto FINAL R$ 38,71, 275 cliques, CPC R$ 0,14, CTR 3,76% → R = 0,14.
-  · anunciob (B Cinta, desativado 26/11 04h27): ML 562 cliques, 5 pedidos/8 un. R$ 58,88 · gasto FINAL R$ 104,96 → R final = 0,49.
-  · anunciobf2 1,30 · anunciobf1 0 (ver BLACK acima).
-  · anuncioc (off): 61 cliques, 0 · R$ 14,01 → 0. anuncioa (off): 71/0 · R$ 13,23 → 0.
-  · anuncio (impulso + celulares, encerradas): 56 cliques nos 7 dias; babuche R$ 5,24 e puxadores R$ 3,70 (fora da janela) · R$ 112,66 → 0,07.
-    Canal + Seguidores R$ 39,57 → 0. Orgânico (7 dias): telegram 35, facebook 1 cliques: 0 venda.
-- Regras de corte em 27/11 ~07h30: nada pausado. O bf1 tem R$ 54,75 e 0 venda (passa dos R$ 35 da regra geral na Black), mas a ORDEM 17 b manda não pausar
-  de manhã (o painel atrasa; a sexta é o dia forte), o produto do bf1 mudou há ~4 h por decisão do Vini e o corte da Black é da checagem das 15h07.
-  CTR de todos acima de 0,8%. Regra dos R$ 250: não bate (o bf2 está acima de 0,7) e segue suspensa para a base da Black.
-- PREÇOS E COMISSÃO HOJE (página normal e barra de afiliado, ~07h23): Galaxy A17 128 GB Preto R$ 949,05 no Pix (igual ao anúncio do bf2), GANHOS 5%.
-  OPPO A6t Azul Cristal caiu para R$ 699,99 no Pix (GANHOS EXTRAS 10%), mas o OPPO saiu do ar às ~03h (troca pelo iPhone 17). iPhone 17: ver ORDEM 17 d.
+## Resumo (atualizado em 28/11/2026 ~07h55, pelo Gestor de Mídia v2 — RESULTADO FINAL DA BLACK; nada de venda no ar)
+- Depositado na conta de anúncios: R$ 887,57 (Pix 14/11 R$ 228,00 + 21/11 R$ 358,57 + 25/11 R$ 150,00 + 25/11 R$ 151,00). Nenhum Pix novo (Cobrança lida em 28/11 ~07h50, 22 a 28/11).
+- Saldo pré-pago: R$ 144,56 (28/11 ~07h50). Fatura 28/11 R$ 214,96 (fecha a Black).
+- Saiu do saldo até agora: R$ 743,01 (R$ 887,57 − R$ 144,56).
+- Gasto pela Meta (Gerenciador, Máximo, ~07h45): R$ 652,67 = campanhas de VENDA R$ 651,48 (Fase A R$ 499,25: bf1 127,42 · bf2 126,63 · B Cinta 104,96 ·
+  E OPPO 74,26 · G Galaxy 38,74 · C Esteira 14,01 · A Câmera 13,23; encerradas R$ 152,23: Impulso 61,05 · Celulares 51,61 · Canal 20,92 · Seguidores 18,65)
+  + campanha do GRUPO R$ 1,19 (desde 28/11 ~05h20; não é de venda). Saído ÷ gasto = 1,138.
+- CONCILIAÇÃO: R$ 743,01 saídos = R$ 652,67 x 1,138 (a taxa de sempre). Desde a leitura de 27/11 07h29 saíram R$ 179,75 para R$ 158,47 de gasto (x 1,134);
+  desde a leitura do Claude principal às 04h de hoje (R$ 146,48), R$ 1,92. Nenhuma diferença sem explicação.
+- Comissão (painel do ML, período 14 a 28/11 = o PROJETO inteiro, "atualizado até 28/nov"): EM REVISÃO R$ 197,00 · confirmada R$ 0,00 · 15 pedidos,
+  20 unidades, 12 compradores · 0 não efetivada (cancelada) · vendas R$ 3.587,58 · 3.080 cliques. Só 27/11: 735 cliques, 3 vendas indiretas, R$ 24,74.
+  Hoje até 4h08: 12 cliques (todos telegram), 0 venda.
+- Resultado: confirmado R$ -743,01 pelo saldo (R$ -652,67 pelo Gerenciador). Se todas as vendas em revisão forem confirmadas: R$ -546,01 pelo saldo
+  (R$ -455,67 pelo Gerenciador). R do projeto inteiro = R$ 197,00 ÷ R$ 743,01 = 0,27.
+- BLACK FINAL (26/11 18h00 a 27/11 23h59 de Brasília; bf1 e bf2 "Concluído"), 50/50, R$ 131 + R$ 131 de verba:
+  · bf1 (anunciobf1; OPPO A6t até ~03h de 27/11, iPhone 17 depois): R$ 127,42 (97%) · 527 cliques no link · CPC R$ 0,24 · CTR 2,07% · freq. 1,11 ·
+    ML 468 cliques · 2 vendas INDIRETAS (tinta R$ 8,09 + kit calcinhas R$ 7,04) = R$ 15,13 → R = 0,10. Por anúncio: iPhone 17 R$ 78,38 / 331 cliques /
+    0 venda de iPhone · OPPO 26/11 R$ 48,77 / 193 · OPPO 24/11 R$ 0,27 / 3.
+  · bf2 (anunciobf2; Galaxy A17 128 GB, idade 25-64): R$ 126,63 (97%) · 586 cliques · CPC R$ 0,22 · CTR 2,02% · freq. 1,15 · ML 478 cliques ·
+    2 vendas (Galaxy DIRETA R$ 40,96 + cooktop indireta R$ 9,61) = R$ 50,57 → R = 0,35.
+  · BLACK somada: R$ 254,05 de gasto (≈ R$ 289,62 saindo do saldo) · 1.113 cliques no link · ML 946 · 4 vendas (1 de celular) · R$ 65,70 em revisão →
+    R DA BLACK = 0,23. Abaixo de 0,7: vale a ORDEM 18 (venda parada; nada novo sem o "sim" do Vini).
+- Por etiqueta (R = comissão ÷ (gasto x 1,14); ML 14 a 28/11 x gasto FINAL do Gerenciador):
+  · anunciobf2 0,35 (R$ 50,57 ÷ R$ 126,63; 478 cliques no ML) · anunciobf1 0,10 (R$ 15,13 ÷ R$ 127,42; 468).
+  · anuncioe (E OPPO) 0,68 (R$ 57,36 ÷ R$ 74,26; 332) · anunciob (B Cinta) 0,49 (R$ 58,88 ÷ R$ 104,96; 563) · anunciog (G Galaxy) 0,14 (R$ 6,12 ÷ R$ 38,74; 241).
+  · anuncioc 0 (R$ 14,01; 61) · anuncioa 0 (R$ 13,23; 71) · anuncio (impulso + celulares, encerradas) 0,07 (R$ 8,94 ÷ R$ 112,66; 786) · Canal + Seguidores R$ 39,57 → 0.
+  · Orgânico (14 a 28/11): telegram 65 cliques · facebook 11 · twitter 3 · testedireto 1 → 0 venda.
+- Regras de corte em 28/11: nada a pausar. Nenhum conjunto de venda ativo (bf1, bf2, E, G "Concluído"; A, B, C "Desativado"; rascunhos intocados).
+  Regra dos R$ 250: BATEU (prejuízo ~R$ 546 pelo saldo mesmo se tudo confirmar; o melhor da Black é 0,35) → ORDEM 18, já cumprida (tudo de venda parado).
+  A campanha do GRUPO (R$ 15/dia até 05/12, autorizada pelo Vini às 04h19 de 28/11, depois da ORDEM 18) NÃO é de venda: fica no ar, sem regra de corte por
+  comissão; a regra dela é em 01/12 (trafego.md > CAMPANHA DO GRUPO).
+- Saldo e Grupo: R$ 144,56 cobre a campanha do Grupo até 05/12 (~R$ 120 saindo: R$ 15/dia x 7 x 1,14) e sobram ~R$ 26.
 - REGRA R (histórico): 22/11 R = 1,13 (degraus suspensos desde 23/11).
 
 ## Depósitos
@@ -65,6 +57,7 @@ Conferido em 24/11 08h38 (Atividade de pagamento, 18 a 24/11): nenhum Pix novo d
 Conferido em 25/11 ~07h43 (Atividade de pagamento, 19 a 25/11): nenhum Pix novo desde 21/11. Saldo pré-pago R$ 220,34 (fatura 25/11 R$ 52,79).
 Conferido em 26/11 ~07h24 (Atividade de pagamento, 20 a 26/11): 2 Pix em 25/11 (R$ 150,00 e R$ 151,00, "Com saldo"). Saldo pré-pago R$ 464,05 (fatura 26/11 R$ 56,14). Total depositado: R$ 887,57.
 Conferido em 27/11 ~07h29 (Atividade de pagamento, 21 a 27/11): nenhum Pix novo desde 25/11. Saldo pré-pago R$ 324,31 (fatura 27/11 R$ 101,24). Total depositado: R$ 887,57.
+Conferido em 28/11 ~07h50 (Atividade de pagamento, 22 a 28/11): nenhum Pix novo desde 25/11. Saldo pré-pago R$ 144,56 (fatura 28/11 R$ 214,96). Total depositado: R$ 887,57.
 
 ## Leituras (uma linha por leitura; gasto e retorno ACUMULADOS)
 | Data e hora | Campanha | Gasto acum. | Cliques | Inscritos novos | Vendas (etiqueta anuncio) | Comissão acum. | Resultado |
@@ -124,6 +117,7 @@ Conferido em 27/11 ~07h29 (Atividade de pagamento, 21 a 27/11): nenhum Pix novo 
 | 28/11 07h45 | BLACK (bf1 + bf2) somada | R$ 254,05 de R$ 262 de verba (≈ R$ 289,62 saindo do saldo, x 1,14) | 1.113 no link (CPC R$ 0,23) · ML 946 | - | 4 vendas (1 direta de celular + 3 indiretas) | em revisão R$ 65,70 | R da Black = 65,70 ÷ (254,05 x 1,14) = 0,23 (abaixo de 0,7: vale a ORDEM 18) |
 | 28/11 07h45 | Fase A, encerrados (FINAIS, Máximo; a Meta lançou centavos depois de 27/11): E - Celular OPPO A6t - anuncioe Concluído R$ 74,26 · 397 no link · CPC R$ 0,19 · CTR 2,71% · 14.664 impr. · alcance 11.106 · freq. 1,32 · G - Galaxy A17 - anunciog Concluído R$ 38,74 · 276 · R$ 0,14 · 3,77% · 7.315 impr. · alcance 5.460 · freq. 1,34 · B - Cinta - anunciob Desativado R$ 104,96 · 660 · R$ 0,16 · 3,73% · 17.699 impr. · C Esteira Desativado R$ 14,01 (73) · A Câmera Desativado R$ 13,23 (79). Rascunhos intocados (D Air Fryer, "Novo conjunto de anúncios de Vendas", "Campanha Cinta1", anúncio "Camera dupla - foto produto"; "Conferir e publicar (4)") | Fase A (campanha): R$ 499,25 · encerradas antigas R$ 152,23 (Impulso 61,05 · Celulares 51,61 · Canal 20,92 · Seguidores 18,65) · TOTAL de venda: R$ 651,48 | Fase A: 2.598 no link (CPC R$ 0,19 · alcance 73.798 · freq. 1,35) | - | E: 1 (23/11) · G: 2 indiretas · B: 5 pedidos/8 un. | E R$ 57,36 · G R$ 6,12 · B R$ 58,88 | R finais: E 0,68 · G 0,14 · B 0,49 |
 | 28/11 07h45 | CAMPANHA DO GRUPO (não é de venda; autorizada pelo Vini em 28/11 04h19; só leitura): "Grupo FB - entrar no grupo - 28/11" > "Grupo FB - 35-60 BR - R$15/dia" ATIVO, R$ 15/dia | R$ 1,19 (desde ~05h20) | 1 clique no link (R$ 1,19 por clique · alcance 553 · freq. 1,00) | membros novos do grupo: não medido (não abri o grupo) | - | - | TOTAL Gerenciador da conta (Máximo): R$ 652,67 = vendas R$ 651,48 + Grupo R$ 1,19. NENHUM outro conjunto ativo ou gastando |
+| 28/11 07h50 | Cobrança (Atividade de pagamento, 22 a 28/11): saldo pré-pago R$ 144,56; faturas 22/11 R$ 18,18 · 23/11 R$ 45,45 · 24/11 R$ 55,13 · 25/11 R$ 52,79 · 26/11 R$ 56,14 · 27/11 R$ 101,24 · 28/11 R$ 214,96; Pix 25/11 R$ 150,00 e R$ 151,00 (os últimos); nenhum Pix novo | depositado R$ 887,57 − saldo R$ 144,56 = saiu do saldo R$ 743,01 (Gerenciador R$ 652,67 x 1,138) | - | - | - | em revisão R$ 197,00 (projeto) · confirmada R$ 0,00 | R$ -743,01 confirmado · R$ -546,01 se tudo confirmar (pelo saldo) |
 
 ## Detalhamento da Meta (o Gestor v2 lê em 22/11, 25/11 e 28/11)
 ### 28/11 07h40 — BLACK (bf1 e bf2), período Máximo (= 26/11 18h a 27/11 23h59 de Brasília), cliques no link e gasto
