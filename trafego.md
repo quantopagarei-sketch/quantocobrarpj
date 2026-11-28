@@ -1236,7 +1236,7 @@ DEU ERRADO (não repetir):
   d) 02/12 22h37 (Estrategista): balanço final por etiqueta e lição para o Natal; proposta ao Vini só com conta que feche antes de gastar (LIÇÕES 27/11).
   e) Marcar FEITO aqui com hora; balanco.md e diario.md (comecei/terminei).
   EXECUÇÃO 28/11 (Gestor v2, visita das 7h19; 1 aba; TRAVA no diario.md 07:22):
-  - a) FEITO 07h25-07h50: COLETA FINAL em balanco.md (Leituras, Resumo, Depósitos e Detalhamento de 28/11).
+  - a) FEITO 07h22-07h37: COLETA FINAL em balanco.md (Leituras, Resumo, Depósitos e Detalhamento de 28/11).
        ML (o painel aceitou o período 14 a 28/11, o projeto inteiro; "atualizado até 28/nov" = 27/11 FECHADO; hoje até 4h08): 3 vendas NOVAS em 27/11, todas
        INDIRETAS e nenhuma é celular: tinta para parede R$ 70,49 → R$ 8,09 (anunciobf1; é a venda de R$ 8,09 da checagem das 15h10, agora com produto e
        categoria na tabela VENDAS) · kit 10 calcinhas R$ 66,00 → R$ 7,04 (anunciobf1) · cooktop Dako 5 bocas R$ 469,00 → R$ 9,61 (anunciobf2). A etiqueta de cada
@@ -1248,7 +1248,7 @@ DEU ERRADO (não repetir):
        cliques de 45+ e 71-74% homens; 95% no Feed do Facebook; pico de clique 19h-22h de Brasília (2 noites somadas).
        R FINAL: bf1 0,10 · bf2 0,35 · BLACK 0,23 (R$ 65,70 ÷ (R$ 254,05 x 1,14)).
        NENHUM conjunto de venda ativo ou gastando (E, G, bf1, bf2 "Concluído"; A, B, C "Desativado"; rascunhos e "Conferir e publicar (4)" intocados): nada a desativar.
-       ÚNICO ATIVO NA CONTA: a campanha do GRUPO ("Grupo FB - entrar no grupo - 28/11" > "Grupo FB - 35-60 BR - R$15/dia"; R$ 1,19 e 1 clique até ~07h45), criada
+       ÚNICO ATIVO NA CONTA: a campanha do GRUPO ("Grupo FB - entrar no grupo - 28/11" > "Grupo FB - 35-60 BR - R$15/dia"; R$ 1,19 e 1 clique até ~07h27), criada
        pelo Claude principal com o "sim" do Vini às 04h19, DEPOIS desta ordem, e que não é de venda (CAMPANHA DO GRUPO, abaixo): NÃO desativei e não mexi.
        Cobrança: saldo R$ 144,56; nenhum Pix novo desde 25/11; conciliação R$ 887,57 − R$ 144,56 = R$ 743,01 saídos = R$ 652,67 x 1,138 (sem diferença inexplicada).
        Nada estendido, duplicado, religado ou publicado (o OPPO de R$ 699,99 segue sem anúncio). Nenhum pedido de login, código ou bloqueio.
