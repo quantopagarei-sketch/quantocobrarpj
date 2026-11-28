@@ -198,6 +198,12 @@ de entrada (a partir de 19/11) devem ser dos tipos (b), (c) e (d) do item 3, ond
 - Grupo: "Black Achadinhos | Ofertas e Achadinhos do Dia" https://www.facebook.com/groups/1460528842870827 (a página é a administradora).
 - Alimentar todo dia pelo passo 6 da tarefa (cupons do dia + 4 a 6 ofertas). A pausa por 2 avisos vale só para grupos de TERCEIROS.
 - CONVITE (pedido do Vini em 28/11: "convidar pessoas para o grupo, não pode ser pessoas do meu Facebook pessoal"): em TODO post de oferta na página, a última linha passa a ser "Participe do nosso grupo de ofertas e cupons: https://www.facebook.com/groups/1460528842870827" (no lugar do convite ao Telegram em dias pares). Nos grupos de terceiros, nunca convide para o nosso grupo (é divulgação de outro grupo, quase sempre proibida).
+- POSTAGEM NO GRUPO (desde 28/11, pedido do Vini "postagem 6 vezes por dia"): quem posta oferta e cupons no grupo é o POSTADOR DO GRUPO (tarefa das 8h41, 11h41, 13h41, 16h41, 18h41 e 22h41, 1 oferta por vez). O Divulgador das 20h31 NÃO posta mais no grupo próprio: só responde comentários e aprova membros lá.
+- Postados no grupo (últimos 7 dias):
+  - 28/11 04:15 | 20261126-02 | Kit 5 Hot Wheels | R$ 49,90 | cartão não
+  - 28/11 04:18 | 20261126-07 | Headphone Philips TAH2300 | R$ 99 | cartão não
+  - 28/11 04:21 | 20261126-08 | Kit ferramentas 122 peças | R$ 74 | cartão não
+  - 28/11 04:25 | 20261126-06 | Panelas Essenza 10 peças | R$ 180,26 | cartão não
 - VISUAL DOS POSTS (pedido do Vini em 28/11: "aparecerem melhor visualmente, já mostrar preço, cupom e parcelamento"): todo post de oferta no GRUPO PRÓPRIO (e, se der tempo, na página) leva o CARTÃO DE OFERTA como foto, no lugar da prévia do link:
   1. Ao conferir o preço na página do produto, anote também o PARCELAMENTO exatamente como a página mostra (ex.: "10x R$ 9,90 sem juros"; se a página não mostrar parcelas, deixe vazio) e o CUPOM, se a página mostrar um cupom público para aquele produto (ex.: "Cupom de R$ 20 OFF acima de R$ 150"; se não houver, vazio). Nunca invente parcela nem cupom.
   2. Numa aba sua do facebook.com, rode cartao/cartao.js inteiro no javascript_tool, trocando o objeto do fim pelos dados conferidos (nome curto, preco, preco_de só se a página mostrar o riscado, parcelas, cupom, imagem .jpg da fila). Deve responder "ok".
